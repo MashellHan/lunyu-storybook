@@ -3,6 +3,10 @@
 ## 项目一句话
 《论语·学而》第一章儿童互动绘本。纯静态页，Node 构建，Cloudflare Workers 静态资源部署。先读 README.md 和 docs/architecture.md。
 
+## 技能（怎么做）
+做插画、动画、配音、叫声、部署、多代理团队时，先读 [skills/](skills/README.md) 里对应的 `SKILL.md`：
+[character-image-gen](skills/character-image-gen/SKILL.md) · [layered-character-animation](skills/layered-character-animation/SKILL.md) · [azure-tts-voices](skills/azure-tts-voices/SKILL.md) · [animal-sfx-sourcing](skills/animal-sfx-sourcing/SKILL.md) · [cloudflare-deploy](skills/cloudflare-deploy/SKILL.md) · [herdr-team](skills/herdr-team/SKILL.md)
+
 ## 常用命令
 - `npm run build` / `npm run build:single` / `npm run serve` / `npm test` / `npm run check:deploy`
 - 改了 `src/` 或 `assets/` 后必须 `npm test` 通过再提交。

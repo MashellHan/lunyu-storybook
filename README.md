@@ -41,6 +41,7 @@ assets/source/  重新生成用的源素材：characters/（原始插画，无�
 assets/CREDITS.md  素材来源与许可（会被复制到线上 /CREDITS.md）
 scripts/        build.mjs、serve.mjs；image/、tts/、sfx/ 三条素材流水线（Python，见 docs/）
 tests/          Playwright 用例
+skills/         可复用做法：生图、分层动画、Azure 配音、CC0 叫声、部署、herdr 团队（见 skills/README.md）
 docs/           架构、角色与配音、多音字、动画规范、素材/音频流水线、许可、已知问题与路线图
 ```
 `public/` 和 `dist/` 是构建产物，不提交（原因见 [docs/architecture.md](docs/architecture.md#构建产物为什么不提交)）。
@@ -50,6 +51,7 @@ docs/           架构、角色与配音、多音字、动画规范、素材/音
 - [角色与配音（Azure 声音和 SSML 参数）](docs/characters-and-voices.md) · [多音字处理](docs/polyphones.md)
 - [动画规范（impeccable / hallmark）](docs/animation.md)
 - [图片流水线（含 Copilot 生图）](docs/asset-pipeline.md) · [音频流水线](docs/audio-pipeline.md)
+- [技能：我们是怎么做出来的（生图 / 动画 / 配音 / 叫声 / 部署 / herdr 团队）](skills/README.md)
 - [素材来源与许可](docs/credits-and-licensing.md) · [已知问题与路线图](docs/roadmap.md)
 - 给 AI 代理 / 新成员的约定：[AGENTS.md](AGENTS.md)
 
