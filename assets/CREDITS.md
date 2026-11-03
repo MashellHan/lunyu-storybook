@@ -1,5 +1,7 @@
 # Credits / 素材来源 (v6)
 
+Licensing: code is MIT; illustrations and voices are all rights reserved; animal sounds are CC0 — see LICENSE.md in this folder.
+
 ## Illustrations
 All character art is original, generated for this project from the prompts in `docs/prompts/` (GitHub Copilot CLI image generation), then cleaned and layered by `scripts/image/`. No photos of real people or children are used.
 

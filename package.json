@@ -1,10 +1,18 @@
 {
-  "name": "lunyu-picturebook",
+  "name": "donghuashu",
   "version": "0.6.0",
   "private": true,
-  "description": "论语·学而第一章 互动绘本（大象老师 + 小兔、小猫、小狗）",
+  "description": "动画书：给小朋友的互动论语绘本（学而时习之）",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MashellHan/donghuashu.git"
+  },
+  "homepage": "https://lunyu-picturebook.mxhan.workers.dev",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "build:single": "node scripts/build.mjs --single",

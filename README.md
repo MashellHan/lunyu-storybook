@@ -1,9 +1,11 @@
-# 论语 · 学而时习之 —— 互动绘本
+# 动画书
+
+**论语 · 学而时习之** —— 互动绘本
 
 给 3 岁左右小朋友的《论语·学而》第一章互动绘本：大象老师领读，小兔、小猫、小狗跟读，读完可以自由点角色玩。
 纯静态页面（无框架、无 CDN），部署在 Cloudflare Workers 静态资源上。当前内容 = demo v6。
 
-- 线上：https://lunyu-picturebook.mxhan.workers.dev
+- 线上：https://lunyu-picturebook.mxhan.workers.dev（Cloudflare Worker 仍叫 `lunyu-picturebook`，地址不变；仓库名为 `donghuashu`）
 - 页面上的文字只有：标题「论语 之 学而时习之」、三句原文 + 拼音、「我们再来一遍吧」、动物叫声；开始按钮只有 ▶。
 
 ## 快速开始
@@ -52,4 +54,8 @@ docs/           架构、角色与配音、多音字、动画规范、素材/音
 - 给 AI 代理 / 新成员的约定：[AGENTS.md](AGENTS.md)
 
 ## 许可
-尚未选定（待定）。动物叫声均为 CC0，见 `assets/CREDITS.md`。
+- **代码**（`src/`、`scripts/`、`tests/`、配置文件）：[MIT](LICENSE)，© 2026 Mengxiong Han。
+- **素材不是 MIT**，详见 [assets/LICENSE.md](assets/LICENSE.md)：
+  - 角色插画（本项目生成）与提示词：保留所有权利（All rights reserved），除非另有说明；
+  - 配音：Azure Speech 合成，受 Azure 服务条款约束，保留所有权利；
+  - 动物叫声：CC0 1.0，逐个文件的出处见 [assets/CREDITS.md](assets/CREDITS.md)。
