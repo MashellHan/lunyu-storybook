@@ -1,0 +1,13 @@
+{
+  "name": "lunyu-picturebook",
+  "private": true,
+  "scripts": {
+    "build": "python3 build.py",
+    "build:single": "python3 build.py --single",
+    "dev": "wrangler dev",
+    "deploy": "python3 build.py && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
