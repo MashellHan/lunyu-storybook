@@ -1,11 +1,11 @@
-# 动画书
+# 动画书 · Lunyu Storybook
 
 **论语 · 学而时习之** —— 互动绘本
 
 给 3 岁左右小朋友的《论语·学而》第一章互动绘本：大象老师领读，小兔、小猫、小狗跟读，读完可以自由点角色玩。
 纯静态页面（无框架、无 CDN），部署在 Cloudflare Workers 静态资源上。当前内容 = demo v6。
 
-- 线上：https://lunyu-picturebook.mxhan.workers.dev（Cloudflare Worker 仍叫 `lunyu-picturebook`，地址不变；仓库名为 `donghuashu`）
+- 线上：https://lunyu-picturebook.mxhan.workers.dev（Cloudflare Worker 仍叫 `lunyu-picturebook`，地址不变；GitHub 仓库为 [MashellHan/lunyu-storybook](https://github.com/MashellHan/lunyu-storybook)）
 - 页面上的文字只有：标题「论语 之 学而时习之」、三句原文 + 拼音、「我们再来一遍吧」、动物叫声；开始按钮只有 ▶。
 
 ## 快速开始

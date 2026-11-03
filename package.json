@@ -1,12 +1,12 @@
 {
-  "name": "donghuashu",
+  "name": "lunyu-storybook",
   "version": "0.6.0",
   "private": true,
   "description": "动画书：给小朋友的互动论语绘本（学而时习之）",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MashellHan/donghuashu.git"
+    "url": "git+https://github.com/MashellHan/lunyu-storybook.git"
   },
   "homepage": "https://lunyu-picturebook.mxhan.workers.dev",
   "type": "module",
