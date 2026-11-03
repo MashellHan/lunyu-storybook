@@ -6,7 +6,7 @@
 
 ## 目录
 - `public/` —— 部署出去的静态站（由 `build.py` 生成，别手改）
-  - `index.html`、`assets/img/*.webp`、`assets/audio/*.mp3`、`CREDITS.md`（动物叫声 CC0 来源）、`_headers`
+  - `index.html`（配音和叫声以 data URI 内嵌，原因见下）、`assets/img/*.webp`、`CREDITS.md`（动物叫声 CC0 来源）、`_headers`
 - `src/` —— 源文件
   - `template.html`：页面模板（HTML + CSS + JS，占位符 `__CAT__`、`__AUDIO__` 等由 build.py 替换）
   - `img/`：角色图层 PNG（原创插画，无真人照片）
@@ -34,6 +34,7 @@ npm run deploy              # = python3 build.py && wrangler deploy
 配置在 `wrangler.jsonc`（Worker 名 `lunyu-picturebook`，`assets.directory = ./public`，没有 Worker 代码）。
 
 ## 说明
-- 音频用一个 `<audio>` 元素播放；第一次点 ▶ 时解锁（iPad Safari 需要用户手势）。页面加载后会把 mp3 预取成 blob，点角色时立即出声。
+- 音频用一个 `<audio>` 元素播放；第一次点 ▶ 时解锁（iPad Safari 需要用户手势）。
+- 音频默认内嵌在 index.html 里：Cloudflare Workers 静态资源不支持 Range 请求（返回 200 不是 206），iOS Safari 直接播 mp3 地址可能失败。`python3 build.py --audio-files` 可改成独立 mp3（页面先 fetch 成 blob 再播），在 iPad 上验证过再用。
 - 页面上的文字只有标题、三句原文+拼音、“我们再来一遍吧”和动物叫声；开始按钮只有 ▶。
 - 动物叫声都是 CC0，见 `CREDITS.md`。
