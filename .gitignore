@@ -1,6 +1,25 @@
-dist/
+# dependencies / tool state
 node_modules/
 .wrangler/
+.venv/
 __pycache__/
+*.pyc
+
+# generated (npm run build / build:single, scripts/*)
+public/
+dist/
+build/
+
+# test output
+test-results/
+playwright-report/
+
+# secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# OS / editors
 .DS_Store
-shots/
+*.swp

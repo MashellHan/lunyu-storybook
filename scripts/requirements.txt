@@ -1,0 +1,6 @@
+# Python is only needed for the asset pipelines (not for build/test/deploy).
+# python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt   (+ ffmpeg on PATH for audio)
+numpy
+scipy                              # scripts/image (floor cleanup, layer cutting)
+Pillow                             # scripts/image
+azure-cognitiveservices-speech     # scripts/tts/gen.py only (paid API)

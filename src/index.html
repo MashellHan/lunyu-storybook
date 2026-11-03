@@ -1,0 +1,57 @@
+<!doctype html>
+<!--
+  论语 · 学而第一章 互动绘本. Built by scripts/build.mjs into public/index.html (CSS, JS, audio inlined).
+  Architecture, voices and animation rules: docs/. Do not edit public/ by hand.
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>论语 · 学而时习之</title>
+<link rel="icon" href="__ICON__">
+<link rel="apple-touch-icon" href="__ICON__">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="fit"><div id="book">
+  <div class="wall"></div><div class="floor"></div>
+  <div class="lamp"></div>
+  <div class="window"><div class="cloud"></div></div>
+  <div class="shelf" id="shelf"></div>
+  <div class="cushion"></div>
+  <div class="rug"></div>
+
+  <header>
+    <button class="ctl" id="pauseBtn" aria-pressed="false" aria-label="暂停" title="暂停/继续（给大人）">⏸</button>
+    <div class="stars" role="img" aria-label="0 / 3" id="stars">
+      <span class="star"><svg viewBox="0 0 24 24"><path d="M12 2.6l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17l-5.7 3.1 1.2-6.4L2.8 9.3l6.4-.8z" stroke-linejoin="round"/></svg></span>
+      <span class="star"><svg viewBox="0 0 24 24"><path d="M12 2.6l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17l-5.7 3.1 1.2-6.4L2.8 9.3l6.4-.8z" stroke-linejoin="round"/></svg></span>
+      <span class="star"><svg viewBox="0 0 24 24"><path d="M12 2.6l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17l-5.7 3.1 1.2-6.4L2.8 9.3l6.4-.8z" stroke-linejoin="round"/></svg></span>
+    </div>
+  </header>
+
+  <button class="char" id="elephant" aria-label="大象老师"><div class="idle"><div class="act"><div class="blink"><img alt="" src="__ELEPHANT__"></div></div></div><span class="shadow"></span><span class="tap"><i></i><i></i><b></b></span><div class="bubble aBubble"></div></button>
+  <button class="char" id="bunny" aria-label="小兔子"><div class="idle"><div class="act"><div class="blink rig"><img class="L ear" alt="" src="__BUNNY_EAR__"><img class="L" alt="" src="__BUNNY_BASE__"></div></div></div><span class="shadow"></span><span class="tap"><i></i><i></i><b></b></span><div class="bubble aBubble"></div></button>
+  <button class="char" id="cat" aria-label="小猫"><div class="idle"><div class="act"><div class="blink"><img alt="" src="__CAT__"></div></div></div><span class="shadow"></span><span class="tap"><i></i><i></i><b></b></span><div class="bubble aBubble"></div></button>
+  <button class="char" id="dog" aria-label="小狗"><div class="idle"><div class="act"><div class="rig">
+    <img class="L tail" alt="" src="__DOG_TAIL__">
+    <img class="L" alt="" src="__DOG_BODY__">
+    <div class="L head"><img alt="" src="__DOG_HEAD__">
+      <span class="lid" id="lidL"></span><span class="lid" id="lidR"></span>
+      <svg class="mouth" id="dogMouth" viewBox="0 0 110 70" aria-hidden="true"><path d="M2 6 Q55 -2 108 6 Q102 64 55 68 Q8 64 2 6Z" fill="#5a2a20"/><ellipse cx="55" cy="52" rx="27" ry="14" fill="#ec8f8c"/><path d="M8 7 Q55 1 102 7" stroke="#4a2218" stroke-width="5" fill="none" stroke-linecap="round"/></svg>
+    </div>
+  </div></div></div><span class="shadow"></span><span class="tap"><i></i><i></i><b></b></span><div class="bubble aBubble"></div></button>
+
+  <div class="cards" id="cards"></div>
+
+  <div id="title" role="dialog" aria-label="论语 之 学而时习之">
+    <div class="tt">
+      <div class="sub" id="ttSub"></div>
+      <div class="main" id="ttMain"></div>
+      <button id="startBtn" aria-label="开始"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z" fill="#fff"/></svg></button>
+    </div>
+  </div>
+</div></div>
+<script src="app.js"></script>
+</body>
+</html>

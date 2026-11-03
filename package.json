@@ -1,13 +1,23 @@
 {
   "name": "lunyu-picturebook",
+  "version": "0.6.0",
   "private": true,
+  "description": "论语·学而第一章 互动绘本（大象老师 + 小兔、小猫、小狗）",
+  "type": "module",
+  "engines": { "node": ">=20" },
   "scripts": {
-    "build": "python3 build.py",
-    "build:single": "python3 build.py --single",
-    "dev": "wrangler dev",
-    "deploy": "python3 build.py && wrangler deploy"
+    "build": "node scripts/build.mjs",
+    "build:single": "node scripts/build.mjs --single",
+    "serve": "node scripts/serve.mjs",
+    "dev": "npm run build && wrangler dev",
+    "preview": "npm run build && wrangler dev --remote",
+    "test": "npm run build && npm run build:single && playwright test",
+    "test:live": "BASE_URL=https://lunyu-picturebook.mxhan.workers.dev playwright test",
+    "check:deploy": "npm run build && wrangler deploy --dry-run",
+    "deploy": "npm run build && npm test && wrangler deploy"
   },
   "devDependencies": {
+    "@playwright/test": "^1.50.0",
     "wrangler": "^4.0.0"
   }
 }
