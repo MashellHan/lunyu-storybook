@@ -1,0 +1,34 @@
+{
+  "text": "论语，之，弟子入则孝。",
+  "dur": 3.624,
+  "t": [
+    0.058833,
+    0.367666,
+    null,
+    1.0,
+    null,
+    1.632333,
+    1.904396,
+    2.176458,
+    2.397041,
+    2.632333,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "c98f32bfcc260a7bebf9d69831941c459a36fe80fe6a3cd9a3ee9b6b0252276d",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-06-title-elephant",
+      "rawSHA256": "f6ada592f20e0c997ac5fc4d5682d8a64bb9ccddd6b0d20528c3e18f395f770d",
+      "ssmlSHA256": "188af9dd7755ff4d886a97a047e5f330e31206f678083fc4f43e5229be8f4666"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

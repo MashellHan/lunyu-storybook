@@ -1,0 +1,33 @@
+{
+  "text": "论语，之，贤贤易色。",
+  "dur": 3.384,
+  "t": [
+    0.058833,
+    0.352958,
+    null,
+    0.955875,
+    null,
+    1.558833,
+    1.845593,
+    2.132353,
+    2.419114,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "e0f63bc735e0201ee0412ff09c0aaa5c63b98d16519af7c5bae3e23cee36a7e4",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-title-elephant",
+      "rawSHA256": "d647f9f66e001965f311f1c38181abd2873a34963c0882667cdf70cd27860f6d",
+      "ssmlSHA256": "527b034e20ad28ff76881af8d1ff8c6a64ff0835e251ece9f39e264c2402fcae"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

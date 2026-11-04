@@ -1,0 +1,63 @@
+{
+  "text": "虽曰未学，吾必谓之学矣。”",
+  "dur": 4.551292,
+  "t": [
+    0.056833,
+    0.426125,
+    0.710208,
+    0.980125,
+    null,
+    1.71875,
+    1.946041,
+    2.230125,
+    2.485791,
+    2.741458,
+    3.139208,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "91d5dea4124f2cbf5d75c16432819eb450bc00d470eaa82348b00dc880f670cd",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s06-bunny",
+      "rawSHA256": "769dac4b70415cb8fda15e3b48bca95ce3d6ced9537f91642cd388522f63c372",
+      "ssmlSHA256": "a13f1665beda188a4de56453b3985a00aa5381a7425c3ae3b2c63b0edc427fb1"
+    },
+    {
+      "id": "xue-er-07-s06-cat",
+      "rawSHA256": "a3b4c0668a84d7e899a7701bc4038f314d35c1d1e9fa714182806a2b7e933c91",
+      "ssmlSHA256": "da7f08ad5184765967357c6dfaeb039a205f3aa4d0de73e40d40799d056bc6c2"
+    },
+    {
+      "id": "xue-er-07-s06-dog",
+      "rawSHA256": "aded872a212518c8f30f39884c39d5b2c1124a69b545f6b995da40d54242e70c",
+      "ssmlSHA256": "9c9227ebc6b0cf3a60d869b61899225994264b5e794fb89469b6e6ec691372dc"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8378378378378378,
+        0.5837837837837837
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

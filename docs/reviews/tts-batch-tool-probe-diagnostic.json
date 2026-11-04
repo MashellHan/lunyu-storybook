@@ -1,0 +1,257 @@
+{
+  "reviewer": "lunyu-review",
+  "reviewedAt": "2026-11-03T12:18:29.311002+00:00",
+  "toolSHA256": {
+    "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+    "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab"
+  },
+  "checks": [
+    {
+      "check": "lead-log-source-binding",
+      "passed": true,
+      "tests": 17
+    },
+    {
+      "check": "production-read-only-state-unstarted",
+      "passed": true
+    },
+    {
+      "check": "empty-index-is-not-playable-and-lists-all-new-titles",
+      "passed": true
+    },
+    {
+      "check": "concurrent-same-entry-reservation-allows-one-stub-call",
+      "passed": true,
+      "outcomes": [
+        {
+          "result": {
+            "status": "executed",
+            "paidCallsThisRun": 1,
+            "completed": [
+              "xue-er-01-s01-elephant"
+            ],
+            "verifiedSkipped": []
+          }
+        },
+        {
+          "error": "FileExistsError"
+        }
+      ],
+      "stubCalls": 1
+    },
+    {
+      "check": "raw-word-boundaries-and-sdk-offsets-retained",
+      "passed": true,
+      "wordBoundaryDetails": [
+        {
+          "textOffset": 37,
+          "wordLength": 2
+        }
+      ]
+    },
+    {
+      "check": "successful-concurrent-result-is-reused",
+      "passed": true
+    },
+    {
+      "check": "whole-selection-sidecar-symlink-rejected-before-reservation",
+      "passed": true,
+      "reason": "media-symlink-rejected"
+    },
+    {
+      "check": "missing-character-prevents-final-media-and-no-new-attempt",
+      "passed": true,
+      "reason": "incomplete-word-boundaries"
+    },
+    {
+      "check": "alignment-failure-does-not-rewrite-original-sdk-metadata",
+      "passed": true
+    },
+    {
+      "check": "real-B-repeated-yu-readings-use-specific-original-positions",
+      "passed": true,
+      "aliases": [
+        {
+          "index": 2,
+          "original": "与",
+          "alias": "于"
+        },
+        {
+          "index": 7,
+          "original": "与",
+          "alias": "于"
+        }
+      ],
+      "rejectedWrongPosition": "word-boundary-character-mismatch-at-5"
+    },
+    {
+      "check": "unknown-HD-fragment-not-discarded",
+      "passed": false,
+      "fragment": "\\\">说乎乎",
+      "reason": "unexpected-spoken-character"
+    }
+  ],
+  "realAPICalls": 0,
+  "sdkImports": [],
+  "scope": "Temporary fixture roots under docs/reviews only; pinned tool code imported with bytecode disabled; renderer stubs only.",
+  "status": "failed-independent-offline-review",
+  "error": {
+    "type": "AssertionError",
+    "message": "unknown-HD-fragment-not-discarded"
+  },
+  "protectedFilesBefore": {
+    "assets/CREDITS.md": "6e17fc9faa0df170a1e8a6e69d4d7a3713643ba0da068a56ef3c2b8c57bd78aa",
+    "assets/LICENSE.md": "beb3cf947d4a6294b0a1805bbb34a41796726ecad186513d7632e7c924609fb5",
+    "assets/audio/again.mp3": "7fa933dd4fbb2146705553b637c9c6e08036d2ad0031fbae68be418692cb7d93",
+    "assets/audio/b1.mp3": "b72be24f9e47fa0223190b3ea94664af63a3eead4056902b7c6c7077c69a2046",
+    "assets/audio/c2.mp3": "fc2dd940f4d0fb7b87fa2afe3ffdf14a86829fcd47d7cef55d755bca6ca3e18d",
+    "assets/audio/d3.mp3": "9ce361d91132106d0acf811207464b70e7fd020a6a87031bb95470a2122ea365",
+    "assets/audio/e1.mp3": "10151275036a9ca19cde4ffe4b82ee8f9a4ca143155e546c19c0fc3cede0ce57",
+    "assets/audio/e2.mp3": "3e631e9684bba7670dfe9e02d48a58f3f96c0aea8f8789fca6c5c475b26a6ef9",
+    "assets/audio/e3.mp3": "b4a78b1c809a5f438fe8590d40baa9d08bfa03e15dd586ed690dc991b115b714",
+    "assets/audio/meow.mp3": "b77845fe443aef68243754f8a656ad3de00e5411cfbe88751bceedebc7640dc4",
+    "assets/audio/squeak.mp3": "97d7a5a96cc7c8a0c856ae5f5e956d43ba914990c29a79a3225fbd849b7e2982",
+    "assets/audio/timings.json": "ee52e005809e1ac052eb667f276529afa89273fd360f2ebd612bfa534db02c1c",
+    "assets/audio/title.mp3": "3bd4b251311366d1e3a745120230c129fba6804183c8214e90dbfc154fc69cc9",
+    "assets/audio/trumpet.mp3": "61d868db022a1d8b934272abc0892dc6886a09fcbcad6e48c76ef444542fe645",
+    "assets/audio/u1.mp3": "357796f92f22c1f0930548846c149de26dcb18e2eac9bcd85d090f1c60195d87",
+    "assets/audio/u2.mp3": "4f28d911ffc00639555cb0b6c193845651c2e148f20248566f3cbce614dc8c9f",
+    "assets/audio/u3.mp3": "a4606525d3cf0c7ac26e1073c6d6ddc305ed8e36d9f8fa190b7a630335f62763",
+    "assets/audio/woof.mp3": "251b40df74d6f8cf6ca880ac52a1a96dd0f292dbd585547cf8ad4017b56754f2",
+    "assets/img/bunny-base.webp": "2dcece048cc7f729655a332c6cf120d7851c5fca38910e9855314deaf465951f",
+    "assets/img/bunny-ear.webp": "587fdc6c84c8e344f5d7881c42eeac0be33b9c94894fc83ca68675a01ed8f598",
+    "assets/img/cat-640.webp": "62ec2962d52a2c09dfeec2191a7f9493a1497603b0629ae80e50bd8d51f3557a",
+    "assets/img/dog-body.webp": "bc905d4bc1efa1560919fd019b70cbbac09bf8295cf996211995d722cd085092",
+    "assets/img/dog-head.webp": "260009d24d04c4528f0f06f717912748eb9b35cf215c7048175740b3f4e74678",
+    "assets/img/dog-tail.webp": "04d8aee0a15561eab02a5d7e4441a53749c7acc22eeddf719b09d8665a7ca224",
+    "assets/img/elephant-640.webp": "6b46eaa497b1db1b2cdaf8c78dca0588a73407939658d191a28c534bb5442109",
+    "assets/img/icon.png": "958b57f8b6cc2fae803b824b6e654861be7cce8cd3b564b5a61c8346273fbdfb",
+    "assets/source/characters/bunny.webp": "531ef2f25f246ae14af25e8f8ac89e7f2678e0d11ac80c332f594f187cc39e31",
+    "assets/source/characters/cat.webp": "2f84eeff1207e8b3129b0306d7407a2690367404e8a3bd8d4ecf95596ed9745e",
+    "assets/source/characters/dog.webp": "966b1be65ed8e5c39d66a9ff01cc70c2a85590643edbb93d2f9d18cb0cec6053",
+    "assets/source/characters/elephant.webp": "8c2ac88bce86f204b6b7edaf824cc607326549e354bae04173d1a55c88622b07",
+    "assets/source/sfx/Rabbit_oinks_and_squeaks-excerpt-19.83s.flac": "779ac44be284bb05a7a99d2e57546a5e2696b89156ca2392b597f6f83b71d58e",
+    "assets/source/sfx/fs-448084_9159316.mp3": "78eaf5b601a30543905418c53a61df5e53dd93c3dfee5f7c06ae1db11876e844",
+    "assets/source/sfx/fs-527845_11431915.mp3": "c785714009850d14d953eeea12136bceb33577938e3430b4c8848544c02239ae",
+    "assets/source/sfx/fs-583142_3403708.mp3": "5cbb9d28ae198365e6f131418e3ca23f25c5c612bdc1ecb1116ec46b00cd241a",
+    "assets/source/tts-raw/again.mp3": "da46276e716af3c7676b20c1bfe91f058bc784c4b4661429844f72f49f466d68",
+    "assets/source/tts-raw/b1.mp3": "5de2ff3b5929e3a2094afdf1dd37effa17583f8a663965f7c80dff1fd744d946",
+    "assets/source/tts-raw/b2.mp3": "210ad2697eff0bdeb6068b2bef4507ce2cbd1d8ae348dd8a9d2ec21e6153d382",
+    "assets/source/tts-raw/b3.mp3": "8245a0f8ba6d1e901a7dc5fd044a3a2fd03edb63a1452c4a3112bf3835033ce0",
+    "assets/source/tts-raw/c1.mp3": "65f73458fcec90717f538b75d51107a5b8f0c6cd467375efa11c73e870c4a552",
+    "assets/source/tts-raw/c2.mp3": "0ae776acaf18bfc6ced06e87e62a86059b503b9cf81f5773d8a3f765fe5f8f46",
+    "assets/source/tts-raw/c3.mp3": "ca9cb12108b3612807378f76efdbdf7ef3be6f41f7f56c9ac6daf9fa58e005e8",
+    "assets/source/tts-raw/d1.mp3": "37479bbeab27d7eed9d4baebacc705990b26ea2c835d349e72822b20e359b396",
+    "assets/source/tts-raw/d2.mp3": "14c719160c61adb53059bd7979f12ab7e33719fe80bc84a61d394e551bcb3114",
+    "assets/source/tts-raw/d3.mp3": "935e51ad9070a5ddf375a655a74546f106c66f5693afb506e6f36fb8ef241efa",
+    "assets/source/tts-raw/e1.mp3": "a939662c729fb3cb238e2e2d7c68e508b789b7ad18a559f1705d65573e13760c",
+    "assets/source/tts-raw/e2.mp3": "d5a24f92df72b8a06619df27710a1378bc84586f7b747588a26fa458cb01e5ec",
+    "assets/source/tts-raw/e3.mp3": "4b0fb3d8941bf895e2683941f97b3ebf5ef5e3a90ae696b0459db1018998b039",
+    "assets/source/tts-raw/meta.json": "698fd094270816fc593dda17a110a23a09eba45f8a4a3c6d1edc8a95a335dec5",
+    "assets/source/tts-raw/title.mp3": "d0158a0a6c551a076d56263e34718cbdc8de54d4196b315f547c51edf43b28c1",
+    "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+    "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab",
+    "package-lock.json": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+    "scripts/tts/config.py": "5b8947b8ceedf4c92b6f8387d7c3b5716c1e296374d9115f4d2160d3f58b5f60",
+    "scripts/tts/gen.py": "3d39e408bd32ce8ad926dcde5275ba355ab09072f0f4e7b0d44a1f0613388baf",
+    "scripts/tts/process.py": "d4773c45efcfeedc8a39c3c346c15322fc00e611889152d5ef3a3fc2086f42a0",
+    "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+    "docs/tts/xue-er-generation-request.json": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+    "docs/tts/xue-er-generation-request-b.json": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+    "docs/tts/xue-er-batch-interface.md": "bd875b7cfce82702427578db58abb4e911822886b79e21bc41b189ca6522b757",
+    "docs/tts/batch-tests.log": "6e98969bc55d3653abf75250d9587dd667827b654c64956b8e85d5babcb70a65",
+    "docs/tts/batch-tests-result.json": "121466da26402a3a9ee345180e8d2a03b7e357ce512c475d9fbe7ebdf69b71bd",
+    "docs/tts/batch-tool-verification.json": "8b7521a884d14e0d75556f406ed3372a757aa5eadfcf5f79f2370df7cb3e1bbe",
+    "docs/tts/batch-dry-run.json": "0f7d1bfe5b88958f12356a9de555eb765d5b06ec1debf5726f7b17984a8608dd"
+  },
+  "protectedFilesAfter": {
+    "assets/CREDITS.md": "6e17fc9faa0df170a1e8a6e69d4d7a3713643ba0da068a56ef3c2b8c57bd78aa",
+    "assets/LICENSE.md": "beb3cf947d4a6294b0a1805bbb34a41796726ecad186513d7632e7c924609fb5",
+    "assets/audio/again.mp3": "7fa933dd4fbb2146705553b637c9c6e08036d2ad0031fbae68be418692cb7d93",
+    "assets/audio/b1.mp3": "b72be24f9e47fa0223190b3ea94664af63a3eead4056902b7c6c7077c69a2046",
+    "assets/audio/c2.mp3": "fc2dd940f4d0fb7b87fa2afe3ffdf14a86829fcd47d7cef55d755bca6ca3e18d",
+    "assets/audio/d3.mp3": "9ce361d91132106d0acf811207464b70e7fd020a6a87031bb95470a2122ea365",
+    "assets/audio/e1.mp3": "10151275036a9ca19cde4ffe4b82ee8f9a4ca143155e546c19c0fc3cede0ce57",
+    "assets/audio/e2.mp3": "3e631e9684bba7670dfe9e02d48a58f3f96c0aea8f8789fca6c5c475b26a6ef9",
+    "assets/audio/e3.mp3": "b4a78b1c809a5f438fe8590d40baa9d08bfa03e15dd586ed690dc991b115b714",
+    "assets/audio/meow.mp3": "b77845fe443aef68243754f8a656ad3de00e5411cfbe88751bceedebc7640dc4",
+    "assets/audio/squeak.mp3": "97d7a5a96cc7c8a0c856ae5f5e956d43ba914990c29a79a3225fbd849b7e2982",
+    "assets/audio/timings.json": "ee52e005809e1ac052eb667f276529afa89273fd360f2ebd612bfa534db02c1c",
+    "assets/audio/title.mp3": "3bd4b251311366d1e3a745120230c129fba6804183c8214e90dbfc154fc69cc9",
+    "assets/audio/trumpet.mp3": "61d868db022a1d8b934272abc0892dc6886a09fcbcad6e48c76ef444542fe645",
+    "assets/audio/u1.mp3": "357796f92f22c1f0930548846c149de26dcb18e2eac9bcd85d090f1c60195d87",
+    "assets/audio/u2.mp3": "4f28d911ffc00639555cb0b6c193845651c2e148f20248566f3cbce614dc8c9f",
+    "assets/audio/u3.mp3": "a4606525d3cf0c7ac26e1073c6d6ddc305ed8e36d9f8fa190b7a630335f62763",
+    "assets/audio/woof.mp3": "251b40df74d6f8cf6ca880ac52a1a96dd0f292dbd585547cf8ad4017b56754f2",
+    "assets/img/bunny-base.webp": "2dcece048cc7f729655a332c6cf120d7851c5fca38910e9855314deaf465951f",
+    "assets/img/bunny-ear.webp": "587fdc6c84c8e344f5d7881c42eeac0be33b9c94894fc83ca68675a01ed8f598",
+    "assets/img/cat-640.webp": "62ec2962d52a2c09dfeec2191a7f9493a1497603b0629ae80e50bd8d51f3557a",
+    "assets/img/dog-body.webp": "bc905d4bc1efa1560919fd019b70cbbac09bf8295cf996211995d722cd085092",
+    "assets/img/dog-head.webp": "260009d24d04c4528f0f06f717912748eb9b35cf215c7048175740b3f4e74678",
+    "assets/img/dog-tail.webp": "04d8aee0a15561eab02a5d7e4441a53749c7acc22eeddf719b09d8665a7ca224",
+    "assets/img/elephant-640.webp": "6b46eaa497b1db1b2cdaf8c78dca0588a73407939658d191a28c534bb5442109",
+    "assets/img/icon.png": "958b57f8b6cc2fae803b824b6e654861be7cce8cd3b564b5a61c8346273fbdfb",
+    "assets/source/characters/bunny.webp": "531ef2f25f246ae14af25e8f8ac89e7f2678e0d11ac80c332f594f187cc39e31",
+    "assets/source/characters/cat.webp": "2f84eeff1207e8b3129b0306d7407a2690367404e8a3bd8d4ecf95596ed9745e",
+    "assets/source/characters/dog.webp": "966b1be65ed8e5c39d66a9ff01cc70c2a85590643edbb93d2f9d18cb0cec6053",
+    "assets/source/characters/elephant.webp": "8c2ac88bce86f204b6b7edaf824cc607326549e354bae04173d1a55c88622b07",
+    "assets/source/sfx/Rabbit_oinks_and_squeaks-excerpt-19.83s.flac": "779ac44be284bb05a7a99d2e57546a5e2696b89156ca2392b597f6f83b71d58e",
+    "assets/source/sfx/fs-448084_9159316.mp3": "78eaf5b601a30543905418c53a61df5e53dd93c3dfee5f7c06ae1db11876e844",
+    "assets/source/sfx/fs-527845_11431915.mp3": "c785714009850d14d953eeea12136bceb33577938e3430b4c8848544c02239ae",
+    "assets/source/sfx/fs-583142_3403708.mp3": "5cbb9d28ae198365e6f131418e3ca23f25c5c612bdc1ecb1116ec46b00cd241a",
+    "assets/source/tts-raw/again.mp3": "da46276e716af3c7676b20c1bfe91f058bc784c4b4661429844f72f49f466d68",
+    "assets/source/tts-raw/b1.mp3": "5de2ff3b5929e3a2094afdf1dd37effa17583f8a663965f7c80dff1fd744d946",
+    "assets/source/tts-raw/b2.mp3": "210ad2697eff0bdeb6068b2bef4507ce2cbd1d8ae348dd8a9d2ec21e6153d382",
+    "assets/source/tts-raw/b3.mp3": "8245a0f8ba6d1e901a7dc5fd044a3a2fd03edb63a1452c4a3112bf3835033ce0",
+    "assets/source/tts-raw/c1.mp3": "65f73458fcec90717f538b75d51107a5b8f0c6cd467375efa11c73e870c4a552",
+    "assets/source/tts-raw/c2.mp3": "0ae776acaf18bfc6ced06e87e62a86059b503b9cf81f5773d8a3f765fe5f8f46",
+    "assets/source/tts-raw/c3.mp3": "ca9cb12108b3612807378f76efdbdf7ef3be6f41f7f56c9ac6daf9fa58e005e8",
+    "assets/source/tts-raw/d1.mp3": "37479bbeab27d7eed9d4baebacc705990b26ea2c835d349e72822b20e359b396",
+    "assets/source/tts-raw/d2.mp3": "14c719160c61adb53059bd7979f12ab7e33719fe80bc84a61d394e551bcb3114",
+    "assets/source/tts-raw/d3.mp3": "935e51ad9070a5ddf375a655a74546f106c66f5693afb506e6f36fb8ef241efa",
+    "assets/source/tts-raw/e1.mp3": "a939662c729fb3cb238e2e2d7c68e508b789b7ad18a559f1705d65573e13760c",
+    "assets/source/tts-raw/e2.mp3": "d5a24f92df72b8a06619df27710a1378bc84586f7b747588a26fa458cb01e5ec",
+    "assets/source/tts-raw/e3.mp3": "4b0fb3d8941bf895e2683941f97b3ebf5ef5e3a90ae696b0459db1018998b039",
+    "assets/source/tts-raw/meta.json": "698fd094270816fc593dda17a110a23a09eba45f8a4a3c6d1edc8a95a335dec5",
+    "assets/source/tts-raw/title.mp3": "d0158a0a6c551a076d56263e34718cbdc8de54d4196b315f547c51edf43b28c1",
+    "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+    "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab",
+    "package-lock.json": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+    "scripts/tts/config.py": "5b8947b8ceedf4c92b6f8387d7c3b5716c1e296374d9115f4d2160d3f58b5f60",
+    "scripts/tts/gen.py": "3d39e408bd32ce8ad926dcde5275ba355ab09072f0f4e7b0d44a1f0613388baf",
+    "scripts/tts/process.py": "d4773c45efcfeedc8a39c3c346c15322fc00e611889152d5ef3a3fc2086f42a0",
+    "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+    "docs/tts/xue-er-generation-request.json": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+    "docs/tts/xue-er-generation-request-b.json": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+    "docs/tts/xue-er-batch-interface.md": "bd875b7cfce82702427578db58abb4e911822886b79e21bc41b189ca6522b757",
+    "docs/tts/batch-tests.log": "6e98969bc55d3653abf75250d9587dd667827b654c64956b8e85d5babcb70a65",
+    "docs/tts/batch-tests-result.json": "121466da26402a3a9ee345180e8d2a03b7e357ce512c475d9fbe7ebdf69b71bd",
+    "docs/tts/batch-tool-verification.json": "8b7521a884d14e0d75556f406ed3372a757aa5eadfcf5f79f2370df7cb3e1bbe",
+    "docs/tts/batch-dry-run.json": "0f7d1bfe5b88958f12356a9de555eb765d5b06ec1debf5726f7b17984a8608dd"
+  },
+  "protectedBytesUnchanged": true,
+  "trackedAssetCount": 49,
+  "newProductionMediaDirectoriesBefore": {
+    "assets/source/tts-raw/xue-er/batch-a": false,
+    "assets/source/tts-raw/xue-er/batch-b": false,
+    "assets/audio/xue-er/batch-a": false,
+    "assets/audio/xue-er/batch-b": false
+  },
+  "newProductionMediaDirectoriesAfter": {
+    "assets/source/tts-raw/xue-er/batch-a": false,
+    "assets/source/tts-raw/xue-er/batch-b": false,
+    "assets/audio/xue-er/batch-a": false,
+    "assets/audio/xue-er/batch-b": false
+  },
+  "leadEvidence": {
+    "log": "docs/tts/batch-tests.log",
+    "result": "docs/tts/batch-tests-result.json",
+    "tests": 17,
+    "exitCode": 0
+  },
+  "limitations": [
+    "Mock renderers and temporary tones only; no actual SDK/service interaction.",
+    "Actual provider behavior, pronunciations, HD realization, word boundaries from newly synthesized speech and human listening await real media.",
+    "USD10 is the approved shared budget; this review validates exact request-count controls, not an actual provider invoice."
+  ]
+}

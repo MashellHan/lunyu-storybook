@@ -1,0 +1,4616 @@
+{
+  "mode": "geometry",
+  "createdAt": "2026-11-03T12:07:01.421Z",
+  "previewHashesBefore": {
+    "build/xue-er-preview/xue-er-03.html": "1f43b38f9462c21b943d295dd705a46588a60c4b0feaf05ab3bc87498e1f71e4",
+    "build/xue-er-preview/xue-er-04.html": "83f702e43b411be8bd7dee920810a116ac5c94805f1b2324dd2dc1782187a6b4",
+    "build/xue-er-preview/xue-er-07.html": "59c18789c72ba13667381751391a070846e38fd5b635f9899d2b6dfdd6cbb64a",
+    "build/xue-er-preview/xue-er-15.html": "332857ceaaa2ebfa8c91edec34c8294624c1344b6fa172aba772b2227f6dc71b"
+  },
+  "entries": [
+    {
+      "pageId": "xue-er-03-p01",
+      "chapterId": "xue-er-03",
+      "profile": "compact",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "1 / 1",
+      "focus": "",
+      "cast": {
+        "x": 16,
+        "y": 221.09375,
+        "width": 288,
+        "height": 260,
+        "bottom": 481.09375,
+        "right": 304
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 221.09375,
+            "width": 88,
+            "height": 88,
+            "bottom": 309.09375,
+            "right": 104
+          },
+          "shadow": {
+            "x": 26.546875,
+            "y": 297.5,
+            "width": 66.90625,
+            "height": 9,
+            "bottom": 306.5,
+            "right": 93.453125
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 369.09375,
+            "width": 112,
+            "height": 112,
+            "bottom": 481.09375,
+            "right": 128
+          },
+          "shadow": {
+            "x": 36.15625,
+            "y": 467.703125,
+            "width": 71.6875,
+            "height": 9,
+            "bottom": 476.703125,
+            "right": 107.84375
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 192,
+            "y": 369.09375,
+            "width": 112,
+            "height": 112,
+            "bottom": 481.09375,
+            "right": 304
+          },
+          "shadow": {
+            "x": 212.15625,
+            "y": 463.78125,
+            "width": 71.6875,
+            "height": 9,
+            "bottom": 472.78125,
+            "right": 283.84375
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 216,
+            "y": 221.09375,
+            "width": 88,
+            "height": 88,
+            "bottom": 309.09375,
+            "right": 304
+          },
+          "shadow": {
+            "x": 231.828125,
+            "y": 297.5,
+            "width": 56.34375,
+            "height": 9,
+            "bottom": 306.5,
+            "right": 288.171875
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "screen",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 102,
+            "y": 221.09375,
+            "width": 116,
+            "height": 80,
+            "bottom": 301.09375,
+            "right": 218
+          },
+          "parts": [
+            {
+              "id": "left",
+              "x": 104.17500305175781,
+              "y": 227.74374389648438,
+              "width": 52.19999694824219,
+              "height": 65.25,
+              "bottom": 292.9937438964844,
+              "right": 156.375
+            },
+            {
+              "id": "right",
+              "x": 163.625,
+              "y": 227.74374389648438,
+              "width": 52.19999694824219,
+              "height": 65.25,
+              "bottom": 292.9937438964844,
+              "right": 215.8249969482422
+            },
+            {
+              "id": "edges",
+              "x": 104.17500305175781,
+              "y": 227.74374389648438,
+              "width": 111.64999389648438,
+              "height": 66.70001220703125,
+              "bottom": 294.4437561035156,
+              "right": 215.8249969482422
+            }
+          ]
+        },
+        {
+          "id": "fan",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 112,
+            "y": 309.09375,
+            "width": 96,
+            "height": 52,
+            "bottom": 361.09375,
+            "right": 208
+          },
+          "parts": [
+            {
+              "id": "paper",
+              "x": 142,
+              "y": 321.89373779296875,
+              "width": 36,
+              "height": 33.600006103515625,
+              "bottom": 355.4937438964844,
+              "right": 178
+            },
+            {
+              "id": "left-leaf",
+              "x": 116.80000305175781,
+              "y": 313.4937438964844,
+              "width": 43.19999694824219,
+              "height": 42,
+              "bottom": 355.4937438964844,
+              "right": 160
+            },
+            {
+              "id": "right-leaf",
+              "x": 160,
+              "y": 313.4937438964844,
+              "width": 43.19999694824219,
+              "height": 42,
+              "bottom": 355.4937438964844,
+              "right": 203.1999969482422
+            },
+            {
+              "id": "pivot",
+              "x": 158.1999969482422,
+              "y": 353.6937561035156,
+              "width": 3.600006103515625,
+              "height": 3.600006103515625,
+              "bottom": 357.29376220703125,
+              "right": 161.8000030517578
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-03-p01-r01",
+          "text": "子曰：“巧言令色，鲜矣仁！”",
+          "rect": {
+            "x": 20,
+            "y": 581.09375,
+            "width": 280,
+            "height": 140,
+            "bottom": 721.09375,
+            "right": 300
+          },
+          "fontSize": "24px",
+          "pinyinSize": "14px",
+          "characters": [
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 0,
+              "x": 62,
+              "y": 597.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 88
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 1,
+              "x": 88,
+              "y": 597.09375,
+              "width": 26.171875,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 114.171875
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 2,
+              "x": 114.171875,
+              "y": 601.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 138.171875
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 3,
+              "x": 138.171875,
+              "y": 601.09375,
+              "width": 10.828125,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 149
+            },
+            {
+              "text": "巧",
+              "pinyin": "qiǎo",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 4,
+              "x": 149,
+              "y": 597.09375,
+              "width": 30.9375,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 179.9375
+            },
+            {
+              "text": "言",
+              "pinyin": "yán",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 5,
+              "x": 179.9375,
+              "y": 598.09375,
+              "width": 26.375,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 206.3125
+            },
+            {
+              "text": "令",
+              "pinyin": "lìng",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 6,
+              "x": 206.3125,
+              "y": 598.09375,
+              "width": 26.796875,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 233.109375
+            },
+            {
+              "text": "色",
+              "pinyin": "sè",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 7,
+              "x": 233.109375,
+              "y": 598.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 259.109375
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 8,
+              "x": 259.109375,
+              "y": 601.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 283.109375
+            },
+            {
+              "text": "鲜",
+              "pinyin": "xiǎn",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 9,
+              "x": 62,
+              "y": 649.09375,
+              "width": 29.484375,
+              "height": 52,
+              "bottom": 701.09375,
+              "right": 91.484375
+            },
+            {
+              "text": "矣",
+              "pinyin": "yǐ",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 10,
+              "x": 91.484375,
+              "y": 649.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 701.09375,
+              "right": 117.484375
+            },
+            {
+              "text": "仁",
+              "pinyin": "rén",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 11,
+              "x": 117.484375,
+              "y": 650.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 701.09375,
+              "right": 143.484375
+            },
+            {
+              "text": "！",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 12,
+              "x": 143.484375,
+              "y": 653.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 701.09375,
+              "right": 167.484375
+            },
+            {
+              "text": "”",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 13,
+              "x": 167.484375,
+              "y": 653.09375,
+              "width": 10.828125,
+              "height": 48,
+              "bottom": 701.09375,
+              "right": 178.3125
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 16,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 80
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 90.65625,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 154.65625
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 165.3125,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 229.3125
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 239.96875,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 303.96875
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": true,
+          "name": "上一页",
+          "rect": {
+            "x": 39,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 87
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 159,
+            "y": 497.09375,
+            "width": 64,
+            "height": 64,
+            "bottom": 561.09375,
+            "right": 223
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": true,
+          "name": "下一页",
+          "rect": {
+            "x": 233,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 281
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-03-p01-320x568.png",
+      "chapterConcatenationEqualsFullText": null
+    },
+    {
+      "pageId": "xue-er-04-p01",
+      "chapterId": "xue-er-04",
+      "profile": "compact",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "1 / 2",
+      "focus": "",
+      "cast": {
+        "x": 16,
+        "y": 221.09375,
+        "width": 288,
+        "height": 260,
+        "bottom": 481.09375,
+        "right": 304
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 102,
+            "y": 221.09375,
+            "width": 116,
+            "height": 116,
+            "bottom": 337.09375,
+            "right": 218
+          },
+          "shadow": {
+            "x": 115.90625,
+            "y": 294.40625,
+            "width": 88.1875,
+            "height": 34,
+            "bottom": 328.40625,
+            "right": 204.09375
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 24,
+            "y": 401.09375,
+            "width": 80,
+            "height": 80,
+            "bottom": 481.09375,
+            "right": 104
+          },
+          "shadow": {
+            "x": 38.390625,
+            "y": 463.09375,
+            "width": 51.21875,
+            "height": 12,
+            "bottom": 475.09375,
+            "right": 89.609375
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 216,
+            "y": 401.09375,
+            "width": 80,
+            "height": 80,
+            "bottom": 481.09375,
+            "right": 296
+          },
+          "shadow": {
+            "x": 230.390625,
+            "y": 460.296875,
+            "width": 51.21875,
+            "height": 12,
+            "bottom": 472.296875,
+            "right": 281.609375
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 120,
+            "y": 401.09375,
+            "width": 80,
+            "height": 80,
+            "bottom": 481.09375,
+            "right": 200
+          },
+          "shadow": {
+            "x": 134.390625,
+            "y": 463.09375,
+            "width": 51.21875,
+            "height": 12,
+            "bottom": 475.09375,
+            "right": 185.609375
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "desk",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 60,
+            "y": 333.09375,
+            "width": 200,
+            "height": 60,
+            "bottom": 393.09375,
+            "right": 260
+          },
+          "parts": [
+            {
+              "id": "left-leg",
+              "x": 81.27999877929688,
+              "y": 369.09375,
+              "width": 17.279998779296875,
+              "height": 19.20001220703125,
+              "bottom": 388.29376220703125,
+              "right": 98.55999755859375
+            },
+            {
+              "id": "right-leg",
+              "x": 221.44000244140625,
+              "y": 369.09375,
+              "width": 17.279983520507812,
+              "height": 19.20001220703125,
+              "bottom": 388.29376220703125,
+              "right": 238.71998596191406
+            },
+            {
+              "id": "top",
+              "x": 67.83999633789062,
+              "y": 357.09375,
+              "width": 184.32000732421875,
+              "height": 14.399993896484375,
+              "bottom": 371.4937438964844,
+              "right": 252.16000366210938
+            }
+          ]
+        },
+        {
+          "id": "question-1",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 68,
+            "y": 345.09375,
+            "width": 56,
+            "height": 48,
+            "bottom": 393.09375,
+            "right": 124
+          },
+          "parts": [
+            {
+              "id": "surface",
+              "x": 77.76000213623047,
+              "y": 352.77374267578125,
+              "width": 36.480003356933594,
+              "height": 31.67999267578125,
+              "bottom": 384.4537353515625,
+              "right": 114.24000549316406
+            },
+            {
+              "id": "grain",
+              "x": 84.47999572753906,
+              "y": 364.29376220703125,
+              "width": 23.040008544921875,
+              "height": 0,
+              "bottom": 364.29376220703125,
+              "right": 107.52000427246094
+            }
+          ]
+        },
+        {
+          "id": "question-2",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 132,
+            "y": 345.09375,
+            "width": 56,
+            "height": 48,
+            "bottom": 393.09375,
+            "right": 188
+          },
+          "parts": [
+            {
+              "id": "surface",
+              "x": 141.75999450683594,
+              "y": 352.77374267578125,
+              "width": 36.480010986328125,
+              "height": 31.67999267578125,
+              "bottom": 384.4537353515625,
+              "right": 178.24000549316406
+            },
+            {
+              "id": "grain",
+              "x": 148.47999572753906,
+              "y": 364.29376220703125,
+              "width": 23.040008544921875,
+              "height": 0,
+              "bottom": 364.29376220703125,
+              "right": 171.52000427246094
+            }
+          ]
+        },
+        {
+          "id": "question-3",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 196,
+            "y": 345.09375,
+            "width": 56,
+            "height": 48,
+            "bottom": 393.09375,
+            "right": 252
+          },
+          "parts": [
+            {
+              "id": "surface",
+              "x": 205.75999450683594,
+              "y": 352.77374267578125,
+              "width": 36.480010986328125,
+              "height": 31.67999267578125,
+              "bottom": 384.4537353515625,
+              "right": 242.24000549316406
+            },
+            {
+              "id": "grain",
+              "x": 212.47999572753906,
+              "y": 364.29376220703125,
+              "width": 23.040008544921875,
+              "height": 0,
+              "bottom": 364.29376220703125,
+              "right": 235.52000427246094
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-04-p01-r01",
+          "text": "曾子曰：“吾日三省吾身：",
+          "rect": {
+            "x": 20,
+            "y": 581.09375,
+            "width": 280,
+            "height": 140,
+            "bottom": 721.09375,
+            "right": 300
+          },
+          "fontSize": "24px",
+          "pinyinSize": "14px",
+          "characters": [
+            {
+              "text": "曾",
+              "pinyin": "zēng",
+              "segmentId": "xue-er-04-s01",
+              "sourceIndex": 0,
+              "x": 62,
+              "y": 597.09375,
+              "width": 34.625,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 96.625
+            },
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-04-s01",
+              "sourceIndex": 1,
+              "x": 96.625,
+              "y": 597.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 122.625
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-04-s01",
+              "sourceIndex": 2,
+              "x": 122.625,
+              "y": 597.09375,
+              "width": 26.171875,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 148.796875
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-04-s01",
+              "sourceIndex": 3,
+              "x": 148.796875,
+              "y": 601.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 172.796875
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-04-s01",
+              "sourceIndex": 4,
+              "x": 172.796875,
+              "y": 601.09375,
+              "width": 10.828125,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 183.625
+            },
+            {
+              "text": "吾",
+              "pinyin": "wú",
+              "segmentId": "xue-er-04-s02",
+              "sourceIndex": 5,
+              "x": 183.625,
+              "y": 598.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 209.625
+            },
+            {
+              "text": "日",
+              "pinyin": "rì",
+              "segmentId": "xue-er-04-s02",
+              "sourceIndex": 6,
+              "x": 209.625,
+              "y": 598.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 235.625
+            },
+            {
+              "text": "三",
+              "pinyin": "sān",
+              "segmentId": "xue-er-04-s02",
+              "sourceIndex": 7,
+              "x": 235.625,
+              "y": 597.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 261.625
+            },
+            {
+              "text": "省",
+              "pinyin": "xǐng",
+              "segmentId": "xue-er-04-s02",
+              "sourceIndex": 8,
+              "x": 62,
+              "y": 649.09375,
+              "width": 30.1875,
+              "height": 52,
+              "bottom": 701.09375,
+              "right": 92.1875
+            },
+            {
+              "text": "吾",
+              "pinyin": "wú",
+              "segmentId": "xue-er-04-s02",
+              "sourceIndex": 9,
+              "x": 92.1875,
+              "y": 650.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 701.09375,
+              "right": 118.1875
+            },
+            {
+              "text": "身",
+              "pinyin": "shēn",
+              "segmentId": "xue-er-04-s02",
+              "sourceIndex": 10,
+              "x": 118.1875,
+              "y": 649.09375,
+              "width": 34.625,
+              "height": 52,
+              "bottom": 701.09375,
+              "right": 152.8125
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-04-s02",
+              "sourceIndex": 11,
+              "x": 152.8125,
+              "y": 653.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 701.09375,
+              "right": 176.8125
+            }
+          ]
+        },
+        {
+          "groupId": "xue-er-04-p01-r02",
+          "text": "为人谋而不忠乎？",
+          "rect": {
+            "x": 20,
+            "y": 733.09375,
+            "width": 280,
+            "height": 136,
+            "bottom": 869.09375,
+            "right": 300
+          },
+          "fontSize": "24px",
+          "pinyinSize": "14px",
+          "characters": [
+            {
+              "text": "为",
+              "pinyin": "wèi",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 12,
+              "x": 62,
+              "y": 750.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 801.09375,
+              "right": 88
+            },
+            {
+              "text": "人",
+              "pinyin": "rén",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 13,
+              "x": 88,
+              "y": 750.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 801.09375,
+              "right": 114
+            },
+            {
+              "text": "谋",
+              "pinyin": "móu",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 14,
+              "x": 114,
+              "y": 750.09375,
+              "width": 31.3125,
+              "height": 51,
+              "bottom": 801.09375,
+              "right": 145.3125
+            },
+            {
+              "text": "而",
+              "pinyin": "ér",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 15,
+              "x": 145.3125,
+              "y": 750.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 801.09375,
+              "right": 171.3125
+            },
+            {
+              "text": "不",
+              "pinyin": "bù",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 16,
+              "x": 171.3125,
+              "y": 750.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 801.09375,
+              "right": 197.3125
+            },
+            {
+              "text": "忠",
+              "pinyin": "zhōng",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 17,
+              "x": 197.3125,
+              "y": 749.09375,
+              "width": 43.34375,
+              "height": 52,
+              "bottom": 801.09375,
+              "right": 240.65625
+            },
+            {
+              "text": "乎",
+              "pinyin": "hū",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 18,
+              "x": 240.65625,
+              "y": 749.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 801.09375,
+              "right": 266.65625
+            },
+            {
+              "text": "？",
+              "pinyin": "",
+              "segmentId": "xue-er-04-s03",
+              "sourceIndex": 19,
+              "x": 62,
+              "y": 801.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 849.09375,
+              "right": 86
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 16,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 80
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 90.65625,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 154.65625
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 165.3125,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 229.3125
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 239.96875,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 303.96875
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": true,
+          "name": "上一页",
+          "rect": {
+            "x": 39,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 87
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 159,
+            "y": 497.09375,
+            "width": 64,
+            "height": 64,
+            "bottom": 561.09375,
+            "right": 223
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": false,
+          "name": "下一页",
+          "rect": {
+            "x": 233,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 281
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-04-p01-320x568.png",
+      "chapterConcatenationEqualsFullText": null
+    },
+    {
+      "pageId": "xue-er-07-p01",
+      "chapterId": "xue-er-07",
+      "profile": "compact",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "1 / 3",
+      "focus": "",
+      "cast": {
+        "x": 16,
+        "y": 221.09375,
+        "width": 288,
+        "height": 260,
+        "bottom": 481.09375,
+        "right": 304
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 102,
+            "y": 221.09375,
+            "width": 116,
+            "height": 116,
+            "bottom": 337.09375,
+            "right": 218
+          },
+          "shadow": {
+            "x": 115.90625,
+            "y": 294.40625,
+            "width": 88.1875,
+            "height": 34,
+            "bottom": 328.40625,
+            "right": 204.09375
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 24,
+            "y": 401.09375,
+            "width": 80,
+            "height": 80,
+            "bottom": 481.09375,
+            "right": 104
+          },
+          "shadow": {
+            "x": 38.390625,
+            "y": 463.09375,
+            "width": 51.21875,
+            "height": 12,
+            "bottom": 475.09375,
+            "right": 89.609375
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 120,
+            "y": 401.09375,
+            "width": 80,
+            "height": 80,
+            "bottom": 481.09375,
+            "right": 200
+          },
+          "shadow": {
+            "x": 134.390625,
+            "y": 460.296875,
+            "width": 51.21875,
+            "height": 12,
+            "bottom": 472.296875,
+            "right": 185.609375
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 216,
+            "y": 401.09375,
+            "width": 80,
+            "height": 80,
+            "bottom": 481.09375,
+            "right": 296
+          },
+          "shadow": {
+            "x": 230.390625,
+            "y": 463.09375,
+            "width": 51.21875,
+            "height": 12,
+            "bottom": 475.09375,
+            "right": 281.609375
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "bench",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 50,
+            "y": 333.09375,
+            "width": 220,
+            "height": 60,
+            "bottom": 393.09375,
+            "right": 270
+          },
+          "parts": [
+            {
+              "id": "left-leg",
+              "x": 81.27999877929688,
+              "y": 369.09375,
+              "width": 17.279998779296875,
+              "height": 19.20001220703125,
+              "bottom": 388.29376220703125,
+              "right": 98.55999755859375
+            },
+            {
+              "id": "right-leg",
+              "x": 221.44000244140625,
+              "y": 369.09375,
+              "width": 17.279983520507812,
+              "height": 19.20001220703125,
+              "bottom": 388.29376220703125,
+              "right": 238.71998596191406
+            },
+            {
+              "id": "top",
+              "x": 67.83999633789062,
+              "y": 357.09375,
+              "width": 184.32000732421875,
+              "height": 14.399993896484375,
+              "bottom": 371.4937438964844,
+              "right": 252.16000366210938
+            }
+          ]
+        },
+        {
+          "id": "scroll",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 132,
+            "y": 345.09375,
+            "width": 56,
+            "height": 48,
+            "bottom": 393.09375,
+            "right": 188
+          },
+          "parts": [
+            {
+              "id": "sheet",
+              "x": 144.63999938964844,
+              "y": 356.6137390136719,
+              "width": 30.720001220703125,
+              "height": 24.96002197265625,
+              "bottom": 381.5737609863281,
+              "right": 175.36000061035156
+            },
+            {
+              "id": "left-roll",
+              "x": 140.8000030517578,
+              "y": 352.77374267578125,
+              "width": 6.720001220703125,
+              "height": 32.6400146484375,
+              "bottom": 385.41375732421875,
+              "right": 147.52000427246094
+            },
+            {
+              "id": "right-roll",
+              "x": 172.47999572753906,
+              "y": 352.77374267578125,
+              "width": 6.720001220703125,
+              "height": 32.6400146484375,
+              "bottom": 385.41375732421875,
+              "right": 179.1999969482422
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-07-p01-r01",
+          "text": "子夏曰：“贤贤易色；",
+          "rect": {
+            "x": 20,
+            "y": 581.09375,
+            "width": 280,
+            "height": 136,
+            "bottom": 717.09375,
+            "right": 300
+          },
+          "fontSize": "24px",
+          "pinyinSize": "14px",
+          "characters": [
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-07-s01",
+              "sourceIndex": 0,
+              "x": 62,
+              "y": 597.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 88
+            },
+            {
+              "text": "夏",
+              "pinyin": "xià",
+              "segmentId": "xue-er-07-s01",
+              "sourceIndex": 1,
+              "x": 88,
+              "y": 598.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 114
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-07-s01",
+              "sourceIndex": 2,
+              "x": 114,
+              "y": 597.09375,
+              "width": 26.171875,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 140.171875
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-07-s01",
+              "sourceIndex": 3,
+              "x": 140.171875,
+              "y": 601.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 164.171875
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-07-s01",
+              "sourceIndex": 4,
+              "x": 164.171875,
+              "y": 601.09375,
+              "width": 10.828125,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 175
+            },
+            {
+              "text": "贤",
+              "pinyin": "xián",
+              "segmentId": "xue-er-07-s02",
+              "sourceIndex": 5,
+              "x": 175,
+              "y": 598.09375,
+              "width": 29.875,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 204.875
+            },
+            {
+              "text": "贤",
+              "pinyin": "xián",
+              "segmentId": "xue-er-07-s02",
+              "sourceIndex": 6,
+              "x": 204.875,
+              "y": 598.09375,
+              "width": 29.875,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 234.75
+            },
+            {
+              "text": "易",
+              "pinyin": "yì",
+              "segmentId": "xue-er-07-s02",
+              "sourceIndex": 7,
+              "x": 234.75,
+              "y": 598.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 260.75
+            },
+            {
+              "text": "色",
+              "pinyin": "sè",
+              "segmentId": "xue-er-07-s02",
+              "sourceIndex": 8,
+              "x": 260.75,
+              "y": 598.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 286.75
+            },
+            {
+              "text": "；",
+              "pinyin": "",
+              "segmentId": "xue-er-07-s02",
+              "sourceIndex": 9,
+              "x": 62,
+              "y": 649.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 697.09375,
+              "right": 86
+            }
+          ]
+        },
+        {
+          "groupId": "xue-er-07-p01-r02",
+          "text": "事父母，能竭其力；",
+          "rect": {
+            "x": 20,
+            "y": 729.09375,
+            "width": 280,
+            "height": 136,
+            "bottom": 865.09375,
+            "right": 300
+          },
+          "fontSize": "24px",
+          "pinyinSize": "14px",
+          "characters": [
+            {
+              "text": "事",
+              "pinyin": "shì",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 10,
+              "x": 62,
+              "y": 746.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 797.09375,
+              "right": 88
+            },
+            {
+              "text": "父",
+              "pinyin": "fù",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 11,
+              "x": 88,
+              "y": 746.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 797.09375,
+              "right": 114
+            },
+            {
+              "text": "母",
+              "pinyin": "mǔ",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 12,
+              "x": 114,
+              "y": 745.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 797.09375,
+              "right": 140
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 13,
+              "x": 140,
+              "y": 749.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 797.09375,
+              "right": 164
+            },
+            {
+              "text": "能",
+              "pinyin": "néng",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 14,
+              "x": 164,
+              "y": 746.09375,
+              "width": 35.984375,
+              "height": 51,
+              "bottom": 797.09375,
+              "right": 199.984375
+            },
+            {
+              "text": "竭",
+              "pinyin": "jié",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 15,
+              "x": 199.984375,
+              "y": 746.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 797.09375,
+              "right": 225.984375
+            },
+            {
+              "text": "其",
+              "pinyin": "qí",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 16,
+              "x": 225.984375,
+              "y": 746.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 797.09375,
+              "right": 251.984375
+            },
+            {
+              "text": "力",
+              "pinyin": "lì",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 17,
+              "x": 251.984375,
+              "y": 746.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 797.09375,
+              "right": 277.984375
+            },
+            {
+              "text": "；",
+              "pinyin": "",
+              "segmentId": "xue-er-07-s03",
+              "sourceIndex": 18,
+              "x": 62,
+              "y": 797.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 845.09375,
+              "right": 86
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 16,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 80
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 90.65625,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 154.65625
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 165.3125,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 229.3125
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 239.96875,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 303.96875
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": true,
+          "name": "上一页",
+          "rect": {
+            "x": 39,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 87
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 159,
+            "y": 497.09375,
+            "width": 64,
+            "height": 64,
+            "bottom": 561.09375,
+            "right": 223
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": false,
+          "name": "下一页",
+          "rect": {
+            "x": 233,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 281
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-07-p01-320x568.png",
+      "chapterConcatenationEqualsFullText": null
+    },
+    {
+      "pageId": "xue-er-15-p03",
+      "chapterId": "xue-er-15",
+      "profile": "compact",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "3 / 4",
+      "focus": "",
+      "cast": {
+        "x": 16,
+        "y": 221.09375,
+        "width": 288,
+        "height": 260,
+        "bottom": 481.09375,
+        "right": 304
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 192,
+            "y": 369.09375,
+            "width": 112,
+            "height": 112,
+            "bottom": 481.09375,
+            "right": 304
+          },
+          "shadow": {
+            "x": 205.4375,
+            "y": 467.703125,
+            "width": 85.125,
+            "height": 9,
+            "bottom": 476.703125,
+            "right": 290.5625
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 221.09375,
+            "width": 88,
+            "height": 88,
+            "bottom": 309.09375,
+            "right": 104
+          },
+          "shadow": {
+            "x": 31.828125,
+            "y": 297.5,
+            "width": 56.34375,
+            "height": 9,
+            "bottom": 306.5,
+            "right": 88.171875
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 369.09375,
+            "width": 112,
+            "height": 112,
+            "bottom": 481.09375,
+            "right": 128
+          },
+          "shadow": {
+            "x": 36.15625,
+            "y": 463.78125,
+            "width": 71.6875,
+            "height": 9,
+            "bottom": 472.78125,
+            "right": 107.84375
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 216,
+            "y": 221.09375,
+            "width": 88,
+            "height": 88,
+            "bottom": 309.09375,
+            "right": 304
+          },
+          "shadow": {
+            "x": 231.828125,
+            "y": 297.5,
+            "width": 56.34375,
+            "height": 9,
+            "bottom": 306.5,
+            "right": 288.171875
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "workbench",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 112,
+            "y": 309.09375,
+            "width": 96,
+            "height": 52,
+            "bottom": 361.09375,
+            "right": 208
+          },
+          "parts": [
+            {
+              "id": "desk",
+              "x": 113.90908813476562,
+              "y": 337.4573974609375,
+              "width": 92.18182373046875,
+              "height": 20.09088134765625,
+              "bottom": 357.54827880859375,
+              "right": 206.09091186523438
+            },
+            {
+              "id": "rough",
+              "x": 136.36363220214844,
+              "y": 325.0483093261719,
+              "width": 52.00001525878906,
+              "height": 11.227264404296875,
+              "bottom": 336.27557373046875,
+              "right": 188.3636474609375
+            },
+            {
+              "id": "smooth",
+              "x": 136.36363220214844,
+              "y": 328.0028381347656,
+              "width": 52.00001525878906,
+              "height": 8.272735595703125,
+              "bottom": 336.27557373046875,
+              "right": 188.3636474609375
+            },
+            {
+              "id": "stone",
+              "x": 146.40908813476562,
+              "y": 315.0028381347656,
+              "width": 22.454544067382812,
+              "height": 10.6363525390625,
+              "bottom": 325.6391906738281,
+              "right": 168.86363220214844
+            },
+            {
+              "id": "marker",
+              "x": 150.5454559326172,
+              "y": 338.6391906738281,
+              "width": 4.7272796630859375,
+              "height": 7.090911865234375,
+              "bottom": 345.7301025390625,
+              "right": 155.27273559570312
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-15-p03-r01",
+          "text": "子贡曰：“《诗》云：‘如切如磋，如琢如磨’，",
+          "rect": {
+            "x": 20,
+            "y": 581.09375,
+            "width": 280,
+            "height": 191,
+            "bottom": 772.09375,
+            "right": 300
+          },
+          "fontSize": "24px",
+          "pinyinSize": "14px",
+          "characters": [
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 40,
+              "x": 62,
+              "y": 597.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 88
+            },
+            {
+              "text": "贡",
+              "pinyin": "gòng",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 41,
+              "x": 88,
+              "y": 598.09375,
+              "width": 36.421875,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 124.421875
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 42,
+              "x": 124.421875,
+              "y": 597.09375,
+              "width": 26.171875,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 150.59375
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 43,
+              "x": 150.59375,
+              "y": 601.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 174.59375
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 44,
+              "x": 174.59375,
+              "y": 601.09375,
+              "width": 10.828125,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 185.421875
+            },
+            {
+              "text": "《",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 45,
+              "x": 185.421875,
+              "y": 601.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 209.421875
+            },
+            {
+              "text": "诗",
+              "pinyin": "shī",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 46,
+              "x": 209.421875,
+              "y": 597.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 649.09375,
+              "right": 235.421875
+            },
+            {
+              "text": "》",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 47,
+              "x": 235.421875,
+              "y": 601.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 649.09375,
+              "right": 259.421875
+            },
+            {
+              "text": "云",
+              "pinyin": "yún",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 48,
+              "x": 259.421875,
+              "y": 598.09375,
+              "width": 26.5,
+              "height": 51,
+              "bottom": 649.09375,
+              "right": 285.921875
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 49,
+              "x": 62,
+              "y": 653.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 701.09375,
+              "right": 86
+            },
+            {
+              "text": "‘",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 50,
+              "x": 86,
+              "y": 653.09375,
+              "width": 5.265625,
+              "height": 48,
+              "bottom": 701.09375,
+              "right": 91.265625
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 51,
+              "x": 91.265625,
+              "y": 650.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 701.09375,
+              "right": 117.265625
+            },
+            {
+              "text": "切",
+              "pinyin": "qiē",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 52,
+              "x": 117.265625,
+              "y": 649.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 701.09375,
+              "right": 143.265625
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 53,
+              "x": 143.265625,
+              "y": 650.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 701.09375,
+              "right": 169.265625
+            },
+            {
+              "text": "磋",
+              "pinyin": "cuō",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 54,
+              "x": 169.265625,
+              "y": 649.09375,
+              "width": 27.171875,
+              "height": 52,
+              "bottom": 701.09375,
+              "right": 196.4375
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 55,
+              "x": 196.4375,
+              "y": 653.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 701.09375,
+              "right": 220.4375
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 56,
+              "x": 220.4375,
+              "y": 650.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 701.09375,
+              "right": 246.4375
+            },
+            {
+              "text": "琢",
+              "pinyin": "zhuó",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 57,
+              "x": 246.4375,
+              "y": 650.09375,
+              "width": 34.671875,
+              "height": 51,
+              "bottom": 701.09375,
+              "right": 281.109375
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 58,
+              "x": 62,
+              "y": 701.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 752.09375,
+              "right": 88
+            },
+            {
+              "text": "磨",
+              "pinyin": "mó",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 59,
+              "x": 88,
+              "y": 701.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 752.09375,
+              "right": 114
+            },
+            {
+              "text": "’",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 60,
+              "x": 114,
+              "y": 704.09375,
+              "width": 5.265625,
+              "height": 48,
+              "bottom": 752.09375,
+              "right": 119.265625
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 61,
+              "x": 119.265625,
+              "y": 704.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 752.09375,
+              "right": 143.265625
+            }
+          ]
+        },
+        {
+          "groupId": "xue-er-15-p03-r02",
+          "text": "其斯之谓与？”",
+          "rect": {
+            "x": 20,
+            "y": 784.09375,
+            "width": 280,
+            "height": 100,
+            "bottom": 884.09375,
+            "right": 300
+          },
+          "fontSize": "24px",
+          "pinyinSize": "14px",
+          "characters": [
+            {
+              "text": "其",
+              "pinyin": "qí",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 62,
+              "x": 62,
+              "y": 807.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 858.09375,
+              "right": 88
+            },
+            {
+              "text": "斯",
+              "pinyin": "sī",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 63,
+              "x": 88,
+              "y": 806.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 858.09375,
+              "right": 114
+            },
+            {
+              "text": "之",
+              "pinyin": "zhī",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 64,
+              "x": 114,
+              "y": 806.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 858.09375,
+              "right": 140
+            },
+            {
+              "text": "谓",
+              "pinyin": "wèi",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 65,
+              "x": 140,
+              "y": 807.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 858.09375,
+              "right": 166
+            },
+            {
+              "text": "与",
+              "pinyin": "yú",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 66,
+              "x": 166,
+              "y": 807.09375,
+              "width": 26,
+              "height": 51,
+              "bottom": 858.09375,
+              "right": 192
+            },
+            {
+              "text": "？",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 67,
+              "x": 192,
+              "y": 810.09375,
+              "width": 24,
+              "height": 48,
+              "bottom": 858.09375,
+              "right": 216
+            },
+            {
+              "text": "”",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 68,
+              "x": 216,
+              "y": 810.09375,
+              "width": 10.828125,
+              "height": 48,
+              "bottom": 858.09375,
+              "right": 226.828125
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 16,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 80
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 90.65625,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 154.65625
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 165.3125,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 229.3125
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 239.96875,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 303.96875
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": false,
+          "name": "上一页",
+          "rect": {
+            "x": 39,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 87
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 159,
+            "y": 497.09375,
+            "width": 64,
+            "height": 64,
+            "bottom": 561.09375,
+            "right": 223
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": false,
+          "name": "下一页",
+          "rect": {
+            "x": 233,
+            "y": 505.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 553.09375,
+            "right": 281
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-15-p03-320x568.png",
+      "chapterConcatenationEqualsFullText": null
+    },
+    {
+      "pageId": "xue-er-03-p01",
+      "chapterId": "xue-er-03",
+      "profile": "phone",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "1 / 1",
+      "focus": "",
+      "cast": {
+        "x": 16,
+        "y": 221.09375,
+        "width": 358,
+        "height": 280,
+        "bottom": 501.09375,
+        "right": 374
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 221.09375,
+            "width": 104,
+            "height": 104,
+            "bottom": 325.09375,
+            "right": 120
+          },
+          "shadow": {
+            "x": 28.46875,
+            "y": 312.296875,
+            "width": 79.0625,
+            "height": 9,
+            "bottom": 321.296875,
+            "right": 107.53125
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 377.09375,
+            "width": 124,
+            "height": 124,
+            "bottom": 501.09375,
+            "right": 140
+          },
+          "shadow": {
+            "x": 38.3125,
+            "y": 486.796875,
+            "width": 79.375,
+            "height": 9,
+            "bottom": 495.796875,
+            "right": 117.6875
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 250,
+            "y": 377.09375,
+            "width": 124,
+            "height": 124,
+            "bottom": 501.09375,
+            "right": 374
+          },
+          "shadow": {
+            "x": 272.3125,
+            "y": 482.46875,
+            "width": 79.375,
+            "height": 9,
+            "bottom": 491.46875,
+            "right": 351.6875
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 270,
+            "y": 221.09375,
+            "width": 104,
+            "height": 104,
+            "bottom": 325.09375,
+            "right": 374
+          },
+          "shadow": {
+            "x": 288.71875,
+            "y": 312.296875,
+            "width": 66.5625,
+            "height": 9,
+            "bottom": 321.296875,
+            "right": 355.28125
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "screen",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 125,
+            "y": 221.09375,
+            "width": 140,
+            "height": 88,
+            "bottom": 309.09375,
+            "right": 265
+          },
+          "parts": [
+            {
+              "id": "left",
+              "x": 127.625,
+              "y": 224.84375,
+              "width": 63,
+              "height": 78.75,
+              "bottom": 303.59375,
+              "right": 190.625
+            },
+            {
+              "id": "right",
+              "x": 199.375,
+              "y": 224.84375,
+              "width": 63,
+              "height": 78.75,
+              "bottom": 303.59375,
+              "right": 262.375
+            },
+            {
+              "id": "edges",
+              "x": 127.625,
+              "y": 224.84375,
+              "width": 134.75,
+              "height": 80.5,
+              "bottom": 305.34375,
+              "right": 262.375
+            }
+          ]
+        },
+        {
+          "id": "fan",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 131,
+            "y": 301.09375,
+            "width": 128,
+            "height": 68,
+            "bottom": 369.09375,
+            "right": 259
+          },
+          "parts": [
+            {
+              "id": "paper",
+              "x": 171,
+              "y": 317.4937438964844,
+              "width": 48,
+              "height": 44.800018310546875,
+              "bottom": 362.29376220703125,
+              "right": 219
+            },
+            {
+              "id": "left-leaf",
+              "x": 137.39999389648438,
+              "y": 306.29376220703125,
+              "width": 57.600006103515625,
+              "height": 56,
+              "bottom": 362.29376220703125,
+              "right": 195
+            },
+            {
+              "id": "right-leaf",
+              "x": 195,
+              "y": 306.29376220703125,
+              "width": 57.600006103515625,
+              "height": 56,
+              "bottom": 362.29376220703125,
+              "right": 252.60000610351562
+            },
+            {
+              "id": "pivot",
+              "x": 192.60000610351562,
+              "y": 359.89373779296875,
+              "width": 4.79998779296875,
+              "height": 4.800018310546875,
+              "bottom": 364.6937561035156,
+              "right": 197.39999389648438
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-03-p01-r01",
+          "text": "子曰：“巧言令色，鲜矣仁！”",
+          "rect": {
+            "x": 20,
+            "y": 601.09375,
+            "width": 350,
+            "height": 147,
+            "bottom": 748.09375,
+            "right": 370
+          },
+          "fontSize": "26px",
+          "pinyinSize": "15px",
+          "characters": [
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 0,
+              "x": 62,
+              "y": 617.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 90
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 1,
+              "x": 90,
+              "y": 617.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 118
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 2,
+              "x": 118,
+              "y": 621.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 144
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 3,
+              "x": 144,
+              "y": 621.09375,
+              "width": 11.734375,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 155.734375
+            },
+            {
+              "text": "巧",
+              "pinyin": "qiǎo",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 4,
+              "x": 155.734375,
+              "y": 617.09375,
+              "width": 32.9375,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 188.671875
+            },
+            {
+              "text": "言",
+              "pinyin": "yán",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 5,
+              "x": 188.671875,
+              "y": 618.09375,
+              "width": 28.109375,
+              "height": 55,
+              "bottom": 673.09375,
+              "right": 216.78125
+            },
+            {
+              "text": "令",
+              "pinyin": "lìng",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 6,
+              "x": 216.78125,
+              "y": 618.09375,
+              "width": 28.578125,
+              "height": 55,
+              "bottom": 673.09375,
+              "right": 245.359375
+            },
+            {
+              "text": "色",
+              "pinyin": "sè",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 7,
+              "x": 245.359375,
+              "y": 618.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 673.09375,
+              "right": 273.359375
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 8,
+              "x": 273.359375,
+              "y": 621.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 299.359375
+            },
+            {
+              "text": "鲜",
+              "pinyin": "xiǎn",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 9,
+              "x": 299.359375,
+              "y": 617.09375,
+              "width": 31.375,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 330.734375
+            },
+            {
+              "text": "矣",
+              "pinyin": "yǐ",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 10,
+              "x": 330.734375,
+              "y": 617.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 358.734375
+            },
+            {
+              "text": "仁",
+              "pinyin": "rén",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 11,
+              "x": 62,
+              "y": 673.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 728.09375,
+              "right": 90
+            },
+            {
+              "text": "！",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 12,
+              "x": 90,
+              "y": 676.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 728.09375,
+              "right": 116
+            },
+            {
+              "text": "”",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 13,
+              "x": 116,
+              "y": 676.09375,
+              "width": 11.734375,
+              "height": 52,
+              "bottom": 728.09375,
+              "right": 127.734375
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 16,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 80
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 114,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 178
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 212,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 276
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 310,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 374
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": true,
+          "name": "上一页",
+          "rect": {
+            "x": 71,
+            "y": 525.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 573.09375,
+            "right": 119
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 195,
+            "y": 517.09375,
+            "width": 64,
+            "height": 64,
+            "bottom": 581.09375,
+            "right": 259
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": true,
+          "name": "下一页",
+          "rect": {
+            "x": 271,
+            "y": 525.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 573.09375,
+            "right": 319
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-03-p01-390x844.png",
+      "chapterConcatenationEqualsFullText": null
+    },
+    {
+      "pageId": "xue-er-15-p03",
+      "chapterId": "xue-er-15",
+      "profile": "phone",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "3 / 4",
+      "focus": "",
+      "cast": {
+        "x": 16,
+        "y": 221.09375,
+        "width": 358,
+        "height": 280,
+        "bottom": 501.09375,
+        "right": 374
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 250,
+            "y": 377.09375,
+            "width": 124,
+            "height": 124,
+            "bottom": 501.09375,
+            "right": 374
+          },
+          "shadow": {
+            "x": 264.875,
+            "y": 486.796875,
+            "width": 94.25,
+            "height": 9,
+            "bottom": 495.796875,
+            "right": 359.125
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 221.09375,
+            "width": 104,
+            "height": 104,
+            "bottom": 325.09375,
+            "right": 120
+          },
+          "shadow": {
+            "x": 34.71875,
+            "y": 312.296875,
+            "width": 66.5625,
+            "height": 9,
+            "bottom": 321.296875,
+            "right": 101.28125
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 16,
+            "y": 377.09375,
+            "width": 124,
+            "height": 124,
+            "bottom": 501.09375,
+            "right": 140
+          },
+          "shadow": {
+            "x": 38.3125,
+            "y": 482.46875,
+            "width": 79.375,
+            "height": 9,
+            "bottom": 491.46875,
+            "right": 117.6875
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 270,
+            "y": 221.09375,
+            "width": 104,
+            "height": 104,
+            "bottom": 325.09375,
+            "right": 374
+          },
+          "shadow": {
+            "x": 288.71875,
+            "y": 312.296875,
+            "width": 66.5625,
+            "height": 9,
+            "bottom": 321.296875,
+            "right": 355.28125
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "workbench",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 131,
+            "y": 301.09375,
+            "width": 128,
+            "height": 68,
+            "bottom": 369.09375,
+            "right": 259
+          },
+          "parts": [
+            {
+              "id": "desk",
+              "x": 134.72727966308594,
+              "y": 338.1846618652344,
+              "width": 120.54545593261719,
+              "height": 26.272735595703125,
+              "bottom": 364.4573974609375,
+              "right": 255.27273559570312
+            },
+            {
+              "id": "rough",
+              "x": 164.09091186523438,
+              "y": 321.9573974609375,
+              "width": 68,
+              "height": 14.68182373046875,
+              "bottom": 336.63922119140625,
+              "right": 232.09091186523438
+            },
+            {
+              "id": "smooth",
+              "x": 164.09091186523438,
+              "y": 325.8210144042969,
+              "width": 68,
+              "height": 10.818206787109375,
+              "bottom": 336.63922119140625,
+              "right": 232.09091186523438
+            },
+            {
+              "id": "stone",
+              "x": 177.22726440429688,
+              "y": 308.8210144042969,
+              "width": 29.3636474609375,
+              "height": 13.909088134765625,
+              "bottom": 322.7301025390625,
+              "right": 206.59091186523438
+            },
+            {
+              "id": "marker",
+              "x": 182.63636779785156,
+              "y": 339.7301025390625,
+              "width": 6.1818084716796875,
+              "height": 9.272735595703125,
+              "bottom": 349.0028381347656,
+              "right": 188.81817626953125
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-15-p03-r01",
+          "text": "子贡曰：“《诗》云：‘如切如磋，如琢如磨’，",
+          "rect": {
+            "x": 20,
+            "y": 601.09375,
+            "width": 350,
+            "height": 148,
+            "bottom": 749.09375,
+            "right": 370
+          },
+          "fontSize": "26px",
+          "pinyinSize": "15px",
+          "characters": [
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 40,
+              "x": 62,
+              "y": 617.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 90
+            },
+            {
+              "text": "贡",
+              "pinyin": "gòng",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 41,
+              "x": 90,
+              "y": 618.09375,
+              "width": 38.875,
+              "height": 55,
+              "bottom": 673.09375,
+              "right": 128.875
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 42,
+              "x": 128.875,
+              "y": 617.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 156.875
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 43,
+              "x": 156.875,
+              "y": 621.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 182.875
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 44,
+              "x": 182.875,
+              "y": 621.09375,
+              "width": 11.734375,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 194.609375
+            },
+            {
+              "text": "《",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 45,
+              "x": 194.609375,
+              "y": 621.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 220.609375
+            },
+            {
+              "text": "诗",
+              "pinyin": "shī",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 46,
+              "x": 220.609375,
+              "y": 617.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 673.09375,
+              "right": 248.609375
+            },
+            {
+              "text": "》",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 47,
+              "x": 248.609375,
+              "y": 621.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 274.609375
+            },
+            {
+              "text": "云",
+              "pinyin": "yún",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 48,
+              "x": 274.609375,
+              "y": 618.09375,
+              "width": 28.25,
+              "height": 55,
+              "bottom": 673.09375,
+              "right": 302.859375
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 49,
+              "x": 302.859375,
+              "y": 621.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 328.859375
+            },
+            {
+              "text": "‘",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 50,
+              "x": 328.859375,
+              "y": 621.09375,
+              "width": 5.703125,
+              "height": 52,
+              "bottom": 673.09375,
+              "right": 334.5625
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 51,
+              "x": 62,
+              "y": 674.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 729.09375,
+              "right": 90
+            },
+            {
+              "text": "切",
+              "pinyin": "qiē",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 52,
+              "x": 90,
+              "y": 673.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 729.09375,
+              "right": 118
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 53,
+              "x": 118,
+              "y": 674.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 729.09375,
+              "right": 146
+            },
+            {
+              "text": "磋",
+              "pinyin": "cuō",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 54,
+              "x": 146,
+              "y": 673.09375,
+              "width": 28.890625,
+              "height": 56,
+              "bottom": 729.09375,
+              "right": 174.890625
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 55,
+              "x": 174.890625,
+              "y": 677.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 729.09375,
+              "right": 200.890625
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 56,
+              "x": 200.890625,
+              "y": 674.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 729.09375,
+              "right": 228.890625
+            },
+            {
+              "text": "琢",
+              "pinyin": "zhuó",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 57,
+              "x": 228.890625,
+              "y": 674.09375,
+              "width": 37,
+              "height": 55,
+              "bottom": 729.09375,
+              "right": 265.890625
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 58,
+              "x": 265.890625,
+              "y": 674.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 729.09375,
+              "right": 293.890625
+            },
+            {
+              "text": "磨",
+              "pinyin": "mó",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 59,
+              "x": 293.890625,
+              "y": 674.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 729.09375,
+              "right": 321.890625
+            },
+            {
+              "text": "’",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 60,
+              "x": 321.890625,
+              "y": 677.09375,
+              "width": 5.703125,
+              "height": 52,
+              "bottom": 729.09375,
+              "right": 327.59375
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 61,
+              "x": 327.59375,
+              "y": 677.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 729.09375,
+              "right": 353.59375
+            }
+          ]
+        },
+        {
+          "groupId": "xue-er-15-p03-r02",
+          "text": "其斯之谓与？”",
+          "rect": {
+            "x": 20,
+            "y": 761.09375,
+            "width": 350,
+            "height": 100,
+            "bottom": 861.09375,
+            "right": 370
+          },
+          "fontSize": "26px",
+          "pinyinSize": "15px",
+          "characters": [
+            {
+              "text": "其",
+              "pinyin": "qí",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 62,
+              "x": 62,
+              "y": 782.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 837.09375,
+              "right": 90
+            },
+            {
+              "text": "斯",
+              "pinyin": "sī",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 63,
+              "x": 90,
+              "y": 781.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 837.09375,
+              "right": 118
+            },
+            {
+              "text": "之",
+              "pinyin": "zhī",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 64,
+              "x": 118,
+              "y": 781.09375,
+              "width": 28,
+              "height": 56,
+              "bottom": 837.09375,
+              "right": 146
+            },
+            {
+              "text": "谓",
+              "pinyin": "wèi",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 65,
+              "x": 146,
+              "y": 782.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 837.09375,
+              "right": 174
+            },
+            {
+              "text": "与",
+              "pinyin": "yú",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 66,
+              "x": 174,
+              "y": 782.09375,
+              "width": 28,
+              "height": 55,
+              "bottom": 837.09375,
+              "right": 202
+            },
+            {
+              "text": "？",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 67,
+              "x": 202,
+              "y": 785.09375,
+              "width": 26,
+              "height": 52,
+              "bottom": 837.09375,
+              "right": 228
+            },
+            {
+              "text": "”",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 68,
+              "x": 228,
+              "y": 785.09375,
+              "width": 11.734375,
+              "height": 52,
+              "bottom": 837.09375,
+              "right": 239.734375
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 16,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 80
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 114,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 178
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 212,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 276
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 310,
+            "y": 20,
+            "width": 64,
+            "height": 64,
+            "bottom": 84,
+            "right": 374
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": false,
+          "name": "上一页",
+          "rect": {
+            "x": 71,
+            "y": 525.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 573.09375,
+            "right": 119
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 195,
+            "y": 517.09375,
+            "width": 64,
+            "height": 64,
+            "bottom": 581.09375,
+            "right": 259
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": false,
+          "name": "下一页",
+          "rect": {
+            "x": 271,
+            "y": 525.09375,
+            "width": 48,
+            "height": 48,
+            "bottom": 573.09375,
+            "right": 319
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-15-p03-390x844.png",
+      "chapterConcatenationEqualsFullText": null
+    },
+    {
+      "pageId": "xue-er-03-p01",
+      "chapterId": "xue-er-03",
+      "profile": "desktop",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "1 / 1",
+      "focus": "",
+      "cast": {
+        "x": 52,
+        "y": 204.5,
+        "width": 920,
+        "height": 320,
+        "bottom": 524.5,
+        "right": 972
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 268,
+            "y": 204.5,
+            "width": 120,
+            "height": 120,
+            "bottom": 324.5,
+            "right": 388
+          },
+          "shadow": {
+            "x": 282.390625,
+            "y": 310.5,
+            "width": 91.21875,
+            "height": 9,
+            "bottom": 319.5,
+            "right": 373.609375
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 191.59375,
+            "y": 356.5,
+            "width": 144,
+            "height": 144,
+            "bottom": 500.5,
+            "right": 335.59375
+          },
+          "shadow": {
+            "x": 217.5,
+            "y": 484.703125,
+            "width": 92.1875,
+            "height": 9,
+            "bottom": 493.703125,
+            "right": 309.6875
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 676.390625,
+            "y": 348.5,
+            "width": 168,
+            "height": 168,
+            "bottom": 516.5,
+            "right": 844.390625
+          },
+          "shadow": {
+            "x": 706.625,
+            "y": 493.03125,
+            "width": 107.53125,
+            "height": 9,
+            "bottom": 502.03125,
+            "right": 814.15625
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 636,
+            "y": 204.5,
+            "width": 120,
+            "height": 120,
+            "bottom": 324.5,
+            "right": 756
+          },
+          "shadow": {
+            "x": 657.59375,
+            "y": 310.5,
+            "width": 76.8125,
+            "height": 9,
+            "bottom": 319.5,
+            "right": 734.40625
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "screen",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 396,
+            "y": 204.5,
+            "width": 232,
+            "height": 144,
+            "bottom": 348.5,
+            "right": 628
+          },
+          "parts": [
+            {
+              "id": "left",
+              "x": 401.1199951171875,
+              "y": 210.25999450683594,
+              "width": 103.67999267578125,
+              "height": 129.59999084472656,
+              "bottom": 339.8599853515625,
+              "right": 504.79998779296875
+            },
+            {
+              "id": "right",
+              "x": 519.2000122070312,
+              "y": 210.25999450683594,
+              "width": 103.67999267578125,
+              "height": 129.59999084472656,
+              "bottom": 339.8599853515625,
+              "right": 622.8800048828125
+            },
+            {
+              "id": "edges",
+              "x": 401.1199951171875,
+              "y": 210.25999450683594,
+              "width": 221.760009765625,
+              "height": 132.47999572753906,
+              "bottom": 342.739990234375,
+              "right": 622.8800048828125
+            }
+          ]
+        },
+        {
+          "id": "fan",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 424,
+            "y": 372.5,
+            "width": 176,
+            "height": 100,
+            "bottom": 472.5,
+            "right": 600
+          },
+          "parts": [
+            {
+              "id": "paper",
+              "x": 479,
+              "y": 398.29998779296875,
+              "width": 66,
+              "height": 61.600006103515625,
+              "bottom": 459.8999938964844,
+              "right": 545
+            },
+            {
+              "id": "left-leaf",
+              "x": 432.79998779296875,
+              "y": 382.8999938964844,
+              "width": 79.20001220703125,
+              "height": 77,
+              "bottom": 459.8999938964844,
+              "right": 512
+            },
+            {
+              "id": "right-leaf",
+              "x": 512,
+              "y": 382.8999938964844,
+              "width": 79.20001220703125,
+              "height": 77,
+              "bottom": 459.8999938964844,
+              "right": 591.2000122070312
+            },
+            {
+              "id": "pivot",
+              "x": 508.70001220703125,
+              "y": 456.6000061035156,
+              "width": 6.5999755859375,
+              "height": 6.600006103515625,
+              "bottom": 463.20001220703125,
+              "right": 515.2999877929688
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-03-p01-r01",
+          "text": "子曰：“巧言令色，鲜矣仁！”",
+          "rect": {
+            "x": 44,
+            "y": 624.5,
+            "width": 936,
+            "height": 108,
+            "bottom": 732.5,
+            "right": 980
+          },
+          "fontSize": "28px",
+          "pinyinSize": "16px",
+          "characters": [
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 0,
+              "x": 114,
+              "y": 648.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 144
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 1,
+              "x": 144,
+              "y": 648.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 174
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 2,
+              "x": 174,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 202
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s01",
+              "sourceIndex": 3,
+              "x": 202,
+              "y": 652.5,
+              "width": 12.640625,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 214.640625
+            },
+            {
+              "text": "巧",
+              "pinyin": "qiǎo",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 4,
+              "x": 214.640625,
+              "y": 648.5,
+              "width": 34.921875,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 249.5625
+            },
+            {
+              "text": "言",
+              "pinyin": "yán",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 5,
+              "x": 249.5625,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 279.5625
+            },
+            {
+              "text": "令",
+              "pinyin": "lìng",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 6,
+              "x": 279.5625,
+              "y": 649.5,
+              "width": 30.34375,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 309.90625
+            },
+            {
+              "text": "色",
+              "pinyin": "sè",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 7,
+              "x": 309.90625,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 339.90625
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 8,
+              "x": 339.90625,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 367.90625
+            },
+            {
+              "text": "鲜",
+              "pinyin": "xiǎn",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 9,
+              "x": 367.90625,
+              "y": 648.5,
+              "width": 33.265625,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 401.171875
+            },
+            {
+              "text": "矣",
+              "pinyin": "yǐ",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 10,
+              "x": 401.171875,
+              "y": 648.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 431.171875
+            },
+            {
+              "text": "仁",
+              "pinyin": "rén",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 11,
+              "x": 431.171875,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 461.171875
+            },
+            {
+              "text": "！",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 12,
+              "x": 461.171875,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 489.171875
+            },
+            {
+              "text": "”",
+              "pinyin": "",
+              "segmentId": "xue-er-03-s02",
+              "sourceIndex": 13,
+              "x": 489.171875,
+              "y": 652.5,
+              "width": 12.640625,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 501.8125
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 44,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 108
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 120,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 184
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 840,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 904
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 916,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 980
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": true,
+          "name": "上一页",
+          "rect": {
+            "x": 388,
+            "y": 548.5,
+            "width": 48,
+            "height": 48,
+            "bottom": 596.5,
+            "right": 436
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 512,
+            "y": 540.5,
+            "width": 64,
+            "height": 64,
+            "bottom": 604.5,
+            "right": 576
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": true,
+          "name": "下一页",
+          "rect": {
+            "x": 588,
+            "y": 548.5,
+            "width": 48,
+            "height": 48,
+            "bottom": 596.5,
+            "right": 636
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-03-p01-1024x768.png",
+      "chapterConcatenationEqualsFullText": null
+    },
+    {
+      "pageId": "xue-er-15-p03",
+      "chapterId": "xue-er-15",
+      "profile": "desktop",
+      "playable": false,
+      "preview": true,
+      "audioElements": 0,
+      "pageNumber": "3 / 4",
+      "focus": "",
+      "cast": {
+        "x": 52,
+        "y": 204.5,
+        "width": 920,
+        "height": 320,
+        "bottom": 524.5,
+        "right": 972
+      },
+      "roles": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "rect": {
+            "x": 676.390625,
+            "y": 348.5,
+            "width": 168,
+            "height": 168,
+            "bottom": 516.5,
+            "right": 844.390625
+          },
+          "shadow": {
+            "x": 696.546875,
+            "y": 498.90625,
+            "width": 127.6875,
+            "height": 9,
+            "bottom": 507.90625,
+            "right": 824.234375
+          }
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "rect": {
+            "x": 268,
+            "y": 204.5,
+            "width": 120,
+            "height": 120,
+            "bottom": 324.5,
+            "right": 388
+          },
+          "shadow": {
+            "x": 289.59375,
+            "y": 310.5,
+            "width": 76.8125,
+            "height": 9,
+            "bottom": 319.5,
+            "right": 366.40625
+          }
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "rect": {
+            "x": 191.59375,
+            "y": 356.5,
+            "width": 144,
+            "height": 144,
+            "bottom": 500.5,
+            "right": 335.59375
+          },
+          "shadow": {
+            "x": 217.5,
+            "y": 479.671875,
+            "width": 92.1875,
+            "height": 9,
+            "bottom": 488.671875,
+            "right": 309.6875
+          }
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "rect": {
+            "x": 636,
+            "y": 204.5,
+            "width": 120,
+            "height": 120,
+            "bottom": 324.5,
+            "right": 756
+          },
+          "shadow": {
+            "x": 657.59375,
+            "y": 310.5,
+            "width": 76.8125,
+            "height": 9,
+            "bottom": 319.5,
+            "right": 734.40625
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "workbench",
+          "tag": "DIV",
+          "ariaHidden": "true",
+          "name": null,
+          "rect": {
+            "x": 400,
+            "y": 344.5,
+            "width": 224,
+            "height": 128,
+            "bottom": 472.5,
+            "right": 624
+          },
+          "parts": [
+            {
+              "id": "desk",
+              "x": 402.79998779296875,
+              "y": 414.1000061035156,
+              "width": 218.4000244140625,
+              "height": 47.600006103515625,
+              "bottom": 461.70001220703125,
+              "right": 621.2000122070312
+            },
+            {
+              "id": "rough",
+              "x": 456,
+              "y": 384.70001220703125,
+              "width": 123.20001220703125,
+              "height": 26.5999755859375,
+              "bottom": 411.29998779296875,
+              "right": 579.2000122070312
+            },
+            {
+              "id": "smooth",
+              "x": 456,
+              "y": 391.70001220703125,
+              "width": 123.20001220703125,
+              "height": 19.5999755859375,
+              "bottom": 411.29998779296875,
+              "right": 579.2000122070312
+            },
+            {
+              "id": "stone",
+              "x": 479.79998779296875,
+              "y": 360.8999938964844,
+              "width": 53.20001220703125,
+              "height": 25.20001220703125,
+              "bottom": 386.1000061035156,
+              "right": 533
+            },
+            {
+              "id": "marker",
+              "x": 489.6000061035156,
+              "y": 416.8999938964844,
+              "width": 11.199981689453125,
+              "height": 16.800018310546875,
+              "bottom": 433.70001220703125,
+              "right": 500.79998779296875
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "groupId": "xue-er-15-p03-r01",
+          "text": "子贡曰：“《诗》云：‘如切如磋，如琢如磨’，",
+          "rect": {
+            "x": 44,
+            "y": 624.5,
+            "width": 936,
+            "height": 108,
+            "bottom": 732.5,
+            "right": 980
+          },
+          "fontSize": "28px",
+          "pinyinSize": "16px",
+          "characters": [
+            {
+              "text": "子",
+              "pinyin": "zǐ",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 40,
+              "x": 114,
+              "y": 648.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 144
+            },
+            {
+              "text": "贡",
+              "pinyin": "gòng",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 41,
+              "x": 144,
+              "y": 649.5,
+              "width": 41.328125,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 185.328125
+            },
+            {
+              "text": "曰",
+              "pinyin": "yuē",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 42,
+              "x": 185.328125,
+              "y": 648.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 215.328125
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 43,
+              "x": 215.328125,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 243.328125
+            },
+            {
+              "text": "“",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s06",
+              "sourceIndex": 44,
+              "x": 243.328125,
+              "y": 652.5,
+              "width": 12.640625,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 255.96875
+            },
+            {
+              "text": "《",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 45,
+              "x": 255.96875,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 283.96875
+            },
+            {
+              "text": "诗",
+              "pinyin": "shī",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 46,
+              "x": 283.96875,
+              "y": 648.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 313.96875
+            },
+            {
+              "text": "》",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 47,
+              "x": 313.96875,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 341.96875
+            },
+            {
+              "text": "云",
+              "pinyin": "yún",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 48,
+              "x": 341.96875,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 371.96875
+            },
+            {
+              "text": "：",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 49,
+              "x": 371.96875,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 399.96875
+            },
+            {
+              "text": "‘",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 50,
+              "x": 399.96875,
+              "y": 652.5,
+              "width": 6.140625,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 406.109375
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 51,
+              "x": 406.109375,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 436.109375
+            },
+            {
+              "text": "切",
+              "pinyin": "qiē",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 52,
+              "x": 436.109375,
+              "y": 648.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 466.109375
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 53,
+              "x": 466.109375,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 496.109375
+            },
+            {
+              "text": "磋",
+              "pinyin": "cuō",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 54,
+              "x": 496.109375,
+              "y": 648.5,
+              "width": 30.625,
+              "height": 60,
+              "bottom": 708.5,
+              "right": 526.734375
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 55,
+              "x": 526.734375,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 554.734375
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 56,
+              "x": 554.734375,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 584.734375
+            },
+            {
+              "text": "琢",
+              "pinyin": "zhuó",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 57,
+              "x": 584.734375,
+              "y": 649.5,
+              "width": 39.328125,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 624.0625
+            },
+            {
+              "text": "如",
+              "pinyin": "rú",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 58,
+              "x": 624.0625,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 654.0625
+            },
+            {
+              "text": "磨",
+              "pinyin": "mó",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 59,
+              "x": 654.0625,
+              "y": 649.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 708.5,
+              "right": 684.0625
+            },
+            {
+              "text": "’",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 60,
+              "x": 684.0625,
+              "y": 652.5,
+              "width": 6.140625,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 690.203125
+            },
+            {
+              "text": "，",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s07",
+              "sourceIndex": 61,
+              "x": 690.203125,
+              "y": 652.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 708.5,
+              "right": 718.203125
+            }
+          ]
+        },
+        {
+          "groupId": "xue-er-15-p03-r02",
+          "text": "其斯之谓与？”",
+          "rect": {
+            "x": 44,
+            "y": 748.5,
+            "width": 936,
+            "height": 108,
+            "bottom": 856.5,
+            "right": 980
+          },
+          "fontSize": "28px",
+          "pinyinSize": "16px",
+          "characters": [
+            {
+              "text": "其",
+              "pinyin": "qí",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 62,
+              "x": 114,
+              "y": 773.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 832.5,
+              "right": 144
+            },
+            {
+              "text": "斯",
+              "pinyin": "sī",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 63,
+              "x": 144,
+              "y": 772.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 832.5,
+              "right": 174
+            },
+            {
+              "text": "之",
+              "pinyin": "zhī",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 64,
+              "x": 174,
+              "y": 772.5,
+              "width": 30,
+              "height": 60,
+              "bottom": 832.5,
+              "right": 204
+            },
+            {
+              "text": "谓",
+              "pinyin": "wèi",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 65,
+              "x": 204,
+              "y": 773.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 832.5,
+              "right": 234
+            },
+            {
+              "text": "与",
+              "pinyin": "yú",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 66,
+              "x": 234,
+              "y": 773.5,
+              "width": 30,
+              "height": 59,
+              "bottom": 832.5,
+              "right": 264
+            },
+            {
+              "text": "？",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 67,
+              "x": 264,
+              "y": 776.5,
+              "width": 28,
+              "height": 56,
+              "bottom": 832.5,
+              "right": 292
+            },
+            {
+              "text": "”",
+              "pinyin": "",
+              "segmentId": "xue-er-15-s08",
+              "sourceIndex": 68,
+              "x": 292,
+              "y": 776.5,
+              "width": 12.640625,
+              "height": 56,
+              "bottom": 832.5,
+              "right": 304.640625
+            }
+          ]
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "name": "返回论语目录",
+          "rect": {
+            "x": 44,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 108
+          }
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "name": "返回学而篇内章目",
+          "rect": {
+            "x": 120,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 184
+          }
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "name": "暂停朗读",
+          "rect": {
+            "x": 840,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 904
+          }
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "name": "停止自动朗读，进入自由互动",
+          "rect": {
+            "x": 916,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "bottom": 104,
+            "right": 980
+          }
+        },
+        {
+          "id": "prevPage",
+          "disabled": false,
+          "name": "上一页",
+          "rect": {
+            "x": 388,
+            "y": 548.5,
+            "width": 48,
+            "height": 48,
+            "bottom": 596.5,
+            "right": 436
+          }
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "name": "配音待就绪，开发预览不可朗读",
+          "rect": {
+            "x": 512,
+            "y": 540.5,
+            "width": 64,
+            "height": 64,
+            "bottom": 604.5,
+            "right": 576
+          }
+        },
+        {
+          "id": "nextPage",
+          "disabled": false,
+          "name": "下一页",
+          "rect": {
+            "x": 588,
+            "y": 548.5,
+            "width": 48,
+            "height": 48,
+            "bottom": 596.5,
+            "right": 636
+          }
+        }
+      ],
+      "overflow": false,
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "activeAnimations": 0,
+      "scrollAfterNavigation": 0,
+      "exactRenderedCharacters": true,
+      "screenshot": "docs/design/xue-er-phase-b/geometry/xue-er-15-p03-1024x768.png",
+      "chapterConcatenationEqualsFullText": null
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Silent development previews, not media readiness or listening approval.",
+    "Geometry mode injects the proposed configuration and CSS into browser memory only; it is not an engineering build."
+  ],
+  "previewHashesAfter": {
+    "build/xue-er-preview/xue-er-03.html": "1f43b38f9462c21b943d295dd705a46588a60c4b0feaf05ab3bc87498e1f71e4",
+    "build/xue-er-preview/xue-er-04.html": "83f702e43b411be8bd7dee920810a116ac5c94805f1b2324dd2dc1782187a6b4",
+    "build/xue-er-preview/xue-er-07.html": "59c18789c72ba13667381751391a070846e38fd5b635f9899d2b6dfdd6cbb64a",
+    "build/xue-er-preview/xue-er-15.html": "332857ceaaa2ebfa8c91edec34c8294624c1344b6fa172aba772b2227f6dc71b"
+  },
+  "previewFilesUnchanged": true,
+  "proposalConfigSha256": "5e5521f8ba8d8eb2d34e17955d0968b27ad0ac7d9b4c65a3cd8b566894f68dfb",
+  "proposalCssSha256": "085b52ff4c4c2bb8200b56d11193184bc637b54d1edbdd63d0d0a3a278c711cb",
+  "captureKind": "Design candidate injected in memory into existing file preview; not a product build",
+  "screenshotSha256": {
+    "docs/design/xue-er-phase-b/geometry/xue-er-03-p01-320x568.png": "8230578ae24ab457b63f9353342302335e1b2f4afeb12b872ecf1576e1ce1baf",
+    "docs/design/xue-er-phase-b/geometry/xue-er-04-p01-320x568.png": "e925d8782ccaf1599e77642a603e5b5891bbf867debca072f0c190c3a0be1edb",
+    "docs/design/xue-er-phase-b/geometry/xue-er-07-p01-320x568.png": "5577671bb198dfba4e82a2e870e49b9ec698d34100c35a6dbc4ec5fd60afda69",
+    "docs/design/xue-er-phase-b/geometry/xue-er-15-p03-320x568.png": "cd53a45e43a82f0f8ad72724fd4070183bea3d19eeb172aabf902fe9af5a2b78",
+    "docs/design/xue-er-phase-b/geometry/xue-er-03-p01-390x844.png": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+    "docs/design/xue-er-phase-b/geometry/xue-er-15-p03-390x844.png": "0d947bbf795ebee3927f25d0c7bafd117ac8221e2934775af362a0709a09e7a2",
+    "docs/design/xue-er-phase-b/geometry/xue-er-03-p01-1024x768.png": "2083b3fc6b2b2db54f91df21197a2daec17ed527beff4724401b9136892ac4b2",
+    "docs/design/xue-er-phase-b/geometry/xue-er-15-p03-1024x768.png": "94cb44512e3dfe61665fdcbc5681ad08dbd19b2e303d8457de58f8c39ee843d9"
+  }
+}

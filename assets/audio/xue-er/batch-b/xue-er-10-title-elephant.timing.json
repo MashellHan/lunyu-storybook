@@ -1,0 +1,36 @@
+{
+  "text": "论语，之，夫子至于是邦也。",
+  "dur": 4.44,
+  "t": [
+    0.058833,
+    0.426458,
+    null,
+    1.0,
+    null,
+    1.705875,
+    2.080875,
+    2.470583,
+    2.632353,
+    2.794125,
+    3.102958,
+    3.352958,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "74cdd6595686f47a8835475fdd08a05f0d8ba0a4b238e204d81f4f84cb57de4b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-title-elephant",
+      "rawSHA256": "bbb627e8f349bda3449f5c21195b035e7a8008bf6dd1fb365ff823b65fe64ab4",
+      "ssmlSHA256": "c39c1ba50886a25fe975459a188778f9ccc8a37f8c1252ea722ef832f2f6e775"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

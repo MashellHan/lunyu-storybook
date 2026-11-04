@@ -1,0 +1,30 @@
+{
+  "text": "吾日三省吾身：",
+  "dur": 2.448,
+  "t": [
+    0.058833,
+    0.455875,
+    0.705875,
+    1.044125,
+    1.264708,
+    1.529416,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "9a449a1a48247b08689f1ddf1148b6fda4e88ceaa404af35da81ee87320ebf99",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-04-s02-elephant",
+      "rawSHA256": "bb500fbe0c31ac73a0a26a35064bbef7eaae62e41d78b62d6a741f3dc979caac",
+      "ssmlSHA256": "70801c2aea6d112101915e946e963d0b2c146b9a2a2a065fd1a85990a40e4a18"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

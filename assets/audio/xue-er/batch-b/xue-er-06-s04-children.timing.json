@@ -1,0 +1,61 @@
+{
+  "text": "行有余力，则以学文。”",
+  "dur": 4.097667,
+  "t": [
+    0.056833,
+    0.394187,
+    0.731541,
+    1.068895,
+    null,
+    1.704541,
+    2.03125,
+    2.230125,
+    2.599416,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "c13939e7c41591dfac93f4e3aae1fdf6904acf66184c462b9ea606c1ba511791",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-06-s04-bunny",
+      "rawSHA256": "6646391ef2d36e2973fcfff09c21bec707635cd07c08732060580a7116a08334",
+      "ssmlSHA256": "15da8b3900b3308c71857d0501d5a0c078c2c6b4b3b37951ae54979f29a12042"
+    },
+    {
+      "id": "xue-er-06-s04-cat",
+      "rawSHA256": "16ad0c6480ab09747b0870378031bc164862e6da2bbcaee4671465e8f9b23fb5",
+      "ssmlSHA256": "bff2ca1410b69429cfd3f4b434fe630e24093a46343f6c9518276b55f03f18db"
+    },
+    {
+      "id": "xue-er-06-s04-dog",
+      "rawSHA256": "284725b58b74454c787d1b265c3ef559d0957a4b9fb68649a8f559757d5f9fae",
+      "ssmlSHA256": "20c196932fec361e14a8f7ecd1fb8475063ff53927a12bc1aa78cd66da7913a0"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.7951807228915663,
+        0.5783132530120482
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

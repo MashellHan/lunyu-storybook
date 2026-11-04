@@ -1,0 +1,35 @@
+{
+  "text": "谨而信，泛爱众，而亲仁，",
+  "dur": 2.592,
+  "t": [
+    0.082,
+    0.364,
+    0.552,
+    null,
+    1.148,
+    1.43,
+    1.571,
+    null,
+    1.854,
+    2.089,
+    2.277,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "0abb001f5e46938d84a05720c6dbb5c2468667518b66fc08e3b05511d527767f",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-06-s03-dog",
+      "rawSHA256": "ecd0b24cc7f585692e80e7f7b7b819ca0d85432b1a5ac40062a66f46abb0f8a6",
+      "ssmlSHA256": "9b8dc15b302535a3a4cc059e087c306949e5db3f59d89cc3dae1a42f909bfb75"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

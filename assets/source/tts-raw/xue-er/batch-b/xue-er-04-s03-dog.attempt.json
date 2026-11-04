@@ -1,0 +1,13 @@
+{
+  "id": "xue-er-04-s03-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "4ad8b97400fb4b753ae40dd46cf7709cd0c5b3e409e61ad90b560275fab25767",
+  "attemptId": "8f004df8-13d8-4d4c-ab65-8a5c8f59a263",
+  "startedAt": "2026-11-03T12:53:38.353140+00:00",
+  "status": "reserved",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10
+}

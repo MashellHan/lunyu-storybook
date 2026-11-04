@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-10-s02-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "f33efb0bb65bf76917992bffa876f51bec44a37cca28936823133a2069073aed",
+  "attemptId": "c3072dca-6b8d-49b0-90d8-125a0accac42",
+  "startedAt": "2026-11-03T12:59:55.180215+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:59:59.220476+00:00",
+  "rawSHA256": "c79c795c75ab83c6e7eef904a87fa2a2131f1c237c3f2c3e2159755eae87d775",
+  "wb": [
+    [
+      0.058833,
+      0.735291,
+      "夫子"
+    ],
+    [
+      0.808833,
+      0.338208,
+      "至于"
+    ],
+    [
+      1.147041,
+      0.264708,
+      "是"
+    ],
+    [
+      1.41175,
+      0.33825,
+      "邦"
+    ],
+    [
+      1.75,
+      0.367666,
+      "也"
+    ],
+    [
+      2.544125,
+      0.308833,
+      "必"
+    ],
+    [
+      2.852958,
+      0.205875,
+      "闻"
+    ],
+    [
+      3.058833,
+      0.264708,
+      "其"
+    ],
+    [
+      3.323541,
+      0.367625,
+      "政"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 263,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 269,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 270,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 271,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 272,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

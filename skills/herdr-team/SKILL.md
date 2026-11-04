@@ -30,7 +30,7 @@ herdr plugin action invoke ligd.agent-team.start  # 启动或聚焦 Lead
 ## 角色（roster）
 | 角色 | 文件 | 负责 | 只写 |
 |---|---|---|---|
-| Lead | roles/leader.md | 理解需求、拆任务、派活、验收、对用户汇报；所有“先问”的事由 Lead 问 | docs/、.agents/、README.md |
+| Lead | roles/leader.md | 理解需求、派活、验收、Git集成、PR和合并、对用户汇报 | docs/、.agents/、README.md；交接后的Git集成 |
 | Designer | roles/designer.md | 画面布局、角色动作、交互节奏；按 impeccable / hallmark 设计技能做方案和审查清单 | docs/design/ |
 | Engineer | roles/engineer.md | `src/`、`scripts/`、`tests/` 实现；保证 `npm test` 绿 | src/、scripts/、tests/ |
 | Reviewer | roles/reviewer.md | 独立只读审查：读音、点击路径、动画、减少动态效果、回归 | docs/reviews/ |
@@ -42,10 +42,14 @@ herdr plugin action invoke ligd.agent-team.start  # 启动或聚焦 Lead
 ## 交付关卡（Lead 验收前全部要过）
 1. `npm test` 全绿（构建 + 单文件 + Playwright）。
 2. 有界面变化：Playwright 截图（平板横屏 + 手机竖屏）由 Designer/Reviewer 看过。
-3. 有音频变化：**必须有人亲耳听过**（读音、语速、叫声音量）。代理不能替人听，没听就写“未试听”。
+3. 有音频变化：**必须有人亲耳听过**（读音、语速、叫声音量），除非负责人明确授权适用范围的例外。代理不能替人听，没听就写“未试听”；现有固定16章的发布授权不能延伸到未来新媒体。
 4. 不出现真实儿童或真人照片，也不把它们作为生图参考。
-5. **先问用户**：调用付费 API（Azure 配音、生图）、`npm run deploy`、`git push`、全局安装、公开链接。
+5. 已获授权的操作直接推进。大雄已要求现有仓库完成功能即commit、push、PR、独立review后merge，现有Cloudflare站点也已有持续发布授权；不要重复询问。新增付费调用、全局安装、创建公开仓库或新发布目标等超出既有授权的动作，由Lead先问。
 6. 不打印、不提交密钥。
+
+## 完成即提交
+
+遵守项目 [代码交付流程](../../docs/source-control-workflow.md)。Lead默认独占Git index/分支写操作，成员交回通过检查的逻辑完整功能后及时commit、push并创建或更新PR，不等全书结束再提交。Reviewer核对实际PR head并记录结论；有修改则重新核对受影响范围。无阻断问题且必需checks满足后，Lead合并并同步本地main，向用户报告链接与结果。同账号不能批准自己的PR时，明确记录独立代理的审查comment，不伪造GitHub批准，也不绕过分支保护。
 
 ## 相关技能
 [character-image-gen](../character-image-gen/SKILL.md) · [layered-character-animation](../layered-character-animation/SKILL.md) · [azure-tts-voices](../azure-tts-voices/SKILL.md) · [animal-sfx-sourcing](../animal-sfx-sourcing/SKILL.md) · [cloudflare-deploy](../cloudflare-deploy/SKILL.md)

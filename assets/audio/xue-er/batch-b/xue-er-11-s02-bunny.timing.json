@@ -1,0 +1,37 @@
+{
+  "text": "父在，观其志；父没，观其行；",
+  "dur": 5.424,
+  "t": [
+    0.056833,
+    0.340916,
+    null,
+    1.008541,
+    1.321041,
+    1.676125,
+    null,
+    2.34375,
+    2.642041,
+    null,
+    3.338083,
+    3.664791,
+    4.005666,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "9771b67b3e92589110d1aa40ed6861fb845ad7e525ea5c2e0d04b9bb7926144e",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-11-s02-bunny",
+      "rawSHA256": "110d2a55820aebd5158ac67955b47521e010bb14a4e760c43a0898c16caeaa1c",
+      "ssmlSHA256": "35446bbd5b1448f56e95f299797cf728b5d16cdbd952252aeeb5916af1e78a00"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

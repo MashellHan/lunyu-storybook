@@ -1,0 +1,55 @@
+{
+  "reviewedAt": "2026-11-03T14:04:38.848713+00:00",
+  "status": "authorization-scope-and-integration-passed",
+  "authorization": {
+    "file": "docs/xue-er-release-authorization.json",
+    "sha256": "9dcafa05a26b38c05c14c5c770221d7c3de7d7bcc2a6324d4aa26e23d54b51c2",
+    "verbatimInstruction": "直接全部部署",
+    "chapters": [
+      "xue-er-01",
+      "xue-er-02",
+      "xue-er-03",
+      "xue-er-04",
+      "xue-er-05",
+      "xue-er-06",
+      "xue-er-07",
+      "xue-er-08",
+      "xue-er-09",
+      "xue-er-10",
+      "xue-er-11",
+      "xue-er-12",
+      "xue-er-13",
+      "xue-er-14",
+      "xue-er-15",
+      "xue-er-16"
+    ],
+    "allowPublicationWithoutListening": true,
+    "humanListeningApproved": false,
+    "content": {
+      "file": "docs/content/xue-er.json",
+      "sha256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73"
+    },
+    "mediaManifest": {
+      "file": "src/chapter-media.json",
+      "sha256": "83457528c86cca2ee737095447e241814b781b7a022bcd65e34222a1586bbe5c"
+    },
+    "audioFiles": 305,
+    "timingFiles": 291,
+    "audioSetSHA256": "5694faf4fce7362b0bd4dac790ce7e6f831a02ec447c99c7c1e5e0f1a15cce03",
+    "timingSetSHA256": "e17e10bc68b3e8533394122da6a21ed201dd5d08d73cfcdc186062d05346e2f3"
+  },
+  "manifestReferences": 370,
+  "listeningApprovalsInManifest": 0,
+  "closedMediaFingerprintsReused": true,
+  "audioFilesRehashedOrDecoded": 0,
+  "findings": [],
+  "implementationReview": {
+    "status": "passed",
+    "report": "docs/reviews/xue-er-direct-release.md",
+    "evidence": "docs/reviews/xue-er-direct-release-integration-check.json",
+    "fullSuitePassed": 71,
+    "humanListeningApproved": false
+  },
+  "scope": "Exact current volume/content/manifest/file hashes only; no human listening approval or future media waiver implied.",
+  "integrationClosedAt": "2026-11-03T14:25:56.580989+00:00"
+}

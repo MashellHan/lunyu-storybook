@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-11-03T13:14:36.953498+00:00",
+  "protectedBaseline": "docs/reviews/xue-er-real-media-protected-before-b-process.json",
+  "protectedFiles": 839,
+  "changedFiles": [],
+  "meaning": "All original A/B attempts/results/raw audio, A processed audio/timing and candidate, existing v5/protected assets/lock, approvals/content and published HTML retain reviewed bytes.",
+  "Bcandidate": {
+    "file": "assets/audio/xue-er/batch-b/media-candidate.json",
+    "sha256": "b4e80d04d725e9e092a7a6427b8d540b6fbca0bed802034b3abe263a96616220",
+    "expectedSHA256": "b4e80d04d725e9e092a7a6427b8d540b6fbca0bed802034b3abe263a96616220",
+    "segments": 69,
+    "titles": 15,
+    "missing": [],
+    "pendingListening": 290,
+    "publicationReady": false
+  }
+}

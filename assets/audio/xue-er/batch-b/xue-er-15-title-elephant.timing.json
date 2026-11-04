@@ -1,0 +1,33 @@
+{
+  "text": "论语，之，贫而无谄。",
+  "dur": 3.864,
+  "t": [
+    0.058833,
+    0.441166,
+    null,
+    1.132333,
+    null,
+    1.867666,
+    2.382333,
+    2.602958,
+    2.794125,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "fc1adba567434ab0b0d23b947aaa99189dcd07a2693a836fa7ad03667340353f",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-title-elephant",
+      "rawSHA256": "d04e9139c5884233d54dcb484d7507a6b5da8206ec3cb394bd0febda043150d7",
+      "ssmlSHA256": "cbfc7874c669f8e1a63333a30bf2e8c7dd812903bc83efa508f7e07378610630"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,684 @@
+{
+  "checkedAt": "2026-11-03T12:30:47.100340+00:00",
+  "inputSnapshotAggregate": "36ce75f047f73f1ab7ed49c17e2d0278d952dc9ef2e8fe1cb2c4464421e9c8c1",
+  "manifestAggregateMatches": true,
+  "scope": "Existing integrated scenes and B2 only. No build, test suite, media or homepage audit.",
+  "inputs": {
+    "src/app.js": {
+      "sha256": "1dd60948844378a24efce5361b7e8cc44ab81c40b2ba46fda1638997dfefb8dd",
+      "matchesFrozen": true
+    },
+    "src/chapter-player.js": {
+      "sha256": "1c984b0cb11ca788eeb54787af71cfc800b248949dc666512a86b5dbe2c39da9",
+      "matchesFrozen": true
+    },
+    "src/chapter.css": {
+      "sha256": "7db8fffa8cba7a309002a6bc6750c09a07042c390f024d6ac47506a538fc0dcd",
+      "matchesFrozen": true
+    },
+    "src/catalog.json": {
+      "sha256": "273cb0305ad7787063c808576613cd79cf382f3d5b33954dbca96ac4ecae5c35",
+      "matchesFrozen": true
+    },
+    "src/volume.html": {
+      "sha256": "22c9b035d43c6d92d7776d797794f9a54c884082f1431f8f6fce2e2eaec4d4be",
+      "matchesFrozen": true
+    },
+    "src/volume.css": {
+      "sha256": "5cc0ded10b3a91dada1ab05ce76e89a4ced9b99eb32d33a231b4dc680db94a63",
+      "matchesFrozen": true
+    },
+    "scripts/chapter-data.mjs": {
+      "sha256": "71589fdd4e28f806929a3ec4dcc18bad50b78b9c8b7f8a3ed65ddfe7ccd6236c",
+      "matchesFrozen": true
+    },
+    "scripts/build.mjs": {
+      "sha256": "08b31c20c5e295038156bd57736afcd10d652450c8ab24977bac352abfe01109",
+      "matchesFrozen": true
+    },
+    "tests/chapters.spec.js": {
+      "sha256": "3511005a64a041c92744ed53b6ba4d5d0a8e942d7abfcd5c33d59cd31469e99a",
+      "matchesFrozen": true
+    },
+    "docs/design/xue-er-scene-config.json": {
+      "sha256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+      "matchesFrozen": true
+    },
+    "docs/design/xue-er-scene-ground-proposal.css": {
+      "sha256": "df6210c5409af120ab8486585c1b775f0b95e222c73b10990c54998e34119393",
+      "matchesFrozen": true
+    },
+    "docs/content/xue-er.json": {
+      "sha256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+      "matchesFrozen": true
+    }
+  },
+  "previewHtml": [
+    {
+      "path": "build/xue-er-preview/xue-er-03.html",
+      "sha256": "d1abbaa1e1621cea160ef20737d96f2d3be3dece9825330d953de66dacaaadc8",
+      "bytes": 362622,
+      "appMatchesFrozenSourceAfterDataSubstitution": true,
+      "playerMatchesSource": true,
+      "chapterCssMatchesSource": true,
+      "sceneMatchesDesign": true,
+      "templatesMatchDesign": true,
+      "pageInterfacesMatchDesign": true,
+      "fullTextPreserved": true,
+      "pinyinPreserved": true,
+      "preview": true,
+      "playable": false,
+      "embeddedAudio": false
+    },
+    {
+      "path": "build/xue-er-preview/xue-er-04.html",
+      "sha256": "4946122a60ae3af04cd957a76b0fe9f9cdf05d6b0ef0f9c811f4ebbecdb2a9ad",
+      "bytes": 365653,
+      "appMatchesFrozenSourceAfterDataSubstitution": true,
+      "playerMatchesSource": true,
+      "chapterCssMatchesSource": true,
+      "sceneMatchesDesign": true,
+      "templatesMatchDesign": true,
+      "pageInterfacesMatchDesign": true,
+      "fullTextPreserved": true,
+      "pinyinPreserved": true,
+      "preview": true,
+      "playable": false,
+      "embeddedAudio": false
+    },
+    {
+      "path": "build/xue-er-preview/xue-er-05.html",
+      "sha256": "503a931fd8b82ba14f58d1bd195c266c3c2ebbd6d0d483a7903e9c56b1d7148b",
+      "bytes": 363921,
+      "appMatchesFrozenSourceAfterDataSubstitution": true,
+      "playerMatchesSource": true,
+      "chapterCssMatchesSource": true,
+      "sceneMatchesDesign": true,
+      "templatesMatchDesign": true,
+      "pageInterfacesMatchDesign": true,
+      "fullTextPreserved": true,
+      "pinyinPreserved": true,
+      "preview": true,
+      "playable": false,
+      "embeddedAudio": false
+    },
+    {
+      "path": "build/xue-er-preview/xue-er-10.html",
+      "sha256": "f0e2280fafde949c2fc9183e4394bc215afa71ca38fec9007a111adee8bebca6",
+      "bytes": 366308,
+      "appMatchesFrozenSourceAfterDataSubstitution": true,
+      "playerMatchesSource": true,
+      "chapterCssMatchesSource": true,
+      "sceneMatchesDesign": true,
+      "templatesMatchDesign": true,
+      "pageInterfacesMatchDesign": true,
+      "fullTextPreserved": true,
+      "pinyinPreserved": true,
+      "preview": true,
+      "playable": false,
+      "embeddedAudio": false
+    },
+    {
+      "path": "build/xue-er-preview/xue-er-11.html",
+      "sha256": "48b1890126fc734871b3b6c7050a33ed9c21656749d25b74b9890652c93b1d99",
+      "bytes": 363426,
+      "appMatchesFrozenSourceAfterDataSubstitution": true,
+      "playerMatchesSource": true,
+      "chapterCssMatchesSource": true,
+      "sceneMatchesDesign": true,
+      "templatesMatchDesign": true,
+      "pageInterfacesMatchDesign": true,
+      "fullTextPreserved": true,
+      "pinyinPreserved": true,
+      "preview": true,
+      "playable": false,
+      "embeddedAudio": false
+    },
+    {
+      "path": "build/xue-er-preview/xue-er-13.html",
+      "sha256": "75b43f6ee437118f9fe44c4b2f20e2027a274715cf20e1d1f4f2323da29485d3",
+      "bytes": 363917,
+      "appMatchesFrozenSourceAfterDataSubstitution": true,
+      "playerMatchesSource": true,
+      "chapterCssMatchesSource": true,
+      "sceneMatchesDesign": true,
+      "templatesMatchDesign": true,
+      "pageInterfacesMatchDesign": true,
+      "fullTextPreserved": true,
+      "pinyinPreserved": true,
+      "preview": true,
+      "playable": false,
+      "embeddedAudio": false
+    },
+    {
+      "path": "build/xue-er-preview/xue-er-15.html",
+      "sha256": "bec2b8ed0413bbbf064d7d68b75e9507e6ea8a458b89249e6a179b6c81baae8b",
+      "bytes": 369017,
+      "appMatchesFrozenSourceAfterDataSubstitution": true,
+      "playerMatchesSource": true,
+      "chapterCssMatchesSource": true,
+      "sceneMatchesDesign": true,
+      "templatesMatchDesign": true,
+      "pageInterfacesMatchDesign": true,
+      "fullTextPreserved": true,
+      "pinyinPreserved": true,
+      "preview": true,
+      "playable": false,
+      "embeddedAudio": false
+    }
+  ],
+  "productionVolumes": [
+    {
+      "path": "public/learn/xue-er/index.html",
+      "sha256": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+      "entries": [
+        {
+          "id": "chapter-1",
+          "publicationReady": "false",
+          "edition": "legacy-demo",
+          "links": [
+            {
+              "href": "/learn/xue-er/1/",
+              "label": "1 学而时习之，现有三句原文"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-2",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-3",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-4",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-5",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-6",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-7",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-8",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-9",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-10",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-11",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-12",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-13",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-14",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-15",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-16",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        }
+      ],
+      "chapterCount": 16,
+      "linkedChapterCount": 1,
+      "audioOrPreload": false
+    },
+    {
+      "path": "dist/xue-er.html",
+      "sha256": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a",
+      "entries": [
+        {
+          "id": "chapter-1",
+          "publicationReady": "false",
+          "edition": "legacy-demo",
+          "links": [
+            {
+              "href": "./index-single.html",
+              "label": "1 学而时习之，现有三句原文"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-2",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-3",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-4",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-5",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-6",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-7",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-8",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-9",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-10",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-11",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-12",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-13",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-14",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-15",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-16",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        }
+      ],
+      "chapterCount": 16,
+      "linkedChapterCount": 1,
+      "audioOrPreload": false
+    },
+    {
+      "path": "build/xue-er-preview/xue-er.html",
+      "sha256": "cb52cc7bfccf6f861a5739feed4d18412360aade9e1aa67d20d70d2cc49512d8",
+      "entries": [
+        {
+          "id": "chapter-1",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./index-single.html",
+              "label": "1 学而时习之，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-2",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-02.html",
+              "label": "2 其为人也孝弟，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-3",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-03.html",
+              "label": "3 巧言令色，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-4",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-04.html",
+              "label": "4 吾日三省吾身，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-5",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-05.html",
+              "label": "5 道千乘之国，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-6",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-06.html",
+              "label": "6 弟子入则孝，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-7",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-07.html",
+              "label": "7 贤贤易色，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-8",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-08.html",
+              "label": "8 君子不重则不威，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-9",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-09.html",
+              "label": "9 慎终追远，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-10",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-10.html",
+              "label": "10 夫子至于是邦也，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-11",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-11.html",
+              "label": "11 父在观其志，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-12",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-12.html",
+              "label": "12 礼之用和为贵，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-13",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-13.html",
+              "label": "13 信近于义，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-14",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-14.html",
+              "label": "14 君子食无求饱，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-15",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-15.html",
+              "label": "15 贫而无谄，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-16",
+          "publicationReady": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-16.html",
+              "label": "16 不患人之不己知，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        }
+      ],
+      "chapterCount": 16,
+      "linkedChapterCount": 16,
+      "audioOrPreload": false
+    }
+  ],
+  "readiness": [
+    {
+      "path": "build/xue-er-readiness-online.json",
+      "sha256": "4feb0bca06bf7f972088350a746fa139adb007b16b90eb8901964da805f6d292",
+      "sceneSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+      "counts": {
+        "chapters": 16,
+        "pages": 26,
+        "segments": 72,
+        "groups": 49
+      },
+      "readyCount": 0,
+      "preview": false
+    },
+    {
+      "path": "build/xue-er-readiness-offline.json",
+      "sha256": "a25da9c2e6b1a5f5b26e51ea4a5aec7017da9256426c89f692f9d0a72c973f5a",
+      "sceneSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+      "counts": {
+        "chapters": 16,
+        "pages": 26,
+        "segments": 72,
+        "groups": 49
+      },
+      "readyCount": 0,
+      "preview": false
+    },
+    {
+      "path": "build/xue-er-readiness-preview.json",
+      "sha256": "73549c44bc8a2f1b3be6c6c89d8bc551da3cf443f6ace4dfc336155670548ab9",
+      "sceneSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+      "counts": {
+        "chapters": 16,
+        "pages": 26,
+        "segments": 72,
+        "groups": 49
+      },
+      "readyCount": 0,
+      "preview": true
+    }
+  ],
+  "pending": "New accepted full suite and final frozen manifest. Current run has timing failures and is not accepted.",
+  "proposalCssIncludedExactly": true,
+  "productionChapterFiles": {
+    "onlinePresent": [
+      "1"
+    ],
+    "offlineNonReadyFiles": [],
+    "offlineLegacyDemo": true,
+    "runtimeFixtureExcluded": true
+  },
+  "productionHtml": {
+    "public/learn/xue-er/index.html": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+    "public/learn/xue-er/1/index.html": "5ad4437835201b1d0a4c3d9ee90be39f74a4362d876a2c845b22ba53b2c31e51",
+    "dist/xue-er.html": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a",
+    "dist/index-single.html": "63aa2f64956ea148fffb4011159e5933e64b1d01f9bdf6d6352eebc1eb6349dc"
+  },
+  "sourceAndOutputChecksPass": true,
+  "productionIsolationVerified": true
+}

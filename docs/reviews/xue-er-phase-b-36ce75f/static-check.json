@@ -1,0 +1,2385 @@
+{
+  "reviewedAt": "2026-11-03T12:32:31.307772+00:00",
+  "kind": "candidate-static-review-only",
+  "inputFingerprint": {
+    "file": "tests/artifacts/xue-er-phase-b/frozen-inputs-before.json",
+    "expected": "36ce75f047f73f1ab7ed49c17e2d0278d952dc9ef2e8fe1cb2c4464421e9c8c1",
+    "actual": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+    "count": 48,
+    "files": {
+      "docs/content/xue-er-validation.json": "fa86e830a49a5b24891bff2178fc3fcede184be6fa55833858e0c9c138335b9b",
+      "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+      "docs/design/xue-er-scene-config.json": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+      "docs/design/xue-er-scene-ground-proposal.css": "df6210c5409af120ab8486585c1b775f0b95e222c73b10990c54998e34119393",
+      "docs/tts/xue-er-generation-request-b.json": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+      "docs/tts/xue-er-generation-request.json": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+      "package-lock.json": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+      "package.json": "b0c7269ccf2443ec75d90a9460755808135eb47b8f35b2e0df27c82398719f91",
+      "playwright.config.js": "ce16a3e5e979a34a0e145cc21e129525f07d54c5927bbcb3307de127c5f0410c",
+      "scripts/build.mjs": "08b31c20c5e295038156bd57736afcd10d652450c8ab24977bac352abfe01109",
+      "scripts/chapter-data.mjs": "71589fdd4e28f806929a3ec4dcc18bad50b78b9c8b7f8a3ed65ddfe7ccd6236c",
+      "scripts/image/clean.py": "19f46e7438e4ba22eaa73aa137b494a4fc021a275d9117b63767cba616e4a2a4",
+      "scripts/image/common.py": "be3890e5f79f8fe118b781caae2c7caec881d516b1d24dd91aee441820b01474",
+      "scripts/image/export.py": "c5b2e0875095080e5ef0a741d051fa8f16625a54c9feca582298e764be3716bc",
+      "scripts/image/layers_bunny.py": "c4be79d7b918a11830e892fd95197ea64e9b0817b3df24187315181e1f1ede93",
+      "scripts/image/layers_dog.py": "36f7c125585e1b853ff4c2b6978fd5940671a089b1ad567e49e05308f737e86e",
+      "scripts/import-chapter-media.mjs": "0c6f3e1428dd015fc6da98f8ab90ff8c3b801d9bb8a796cf975815f42c249174",
+      "scripts/requirements.txt": "00a216254e7c683178fdd3ef9db3992d266f3cc139fdb1a94c5bf5cb07a7075c",
+      "scripts/serve.mjs": "3a10312e4dca7f8582b3f3fb19597d23ea2cbd1e44bc311ec5530b58cecaebdb",
+      "scripts/sfx/make.py": "60e02bcf9614ee426f8e7974ce9df8301a80b1b49c76744fd1668022bd3b7fb4",
+      "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+      "scripts/tts/config.py": "5b8947b8ceedf4c92b6f8387d7c3b5716c1e296374d9115f4d2160d3f58b5f60",
+      "scripts/tts/gen.py": "3d39e408bd32ce8ad926dcde5275ba355ab09072f0f4e7b0d44a1f0613388baf",
+      "scripts/tts/process.py": "d4773c45efcfeedc8a39c3c346c15322fc00e611889152d5ef3a3fc2086f42a0",
+      "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab",
+      "src/_headers": "6cce4e01dd6faf1733da53dfa946a1ffde66c3224da5184fa53abfc9f01214ef",
+      "src/app.js": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "src/catalog.json": "273cb0305ad7787063c808576613cd79cf382f3d5b33954dbca96ac4ecae5c35",
+      "src/chapter-media.json": "27da14065dff01ca75eed78c219f8f0dbdfc5ec5d9d4c09f736f68dc2aaca6ef",
+      "src/chapter-player.js": "1c984b0cb11ca788eeb54787af71cfc800b248949dc666512a86b5dbe2c39da9",
+      "src/chapter.css": "7db8fffa8cba7a309002a6bc6750c09a07042c390f024d6ac47506a538fc0dcd",
+      "src/home.css": "2fbe1d045b88285fdcc9302164a88af0a37893b97367306708741c0f98ae7948",
+      "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+      "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+      "src/index.html": "2f9f135791c7f7a83134978f6c08150a6733abe88ebab11a022a938d0309f00e",
+      "src/styles.css": "4f8e61889207ef10cf2e226c90b88f78a2bfdd7931904ff922185ff8492f59c0",
+      "src/volume.css": "5cc0ded10b3a91dada1ab05ce76e89a4ced9b99eb32d33a231b4dc680db94a63",
+      "src/volume.html": "22c9b035d43c6d92d7776d797794f9a54c884082f1431f8f6fce2e2eaec4d4be",
+      "tests/cancellation.spec.js": "81b497e578e0a0a56ad06bcaae7b0c63e9f2628f6c1bfc5c3404870c08bdeb9a",
+      "tests/chapter-data.spec.js": "604f7d9df6fa4a271fff563626ef122f19cca4752b44e2862cf784ef7f056e11",
+      "tests/chapter-fixture.mjs": "8c0b5612ba6503fe9056b4341c3659e9d554aba8db63ebf9385e7ad8a97d2254",
+      "tests/chapters.spec.js": "8ea362e04b2baedab8b6eb76ed4ee91d64a44ac27a625b76b0fffb9d4f0f4fb2",
+      "tests/helpers.js": "696c23b0b5b2127da6550903e81b8580e2a0fe3d114cca071cf76f5302b1da3a",
+      "tests/homepage.spec.js": "27a1924e24b6a6c253e5562b8c4e4201ae8e0c73f50ec56554b40c221e994c3f",
+      "tests/lifecycle.spec.js": "e2aa21114a4192a227353d5d26eb33428f59e1d4aa748f9ebf411957a16b1a44",
+      "tests/responsive.spec.js": "acf511dcb544cc9d526264e71645fcfd999636547f1b9088363b7a131bf66848",
+      "tests/single-file.spec.js": "e08f92ebeb7c3a5fb5da1ca099a6913a2acb2a5e2fbb079446355020cb8511f3",
+      "tests/smoke.spec.js": "6b2cb4994b23368c398379f4a4bba54a47a7281a28feb0f023c8d597d56ede83"
+    }
+  },
+  "checks": 370,
+  "findings": [
+    {
+      "where": "tests/artifacts/xue-er-phase-b/frozen-inputs-before.json",
+      "expectation": "48/48 frozen inputs and aggregate match"
+    },
+    {
+      "where": "dist/index-single.html",
+      "expectation": "embedded app.js matches source except the three JSON payloads"
+    }
+  ],
+  "previews": [
+    {
+      "file": "build/xue-er-preview/index-single.html",
+      "chapter": 1,
+      "pages": 1,
+      "segments": 4,
+      "groups": 3,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-02.html",
+      "chapter": 2,
+      "pages": 2,
+      "segments": 5,
+      "groups": 4,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-03.html",
+      "chapter": 3,
+      "pages": 1,
+      "segments": 2,
+      "groups": 1,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-04.html",
+      "chapter": 4,
+      "pages": 2,
+      "segments": 5,
+      "groups": 4,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-05.html",
+      "chapter": 5,
+      "pages": 1,
+      "segments": 4,
+      "groups": 3,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-06.html",
+      "chapter": 6,
+      "pages": 2,
+      "segments": 4,
+      "groups": 3,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-07.html",
+      "chapter": 7,
+      "pages": 3,
+      "segments": 6,
+      "groups": 5,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-08.html",
+      "chapter": 8,
+      "pages": 1,
+      "segments": 4,
+      "groups": 3,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-09.html",
+      "chapter": 9,
+      "pages": 1,
+      "segments": 2,
+      "groups": 1,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-10.html",
+      "chapter": 10,
+      "pages": 2,
+      "segments": 7,
+      "groups": 4,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-11.html",
+      "chapter": 11,
+      "pages": 1,
+      "segments": 3,
+      "groups": 2,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-12.html",
+      "chapter": 12,
+      "pages": 2,
+      "segments": 5,
+      "groups": 4,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-13.html",
+      "chapter": 13,
+      "pages": 1,
+      "segments": 4,
+      "groups": 3,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-14.html",
+      "chapter": 14,
+      "pages": 1,
+      "segments": 4,
+      "groups": 3,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-15.html",
+      "chapter": 15,
+      "pages": 4,
+      "segments": 11,
+      "groups": 5,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    },
+    {
+      "file": "build/xue-er-preview/xue-er-16.html",
+      "chapter": 16,
+      "pages": 1,
+      "segments": 2,
+      "groups": 1,
+      "normalizedAppSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "chapterCodePresent": true
+    }
+  ],
+  "directories": [
+    {
+      "file": "public/learn/xue-er/index.html",
+      "preview": false,
+      "entries": [
+        {
+          "id": "chapter-1",
+          "ready": "false",
+          "edition": "legacy-demo",
+          "links": [
+            {
+              "href": "/learn/xue-er/1/",
+              "ariaLabel": "1 学而时习之，现有三句原文"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-2",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-3",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-4",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-5",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-6",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-7",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-8",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-9",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-10",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-11",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-12",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-13",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-14",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-15",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-16",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "file": "dist/xue-er.html",
+      "preview": false,
+      "entries": [
+        {
+          "id": "chapter-1",
+          "ready": "false",
+          "edition": "legacy-demo",
+          "links": [
+            {
+              "href": "./index-single.html",
+              "ariaLabel": "1 学而时习之，现有三句原文"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-2",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-3",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-4",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-5",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-6",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-7",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-8",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-9",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-10",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-11",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-12",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-13",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-14",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-15",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        },
+        {
+          "id": "chapter-16",
+          "ready": "false",
+          "edition": "pending",
+          "links": [],
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "file": "build/xue-er-preview/xue-er.html",
+      "preview": true,
+      "entries": [
+        {
+          "id": "chapter-1",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./index-single.html",
+              "ariaLabel": "1 学而时习之，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-2",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-02.html",
+              "ariaLabel": "2 其为人也孝弟，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-3",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-03.html",
+              "ariaLabel": "3 巧言令色，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-4",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-04.html",
+              "ariaLabel": "4 吾日三省吾身，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-5",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-05.html",
+              "ariaLabel": "5 道千乘之国，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-6",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-06.html",
+              "ariaLabel": "6 弟子入则孝，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-7",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-07.html",
+              "ariaLabel": "7 贤贤易色，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-8",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-08.html",
+              "ariaLabel": "8 君子不重则不威，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-9",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-09.html",
+              "ariaLabel": "9 慎终追远，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-10",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-10.html",
+              "ariaLabel": "10 夫子至于是邦也，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-11",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-11.html",
+              "ariaLabel": "11 父在观其志，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-12",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-12.html",
+              "ariaLabel": "12 礼之用和为贵，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-13",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-13.html",
+              "ariaLabel": "13 信近于义，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-14",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-14.html",
+              "ariaLabel": "14 君子食无求饱，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-15",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-15.html",
+              "ariaLabel": "15 贫而无谄，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        },
+        {
+          "id": "chapter-16",
+          "ready": "false",
+          "edition": "pending",
+          "links": [
+            {
+              "href": "./xue-er-16.html",
+              "ariaLabel": "16 不患人之不己知，开发预览，配音尚未就绪"
+            }
+          ],
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "http": [
+    {
+      "route": "/learn/xue-er/",
+      "status": 200,
+      "bytes": 9289,
+      "sha256": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df"
+    },
+    {
+      "route": "/learn/xue-er/1/",
+      "status": 200,
+      "bytes": 568535,
+      "sha256": "d68901a4dc47b06c33639fedeef470c309d283270ed8b8fcf7dc6c1bbf01496c"
+    }
+  ],
+  "artifacts": {
+    "build/xue-er-preview/index-single.html": {
+      "sha256": "3045a78e066e3e9276d2a9edc1c7b4d1eaffa2c436e48e56a69ddd21209be4ef",
+      "bytes": 361579
+    },
+    "build/xue-er-preview/xue-er-02.html": {
+      "sha256": "8aa8eeee162e6cb1557ef90123fe54b036fc15abac662b6c9474c7f9f078d1b0",
+      "bytes": 367153
+    },
+    "build/xue-er-preview/xue-er-03.html": {
+      "sha256": "f193f2c73c6dc51d883de5da7ed065c7f1c721fc3f5167b96eb3741abe30ec08",
+      "bytes": 362839
+    },
+    "build/xue-er-preview/xue-er-04.html": {
+      "sha256": "7f3fbe48608b9869b8d2026f6e3b8c4245ddf6d57fa0f044331ee2a8516775ee",
+      "bytes": 365870
+    },
+    "build/xue-er-preview/xue-er-05.html": {
+      "sha256": "8c3f1aa7f5a578c07f78d64247736a3bf3cdcf0d77f2b656cfbfdd498c9f27ab",
+      "bytes": 364138
+    },
+    "build/xue-er-preview/xue-er-06.html": {
+      "sha256": "63d3a21fdd99757b0a9095d32a08bba8bc6c6280c8ac9695c65d02be0ef3ace2",
+      "bytes": 365395
+    },
+    "build/xue-er-preview/xue-er-07.html": {
+      "sha256": "3d2276b255ecdc37c1a083505e309255e3889d3ddee38025089a0ff13d9accaf",
+      "bytes": 366855
+    },
+    "build/xue-er-preview/xue-er-08.html": {
+      "sha256": "bb12939a01f87fc04203dc857669da1491e7accce17dbbab6918973dd9ab79f8",
+      "bytes": 363552
+    },
+    "build/xue-er-preview/xue-er-09.html": {
+      "sha256": "e453e4f2f21322247059bc63082c9d2ce09fd0e78cb55383e09bbb4615c1b842",
+      "bytes": 362390
+    },
+    "build/xue-er-preview/xue-er-10.html": {
+      "sha256": "6452ce119742c975d8bba1fc0969cf318cb8a89d40de3b3f0171b897febd7d59",
+      "bytes": 366525
+    },
+    "build/xue-er-preview/xue-er-11.html": {
+      "sha256": "a11d9168f36a0eb5cdc18959faffa21c00ff85bcaff0d235293f0b839901fca3",
+      "bytes": 363643
+    },
+    "build/xue-er-preview/xue-er-12.html": {
+      "sha256": "55900f2855de3d6dc29df08c7ab695fffd153ff43dff86a004626edef4f8e596",
+      "bytes": 365188
+    },
+    "build/xue-er-preview/xue-er-13.html": {
+      "sha256": "3512945bf2f435d7e11c6c4241ef19e10bf455a74c584aa5a0c383e792d1e6f4",
+      "bytes": 364134
+    },
+    "build/xue-er-preview/xue-er-14.html": {
+      "sha256": "7521bc0515fb23a105caa95047364628989950261b0c6c109226ceac80727122",
+      "bytes": 364754
+    },
+    "build/xue-er-preview/xue-er-15.html": {
+      "sha256": "3842d843fdd812b9dd1cdb9cf4f698ff6dd76dc5e497e30f39b110117d32f6f5",
+      "bytes": 369234
+    },
+    "build/xue-er-preview/xue-er-16.html": {
+      "sha256": "1b73208fe9cce772ba385b3ea760618d00ee86c11cb22397158bf8f96197439b",
+      "bytes": 361969
+    },
+    "public/learn/xue-er/index.html": {
+      "sha256": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+      "bytes": 9289
+    },
+    "dist/xue-er.html": {
+      "sha256": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a",
+      "bytes": 9289
+    },
+    "build/xue-er-preview/xue-er.html": {
+      "sha256": "cb52cc7bfccf6f861a5739feed4d18412360aade9e1aa67d20d70d2cc49512d8",
+      "bytes": 8812
+    },
+    "public/index.html": {
+      "sha256": "d1686239c8584129988138ac1c525bb74ce3bdf796e3a8e90071dd5f9ec1b085",
+      "bytes": 19422
+    },
+    "public/learn/xue-er/1/index.html": {
+      "sha256": "d68901a4dc47b06c33639fedeef470c309d283270ed8b8fcf7dc6c1bbf01496c",
+      "bytes": 568535
+    },
+    "dist/index-single.html": {
+      "sha256": "63aa2f64956ea148fffb4011159e5933e64b1d01f9bdf6d6352eebc1eb6349dc",
+      "bytes": 833452
+    },
+    "dist/index.html": {
+      "sha256": "7a53c19a9f107120ef5de3401dd4d48ce83ae58247ca8bbf1391f1dfc8b3c228",
+      "bytes": 410390
+    },
+    "build/xue-er-readiness-online.json": {
+      "sha256": "4feb0bca06bf7f972088350a746fa139adb007b16b90eb8901964da805f6d292",
+      "bytes": 18202
+    },
+    "build/xue-er-readiness-offline.json": {
+      "sha256": "a25da9c2e6b1a5f5b26e51ea4a5aec7017da9256426c89f692f9d0a72c973f5a",
+      "bytes": 18200
+    },
+    "build/xue-er-readiness-preview.json": {
+      "sha256": "73549c44bc8a2f1b3be6c6c89d8bc551da3cf443f6ace4dfc336155670548ab9",
+      "bytes": 18215
+    }
+  },
+  "releaseAccepted": false,
+  "limitations": [
+    "No build, frontend suite, timing repro, SDK or synthesis executed.",
+    "Static previews do not establish new media or publication readiness.",
+    "Physical devices, real new audio, human listening and billing not verified."
+  ],
+  "productionHTMLFiles": {
+    "public": [
+      "index.html",
+      "learn/xue-er/1/index.html",
+      "learn/xue-er/index.html"
+    ],
+    "dist": [
+      "index-single.html",
+      "index.html",
+      "xue-er.html"
+    ]
+  },
+  "readiness": [
+    {
+      "file": "build/xue-er-readiness-online.json",
+      "counts": {
+        "chapters": 16,
+        "pages": 26,
+        "segments": 72,
+        "groups": 49
+      },
+      "chapters": [
+        {
+          "id": "xue-er-01",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-01-s01:elephant:missing-media",
+            "xue-er-01-s01:children:missing-media",
+            "xue-er-01-s01:bunny:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-02",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-02:title:missing-media",
+            "xue-er-02-s01:elephant:missing-media",
+            "xue-er-02-s01:children:missing-media",
+            "xue-er-02-s01:bunny:missing-media",
+            "xue-er-02-s01:cat:missing-media",
+            "xue-er-02-s01:dog:missing-media",
+            "xue-er-02-s02:elephant:missing-media",
+            "xue-er-02-s02:children:missing-media",
+            "xue-er-02-s02:bunny:missing-media",
+            "xue-er-02-s02:cat:missing-media",
+            "xue-er-02-s02:dog:missing-media",
+            "xue-er-02-s03:elephant:missing-media",
+            "xue-er-02-s03:children:missing-media",
+            "xue-er-02-s03:bunny:missing-media",
+            "xue-er-02-s03:cat:missing-media",
+            "xue-er-02-s03:dog:missing-media",
+            "xue-er-02-s04:elephant:missing-media",
+            "xue-er-02-s04:children:missing-media",
+            "xue-er-02-s04:bunny:missing-media",
+            "xue-er-02-s04:cat:missing-media",
+            "xue-er-02-s04:dog:missing-media",
+            "xue-er-02-s05:elephant:missing-media",
+            "xue-er-02-s05:children:missing-media",
+            "xue-er-02-s05:bunny:missing-media",
+            "xue-er-02-s05:cat:missing-media",
+            "xue-er-02-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-03",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-03:title:missing-media",
+            "xue-er-03-s01:elephant:missing-media",
+            "xue-er-03-s01:children:missing-media",
+            "xue-er-03-s01:bunny:missing-media",
+            "xue-er-03-s01:cat:missing-media",
+            "xue-er-03-s01:dog:missing-media",
+            "xue-er-03-s02:elephant:missing-media",
+            "xue-er-03-s02:children:missing-media",
+            "xue-er-03-s02:bunny:missing-media",
+            "xue-er-03-s02:cat:missing-media",
+            "xue-er-03-s02:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-04",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-04:title:missing-media",
+            "xue-er-04-s01:elephant:missing-media",
+            "xue-er-04-s01:children:missing-media",
+            "xue-er-04-s01:bunny:missing-media",
+            "xue-er-04-s01:cat:missing-media",
+            "xue-er-04-s01:dog:missing-media",
+            "xue-er-04-s02:elephant:missing-media",
+            "xue-er-04-s02:children:missing-media",
+            "xue-er-04-s02:bunny:missing-media",
+            "xue-er-04-s02:cat:missing-media",
+            "xue-er-04-s02:dog:missing-media",
+            "xue-er-04-s03:elephant:missing-media",
+            "xue-er-04-s03:children:missing-media",
+            "xue-er-04-s03:bunny:missing-media",
+            "xue-er-04-s03:cat:missing-media",
+            "xue-er-04-s03:dog:missing-media",
+            "xue-er-04-s04:elephant:missing-media",
+            "xue-er-04-s04:children:missing-media",
+            "xue-er-04-s04:bunny:missing-media",
+            "xue-er-04-s04:cat:missing-media",
+            "xue-er-04-s04:dog:missing-media",
+            "xue-er-04-s05:elephant:missing-media",
+            "xue-er-04-s05:children:missing-media",
+            "xue-er-04-s05:bunny:missing-media",
+            "xue-er-04-s05:cat:missing-media",
+            "xue-er-04-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-05",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-05:title:missing-media",
+            "xue-er-05-s01:elephant:missing-media",
+            "xue-er-05-s01:children:missing-media",
+            "xue-er-05-s01:bunny:missing-media",
+            "xue-er-05-s01:cat:missing-media",
+            "xue-er-05-s01:dog:missing-media",
+            "xue-er-05-s02:elephant:missing-media",
+            "xue-er-05-s02:children:missing-media",
+            "xue-er-05-s02:bunny:missing-media",
+            "xue-er-05-s02:cat:missing-media",
+            "xue-er-05-s02:dog:missing-media",
+            "xue-er-05-s03:elephant:missing-media",
+            "xue-er-05-s03:children:missing-media",
+            "xue-er-05-s03:bunny:missing-media",
+            "xue-er-05-s03:cat:missing-media",
+            "xue-er-05-s03:dog:missing-media",
+            "xue-er-05-s04:elephant:missing-media",
+            "xue-er-05-s04:children:missing-media",
+            "xue-er-05-s04:bunny:missing-media",
+            "xue-er-05-s04:cat:missing-media",
+            "xue-er-05-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-06",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-06:title:missing-media",
+            "xue-er-06-s01:elephant:missing-media",
+            "xue-er-06-s01:children:missing-media",
+            "xue-er-06-s01:bunny:missing-media",
+            "xue-er-06-s01:cat:missing-media",
+            "xue-er-06-s01:dog:missing-media",
+            "xue-er-06-s02:elephant:missing-media",
+            "xue-er-06-s02:children:missing-media",
+            "xue-er-06-s02:bunny:missing-media",
+            "xue-er-06-s02:cat:missing-media",
+            "xue-er-06-s02:dog:missing-media",
+            "xue-er-06-s03:elephant:missing-media",
+            "xue-er-06-s03:children:missing-media",
+            "xue-er-06-s03:bunny:missing-media",
+            "xue-er-06-s03:cat:missing-media",
+            "xue-er-06-s03:dog:missing-media",
+            "xue-er-06-s04:elephant:missing-media",
+            "xue-er-06-s04:children:missing-media",
+            "xue-er-06-s04:bunny:missing-media",
+            "xue-er-06-s04:cat:missing-media",
+            "xue-er-06-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-07",
+          "pages": 3,
+          "ready": false,
+          "blockers": [
+            "xue-er-07:title:missing-media",
+            "xue-er-07-s01:elephant:missing-media",
+            "xue-er-07-s01:children:missing-media",
+            "xue-er-07-s01:bunny:missing-media",
+            "xue-er-07-s01:cat:missing-media",
+            "xue-er-07-s01:dog:missing-media",
+            "xue-er-07-s02:elephant:missing-media",
+            "xue-er-07-s02:children:missing-media",
+            "xue-er-07-s02:bunny:missing-media",
+            "xue-er-07-s02:cat:missing-media",
+            "xue-er-07-s02:dog:missing-media",
+            "xue-er-07-s03:elephant:missing-media",
+            "xue-er-07-s03:children:missing-media",
+            "xue-er-07-s03:bunny:missing-media",
+            "xue-er-07-s03:cat:missing-media",
+            "xue-er-07-s03:dog:missing-media",
+            "xue-er-07-s04:elephant:missing-media",
+            "xue-er-07-s04:children:missing-media",
+            "xue-er-07-s04:bunny:missing-media",
+            "xue-er-07-s04:cat:missing-media",
+            "xue-er-07-s04:dog:missing-media",
+            "xue-er-07-s05:elephant:missing-media",
+            "xue-er-07-s05:children:missing-media",
+            "xue-er-07-s05:bunny:missing-media",
+            "xue-er-07-s05:cat:missing-media",
+            "xue-er-07-s05:dog:missing-media",
+            "xue-er-07-s06:elephant:missing-media",
+            "xue-er-07-s06:children:missing-media",
+            "xue-er-07-s06:bunny:missing-media",
+            "xue-er-07-s06:cat:missing-media",
+            "xue-er-07-s06:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-08",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-08:title:missing-media",
+            "xue-er-08-s01:elephant:missing-media",
+            "xue-er-08-s01:children:missing-media",
+            "xue-er-08-s01:bunny:missing-media",
+            "xue-er-08-s01:cat:missing-media",
+            "xue-er-08-s01:dog:missing-media",
+            "xue-er-08-s02:elephant:missing-media",
+            "xue-er-08-s02:children:missing-media",
+            "xue-er-08-s02:bunny:missing-media",
+            "xue-er-08-s02:cat:missing-media",
+            "xue-er-08-s02:dog:missing-media",
+            "xue-er-08-s03:elephant:missing-media",
+            "xue-er-08-s03:children:missing-media",
+            "xue-er-08-s03:bunny:missing-media",
+            "xue-er-08-s03:cat:missing-media",
+            "xue-er-08-s03:dog:missing-media",
+            "xue-er-08-s04:elephant:missing-media",
+            "xue-er-08-s04:children:missing-media",
+            "xue-er-08-s04:bunny:missing-media",
+            "xue-er-08-s04:cat:missing-media",
+            "xue-er-08-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-09",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-09:title:missing-media",
+            "xue-er-09-s01:elephant:missing-media",
+            "xue-er-09-s01:children:missing-media",
+            "xue-er-09-s01:bunny:missing-media",
+            "xue-er-09-s01:cat:missing-media",
+            "xue-er-09-s01:dog:missing-media",
+            "xue-er-09-s02:elephant:missing-media",
+            "xue-er-09-s02:children:missing-media",
+            "xue-er-09-s02:bunny:missing-media",
+            "xue-er-09-s02:cat:missing-media",
+            "xue-er-09-s02:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-10",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-10:title:missing-media",
+            "xue-er-10-s01:elephant:missing-media",
+            "xue-er-10-s01:children:missing-media",
+            "xue-er-10-s01:bunny:missing-media",
+            "xue-er-10-s01:cat:missing-media",
+            "xue-er-10-s01:dog:missing-media",
+            "xue-er-10-s02:elephant:missing-media",
+            "xue-er-10-s02:children:missing-media",
+            "xue-er-10-s02:bunny:missing-media",
+            "xue-er-10-s02:cat:missing-media",
+            "xue-er-10-s02:dog:missing-media",
+            "xue-er-10-s03:elephant:missing-media",
+            "xue-er-10-s03:children:missing-media",
+            "xue-er-10-s03:bunny:missing-media",
+            "xue-er-10-s03:cat:missing-media",
+            "xue-er-10-s03:dog:missing-media",
+            "xue-er-10-s04:elephant:missing-media",
+            "xue-er-10-s04:children:missing-media",
+            "xue-er-10-s04:bunny:missing-media",
+            "xue-er-10-s04:cat:missing-media",
+            "xue-er-10-s04:dog:missing-media",
+            "xue-er-10-s05:elephant:missing-media",
+            "xue-er-10-s05:children:missing-media",
+            "xue-er-10-s05:bunny:missing-media",
+            "xue-er-10-s05:cat:missing-media",
+            "xue-er-10-s05:dog:missing-media",
+            "xue-er-10-s06:elephant:missing-media",
+            "xue-er-10-s06:children:missing-media",
+            "xue-er-10-s06:bunny:missing-media",
+            "xue-er-10-s06:cat:missing-media",
+            "xue-er-10-s06:dog:missing-media",
+            "xue-er-10-s07:elephant:missing-media",
+            "xue-er-10-s07:children:missing-media",
+            "xue-er-10-s07:bunny:missing-media",
+            "xue-er-10-s07:cat:missing-media",
+            "xue-er-10-s07:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-11",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-11:title:missing-media",
+            "xue-er-11-s01:elephant:missing-media",
+            "xue-er-11-s01:children:missing-media",
+            "xue-er-11-s01:bunny:missing-media",
+            "xue-er-11-s01:cat:missing-media",
+            "xue-er-11-s01:dog:missing-media",
+            "xue-er-11-s02:elephant:missing-media",
+            "xue-er-11-s02:children:missing-media",
+            "xue-er-11-s02:bunny:missing-media",
+            "xue-er-11-s02:cat:missing-media",
+            "xue-er-11-s02:dog:missing-media",
+            "xue-er-11-s03:elephant:missing-media",
+            "xue-er-11-s03:children:missing-media",
+            "xue-er-11-s03:bunny:missing-media",
+            "xue-er-11-s03:cat:missing-media",
+            "xue-er-11-s03:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-12",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-12:title:missing-media",
+            "xue-er-12-s01:elephant:missing-media",
+            "xue-er-12-s01:children:missing-media",
+            "xue-er-12-s01:bunny:missing-media",
+            "xue-er-12-s01:cat:missing-media",
+            "xue-er-12-s01:dog:missing-media",
+            "xue-er-12-s02:elephant:missing-media",
+            "xue-er-12-s02:children:missing-media",
+            "xue-er-12-s02:bunny:missing-media",
+            "xue-er-12-s02:cat:missing-media",
+            "xue-er-12-s02:dog:missing-media",
+            "xue-er-12-s03:elephant:missing-media",
+            "xue-er-12-s03:children:missing-media",
+            "xue-er-12-s03:bunny:missing-media",
+            "xue-er-12-s03:cat:missing-media",
+            "xue-er-12-s03:dog:missing-media",
+            "xue-er-12-s04:elephant:missing-media",
+            "xue-er-12-s04:children:missing-media",
+            "xue-er-12-s04:bunny:missing-media",
+            "xue-er-12-s04:cat:missing-media",
+            "xue-er-12-s04:dog:missing-media",
+            "xue-er-12-s05:elephant:missing-media",
+            "xue-er-12-s05:children:missing-media",
+            "xue-er-12-s05:bunny:missing-media",
+            "xue-er-12-s05:cat:missing-media",
+            "xue-er-12-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-13",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-13:title:missing-media",
+            "xue-er-13-s01:elephant:missing-media",
+            "xue-er-13-s01:children:missing-media",
+            "xue-er-13-s01:bunny:missing-media",
+            "xue-er-13-s01:cat:missing-media",
+            "xue-er-13-s01:dog:missing-media",
+            "xue-er-13-s02:elephant:missing-media",
+            "xue-er-13-s02:children:missing-media",
+            "xue-er-13-s02:bunny:missing-media",
+            "xue-er-13-s02:cat:missing-media",
+            "xue-er-13-s02:dog:missing-media",
+            "xue-er-13-s03:elephant:missing-media",
+            "xue-er-13-s03:children:missing-media",
+            "xue-er-13-s03:bunny:missing-media",
+            "xue-er-13-s03:cat:missing-media",
+            "xue-er-13-s03:dog:missing-media",
+            "xue-er-13-s04:elephant:missing-media",
+            "xue-er-13-s04:children:missing-media",
+            "xue-er-13-s04:bunny:missing-media",
+            "xue-er-13-s04:cat:missing-media",
+            "xue-er-13-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-14",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-14:title:missing-media",
+            "xue-er-14-s01:elephant:missing-media",
+            "xue-er-14-s01:children:missing-media",
+            "xue-er-14-s01:bunny:missing-media",
+            "xue-er-14-s01:cat:missing-media",
+            "xue-er-14-s01:dog:missing-media",
+            "xue-er-14-s02:elephant:missing-media",
+            "xue-er-14-s02:children:missing-media",
+            "xue-er-14-s02:bunny:missing-media",
+            "xue-er-14-s02:cat:missing-media",
+            "xue-er-14-s02:dog:missing-media",
+            "xue-er-14-s03:elephant:missing-media",
+            "xue-er-14-s03:children:missing-media",
+            "xue-er-14-s03:bunny:missing-media",
+            "xue-er-14-s03:cat:missing-media",
+            "xue-er-14-s03:dog:missing-media",
+            "xue-er-14-s04:elephant:missing-media",
+            "xue-er-14-s04:children:missing-media",
+            "xue-er-14-s04:bunny:missing-media",
+            "xue-er-14-s04:cat:missing-media",
+            "xue-er-14-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-15",
+          "pages": 4,
+          "ready": false,
+          "blockers": [
+            "xue-er-15:title:missing-media",
+            "xue-er-15-s01:elephant:missing-media",
+            "xue-er-15-s01:children:missing-media",
+            "xue-er-15-s01:bunny:missing-media",
+            "xue-er-15-s01:cat:missing-media",
+            "xue-er-15-s01:dog:missing-media",
+            "xue-er-15-s02:elephant:missing-media",
+            "xue-er-15-s02:children:missing-media",
+            "xue-er-15-s02:bunny:missing-media",
+            "xue-er-15-s02:cat:missing-media",
+            "xue-er-15-s02:dog:missing-media",
+            "xue-er-15-s03:elephant:missing-media",
+            "xue-er-15-s03:children:missing-media",
+            "xue-er-15-s03:bunny:missing-media",
+            "xue-er-15-s03:cat:missing-media",
+            "xue-er-15-s03:dog:missing-media",
+            "xue-er-15-s04:elephant:missing-media",
+            "xue-er-15-s04:children:missing-media",
+            "xue-er-15-s04:bunny:missing-media",
+            "xue-er-15-s04:cat:missing-media",
+            "xue-er-15-s04:dog:missing-media",
+            "xue-er-15-s05:elephant:missing-media",
+            "xue-er-15-s05:children:missing-media",
+            "xue-er-15-s05:bunny:missing-media",
+            "xue-er-15-s05:cat:missing-media",
+            "xue-er-15-s05:dog:missing-media",
+            "xue-er-15-s06:elephant:missing-media",
+            "xue-er-15-s06:children:missing-media",
+            "xue-er-15-s06:bunny:missing-media",
+            "xue-er-15-s06:cat:missing-media",
+            "xue-er-15-s06:dog:missing-media",
+            "xue-er-15-s07:elephant:missing-media",
+            "xue-er-15-s07:children:missing-media",
+            "xue-er-15-s07:bunny:missing-media",
+            "xue-er-15-s07:cat:missing-media",
+            "xue-er-15-s07:dog:missing-media",
+            "xue-er-15-s08:elephant:missing-media",
+            "xue-er-15-s08:children:missing-media",
+            "xue-er-15-s08:bunny:missing-media",
+            "xue-er-15-s08:cat:missing-media",
+            "xue-er-15-s08:dog:missing-media",
+            "xue-er-15-s09:elephant:missing-media",
+            "xue-er-15-s09:children:missing-media",
+            "xue-er-15-s09:bunny:missing-media",
+            "xue-er-15-s09:cat:missing-media",
+            "xue-er-15-s09:dog:missing-media",
+            "xue-er-15-s10:elephant:missing-media",
+            "xue-er-15-s10:children:missing-media",
+            "xue-er-15-s10:bunny:missing-media",
+            "xue-er-15-s10:cat:missing-media",
+            "xue-er-15-s10:dog:missing-media",
+            "xue-er-15-s11:elephant:missing-media",
+            "xue-er-15-s11:children:missing-media",
+            "xue-er-15-s11:bunny:missing-media",
+            "xue-er-15-s11:cat:missing-media",
+            "xue-er-15-s11:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-16",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-16:title:missing-media",
+            "xue-er-16-s01:elephant:missing-media",
+            "xue-er-16-s01:children:missing-media",
+            "xue-er-16-s01:bunny:missing-media",
+            "xue-er-16-s01:cat:missing-media",
+            "xue-er-16-s01:dog:missing-media",
+            "xue-er-16-s02:elephant:missing-media",
+            "xue-er-16-s02:children:missing-media",
+            "xue-er-16-s02:bunny:missing-media",
+            "xue-er-16-s02:cat:missing-media",
+            "xue-er-16-s02:dog:missing-media"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "build/xue-er-readiness-offline.json",
+      "counts": {
+        "chapters": 16,
+        "pages": 26,
+        "segments": 72,
+        "groups": 49
+      },
+      "chapters": [
+        {
+          "id": "xue-er-01",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-01-s01:elephant:missing-media",
+            "xue-er-01-s01:children:missing-media",
+            "xue-er-01-s01:bunny:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-02",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-02:title:missing-media",
+            "xue-er-02-s01:elephant:missing-media",
+            "xue-er-02-s01:children:missing-media",
+            "xue-er-02-s01:bunny:missing-media",
+            "xue-er-02-s01:cat:missing-media",
+            "xue-er-02-s01:dog:missing-media",
+            "xue-er-02-s02:elephant:missing-media",
+            "xue-er-02-s02:children:missing-media",
+            "xue-er-02-s02:bunny:missing-media",
+            "xue-er-02-s02:cat:missing-media",
+            "xue-er-02-s02:dog:missing-media",
+            "xue-er-02-s03:elephant:missing-media",
+            "xue-er-02-s03:children:missing-media",
+            "xue-er-02-s03:bunny:missing-media",
+            "xue-er-02-s03:cat:missing-media",
+            "xue-er-02-s03:dog:missing-media",
+            "xue-er-02-s04:elephant:missing-media",
+            "xue-er-02-s04:children:missing-media",
+            "xue-er-02-s04:bunny:missing-media",
+            "xue-er-02-s04:cat:missing-media",
+            "xue-er-02-s04:dog:missing-media",
+            "xue-er-02-s05:elephant:missing-media",
+            "xue-er-02-s05:children:missing-media",
+            "xue-er-02-s05:bunny:missing-media",
+            "xue-er-02-s05:cat:missing-media",
+            "xue-er-02-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-03",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-03:title:missing-media",
+            "xue-er-03-s01:elephant:missing-media",
+            "xue-er-03-s01:children:missing-media",
+            "xue-er-03-s01:bunny:missing-media",
+            "xue-er-03-s01:cat:missing-media",
+            "xue-er-03-s01:dog:missing-media",
+            "xue-er-03-s02:elephant:missing-media",
+            "xue-er-03-s02:children:missing-media",
+            "xue-er-03-s02:bunny:missing-media",
+            "xue-er-03-s02:cat:missing-media",
+            "xue-er-03-s02:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-04",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-04:title:missing-media",
+            "xue-er-04-s01:elephant:missing-media",
+            "xue-er-04-s01:children:missing-media",
+            "xue-er-04-s01:bunny:missing-media",
+            "xue-er-04-s01:cat:missing-media",
+            "xue-er-04-s01:dog:missing-media",
+            "xue-er-04-s02:elephant:missing-media",
+            "xue-er-04-s02:children:missing-media",
+            "xue-er-04-s02:bunny:missing-media",
+            "xue-er-04-s02:cat:missing-media",
+            "xue-er-04-s02:dog:missing-media",
+            "xue-er-04-s03:elephant:missing-media",
+            "xue-er-04-s03:children:missing-media",
+            "xue-er-04-s03:bunny:missing-media",
+            "xue-er-04-s03:cat:missing-media",
+            "xue-er-04-s03:dog:missing-media",
+            "xue-er-04-s04:elephant:missing-media",
+            "xue-er-04-s04:children:missing-media",
+            "xue-er-04-s04:bunny:missing-media",
+            "xue-er-04-s04:cat:missing-media",
+            "xue-er-04-s04:dog:missing-media",
+            "xue-er-04-s05:elephant:missing-media",
+            "xue-er-04-s05:children:missing-media",
+            "xue-er-04-s05:bunny:missing-media",
+            "xue-er-04-s05:cat:missing-media",
+            "xue-er-04-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-05",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-05:title:missing-media",
+            "xue-er-05-s01:elephant:missing-media",
+            "xue-er-05-s01:children:missing-media",
+            "xue-er-05-s01:bunny:missing-media",
+            "xue-er-05-s01:cat:missing-media",
+            "xue-er-05-s01:dog:missing-media",
+            "xue-er-05-s02:elephant:missing-media",
+            "xue-er-05-s02:children:missing-media",
+            "xue-er-05-s02:bunny:missing-media",
+            "xue-er-05-s02:cat:missing-media",
+            "xue-er-05-s02:dog:missing-media",
+            "xue-er-05-s03:elephant:missing-media",
+            "xue-er-05-s03:children:missing-media",
+            "xue-er-05-s03:bunny:missing-media",
+            "xue-er-05-s03:cat:missing-media",
+            "xue-er-05-s03:dog:missing-media",
+            "xue-er-05-s04:elephant:missing-media",
+            "xue-er-05-s04:children:missing-media",
+            "xue-er-05-s04:bunny:missing-media",
+            "xue-er-05-s04:cat:missing-media",
+            "xue-er-05-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-06",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-06:title:missing-media",
+            "xue-er-06-s01:elephant:missing-media",
+            "xue-er-06-s01:children:missing-media",
+            "xue-er-06-s01:bunny:missing-media",
+            "xue-er-06-s01:cat:missing-media",
+            "xue-er-06-s01:dog:missing-media",
+            "xue-er-06-s02:elephant:missing-media",
+            "xue-er-06-s02:children:missing-media",
+            "xue-er-06-s02:bunny:missing-media",
+            "xue-er-06-s02:cat:missing-media",
+            "xue-er-06-s02:dog:missing-media",
+            "xue-er-06-s03:elephant:missing-media",
+            "xue-er-06-s03:children:missing-media",
+            "xue-er-06-s03:bunny:missing-media",
+            "xue-er-06-s03:cat:missing-media",
+            "xue-er-06-s03:dog:missing-media",
+            "xue-er-06-s04:elephant:missing-media",
+            "xue-er-06-s04:children:missing-media",
+            "xue-er-06-s04:bunny:missing-media",
+            "xue-er-06-s04:cat:missing-media",
+            "xue-er-06-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-07",
+          "pages": 3,
+          "ready": false,
+          "blockers": [
+            "xue-er-07:title:missing-media",
+            "xue-er-07-s01:elephant:missing-media",
+            "xue-er-07-s01:children:missing-media",
+            "xue-er-07-s01:bunny:missing-media",
+            "xue-er-07-s01:cat:missing-media",
+            "xue-er-07-s01:dog:missing-media",
+            "xue-er-07-s02:elephant:missing-media",
+            "xue-er-07-s02:children:missing-media",
+            "xue-er-07-s02:bunny:missing-media",
+            "xue-er-07-s02:cat:missing-media",
+            "xue-er-07-s02:dog:missing-media",
+            "xue-er-07-s03:elephant:missing-media",
+            "xue-er-07-s03:children:missing-media",
+            "xue-er-07-s03:bunny:missing-media",
+            "xue-er-07-s03:cat:missing-media",
+            "xue-er-07-s03:dog:missing-media",
+            "xue-er-07-s04:elephant:missing-media",
+            "xue-er-07-s04:children:missing-media",
+            "xue-er-07-s04:bunny:missing-media",
+            "xue-er-07-s04:cat:missing-media",
+            "xue-er-07-s04:dog:missing-media",
+            "xue-er-07-s05:elephant:missing-media",
+            "xue-er-07-s05:children:missing-media",
+            "xue-er-07-s05:bunny:missing-media",
+            "xue-er-07-s05:cat:missing-media",
+            "xue-er-07-s05:dog:missing-media",
+            "xue-er-07-s06:elephant:missing-media",
+            "xue-er-07-s06:children:missing-media",
+            "xue-er-07-s06:bunny:missing-media",
+            "xue-er-07-s06:cat:missing-media",
+            "xue-er-07-s06:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-08",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-08:title:missing-media",
+            "xue-er-08-s01:elephant:missing-media",
+            "xue-er-08-s01:children:missing-media",
+            "xue-er-08-s01:bunny:missing-media",
+            "xue-er-08-s01:cat:missing-media",
+            "xue-er-08-s01:dog:missing-media",
+            "xue-er-08-s02:elephant:missing-media",
+            "xue-er-08-s02:children:missing-media",
+            "xue-er-08-s02:bunny:missing-media",
+            "xue-er-08-s02:cat:missing-media",
+            "xue-er-08-s02:dog:missing-media",
+            "xue-er-08-s03:elephant:missing-media",
+            "xue-er-08-s03:children:missing-media",
+            "xue-er-08-s03:bunny:missing-media",
+            "xue-er-08-s03:cat:missing-media",
+            "xue-er-08-s03:dog:missing-media",
+            "xue-er-08-s04:elephant:missing-media",
+            "xue-er-08-s04:children:missing-media",
+            "xue-er-08-s04:bunny:missing-media",
+            "xue-er-08-s04:cat:missing-media",
+            "xue-er-08-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-09",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-09:title:missing-media",
+            "xue-er-09-s01:elephant:missing-media",
+            "xue-er-09-s01:children:missing-media",
+            "xue-er-09-s01:bunny:missing-media",
+            "xue-er-09-s01:cat:missing-media",
+            "xue-er-09-s01:dog:missing-media",
+            "xue-er-09-s02:elephant:missing-media",
+            "xue-er-09-s02:children:missing-media",
+            "xue-er-09-s02:bunny:missing-media",
+            "xue-er-09-s02:cat:missing-media",
+            "xue-er-09-s02:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-10",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-10:title:missing-media",
+            "xue-er-10-s01:elephant:missing-media",
+            "xue-er-10-s01:children:missing-media",
+            "xue-er-10-s01:bunny:missing-media",
+            "xue-er-10-s01:cat:missing-media",
+            "xue-er-10-s01:dog:missing-media",
+            "xue-er-10-s02:elephant:missing-media",
+            "xue-er-10-s02:children:missing-media",
+            "xue-er-10-s02:bunny:missing-media",
+            "xue-er-10-s02:cat:missing-media",
+            "xue-er-10-s02:dog:missing-media",
+            "xue-er-10-s03:elephant:missing-media",
+            "xue-er-10-s03:children:missing-media",
+            "xue-er-10-s03:bunny:missing-media",
+            "xue-er-10-s03:cat:missing-media",
+            "xue-er-10-s03:dog:missing-media",
+            "xue-er-10-s04:elephant:missing-media",
+            "xue-er-10-s04:children:missing-media",
+            "xue-er-10-s04:bunny:missing-media",
+            "xue-er-10-s04:cat:missing-media",
+            "xue-er-10-s04:dog:missing-media",
+            "xue-er-10-s05:elephant:missing-media",
+            "xue-er-10-s05:children:missing-media",
+            "xue-er-10-s05:bunny:missing-media",
+            "xue-er-10-s05:cat:missing-media",
+            "xue-er-10-s05:dog:missing-media",
+            "xue-er-10-s06:elephant:missing-media",
+            "xue-er-10-s06:children:missing-media",
+            "xue-er-10-s06:bunny:missing-media",
+            "xue-er-10-s06:cat:missing-media",
+            "xue-er-10-s06:dog:missing-media",
+            "xue-er-10-s07:elephant:missing-media",
+            "xue-er-10-s07:children:missing-media",
+            "xue-er-10-s07:bunny:missing-media",
+            "xue-er-10-s07:cat:missing-media",
+            "xue-er-10-s07:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-11",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-11:title:missing-media",
+            "xue-er-11-s01:elephant:missing-media",
+            "xue-er-11-s01:children:missing-media",
+            "xue-er-11-s01:bunny:missing-media",
+            "xue-er-11-s01:cat:missing-media",
+            "xue-er-11-s01:dog:missing-media",
+            "xue-er-11-s02:elephant:missing-media",
+            "xue-er-11-s02:children:missing-media",
+            "xue-er-11-s02:bunny:missing-media",
+            "xue-er-11-s02:cat:missing-media",
+            "xue-er-11-s02:dog:missing-media",
+            "xue-er-11-s03:elephant:missing-media",
+            "xue-er-11-s03:children:missing-media",
+            "xue-er-11-s03:bunny:missing-media",
+            "xue-er-11-s03:cat:missing-media",
+            "xue-er-11-s03:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-12",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-12:title:missing-media",
+            "xue-er-12-s01:elephant:missing-media",
+            "xue-er-12-s01:children:missing-media",
+            "xue-er-12-s01:bunny:missing-media",
+            "xue-er-12-s01:cat:missing-media",
+            "xue-er-12-s01:dog:missing-media",
+            "xue-er-12-s02:elephant:missing-media",
+            "xue-er-12-s02:children:missing-media",
+            "xue-er-12-s02:bunny:missing-media",
+            "xue-er-12-s02:cat:missing-media",
+            "xue-er-12-s02:dog:missing-media",
+            "xue-er-12-s03:elephant:missing-media",
+            "xue-er-12-s03:children:missing-media",
+            "xue-er-12-s03:bunny:missing-media",
+            "xue-er-12-s03:cat:missing-media",
+            "xue-er-12-s03:dog:missing-media",
+            "xue-er-12-s04:elephant:missing-media",
+            "xue-er-12-s04:children:missing-media",
+            "xue-er-12-s04:bunny:missing-media",
+            "xue-er-12-s04:cat:missing-media",
+            "xue-er-12-s04:dog:missing-media",
+            "xue-er-12-s05:elephant:missing-media",
+            "xue-er-12-s05:children:missing-media",
+            "xue-er-12-s05:bunny:missing-media",
+            "xue-er-12-s05:cat:missing-media",
+            "xue-er-12-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-13",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-13:title:missing-media",
+            "xue-er-13-s01:elephant:missing-media",
+            "xue-er-13-s01:children:missing-media",
+            "xue-er-13-s01:bunny:missing-media",
+            "xue-er-13-s01:cat:missing-media",
+            "xue-er-13-s01:dog:missing-media",
+            "xue-er-13-s02:elephant:missing-media",
+            "xue-er-13-s02:children:missing-media",
+            "xue-er-13-s02:bunny:missing-media",
+            "xue-er-13-s02:cat:missing-media",
+            "xue-er-13-s02:dog:missing-media",
+            "xue-er-13-s03:elephant:missing-media",
+            "xue-er-13-s03:children:missing-media",
+            "xue-er-13-s03:bunny:missing-media",
+            "xue-er-13-s03:cat:missing-media",
+            "xue-er-13-s03:dog:missing-media",
+            "xue-er-13-s04:elephant:missing-media",
+            "xue-er-13-s04:children:missing-media",
+            "xue-er-13-s04:bunny:missing-media",
+            "xue-er-13-s04:cat:missing-media",
+            "xue-er-13-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-14",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-14:title:missing-media",
+            "xue-er-14-s01:elephant:missing-media",
+            "xue-er-14-s01:children:missing-media",
+            "xue-er-14-s01:bunny:missing-media",
+            "xue-er-14-s01:cat:missing-media",
+            "xue-er-14-s01:dog:missing-media",
+            "xue-er-14-s02:elephant:missing-media",
+            "xue-er-14-s02:children:missing-media",
+            "xue-er-14-s02:bunny:missing-media",
+            "xue-er-14-s02:cat:missing-media",
+            "xue-er-14-s02:dog:missing-media",
+            "xue-er-14-s03:elephant:missing-media",
+            "xue-er-14-s03:children:missing-media",
+            "xue-er-14-s03:bunny:missing-media",
+            "xue-er-14-s03:cat:missing-media",
+            "xue-er-14-s03:dog:missing-media",
+            "xue-er-14-s04:elephant:missing-media",
+            "xue-er-14-s04:children:missing-media",
+            "xue-er-14-s04:bunny:missing-media",
+            "xue-er-14-s04:cat:missing-media",
+            "xue-er-14-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-15",
+          "pages": 4,
+          "ready": false,
+          "blockers": [
+            "xue-er-15:title:missing-media",
+            "xue-er-15-s01:elephant:missing-media",
+            "xue-er-15-s01:children:missing-media",
+            "xue-er-15-s01:bunny:missing-media",
+            "xue-er-15-s01:cat:missing-media",
+            "xue-er-15-s01:dog:missing-media",
+            "xue-er-15-s02:elephant:missing-media",
+            "xue-er-15-s02:children:missing-media",
+            "xue-er-15-s02:bunny:missing-media",
+            "xue-er-15-s02:cat:missing-media",
+            "xue-er-15-s02:dog:missing-media",
+            "xue-er-15-s03:elephant:missing-media",
+            "xue-er-15-s03:children:missing-media",
+            "xue-er-15-s03:bunny:missing-media",
+            "xue-er-15-s03:cat:missing-media",
+            "xue-er-15-s03:dog:missing-media",
+            "xue-er-15-s04:elephant:missing-media",
+            "xue-er-15-s04:children:missing-media",
+            "xue-er-15-s04:bunny:missing-media",
+            "xue-er-15-s04:cat:missing-media",
+            "xue-er-15-s04:dog:missing-media",
+            "xue-er-15-s05:elephant:missing-media",
+            "xue-er-15-s05:children:missing-media",
+            "xue-er-15-s05:bunny:missing-media",
+            "xue-er-15-s05:cat:missing-media",
+            "xue-er-15-s05:dog:missing-media",
+            "xue-er-15-s06:elephant:missing-media",
+            "xue-er-15-s06:children:missing-media",
+            "xue-er-15-s06:bunny:missing-media",
+            "xue-er-15-s06:cat:missing-media",
+            "xue-er-15-s06:dog:missing-media",
+            "xue-er-15-s07:elephant:missing-media",
+            "xue-er-15-s07:children:missing-media",
+            "xue-er-15-s07:bunny:missing-media",
+            "xue-er-15-s07:cat:missing-media",
+            "xue-er-15-s07:dog:missing-media",
+            "xue-er-15-s08:elephant:missing-media",
+            "xue-er-15-s08:children:missing-media",
+            "xue-er-15-s08:bunny:missing-media",
+            "xue-er-15-s08:cat:missing-media",
+            "xue-er-15-s08:dog:missing-media",
+            "xue-er-15-s09:elephant:missing-media",
+            "xue-er-15-s09:children:missing-media",
+            "xue-er-15-s09:bunny:missing-media",
+            "xue-er-15-s09:cat:missing-media",
+            "xue-er-15-s09:dog:missing-media",
+            "xue-er-15-s10:elephant:missing-media",
+            "xue-er-15-s10:children:missing-media",
+            "xue-er-15-s10:bunny:missing-media",
+            "xue-er-15-s10:cat:missing-media",
+            "xue-er-15-s10:dog:missing-media",
+            "xue-er-15-s11:elephant:missing-media",
+            "xue-er-15-s11:children:missing-media",
+            "xue-er-15-s11:bunny:missing-media",
+            "xue-er-15-s11:cat:missing-media",
+            "xue-er-15-s11:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-16",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-16:title:missing-media",
+            "xue-er-16-s01:elephant:missing-media",
+            "xue-er-16-s01:children:missing-media",
+            "xue-er-16-s01:bunny:missing-media",
+            "xue-er-16-s01:cat:missing-media",
+            "xue-er-16-s01:dog:missing-media",
+            "xue-er-16-s02:elephant:missing-media",
+            "xue-er-16-s02:children:missing-media",
+            "xue-er-16-s02:bunny:missing-media",
+            "xue-er-16-s02:cat:missing-media",
+            "xue-er-16-s02:dog:missing-media"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "build/xue-er-readiness-preview.json",
+      "counts": {
+        "chapters": 16,
+        "pages": 26,
+        "segments": 72,
+        "groups": 49
+      },
+      "chapters": [
+        {
+          "id": "xue-er-01",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-01-s01:elephant:missing-media",
+            "xue-er-01-s01:children:missing-media",
+            "xue-er-01-s01:bunny:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-02",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-02:title:missing-media",
+            "xue-er-02-s01:elephant:missing-media",
+            "xue-er-02-s01:children:missing-media",
+            "xue-er-02-s01:bunny:missing-media",
+            "xue-er-02-s01:cat:missing-media",
+            "xue-er-02-s01:dog:missing-media",
+            "xue-er-02-s02:elephant:missing-media",
+            "xue-er-02-s02:children:missing-media",
+            "xue-er-02-s02:bunny:missing-media",
+            "xue-er-02-s02:cat:missing-media",
+            "xue-er-02-s02:dog:missing-media",
+            "xue-er-02-s03:elephant:missing-media",
+            "xue-er-02-s03:children:missing-media",
+            "xue-er-02-s03:bunny:missing-media",
+            "xue-er-02-s03:cat:missing-media",
+            "xue-er-02-s03:dog:missing-media",
+            "xue-er-02-s04:elephant:missing-media",
+            "xue-er-02-s04:children:missing-media",
+            "xue-er-02-s04:bunny:missing-media",
+            "xue-er-02-s04:cat:missing-media",
+            "xue-er-02-s04:dog:missing-media",
+            "xue-er-02-s05:elephant:missing-media",
+            "xue-er-02-s05:children:missing-media",
+            "xue-er-02-s05:bunny:missing-media",
+            "xue-er-02-s05:cat:missing-media",
+            "xue-er-02-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-03",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-03:title:missing-media",
+            "xue-er-03-s01:elephant:missing-media",
+            "xue-er-03-s01:children:missing-media",
+            "xue-er-03-s01:bunny:missing-media",
+            "xue-er-03-s01:cat:missing-media",
+            "xue-er-03-s01:dog:missing-media",
+            "xue-er-03-s02:elephant:missing-media",
+            "xue-er-03-s02:children:missing-media",
+            "xue-er-03-s02:bunny:missing-media",
+            "xue-er-03-s02:cat:missing-media",
+            "xue-er-03-s02:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-04",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-04:title:missing-media",
+            "xue-er-04-s01:elephant:missing-media",
+            "xue-er-04-s01:children:missing-media",
+            "xue-er-04-s01:bunny:missing-media",
+            "xue-er-04-s01:cat:missing-media",
+            "xue-er-04-s01:dog:missing-media",
+            "xue-er-04-s02:elephant:missing-media",
+            "xue-er-04-s02:children:missing-media",
+            "xue-er-04-s02:bunny:missing-media",
+            "xue-er-04-s02:cat:missing-media",
+            "xue-er-04-s02:dog:missing-media",
+            "xue-er-04-s03:elephant:missing-media",
+            "xue-er-04-s03:children:missing-media",
+            "xue-er-04-s03:bunny:missing-media",
+            "xue-er-04-s03:cat:missing-media",
+            "xue-er-04-s03:dog:missing-media",
+            "xue-er-04-s04:elephant:missing-media",
+            "xue-er-04-s04:children:missing-media",
+            "xue-er-04-s04:bunny:missing-media",
+            "xue-er-04-s04:cat:missing-media",
+            "xue-er-04-s04:dog:missing-media",
+            "xue-er-04-s05:elephant:missing-media",
+            "xue-er-04-s05:children:missing-media",
+            "xue-er-04-s05:bunny:missing-media",
+            "xue-er-04-s05:cat:missing-media",
+            "xue-er-04-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-05",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-05:title:missing-media",
+            "xue-er-05-s01:elephant:missing-media",
+            "xue-er-05-s01:children:missing-media",
+            "xue-er-05-s01:bunny:missing-media",
+            "xue-er-05-s01:cat:missing-media",
+            "xue-er-05-s01:dog:missing-media",
+            "xue-er-05-s02:elephant:missing-media",
+            "xue-er-05-s02:children:missing-media",
+            "xue-er-05-s02:bunny:missing-media",
+            "xue-er-05-s02:cat:missing-media",
+            "xue-er-05-s02:dog:missing-media",
+            "xue-er-05-s03:elephant:missing-media",
+            "xue-er-05-s03:children:missing-media",
+            "xue-er-05-s03:bunny:missing-media",
+            "xue-er-05-s03:cat:missing-media",
+            "xue-er-05-s03:dog:missing-media",
+            "xue-er-05-s04:elephant:missing-media",
+            "xue-er-05-s04:children:missing-media",
+            "xue-er-05-s04:bunny:missing-media",
+            "xue-er-05-s04:cat:missing-media",
+            "xue-er-05-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-06",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-06:title:missing-media",
+            "xue-er-06-s01:elephant:missing-media",
+            "xue-er-06-s01:children:missing-media",
+            "xue-er-06-s01:bunny:missing-media",
+            "xue-er-06-s01:cat:missing-media",
+            "xue-er-06-s01:dog:missing-media",
+            "xue-er-06-s02:elephant:missing-media",
+            "xue-er-06-s02:children:missing-media",
+            "xue-er-06-s02:bunny:missing-media",
+            "xue-er-06-s02:cat:missing-media",
+            "xue-er-06-s02:dog:missing-media",
+            "xue-er-06-s03:elephant:missing-media",
+            "xue-er-06-s03:children:missing-media",
+            "xue-er-06-s03:bunny:missing-media",
+            "xue-er-06-s03:cat:missing-media",
+            "xue-er-06-s03:dog:missing-media",
+            "xue-er-06-s04:elephant:missing-media",
+            "xue-er-06-s04:children:missing-media",
+            "xue-er-06-s04:bunny:missing-media",
+            "xue-er-06-s04:cat:missing-media",
+            "xue-er-06-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-07",
+          "pages": 3,
+          "ready": false,
+          "blockers": [
+            "xue-er-07:title:missing-media",
+            "xue-er-07-s01:elephant:missing-media",
+            "xue-er-07-s01:children:missing-media",
+            "xue-er-07-s01:bunny:missing-media",
+            "xue-er-07-s01:cat:missing-media",
+            "xue-er-07-s01:dog:missing-media",
+            "xue-er-07-s02:elephant:missing-media",
+            "xue-er-07-s02:children:missing-media",
+            "xue-er-07-s02:bunny:missing-media",
+            "xue-er-07-s02:cat:missing-media",
+            "xue-er-07-s02:dog:missing-media",
+            "xue-er-07-s03:elephant:missing-media",
+            "xue-er-07-s03:children:missing-media",
+            "xue-er-07-s03:bunny:missing-media",
+            "xue-er-07-s03:cat:missing-media",
+            "xue-er-07-s03:dog:missing-media",
+            "xue-er-07-s04:elephant:missing-media",
+            "xue-er-07-s04:children:missing-media",
+            "xue-er-07-s04:bunny:missing-media",
+            "xue-er-07-s04:cat:missing-media",
+            "xue-er-07-s04:dog:missing-media",
+            "xue-er-07-s05:elephant:missing-media",
+            "xue-er-07-s05:children:missing-media",
+            "xue-er-07-s05:bunny:missing-media",
+            "xue-er-07-s05:cat:missing-media",
+            "xue-er-07-s05:dog:missing-media",
+            "xue-er-07-s06:elephant:missing-media",
+            "xue-er-07-s06:children:missing-media",
+            "xue-er-07-s06:bunny:missing-media",
+            "xue-er-07-s06:cat:missing-media",
+            "xue-er-07-s06:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-08",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-08:title:missing-media",
+            "xue-er-08-s01:elephant:missing-media",
+            "xue-er-08-s01:children:missing-media",
+            "xue-er-08-s01:bunny:missing-media",
+            "xue-er-08-s01:cat:missing-media",
+            "xue-er-08-s01:dog:missing-media",
+            "xue-er-08-s02:elephant:missing-media",
+            "xue-er-08-s02:children:missing-media",
+            "xue-er-08-s02:bunny:missing-media",
+            "xue-er-08-s02:cat:missing-media",
+            "xue-er-08-s02:dog:missing-media",
+            "xue-er-08-s03:elephant:missing-media",
+            "xue-er-08-s03:children:missing-media",
+            "xue-er-08-s03:bunny:missing-media",
+            "xue-er-08-s03:cat:missing-media",
+            "xue-er-08-s03:dog:missing-media",
+            "xue-er-08-s04:elephant:missing-media",
+            "xue-er-08-s04:children:missing-media",
+            "xue-er-08-s04:bunny:missing-media",
+            "xue-er-08-s04:cat:missing-media",
+            "xue-er-08-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-09",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-09:title:missing-media",
+            "xue-er-09-s01:elephant:missing-media",
+            "xue-er-09-s01:children:missing-media",
+            "xue-er-09-s01:bunny:missing-media",
+            "xue-er-09-s01:cat:missing-media",
+            "xue-er-09-s01:dog:missing-media",
+            "xue-er-09-s02:elephant:missing-media",
+            "xue-er-09-s02:children:missing-media",
+            "xue-er-09-s02:bunny:missing-media",
+            "xue-er-09-s02:cat:missing-media",
+            "xue-er-09-s02:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-10",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-10:title:missing-media",
+            "xue-er-10-s01:elephant:missing-media",
+            "xue-er-10-s01:children:missing-media",
+            "xue-er-10-s01:bunny:missing-media",
+            "xue-er-10-s01:cat:missing-media",
+            "xue-er-10-s01:dog:missing-media",
+            "xue-er-10-s02:elephant:missing-media",
+            "xue-er-10-s02:children:missing-media",
+            "xue-er-10-s02:bunny:missing-media",
+            "xue-er-10-s02:cat:missing-media",
+            "xue-er-10-s02:dog:missing-media",
+            "xue-er-10-s03:elephant:missing-media",
+            "xue-er-10-s03:children:missing-media",
+            "xue-er-10-s03:bunny:missing-media",
+            "xue-er-10-s03:cat:missing-media",
+            "xue-er-10-s03:dog:missing-media",
+            "xue-er-10-s04:elephant:missing-media",
+            "xue-er-10-s04:children:missing-media",
+            "xue-er-10-s04:bunny:missing-media",
+            "xue-er-10-s04:cat:missing-media",
+            "xue-er-10-s04:dog:missing-media",
+            "xue-er-10-s05:elephant:missing-media",
+            "xue-er-10-s05:children:missing-media",
+            "xue-er-10-s05:bunny:missing-media",
+            "xue-er-10-s05:cat:missing-media",
+            "xue-er-10-s05:dog:missing-media",
+            "xue-er-10-s06:elephant:missing-media",
+            "xue-er-10-s06:children:missing-media",
+            "xue-er-10-s06:bunny:missing-media",
+            "xue-er-10-s06:cat:missing-media",
+            "xue-er-10-s06:dog:missing-media",
+            "xue-er-10-s07:elephant:missing-media",
+            "xue-er-10-s07:children:missing-media",
+            "xue-er-10-s07:bunny:missing-media",
+            "xue-er-10-s07:cat:missing-media",
+            "xue-er-10-s07:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-11",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-11:title:missing-media",
+            "xue-er-11-s01:elephant:missing-media",
+            "xue-er-11-s01:children:missing-media",
+            "xue-er-11-s01:bunny:missing-media",
+            "xue-er-11-s01:cat:missing-media",
+            "xue-er-11-s01:dog:missing-media",
+            "xue-er-11-s02:elephant:missing-media",
+            "xue-er-11-s02:children:missing-media",
+            "xue-er-11-s02:bunny:missing-media",
+            "xue-er-11-s02:cat:missing-media",
+            "xue-er-11-s02:dog:missing-media",
+            "xue-er-11-s03:elephant:missing-media",
+            "xue-er-11-s03:children:missing-media",
+            "xue-er-11-s03:bunny:missing-media",
+            "xue-er-11-s03:cat:missing-media",
+            "xue-er-11-s03:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-12",
+          "pages": 2,
+          "ready": false,
+          "blockers": [
+            "xue-er-12:title:missing-media",
+            "xue-er-12-s01:elephant:missing-media",
+            "xue-er-12-s01:children:missing-media",
+            "xue-er-12-s01:bunny:missing-media",
+            "xue-er-12-s01:cat:missing-media",
+            "xue-er-12-s01:dog:missing-media",
+            "xue-er-12-s02:elephant:missing-media",
+            "xue-er-12-s02:children:missing-media",
+            "xue-er-12-s02:bunny:missing-media",
+            "xue-er-12-s02:cat:missing-media",
+            "xue-er-12-s02:dog:missing-media",
+            "xue-er-12-s03:elephant:missing-media",
+            "xue-er-12-s03:children:missing-media",
+            "xue-er-12-s03:bunny:missing-media",
+            "xue-er-12-s03:cat:missing-media",
+            "xue-er-12-s03:dog:missing-media",
+            "xue-er-12-s04:elephant:missing-media",
+            "xue-er-12-s04:children:missing-media",
+            "xue-er-12-s04:bunny:missing-media",
+            "xue-er-12-s04:cat:missing-media",
+            "xue-er-12-s04:dog:missing-media",
+            "xue-er-12-s05:elephant:missing-media",
+            "xue-er-12-s05:children:missing-media",
+            "xue-er-12-s05:bunny:missing-media",
+            "xue-er-12-s05:cat:missing-media",
+            "xue-er-12-s05:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-13",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-13:title:missing-media",
+            "xue-er-13-s01:elephant:missing-media",
+            "xue-er-13-s01:children:missing-media",
+            "xue-er-13-s01:bunny:missing-media",
+            "xue-er-13-s01:cat:missing-media",
+            "xue-er-13-s01:dog:missing-media",
+            "xue-er-13-s02:elephant:missing-media",
+            "xue-er-13-s02:children:missing-media",
+            "xue-er-13-s02:bunny:missing-media",
+            "xue-er-13-s02:cat:missing-media",
+            "xue-er-13-s02:dog:missing-media",
+            "xue-er-13-s03:elephant:missing-media",
+            "xue-er-13-s03:children:missing-media",
+            "xue-er-13-s03:bunny:missing-media",
+            "xue-er-13-s03:cat:missing-media",
+            "xue-er-13-s03:dog:missing-media",
+            "xue-er-13-s04:elephant:missing-media",
+            "xue-er-13-s04:children:missing-media",
+            "xue-er-13-s04:bunny:missing-media",
+            "xue-er-13-s04:cat:missing-media",
+            "xue-er-13-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-14",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-14:title:missing-media",
+            "xue-er-14-s01:elephant:missing-media",
+            "xue-er-14-s01:children:missing-media",
+            "xue-er-14-s01:bunny:missing-media",
+            "xue-er-14-s01:cat:missing-media",
+            "xue-er-14-s01:dog:missing-media",
+            "xue-er-14-s02:elephant:missing-media",
+            "xue-er-14-s02:children:missing-media",
+            "xue-er-14-s02:bunny:missing-media",
+            "xue-er-14-s02:cat:missing-media",
+            "xue-er-14-s02:dog:missing-media",
+            "xue-er-14-s03:elephant:missing-media",
+            "xue-er-14-s03:children:missing-media",
+            "xue-er-14-s03:bunny:missing-media",
+            "xue-er-14-s03:cat:missing-media",
+            "xue-er-14-s03:dog:missing-media",
+            "xue-er-14-s04:elephant:missing-media",
+            "xue-er-14-s04:children:missing-media",
+            "xue-er-14-s04:bunny:missing-media",
+            "xue-er-14-s04:cat:missing-media",
+            "xue-er-14-s04:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-15",
+          "pages": 4,
+          "ready": false,
+          "blockers": [
+            "xue-er-15:title:missing-media",
+            "xue-er-15-s01:elephant:missing-media",
+            "xue-er-15-s01:children:missing-media",
+            "xue-er-15-s01:bunny:missing-media",
+            "xue-er-15-s01:cat:missing-media",
+            "xue-er-15-s01:dog:missing-media",
+            "xue-er-15-s02:elephant:missing-media",
+            "xue-er-15-s02:children:missing-media",
+            "xue-er-15-s02:bunny:missing-media",
+            "xue-er-15-s02:cat:missing-media",
+            "xue-er-15-s02:dog:missing-media",
+            "xue-er-15-s03:elephant:missing-media",
+            "xue-er-15-s03:children:missing-media",
+            "xue-er-15-s03:bunny:missing-media",
+            "xue-er-15-s03:cat:missing-media",
+            "xue-er-15-s03:dog:missing-media",
+            "xue-er-15-s04:elephant:missing-media",
+            "xue-er-15-s04:children:missing-media",
+            "xue-er-15-s04:bunny:missing-media",
+            "xue-er-15-s04:cat:missing-media",
+            "xue-er-15-s04:dog:missing-media",
+            "xue-er-15-s05:elephant:missing-media",
+            "xue-er-15-s05:children:missing-media",
+            "xue-er-15-s05:bunny:missing-media",
+            "xue-er-15-s05:cat:missing-media",
+            "xue-er-15-s05:dog:missing-media",
+            "xue-er-15-s06:elephant:missing-media",
+            "xue-er-15-s06:children:missing-media",
+            "xue-er-15-s06:bunny:missing-media",
+            "xue-er-15-s06:cat:missing-media",
+            "xue-er-15-s06:dog:missing-media",
+            "xue-er-15-s07:elephant:missing-media",
+            "xue-er-15-s07:children:missing-media",
+            "xue-er-15-s07:bunny:missing-media",
+            "xue-er-15-s07:cat:missing-media",
+            "xue-er-15-s07:dog:missing-media",
+            "xue-er-15-s08:elephant:missing-media",
+            "xue-er-15-s08:children:missing-media",
+            "xue-er-15-s08:bunny:missing-media",
+            "xue-er-15-s08:cat:missing-media",
+            "xue-er-15-s08:dog:missing-media",
+            "xue-er-15-s09:elephant:missing-media",
+            "xue-er-15-s09:children:missing-media",
+            "xue-er-15-s09:bunny:missing-media",
+            "xue-er-15-s09:cat:missing-media",
+            "xue-er-15-s09:dog:missing-media",
+            "xue-er-15-s10:elephant:missing-media",
+            "xue-er-15-s10:children:missing-media",
+            "xue-er-15-s10:bunny:missing-media",
+            "xue-er-15-s10:cat:missing-media",
+            "xue-er-15-s10:dog:missing-media",
+            "xue-er-15-s11:elephant:missing-media",
+            "xue-er-15-s11:children:missing-media",
+            "xue-er-15-s11:bunny:missing-media",
+            "xue-er-15-s11:cat:missing-media",
+            "xue-er-15-s11:dog:missing-media"
+          ]
+        },
+        {
+          "id": "xue-er-16",
+          "pages": 1,
+          "ready": false,
+          "blockers": [
+            "xue-er-16:title:missing-media",
+            "xue-er-16-s01:elephant:missing-media",
+            "xue-er-16-s01:children:missing-media",
+            "xue-er-16-s01:bunny:missing-media",
+            "xue-er-16-s01:cat:missing-media",
+            "xue-er-16-s01:dog:missing-media",
+            "xue-er-16-s02:elephant:missing-media",
+            "xue-er-16-s02:children:missing-media",
+            "xue-er-16-s02:bunny:missing-media",
+            "xue-er-16-s02:cat:missing-media",
+            "xue-er-16-s02:dog:missing-media"
+          ]
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-01-390x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-01-390x844.png",
+      "sha256": "e91953090de145754c9c44dccb7adef3fed444979ff288cf761530aef838250a",
+      "bytes": 118503,
+      "actualDimensions": [
+        390,
+        1235
+      ],
+      "sourceStillMatches": true
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-03-320x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-320x844.png",
+      "sha256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e",
+      "bytes": 66927,
+      "actualDimensions": [
+        320,
+        844
+      ],
+      "sourceStillMatches": true
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-03-390x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-390x844.png",
+      "sha256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+      "bytes": 78241,
+      "actualDimensions": [
+        390,
+        844
+      ],
+      "sourceStillMatches": true
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-320x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-320x844.png",
+      "sha256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee",
+      "bytes": 78894,
+      "actualDimensions": [
+        320,
+        916
+      ],
+      "sourceStillMatches": true
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-768x1024.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-768x1024.png",
+      "sha256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115",
+      "bytes": 105851,
+      "actualDimensions": [
+        768,
+        1024
+      ],
+      "sourceStillMatches": true
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-844x390.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-844x390.png",
+      "sha256": "95fb8c100714fd1cab0637d6ad321ead67ab3a363959b5bae78a7b4af0da5407",
+      "bytes": 105925,
+      "actualDimensions": [
+        844,
+        881
+      ],
+      "sourceStillMatches": true
+    }
+  ],
+  "engineeringSuite": {
+    "command": "npm test",
+    "started_at": "2026-11-03T12:25:38.715114+00:00",
+    "finished_at": "2026-11-03T12:28:53.030576+00:00",
+    "exit_code": 1,
+    "passed": 59,
+    "failed": 3,
+    "skipped": 0,
+    "did not run": 0,
+    "log": "tests/artifacts/xue-er-phase-b/npm-test-b.log",
+    "log_sha256": "8cdc96e0694815e0a8090865f475e81d4c32ae46a3ccd6334f4192d5a4113a86",
+    "sourceResultSHA256": "0af9e54a53176b4cee700e032666971a78fddbf11171c67bfb32b0cbb990059b",
+    "interpretation": "59 passed / 3 failed; root causes pending Engineer, no engineering or release acceptance",
+    "localEvidence": [
+      "engineering-suite.log",
+      "engineering-suite-result.json"
+    ]
+  },
+  "inputFingerprintAfter": {
+    "docs/content/xue-er-validation.json": "fa86e830a49a5b24891bff2178fc3fcede184be6fa55833858e0c9c138335b9b",
+    "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+    "docs/design/xue-er-scene-config.json": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+    "docs/design/xue-er-scene-ground-proposal.css": "df6210c5409af120ab8486585c1b775f0b95e222c73b10990c54998e34119393",
+    "docs/tts/xue-er-generation-request-b.json": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+    "docs/tts/xue-er-generation-request.json": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+    "package-lock.json": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+    "package.json": "b0c7269ccf2443ec75d90a9460755808135eb47b8f35b2e0df27c82398719f91",
+    "playwright.config.js": "ce16a3e5e979a34a0e145cc21e129525f07d54c5927bbcb3307de127c5f0410c",
+    "scripts/build.mjs": "08b31c20c5e295038156bd57736afcd10d652450c8ab24977bac352abfe01109",
+    "scripts/chapter-data.mjs": "71589fdd4e28f806929a3ec4dcc18bad50b78b9c8b7f8a3ed65ddfe7ccd6236c",
+    "scripts/image/clean.py": "19f46e7438e4ba22eaa73aa137b494a4fc021a275d9117b63767cba616e4a2a4",
+    "scripts/image/common.py": "be3890e5f79f8fe118b781caae2c7caec881d516b1d24dd91aee441820b01474",
+    "scripts/image/export.py": "c5b2e0875095080e5ef0a741d051fa8f16625a54c9feca582298e764be3716bc",
+    "scripts/image/layers_bunny.py": "c4be79d7b918a11830e892fd95197ea64e9b0817b3df24187315181e1f1ede93",
+    "scripts/image/layers_dog.py": "36f7c125585e1b853ff4c2b6978fd5940671a089b1ad567e49e05308f737e86e",
+    "scripts/import-chapter-media.mjs": "0c6f3e1428dd015fc6da98f8ab90ff8c3b801d9bb8a796cf975815f42c249174",
+    "scripts/requirements.txt": "00a216254e7c683178fdd3ef9db3992d266f3cc139fdb1a94c5bf5cb07a7075c",
+    "scripts/serve.mjs": "3a10312e4dca7f8582b3f3fb19597d23ea2cbd1e44bc311ec5530b58cecaebdb",
+    "scripts/sfx/make.py": "60e02bcf9614ee426f8e7974ce9df8301a80b1b49c76744fd1668022bd3b7fb4",
+    "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+    "scripts/tts/config.py": "5b8947b8ceedf4c92b6f8387d7c3b5716c1e296374d9115f4d2160d3f58b5f60",
+    "scripts/tts/gen.py": "3d39e408bd32ce8ad926dcde5275ba355ab09072f0f4e7b0d44a1f0613388baf",
+    "scripts/tts/process.py": "d4773c45efcfeedc8a39c3c346c15322fc00e611889152d5ef3a3fc2086f42a0",
+    "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab",
+    "src/_headers": "6cce4e01dd6faf1733da53dfa946a1ffde66c3224da5184fa53abfc9f01214ef",
+    "src/app.js": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "src/catalog.json": "273cb0305ad7787063c808576613cd79cf382f3d5b33954dbca96ac4ecae5c35",
+    "src/chapter-media.json": "27da14065dff01ca75eed78c219f8f0dbdfc5ec5d9d4c09f736f68dc2aaca6ef",
+    "src/chapter-player.js": "1c984b0cb11ca788eeb54787af71cfc800b248949dc666512a86b5dbe2c39da9",
+    "src/chapter.css": "7db8fffa8cba7a309002a6bc6750c09a07042c390f024d6ac47506a538fc0dcd",
+    "src/home.css": "2fbe1d045b88285fdcc9302164a88af0a37893b97367306708741c0f98ae7948",
+    "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+    "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+    "src/index.html": "2f9f135791c7f7a83134978f6c08150a6733abe88ebab11a022a938d0309f00e",
+    "src/styles.css": "4f8e61889207ef10cf2e226c90b88f78a2bfdd7931904ff922185ff8492f59c0",
+    "src/volume.css": "5cc0ded10b3a91dada1ab05ce76e89a4ced9b99eb32d33a231b4dc680db94a63",
+    "src/volume.html": "22c9b035d43c6d92d7776d797794f9a54c884082f1431f8f6fce2e2eaec4d4be",
+    "tests/cancellation.spec.js": "81b497e578e0a0a56ad06bcaae7b0c63e9f2628f6c1bfc5c3404870c08bdeb9a",
+    "tests/chapter-data.spec.js": "604f7d9df6fa4a271fff563626ef122f19cca4752b44e2862cf784ef7f056e11",
+    "tests/chapter-fixture.mjs": "8c0b5612ba6503fe9056b4341c3659e9d554aba8db63ebf9385e7ad8a97d2254",
+    "tests/chapters.spec.js": "8ea362e04b2baedab8b6eb76ed4ee91d64a44ac27a625b76b0fffb9d4f0f4fb2",
+    "tests/helpers.js": "696c23b0b5b2127da6550903e81b8580e2a0fe3d114cca071cf76f5302b1da3a",
+    "tests/homepage.spec.js": "27a1924e24b6a6c253e5562b8c4e4201ae8e0c73f50ec56554b40c221e994c3f",
+    "tests/lifecycle.spec.js": "e2aa21114a4192a227353d5d26eb33428f59e1d4aa748f9ebf411957a16b1a44",
+    "tests/responsive.spec.js": "acf511dcb544cc9d526264e71645fcfd999636547f1b9088363b7a131bf66848",
+    "tests/single-file.spec.js": "e08f92ebeb7c3a5fb5da1ca099a6913a2acb2a5e2fbb079446355020cb8511f3",
+    "tests/smoke.spec.js": "6b2cb4994b23368c398379f4a4bba54a47a7281a28feb0f023c8d597d56ede83"
+  },
+  "inputChangedDuringCheck": [],
+  "staticStatus": "needs-review",
+  "overallStatus": "not-accepted-await-corrected-green-freeze"
+}

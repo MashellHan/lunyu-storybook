@@ -1,7 +1,9 @@
 (() => {
 const AUD = __AUDIO__;
 const TIM = __TIMINGS__;
-const SENT = [
+const CHAPTER = __CHAPTER__;
+let chapterPlayer = null;
+let SENT = [
   { text:"学而时习之，不亦说乎？", py:["xué","ér","shí","xí","zhī","","bù","yì","yuè","hū",""], color:"#f08a5d", e:"e1", u:"u1" },
   { text:"有朋自远方来，不亦乐乎？", py:["yǒu","péng","zì","yuǎn","fāng","lái","","bù","yì","lè","hū",""], color:"#5fb3a1", e:"e2", u:"u2" },
   { text:"人不知而不愠，不亦君子乎？", py:["rén","bù","zhī","ér","bù","yùn","","bù","yì","jūn","zǐ","hū",""], color:"#7a8fd6", e:"e3", u:"u3" },
@@ -14,13 +16,13 @@ const reduce = matchMedia("(prefers-reduced-motion: reduce)");
 const EASE_OUT = "cubic-bezier(0.16,1,0.3,1)";
 const setStep = s => { book.dataset.step = s; };
 window.__log = [];
-
-/* fit the 1180x820 page to any screen */
-function fit(){ const s = Math.min(innerWidth/1180, innerHeight/820); book.style.transform = `scale(${s})`; }
-addEventListener("resize", fit); fit();
+let runId = 0, free = false;
+let lastPageShowPersisted = false;
+const pendingWaits = new Set();
 
 /* bookshelf + plant (CSS-drawn) */
 (() => {
+  if (CHAPTER && CHAPTER.layouts) return;
   const shelf = $("#shelf"); const cols = ["#f08a5d","#ffc93c","#8cc084","#7a8fd6","#e98bb0","#5fb3a1","#f4a259"];
   [0,1].forEach(r => {
     const row = document.createElement("div"); row.className = "row"; row.style.top = (r*108+10)+"px";
@@ -36,16 +38,31 @@ addEventListener("resize", fit); fit();
 
 /* ---------- pause (adult control): audio + script timeline + every animation ---------- */
 let paused = false, userPaused = false, clipActive = false;
+let audioUnlocked = false;
+let pauseStarted = 0, pausedDuration = 0;
+// Every wait and clip deadline uses the same clock, including frames suspended in the background.
+function activeNow(){ return (paused ? pauseStarted : performance.now()) - pausedDuration; }
 const heldAnims = new Set();
+function holdAnimation(animation){
+  const time = animation.currentTime ?? 0;
+  animation.pause();
+  // Commit the hold now: offscreen SVG pause tasks can otherwise remain pending for frames.
+  animation.currentTime = time;
+  heldAnims.add(animation);
+}
 const au = new Audio(); au.preload = "auto";
 const pauseBtn = $("#pauseBtn");
 function setPaused(v){
-  if (v === paused) return; paused = v;
+  if (v === paused) return;
+  const now = performance.now();
+  if (v) pauseStarted = now; else pausedDuration += now - pauseStarted;
+  paused = v;
   book.classList.toggle("paused", v);
   pauseBtn.textContent = userPaused ? "▶" : "⏸"; pauseBtn.setAttribute("aria-pressed", userPaused);
+  pauseBtn.setAttribute("aria-label", userPaused ? "继续朗读" : "暂停朗读");
   if (v){
     au.pause();
-    document.getAnimations().forEach(a => { if (a.playState === "running"){ a.pause(); heldAnims.add(a); } });
+    document.getAnimations().forEach(a => { if (a.playState === "running") holdAnimation(a); });
   } else {
     heldAnims.forEach(a => { try{ a.play(); }catch(e){} }); heldAnims.clear();
     if (clipActive && !au.ended && au.src) au.play().catch(()=>{});
@@ -54,39 +71,83 @@ function setPaused(v){
 pauseBtn.addEventListener("click", e => { e.stopPropagation(); userPaused = !userPaused; setPaused(userPaused || document.hidden); pauseBtn.textContent = userPaused ? "▶" : "⏸"; });
 document.addEventListener("visibilitychange", () => setPaused(userPaused || document.hidden));
 /* pause-aware wait: only counts time while not paused */
-function wait(ms){
-  return new Promise(res => { let left = ms, last = performance.now();
-    const tick = () => { const n = performance.now(); if (!paused) left -= n - last; last = n; left <= 0 ? res() : setTimeout(tick, Math.min(50, left)); };
-    setTimeout(tick, Math.min(50, Math.max(ms,0))); });
+function wait(ms, my = runId){
+  return new Promise(res => {
+    let left = ms, last = activeNow(), timer;
+    const finish = ok => { clearTimeout(timer); pendingWaits.delete(cancel); res(ok); };
+    const cancel = () => finish(false);
+    const tick = () => {
+      if (my !== runId) return finish(false);
+      const n = activeNow(); left -= n - last; last = n;
+      if (left <= 0) finish(true); else timer = setTimeout(tick, Math.min(50, left));
+    };
+    pendingWaits.add(cancel);
+    timer = setTimeout(tick, Math.min(50, Math.max(ms, 0)));
+  });
 }
-const sleep = wait;
+function later(fn, ms, my = runId){
+  return wait(ms, my).then(ok => { if (ok && my === runId) fn(); });
+}
 
 /* ---------- sentence cards = subtitles (text + pinyin only) ---------- */
 const cardsEl = $("#cards");
+let cards = [];
+function annotationMarkup(segments){
+  const escape = text => String(text).replace(/[&<>"']/g, ch => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[ch]));
+  const meanings = segments.map(segment => `<span data-annotation-segment="${escape(segment.id)}">${escape(segment.annotation.meaning)}</span>`).join(" ");
+  const terms = segments.flatMap(segment => segment.annotation.terms.map(term => `<div data-annotation-term-for="${escape(segment.id)}"><dt>${escape(term.term)}</dt><dd>${escape(term.explanation)}</dd></div>`)).join("");
+  return `<div class="annotations" role="note" aria-label="注解"><p class="annotation-meaning"><span class="annotation-label">释义：</span>${meanings}</p>${terms ? `<dl class="annotation-terms">${terms}</dl>` : ""}</div>`;
+}
+function renderCards(sentences){
+SENT = sentences; cardsEl.replaceChildren();
 SENT.forEach((s,i) => {
-  const b = document.createElement("button"); b.className = "card"; b.style.setProperty("--c", s.color);
+  const b = document.createElement("button"); b.type = "button"; b.className = "card"; b.style.setProperty("--c", s.color);
   b.setAttribute("aria-label", s.text);
-  const ks = [...s.text].map((ch,k) => {
+  if (CHAPTER) { b.dataset.group = s.id; b.disabled = !CHAPTER.playable; }
+  let segmentOffset = 0;
+  const positions = (s.segments || []).flatMap(segment => [...segment.text].map((_, index) => ({ id: segment.id, index: segment.start + index, local: segmentOffset++ })));
+  const chars = [...s.text];
+  const glyphs = chars.map((ch,k) => {
     const inner = s.py[k] ? `<ruby>${ch}<rt>${s.py[k]}</rt></ruby>` : ch;
-    return `<span class="k">${inner}</span>` + (ch === "，" ? '<span class="br"></span>' : "");
-  }).join("");
+    const position = positions[k];
+    return `<span class="k"${position ? ` data-segment="${position.id}" data-source-index="${position.index}"` : ""}>${inner}</span>` + (!CHAPTER && ch === "，" ? '<span class="br"></span>' : "");
+  });
+  // Keep closing punctuation with the preceding glyph and opening quotes with the next one.
+  const units = []; let opening = [];
+  if (CHAPTER) chars.forEach((ch,k) => {
+    if (/[“‘《〈「『（【]/u.test(ch)) opening.push(glyphs[k]);
+    else if (/[，。！？；：、”’》〉」』）】]/u.test(ch) && units.length && !opening.length) units.at(-1).push(glyphs[k]);
+    else { units.push([...opening, glyphs[k]]); opening = []; }
+  });
+  if (opening.length) units.push(opening);
+  const ks = CHAPTER ? units.map(unit => `<span class="word-unit">${unit.join("")}</span>`).join("") : glyphs.join("");
   b.innerHTML = `<span class="num">${i+1}</span><span class="txt">${ks}</span><span class="bar"><i></i></span>`;
   b.addEventListener("click", () => cardTap(i));
-  cardsEl.appendChild(b);
+  if (CHAPTER) {
+    const group = document.createElement("div"); group.className = "reading-group";
+    group.appendChild(b); group.insertAdjacentHTML("beforeend", annotationMarkup(s.segments));
+    cardsEl.appendChild(group);
+  } else cardsEl.appendChild(b);
 });
-const cards = [...cardsEl.children];
-const K = i => ({ els:[...cards[i].querySelectorAll(".k")], bar:cards[i].querySelector(".bar i") });
+cards = [...cardsEl.querySelectorAll("button.card")];
+}
+renderCards(CHAPTER ? [] : SENT);
+const K = (i, segmentId) => ({ els:[...cards[i].querySelectorAll(segmentId ? `.k[data-segment="${segmentId}"]` : ".k")], bar:segmentId ? null : cards[i].querySelector(".bar i") });
 function focusCard(i){ cardsEl.classList.add("reading"); cards.forEach((c,k)=>c.classList.toggle("playing", k===i)); }
 function unfocus(){ cardsEl.classList.remove("reading"); cards.forEach(c=>c.classList.remove("playing")); }
 
 /* ---------- karaoke: highlight follows the audio clock ---------- */
 function karaReset(k){ k.els.forEach(e=>e.classList.remove("done","cur")); if (k.bar) k.bar.style.transform = "scaleX(0)"; }
-function karaTick(k, times, dur, t){
+function karaTick(k, times, dur, t, wordGroups = []){
   let cur = -1; times.forEach((x,i) => { if (x != null && x <= t) cur = i; });
   const lastT = Math.max(...times.filter(x=>x!=null));
-  const end = t >= lastT + 0.35;
-  k.els.forEach((e,i) => { e.classList.toggle("done", end || i < cur); e.classList.toggle("cur", !end && i === cur); });
-  if (k.bar) k.bar.style.transform = `scaleX(${Math.min(1, Math.max(0, t/(lastT+0.35)))})`;
+  const endAt = wordGroups.some(group => group.offsetSeconds === lastT) ? dur : lastT + 0.35;
+  const end = t >= endAt;
+  k.els.forEach((e,i) => {
+    const active = !end && cur >= 0 && times[i] != null && times[i] === times[cur];
+    e.classList.toggle("done", end || (i < cur && !active)); e.classList.toggle("cur", active);
+  });
+  if (k.bar) k.bar.style.transform = `scaleX(${Math.min(1, Math.max(0, t/endAt))})`;
 }
 function karaFinish(k){ k.els.forEach(e=>{ e.classList.remove("cur"); e.classList.add("done"); }); if (k.bar) k.bar.style.transform = "scaleX(1)"; }
 
@@ -166,16 +227,22 @@ function react(id, kind){
     const a = el.animate([{opacity:1},{opacity:.6},{opacity:1}], {duration:360, easing:"linear"});
     live[id] = [a]; return a.finished.catch(()=>{});
   }
-  const m = moves(kind);
+  const compact = { flip:"bounce", bigHop:"bounce", spin:"nod", trumpet:"nod" };
+  const motionKind = innerWidth <= 640 ? (compact[kind] || kind) : kind;
+  const m = moves(motionKind);
+  // Narrow screens keep the type and controls full-size; only the character's travel is shorter.
+  const travel = innerWidth > 640 && innerWidth < 1000 ? .7 : 1;
+  const frames = m.k.map(frame => ({ ...frame, transform: frame.transform.replace(/translate(?:X|Y)?\([^)]*\)/g,
+    part => part.replace(/(-?[\d.]+)px/g, (_, n) => `${Number(n) * travel}px`)) }));
   el.style.transformOrigin = m.o;
-  const a = el.animate(m.k, {duration:m.d, easing:m.e});
-  live[id] = [a, ...secondary(id, kind, m.d)];
-  if (kind==="trumpet") notes(id);
+  const a = el.animate(frames, {duration:m.d, easing:m.e});
+  live[id] = [a, ...secondary(id, motionKind, m.d)];
+  if (motionKind==="trumpet") notes(id);
   return a.finished.catch(()=>{});
 }
 /* elephant's "trumpet": a few ♪ float up from the trunk tip */
 function notes(id){
-  const host = $("#"+id), r = host.getBoundingClientRect(), br = book.getBoundingClientRect(), sc = br.width/1180;
+  const host = $("#"+id), r = host.getBoundingClientRect(), br = book.getBoundingClientRect(), sc = br.width/book.offsetWidth;
   const x0 = (r.left - br.left + r.width*.76)/sc, y0 = (r.top - br.top + r.height*.38)/sc;
   for (let i=0;i<4;i++){
     const s = document.createElement("span"); s.className = "spark"; s.textContent = i%2 ? "♫" : "♪"; s.style.color = "#7a8fd6"; s.style.textShadow="none"; s.style.fontSize = (30+i*4)+"px";
@@ -200,12 +267,12 @@ function talk(on){
 function dogBlink(double){
   if (reduce.matches) return;
   const run = () => document.querySelectorAll("#dog .lid").forEach(l => {
-    const p = l; p.classList.add("shut"); setTimeout(()=>p.classList.remove("shut"), 110);
+    const p = l; p.classList.add("shut"); later(()=>p.classList.remove("shut"), 110);
   });
-  run(); if (double) setTimeout(run, 260);
+  run(); if (double) later(run, 260);
 }
 function sparkle(id, n=7, big=false){
-  const host = $("#"+id), r = host.getBoundingClientRect(), br = book.getBoundingClientRect(), sc = br.width/1180;
+  const host = $("#"+id), r = host.getBoundingClientRect(), br = book.getBoundingClientRect(), sc = br.width/book.offsetWidth;
   const cx = (r.left - br.left + r.width/2)/sc, cy = (r.top - br.top + r.height*.35)/sc;
   for (let i=0;i<n;i++){
     const s = document.createElement("span"); s.className = "spark"; s.textContent = i%3 ? "✦" : "★";
@@ -213,8 +280,9 @@ function sparkle(id, n=7, big=false){
     book.appendChild(s);
     const ang = (i/n)*Math.PI*2 + Math.random()*.5, dist = (big?160:90) + Math.random()*40;
     const x = cx + Math.cos(ang)*dist, y = cy + Math.sin(ang)*dist*.8;
+    if (reduce.matches){ s.style.left = `${x}px`; s.style.top = `${y}px`; }
     const a = reduce.matches
-      ? s.animate([{transform:`translate(${x}px,${y}px)`,opacity:0},{transform:`translate(${x}px,${y}px)`,opacity:1,offset:.3},{transform:`translate(${x}px,${y}px)`,opacity:0}],{duration:700,fill:"both"})
+      ? s.animate([{opacity:0},{opacity:1,offset:.3},{opacity:0}],{duration:700,fill:"both"})
       : s.animate([{transform:`translate(${cx}px,${cy}px) scale(.3)`,opacity:0},{opacity:1,offset:.25},{transform:`translate(${x}px,${y}px) scale(1) rotate(90deg)`,opacity:0}],{duration:big?1100:720,easing:EASE_OUT,delay:i*25,fill:"backwards"});
     a.finished.then(()=>s.remove()).catch(()=>s.remove());
   }
@@ -226,6 +294,7 @@ function hideBubbles(){ document.querySelectorAll(".aBubble.show").forEach(b=>b.
 /* ---------- talking: gentle bob on the character layer (+ dog mouth) ---------- */
 const talkAnims = {};
 function talkStart(ids){
+  if (CHAPTER && ids.length > 1) ids = [chapterPlayer?.responder || ids[0]];
   ids.forEach(id => {
     $("#"+id).classList.add("busy");
     if (id === "dog") talk(true);
@@ -244,43 +313,65 @@ function talkStop(ids){
 
 /* ---------- audio clips (pre-rendered, embedded) ---------- */
 let clipToken = 0, curFin = null;
+function unlockAudio(){
+  if (audioUnlocked) return;
+  const source = AUD.title || Object.values(AUD)[0];
+  if (!source) return;
+  const my = ++clipToken;
+  au.muted = true; au.src = source;
+  // Prime this exact element in the tap, before a character's pre-reading wait.
+  au.play().then(() => {
+    audioUnlocked = true;
+    if (my !== clipToken) return;
+    au.pause(); au.currentTime = 0; au.muted = false;
+  }).catch(() => { if (my === clipToken) au.muted = false; });
+}
 function playClip(key, { kara = null, talkers = [], strict = false } = {}){
+  stopAudio();
+  if (!AUD[key] || !TIM[key]) return Promise.resolve(false);
   const my = ++clipToken; const T = TIM[key];
   window.__log.push({ key, t: Date.now() });
   return new Promise(res => {
-    let done = false, fallback = false, fbT = 0, wall = 0, last = performance.now(), raf = 0;
+    let done = false, fallback = false, fbT = 0, wall = 0, last = activeNow(), raf = 0;
     const fin = (ok = true) => { if (done) return; done = true; clipActive = false; cancelAnimationFrame(raf);
+      if (my === clipToken) au.pause();
       if (curFin === fin) curFin = null; talkStop(talkers); if (kara) (ok ? karaFinish(kara) : karaReset(kara)); res(ok); };
     curFin = fin;
     if (kara) karaReset(kara);
     talkStart(talkers);
     const loop = () => {
       if (my !== clipToken || done) return;
-      const n = performance.now(); const dt = (n - last)/1000; last = n;
-      if (!paused){ wall += dt; if (fallback) fbT += dt; }
+      const n = activeNow(); const dt = (n - last)/1000; last = n;
+      wall += dt; if (fallback) fbT += dt;
       const t = fallback ? fbT : au.currentTime;
-      if (kara) karaTick(kara, T.t, T.dur, t);
-      if ((fallback && fbT >= T.dur) || wall > T.dur + 2.5){ fin(); return; }   // never hang the script
+      if (kara) karaTick(kara, T.t, T.dur, t, T.wordGroups);
+      if ((fallback && fbT >= T.dur) || wall > T.dur + 2.5){ fin(!CHAPTER); return; }   // A deadline is never successful new-chapter reading.
       raf = requestAnimationFrame(loop);
     };
     au.onended = () => { if (my === clipToken) fin(); };
-    au.src = AUD[key]; clipActive = true;
+    au.muted = false; au.src = AUD[key]; clipActive = true;
     const p = au.play();
-    if (p) p.catch(() => { if (my !== clipToken) return; if (strict){ fin(false); return; } fallback = true; });
+    if (p) p.then(() => { if (my === clipToken){ audioUnlocked = true; if (paused) au.pause(); } })
+      .catch(() => { if (my !== clipToken) return; if (strict || CHAPTER){ fin(false); return; } fallback = true; });
+    if (paused) au.pause();
     raf = requestAnimationFrame(loop);
   });
 }
-function stopAudio(){ clipToken++; au.pause(); if (curFin) curFin(false); }
+function stopAudio(){ clipToken++; au.pause(); au.onended = null; au.muted = false; if (curFin) curFin(false); clipActive = false; }
 
 /* ---------- motion bits ---------- */
-function groupBounce(){ KIDS.forEach((id,k) => setTimeout(() => react(id, "bounce"), k*90)); }
+function groupBounce(){ KIDS.forEach((id,k) => later(() => react(id, "bounce"), k*90)); }
 function soundBubble(id, txt){ const b = bubbleOf(id); b.textContent = txt; b.classList.add("show"); }
 
 /* ---------- title screen ---------- */
 const titleEl = $("#title"), ttSub = $("#ttSub"), ttMain = $("#ttMain"), startBtn = $("#startBtn");
-const ttText = TIM.title.text;                     // "论语 之 学而时习之"
-const ttEls = [...ttText].map((ch, i) => { const s = document.createElement("span"); s.className = "t"; s.textContent = ch === " " ? "" : ch;
-  (i < 4 ? ttSub : ttMain).appendChild(s); if (ch === " ") s.style.width = "0"; return s; });
+const ttText = TIM.title?.text || CHAPTER?.titleReadingText || `论语 之${CHAPTER?.title || ""}`;
+const headingStart = CHAPTER ? [...ttText.slice(0, ttText.indexOf(CHAPTER.title))].length : 4;
+const ttEls = [...ttText].map((ch, i) => { const s = document.createElement("span"); s.className = "t";
+  s.textContent = CHAPTER ? (/\p{Script=Han}/u.test(ch) ? ch : "") : ch === " " ? "" : ch;
+  (i < headingStart ? ttSub : ttMain).appendChild(s);
+  if (!s.textContent) { if (CHAPTER) s.hidden = true; else s.style.width = "0"; }
+  return s; });
 const ttK = { els: ttEls, bar: null };
 let titleState = "idle", titleDone = null;
 function titleIntro(){
@@ -298,33 +389,48 @@ function titleIntro(){
   return d;
 }
 function playTitle(strict){
+  if (!TIM.title) { titleState = "done"; titleDone = Promise.resolve(true); return titleDone; }
+  const my = runId;
   titleState = "playing"; setStep("title-voice");
-  titleDone = playClip("title", { kara: ttK, talkers: [], strict }).then(ok => { titleState = ok ? "done" : "blocked"; if (!ok) setStep("title"); return ok; });
+  titleDone = playClip("title", { kara: ttK, talkers: [], strict }).then(ok => {
+    if (my !== runId) return false;
+    titleState = ok ? "done" : "blocked"; if (!ok) setStep("title"); return ok;
+  });
   return titleDone;
 }
 setStep("title");
-const introMs = titleIntro();
+const introMs = CHAPTER?.preview ? 0 : titleIntro();
 /* try the title voice on load; browsers usually block sound before the first tap -> it plays on the first tap instead */
-setTimeout(() => { if (titleState === "idle") playTitle(true); }, introMs);
+if (!CHAPTER?.preview) later(() => { if (!free && titleState === "idle") playTitle(true); }, introMs);
 titleEl.addEventListener("click", e => { if (e.target.closest("#startBtn")) return; if (titleState === "blocked" || titleState === "idle") playTitle(false); });
 startBtn.addEventListener("click", async e => {
   e.stopPropagation();
   if (startBtn.disabled) return; startBtn.disabled = true;
+  const my = runId;
   if (titleState === "blocked" || titleState === "idle") playTitle(false);   // called inside the tap = audio unlocked
-  else if (titleState === "done"){ au.muted = true; au.src = AUD.title; au.play().then(()=>{ au.pause(); au.muted = false; }).catch(()=>{ au.muted = false; }); }
-  await titleDone; await wait(300);
+  else if (titleState === "done") unlockAudio();
+  const titleOK = await titleDone; if (my !== runId) return;
+  if (CHAPTER && !titleOK) { startBtn.disabled = false; return; }
+  await wait(300); if (my !== runId) return;
   const out = titleEl.animate(reduce.matches ? [{opacity:1},{opacity:0}] : [{opacity:1, transform:"scale(1)"},{opacity:0, transform:"scale(1.06)"}],
     { duration: reduce.matches ? 200 : 420, easing: "cubic-bezier(0.7,0,0.84,0)", fill:"forwards" });
-  await out.finished.catch(()=>{}); titleEl.classList.add("gone"); titleEl.style.display = "none";
-  show();
+  await out.finished.catch(()=>{}); if (my !== runId) return;
+  hideTitle();
+  if (CHAPTER) chapterPlayer.start(my); else show(my);
 });
 
 /* ---------- the script ---------- */
-let runId = 0, free = false;
 const heard = new Set();
+const starTemplate = $(".star").outerHTML;
+function renderStars(){
+  $("#stars").innerHTML = SENT.map(() => starTemplate).join("");
+  SENT.forEach((s,i) => document.querySelectorAll(".star")[i].classList.toggle("on", heard.has(s.id)));
+  $("#stars").setAttribute("aria-label", `${SENT.filter(s => heard.has(s.id)).length} / ${SENT.length}`);
+}
 function fillStar(i){
-  if (heard.has(i)) return; heard.add(i);
-  const st = document.querySelectorAll(".star")[i]; st.classList.add("on"); $("#stars").setAttribute("aria-label", `${heard.size} / 3`);
+  const key = CHAPTER ? SENT[i].id : i;
+  if (heard.has(key)) return; heard.add(key);
+  const st = document.querySelectorAll(".star")[i]; st.classList.add("on"); $("#stars").setAttribute("aria-label", `${SENT.filter((s,k) => heard.has(CHAPTER ? s.id : k)).length} / ${SENT.length}`);
   if (!reduce.matches) st.animate([{transform:"scale(1)"},{transform:"scale(1.25)",offset:.45},{transform:"scale(1)"}],{duration:420,easing:EASE_OUT});
 }
 async function elephantLine(i, my){
@@ -347,7 +453,7 @@ async function solo(id, my){
   await wait(220); if (my !== runId) return false;
   setStep(`sound-${id}`); soundBubble(id, S.word); react(id, "bounce"); if (id === "dog") dogBlink(true);
   await playClip(S.sound, { talkers: id === "dog" ? ["dog"] : [] });
-  hideBubbles(); if (my !== runId) return false;
+  if (my !== runId) return false; hideBubbles();
   await wait(250);
   return my === runId;
 }
@@ -357,9 +463,9 @@ async function trumpet(my){
   await playClip("trumpet", { talkers: [] });
   return my === runId;
 }
-async function show(){
-  const my = ++runId; setStep("intro");
-  ["elephant", ...KIDS].forEach((id,k) => setTimeout(() => react(id, "bounce"), k*120));
+async function show(my){
+  setStep("intro");
+  ["elephant", ...KIDS].forEach((id,k) => later(() => react(id, "bounce"), k*120, my));
   await wait(900); if (my !== runId) return;
   if (!await trumpet(my)) return;
   await wait(300); if (my !== runId) return;
@@ -371,24 +477,64 @@ async function show(){
   }
   unfocus(); setStep("again");
   react("elephant", "nod"); soundBubble("elephant", "我们再来一遍吧");
-  await playClip("again", { talkers:["elephant"] }); hideBubbles();
-  if (my !== runId) return;
-  await wait(500);
+  await playClip("again", { talkers:["elephant"] });
+  if (my !== runId) return; hideBubbles();
+  await wait(500); if (my !== runId) return;
   for (const id of KIDS){ if (!await solo(id, my)) return; fillStar(SOLO[id].s); }
   unfocus(); setStep("celebrate");
-  ["elephant", ...KIDS].forEach((id,k) => setTimeout(() => { react(id, BIG[id]); sparkle(id, 9, true); }, k*260));
+  ["elephant", ...KIDS].forEach((id,k) => later(() => { react(id, BIG[id]); sparkle(id, 9, true); }, k*260, my));
   playClip("trumpet", { talkers: [] });
   await wait(2100); if (my !== runId) return;
   enterFree();
 }
 function enterFree(){ free = true; book.classList.add("free"); setStep("free"); }
+function hideTitle(){
+  titleEl.classList.add("gone"); titleEl.style.display = "none";
+  $("#cast").inert = false; cardsEl.inert = false;
+}
+
+function cancelRun(){
+  // Invalidate before resolving waits/audio: their await continuations must see the cancelled run.
+  const my = ++runId;
+  [...pendingWaits].forEach(cancel => cancel());
+  stopAudio();
+  book.classList.add("resetting");
+  talkStop(["elephant", ...KIDS]);
+  hideBubbles(); unfocus(); cards.forEach((_, i) => karaReset(K(i))); karaReset(ttK);
+  document.querySelectorAll(".lid.shut").forEach(lid => lid.classList.remove("shut"));
+  book.getAnimations({ subtree: true }).forEach(animation => animation.cancel());
+  book.querySelectorAll(".spark").forEach(spark => spark.remove());
+  heldAnims.clear(); live = {};
+  chapterPlayer?.resetScene();
+  book.classList.remove("resetting");
+  userPaused = false; setPaused(document.hidden);
+  pauseBtn.textContent = "⏸"; pauseBtn.setAttribute("aria-pressed", "false"); pauseBtn.setAttribute("aria-label", "暂停朗读");
+  return my;
+}
+function stopToFree({ blink = true } = {}){
+  cancelRun(); titleState = "cancelled"; hideTitle(); enterFree();
+  if (blink) scheduleBlink();
+}
+$("#stopBtn").addEventListener("click", stopToFree);
+function leaveChapter(){
+  history.replaceState({ ...history.state, lunyuFree: true }, "");
+  stopToFree({ blink: false });
+}
+$("#homeBtn").addEventListener("click", leaveChapter);
+$("#tocBtn")?.addEventListener("click", leaveChapter);
+addEventListener("pagehide", () => { leaveChapter(); setPaused(true); });
+addEventListener("pageshow", event => {
+  lastPageShowPersisted = event.persisted;
+  if (event.persisted || history.state?.lunyuFree) stopToFree();
+});
 
 /* ---------- free play: tap a character (or a card) ---------- */
-function interrupt(){ if (userPaused){ userPaused = false; setPaused(document.hidden); pauseBtn.textContent = "⏸"; }
-  const my = ++runId; stopAudio(); hideBubbles(); unfocus(); return my; }
+function interrupt(){ const my = cancelRun(); scheduleBlink(); return my; }
 ["elephant", ...KIDS].forEach(id => $("#"+id).addEventListener("click", async () => {
+  if (CHAPTER) { if (free && CHAPTER.playable) chapterPlayer.tapCharacter(id); return; }
   if (!free){ if (!reduce.matches && !$("#"+id).classList.contains("busy")) $("#"+id+" .act").animate([{transform:"rotate(0)"},{transform:"rotate(-3deg)",offset:.3},{transform:"rotate(2deg)",offset:.7},{transform:"rotate(0)"}],{duration:360,easing:"cubic-bezier(0.65,0,0.35,1)"}); return; }
   const my = interrupt();
+  unlockAudio();
   if (id === "elephant"){
     if (!await trumpet(my)) return; await wait(300); if (my !== runId) return;
     for (let i = 0; i < 3; i++){ if (!await elephantLine(i, my)) return; await wait(450); if (my !== runId) return; }
@@ -398,15 +544,18 @@ function interrupt(){ if (userPaused){ userPaused = false; setPaused(document.hi
   }
 }));
 async function cardTap(i){
+  if (CHAPTER) { if (free && CHAPTER.playable) chapterPlayer.tapCard(i); return; }
   if (!free) return;
   const my = interrupt();
+  unlockAudio();
   if (!await elephantLine(i, my)) return; await wait(350); if (my !== runId) return;
   if (!await unisonLine(i, my)) return; unfocus(); setStep("free");
 }
 
 /* occasional blink */
-(function scheduleBlink(){
-  setTimeout(() => {
+function scheduleBlink(){
+  if (CHAPTER) return;
+  later(() => {
     if (!reduce.matches && !paused){
       const id = ["elephant","bunny","cat","dog","dog"][Math.floor(Math.random()*5)];
       if (id === "dog") dogBlink(Math.random() < .3);
@@ -414,14 +563,47 @@ async function cardTap(i){
     }
     scheduleBlink();
   }, 2600 + Math.random()*3800);
-})();
+}
+if (CHAPTER) {
+  document.body.classList.add("chapter-enhanced");
+  chapterPlayer = window.createChapterPlayer(CHAPTER, {
+    book, reduce, renderCards, renderStars, K, karaFinish, focusCard, unfocus, fillStar,
+    playClip, wait, interrupt, unlockAudio, enterFree, stopToFree, hideTitle, setStep,
+    isCurrent: my => my === runId, isFree: () => free, isPaused: () => paused,
+    setAutomatic: () => { free = false; book.classList.remove("free"); },
+    react, BIG, soundBubble, hideBubbles,
+    track: animation => { if (paused) holdAnimation(animation); },
+    untrack: animation => heldAnims.delete(animation),
+  });
+  chapterPlayer.render(Math.max(0, CHAPTER.pages.findIndex(page => page.pageId === history.state?.lunyuPage)));
+  if (CHAPTER.preview) stopToFree({ blink: false });
+}
+scheduleBlink();
+if (history.state?.lunyuFree) stopToFree();
+reduce.addEventListener("change", () => {
+  if (!reduce.matches) return;
+  chapterPlayer?.resetScene();
+  book.getAnimations({ subtree: true }).forEach(animation => {
+    if (animation.effect?.getKeyframes().some(frame => frame.transform && frame.transform !== "none")) {
+      animation.cancel(); heldAnims.delete(animation);
+    }
+  });
+  live = {};
+  Object.keys(talkAnims).forEach(id => delete talkAnims[id]);
+  document.querySelectorAll(".lid.shut").forEach(lid => lid.classList.remove("shut"));
+  if ($("#dog").classList.contains("busy")) talk(true);
+});
 
 /* test hooks (screenshots only) */
 window.__demo = {
   seek(id, kind, ms){ react(id, kind); (live[id]||[]).forEach(a => { a.pause(); a.currentTime = ms; }); },
-  talk, dogBlink, react, enterFree,
+  talk, dogBlink, react, enterFree: stopToFree, stop: stopToFree,
   lids(shut){ document.querySelectorAll("#dog .lid").forEach(l=>l.classList.toggle("shut", shut)); },
   mouth(v){ talk(false); mouth.style.opacity = v>0 ? 1 : 0; mouth.style.transform = `scaleY(${v})`; },
-  audio: au, get paused(){ return paused; },
+  audio: au, get paused(){ return paused; }, get pendingWaits(){ return pendingWaits.size; },
+  get activeTime(){ return activeNow(); },
+  get lastPageShowPersisted(){ return lastPageShowPersisted; },
+  get chapter(){ return chapterPlayer; },
 };
+$("#chapterFallback")?.remove();
 })();

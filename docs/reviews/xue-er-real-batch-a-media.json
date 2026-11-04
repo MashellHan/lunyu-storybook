@@ -1,0 +1,3109 @@
+{
+  "reviewedAt": "2026-11-03T12:58:00.277733+00:00",
+  "batch": "batch-a",
+  "kind": "real-media-read-only-review",
+  "raw": [
+    {
+      "id": "xue-er-01-s01-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-elephant.attempt.json": "68483305232dd3e103ca519a4170febf075a59abfb9fb9a2e1c212a04d3d5dea",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-elephant.result.json": "1360bcfbabbda419f36d5621cb756fd91189230764a013cbbedbf6ecb8f2a09e",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-elephant.mp3": "829d03e329181a5f65efa483dad1602ee8adc1ab9452629f90d9094c442686f2"
+      },
+      "attemptId": "8a295a81-18b7-4076-8efe-771652441f5e",
+      "startedAt": "2026-11-03T12:48:13.677885+00:00",
+      "finishedAt": "2026-11-03T12:48:17.491223+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 1.872,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 4,
+      "mappedHan": 2,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-01-s01-bunny",
+      "voice": "zh-CN-XiaoyouNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-bunny.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-bunny.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-bunny.attempt.json": "1b5e1092e2606a02550e06d71a7d99759b44facd6eccf9413bdf85886a809322",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-bunny.result.json": "6f67504ccc003848658fc8f1724b932714b410ff9ae22b7f24cbe671b3bd0736",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-bunny.mp3": "30df70bbb6d1b91f1dff6b6dbe338855effa9d335e33eb7f2aa5e1189483c6ab"
+      },
+      "attemptId": "4574c944-b18e-4e4c-a4bc-f3d0096e4384",
+      "startedAt": "2026-11-03T12:48:17.493918+00:00",
+      "finishedAt": "2026-11-03T12:48:21.190376+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 1.872,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 4,
+      "mappedHan": 2,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-01-s01-cat",
+      "voice": "zh-CN-YunxiaNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-cat.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-cat.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-cat.attempt.json": "ec9d66825df41801773dc590849ee984b5a84d10a0af9e756dde343332e11ba8",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-cat.result.json": "d79d4db86ee49dc8b1dfc2f837b5729581e3b140528585ba001d12e699a2d463",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-cat.mp3": "5a9ee19d63652c71de2c0499f8ff446915add959a38d9c237438dd1ba35f3dae"
+      },
+      "attemptId": "74f33b78-81d9-468e-b052-89da6b424400",
+      "startedAt": "2026-11-03T12:48:21.195928+00:00",
+      "finishedAt": "2026-11-03T12:48:24.494781+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 1.872,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 4,
+      "mappedHan": 2,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-01-s01-dog",
+      "voice": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-dog.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-dog.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-dog.attempt.json": "45ee18c7cb93622b075f057b3ca4764ba326847fb7af974074f8685ddbdf6e09",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-dog.result.json": "df10ae0285d71e20477ce02dc5f9a87d517612a61f4de2b43f4f2bef61aec107",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-dog.mp3": "5919679c92aa8961c0c27b7737e3173a0314d11a7e581cbfbba002fc2fe9217e"
+      },
+      "attemptId": "5f29e919-2004-4485-ab74-a079ca975200",
+      "startedAt": "2026-11-03T12:48:24.496652+00:00",
+      "finishedAt": "2026-11-03T12:48:27.992815+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 0.96,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 4,
+      "mappedHan": 2,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s01-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-elephant.attempt.json": "94a42993d6e3ee6fef444209217383d177a8bc1ce853d36b55a7bc60b49ae4c1",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-elephant.result.json": "3caea84b079d7be32b4880f9a01e10b8652aa3cbe86cba1d208b67cdf4a0a359",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-elephant.mp3": "872bbdd43026cfb0ec5532286e69da367b4dcd0608aa54ab4a9a0e6777972646"
+      },
+      "attemptId": "2d063e71-2231-4309-b734-a9a0280fbec7",
+      "startedAt": "2026-11-03T12:48:28.000059+00:00",
+      "finishedAt": "2026-11-03T12:48:31.779872+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 1.872,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 5,
+      "mappedHan": 3,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s01-bunny",
+      "voice": "zh-CN-XiaoyouNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-bunny.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-bunny.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-bunny.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-bunny.attempt.json": "d10b125836b5c8a169bc6c6d55b3c0bf10b27abc0981fd6eebc42fd36666583a",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-bunny.result.json": "3c0a1b951af46cd03ce314ccb73d1f7cb415d21480ba2944a79e1cd12c04c60d",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-bunny.mp3": "99e94f436a87fb77789bb10fd02b458cf33264db571e93b35d2829bf9c12cf04"
+      },
+      "attemptId": "da66aba4-f7af-47c2-b646-b8b1ad8279b1",
+      "startedAt": "2026-11-03T12:48:31.785649+00:00",
+      "finishedAt": "2026-11-03T12:48:35.164641+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 2.064,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 5,
+      "mappedHan": 3,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s01-cat",
+      "voice": "zh-CN-YunxiaNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-cat.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-cat.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-cat.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-cat.attempt.json": "920ae5ade551d9b0ae1beb830e2c36876f39d3533a6e5520c037b6ae0efbc45d",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-cat.result.json": "6dabeb18cf4501bc04cff123e0a17eace49f3236276cdb1bac506f7e87b095b0",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-cat.mp3": "da92f077425d9471a42891d45c6e2cea646210d2f175918d6fd0416150c4edbe"
+      },
+      "attemptId": "be17710d-355e-458d-9a98-5ac7d10e3f22",
+      "startedAt": "2026-11-03T12:48:35.166723+00:00",
+      "finishedAt": "2026-11-03T12:48:38.726123+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 1.872,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 5,
+      "mappedHan": 3,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s01-dog",
+      "voice": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-dog.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-dog.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-dog.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-dog.attempt.json": "39b680aae0b674e20505a1ee6a6a3c8c68ff38e15ed1a0dcff4d5b62a3778e8f",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-dog.result.json": "c3485a93f9e2db8c44297960164290ae9c9c21e84e51281b359f1da4d38b7087",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-dog.mp3": "71ec41e8391682dab404bc30c29b469a873dfed3bc07bfb3f22a769c7705501e"
+      },
+      "attemptId": "31c8c517-26e9-4355-9918-f985f8720bc6",
+      "startedAt": "2026-11-03T12:48:38.739971+00:00",
+      "finishedAt": "2026-11-03T12:48:42.576965+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 0.984,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 5,
+      "mappedHan": 3,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s02-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-elephant.attempt.json": "16d909fbd277a98c93dabe8463d125e27372ebab9113d46e7799f4d1bc84c041",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-elephant.result.json": "ca91d22b1fb75e9ad11be5066deef564d8120db1bb39a44315206621e3376547",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-elephant.mp3": "9804b8a2e02c05eb86e90e5645eef86fba5b3eacd2ced0b9bead8036f7e6d1db"
+      },
+      "attemptId": "adcbea35-5c7d-4b83-9bc9-5d02dfc2bca9",
+      "startedAt": "2026-11-03T12:48:42.579240+00:00",
+      "finishedAt": "2026-11-03T12:48:46.067334+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 5.256,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 16,
+      "mappedHan": 13,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s02-bunny",
+      "voice": "zh-CN-XiaoyouNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-bunny.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-bunny.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-bunny.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-bunny.attempt.json": "1cbe551875f3a8f1b457f3f520c9d1201fb9d5d42a21ddef6904fbcdba680f4b",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-bunny.result.json": "d6af8bee26ce32e33881ef4972f2cb7cfec4e8087f47b42afe5a6e0c7541a24a",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-bunny.mp3": "20d1e6fe7089c797d4872c0d83525fe863cca190d718f77a9c1fecdb16932b3b"
+      },
+      "attemptId": "2946e512-2589-4fd9-94ff-54a6eda3548a",
+      "startedAt": "2026-11-03T12:48:46.073667+00:00",
+      "finishedAt": "2026-11-03T12:48:49.918306+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 5.904,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 16,
+      "mappedHan": 13,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s02-cat",
+      "voice": "zh-CN-YunxiaNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-cat.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-cat.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-cat.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-cat.attempt.json": "90d779ca7acefc174bedbc16f834150802a25132b2d5ca995f366f476fcdf604",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-cat.result.json": "270a2bc1c113d77f0b81b087195c110ea0edcb0557ddbfbce2b3c26592fb614a",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-cat.mp3": "3e47f9e8137d9f4f072ebdd7ebc6b291002ae4da8aae462354f39103920b274e"
+      },
+      "attemptId": "67674ddc-c63a-4992-9ad8-b5cebbbf3987",
+      "startedAt": "2026-11-03T12:48:49.922672+00:00",
+      "finishedAt": "2026-11-03T12:48:53.650519+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 4.584,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 16,
+      "mappedHan": 13,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s02-dog",
+      "voice": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.attempt.json": "0a46355667a631a281eefe13b5ece19c32f1dc921a2ab90905e082ffdda3e78e",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.result.json": "4a2f19ee25904d51a2c15ee529387c03b57437ebff98fe79c1fb89313bbe0476",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.mp3": "b30bd0b474ef3128bbf0ed3da763c877d75711e86e0f2ba45755def6b10a62b5"
+      },
+      "attemptId": "3d905360-2792-432e-b97c-2ed888f7ca21",
+      "startedAt": "2026-11-03T12:48:53.652949+00:00",
+      "finishedAt": "2026-11-03T12:48:58.017551+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.84,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 16,
+      "mappedHan": 13,
+      "unknownSDKPositions": 5,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.04,
+            0.47,
+            "\">好犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 8,
+          "sourceIndices": [
+            9,
+            10
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "犯上"
+        },
+        {
+          "eventIndex": 10,
+          "rawEvent": [
+            3.358,
+            0.376,
+            "\">鲜矣"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 13,
+          "sourceIndices": [
+            14
+          ],
+          "droppedDuplicate": "鲜",
+          "remainingText": "矣"
+        }
+      ]
+    },
+    {
+      "id": "xue-er-02-s03-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-elephant.attempt.json": "532f2ca45da11a4c95eacea8571523c6fc42a6d6a9b0f609540902899c270a4a",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-elephant.result.json": "fb1ef7b2005efc0f280d9eea92ec613c4efb88315ae96b77989085b9824f05f9",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-elephant.mp3": "36667ec69a08edf51e57d09545c0fc53861e1c923f3823077425705f2ede5217"
+      },
+      "attemptId": "c25caff5-077e-4e3c-82cd-28db2f619ebd",
+      "startedAt": "2026-11-03T12:48:58.019773+00:00",
+      "finishedAt": "2026-11-03T12:49:01.196528+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 4.536,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 15,
+      "mappedHan": 13,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s03-bunny",
+      "voice": "zh-CN-XiaoyouNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-bunny.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-bunny.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-bunny.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-bunny.attempt.json": "38580c549701203d344e30f37c6ec4ae9a97a27c7dd739faaae0cdd46883ca1c",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-bunny.result.json": "b8eb61a9a912ef6854d50fbbb7d4d1c1640a9b7c2341fa9562e336a1eb19a31b",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-bunny.mp3": "1ec89b6b283b5eed14d92e74a9454ee49371a72ee8bb4705adc0b89208d20bf7"
+      },
+      "attemptId": "d6e69246-c5fc-480f-ac1d-426dacb073c3",
+      "startedAt": "2026-11-03T12:49:01.199315+00:00",
+      "finishedAt": "2026-11-03T12:49:05.190486+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 5.376,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 15,
+      "mappedHan": 13,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s03-cat",
+      "voice": "zh-CN-YunxiaNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-cat.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-cat.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-cat.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-cat.attempt.json": "424c24ea19f22df44e29a4b8a631252c93a3af5b40b657cc7f02787d628f4016",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-cat.result.json": "b948396fe0a89ce61f5f4d754a525127bd513daf70445f60d2ef32b6af1e315c",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-cat.mp3": "4a6598803561df09baee21ad64d71114a86ffea330d306c2eeac21d6d124316a"
+      },
+      "attemptId": "f9d6bd6f-3792-401d-8caf-e7ef86df86d0",
+      "startedAt": "2026-11-03T12:49:05.192742+00:00",
+      "finishedAt": "2026-11-03T12:49:08.797495+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 4.488,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 15,
+      "mappedHan": 13,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s03-dog",
+      "voice": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.attempt.json": "0375e5d6494085796840bce303ab79f904e975c91bcdd1ec0d39f4fb75beb3de",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.result.json": "6d888cc143bd619391f6d54db0b5d668187bbc3c9cb60fee482a596940b2f8cc",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.mp3": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281"
+      },
+      "attemptId": "971e2b48-56a0-4762-a4d3-5b564c7d02fd",
+      "startedAt": "2026-11-03T12:49:08.798507+00:00",
+      "finishedAt": "2026-11-03T12:49:13.835751+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.528,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 15,
+      "mappedHan": 13,
+      "unknownSDKPositions": 4,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.505,
+            0.658,
+            "\">好犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 1,
+          "sourceIndices": [
+            2,
+            3
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "犯上"
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.588,
+            0.376,
+            "\">好作乱"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 5,
+          "sourceIndices": [
+            6,
+            7
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "作乱"
+        }
+      ]
+    },
+    {
+      "id": "xue-er-02-s04-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-elephant.attempt.json": "feb39445511492b38a5b1cdeb99e388cef900cd7069cc7f6fb54da2bfcdf105a",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-elephant.result.json": "69340999e880aa2081103795468de42bcf955e9a5a3304bbf5169ee53ce890b6",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-elephant.mp3": "f07b91bb47c4aad9316bc42e2ad6f0fbd68b25d391fbf8d51ab97eec305680aa"
+      },
+      "attemptId": "f33c60c0-3445-4b33-bed7-997d923d8308",
+      "startedAt": "2026-11-03T12:49:13.851599+00:00",
+      "finishedAt": "2026-11-03T12:49:17.396084+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.48,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 11,
+      "mappedHan": 9,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s04-bunny",
+      "voice": "zh-CN-XiaoyouNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-bunny.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-bunny.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-bunny.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-bunny.attempt.json": "2bf711322c1e2f18d27bc18d612fe351f149c97b7e66a5c0a4fafc13fde3019b",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-bunny.result.json": "aeb05a6e48689f7a762580c6170dcba461e137534f9be46ee3eeb7dc1019998a",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-bunny.mp3": "d881a8474c7a141db4487270ff66515f14dd65a476538d93169c7ad56ba74b46"
+      },
+      "attemptId": "aff77165-d930-4c09-a2c5-5122884e774f",
+      "startedAt": "2026-11-03T12:49:17.397856+00:00",
+      "finishedAt": "2026-11-03T12:49:20.893256+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 4.008,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 11,
+      "mappedHan": 9,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s04-cat",
+      "voice": "zh-CN-YunxiaNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-cat.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-cat.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-cat.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-cat.attempt.json": "2b7e1e2a7f53abd390dc790df7ab11b59644a1ae1187f5b1f0297bfc7ac48cc4",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-cat.result.json": "de8c85e896ab9bd123d1c85cf74d3af3c07b88286b21d1129b4063ac06d683ba",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-cat.mp3": "f93f535a191dfe675bef0d8aa9e255cf4d9d377def4c58ffd396c24b5f907af8"
+      },
+      "attemptId": "c0329ce8-4f43-47f9-b0c3-d39b7afa3408",
+      "startedAt": "2026-11-03T12:49:20.898085+00:00",
+      "finishedAt": "2026-11-03T12:49:24.332955+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.336,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 11,
+      "mappedHan": 9,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s04-dog",
+      "voice": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-dog.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-dog.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-dog.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-dog.attempt.json": "f37f106425fee4785c842c1b2dad2663ce34c1aae91a70e188a6151829608a0e",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-dog.result.json": "fcfe63df3bf1d6792c878825d1279cedebd79601b4cbd164a18000a84c720039",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-dog.mp3": "cc4b407100bc762446e8064fed02ad0bf76c4a9dc572bb77e2ade423ec634148"
+      },
+      "attemptId": "f4386e0e-2cf7-4ab0-8f64-cf97f9fbf5bf",
+      "startedAt": "2026-11-03T12:49:24.334938+00:00",
+      "finishedAt": "2026-11-03T12:49:29.102144+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 2.544,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 11,
+      "mappedHan": 9,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s05-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-elephant.attempt.json": "a9dd2bbc78f8394ca407a468d7e2db187bbc5561e19ba749e276f109d94cdb6d",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-elephant.result.json": "36f3b677d0390dcb0ef0256d7626e59074919e071b3473d4462496c9243a7e76",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-elephant.mp3": "338da9cbb9c25d63d5282109662b731b84a781db42c74930b42030844dc653c8"
+      },
+      "attemptId": "fa0ecfa3-1e21-4ddf-a5dd-9f60d56e7475",
+      "startedAt": "2026-11-03T12:49:29.108485+00:00",
+      "finishedAt": "2026-11-03T12:49:33.508436+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 4.248,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 13,
+      "mappedHan": 10,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s05-bunny",
+      "voice": "zh-CN-XiaoyouNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-bunny.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-bunny.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-bunny.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-bunny.attempt.json": "375f48106ceba045c3e1890f22f648fc25cef11b9606023172290b2681077c08",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-bunny.result.json": "9582253131c86bad749ac4e677eb5b9d8e41f991e0c27c259b0193cad9d7f1f7",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-bunny.mp3": "46a73d9549b16fa13f4164cf26abc5bbfc71a2431e58a57b52a73424ee51f4dd"
+      },
+      "attemptId": "39f5e2e1-1543-4a69-a78a-599ec9c45d34",
+      "startedAt": "2026-11-03T12:49:33.515895+00:00",
+      "finishedAt": "2026-11-03T12:49:38.890948+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 4.512,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 13,
+      "mappedHan": 10,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s05-cat",
+      "voice": "zh-CN-YunxiaNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-cat.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-cat.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-cat.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-cat.attempt.json": "bac0e51a5c38f859dbec4a78ebc5c5161366205dca576d08e0d363d197e29fbc",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-cat.result.json": "ff4492222e36b583cbf5e98675dcfdc8c6a7681d27f86d094c94dca30ed50117",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-cat.mp3": "f8e671aedb2bdff9efd16d98dfdadccba37e6ddffd61efb2d3a7296268c896c0"
+      },
+      "attemptId": "5405fd6e-1651-46a0-b8fc-48067dd37c63",
+      "startedAt": "2026-11-03T12:49:38.894524+00:00",
+      "finishedAt": "2026-11-03T12:49:44.717414+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.504,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 13,
+      "mappedHan": 10,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-02-s05-dog",
+      "voice": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-dog.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-dog.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-dog.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-dog.attempt.json": "e82fff29e69ca18d9602d78360a401bc2bdade9f189f7f0d7cf5df74d86518ac",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-dog.result.json": "842450636979555011484c45f0e75d19b59f57ad32d6cbf6a5cf026f37db3545",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-dog.mp3": "6580847c4ee5c4b120567c3738ea9ffb41682056dd969dfcf316b111805acdb7"
+      },
+      "attemptId": "f8020afb-eafe-4a15-bfdf-c6a79eeb9b2b",
+      "startedAt": "2026-11-03T12:49:44.733956+00:00",
+      "finishedAt": "2026-11-03T12:49:49.185836+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 2.904,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 13,
+      "mappedHan": 10,
+      "unknownSDKPositions": 3,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.694,
+            0.188,
+            "\">弟也"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 1,
+          "sourceIndices": [
+            2
+          ],
+          "droppedDuplicate": "弟",
+          "remainingText": "也"
+        }
+      ]
+    },
+    {
+      "id": "xue-er-02-title-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-title-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-title-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-title-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-title-elephant.attempt.json": "02679ec762bd91f99b96dfc2d05f79bb6372de98670c4f127bfa4d6920f5a185",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-title-elephant.result.json": "27a7d5f57ad955a1146fedb7c21da92a87ece093426efc1b638799a20b7a0ee5",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-02-title-elephant.mp3": "777e210dea48b8a247804c216f609409f291bd0a89828e1edcee9dcadf57ecbf"
+      },
+      "attemptId": "3308f586-c464-4901-b03f-79e332bc96d3",
+      "startedAt": "2026-11-03T12:49:49.190987+00:00",
+      "finishedAt": "2026-11-03T12:49:53.967145+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.792,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 12,
+      "mappedHan": 9,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-03-s02-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-elephant.attempt.json": "e146b7e1d3a5de9b7e087e57948fe7f20a063ef60c9d492d340bcd298473afba",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-elephant.result.json": "9e152d53947bb6e2eca3b186f545ece2ea42f184d11564196f1db4d3330c3e29",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-elephant.mp3": "081e312496b1fad39828e28e277bbca6118b0b9c71b0d4a275deab0f518a6038"
+      },
+      "attemptId": "e7527a1b-dcdf-49af-97ae-160306942656",
+      "startedAt": "2026-11-03T12:49:54.006173+00:00",
+      "finishedAt": "2026-11-03T12:49:57.498537+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.288,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 10,
+      "mappedHan": 7,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-03-s02-bunny",
+      "voice": "zh-CN-XiaoyouNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-bunny.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-bunny.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-bunny.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-bunny.attempt.json": "7125745bdefde3dcac7339dcf347c3f7d7d8999e95b310ebb4f4cba5b3c84f56",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-bunny.result.json": "d57ba27822f99f10ea53003cb20c578bf9380ff01b6a20cfb7dff6cddca0ca37",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-bunny.mp3": "fe8ec018e458e3ef99b57793b46c940f0f0aa1a522ab68c322bfad439a3d4f17"
+      },
+      "attemptId": "81a1f2dd-9e31-46b2-8180-32b418fcacf6",
+      "startedAt": "2026-11-03T12:49:57.559820+00:00",
+      "finishedAt": "2026-11-03T12:50:01.545037+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.744,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 10,
+      "mappedHan": 7,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-03-s02-cat",
+      "voice": "zh-CN-YunxiaNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-cat.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-cat.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-cat.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-cat.attempt.json": "eb5c279c5303014326b5cf636b07fda9bf0433f0d76a260e8de13b640d937ab8",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-cat.result.json": "43df92634c06f6f1b0ee77a3d488360c5cc9ce63dd3b240e9df7e68fc18cf38c",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-cat.mp3": "97e61b35c4d935b35b6966898c01f045447de061601f96c8053154ce52d8c8a5"
+      },
+      "attemptId": "3ab82e7b-4264-4123-b4ff-87f062d94820",
+      "startedAt": "2026-11-03T12:50:01.552927+00:00",
+      "finishedAt": "2026-11-03T12:50:04.799788+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.0,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 10,
+      "mappedHan": 7,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    },
+    {
+      "id": "xue-er-03-s02-dog",
+      "voice": "zh-CN-Yunxi:DragonHDFlashLatestNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-dog.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-dog.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-dog.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-dog.attempt.json": "91e5d41eef5533a830521eac807ff22708f499fadb4d2c669541ddb36cf921a0",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-dog.result.json": "f622dcd111173c16ca1b0cbf7011c36f7dd1c6e7fa7be32e7d94afc70a73992d",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-dog.mp3": "538d71c7821e50eecba3944f62ec426b9b1f305eb35e15cc028062c3caf7d634"
+      },
+      "attemptId": "4a3f4905-a0c2-4461-a83b-538a0d2a2134",
+      "startedAt": "2026-11-03T12:50:04.809887+00:00",
+      "finishedAt": "2026-11-03T12:50:09.565821+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 2.688,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 10,
+      "mappedHan": 7,
+      "unknownSDKPositions": 2,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            2.04,
+            0.235,
+            "\">鲜矣"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 5,
+          "sourceIndices": [
+            6
+          ],
+          "droppedDuplicate": "鲜",
+          "remainingText": "矣"
+        }
+      ]
+    },
+    {
+      "id": "xue-er-03-title-elephant",
+      "voice": "zh-CN-YunzeNeural",
+      "attemptFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-title-elephant.attempt.json",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-title-elephant.result.json",
+      "rawFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-title-elephant.mp3",
+      "hashes": {
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-title-elephant.attempt.json": "ad3dc461e12e121039eeabb1bdc46a65e3f9b60b2767b6b51ee3e773b4f18523",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-title-elephant.result.json": "541e769dc368ffc49f00501f848b58690e8ef0bc6c4d6a91dabf3a0e41e34a03",
+        "assets/source/tts-raw/xue-er/batch-a/xue-er-03-title-elephant.mp3": "467be7fa3ade825d60e23e0110c5d329edfe67cb9495eadcae29f4a1e9cb230b"
+      },
+      "attemptId": "ff943417-5aa6-4d32-954b-1b7b5658af6f",
+      "startedAt": "2026-11-03T12:50:09.567679+00:00",
+      "finishedAt": "2026-11-03T12:50:13.516588+00:00",
+      "ledgerPassed": true,
+      "actualDuration": 3.408,
+      "alignmentPassed": true,
+      "mappedSourceCodePoints": 10,
+      "mappedHan": 7,
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": []
+    }
+  ],
+  "processed": [
+    {
+      "id": "xue-er-01-s01-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+      "audioSHA256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+      "timingSHA256": "1ff7d8909d450f1ef5c097395428833ba1b31f38022862efa6c4db7dbab537e1",
+      "sourceIds": [
+        "xue-er-01-s01-elephant"
+      ],
+      "timing": {
+        "text": "子曰：“",
+        "dur": 1.872,
+        "t": [
+          0.058833,
+          0.397041,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-01-s01-elephant",
+            "rawSHA256": "829d03e329181a5f65efa483dad1602ee8adc1ab9452629f90d9094c442686f2",
+            "ssmlSHA256": "23a8d71e4d5d015c321521851f8e2b09569e9e966b172f106e4a5e1fb348bcd5"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 1.872,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-01-s01-bunny",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+      "audioSHA256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+      "timingSHA256": "6a199fb3cb02098ad307242894c360c2501d93fe28af26dbc79a996f897aecf3",
+      "sourceIds": [
+        "xue-er-01-s01-bunny"
+      ],
+      "timing": {
+        "text": "子曰：“",
+        "dur": 1.872,
+        "t": [
+          0.056833,
+          0.369333,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-01-s01-bunny",
+            "rawSHA256": "30df70bbb6d1b91f1dff6b6dbe338855effa9d335e33eb7f2aa5e1189483c6ab",
+            "ssmlSHA256": "128aa8814487e7713ff4d429f19b10377e282974ce273bc417a224d5625f83cf"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 1.872,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-01-s01-cat",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+      "audioSHA256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+      "timingSHA256": "7501d92f40c50cc46f37e371dc202eb713641600fd7c13513c4a310ecdc94c6a",
+      "sourceIds": [
+        "xue-er-01-s01-cat"
+      ],
+      "timing": {
+        "text": "子曰：“",
+        "dur": 1.872,
+        "t": [
+          0.056833,
+          0.255666,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-01-s01-cat",
+            "rawSHA256": "5a9ee19d63652c71de2c0499f8ff446915add959a38d9c237438dd1ba35f3dae",
+            "ssmlSHA256": "baa2ba0327ed80a80130be0598fcf528cbd8cae04ad3af84230aab68eff6685d"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 1.872,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-01-s01-dog",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+      "audioSHA256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+      "timingSHA256": "24cfcd73df14bf7b67bb4d27bc6e39252e2011c5199b1dea33dfa442749778c6",
+      "sourceIds": [
+        "xue-er-01-s01-dog"
+      ],
+      "timing": {
+        "text": "子曰：“",
+        "dur": 0.96,
+        "t": [
+          0.082,
+          0.505,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-01-s01-dog",
+            "rawSHA256": "5919679c92aa8961c0c27b7737e3173a0314d11a7e581cbfbba002fc2fe9217e",
+            "ssmlSHA256": "4f35a41bae13bbe9fdc6fea1e8c75a6a4fcca03857f48eea87ac71126b18819a"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 0.96,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s01-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.mp3",
+      "audioSHA256": "6850afcb1651b7d86da045263fa759b889973ec0e9851cae060a26145ff6cbcd",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.timing.json",
+      "timingSHA256": "849097ca2e3ec79497f1306b19c3fc6408bafa0c550622db700da1429fea970e",
+      "sourceIds": [
+        "xue-er-02-s01-elephant"
+      ],
+      "timing": {
+        "text": "有子曰：“",
+        "dur": 1.872,
+        "t": [
+          0.058833,
+          0.382333,
+          0.676458,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "6850afcb1651b7d86da045263fa759b889973ec0e9851cae060a26145ff6cbcd",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s01-elephant",
+            "rawSHA256": "872bbdd43026cfb0ec5532286e69da367b4dcd0608aa54ab4a9a0e6777972646",
+            "ssmlSHA256": "7b2846647f081a19a7c0fb5b1bdd84f6bd97c3aa14d75703c27ee95e48693e70"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 1.872,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s01-bunny",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.mp3",
+      "audioSHA256": "0076634f7a3de7298b51d1d9eeb27026e4b0a2c9969e373ea334133fb63abe4b",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.timing.json",
+      "timingSHA256": "b67f606da31138fbe345d67f160e9442797321e3e11f891756da3d64f2f74732",
+      "sourceIds": [
+        "xue-er-02-s01-bunny"
+      ],
+      "timing": {
+        "text": "有子曰：“",
+        "dur": 2.064,
+        "t": [
+          0.056833,
+          0.355125,
+          0.667625,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "0076634f7a3de7298b51d1d9eeb27026e4b0a2c9969e373ea334133fb63abe4b",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s01-bunny",
+            "rawSHA256": "99e94f436a87fb77789bb10fd02b458cf33264db571e93b35d2829bf9c12cf04",
+            "ssmlSHA256": "af366d1ba2e834c09ba6af929d9b3b75283ec415f854db4f070ba79ccdbb76f2"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 2.064,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s01-cat",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.mp3",
+      "audioSHA256": "06f977813687e6403df1fb998ca9aa601c716c6771c2addeb92973f80cee2bee",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.timing.json",
+      "timingSHA256": "66b576ccec9d7892fc77610ff70073ef4b1512383b18523f9ec4979aead4585b",
+      "sourceIds": [
+        "xue-er-02-s01-cat"
+      ],
+      "timing": {
+        "text": "有子曰：“",
+        "dur": 1.872,
+        "t": [
+          0.056833,
+          0.326708,
+          0.497166,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "06f977813687e6403df1fb998ca9aa601c716c6771c2addeb92973f80cee2bee",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s01-cat",
+            "rawSHA256": "da92f077425d9471a42891d45c6e2cea646210d2f175918d6fd0416150c4edbe",
+            "ssmlSHA256": "3165a3ffb9b6de7e7ba51efa0c98a2907670cd8efd36f8e359cb59b9d2079afe"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 1.872,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s01-dog",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.mp3",
+      "audioSHA256": "edfb598052786d8ecde5e81708762ee2164b5fd7d36828d008ab0fb66132980a",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.timing.json",
+      "timingSHA256": "f0da8e940f9f390184fc0628d8d448a8881c822851872553d71403a6d6b14d32",
+      "sourceIds": [
+        "xue-er-02-s01-dog"
+      ],
+      "timing": {
+        "text": "有子曰：“",
+        "dur": 0.984,
+        "t": [
+          0.082,
+          0.364,
+          0.505,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "edfb598052786d8ecde5e81708762ee2164b5fd7d36828d008ab0fb66132980a",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s01-dog",
+            "rawSHA256": "71ec41e8391682dab404bc30c29b469a873dfed3bc07bfb3f22a769c7705501e",
+            "ssmlSHA256": "82f9ca54f4c7b2cad7707c66cdd537327b15d1cea50d9bcb0c21b6c196c16540"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 0.984,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s02-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-elephant.mp3",
+      "audioSHA256": "d5a7fa8c07abfbbd704bb91cab1ae6bbd6247f15f06820b74335a60978fd2891",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-elephant.timing.json",
+      "timingSHA256": "c5fbde56d1e63ae67cab21485d684b7923b266849feec73afa3ec718167b098a",
+      "sourceIds": [
+        "xue-er-02-s02-elephant"
+      ],
+      "timing": {
+        "text": "其为人也孝弟，而好犯上者，鲜矣；",
+        "dur": 5.256,
+        "t": [
+          0.058833,
+          0.382333,
+          0.617666,
+          0.867666,
+          1.08825,
+          1.470583,
+          null,
+          2.132333,
+          2.441166,
+          2.75,
+          3.014708,
+          3.279416,
+          null,
+          3.823541,
+          4.308833,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "d5a7fa8c07abfbbd704bb91cab1ae6bbd6247f15f06820b74335a60978fd2891",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s02-elephant",
+            "rawSHA256": "9804b8a2e02c05eb86e90e5645eef86fba5b3eacd2ced0b9bead8036f7e6d1db",
+            "ssmlSHA256": "bd0c0d624d7944d3ff84a9e0db4b97d4227ffda18f7a95d80bbf01264992f285"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 5.256,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s02-bunny",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-bunny.mp3",
+      "audioSHA256": "9f5deea2401bcd4fe8f3f134ad53875d68dacd729000a264d5b8ef80d1951c44",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-bunny.timing.json",
+      "timingSHA256": "799b763b8259ab570f3fb6cc5f15cdc1dbaa486e3dbe909c20dc253aae4aa86c",
+      "sourceIds": [
+        "xue-er-02-s02-bunny"
+      ],
+      "timing": {
+        "text": "其为人也孝弟，而好犯上者，鲜矣；",
+        "dur": 5.904,
+        "t": [
+          0.056833,
+          0.383541,
+          0.667625,
+          1.008541,
+          1.264208,
+          1.619333,
+          null,
+          2.357958,
+          2.585208,
+          2.883541,
+          3.188937,
+          3.494333,
+          null,
+          4.147708,
+          4.588083,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "9f5deea2401bcd4fe8f3f134ad53875d68dacd729000a264d5b8ef80d1951c44",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s02-bunny",
+            "rawSHA256": "20d1e6fe7089c797d4872c0d83525fe863cca190d718f77a9c1fecdb16932b3b",
+            "ssmlSHA256": "bf341b349251942f5a5f547473e821e086b0be0de20e767521aa937cdaf907b2"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 5.904,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s02-cat",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-cat.mp3",
+      "audioSHA256": "e65f093da9bcd4f56c72bfe3ee0adb2b516505892ccea7e78cb3bcd5a0771fe6",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-cat.timing.json",
+      "timingSHA256": "49834514ba950bb1c8d4314297c1cb389c3937c955a6ad9df32fe8e179d015e6",
+      "sourceIds": [
+        "xue-er-02-s02-cat"
+      ],
+      "timing": {
+        "text": "其为人也孝弟，而好犯上者，鲜矣；",
+        "dur": 4.584,
+        "t": [
+          0.056833,
+          0.298291,
+          0.482958,
+          0.610791,
+          0.795458,
+          1.051125,
+          null,
+          1.661916,
+          1.903416,
+          2.116458,
+          2.322416,
+          2.528416,
+          null,
+          2.997166,
+          3.323875,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "e65f093da9bcd4f56c72bfe3ee0adb2b516505892ccea7e78cb3bcd5a0771fe6",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s02-cat",
+            "rawSHA256": "3e47f9e8137d9f4f072ebdd7ebc6b291002ae4da8aae462354f39103920b274e",
+            "ssmlSHA256": "c3b04e3d1ab7debaf56c2c9e25d6fa046b8af9e35b36d1cd7f9567f8e283a80e"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 4.584,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s02-dog",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-dog.mp3",
+      "audioSHA256": "41e54c65c29356ef704bbeda145b18e1120527f08488dcd4d7ade9c7dd11a081",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-dog.timing.json",
+      "timingSHA256": "e56ef6c47c878840fc220650fcc22aa8b2196159c9a969b7dee2b3f36e4b9563",
+      "sourceIds": [
+        "xue-er-02-s02-dog"
+      ],
+      "timing": {
+        "text": "其为人也孝弟，而好犯上者，鲜矣；",
+        "dur": 3.84,
+        "t": [
+          0.082,
+          0.364,
+          0.5285,
+          0.694,
+          0.882,
+          1.117,
+          null,
+          1.617,
+          1.852,
+          2.04,
+          2.275,
+          2.511,
+          null,
+          2.887,
+          3.358,
+          null
+        ],
+        "alignmentCorrections": [
+          {
+            "boundaryIndex": 7,
+            "kind": "hd-sub-duplicate-after-alias",
+            "alreadyTimedSourceIndex": 8,
+            "remainingSourceIndex": 9,
+            "remainingSourceIndices": [
+              9,
+              10
+            ],
+            "originalBoundaryText": "\">好犯上",
+            "usedBoundaryOffsetSeconds": 2.04,
+            "usedBoundaryDurationSeconds": 0.47,
+            "sdkPosition": {
+              "textOffset": -1,
+              "wordLength": 5
+            }
+          },
+          {
+            "boundaryIndex": 10,
+            "kind": "hd-sub-duplicate-after-alias",
+            "alreadyTimedSourceIndex": 13,
+            "remainingSourceIndex": 14,
+            "remainingSourceIndices": [
+              14
+            ],
+            "originalBoundaryText": "\">鲜矣",
+            "usedBoundaryOffsetSeconds": 3.358,
+            "usedBoundaryDurationSeconds": 0.376,
+            "sdkPosition": {
+              "textOffset": -1,
+              "wordLength": 4
+            }
+          }
+        ],
+        "audioSHA256": "41e54c65c29356ef704bbeda145b18e1120527f08488dcd4d7ade9c7dd11a081",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s02-dog",
+            "rawSHA256": "b30bd0b474ef3128bbf0ed3da763c877d75711e86e0f2ba45755def6b10a62b5",
+            "ssmlSHA256": "b95722358f5eef9338f979d1838c96db56b0cea22174c8fcc6a5a1d9140896bc"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.84,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s03-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-elephant.mp3",
+      "audioSHA256": "130c4327a7f866358ea81ebd5c88017062c676c7d5583cc55918666c175802cd",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-elephant.timing.json",
+      "timingSHA256": "2b1160050265a34034dc119d97dc73f8317ef1067fd4677098f868ddd316b9a1",
+      "sourceIds": [
+        "xue-er-02-s03-elephant"
+      ],
+      "timing": {
+        "text": "不好犯上而好作乱者，未之有也。",
+        "dur": 4.536,
+        "t": [
+          0.058833,
+          0.264708,
+          0.470583,
+          0.735291,
+          1.132333,
+          1.426458,
+          1.691166,
+          1.919103,
+          2.147041,
+          null,
+          2.691166,
+          2.911749,
+          3.147041,
+          3.485291,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "130c4327a7f866358ea81ebd5c88017062c676c7d5583cc55918666c175802cd",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s03-elephant",
+            "rawSHA256": "36667ec69a08edf51e57d09545c0fc53861e1c923f3823077425705f2ede5217",
+            "ssmlSHA256": "430b41bbf32a4554e0c2f8e5a9c9d5453574b2372d3640c696313e71cf49d3ff"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 4.536,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s03-bunny",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-bunny.mp3",
+      "audioSHA256": "a9f278ad7f54efeadc12336788ad98129c81b8a0b6cf6f535c564a9da72faa03",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-bunny.timing.json",
+      "timingSHA256": "06116f13b77256aa619469223875a278cdf97276dd14f01e6133799cd8acdf98",
+      "sourceIds": [
+        "xue-er-02-s03-bunny"
+      ],
+      "timing": {
+        "text": "不好犯上而好作乱者，未之有也。",
+        "dur": 5.376,
+        "t": [
+          0.056833,
+          0.213083,
+          0.525583,
+          0.866499,
+          1.292625,
+          1.576708,
+          1.903416,
+          2.187499,
+          2.471583,
+          null,
+          3.139208,
+          3.409083,
+          3.678958,
+          4.048291,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "a9f278ad7f54efeadc12336788ad98129c81b8a0b6cf6f535c564a9da72faa03",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s03-bunny",
+            "rawSHA256": "1ec89b6b283b5eed14d92e74a9454ee49371a72ee8bb4705adc0b89208d20bf7",
+            "ssmlSHA256": "796f62214c43ba939b6739bb6ce4c9f921325b45e75a5aa5573004cd45b59777"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 5.376,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s03-cat",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-cat.mp3",
+      "audioSHA256": "cfab93418cbd0516c142ef628ab5c283672527abe3c65a45112c86e4f0a4c0ea",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-cat.timing.json",
+      "timingSHA256": "afc9790e5acdc65e678d65b7e356597b37c65addc22000135a453dc197f8756b",
+      "sourceIds": [
+        "xue-er-02-s03-cat"
+      ],
+      "timing": {
+        "text": "不好犯上而好作乱者，未之有也。",
+        "dur": 4.488,
+        "t": [
+          0.056833,
+          0.241458,
+          0.454541,
+          0.745729,
+          1.150583,
+          1.392041,
+          1.619333,
+          1.832395,
+          2.045458,
+          null,
+          2.542625,
+          2.727292,
+          2.926125,
+          3.139208,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "cfab93418cbd0516c142ef628ab5c283672527abe3c65a45112c86e4f0a4c0ea",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s03-cat",
+            "rawSHA256": "4a6598803561df09baee21ad64d71114a86ffea330d306c2eeac21d6d124316a",
+            "ssmlSHA256": "2ee45f9c2cb9e2d88b4feb524f39a77ffb8781109034128987961dda6dba5deb"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 4.488,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s03-dog",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-dog.mp3",
+      "audioSHA256": "bba02d7243402a4208c09978df8e41b59e3ae57f35ed02bc82e34661debf70dc",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-dog.timing.json",
+      "timingSHA256": "fcbf16a25b7b1ad360fb2070fce615dab6e277a67863f4a1f8c73c99078d6210",
+      "sourceIds": [
+        "xue-er-02-s03-dog"
+      ],
+      "timing": {
+        "text": "不好犯上而好作乱者，未之有也。",
+        "dur": 3.528,
+        "t": [
+          0.082,
+          0.317,
+          0.505,
+          0.834,
+          1.164,
+          1.447,
+          1.588,
+          1.776,
+          1.964,
+          null,
+          2.501,
+          2.736,
+          2.971,
+          3.207,
+          null
+        ],
+        "alignmentCorrections": [
+          {
+            "boundaryIndex": 2,
+            "kind": "hd-sub-duplicate-after-alias",
+            "alreadyTimedSourceIndex": 1,
+            "remainingSourceIndex": 2,
+            "remainingSourceIndices": [
+              2,
+              3
+            ],
+            "originalBoundaryText": "\">好犯上",
+            "usedBoundaryOffsetSeconds": 0.505,
+            "usedBoundaryDurationSeconds": 0.658,
+            "sdkPosition": {
+              "textOffset": -1,
+              "wordLength": 5
+            }
+          },
+          {
+            "boundaryIndex": 5,
+            "kind": "hd-sub-duplicate-after-alias",
+            "alreadyTimedSourceIndex": 5,
+            "remainingSourceIndex": 6,
+            "remainingSourceIndices": [
+              6,
+              7
+            ],
+            "originalBoundaryText": "\">好作乱",
+            "usedBoundaryOffsetSeconds": 1.588,
+            "usedBoundaryDurationSeconds": 0.376,
+            "sdkPosition": {
+              "textOffset": -1,
+              "wordLength": 5
+            }
+          }
+        ],
+        "audioSHA256": "bba02d7243402a4208c09978df8e41b59e3ae57f35ed02bc82e34661debf70dc",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s03-dog",
+            "rawSHA256": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281",
+            "ssmlSHA256": "6a1fecbe6b991ec9db9846bb86c0f27b8f764d6e6741bb6e995476bce1d64e48"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.528,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s04-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-elephant.mp3",
+      "audioSHA256": "bbf57fcce1131df7fbc8bc8bf43c197ab890cb72a634e97d597685424c0c67d1",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-elephant.timing.json",
+      "timingSHA256": "eca87b640f466fdbe177f696f49e0efa1d13db43ecdf31b96327355c84f65e81",
+      "sourceIds": [
+        "xue-er-02-s04-elephant"
+      ],
+      "timing": {
+        "text": "君子务本，本立而道生。",
+        "dur": 3.48,
+        "t": [
+          0.058833,
+          0.316187,
+          0.573541,
+          0.764708,
+          null,
+          1.455875,
+          1.726467,
+          1.997058,
+          2.26765,
+          2.538241,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "bbf57fcce1131df7fbc8bc8bf43c197ab890cb72a634e97d597685424c0c67d1",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s04-elephant",
+            "rawSHA256": "f07b91bb47c4aad9316bc42e2ad6f0fbd68b25d391fbf8d51ab97eec305680aa",
+            "ssmlSHA256": "39b265672ed550200901877607da9d90009cb74d9bf2c88add2d7a8434f6ae43"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.48,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s04-bunny",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-bunny.mp3",
+      "audioSHA256": "08cdf684069eefe3e8dc5efe6061fc255a61d5522b475d36b98decf86652bc66",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-bunny.timing.json",
+      "timingSHA256": "2496c519be574f3f103b3e1421b27f8f73c08289032c37e08129e983d62a7bcb",
+      "sourceIds": [
+        "xue-er-02-s04-bunny"
+      ],
+      "timing": {
+        "text": "君子务本，本立而道生。",
+        "dur": 4.008,
+        "t": [
+          0.056833,
+          0.355125,
+          0.653416,
+          0.894875,
+          null,
+          1.534083,
+          1.835216,
+          2.136349,
+          2.437483,
+          2.738616,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "08cdf684069eefe3e8dc5efe6061fc255a61d5522b475d36b98decf86652bc66",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s04-bunny",
+            "rawSHA256": "d881a8474c7a141db4487270ff66515f14dd65a476538d93169c7ad56ba74b46",
+            "ssmlSHA256": "1b8a368e77789d3d5b975d2cd5a4783dae35c9e3bcdcebaa6fb8dfcac475715f"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 4.008,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s04-cat",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-cat.mp3",
+      "audioSHA256": "872026aa20e846bc19df66a5f238845ea69721c2ce02ce11c6c72567b8691bd6",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-cat.timing.json",
+      "timingSHA256": "6336fe42f22c9442ee389392629a58f324b47f940fc5502d7abb719a2ef612f8",
+      "sourceIds": [
+        "xue-er-02-s04-cat"
+      ],
+      "timing": {
+        "text": "君子务本，本立而道生。",
+        "dur": 3.336,
+        "t": [
+          0.056833,
+          0.277,
+          0.497166,
+          0.738625,
+          null,
+          1.278416,
+          1.491483,
+          1.704549,
+          1.917616,
+          2.130682,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "872026aa20e846bc19df66a5f238845ea69721c2ce02ce11c6c72567b8691bd6",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s04-cat",
+            "rawSHA256": "f93f535a191dfe675bef0d8aa9e255cf4d9d377def4c58ffd396c24b5f907af8",
+            "ssmlSHA256": "b33dec83bc8c06efa9cb3214081cfeaff502105d85703c6c8a7a83bbe43b5f3d"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.336,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s04-dog",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-dog.mp3",
+      "audioSHA256": "fdb1aa90699a0a959aeced2e49f3837bd4e158680a66becbe976bb21ec93d441",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-dog.timing.json",
+      "timingSHA256": "2a91cc5b5a44d47c1efa0993a7773844ffde2ecceeca17f28d86f33bd3f61f03",
+      "sourceIds": [
+        "xue-er-02-s04-dog"
+      ],
+      "timing": {
+        "text": "君子务本，本立而道生。",
+        "dur": 2.544,
+        "t": [
+          0.082,
+          0.3875,
+          0.694,
+          0.929,
+          null,
+          1.389,
+          1.6148,
+          1.8406,
+          2.0664,
+          2.2922,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "fdb1aa90699a0a959aeced2e49f3837bd4e158680a66becbe976bb21ec93d441",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s04-dog",
+            "rawSHA256": "cc4b407100bc762446e8064fed02ad0bf76c4a9dc572bb77e2ade423ec634148",
+            "ssmlSHA256": "35b79a1665753b079014833a29c8d7a2a23b741faedb7180ad1b38c065c4782a"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 2.544,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s05-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-elephant.mp3",
+      "audioSHA256": "448a9698cd0c31c679065dd2d907a66027d332ab6c77c610d13f3396fef87e83",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-elephant.timing.json",
+      "timingSHA256": "854e399125d12650a6687b67238350321b98d8ffae20a79d94059fc2d149632c",
+      "sourceIds": [
+        "xue-er-02-s05-elephant"
+      ],
+      "timing": {
+        "text": "孝弟也者，其为仁之本与！”",
+        "dur": 4.248,
+        "t": [
+          0.058833,
+          0.573541,
+          0.823541,
+          1.014708,
+          null,
+          1.705875,
+          2.0,
+          2.279416,
+          2.558833,
+          2.823541,
+          3.132333,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "448a9698cd0c31c679065dd2d907a66027d332ab6c77c610d13f3396fef87e83",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s05-elephant",
+            "rawSHA256": "338da9cbb9c25d63d5282109662b731b84a781db42c74930b42030844dc653c8",
+            "ssmlSHA256": "0936e7f0a5db90af0f26413a304825615cca448b9c7039521fe6bba6a9084c31"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 4.248,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s05-bunny",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-bunny.mp3",
+      "audioSHA256": "a266d62d59be83439e0b560eccc29fa288e0ae91777c3e2836ee4c1f7048f86b",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-bunny.timing.json",
+      "timingSHA256": "5e1fdbb5edd95b32d4f801597012a95fe17453c04df19c18248bd9eec27d7f41",
+      "sourceIds": [
+        "xue-er-02-s05-bunny"
+      ],
+      "timing": {
+        "text": "孝弟也者，其为仁之本与！”",
+        "dur": 4.512,
+        "t": [
+          0.056833,
+          0.426125,
+          0.752833,
+          1.022708,
+          null,
+          1.633541,
+          1.946041,
+          2.258541,
+          2.556833,
+          2.784083,
+          3.110791,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "a266d62d59be83439e0b560eccc29fa288e0ae91777c3e2836ee4c1f7048f86b",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s05-bunny",
+            "rawSHA256": "46a73d9549b16fa13f4164cf26abc5bbfc71a2431e58a57b52a73424ee51f4dd",
+            "ssmlSHA256": "79d996a39e8ed8953a8ff5eb1a6fe673e23c431dba49de60b705b9b7002d0f1b"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 4.512,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s05-cat",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-cat.mp3",
+      "audioSHA256": "9a0c9bd7f3965a2399d56b5a082b05a74bf188d4a7df0a6feef50e72d097b51a",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-cat.timing.json",
+      "timingSHA256": "64b40cd6aad0758d9b244487a12993f30797926e3e3909d5c6a000ed7e1ed12c",
+      "sourceIds": [
+        "xue-er-02-s05-cat"
+      ],
+      "timing": {
+        "text": "孝弟也者，其为仁之本与！”",
+        "dur": 3.504,
+        "t": [
+          0.056833,
+          0.411916,
+          0.610791,
+          0.795458,
+          null,
+          1.306833,
+          1.534083,
+          1.690333,
+          1.889208,
+          2.045458,
+          2.201708,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "9a0c9bd7f3965a2399d56b5a082b05a74bf188d4a7df0a6feef50e72d097b51a",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s05-cat",
+            "rawSHA256": "f8e671aedb2bdff9efd16d98dfdadccba37e6ddffd61efb2d3a7296268c896c0",
+            "ssmlSHA256": "192f2a155eb932d2c90b27e769dc46b5c210c3155dfe92dda7f383c2dddfd0a5"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.504,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s05-dog",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-dog.mp3",
+      "audioSHA256": "f058d91e44da449d3551309e8fff49e2aaf010c4b019f74ff9e0e271d170929a",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-dog.timing.json",
+      "timingSHA256": "04a765f2b7e1c0ea6ec3c09a11d0d082f206210b375d4a18d5cc4343c07b7e99",
+      "sourceIds": [
+        "xue-er-02-s05-dog"
+      ],
+      "timing": {
+        "text": "孝弟也者，其为仁之本与！”",
+        "dur": 2.904,
+        "t": [
+          0.082,
+          0.505,
+          0.694,
+          0.882,
+          null,
+          1.389,
+          1.671,
+          1.907,
+          2.095,
+          2.283,
+          2.471,
+          null,
+          null
+        ],
+        "alignmentCorrections": [
+          {
+            "boundaryIndex": 2,
+            "kind": "hd-sub-duplicate-after-alias",
+            "alreadyTimedSourceIndex": 1,
+            "remainingSourceIndex": 2,
+            "remainingSourceIndices": [
+              2
+            ],
+            "originalBoundaryText": "\">弟也",
+            "usedBoundaryOffsetSeconds": 0.694,
+            "usedBoundaryDurationSeconds": 0.188,
+            "sdkPosition": {
+              "textOffset": -1,
+              "wordLength": 4
+            }
+          }
+        ],
+        "audioSHA256": "f058d91e44da449d3551309e8fff49e2aaf010c4b019f74ff9e0e271d170929a",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s05-dog",
+            "rawSHA256": "6580847c4ee5c4b120567c3738ea9ffb41682056dd969dfcf316b111805acdb7",
+            "ssmlSHA256": "bcb4909a32d9e121cd91d22327872aa595bb292893230a9aad4951406e749680"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 2.904,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-title-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-title-elephant.mp3",
+      "audioSHA256": "beb8f02e77285ae7a0b14c2abbb09070ec8f942ba95ad723818d6b63204e6e40",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-title-elephant.timing.json",
+      "timingSHA256": "d9ed9e23577fbbfa10ebb0499de2c6cbc8870f9052b4a5bac6a983d06d2035b8",
+      "sourceIds": [
+        "xue-er-02-title-elephant"
+      ],
+      "timing": {
+        "text": "论语，之，其为人也孝弟。",
+        "dur": 3.792,
+        "t": [
+          0.058833,
+          0.397041,
+          null,
+          0.955875,
+          null,
+          1.573541,
+          1.83825,
+          2.044125,
+          2.294125,
+          2.514708,
+          2.83825,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "beb8f02e77285ae7a0b14c2abbb09070ec8f942ba95ad723818d6b63204e6e40",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-title-elephant",
+            "rawSHA256": "777e210dea48b8a247804c216f609409f291bd0a89828e1edcee9dcadf57ecbf",
+            "ssmlSHA256": "5a66592dcda2bdf39334b6ea16e9d57a76b927d520eb853e154415b7a9f96aae"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.792,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-03-s02-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-elephant.mp3",
+      "audioSHA256": "57de00336f269754b677202f69ffb3e5313c1703ad58e8ec86ea0a7b6943b90d",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-elephant.timing.json",
+      "timingSHA256": "906ade15edb741cd098fb4c8c12f9634efd127642da9fe38e36fcbb7afd8a5a8",
+      "sourceIds": [
+        "xue-er-03-s02-elephant"
+      ],
+      "timing": {
+        "text": "巧言令色，鲜矣仁！”",
+        "dur": 3.288,
+        "t": [
+          0.058833,
+          0.360312,
+          0.676458,
+          0.882333,
+          null,
+          1.647041,
+          2.08825,
+          2.308833,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "57de00336f269754b677202f69ffb3e5313c1703ad58e8ec86ea0a7b6943b90d",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-03-s02-elephant",
+            "rawSHA256": "081e312496b1fad39828e28e277bbca6118b0b9c71b0d4a275deab0f518a6038",
+            "ssmlSHA256": "e9f5c6ad8e16f5696c25c42f003ce0a305fad77b571e468c5a21b5c5ac906387"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.288,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-03-s02-bunny",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-bunny.mp3",
+      "audioSHA256": "87f45f9f7f6231cda7345ce7fc252752d3bb2b944f02b9c3022f91aa58fe5731",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-bunny.timing.json",
+      "timingSHA256": "f67689ffbcc768f4e58b6075548c15e0ff47a01776fe07a32092613bc3d74084",
+      "sourceIds": [
+        "xue-er-03-s02-bunny"
+      ],
+      "timing": {
+        "text": "巧言令色，鲜矣仁！”",
+        "dur": 3.744,
+        "t": [
+          0.056833,
+          0.397729,
+          0.738625,
+          1.065333,
+          null,
+          1.732958,
+          2.130666,
+          2.372166,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "87f45f9f7f6231cda7345ce7fc252752d3bb2b944f02b9c3022f91aa58fe5731",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-03-s02-bunny",
+            "rawSHA256": "fe8ec018e458e3ef99b57793b46c940f0f0aa1a522ab68c322bfad439a3d4f17",
+            "ssmlSHA256": "b2cb6f416e9de83a4848c4cfc5570421afe5cbbaefbd9c767331d0615502defc"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.744,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-03-s02-cat",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-cat.mp3",
+      "audioSHA256": "9b440b64d58ce56d920fa4d7a989da72304b5de63c2b1ceadb15c24fcab84c37",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-cat.timing.json",
+      "timingSHA256": "830ecd1377979ade82df97d12a98c206b07cf76008ea7c48161a26e10bea27ce",
+      "sourceIds": [
+        "xue-er-03-s02-cat"
+      ],
+      "timing": {
+        "text": "巧言令色，鲜矣仁！”",
+        "dur": 3.0,
+        "t": [
+          0.056833,
+          0.277,
+          0.511375,
+          0.710208,
+          null,
+          1.221583,
+          1.519875,
+          1.690333,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "9b440b64d58ce56d920fa4d7a989da72304b5de63c2b1ceadb15c24fcab84c37",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-03-s02-cat",
+            "rawSHA256": "97e61b35c4d935b35b6966898c01f045447de061601f96c8053154ce52d8c8a5",
+            "ssmlSHA256": "12b008fba7ddace20facecfc0dba4d9455d9e73c17e57663a983541a068d4f3f"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.0,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-03-s02-dog",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-dog.mp3",
+      "audioSHA256": "d558d86c966c619ba8e52084f6bbc0b2a3cc047df0f18f9439cb400a57456221",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-dog.timing.json",
+      "timingSHA256": "482c059564ddf4c4bec4f5b0aacafc2142248cc41248d527827b25f7891d5984",
+      "sourceIds": [
+        "xue-er-03-s02-dog"
+      ],
+      "timing": {
+        "text": "巧言令色，鲜矣仁！”",
+        "dur": 2.688,
+        "t": [
+          0.082,
+          0.423,
+          0.764,
+          1.105,
+          null,
+          1.617,
+          2.04,
+          2.276,
+          null,
+          null
+        ],
+        "alignmentCorrections": [
+          {
+            "boundaryIndex": 2,
+            "kind": "hd-sub-duplicate-after-alias",
+            "alreadyTimedSourceIndex": 5,
+            "remainingSourceIndex": 6,
+            "remainingSourceIndices": [
+              6
+            ],
+            "originalBoundaryText": "\">鲜矣",
+            "usedBoundaryOffsetSeconds": 2.04,
+            "usedBoundaryDurationSeconds": 0.235,
+            "sdkPosition": {
+              "textOffset": -1,
+              "wordLength": 4
+            }
+          }
+        ],
+        "audioSHA256": "d558d86c966c619ba8e52084f6bbc0b2a3cc047df0f18f9439cb400a57456221",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-03-s02-dog",
+            "rawSHA256": "538d71c7821e50eecba3944f62ec426b9b1f305eb35e15cc028062c3caf7d634",
+            "ssmlSHA256": "72f24c3efb3e8365cbc15f09257dae90412d76f24d0bbcaec2b68a63bfd4a2a7"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 2.688,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-03-title-elephant",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-03-title-elephant.mp3",
+      "audioSHA256": "5a9a999f1c27f1c6be4dbd998ab4121c7a9e351013939c625e91a4cda17e78bc",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-title-elephant.timing.json",
+      "timingSHA256": "783fc751c5a8aded7825db6602b7cdd753f6dc26df4ada440ee9c6b9a6832a6b",
+      "sourceIds": [
+        "xue-er-03-title-elephant"
+      ],
+      "timing": {
+        "text": "论语，之，巧言令色。",
+        "dur": 3.408,
+        "t": [
+          0.058833,
+          0.367666,
+          null,
+          0.955875,
+          null,
+          1.558833,
+          1.882353,
+          2.220583,
+          2.41175,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "5a9a999f1c27f1c6be4dbd998ab4121c7a9e351013939c625e91a4cda17e78bc",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-03-title-elephant",
+            "rawSHA256": "467be7fa3ade825d60e23e0110c5d329edfe67cb9495eadcae29f4a1e9cb230b",
+            "ssmlSHA256": "fb1f4aad7e056dd66d6e1cc16a139be5302288fae62441affdeb01f0e09001a0"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+        }
+      },
+      "actualDuration": 3.408,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-01-s01-children",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+      "audioSHA256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+      "timingSHA256": "7daf4a698238ef1d7f2aae002df492f952ff1f7988f36063ad78d8f1766c94b7",
+      "sourceIds": [
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ],
+      "timing": {
+        "text": "子曰：“",
+        "dur": 1.966458,
+        "t": [
+          0.056833,
+          0.369333,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-01-s01-bunny",
+            "rawSHA256": "30df70bbb6d1b91f1dff6b6dbe338855effa9d335e33eb7f2aa5e1189483c6ab",
+            "ssmlSHA256": "128aa8814487e7713ff4d429f19b10377e282974ce273bc417a224d5625f83cf"
+          },
+          {
+            "id": "xue-er-01-s01-cat",
+            "rawSHA256": "5a9ee19d63652c71de2c0499f8ff446915add959a38d9c237438dd1ba35f3dae",
+            "ssmlSHA256": "baa2ba0327ed80a80130be0598fcf528cbd8cae04ad3af84230aab68eff6685d"
+          },
+          {
+            "id": "xue-er-01-s01-dog",
+            "rawSHA256": "5919679c92aa8961c0c27b7737e3173a0314d11a7e581cbfbba002fc2fe9217e",
+            "ssmlSHA256": "4f35a41bae13bbe9fdc6fea1e8c75a6a4fcca03857f48eea87ac71126b18819a"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+          "childrenAlignment": {
+            "roles": [
+              "bunny",
+              "cat",
+              "dog"
+            ],
+            "tempo": [
+              1,
+              1.0,
+              0.5128205128205128
+            ],
+            "delaysMs": [
+              0,
+              70,
+              140
+            ]
+          }
+        }
+      },
+      "actualDuration": 1.966458,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s01-children",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.mp3",
+      "audioSHA256": "9a86ff1afb28799c58a953c0d0a25ebccebdc42bc4d8c4da422338db6e1c290a",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.timing.json",
+      "timingSHA256": "d608bbd428f29a3cce96b0084aeb442f736c5c6926e97ad6ae1835d9ff911a73",
+      "sourceIds": [
+        "xue-er-02-s01-bunny",
+        "xue-er-02-s01-cat",
+        "xue-er-02-s01-dog"
+      ],
+      "timing": {
+        "text": "有子曰：“",
+        "dur": 2.138167,
+        "t": [
+          0.056833,
+          0.355125,
+          0.667625,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "9a86ff1afb28799c58a953c0d0a25ebccebdc42bc4d8c4da422338db6e1c290a",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s01-bunny",
+            "rawSHA256": "99e94f436a87fb77789bb10fd02b458cf33264db571e93b35d2829bf9c12cf04",
+            "ssmlSHA256": "af366d1ba2e834c09ba6af929d9b3b75283ec415f854db4f070ba79ccdbb76f2"
+          },
+          {
+            "id": "xue-er-02-s01-cat",
+            "rawSHA256": "da92f077425d9471a42891d45c6e2cea646210d2f175918d6fd0416150c4edbe",
+            "ssmlSHA256": "3165a3ffb9b6de7e7ba51efa0c98a2907670cd8efd36f8e359cb59b9d2079afe"
+          },
+          {
+            "id": "xue-er-02-s01-dog",
+            "rawSHA256": "71ec41e8391682dab404bc30c29b469a873dfed3bc07bfb3f22a769c7705501e",
+            "ssmlSHA256": "82f9ca54f4c7b2cad7707c66cdd537327b15d1cea50d9bcb0c21b6c196c16540"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+          "childrenAlignment": {
+            "roles": [
+              "bunny",
+              "cat",
+              "dog"
+            ],
+            "tempo": [
+              1,
+              0.9069767441860466,
+              0.4767441860465116
+            ],
+            "delaysMs": [
+              0,
+              70,
+              140
+            ]
+          }
+        }
+      },
+      "actualDuration": 2.138167,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s02-children",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-children.mp3",
+      "audioSHA256": "3b59ad00b6afd22afba50f32c72ec2f1090c9e02fe9210b666c687978936890b",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-children.timing.json",
+      "timingSHA256": "8480ffb6ccec43c34ac2757220df11693fd2545840ed24e5238005d53e52b734",
+      "sourceIds": [
+        "xue-er-02-s02-bunny",
+        "xue-er-02-s02-cat",
+        "xue-er-02-s02-dog"
+      ],
+      "timing": {
+        "text": "其为人也孝弟，而好犯上者，鲜矣；",
+        "dur": 6.018167,
+        "t": [
+          0.056833,
+          0.383541,
+          0.667625,
+          1.008541,
+          1.264208,
+          1.619333,
+          null,
+          2.357958,
+          2.585208,
+          2.883541,
+          3.188937,
+          3.494333,
+          null,
+          4.147708,
+          4.588083,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "3b59ad00b6afd22afba50f32c72ec2f1090c9e02fe9210b666c687978936890b",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s02-bunny",
+            "rawSHA256": "20d1e6fe7089c797d4872c0d83525fe863cca190d718f77a9c1fecdb16932b3b",
+            "ssmlSHA256": "bf341b349251942f5a5f547473e821e086b0be0de20e767521aa937cdaf907b2"
+          },
+          {
+            "id": "xue-er-02-s02-cat",
+            "rawSHA256": "3e47f9e8137d9f4f072ebdd7ebc6b291002ae4da8aae462354f39103920b274e",
+            "ssmlSHA256": "c3b04e3d1ab7debaf56c2c9e25d6fa046b8af9e35b36d1cd7f9567f8e283a80e"
+          },
+          {
+            "id": "xue-er-02-s02-dog",
+            "rawSHA256": "b30bd0b474ef3128bbf0ed3da763c877d75711e86e0f2ba45755def6b10a62b5",
+            "ssmlSHA256": "b95722358f5eef9338f979d1838c96db56b0cea22174c8fcc6a5a1d9140896bc"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+          "childrenAlignment": {
+            "roles": [
+              "bunny",
+              "cat",
+              "dog"
+            ],
+            "tempo": [
+              1,
+              0.7764227642276422,
+              0.6504065040650406
+            ],
+            "delaysMs": [
+              0,
+              70,
+              140
+            ]
+          }
+        }
+      },
+      "actualDuration": 6.018167,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s03-children",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-children.mp3",
+      "audioSHA256": "fee4ae7ee212fd7b7ae3b8fdce2a6696fed8ad712780c5559bdb011016b304b6",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-children.timing.json",
+      "timingSHA256": "1380f8d6448481567f7c8b15353af3c4d910eb9b60bb1d9fb3f8888d053842c8",
+      "sourceIds": [
+        "xue-er-02-s03-bunny",
+        "xue-er-02-s03-cat",
+        "xue-er-02-s03-dog"
+      ],
+      "timing": {
+        "text": "不好犯上而好作乱者，未之有也。",
+        "dur": 5.490958,
+        "t": [
+          0.056833,
+          0.213083,
+          0.525583,
+          0.866499,
+          1.292625,
+          1.576708,
+          1.903416,
+          2.187499,
+          2.471583,
+          null,
+          3.139208,
+          3.409083,
+          3.678958,
+          4.048291,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "fee4ae7ee212fd7b7ae3b8fdce2a6696fed8ad712780c5559bdb011016b304b6",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s03-bunny",
+            "rawSHA256": "1ec89b6b283b5eed14d92e74a9454ee49371a72ee8bb4705adc0b89208d20bf7",
+            "ssmlSHA256": "796f62214c43ba939b6739bb6ce4c9f921325b45e75a5aa5573004cd45b59777"
+          },
+          {
+            "id": "xue-er-02-s03-cat",
+            "rawSHA256": "4a6598803561df09baee21ad64d71114a86ffea330d306c2eeac21d6d124316a",
+            "ssmlSHA256": "2ee45f9c2cb9e2d88b4feb524f39a77ffb8781109034128987961dda6dba5deb"
+          },
+          {
+            "id": "xue-er-02-s03-dog",
+            "rawSHA256": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281",
+            "ssmlSHA256": "6a1fecbe6b991ec9db9846bb86c0f27b8f764d6e6741bb6e995476bce1d64e48"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+          "childrenAlignment": {
+            "roles": [
+              "bunny",
+              "cat",
+              "dog"
+            ],
+            "tempo": [
+              1,
+              0.8348214285714286,
+              0.65625
+            ],
+            "delaysMs": [
+              0,
+              70,
+              140
+            ]
+          }
+        }
+      },
+      "actualDuration": 5.490958,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s04-children",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-children.mp3",
+      "audioSHA256": "4f3f55767b747c075b7e55adafe8e8ac7cc96ced471538ed0b63f9cd75ad0537",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-children.timing.json",
+      "timingSHA256": "581f13b2cd531d5b374843726de6ed981d4f0c69aedb65192fa35812fcecbf21",
+      "sourceIds": [
+        "xue-er-02-s04-bunny",
+        "xue-er-02-s04-cat",
+        "xue-er-02-s04-dog"
+      ],
+      "timing": {
+        "text": "君子务本，本立而道生。",
+        "dur": 4.120792,
+        "t": [
+          0.056833,
+          0.355125,
+          0.653416,
+          0.894875,
+          null,
+          1.534083,
+          1.835216,
+          2.136349,
+          2.437483,
+          2.738616,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "4f3f55767b747c075b7e55adafe8e8ac7cc96ced471538ed0b63f9cd75ad0537",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s04-bunny",
+            "rawSHA256": "d881a8474c7a141db4487270ff66515f14dd65a476538d93169c7ad56ba74b46",
+            "ssmlSHA256": "1b8a368e77789d3d5b975d2cd5a4783dae35c9e3bcdcebaa6fb8dfcac475715f"
+          },
+          {
+            "id": "xue-er-02-s04-cat",
+            "rawSHA256": "f93f535a191dfe675bef0d8aa9e255cf4d9d377def4c58ffd396c24b5f907af8",
+            "ssmlSHA256": "b33dec83bc8c06efa9cb3214081cfeaff502105d85703c6c8a7a83bbe43b5f3d"
+          },
+          {
+            "id": "xue-er-02-s04-dog",
+            "rawSHA256": "cc4b407100bc762446e8064fed02ad0bf76c4a9dc572bb77e2ade423ec634148",
+            "ssmlSHA256": "35b79a1665753b079014833a29c8d7a2a23b741faedb7180ad1b38c065c4782a"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+          "childrenAlignment": {
+            "roles": [
+              "bunny",
+              "cat",
+              "dog"
+            ],
+            "tempo": [
+              1,
+              0.8323353293413174,
+              0.6347305389221557
+            ],
+            "delaysMs": [
+              0,
+              70,
+              140
+            ]
+          }
+        }
+      },
+      "actualDuration": 4.120792,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-02-s05-children",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-children.mp3",
+      "audioSHA256": "789943a4f582ee332eb637ead3b9764907c8d78282f4d5eb7041ae4fb8e24aa1",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-children.timing.json",
+      "timingSHA256": "09284a22b3d3886f076ad9dc9813769ad45578396680793a4530d639f6a681ae",
+      "sourceIds": [
+        "xue-er-02-s05-bunny",
+        "xue-er-02-s05-cat",
+        "xue-er-02-s05-dog"
+      ],
+      "timing": {
+        "text": "孝弟也者，其为仁之本与！”",
+        "dur": 4.618167,
+        "t": [
+          0.056833,
+          0.426125,
+          0.752833,
+          1.022708,
+          null,
+          1.633541,
+          1.946041,
+          2.258541,
+          2.556833,
+          2.784083,
+          3.110791,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "789943a4f582ee332eb637ead3b9764907c8d78282f4d5eb7041ae4fb8e24aa1",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-02-s05-bunny",
+            "rawSHA256": "46a73d9549b16fa13f4164cf26abc5bbfc71a2431e58a57b52a73424ee51f4dd",
+            "ssmlSHA256": "79d996a39e8ed8953a8ff5eb1a6fe673e23c431dba49de60b705b9b7002d0f1b"
+          },
+          {
+            "id": "xue-er-02-s05-cat",
+            "rawSHA256": "f8e671aedb2bdff9efd16d98dfdadccba37e6ddffd61efb2d3a7296268c896c0",
+            "ssmlSHA256": "192f2a155eb932d2c90b27e769dc46b5c210c3155dfe92dda7f383c2dddfd0a5"
+          },
+          {
+            "id": "xue-er-02-s05-dog",
+            "rawSHA256": "6580847c4ee5c4b120567c3738ea9ffb41682056dd969dfcf316b111805acdb7",
+            "ssmlSHA256": "bcb4909a32d9e121cd91d22327872aa595bb292893230a9aad4951406e749680"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+          "childrenAlignment": {
+            "roles": [
+              "bunny",
+              "cat",
+              "dog"
+            ],
+            "tempo": [
+              1,
+              0.7765957446808511,
+              0.6436170212765958
+            ],
+            "delaysMs": [
+              0,
+              70,
+              140
+            ]
+          }
+        }
+      },
+      "actualDuration": 4.618167,
+      "technicalChecksPassed": true
+    },
+    {
+      "id": "xue-er-03-s02-children",
+      "audioFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-children.mp3",
+      "audioSHA256": "d79f94c0fe605f0ce4f349f580441f0592d806521b04e2438eb52b31e2136fa4",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-children.timing.json",
+      "timingSHA256": "2001cbc0d65c51ab9ff90e37114c8f2d3a32be9bc982b99594c236aa26d43b8f",
+      "sourceIds": [
+        "xue-er-03-s02-bunny",
+        "xue-er-03-s02-cat",
+        "xue-er-03-s02-dog"
+      ],
+      "timing": {
+        "text": "巧言令色，鲜矣仁！”",
+        "dur": 3.854542,
+        "t": [
+          0.056833,
+          0.397729,
+          0.738625,
+          1.065333,
+          null,
+          1.732958,
+          2.130666,
+          2.372166,
+          null,
+          null
+        ],
+        "alignmentCorrections": [],
+        "audioSHA256": "d79f94c0fe605f0ce4f349f580441f0592d806521b04e2438eb52b31e2136fa4",
+        "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+        "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+        "sources": [
+          {
+            "id": "xue-er-03-s02-bunny",
+            "rawSHA256": "fe8ec018e458e3ef99b57793b46c940f0f0aa1a522ab68c322bfad439a3d4f17",
+            "ssmlSHA256": "b2cb6f416e9de83a4848c4cfc5570421afe5cbbaefbd9c767331d0615502defc"
+          },
+          {
+            "id": "xue-er-03-s02-cat",
+            "rawSHA256": "97e61b35c4d935b35b6966898c01f045447de061601f96c8053154ce52d8c8a5",
+            "ssmlSHA256": "12b008fba7ddace20facecfc0dba4d9455d9e73c17e57663a983541a068d4f3f"
+          },
+          {
+            "id": "xue-er-03-s02-dog",
+            "rawSHA256": "538d71c7821e50eecba3944f62ec426b9b1f305eb35e15cc028062c3caf7d634",
+            "ssmlSHA256": "72f24c3efb3e8365cbc15f09257dae90412d76f24d0bbcaec2b68a63bfd4a2a7"
+          }
+        ],
+        "processing": {
+          "sampleRate": 24000,
+          "channels": 1,
+          "bitRate": 64000,
+          "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+          "childrenAlignment": {
+            "roles": [
+              "bunny",
+              "cat",
+              "dog"
+            ],
+            "tempo": [
+              1,
+              0.8012820512820512,
+              0.717948717948718
+            ],
+            "delaysMs": [
+              0,
+              70,
+              140
+            ]
+          }
+        }
+      },
+      "actualDuration": 3.854542,
+      "technicalChecksPassed": true
+    }
+  ],
+  "findings": [],
+  "pending": [],
+  "requests": {
+    "batch-a": {
+      "file": "docs/tts/xue-er-generation-request.json",
+      "sha256": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+      "entrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+      "entries": 30
+    },
+    "batch-b": {
+      "file": "docs/tts/xue-er-generation-request-b.json",
+      "sha256": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+      "entrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+      "entries": 205
+    }
+  },
+  "reviewerSDKCalls": 0,
+  "listeningPerformed": false,
+  "scope": "New selected-batch media only; inspect existing ledgers and bytes. Completed records only. No synthesis, SDK import, production changes, build or UI tests.",
+  "generationOrder": {
+    "ACompletedAt": "2026-11-03T12:50:13.516588+00:00",
+    "BFirstStartedAt": "2026-11-03T12:52:49.529749+00:00",
+    "ordered": true
+  },
+  "codecs": {
+    "files": 67,
+    "newDecodes": 67,
+    "cachedByExactSHA": 0,
+    "cache": "docs/reviews/xue-er-real-media-codec-cache.json"
+  },
+  "candidate": {
+    "file": "assets/audio/xue-er/batch-a/media-candidate.json",
+    "sha256": "ccc09c1709cc707442997d3a4c0e94449cd5166c2d21e7a7a5017e348f51f5af",
+    "segmentCount": 18,
+    "titleCount": 2,
+    "missing": [
+      "xue-er-04-s01-elephant",
+      "xue-er-04-s01-bunny",
+      "xue-er-04-s01-cat",
+      "xue-er-04-s01-dog",
+      "xue-er-04-s02-elephant",
+      "xue-er-04-s02-bunny",
+      "xue-er-04-s02-cat",
+      "xue-er-04-s02-dog",
+      "xue-er-04-s03-elephant",
+      "xue-er-04-s03-bunny",
+      "xue-er-04-s03-cat",
+      "xue-er-04-s03-dog",
+      "xue-er-04-s04-elephant",
+      "xue-er-04-s04-bunny",
+      "xue-er-04-s04-cat",
+      "xue-er-04-s04-dog",
+      "xue-er-04-s05-elephant",
+      "xue-er-04-s05-bunny",
+      "xue-er-04-s05-cat",
+      "xue-er-04-s05-dog",
+      "xue-er-04-title-elephant",
+      "xue-er-05-s02-elephant",
+      "xue-er-05-s02-bunny",
+      "xue-er-05-s02-cat",
+      "xue-er-05-s02-dog",
+      "xue-er-05-s03-elephant",
+      "xue-er-05-s03-bunny",
+      "xue-er-05-s03-cat",
+      "xue-er-05-s03-dog",
+      "xue-er-05-s04-elephant",
+      "xue-er-05-s04-bunny",
+      "xue-er-05-s04-cat",
+      "xue-er-05-s04-dog",
+      "xue-er-05-title-elephant",
+      "xue-er-06-s02-elephant",
+      "xue-er-06-s02-bunny",
+      "xue-er-06-s02-cat",
+      "xue-er-06-s02-dog",
+      "xue-er-06-s03-elephant",
+      "xue-er-06-s03-bunny",
+      "xue-er-06-s03-cat",
+      "xue-er-06-s03-dog",
+      "xue-er-06-s04-elephant",
+      "xue-er-06-s04-bunny",
+      "xue-er-06-s04-cat",
+      "xue-er-06-s04-dog",
+      "xue-er-06-title-elephant",
+      "xue-er-07-s01-elephant",
+      "xue-er-07-s01-bunny",
+      "xue-er-07-s01-cat",
+      "xue-er-07-s01-dog",
+      "xue-er-07-s02-elephant",
+      "xue-er-07-s02-bunny",
+      "xue-er-07-s02-cat",
+      "xue-er-07-s02-dog",
+      "xue-er-07-s03-elephant",
+      "xue-er-07-s03-bunny",
+      "xue-er-07-s03-cat",
+      "xue-er-07-s03-dog",
+      "xue-er-07-s04-elephant",
+      "xue-er-07-s04-bunny",
+      "xue-er-07-s04-cat",
+      "xue-er-07-s04-dog",
+      "xue-er-07-s05-elephant",
+      "xue-er-07-s05-bunny",
+      "xue-er-07-s05-cat",
+      "xue-er-07-s05-dog",
+      "xue-er-07-s06-elephant",
+      "xue-er-07-s06-bunny",
+      "xue-er-07-s06-cat",
+      "xue-er-07-s06-dog",
+      "xue-er-07-title-elephant",
+      "xue-er-08-s02-elephant",
+      "xue-er-08-s02-bunny",
+      "xue-er-08-s02-cat",
+      "xue-er-08-s02-dog",
+      "xue-er-08-s03-elephant",
+      "xue-er-08-s03-bunny",
+      "xue-er-08-s03-cat",
+      "xue-er-08-s03-dog",
+      "xue-er-08-s04-elephant",
+      "xue-er-08-s04-bunny",
+      "xue-er-08-s04-cat",
+      "xue-er-08-s04-dog",
+      "xue-er-08-title-elephant",
+      "xue-er-09-s02-elephant",
+      "xue-er-09-s02-bunny",
+      "xue-er-09-s02-cat",
+      "xue-er-09-s02-dog",
+      "xue-er-09-title-elephant",
+      "xue-er-10-s01-elephant",
+      "xue-er-10-s01-bunny",
+      "xue-er-10-s01-cat",
+      "xue-er-10-s01-dog",
+      "xue-er-10-s02-elephant",
+      "xue-er-10-s02-bunny",
+      "xue-er-10-s02-cat",
+      "xue-er-10-s02-dog",
+      "xue-er-10-s03-elephant",
+      "xue-er-10-s03-bunny",
+      "xue-er-10-s03-cat",
+      "xue-er-10-s03-dog",
+      "xue-er-10-s04-elephant",
+      "xue-er-10-s04-bunny",
+      "xue-er-10-s04-cat",
+      "xue-er-10-s04-dog",
+      "xue-er-10-s05-elephant",
+      "xue-er-10-s05-bunny",
+      "xue-er-10-s05-cat",
+      "xue-er-10-s05-dog",
+      "xue-er-10-s06-elephant",
+      "xue-er-10-s06-bunny",
+      "xue-er-10-s06-cat",
+      "xue-er-10-s06-dog",
+      "xue-er-10-s07-elephant",
+      "xue-er-10-s07-bunny",
+      "xue-er-10-s07-cat",
+      "xue-er-10-s07-dog",
+      "xue-er-10-title-elephant",
+      "xue-er-11-s02-elephant",
+      "xue-er-11-s02-bunny",
+      "xue-er-11-s02-cat",
+      "xue-er-11-s02-dog",
+      "xue-er-11-s03-elephant",
+      "xue-er-11-s03-bunny",
+      "xue-er-11-s03-cat",
+      "xue-er-11-s03-dog",
+      "xue-er-11-title-elephant",
+      "xue-er-12-s02-elephant",
+      "xue-er-12-s02-bunny",
+      "xue-er-12-s02-cat",
+      "xue-er-12-s02-dog",
+      "xue-er-12-s03-elephant",
+      "xue-er-12-s03-bunny",
+      "xue-er-12-s03-cat",
+      "xue-er-12-s03-dog",
+      "xue-er-12-s04-elephant",
+      "xue-er-12-s04-bunny",
+      "xue-er-12-s04-cat",
+      "xue-er-12-s04-dog",
+      "xue-er-12-s05-elephant",
+      "xue-er-12-s05-bunny",
+      "xue-er-12-s05-cat",
+      "xue-er-12-s05-dog",
+      "xue-er-12-title-elephant",
+      "xue-er-13-s02-elephant",
+      "xue-er-13-s02-bunny",
+      "xue-er-13-s02-cat",
+      "xue-er-13-s02-dog",
+      "xue-er-13-s03-elephant",
+      "xue-er-13-s03-bunny",
+      "xue-er-13-s03-cat",
+      "xue-er-13-s03-dog",
+      "xue-er-13-s04-elephant",
+      "xue-er-13-s04-bunny",
+      "xue-er-13-s04-cat",
+      "xue-er-13-s04-dog",
+      "xue-er-13-title-elephant",
+      "xue-er-14-s02-elephant",
+      "xue-er-14-s02-bunny",
+      "xue-er-14-s02-cat",
+      "xue-er-14-s02-dog",
+      "xue-er-14-s03-elephant",
+      "xue-er-14-s03-bunny",
+      "xue-er-14-s03-cat",
+      "xue-er-14-s03-dog",
+      "xue-er-14-s04-elephant",
+      "xue-er-14-s04-bunny",
+      "xue-er-14-s04-cat",
+      "xue-er-14-s04-dog",
+      "xue-er-14-title-elephant",
+      "xue-er-15-s02-elephant",
+      "xue-er-15-s02-bunny",
+      "xue-er-15-s02-cat",
+      "xue-er-15-s02-dog",
+      "xue-er-15-s04-elephant",
+      "xue-er-15-s04-bunny",
+      "xue-er-15-s04-cat",
+      "xue-er-15-s04-dog",
+      "xue-er-15-s05-elephant",
+      "xue-er-15-s05-bunny",
+      "xue-er-15-s05-cat",
+      "xue-er-15-s05-dog",
+      "xue-er-15-s07-elephant",
+      "xue-er-15-s07-bunny",
+      "xue-er-15-s07-cat",
+      "xue-er-15-s07-dog",
+      "xue-er-15-s08-elephant",
+      "xue-er-15-s08-bunny",
+      "xue-er-15-s08-cat",
+      "xue-er-15-s08-dog",
+      "xue-er-15-s10-elephant",
+      "xue-er-15-s10-bunny",
+      "xue-er-15-s10-cat",
+      "xue-er-15-s10-dog",
+      "xue-er-15-s11-elephant",
+      "xue-er-15-s11-bunny",
+      "xue-er-15-s11-cat",
+      "xue-er-15-s11-dog",
+      "xue-er-15-title-elephant",
+      "xue-er-16-s02-elephant",
+      "xue-er-16-s02-bunny",
+      "xue-er-16-s02-cat",
+      "xue-er-16-s02-dog",
+      "xue-er-16-title-elephant",
+      "xue-er-04-s01-children",
+      "xue-er-04-s02-children",
+      "xue-er-04-s03-children",
+      "xue-er-04-s04-children",
+      "xue-er-04-s05-children",
+      "xue-er-05-s02-children",
+      "xue-er-05-s03-children",
+      "xue-er-05-s04-children",
+      "xue-er-06-s02-children",
+      "xue-er-06-s03-children",
+      "xue-er-06-s04-children",
+      "xue-er-07-s01-children",
+      "xue-er-07-s02-children",
+      "xue-er-07-s03-children",
+      "xue-er-07-s04-children",
+      "xue-er-07-s05-children",
+      "xue-er-07-s06-children",
+      "xue-er-08-s02-children",
+      "xue-er-08-s03-children",
+      "xue-er-08-s04-children",
+      "xue-er-09-s02-children",
+      "xue-er-10-s01-children",
+      "xue-er-10-s02-children",
+      "xue-er-10-s03-children",
+      "xue-er-10-s04-children",
+      "xue-er-10-s05-children",
+      "xue-er-10-s06-children",
+      "xue-er-10-s07-children",
+      "xue-er-11-s02-children",
+      "xue-er-11-s03-children",
+      "xue-er-12-s02-children",
+      "xue-er-12-s03-children",
+      "xue-er-12-s04-children",
+      "xue-er-12-s05-children",
+      "xue-er-13-s02-children",
+      "xue-er-13-s03-children",
+      "xue-er-13-s04-children",
+      "xue-er-14-s02-children",
+      "xue-er-14-s03-children",
+      "xue-er-14-s04-children",
+      "xue-er-15-s02-children",
+      "xue-er-15-s04-children",
+      "xue-er-15-s05-children",
+      "xue-er-15-s07-children",
+      "xue-er-15-s08-children",
+      "xue-er-15-s10-children",
+      "xue-er-15-s11-children",
+      "xue-er-16-s02-children",
+      "xue-er-09-s01:elephant",
+      "xue-er-09-s01:bunny",
+      "xue-er-09-s01:cat",
+      "xue-er-09-s01:dog",
+      "xue-er-09-s01:children",
+      "xue-er-15-s01:elephant",
+      "xue-er-15-s01:bunny",
+      "xue-er-15-s01:cat",
+      "xue-er-15-s01:dog",
+      "xue-er-15-s01:children",
+      "xue-er-15-s06:elephant",
+      "xue-er-15-s06:bunny",
+      "xue-er-15-s06:cat",
+      "xue-er-15-s06:dog",
+      "xue-er-15-s06:children"
+    ],
+    "pendingListeningCount": 37,
+    "referenceCount": 92,
+    "uniqueFiles": 37,
+    "selectedExpectedFiles": 37,
+    "selectedFilesPresent": 37,
+    "missingPartitionMatches": true,
+    "missingPartitionReviewedAt": "2026-11-03T13:02:37.322511+00:00"
+  },
+  "publishedDirectoryBytesUnchanged": true,
+  "rawComplete": true,
+  "processedComplete": true,
+  "changedWhileReading": [],
+  "status": "technical-pass-human-listening-pending",
+  "alignmentBlockedIds": [],
+  "generationPendingIds": []
+}

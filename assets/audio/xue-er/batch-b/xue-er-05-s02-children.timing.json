@@ -1,0 +1,56 @@
+{
+  "text": "道千乘之国，",
+  "dur": 2.888333,
+  "t": [
+    0.056833,
+    0.3125,
+    0.724416,
+    1.051125,
+    1.434646,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "ee18a81117c25a43ef89c5252d5b0095cdc0a8899c8c2f39bfd08c3ab3c3fa72",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-05-s02-bunny",
+      "rawSHA256": "0bf1732fee8e9bba327ed9fd5837a92e366df1aff11afb524d6d8a4503623ab9",
+      "ssmlSHA256": "0fb1ba6ee8d9c93bcea8c1888830d4cfdd6053ee6c09bd6178fd2100f9c19379"
+    },
+    {
+      "id": "xue-er-05-s02-cat",
+      "rawSHA256": "02f6f20cb6b934fd433dc1ad5ae05160f053b06d372b9c9bee25b52c274c6a8c",
+      "ssmlSHA256": "9908fb9dba1551c3b24dc6869bf1cb86f519dc5c7c66a5c57d631b267a91b883"
+    },
+    {
+      "id": "xue-er-05-s02-dog",
+      "rawSHA256": "cabce8fd527707fc36536f5fc90e1517e71732a530a7d75ce647356fdc699196",
+      "ssmlSHA256": "19b314ee31c20d34dd1519fc8aa572f46c15373bc7eca18e1b8dabcf42292ee6"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.7692307692307693,
+        0.5042735042735043
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

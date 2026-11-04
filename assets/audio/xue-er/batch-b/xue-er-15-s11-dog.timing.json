@@ -1,0 +1,49 @@
+{
+  "text": "告诸往而知来者。”",
+  "dur": 1.512,
+  "t": [
+    0.082,
+    0.364,
+    0.552,
+    0.741,
+    0.929,
+    1.07,
+    1.07,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "4c676e2289f6be6148c2cfa3742dbfe42de3a31f79007a072b6f6a50e22900fe",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s11-dog",
+      "rawSHA256": "428d2a510267a68b009b8b2cb4e4661752e974c20ef07bf3f78d10e68e3450c9",
+      "ssmlSHA256": "0a69a894cd455d40dfb05ec8be229be1cb4159bdd1139e4c2df8e391a79c081d"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  },
+  "wordGroups": [
+    {
+      "granularity": "word",
+      "boundaryIndex": 5,
+      "originalBoundaryText": "来者",
+      "sourceIndexes": [
+        5,
+        6
+      ],
+      "offsetSeconds": 1.07,
+      "sourceDurationSeconds": 0.0,
+      "sdkPosition": {
+        "textOffset": 268,
+        "wordLength": 2
+      }
+    }
+  ]
+}

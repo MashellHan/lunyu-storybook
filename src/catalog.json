@@ -1,0 +1,249 @@
+[
+  {
+    "number": 1,
+    "name": "学而",
+    "chapters": [
+      {
+        "number": 1,
+        "id": "xue-er-01",
+        "title": "学而时习之",
+        "status": "pending",
+        "legacyDemo": true,
+        "route": "/learn/xue-er/1/",
+        "offline": "index-single.html"
+      },
+      {
+        "number": 2,
+        "id": "xue-er-02",
+        "title": "其为人也孝弟",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/2/",
+        "offline": "xue-er-02.html"
+      },
+      {
+        "number": 3,
+        "id": "xue-er-03",
+        "title": "巧言令色",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/3/",
+        "offline": "xue-er-03.html"
+      },
+      {
+        "number": 4,
+        "id": "xue-er-04",
+        "title": "吾日三省吾身",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/4/",
+        "offline": "xue-er-04.html"
+      },
+      {
+        "number": 5,
+        "id": "xue-er-05",
+        "title": "道千乘之国",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/5/",
+        "offline": "xue-er-05.html"
+      },
+      {
+        "number": 6,
+        "id": "xue-er-06",
+        "title": "弟子入则孝",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/6/",
+        "offline": "xue-er-06.html"
+      },
+      {
+        "number": 7,
+        "id": "xue-er-07",
+        "title": "贤贤易色",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/7/",
+        "offline": "xue-er-07.html"
+      },
+      {
+        "number": 8,
+        "id": "xue-er-08",
+        "title": "君子不重则不威",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/8/",
+        "offline": "xue-er-08.html"
+      },
+      {
+        "number": 9,
+        "id": "xue-er-09",
+        "title": "慎终追远",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/9/",
+        "offline": "xue-er-09.html"
+      },
+      {
+        "number": 10,
+        "id": "xue-er-10",
+        "title": "夫子至于是邦也",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/10/",
+        "offline": "xue-er-10.html"
+      },
+      {
+        "number": 11,
+        "id": "xue-er-11",
+        "title": "父在观其志",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/11/",
+        "offline": "xue-er-11.html"
+      },
+      {
+        "number": 12,
+        "id": "xue-er-12",
+        "title": "礼之用和为贵",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/12/",
+        "offline": "xue-er-12.html"
+      },
+      {
+        "number": 13,
+        "id": "xue-er-13",
+        "title": "信近于义",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/13/",
+        "offline": "xue-er-13.html"
+      },
+      {
+        "number": 14,
+        "id": "xue-er-14",
+        "title": "君子食无求饱",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/14/",
+        "offline": "xue-er-14.html"
+      },
+      {
+        "number": 15,
+        "id": "xue-er-15",
+        "title": "贫而无谄",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/15/",
+        "offline": "xue-er-15.html"
+      },
+      {
+        "number": 16,
+        "id": "xue-er-16",
+        "title": "不患人之不己知",
+        "status": "pending",
+        "legacyDemo": false,
+        "route": "/learn/xue-er/16/",
+        "offline": "xue-er-16.html"
+      }
+    ],
+    "route": "/learn/xue-er/",
+    "offline": "xue-er.html"
+  },
+  {
+    "number": 2,
+    "name": "为政",
+    "chapters": []
+  },
+  {
+    "number": 3,
+    "name": "八佾",
+    "chapters": []
+  },
+  {
+    "number": 4,
+    "name": "里仁",
+    "chapters": []
+  },
+  {
+    "number": 5,
+    "name": "公冶长",
+    "chapters": []
+  },
+  {
+    "number": 6,
+    "name": "雍也",
+    "chapters": []
+  },
+  {
+    "number": 7,
+    "name": "述而",
+    "chapters": []
+  },
+  {
+    "number": 8,
+    "name": "泰伯",
+    "chapters": []
+  },
+  {
+    "number": 9,
+    "name": "子罕",
+    "chapters": []
+  },
+  {
+    "number": 10,
+    "name": "乡党",
+    "chapters": []
+  },
+  {
+    "number": 11,
+    "name": "先进",
+    "chapters": []
+  },
+  {
+    "number": 12,
+    "name": "颜渊",
+    "chapters": []
+  },
+  {
+    "number": 13,
+    "name": "子路",
+    "chapters": []
+  },
+  {
+    "number": 14,
+    "name": "宪问",
+    "chapters": []
+  },
+  {
+    "number": 15,
+    "name": "卫灵公",
+    "chapters": []
+  },
+  {
+    "number": 16,
+    "name": "季氏",
+    "chapters": []
+  },
+  {
+    "number": 17,
+    "name": "阳货",
+    "chapters": []
+  },
+  {
+    "number": 18,
+    "name": "微子",
+    "chapters": []
+  },
+  {
+    "number": 19,
+    "name": "子张",
+    "chapters": []
+  },
+  {
+    "number": 20,
+    "name": "尧曰",
+    "chapters": []
+  }
+]

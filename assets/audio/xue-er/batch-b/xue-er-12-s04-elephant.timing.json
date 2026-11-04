@@ -1,0 +1,33 @@
+{
+  "text": "有所不行，知和而和，",
+  "dur": 3.216,
+  "t": [
+    0.058833,
+    0.28677,
+    0.514708,
+    0.801478,
+    null,
+    1.382333,
+    1.720583,
+    1.955875,
+    2.16175,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "4c420b1772670455e791e03adb0adcbea9ab3acd043900b6c6ba82a19001512d",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-12-s04-elephant",
+      "rawSHA256": "960d94176807be438358ca1d02f78e4d97331478fec76dd156d1e23f34f18358",
+      "ssmlSHA256": "278c6b18ea6abc1d12f84a9e10b1369ef397918d83587937adf24f289e5f6085"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-11-s02-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "896626a5b61692c5f5f9fe531093e8c606c529e7fc1327320be4badcea1a9b5a",
+  "attemptId": "47b989ae-c130-4dc5-bfeb-2637c3859165",
+  "startedAt": "2026-11-03T13:01:43.591718+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:01:47.280422+00:00",
+  "rawSHA256": "b45f4178b768db27c25ee112ff57f9158b11dd5b24f4f30aedba56bd17ffefe8",
+  "wb": [
+    [
+      0.058833,
+      0.279416,
+      "父"
+    ],
+    [
+      0.33825,
+      0.397041,
+      "在"
+    ],
+    [
+      0.955875,
+      0.33825,
+      "观"
+    ],
+    [
+      1.294125,
+      0.264708,
+      "其"
+    ],
+    [
+      1.558833,
+      0.455875,
+      "志"
+    ],
+    [
+      2.470583,
+      0.397041,
+      "父"
+    ],
+    [
+      2.867666,
+      0.544125,
+      "没"
+    ],
+    [
+      3.676458,
+      0.323541,
+      "观"
+    ],
+    [
+      4.0,
+      0.308833,
+      "其"
+    ],
+    [
+      4.308833,
+      0.367625,
+      "行"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 262,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 268,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 304,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 316,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 317,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 355,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

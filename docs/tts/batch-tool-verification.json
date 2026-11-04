@@ -1,0 +1,19 @@
+{
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "dryRunExitCode": 0,
+  "dryRunSHA256": "0f7d1bfe5b88958f12356a9de555eb765d5b06ec1debf5726f7b17984a8608dd",
+  "trackedAssetsCount": 49,
+  "trackedAssetsAggregateSHA256": "80a5ad9002475adad448f4391651ae209c84cf172f182c41f2de44e730f1dda3",
+  "matchesOld49Assets": true,
+  "lockfileSHA256": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+  "newMediaDirectoriesExist": {
+    "assets/source/tts-raw/xue-er/batch-a": false,
+    "assets/source/tts-raw/xue-er/batch-b": false,
+    "assets/audio/xue-er/batch-a": false,
+    "assets/audio/xue-er/batch-b": false
+  },
+  "sourceSHA256": {
+    "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+    "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab"
+  }
+}

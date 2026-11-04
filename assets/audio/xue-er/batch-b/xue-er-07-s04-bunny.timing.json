@@ -1,0 +1,31 @@
+{
+  "text": "事君，能致其身；",
+  "dur": 3.432,
+  "t": [
+    0.056833,
+    0.383541,
+    null,
+    1.065333,
+    1.392041,
+    1.647708,
+    2.017041,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "b01fc82f3e96aa30c7b6f0d244f2fda9140e79eaf1a5ba0220d6dc814a1792ee",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s04-bunny",
+      "rawSHA256": "fe7b6f9282503c806f4fe93d7ce9fe8f8ced67157781998e4670a09815d0aeeb",
+      "ssmlSHA256": "2d9e66d362817213cb0b2c63129fd2c86ed9bcd687b126678974d00cf84f0e7f"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

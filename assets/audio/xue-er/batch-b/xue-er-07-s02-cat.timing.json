@@ -1,0 +1,28 @@
+{
+  "text": "贤贤易色；",
+  "dur": 2.256,
+  "t": [
+    0.056833,
+    0.362229,
+    0.667625,
+    0.97302,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "34f79c3f79fee4783213bb8ea167f523634dd810208b0c81ce37163855af6246",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s02-cat",
+      "rawSHA256": "0fdf1bbd7977953cd457841921b2c8dd1bea6d62f9ebade7d3eb63ca72da9229",
+      "ssmlSHA256": "acb372cf555d039a9792f36d3fd202ba24e25f860494a3f369601eb9edd56184"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

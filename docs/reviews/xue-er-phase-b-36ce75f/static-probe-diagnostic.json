@@ -1,0 +1,8 @@
+{
+  "firstProbeExit": 1,
+  "error": "KeyError: 'legacy-demo'",
+  "where": "check-xue-er-frozen-static.py:69",
+  "cause": "Probe used a required layout lookup; the established first-chapter legacy-demo sentinel correctly maps to null in chapter-data.mjs playerData.",
+  "action": "Use dictionary.get for the existing sentinel; no production change and no product finding.",
+  "evidence": "scripts/chapter-data.mjs playerData layouts fallback"
+}

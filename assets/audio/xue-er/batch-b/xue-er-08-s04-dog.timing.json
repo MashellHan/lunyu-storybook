@@ -1,0 +1,31 @@
+{
+  "text": "过，则勿惮改。”",
+  "dur": 1.968,
+  "t": [
+    0.082,
+    null,
+    0.887,
+    1.216,
+    1.357,
+    1.593,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "6101896c723976590d06c9801ad06eef40c7196d8144d2e972728f229114ee0a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-08-s04-dog",
+      "rawSHA256": "8b822953b3b5b3895d7af12cddc6ba666e586449de09701021f8e167b5aef5d0",
+      "ssmlSHA256": "a18ab2ef393878d4cae5bfff54aed8791be2b2e788efe108e39d112a792cb321"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

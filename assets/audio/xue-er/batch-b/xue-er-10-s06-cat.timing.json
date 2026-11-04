@@ -1,0 +1,30 @@
+{
+  "text": "夫子之求之也，",
+  "dur": 2.472,
+  "t": [
+    0.056833,
+    0.284104,
+    0.511375,
+    0.681833,
+    0.894875,
+    1.079541,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "ecd54441a56fba1c8681f38971359f8c75a5b39dca2e2542c3ac4dcd85df0a00",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s06-cat",
+      "rawSHA256": "72a9bfb185a333080521a82c557775426b2d9373f07e79f3afdd0b89f6c8a3b5",
+      "ssmlSHA256": "7871db4a6eb6a01c18d4099b4536d6506b301906f3e6552f87d71a12732cbf98"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

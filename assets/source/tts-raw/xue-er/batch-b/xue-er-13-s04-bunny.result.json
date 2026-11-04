@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-13-s04-bunny",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "177cedb47de553d20504a45752e33c3910ab22574f346e26b9c00a0066c14492",
+  "attemptId": "bea9e8c0-21c3-45f5-a78d-6d83f4878fb1",
+  "startedAt": "2026-11-03T13:04:16.634387+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:04:21.114933+00:00",
+  "rawSHA256": "87d366fe232e1f49955006b2be0f4dce6cabdd3e4d519ae5bf612cf064f1ea4d",
+  "wb": [
+    [
+      0.056833,
+      0.3125,
+      "因"
+    ],
+    [
+      0.369333,
+      0.198833,
+      "不"
+    ],
+    [
+      0.568166,
+      0.269875,
+      "失"
+    ],
+    [
+      0.838083,
+      0.3125,
+      "其"
+    ],
+    [
+      1.150583,
+      0.411916,
+      "亲"
+    ],
+    [
+      1.889208,
+      0.241458,
+      "亦"
+    ],
+    [
+      2.130666,
+      0.298291,
+      "可"
+    ],
+    [
+      2.428958,
+      0.369333,
+      "宗"
+    ],
+    [
+      2.798291,
+      0.383541,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 192,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 193,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 194,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 195,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 196,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 198,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 199,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 200,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 201,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

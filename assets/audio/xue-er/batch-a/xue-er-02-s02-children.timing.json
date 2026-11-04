@@ -1,0 +1,66 @@
+{
+  "text": "其为人也孝弟，而好犯上者，鲜矣；",
+  "dur": 6.018167,
+  "t": [
+    0.056833,
+    0.383541,
+    0.667625,
+    1.008541,
+    1.264208,
+    1.619333,
+    null,
+    2.357958,
+    2.585208,
+    2.883541,
+    3.188937,
+    3.494333,
+    null,
+    4.147708,
+    4.588083,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "3b59ad00b6afd22afba50f32c72ec2f1090c9e02fe9210b666c687978936890b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s02-bunny",
+      "rawSHA256": "20d1e6fe7089c797d4872c0d83525fe863cca190d718f77a9c1fecdb16932b3b",
+      "ssmlSHA256": "bf341b349251942f5a5f547473e821e086b0be0de20e767521aa937cdaf907b2"
+    },
+    {
+      "id": "xue-er-02-s02-cat",
+      "rawSHA256": "3e47f9e8137d9f4f072ebdd7ebc6b291002ae4da8aae462354f39103920b274e",
+      "ssmlSHA256": "c3b04e3d1ab7debaf56c2c9e25d6fa046b8af9e35b36d1cd7f9567f8e283a80e"
+    },
+    {
+      "id": "xue-er-02-s02-dog",
+      "rawSHA256": "b30bd0b474ef3128bbf0ed3da763c877d75711e86e0f2ba45755def6b10a62b5",
+      "ssmlSHA256": "b95722358f5eef9338f979d1838c96db56b0cea22174c8fcc6a5a1d9140896bc"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.7764227642276422,
+        0.6504065040650406
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

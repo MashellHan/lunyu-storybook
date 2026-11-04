@@ -1,0 +1,3092 @@
+{
+  "at": "2026-11-03T10:42:17.366Z",
+  "head": "cf214146043158bd74817d0002f4b34f06e40d65",
+  "filesBefore": {
+    "src/app.js": {
+      "sha256": "7d380a43f78f5a3b0bb05191642fb819335f306a92f8d8b13d0ad65a62d20903",
+      "bytes": 30153,
+      "mtime": "2026-11-03T10:27:09.247Z"
+    },
+    "src/styles.css": {
+      "sha256": "da7901b410acaf0432c52858dae18279a03cda0450a683f25c268f850f765adf",
+      "bytes": 23089,
+      "mtime": "2026-11-03T10:36:51.043Z"
+    },
+    "src/index.html": {
+      "sha256": "f9d654fe0436f02df9f08e6ed5f235c0a09a0adc6831309b5e5e464934d04a82",
+      "bytes": 4343,
+      "mtime": "2026-11-03T10:09:43.668Z"
+    },
+    "src/home.html": {
+      "sha256": "4bf67edcf91f3389b4d9065db90d79cc0ef17ca3990331754d15e075c2a7b91c",
+      "bytes": 1345,
+      "mtime": "2026-11-03T10:09:00.543Z"
+    },
+    "src/home.css": {
+      "sha256": "b61dc32b5035972753e225e65d13be3aa042f7a68f43d0ae1cc3590795d4d95b",
+      "bytes": 5619,
+      "mtime": "2026-11-03T10:22:14.943Z"
+    },
+    "src/home.js": {
+      "sha256": "e60e129d7ad3a0aa74176427118b7632b9e4dd94a22533fd87f881c60affc622",
+      "bytes": 918,
+      "mtime": "2026-11-03T10:09:00.549Z"
+    },
+    "src/catalog.json": {
+      "sha256": "3bacd1483f37c5277500d073c1a81122795f0e663380ffd33eb0a9f0e58105a9",
+      "bytes": 1541,
+      "mtime": "2026-11-03T10:09:43.665Z"
+    },
+    "scripts/build.mjs": {
+      "sha256": "fdf2a3d5f0514e292106ffe392f15bdbecba5c6edceba9dc8c253997833f5d91",
+      "bytes": 5681,
+      "mtime": "2026-11-03T10:09:43.666Z"
+    },
+    "package-lock.json": {
+      "sha256": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+      "bytes": 50606,
+      "mtime": "2026-11-03T09:27:03.988Z"
+    },
+    "public/index.html": {
+      "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "bytes": 15795,
+      "mtime": "2026-11-03T10:39:12.501Z"
+    },
+    "public/learn/xue-er/1/index.html": {
+      "sha256": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "bytes": 564226,
+      "mtime": "2026-11-03T10:39:12.549Z"
+    },
+    "dist/index.html": {
+      "sha256": "1366ae8429aad94473c89b053a96b6c26b0c69dc3c7c5733743f43a61bc9f9a0",
+      "bytes": 280936,
+      "mtime": "2026-11-03T10:39:14.350Z"
+    },
+    "dist/index-single.html": {
+      "sha256": "d874353f248751574262cfc28f31094c03de6d92a4254f450b3af9bc528db0a0",
+      "bytes": 829361,
+      "mtime": "2026-11-03T10:39:14.455Z"
+    }
+  },
+  "measurements": [
+    {
+      "width": 1440,
+      "height": 900,
+      "home": {
+        "names": [
+          "学而",
+          "为政",
+          "八佾",
+          "里仁",
+          "公冶长",
+          "雍也",
+          "述而",
+          "泰伯",
+          "子罕",
+          "乡党",
+          "先进",
+          "颜渊",
+          "子路",
+          "宪问",
+          "卫灵公",
+          "季氏",
+          "阳货",
+          "微子",
+          "子张",
+          "尧曰"
+        ],
+        "unavailable": 19,
+        "unavailableStates": [
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          }
+        ],
+        "links": [
+          {
+            "href": "/learn/xue-er/1/",
+            "label": "学而，第一章，学而时习之，进入阅读"
+          }
+        ],
+        "audioTags": 0,
+        "prefetch": 0,
+        "scrollWidth": 1440,
+        "first": {
+          "x": 579.1875,
+          "y": 206.5,
+          "width": 334.40625,
+          "height": 88,
+          "bottom": 294.5
+        },
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+        "audioURIs": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4173/",
+            "type": "document"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/cat-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-body.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-head.webp",
+            "type": "image"
+          }
+        ],
+        "sourceMatches": true
+      },
+      "chapter": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "scrollHeight": 900,
+        "book": {
+          "x": 130,
+          "y": 20,
+          "width": 1180,
+          "height": 780,
+          "right": 1310,
+          "bottom": 800
+        },
+        "roles": [
+          {
+            "selector": "#elephant",
+            "x": 196.203125,
+            "y": 264,
+            "width": 320,
+            "height": 320,
+            "right": 516.203125,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "大象老师"
+          },
+          {
+            "selector": "#bunny",
+            "x": 598.671875,
+            "y": 414,
+            "width": 170,
+            "height": 170,
+            "right": 768.671875,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小兔子"
+          },
+          {
+            "selector": "#cat",
+            "x": 845.53125,
+            "y": 434,
+            "width": 150,
+            "height": 150,
+            "right": 995.53125,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小猫"
+          },
+          {
+            "selector": "#dog",
+            "x": 1073.0625,
+            "y": 404,
+            "width": 180,
+            "height": 180,
+            "right": 1253.0625,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小狗"
+          }
+        ],
+        "controls": [
+          {
+            "selector": "#homeBtn",
+            "x": 154,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "right": 218,
+            "bottom": 104,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "返回论语目录"
+          },
+          {
+            "selector": "#pauseBtn",
+            "x": 1146,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "right": 1210,
+            "bottom": 104,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "暂停朗读"
+          },
+          {
+            "selector": "#stopBtn",
+            "x": 1222,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "right": 1286,
+            "bottom": 104,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "停止自动朗读，进入自由互动"
+          }
+        ],
+        "roleOverlaps": [],
+        "controlOverlaps": [],
+        "roleControlOverlaps": [],
+        "fonts": [
+          {
+            "text": "30px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 154,
+              "y": 624,
+              "width": 365.328125,
+              "height": 150,
+              "right": 519.328125,
+              "bottom": 774
+            }
+          },
+          {
+            "text": "30px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 537.328125,
+              "y": 624,
+              "width": 365.328125,
+              "height": 150,
+              "right": 902.65625,
+              "bottom": 774
+            }
+          },
+          {
+            "text": "30px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 920.65625,
+              "y": 624,
+              "width": 365.34375,
+              "height": 150,
+              "right": 1286,
+              "bottom": 774
+            }
+          }
+        ],
+        "roleImages": [
+          {
+            "selector": "#elephant",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 196.203125,
+                "y": 264,
+                "width": 320,
+                "height": 320,
+                "right": 516.203125,
+                "bottom": 584
+              }
+            ]
+          },
+          {
+            "selector": "#bunny",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 598.671875,
+                "y": 414,
+                "width": 170,
+                "height": 170,
+                "right": 768.671875,
+                "bottom": 584
+              },
+              {
+                "naturalWidth": 640,
+                "x": 598.671875,
+                "y": 414,
+                "width": 170,
+                "height": 170,
+                "right": 768.671875,
+                "bottom": 584
+              }
+            ]
+          },
+          {
+            "selector": "#cat",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 844.3825073242188,
+                "y": 430.4261169433594,
+                "width": 152.2974853515625,
+                "height": 153.57388305664062,
+                "right": 996.6799926757812,
+                "bottom": 584
+              }
+            ]
+          },
+          {
+            "selector": "#dog",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 1057.90625,
+                "y": 398.0094909667969,
+                "width": 201.133056640625,
+                "height": 201.43209838867188,
+                "right": 1259.039306640625,
+                "bottom": 599.4415893554688
+              },
+              {
+                "naturalWidth": 640,
+                "x": 1072.821044921875,
+                "y": 403.2486572265625,
+                "width": 180.48291015625,
+                "height": 180.7513427734375,
+                "right": 1253.303955078125,
+                "bottom": 584
+              },
+              {
+                "naturalWidth": 640,
+                "x": 1072.821044921875,
+                "y": 403.2486572265625,
+                "width": 180.48291015625,
+                "height": 180.7513427734375,
+                "right": 1253.303955078125,
+                "bottom": 584
+              }
+            ]
+          }
+        ],
+        "state": "free",
+        "embeddedAudio": 15,
+        "sourceMatches": true,
+        "hitTests": [
+          {
+            "id": "elephant",
+            "centerTarget": "elephant",
+            "withinViewport": true
+          },
+          {
+            "id": "bunny",
+            "centerTarget": "bunny",
+            "withinViewport": true
+          },
+          {
+            "id": "cat",
+            "centerTarget": "cat",
+            "withinViewport": true
+          },
+          {
+            "id": "dog",
+            "centerTarget": "dog",
+            "withinViewport": true
+          },
+          {
+            "id": "homeBtn",
+            "centerTarget": "homeBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "pauseBtn",
+            "centerTarget": "pauseBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "stopBtn",
+            "centerTarget": "stopBtn",
+            "withinViewport": true
+          }
+        ],
+        "scrolledControls": [
+          {
+            "id": "homeBtn",
+            "x": 154,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "homeBtn"
+          },
+          {
+            "id": "pauseBtn",
+            "x": 1146,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "pauseBtn"
+          },
+          {
+            "id": "stopBtn",
+            "x": 1222,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "stopBtn"
+          }
+        ]
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "home": {
+        "names": [
+          "学而",
+          "为政",
+          "八佾",
+          "里仁",
+          "公冶长",
+          "雍也",
+          "述而",
+          "泰伯",
+          "子罕",
+          "乡党",
+          "先进",
+          "颜渊",
+          "子路",
+          "宪问",
+          "卫灵公",
+          "季氏",
+          "阳货",
+          "微子",
+          "子张",
+          "尧曰"
+        ],
+        "unavailable": 19,
+        "unavailableStates": [
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          }
+        ],
+        "links": [
+          {
+            "href": "/learn/xue-er/1/",
+            "label": "学而，第一章，学而时习之，进入阅读"
+          }
+        ],
+        "audioTags": 0,
+        "prefetch": 0,
+        "scrollWidth": 1024,
+        "first": {
+          "x": 404.578125,
+          "y": 140.5,
+          "width": 263.703125,
+          "height": 88,
+          "bottom": 228.5
+        },
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+        "audioURIs": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4173/",
+            "type": "document"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/cat-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-body.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-head.webp",
+            "type": "image"
+          }
+        ],
+        "sourceMatches": true
+      },
+      "chapter": {
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "scrollWidth": 1024,
+        "scrollHeight": 820,
+        "book": {
+          "x": 20,
+          "y": 20,
+          "width": 984,
+          "height": 780,
+          "right": 1004,
+          "bottom": 800
+        },
+        "roles": [
+          {
+            "selector": "#elephant",
+            "x": 50.09375,
+            "y": 264,
+            "width": 320,
+            "height": 320,
+            "right": 370.09375,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "大象老师"
+          },
+          {
+            "selector": "#bunny",
+            "x": 395.828125,
+            "y": 414,
+            "width": 170,
+            "height": 170,
+            "right": 565.828125,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小兔子"
+          },
+          {
+            "selector": "#cat",
+            "x": 602.46875,
+            "y": 434,
+            "width": 150,
+            "height": 150,
+            "right": 752.46875,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小猫"
+          },
+          {
+            "selector": "#dog",
+            "x": 788.71875,
+            "y": 404,
+            "width": 180,
+            "height": 180,
+            "right": 968.71875,
+            "bottom": 584,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小狗"
+          }
+        ],
+        "controls": [
+          {
+            "selector": "#homeBtn",
+            "x": 44,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "right": 108,
+            "bottom": 104,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "返回论语目录"
+          },
+          {
+            "selector": "#pauseBtn",
+            "x": 840,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "right": 904,
+            "bottom": 104,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "暂停朗读"
+          },
+          {
+            "selector": "#stopBtn",
+            "x": 916,
+            "y": 40,
+            "width": 64,
+            "height": 64,
+            "right": 980,
+            "bottom": 104,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "停止自动朗读，进入自由互动"
+          }
+        ],
+        "roleOverlaps": [],
+        "controlOverlaps": [],
+        "roleControlOverlaps": [],
+        "fonts": [
+          {
+            "text": "26.112px",
+            "pinyin": "14px",
+            "opacity": "1",
+            "bounds": {
+              "x": 44,
+              "y": 624,
+              "width": 300,
+              "height": 150,
+              "right": 344,
+              "bottom": 774
+            }
+          },
+          {
+            "text": "26.112px",
+            "pinyin": "14px",
+            "opacity": "1",
+            "bounds": {
+              "x": 362,
+              "y": 624,
+              "width": 300,
+              "height": 150,
+              "right": 662,
+              "bottom": 774
+            }
+          },
+          {
+            "text": "26.112px",
+            "pinyin": "14px",
+            "opacity": "1",
+            "bounds": {
+              "x": 680,
+              "y": 624,
+              "width": 300,
+              "height": 150,
+              "right": 980,
+              "bottom": 774
+            }
+          }
+        ],
+        "roleImages": [
+          {
+            "selector": "#elephant",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 50.09375,
+                "y": 264,
+                "width": 320,
+                "height": 320,
+                "right": 370.09375,
+                "bottom": 584
+              }
+            ]
+          },
+          {
+            "selector": "#bunny",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 395.828125,
+                "y": 414,
+                "width": 170,
+                "height": 170,
+                "right": 565.828125,
+                "bottom": 584
+              },
+              {
+                "naturalWidth": 640,
+                "x": 395.828125,
+                "y": 414,
+                "width": 170,
+                "height": 170,
+                "right": 565.828125,
+                "bottom": 584
+              }
+            ]
+          },
+          {
+            "selector": "#cat",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 601.3200073242188,
+                "y": 430.4261169433594,
+                "width": 152.2974853515625,
+                "height": 153.57388305664062,
+                "right": 753.6174926757812,
+                "bottom": 584
+              }
+            ]
+          },
+          {
+            "selector": "#dog",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 773.5625,
+                "y": 398.0094909667969,
+                "width": 201.133056640625,
+                "height": 201.43209838867188,
+                "right": 974.695556640625,
+                "bottom": 599.4415893554688
+              },
+              {
+                "naturalWidth": 640,
+                "x": 788.4772338867188,
+                "y": 403.2486572265625,
+                "width": 180.4830322265625,
+                "height": 180.7513427734375,
+                "right": 968.9602661132812,
+                "bottom": 584
+              },
+              {
+                "naturalWidth": 640,
+                "x": 788.4772338867188,
+                "y": 403.2486572265625,
+                "width": 180.4830322265625,
+                "height": 180.7513427734375,
+                "right": 968.9602661132812,
+                "bottom": 584
+              }
+            ]
+          }
+        ],
+        "state": "free",
+        "embeddedAudio": 15,
+        "sourceMatches": true,
+        "hitTests": [
+          {
+            "id": "elephant",
+            "centerTarget": "elephant",
+            "withinViewport": true
+          },
+          {
+            "id": "bunny",
+            "centerTarget": "bunny",
+            "withinViewport": true
+          },
+          {
+            "id": "cat",
+            "centerTarget": "cat",
+            "withinViewport": true
+          },
+          {
+            "id": "dog",
+            "centerTarget": "dog",
+            "withinViewport": true
+          },
+          {
+            "id": "homeBtn",
+            "centerTarget": "homeBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "pauseBtn",
+            "centerTarget": "pauseBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "stopBtn",
+            "centerTarget": "stopBtn",
+            "withinViewport": true
+          }
+        ],
+        "scrolledControls": [
+          {
+            "id": "homeBtn",
+            "x": 44,
+            "y": 34,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "homeBtn"
+          },
+          {
+            "id": "pauseBtn",
+            "x": 840,
+            "y": 34,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "pauseBtn"
+          },
+          {
+            "id": "stopBtn",
+            "x": 916,
+            "y": 34,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "stopBtn"
+          }
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "home": {
+        "names": [
+          "学而",
+          "为政",
+          "八佾",
+          "里仁",
+          "公冶长",
+          "雍也",
+          "述而",
+          "泰伯",
+          "子罕",
+          "乡党",
+          "先进",
+          "颜渊",
+          "子路",
+          "宪问",
+          "卫灵公",
+          "季氏",
+          "阳货",
+          "微子",
+          "子张",
+          "尧曰"
+        ],
+        "unavailable": 19,
+        "unavailableStates": [
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          }
+        ],
+        "links": [
+          {
+            "href": "/learn/xue-er/1/",
+            "label": "学而，第一章，学而时习之，进入阅读"
+          }
+        ],
+        "audioTags": 0,
+        "prefetch": 0,
+        "scrollWidth": 768,
+        "first": {
+          "x": 46,
+          "y": 475.796875,
+          "width": 316,
+          "height": 88,
+          "bottom": 563.796875
+        },
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+        "audioURIs": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4173/",
+            "type": "document"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/cat-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-body.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-head.webp",
+            "type": "image"
+          }
+        ],
+        "sourceMatches": true
+      },
+      "chapter": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "scrollHeight": 1024,
+        "book": {
+          "x": 12,
+          "y": 12,
+          "width": 744,
+          "height": 789,
+          "right": 756,
+          "bottom": 801
+        },
+        "roles": [
+          {
+            "selector": "#elephant",
+            "x": 28,
+            "y": 210.671875,
+            "width": 232.328125,
+            "height": 232.328125,
+            "right": 260.328125,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "大象老师"
+          },
+          {
+            "selector": "#bunny",
+            "x": 270.328125,
+            "y": 293.109375,
+            "width": 149.890625,
+            "height": 149.890625,
+            "right": 420.21875,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小兔子"
+          },
+          {
+            "selector": "#cat",
+            "x": 430.21875,
+            "y": 300.609375,
+            "width": 142.390625,
+            "height": 142.390625,
+            "right": 572.609375,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小猫"
+          },
+          {
+            "selector": "#dog",
+            "x": 582.609375,
+            "y": 285.625,
+            "width": 157.375,
+            "height": 157.375,
+            "right": 739.984375,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小狗"
+          }
+        ],
+        "controls": [
+          {
+            "selector": "#homeBtn",
+            "x": 30,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "right": 94,
+            "bottom": 92,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "返回论语目录"
+          },
+          {
+            "selector": "#pauseBtn",
+            "x": 598,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "right": 662,
+            "bottom": 92,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "暂停朗读"
+          },
+          {
+            "selector": "#stopBtn",
+            "x": 674,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "right": 738,
+            "bottom": 92,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "停止自动朗读，进入自由互动"
+          }
+        ],
+        "roleOverlaps": [],
+        "controlOverlaps": [],
+        "roleControlOverlaps": [],
+        "fonts": [
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 30,
+              "y": 473,
+              "width": 708,
+              "height": 94,
+              "right": 738,
+              "bottom": 567
+            }
+          },
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 30,
+              "y": 579,
+              "width": 708,
+              "height": 94,
+              "right": 738,
+              "bottom": 673
+            }
+          },
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 30,
+              "y": 685,
+              "width": 708,
+              "height": 94,
+              "right": 738,
+              "bottom": 779
+            }
+          }
+        ],
+        "roleImages": [
+          {
+            "selector": "#elephant",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 28,
+                "y": 210.671875,
+                "width": 232.328125,
+                "height": 232.328125,
+                "right": 260.328125,
+                "bottom": 443
+              }
+            ]
+          },
+          {
+            "selector": "#bunny",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 270.328125,
+                "y": 293.109375,
+                "width": 149.890625,
+                "height": 149.890625,
+                "right": 420.21875,
+                "bottom": 443
+              },
+              {
+                "naturalWidth": 640,
+                "x": 270.328125,
+                "y": 293.109375,
+                "width": 149.890625,
+                "height": 149.890625,
+                "right": 420.21875,
+                "bottom": 443
+              }
+            ]
+          },
+          {
+            "selector": "#cat",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 429.1282958984375,
+                "y": 297.216796875,
+                "width": 144.571533203125,
+                "height": 145.783203125,
+                "right": 573.6998291015625,
+                "bottom": 443
+              }
+            ]
+          },
+          {
+            "selector": "#dog",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 569.3582153320312,
+                "y": 280.387451171875,
+                "width": 175.85174560546875,
+                "height": 176.11322021484375,
+                "right": 745.2099609375,
+                "bottom": 456.50067138671875
+              },
+              {
+                "naturalWidth": 640,
+                "x": 582.398193359375,
+                "y": 284.96807861328125,
+                "width": 157.79736328125,
+                "height": 158.03192138671875,
+                "right": 740.195556640625,
+                "bottom": 443
+              },
+              {
+                "naturalWidth": 640,
+                "x": 582.398193359375,
+                "y": 284.96807861328125,
+                "width": 157.79736328125,
+                "height": 158.03192138671875,
+                "right": 740.195556640625,
+                "bottom": 443
+              }
+            ]
+          }
+        ],
+        "state": "free",
+        "embeddedAudio": 15,
+        "sourceMatches": true,
+        "hitTests": [
+          {
+            "id": "elephant",
+            "centerTarget": "elephant",
+            "withinViewport": true
+          },
+          {
+            "id": "bunny",
+            "centerTarget": "bunny",
+            "withinViewport": true
+          },
+          {
+            "id": "cat",
+            "centerTarget": "cat",
+            "withinViewport": true
+          },
+          {
+            "id": "dog",
+            "centerTarget": "dog",
+            "withinViewport": true
+          },
+          {
+            "id": "homeBtn",
+            "centerTarget": "homeBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "pauseBtn",
+            "centerTarget": "pauseBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "stopBtn",
+            "centerTarget": "stopBtn",
+            "withinViewport": true
+          }
+        ],
+        "scrolledControls": [
+          {
+            "id": "homeBtn",
+            "x": 30,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "homeBtn"
+          },
+          {
+            "id": "pauseBtn",
+            "x": 598,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "pauseBtn"
+          },
+          {
+            "id": "stopBtn",
+            "x": 674,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "stopBtn"
+          }
+        ]
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "home": {
+        "names": [
+          "学而",
+          "为政",
+          "八佾",
+          "里仁",
+          "公冶长",
+          "雍也",
+          "述而",
+          "泰伯",
+          "子罕",
+          "乡党",
+          "先进",
+          "颜渊",
+          "子路",
+          "宪问",
+          "卫灵公",
+          "季氏",
+          "阳货",
+          "微子",
+          "子张",
+          "尧曰"
+        ],
+        "unavailable": 19,
+        "unavailableStates": [
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          }
+        ],
+        "links": [
+          {
+            "href": "/learn/xue-er/1/",
+            "label": "学而，第一章，学而时习之，进入阅读"
+          }
+        ],
+        "audioTags": 0,
+        "prefetch": 0,
+        "scrollWidth": 844,
+        "first": {
+          "x": 296,
+          "y": 88,
+          "width": 246,
+          "height": 118,
+          "bottom": 206
+        },
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+        "audioURIs": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4173/",
+            "type": "document"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/cat-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-body.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-head.webp",
+            "type": "image"
+          }
+        ],
+        "sourceMatches": true
+      },
+      "chapter": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "scrollHeight": 813,
+        "book": {
+          "x": 12,
+          "y": 12,
+          "width": 820,
+          "height": 789,
+          "right": 832,
+          "bottom": 801
+        },
+        "roles": [
+          {
+            "selector": "#elephant",
+            "x": 28,
+            "y": 184.78125,
+            "width": 258.21875,
+            "height": 258.21875,
+            "right": 286.21875,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "大象老师"
+          },
+          {
+            "selector": "#bunny",
+            "x": 296.21875,
+            "y": 276.40625,
+            "width": 166.59375,
+            "height": 166.59375,
+            "right": 462.8125,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小兔子"
+          },
+          {
+            "selector": "#cat",
+            "x": 476.9375,
+            "y": 293,
+            "width": 150,
+            "height": 150,
+            "right": 626.9375,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小猫"
+          },
+          {
+            "selector": "#dog",
+            "x": 641.0625,
+            "y": 268.078125,
+            "width": 174.921875,
+            "height": 174.921875,
+            "right": 815.984375,
+            "bottom": 443,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小狗"
+          }
+        ],
+        "controls": [
+          {
+            "selector": "#homeBtn",
+            "x": 30,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "right": 94,
+            "bottom": 92,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "返回论语目录"
+          },
+          {
+            "selector": "#pauseBtn",
+            "x": 674,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "right": 738,
+            "bottom": 92,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "暂停朗读"
+          },
+          {
+            "selector": "#stopBtn",
+            "x": 750,
+            "y": 28,
+            "width": 64,
+            "height": 64,
+            "right": 814,
+            "bottom": 92,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "停止自动朗读，进入自由互动"
+          }
+        ],
+        "roleOverlaps": [],
+        "controlOverlaps": [],
+        "roleControlOverlaps": [],
+        "fonts": [
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 30,
+              "y": 473,
+              "width": 784,
+              "height": 94,
+              "right": 814,
+              "bottom": 567
+            }
+          },
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 30,
+              "y": 579,
+              "width": 784,
+              "height": 94,
+              "right": 814,
+              "bottom": 673
+            }
+          },
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 30,
+              "y": 685,
+              "width": 784,
+              "height": 94,
+              "right": 814,
+              "bottom": 779
+            }
+          }
+        ],
+        "roleImages": [
+          {
+            "selector": "#elephant",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 28,
+                "y": 184.78125,
+                "width": 258.21875,
+                "height": 258.21875,
+                "right": 286.21875,
+                "bottom": 443
+              }
+            ]
+          },
+          {
+            "selector": "#bunny",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 296.21875,
+                "y": 276.40625,
+                "width": 166.59375,
+                "height": 166.59375,
+                "right": 462.8125,
+                "bottom": 443
+              },
+              {
+                "naturalWidth": 640,
+                "x": 296.21875,
+                "y": 276.40625,
+                "width": 166.59375,
+                "height": 166.59375,
+                "right": 462.8125,
+                "bottom": 443
+              }
+            ]
+          },
+          {
+            "selector": "#cat",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 475.78875732421875,
+                "y": 289.4261169433594,
+                "width": 152.2974853515625,
+                "height": 153.57388305664062,
+                "right": 628.0862426757812,
+                "bottom": 443
+              }
+            ]
+          },
+          {
+            "selector": "#dog",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 626.3338623046875,
+                "y": 262.2566223144531,
+                "width": 195.458740234375,
+                "height": 195.74932861328125,
+                "right": 821.7926025390625,
+                "bottom": 458.0059509277344
+              },
+              {
+                "naturalWidth": 640,
+                "x": 640.8278198242188,
+                "y": 267.34796142578125,
+                "width": 175.3912353515625,
+                "height": 175.65203857421875,
+                "right": 816.2190551757812,
+                "bottom": 443
+              },
+              {
+                "naturalWidth": 640,
+                "x": 640.8278198242188,
+                "y": 267.34796142578125,
+                "width": 175.3912353515625,
+                "height": 175.65203857421875,
+                "right": 816.2190551757812,
+                "bottom": 443
+              }
+            ]
+          }
+        ],
+        "state": "free",
+        "embeddedAudio": 15,
+        "sourceMatches": true,
+        "hitTests": [
+          {
+            "id": "elephant",
+            "centerTarget": "elephant",
+            "withinViewport": true
+          },
+          {
+            "id": "bunny",
+            "centerTarget": "bunny",
+            "withinViewport": true
+          },
+          {
+            "id": "cat",
+            "centerTarget": "cat",
+            "withinViewport": true
+          },
+          {
+            "id": "dog",
+            "centerTarget": "dog",
+            "withinViewport": true
+          },
+          {
+            "id": "homeBtn",
+            "centerTarget": "homeBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "pauseBtn",
+            "centerTarget": "pauseBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "stopBtn",
+            "centerTarget": "stopBtn",
+            "withinViewport": true
+          }
+        ],
+        "scrolledControls": [
+          {
+            "id": "homeBtn",
+            "x": 30,
+            "y": 8,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "homeBtn"
+          },
+          {
+            "id": "pauseBtn",
+            "x": 674,
+            "y": 8,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "pauseBtn"
+          },
+          {
+            "id": "stopBtn",
+            "x": 750,
+            "y": 8,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "stopBtn"
+          }
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "home": {
+        "names": [
+          "学而",
+          "为政",
+          "八佾",
+          "里仁",
+          "公冶长",
+          "雍也",
+          "述而",
+          "泰伯",
+          "子罕",
+          "乡党",
+          "先进",
+          "颜渊",
+          "子路",
+          "宪问",
+          "卫灵公",
+          "季氏",
+          "阳货",
+          "微子",
+          "子张",
+          "尧曰"
+        ],
+        "unavailable": 19,
+        "unavailableStates": [
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          }
+        ],
+        "links": [
+          {
+            "href": "/learn/xue-er/1/",
+            "label": "学而，第一章，学而时习之，进入阅读"
+          }
+        ],
+        "audioTags": 0,
+        "prefetch": 0,
+        "scrollWidth": 390,
+        "first": {
+          "x": 32,
+          "y": 446.296875,
+          "width": 326,
+          "height": 88,
+          "bottom": 534.296875
+        },
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+        "audioURIs": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4173/",
+            "type": "document"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/cat-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-body.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-head.webp",
+            "type": "image"
+          }
+        ],
+        "sourceMatches": true
+      },
+      "chapter": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "scrollHeight": 1028,
+        "book": {
+          "x": 8,
+          "y": 8,
+          "width": 374,
+          "height": 1011.78125,
+          "right": 382,
+          "bottom": 1019.78125
+        },
+        "roles": [
+          {
+            "selector": "#elephant",
+            "x": 28,
+            "y": 144,
+            "width": 150,
+            "height": 212,
+            "right": 178,
+            "bottom": 356,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "大象老师"
+          },
+          {
+            "selector": "#bunny",
+            "x": 219,
+            "y": 158,
+            "width": 136,
+            "height": 198,
+            "right": 355,
+            "bottom": 356,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小兔子"
+          },
+          {
+            "selector": "#cat",
+            "x": 40,
+            "y": 382,
+            "width": 126,
+            "height": 188,
+            "right": 166,
+            "bottom": 570,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小猫"
+          },
+          {
+            "selector": "#dog",
+            "x": 217,
+            "y": 368,
+            "width": 140,
+            "height": 202,
+            "right": 357,
+            "bottom": 570,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小狗"
+          }
+        ],
+        "controls": [
+          {
+            "selector": "#homeBtn",
+            "x": 24,
+            "y": 24,
+            "width": 64,
+            "height": 64,
+            "right": 88,
+            "bottom": 88,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "返回论语目录"
+          },
+          {
+            "selector": "#pauseBtn",
+            "x": 162.984375,
+            "y": 24,
+            "width": 64,
+            "height": 64,
+            "right": 226.984375,
+            "bottom": 88,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "暂停朗读"
+          },
+          {
+            "selector": "#stopBtn",
+            "x": 302,
+            "y": 24,
+            "width": 64,
+            "height": 64,
+            "right": 366,
+            "bottom": 88,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "停止自动朗读，进入自由互动"
+          }
+        ],
+        "roleOverlaps": [],
+        "controlOverlaps": [],
+        "roleControlOverlaps": [],
+        "fonts": [
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 20,
+              "y": 584,
+              "width": 350,
+              "height": 132.59375,
+              "right": 370,
+              "bottom": 716.59375
+            }
+          },
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 20,
+              "y": 726.59375,
+              "width": 350,
+              "height": 132.59375,
+              "right": 370,
+              "bottom": 859.1875
+            }
+          },
+          {
+            "text": "26px",
+            "pinyin": "15px",
+            "opacity": "1",
+            "bounds": {
+              "x": 20,
+              "y": 869.1875,
+              "width": 350,
+              "height": 132.59375,
+              "right": 370,
+              "bottom": 1001.78125
+            }
+          }
+        ],
+        "roleImages": [
+          {
+            "selector": "#elephant",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 28,
+                "y": 206,
+                "width": 150,
+                "height": 150,
+                "right": 178,
+                "bottom": 356
+              }
+            ]
+          },
+          {
+            "selector": "#bunny",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 219,
+                "y": 220,
+                "width": 136,
+                "height": 136,
+                "right": 355,
+                "bottom": 356
+              },
+              {
+                "naturalWidth": 640,
+                "x": 219,
+                "y": 220,
+                "width": 136,
+                "height": 136,
+                "right": 355,
+                "bottom": 356
+              }
+            ]
+          },
+          {
+            "selector": "#cat",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 39.03505325317383,
+                "y": 440.9979248046875,
+                "width": 127.92990112304688,
+                "height": 129.0020751953125,
+                "right": 166.9649543762207,
+                "bottom": 570
+              }
+            ]
+          },
+          {
+            "selector": "#dog",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 205.21182250976562,
+                "y": 425.3406982421875,
+                "width": 156.43685913085938,
+                "height": 156.66943359375,
+                "right": 361.648681640625,
+                "bottom": 582.0101318359375
+              },
+              {
+                "naturalWidth": 640,
+                "x": 216.81216430664062,
+                "y": 429.4156188964844,
+                "width": 140.37567138671875,
+                "height": 140.58438110351562,
+                "right": 357.1878356933594,
+                "bottom": 570
+              },
+              {
+                "naturalWidth": 640,
+                "x": 216.81216430664062,
+                "y": 429.4156188964844,
+                "width": 140.37567138671875,
+                "height": 140.58438110351562,
+                "right": 357.1878356933594,
+                "bottom": 570
+              }
+            ]
+          }
+        ],
+        "state": "free",
+        "embeddedAudio": 15,
+        "sourceMatches": true,
+        "hitTests": [
+          {
+            "id": "elephant",
+            "centerTarget": "elephant",
+            "withinViewport": true
+          },
+          {
+            "id": "bunny",
+            "centerTarget": "bunny",
+            "withinViewport": true
+          },
+          {
+            "id": "cat",
+            "centerTarget": "cat",
+            "withinViewport": true
+          },
+          {
+            "id": "dog",
+            "centerTarget": "dog",
+            "withinViewport": true
+          },
+          {
+            "id": "homeBtn",
+            "centerTarget": "homeBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "pauseBtn",
+            "centerTarget": "pauseBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "stopBtn",
+            "centerTarget": "stopBtn",
+            "withinViewport": true
+          }
+        ],
+        "scrolledControls": [
+          {
+            "id": "homeBtn",
+            "x": 24,
+            "y": 12,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "homeBtn"
+          },
+          {
+            "id": "pauseBtn",
+            "x": 162.984375,
+            "y": 12,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "pauseBtn"
+          },
+          {
+            "id": "stopBtn",
+            "x": 302,
+            "y": 12,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "stopBtn"
+          }
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "home": {
+        "names": [
+          "学而",
+          "为政",
+          "八佾",
+          "里仁",
+          "公冶长",
+          "雍也",
+          "述而",
+          "泰伯",
+          "子罕",
+          "乡党",
+          "先进",
+          "颜渊",
+          "子路",
+          "宪问",
+          "卫灵公",
+          "季氏",
+          "阳货",
+          "微子",
+          "子张",
+          "尧曰"
+        ],
+        "unavailable": 19,
+        "unavailableStates": [
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          },
+          {
+            "label": "尚未开放",
+            "links": 0
+          }
+        ],
+        "links": [
+          {
+            "href": "/learn/xue-er/1/",
+            "label": "学而，第一章，学而时习之，进入阅读"
+          }
+        ],
+        "audioTags": 0,
+        "prefetch": 0,
+        "scrollWidth": 320,
+        "first": {
+          "x": 28,
+          "y": 420.296875,
+          "width": 264,
+          "height": 88,
+          "bottom": 508.296875
+        },
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+        "audioURIs": 0,
+        "requests": [
+          {
+            "url": "http://127.0.0.1:4173/",
+            "type": "document"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/cat-640.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-body.webp",
+            "type": "image"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/img/dog-head.webp",
+            "type": "image"
+          }
+        ],
+        "sourceMatches": true
+      },
+      "chapter": {
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "scrollHeight": 978,
+        "book": {
+          "x": 8,
+          "y": 8,
+          "width": 304,
+          "height": 962.125,
+          "right": 312,
+          "bottom": 970.125
+        },
+        "roles": [
+          {
+            "selector": "#elephant",
+            "x": 16,
+            "y": 142,
+            "width": 139,
+            "height": 201,
+            "right": 155,
+            "bottom": 343,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "大象老师"
+          },
+          {
+            "selector": "#bunny",
+            "x": 173.5,
+            "y": 159,
+            "width": 122,
+            "height": 184,
+            "right": 295.5,
+            "bottom": 343,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小兔子"
+          },
+          {
+            "selector": "#cat",
+            "x": 27.5,
+            "y": 367,
+            "width": 116,
+            "height": 178,
+            "right": 143.5,
+            "bottom": 545,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小猫"
+          },
+          {
+            "selector": "#dog",
+            "x": 170.5,
+            "y": 355,
+            "width": 128,
+            "height": 190,
+            "right": 298.5,
+            "bottom": 545,
+            "position": "relative",
+            "left": "0px",
+            "bottomCSS": "0px",
+            "transform": "none",
+            "font": "13.3333px",
+            "aria": "小狗"
+          }
+        ],
+        "controls": [
+          {
+            "selector": "#homeBtn",
+            "x": 22,
+            "y": 24,
+            "width": 64,
+            "height": 64,
+            "right": 86,
+            "bottom": 88,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "返回论语目录"
+          },
+          {
+            "selector": "#pauseBtn",
+            "x": 127.984375,
+            "y": 24,
+            "width": 64,
+            "height": 64,
+            "right": 191.984375,
+            "bottom": 88,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "暂停朗读"
+          },
+          {
+            "selector": "#stopBtn",
+            "x": 233.984375,
+            "y": 24,
+            "width": 64,
+            "height": 64,
+            "right": 297.984375,
+            "bottom": 88,
+            "position": "static",
+            "left": "auto",
+            "bottomCSS": "auto",
+            "transform": "none",
+            "font": "26px",
+            "aria": "停止自动朗读，进入自由互动"
+          }
+        ],
+        "roleOverlaps": [],
+        "controlOverlaps": [],
+        "roleControlOverlaps": [],
+        "fonts": [
+          {
+            "text": "24px",
+            "pinyin": "14px",
+            "opacity": "1",
+            "bounds": {
+              "x": 18,
+              "y": 559,
+              "width": 284,
+              "height": 124.375,
+              "right": 302,
+              "bottom": 683.375
+            }
+          },
+          {
+            "text": "24px",
+            "pinyin": "14px",
+            "opacity": "1",
+            "bounds": {
+              "x": 18,
+              "y": 693.375,
+              "width": 284,
+              "height": 124.375,
+              "right": 302,
+              "bottom": 817.75
+            }
+          },
+          {
+            "text": "24px",
+            "pinyin": "14px",
+            "opacity": "1",
+            "bounds": {
+              "x": 18,
+              "y": 827.75,
+              "width": 284,
+              "height": 124.375,
+              "right": 302,
+              "bottom": 952.125
+            }
+          }
+        ],
+        "roleImages": [
+          {
+            "selector": "#elephant",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 16,
+                "y": 204,
+                "width": 139,
+                "height": 139,
+                "right": 155,
+                "bottom": 343
+              }
+            ]
+          },
+          {
+            "selector": "#bunny",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 173.5,
+                "y": 221,
+                "width": 122,
+                "height": 122,
+                "right": 295.5,
+                "bottom": 343
+              },
+              {
+                "naturalWidth": 640,
+                "x": 173.5,
+                "y": 221,
+                "width": 122,
+                "height": 122,
+                "right": 295.5,
+                "bottom": 343
+              }
+            ]
+          },
+          {
+            "selector": "#cat",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 26.611637115478516,
+                "y": 426.2362060546875,
+                "width": 117.7767333984375,
+                "height": 118.7637939453125,
+                "right": 144.38837051391602,
+                "bottom": 545
+              }
+            ]
+          },
+          {
+            "selector": "#dog",
+            "images": [
+              {
+                "naturalWidth": 640,
+                "x": 159.7222442626953,
+                "y": 412.7400817871094,
+                "width": 143.02793884277344,
+                "height": 143.24063110351562,
+                "right": 302.75018310546875,
+                "bottom": 555.980712890625
+              },
+              {
+                "naturalWidth": 640,
+                "x": 170.32826232910156,
+                "y": 416.4656982421875,
+                "width": 128.34349060058594,
+                "height": 128.5343017578125,
+                "right": 298.6717529296875,
+                "bottom": 545
+              },
+              {
+                "naturalWidth": 640,
+                "x": 170.32826232910156,
+                "y": 416.4656982421875,
+                "width": 128.34349060058594,
+                "height": 128.5343017578125,
+                "right": 298.6717529296875,
+                "bottom": 545
+              }
+            ]
+          }
+        ],
+        "state": "free",
+        "embeddedAudio": 15,
+        "sourceMatches": true,
+        "hitTests": [
+          {
+            "id": "elephant",
+            "centerTarget": "elephant",
+            "withinViewport": true
+          },
+          {
+            "id": "bunny",
+            "centerTarget": "bunny",
+            "withinViewport": true
+          },
+          {
+            "id": "cat",
+            "centerTarget": "cat",
+            "withinViewport": true
+          },
+          {
+            "id": "dog",
+            "centerTarget": "dog",
+            "withinViewport": true
+          },
+          {
+            "id": "homeBtn",
+            "centerTarget": "homeBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "pauseBtn",
+            "centerTarget": "pauseBtn",
+            "withinViewport": true
+          },
+          {
+            "id": "stopBtn",
+            "centerTarget": "stopBtn",
+            "withinViewport": true
+          }
+        ],
+        "scrolledControls": [
+          {
+            "id": "homeBtn",
+            "x": 22,
+            "y": 12,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "homeBtn"
+          },
+          {
+            "id": "pauseBtn",
+            "x": 127.984375,
+            "y": 12,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "pauseBtn"
+          },
+          {
+            "id": "stopBtn",
+            "x": 233.984375,
+            "y": 12,
+            "width": 64,
+            "height": 64,
+            "visible": true,
+            "centerTarget": "stopBtn"
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "navigation": {
+    "homeTab": "first-chapter",
+    "deepReload": {
+      "url": "http://127.0.0.1:4173/learn/xue-er/1/",
+      "status": 200,
+      "startVisible": true
+    },
+    "return": {
+      "url": "http://127.0.0.1:4173/#xue-er",
+      "focus": "first-chapter"
+    },
+    "unknownChapterStatus": 404
+  },
+  "offline": {
+    "home": {
+      "url": "file:///Users/mengxionghan/workspace/lunyu-storybook/dist/index.html",
+      "link": "./index-single.html",
+      "audioURIs": 0
+    },
+    "chapter": {
+      "url": "file:///Users/mengxionghan/workspace/lunyu-storybook/dist/index-single.html",
+      "step": "solo-cat",
+      "paused": false,
+      "currentTime": 0.225848,
+      "log": [
+        {
+          "key": "c2",
+          "t": 1793702566830
+        }
+      ]
+    },
+    "return": {
+      "url": "file:///Users/mengxionghan/workspace/lunyu-storybook/dist/index.html#xue-er",
+      "focus": "first-chapter"
+    },
+    "directStart": true,
+    "network": []
+  },
+  "browser": "156.0.8078.4",
+  "launch": {
+    "executablePath": "/Users/mengxionghan/Library/Caches/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-mac-arm64/chrome-headless-shell",
+    "headless": true
+  },
+  "homeWithoutJS": {
+    "names": 20,
+    "link": "/learn/xue-er/1/"
+  },
+  "filesAfter": {
+    "src/app.js": {
+      "sha256": "7d380a43f78f5a3b0bb05191642fb819335f306a92f8d8b13d0ad65a62d20903",
+      "bytes": 30153,
+      "mtime": "2026-11-03T10:27:09.247Z"
+    },
+    "src/styles.css": {
+      "sha256": "da7901b410acaf0432c52858dae18279a03cda0450a683f25c268f850f765adf",
+      "bytes": 23089,
+      "mtime": "2026-11-03T10:36:51.043Z"
+    },
+    "src/index.html": {
+      "sha256": "f9d654fe0436f02df9f08e6ed5f235c0a09a0adc6831309b5e5e464934d04a82",
+      "bytes": 4343,
+      "mtime": "2026-11-03T10:09:43.668Z"
+    },
+    "src/home.html": {
+      "sha256": "4bf67edcf91f3389b4d9065db90d79cc0ef17ca3990331754d15e075c2a7b91c",
+      "bytes": 1345,
+      "mtime": "2026-11-03T10:09:00.543Z"
+    },
+    "src/home.css": {
+      "sha256": "b61dc32b5035972753e225e65d13be3aa042f7a68f43d0ae1cc3590795d4d95b",
+      "bytes": 5619,
+      "mtime": "2026-11-03T10:22:14.943Z"
+    },
+    "src/home.js": {
+      "sha256": "e60e129d7ad3a0aa74176427118b7632b9e4dd94a22533fd87f881c60affc622",
+      "bytes": 918,
+      "mtime": "2026-11-03T10:09:00.549Z"
+    },
+    "src/catalog.json": {
+      "sha256": "3bacd1483f37c5277500d073c1a81122795f0e663380ffd33eb0a9f0e58105a9",
+      "bytes": 1541,
+      "mtime": "2026-11-03T10:09:43.665Z"
+    },
+    "scripts/build.mjs": {
+      "sha256": "fdf2a3d5f0514e292106ffe392f15bdbecba5c6edceba9dc8c253997833f5d91",
+      "bytes": 5681,
+      "mtime": "2026-11-03T10:09:43.666Z"
+    },
+    "package-lock.json": {
+      "sha256": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+      "bytes": 50606,
+      "mtime": "2026-11-03T09:27:03.988Z"
+    },
+    "public/index.html": {
+      "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "bytes": 15795,
+      "mtime": "2026-11-03T10:39:12.501Z"
+    },
+    "public/learn/xue-er/1/index.html": {
+      "sha256": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "bytes": 564226,
+      "mtime": "2026-11-03T10:39:12.549Z"
+    },
+    "dist/index.html": {
+      "sha256": "1366ae8429aad94473c89b053a96b6c26b0c69dc3c7c5733743f43a61bc9f9a0",
+      "bytes": 280936,
+      "mtime": "2026-11-03T10:39:14.350Z"
+    },
+    "dist/index-single.html": {
+      "sha256": "d874353f248751574262cfc28f31094c03de6d92a4254f450b3af9bc528db0a0",
+      "bytes": 829361,
+      "mtime": "2026-11-03T10:39:14.455Z"
+    }
+  }
+}

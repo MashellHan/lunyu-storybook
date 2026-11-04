@@ -1,0 +1,31 @@
+{
+  "text": "礼之用，和为贵。",
+  "dur": 3.216,
+  "t": [
+    0.056833,
+    0.298291,
+    0.582375,
+    null,
+    1.221583,
+    1.519875,
+    1.818166,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "8f99657b8979a933b18c0f385cb29947dcfde1260372874ca6ee7613400574e8",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-12-s02-bunny",
+      "rawSHA256": "34cb1be976a4dca3f3e0d530b2f75e78c9df12864b36bfb89841cd761539ffbb",
+      "ssmlSHA256": "30d2336edc03240502a5aa785865d672aacdf2f2b39edfca49f673737bc5abec"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

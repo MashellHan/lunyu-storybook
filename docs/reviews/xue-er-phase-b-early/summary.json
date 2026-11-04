@@ -1,0 +1,151 @@
+{
+  "status": "passed-static-preview-snapshot-not-release-approval",
+  "reviewer": "lunyu-review",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sceneSHA256": "13be8fad01ccda687f94222c0656b378e7a7ff8f9dc4d6d3380d57163b47ff4a",
+  "artifactSetSHA256": "3b29a0dbfa7679ccde2aec3ab0a2d22d4e8ae5fcc465be8f2ae62230444759d5",
+  "artifactSetHashAlgorithm": "SHA256(json.dumps(artifactSha256, sort_keys=True, separators=(comma,colon)).encode(UTF-8))",
+  "artifactSha256": {
+    "public/learn/xue-er/index.html": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+    "public/learn/xue-er/1/index.html": "81a66a3eb2d59ff202b3c268dca6bffcef37a1bc71cf3775aa6ed719a19763c4",
+    "build/xue-er-preview/xue-er.html": "19aeebf11df8ffa4e19a71ac2a3ed2a93c81d852fc315086da7725f20bf3bc46",
+    "build/xue-er-preview/index-single.html": "511552300e7a721c4222480aeb0d57971f143b732642c30759fcbdb03c0f9ae1",
+    "build/xue-er-preview/xue-er-02.html": "405902a9d537bdf0675e48939124693e38e2a8dc096ce6ff0967b4613f7ede17",
+    "build/xue-er-preview/xue-er-03.html": "1f43b38f9462c21b943d295dd705a46588a60c4b0feaf05ab3bc87498e1f71e4",
+    "build/xue-er-preview/xue-er-04.html": "83f702e43b411be8bd7dee920810a116ac5c94805f1b2324dd2dc1782187a6b4",
+    "build/xue-er-preview/xue-er-05.html": "d0397619b2aa69f96e9078c31009e445844bb783db5506a2589bf14a020e1ceb",
+    "build/xue-er-preview/xue-er-06.html": "22d06ee63bb4887059d79bcdc1d5199c9416313409a13856556d057b1b682719",
+    "build/xue-er-preview/xue-er-07.html": "59c18789c72ba13667381751391a070846e38fd5b635f9899d2b6dfdd6cbb64a",
+    "build/xue-er-preview/xue-er-08.html": "ef2543ede2b0f3e194801ca7f585ee5c34b7eb432ec2601d2c67890ded129e30",
+    "build/xue-er-preview/xue-er-09.html": "abc0f174ee2149b6d265da4518c2b266ef911b5168182de90ee1db80a6260402",
+    "build/xue-er-preview/xue-er-10.html": "e0aa349ca3eb4f3261310de1168b11cb97004f34669ec4707568f07774a445cd",
+    "build/xue-er-preview/xue-er-11.html": "1c9dec45d63db0681b958cfacc1c8a4733e663954c0e20260259ccb51fe2a95d",
+    "build/xue-er-preview/xue-er-12.html": "6935b831958a6bf98c236712db005008a8da5ab6cb87650a62c99368ce3eb167",
+    "build/xue-er-preview/xue-er-13.html": "7b76f99714215a7076ca7f2181874c5a168b612524e89c1097422df62e583fd0",
+    "build/xue-er-preview/xue-er-14.html": "2d16c9c286c3021bd702aad38190537de20fbe3e6b63512c830e045898275b7d",
+    "build/xue-er-preview/xue-er-15.html": "332857ceaaa2ebfa8c91edec34c8294624c1344b6fa172aba772b2227f6dc71b",
+    "build/xue-er-preview/xue-er-16.html": "084e49170b8dfea8c7bcb7b25525d6fb6a4e489c8cd3991a80d48489832d6a9a"
+  },
+  "artifactBytesUnchanged": true,
+  "coverage": {
+    "chapters": 16,
+    "pages": 26,
+    "segments": 72,
+    "readingGroups": 49,
+    "pageViewportObservations": 62,
+    "viewports": [
+      {
+        "width": 390,
+        "height": 844,
+        "chapters": "1-16; all 26 pages"
+      },
+      {
+        "width": 320,
+        "height": 844,
+        "chapters": "1-16; all 26 pages"
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "chapters": "3 and 15; 5 pages"
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "chapters": "3 and 15; 5 pages"
+      }
+    ]
+  },
+  "findings": [],
+  "geometryEvidence": "geometry.json",
+  "observedMinimums": {
+    "originalTextPx": 24,
+    "pinyinPx": 14,
+    "roleDimensionPx": 80
+  },
+  "rawEvidence": [
+    "evidence.json",
+    "tail-evidence.json"
+  ],
+  "resolvedProbeDiagnostic": {
+    "first": "Main probe stopped during full-page screenshot at chapter 15 page 3, 844x390; all 60 saved page observations passed. Original needs-review record retained.",
+    "followUp": "Only final two landscape pages checked in a fresh headless context; viewport screenshots captured, targeted checks passed. No product failure or full-matrix rerun inferred."
+  },
+  "engineerScreenshotsOpened": {
+    "tests/artifacts/xue-er-phase-b/xue-er-03-1024x768.png": "e4c57d39f3e5afdac043e1ad3f497240d6451043fc8168b96f5099031e35d94f",
+    "tests/artifacts/xue-er-phase-b/xue-er-03-1440x900.png": "e7d129a1c87c1f0361ca1350dea35b77fc1120951a7723f0f35db038d7710515",
+    "tests/artifacts/xue-er-phase-b/xue-er-03-320x844.png": "dcbeaed80faf2c6183445ebfdcafac7cc646427f66847d7c1abdbde6f8050fe7",
+    "tests/artifacts/xue-er-phase-b/xue-er-03-390x844.png": "d7c013aade007b3e89e848a9b1347ef6477e9abd3bc695cc49d0633c5e949789",
+    "tests/artifacts/xue-er-phase-b/xue-er-03-768x1024.png": "ac602af71f8e8ed383323b057f711571d2897ce1bea3832d592bfd17f107d2d2",
+    "tests/artifacts/xue-er-phase-b/xue-er-03-844x390.png": "d8519c58dbd3511fcbf985d301c4ded5ac61a46a05612c360b5fc52d39f6f23b",
+    "tests/artifacts/xue-er-phase-b/xue-er-15-1024x768.png": "e0bd19c02dc114adf9d81f3b7c3d38ac447b90decd0ec913008be0eff45b9993",
+    "tests/artifacts/xue-er-phase-b/xue-er-15-1440x900.png": "9f9540ea627b2f7c676bc31f92abc450107d85cb7685653a5dac7f2dbb2e8bab",
+    "tests/artifacts/xue-er-phase-b/xue-er-15-320x844.png": "807c7218c16e5aaa765c7cae3b13c2ea7606c2546adc14790cc33edb79ff4637",
+    "tests/artifacts/xue-er-phase-b/xue-er-15-390x844.png": "9759f830a12a3a4d38233afe7695771126873725e925fd873a011a831e10ed9a",
+    "tests/artifacts/xue-er-phase-b/xue-er-15-768x1024.png": "66f19f0956c5ab393b3ee3d8854f62b472886dbe29f575e53891c32e24025059",
+    "tests/artifacts/xue-er-phase-b/xue-er-15-844x390.png": "393642ca538505d93bae51ce2976022783bce9d95e1724d062029156fab793c8"
+  },
+  "reviewScreenshots": [
+    "docs/reviews/xue-er-phase-b-early/xue-er-03-p1-390x844.png",
+    "docs/reviews/xue-er-phase-b-early/xue-er-15-p3-390x844.png",
+    "docs/reviews/xue-er-phase-b-early/xue-er-01-p1-320x844.png",
+    "docs/reviews/xue-er-phase-b-early/xue-er-15-p3-320x844.png",
+    "docs/reviews/xue-er-phase-b-early/xue-er-15-p3-1024x768.png",
+    "docs/reviews/xue-er-phase-b-early/xue-er-15-p3-844x390-reading.png",
+    "docs/reviews/xue-er-phase-b-early/xue-er-15-p4-844x390-reading.png"
+  ],
+  "codeUpdatesAfterBrowserProbe": {
+    "src/chapter-media.json": {
+      "observed": "5a3a5d19110eff3bbaec4dc109b1180c4c514c944cf1135e64ff4b89e0e7457f",
+      "now": "27da14065dff01ca75eed78c219f8f0dbdfc5ec5d9d4c09f736f68dc2aaca6ef"
+    },
+    "src/chapter.css": {
+      "observed": "a22e85e17b128d4b72e1fee7e858d212864a63b89e5d4648cd81b5b0a4ee063f",
+      "now": "11facc54a140876af072d396dc9adcc245bab5b4a57f33eb6ec33213ca0ae1c1"
+    },
+    "src/app.js": {
+      "observed": "385fee9b35063d631a8ce853d22789d45b336aa8bda64d5470993282e7d493fc",
+      "now": "ce3ae19deacf49e77a6c84ab018a4475e20ba7a2efe3129b0df1a9252b233237"
+    },
+    "src/index.html": {
+      "observed": "a9375ec394b3acd6a7eac722926d3493e1dea487b80bdb30577f871ed97d4134",
+      "now": "05120985a57c396d48e2449a98c68f568a7c45aaa66185e1717ab093195e5760"
+    },
+    "scripts/chapter-data.mjs": {
+      "observed": "07f2d2ba08a983009a28a2ab06268371b5ac66b80a139c0dc5f1e8dc287106cc",
+      "now": "45cd3f1296d62b48ec3261903c9d5301cadd79da03b4cdc7bde6fbbe2084cd8d"
+    }
+  },
+  "limits": [
+    "No frozen source/build snapshot or full-suite result handed off for B. Conclusion binds the existing HTML artifacts listed above.",
+    "Engineer continues changing source. Updated media gates were read only; runtime/negative media-gate tests await integration handoff.",
+    "No actual new audio, HD realization, word boundary, mixed children track, listening or physical-device verification.",
+    "All 16 chapters remain non-ready; public chapter 1 is the explicitly separate legacy three-sentence demo.",
+    "dist offline production package was not rebuilt for B; only the 16 isolated file previews and their index were verified."
+  ],
+  "commands": [
+    "node docs/reviews/review-xue-er-phase-b.mjs",
+    "node docs/reviews/review-xue-er-phase-b-tail.mjs"
+  ],
+  "workdir": "/Users/mengxionghan/workspace/lunyu-storybook",
+  "writes": "docs/reviews only; no implementation, build, install, media, SDK, old homepage/player suite, deployment or git operations.",
+  "browserEnvironment": {
+    "engine": "Existing full Chrome for Testing, Chromium 1248",
+    "headless": true,
+    "reducedMotion": "reduce",
+    "normalMotionCuePlayback": "not exercised; no new audio in previews"
+  },
+  "nonBlockingObservations": [
+    {
+      "id": "B-TYPE-01",
+      "kind": "typography-in-old-static-output",
+      "examples": [
+        "chapter 1 at 320px: comma wraps to line start",
+        "chapter 15 page 3 at 768px: closing punctuation on its own line"
+      ],
+      "contentLoss": false,
+      "sourceFollowUp": "Engineer has added word-unit punctuation grouping in app.js/chapter.css; updated artifact review waits for freeze.",
+      "publicationBlockerForThisStaticHandoff": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "xue-er-13-s03-cat",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "637b34d3fd02135ae8d9f5f1401c3ad7f5a96cd5c6dfb4dd40d96e7c572bf64d",
+  "attemptId": "f1eebdf2-7138-4ae7-a879-1c3cdf1b4227",
+  "startedAt": "2026-11-03T13:04:04.388198+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:04:07.953798+00:00",
+  "rawSHA256": "25369894c58b51575f9d70756da5dcb1a60ffab39fe7cb87573423dc82b1754c",
+  "wb": [
+    [
+      0.056833,
+      0.255666,
+      "恭"
+    ],
+    [
+      0.3125,
+      0.397708,
+      "近于"
+    ],
+    [
+      0.710208,
+      0.255666,
+      "礼"
+    ],
+    [
+      1.164791,
+      0.269875,
+      "远"
+    ],
+    [
+      1.434666,
+      0.426125,
+      "耻辱"
+    ],
+    [
+      1.860791,
+      0.397708,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 244,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 245,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 247,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 286,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 297,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 299,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

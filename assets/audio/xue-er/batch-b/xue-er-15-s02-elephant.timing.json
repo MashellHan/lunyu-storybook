@@ -1,0 +1,37 @@
+{
+  "text": "贫而无谄，富而无骄，何如？”",
+  "dur": 4.512,
+  "t": [
+    0.058833,
+    0.382333,
+    0.58825,
+    0.794125,
+    null,
+    1.558833,
+    1.838249,
+    2.117666,
+    2.397082,
+    null,
+    3.08825,
+    3.470604,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "589c7384652f88adf3296c7081e12592c6a6fd9208c995c03ce1ed8a91015d20",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s02-elephant",
+      "rawSHA256": "2ad21c730802ecb3285fae5a427705a2743b7375e19ed51ba81afe59fccc2ce3",
+      "ssmlSHA256": "951b0e91a5fd38c891f1fe428f0af4b053b9f604b9970aef3c96e4837a52abea"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

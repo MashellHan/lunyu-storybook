@@ -1,0 +1,61 @@
+{
+  "text": "敬事而信，节用而爱人，",
+  "dur": 4.070208,
+  "t": [
+    0.056833,
+    0.355125,
+    0.568166,
+    0.809666,
+    null,
+    1.491458,
+    1.818166,
+    2.144875,
+    2.400583,
+    2.713083,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "5bae4ee8367f7d40af79755d6cd3c913def4776a64a9029680b63f938cdb66e7",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-05-s03-bunny",
+      "rawSHA256": "cf619630a759830490c7a176ec1fa5fad6974f5fd0cb72b81902b11d41ebf7e2",
+      "ssmlSHA256": "bc14199e840c9a0392a549366b806325049c25a9df96d6bd37a8e770b52a5523"
+    },
+    {
+      "id": "xue-er-05-s03-cat",
+      "rawSHA256": "ec2c911a9ffa3c4f0973bdc3bf2aa99e4691f59a167dc112763819bf8fdf3ee5",
+      "ssmlSHA256": "6c057751b9cfd1d78589e053842ae0db136996a5c59a8cbdcd1872be3d8cbccf"
+    },
+    {
+      "id": "xue-er-05-s03-dog",
+      "rawSHA256": "1ee6590fd0a0b3c3ef2031d7c3e7d2de847a10374432bb72e58be6ed368d60c8",
+      "ssmlSHA256": "2cdb10542f1084363af77b373518a33346a6388ddaf92cef5baa414da9941b65"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8433734939759036,
+        0.5783132530120482
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

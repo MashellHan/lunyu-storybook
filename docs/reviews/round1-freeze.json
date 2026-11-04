@@ -1,0 +1,460 @@
+{
+  "at": "2026-11-03T10:23:08.369Z",
+  "mode": "freeze",
+  "artifactSha256": "9cf9e107a3628c9358787a06533e7f767fad27211bd55e423c0a9293dfd94221",
+  "sourceSha256": "a37bace9d8ae27fb78ff3bb972300746ae0a5702d1ae6ed18da278a321bd535c",
+  "cases": [
+    {
+      "name": "CDP freeze request (freeze not observed), 12 seconds during e1",
+      "before": {
+        "docId": "0.h1i1lcf9awo",
+        "step": "e1",
+        "free": false,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.507464,
+        "duration": 3.672,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793701390776
+          },
+          {
+            "key": "trumpet",
+            "t": 1793701397763
+          },
+          {
+            "key": "e1",
+            "t": 1793701400302
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 531.0999999940395,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 808,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 7795.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 10340.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 10977.09999999404
+      },
+      "immediate": {
+        "docId": "0.h1i1lcf9awo",
+        "step": "e2",
+        "free": false,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 2.817166,
+        "duration": 3.768,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793701390776
+          },
+          {
+            "key": "trumpet",
+            "t": 1793701397763
+          },
+          {
+            "key": "e1",
+            "t": 1793701400302
+          },
+          {
+            "key": "u1",
+            "t": 1793701404981
+          },
+          {
+            "key": "e2",
+            "t": 1793701410014
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 531.0999999940395,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 808,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 7795.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 10340.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          },
+          {
+            "t": 15014.40000000596,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "u1"
+          },
+          {
+            "t": 20046.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "e2"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 23004.70000000298
+      },
+      "after": {
+        "docId": "0.h1i1lcf9awo",
+        "step": "e2",
+        "free": false,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 3.147691,
+        "duration": 3.768,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793701390776
+          },
+          {
+            "key": "trumpet",
+            "t": 1793701397763
+          },
+          {
+            "key": "e1",
+            "t": 1793701400302
+          },
+          {
+            "key": "u1",
+            "t": 1793701404981
+          },
+          {
+            "key": "e2",
+            "t": 1793701410014
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 531.0999999940395,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 808,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 7795.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 10340.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          },
+          {
+            "t": 15014.40000000596,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "u1"
+          },
+          {
+            "t": 20046.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 806.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "e2"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 23335.20000000298
+      },
+      "frozenWallMs": 12346,
+      "freezeObserved": false
+    },
+    {
+      "name": "CDP freeze request (freeze not observed), 4 seconds during 900 ms solo wait",
+      "before": {
+        "docId": "0.ng9sq8b55gc",
+        "step": "solo-bunny",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0,
+        "duration": null,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [],
+        "focus": 1,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 239.6000000089407,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 853,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 849.9000000059605,
+              "id": "bunny"
+            },
+            "step": "free"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 883.5
+      },
+      "immediate": {
+        "docId": "0.ng9sq8b55gc",
+        "step": "solo-bunny",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 2.958549,
+        "duration": 3.96,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "b1",
+            "t": 1793701415308
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 239.6000000089407,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 853,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 849.9000000059605,
+              "id": "bunny"
+            },
+            "step": "free"
+          },
+          {
+            "t": 1771.9000000059605,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 849.9000000059605,
+              "id": "bunny"
+            },
+            "step": "solo-bunny"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 4893.20000000298
+      },
+      "after": {
+        "docId": "0.ng9sq8b55gc",
+        "step": "solo-bunny",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 3.114882,
+        "duration": 3.96,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "b1",
+            "t": 1793701415308
+          }
+        ],
+        "focus": 2,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 239.6000000089407,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 853,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 849.9000000059605,
+              "id": "bunny"
+            },
+            "step": "free"
+          },
+          {
+            "t": 1771.9000000059605,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 849.9000000059605,
+              "id": "bunny"
+            },
+            "step": "solo-bunny"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 5049.4000000059605
+      },
+      "freezeObserved": false
+    }
+  ],
+  "errors": [],
+  "browser": "156.0.8078.4",
+  "artifactAfter": "9cf9e107a3628c9358787a06533e7f767fad27211bd55e423c0a9293dfd94221",
+  "classification": "environment diagnostic only; not a successful freeze verification",
+  "freezeObserved": false,
+  "limitation": "Page.setWebLifecycleState(frozen) returned but no freeze/visibility event was observed and audio/script progressed normally during elapsed wall time. This result cannot demonstrate freeze correctness."
+}

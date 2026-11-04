@@ -1,0 +1,29 @@
+{
+  "text": "传不习乎？”",
+  "dur": 1.872,
+  "t": [
+    0.058833,
+    0.441166,
+    0.58825,
+    0.860291,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "cd9c4fd55a3cc63762b3d44e7ba0c22b7e10a155402d6917b0d96db54fdf6ee4",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-04-s05-elephant",
+      "rawSHA256": "b748ff9960e3a7a2c8230194f5c9b1864895d7875d009d1625f2675a542800de",
+      "ssmlSHA256": "796ef072a2d44b229dbb5283ca4bc4057a7b7feea21c835f7a495913d8b96389"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

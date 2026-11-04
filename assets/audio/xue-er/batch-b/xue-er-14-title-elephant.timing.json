@@ -1,0 +1,35 @@
+{
+  "text": "论语，之，君子食无求饱。",
+  "dur": 4.08,
+  "t": [
+    0.058833,
+    0.382333,
+    null,
+    0.985291,
+    null,
+    1.647041,
+    1.938708,
+    2.230374,
+    2.522041,
+    2.813708,
+    3.105374,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "51b747127e59d2946340b18e84a9bffcb23c64a8f73c003d74b938549eddd703",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-title-elephant",
+      "rawSHA256": "2509e9c1187922160de727e55fafc00a7ca69a1d22e7bd8a287a90aca2567cd4",
+      "ssmlSHA256": "314f2fe55119c1a5775492929813abd9b54928f266dc50c25b6691c257659290"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

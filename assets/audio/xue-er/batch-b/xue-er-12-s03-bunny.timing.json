@@ -1,0 +1,37 @@
+{
+  "text": "先王之道，斯为美，小大由之。",
+  "dur": 5.112,
+  "t": [
+    0.056833,
+    0.390625,
+    0.724416,
+    0.965916,
+    null,
+    1.590916,
+    1.889208,
+    2.173291,
+    null,
+    2.798291,
+    3.135645,
+    3.472999,
+    3.810353,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "1262b125e2727f04e2e88668f64a4cbe55a7d7e8638c4a21a8fd589baca564bc",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-12-s03-bunny",
+      "rawSHA256": "cc52c48f17a642c69915098cc58b04bbdba8ae8d90d4bde12ec8e5cc0004841a",
+      "ssmlSHA256": "f65fab51925c7527cbce6e6f6f967bbcdf6c086e5946dc761b78aa8eb3166603"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

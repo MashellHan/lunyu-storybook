@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-16-title-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "1086d82101cc824bb8533fe4fcad077c29e093e0193798427f46b4ddb15074ff",
+  "attemptId": "486683c0-54f5-40b4-a12f-b6826bcc4c99",
+  "startedAt": "2026-11-03T13:07:56.194521+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:08:00.945348+00:00",
+  "rawSHA256": "469268c283e5a966d36249f8d22df354e1f2b2919e408a7f04f9e2a5d0e1f47f",
+  "wb": [
+    [
+      0.058833,
+      0.352916,
+      "论"
+    ],
+    [
+      0.41175,
+      0.382333,
+      "语"
+    ],
+    [
+      1.058833,
+      0.426458,
+      "之"
+    ],
+    [
+      1.882333,
+      0.308833,
+      "不"
+    ],
+    [
+      2.191166,
+      0.352958,
+      "患"
+    ],
+    [
+      2.544125,
+      0.220583,
+      "人"
+    ],
+    [
+      2.764708,
+      0.220583,
+      "之"
+    ],
+    [
+      2.985291,
+      0.264708,
+      "不"
+    ],
+    [
+      3.25,
+      0.308833,
+      "己"
+    ],
+    [
+      3.558833,
+      0.294125,
+      "知"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 297,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 308,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 310,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 312,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 313,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 314,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 315,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 316,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 317,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 318,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

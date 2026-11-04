@@ -1,0 +1,48 @@
+{
+  "text": "可谓好学也已。”",
+  "dur": 1.464,
+  "t": [
+    0.082,
+    0.27,
+    0.458,
+    0.741,
+    0.976,
+    1.117,
+    null,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 2,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 2,
+      "remainingSourceIndex": 3,
+      "remainingSourceIndices": [
+        3
+      ],
+      "originalBoundaryText": "\">好学",
+      "usedBoundaryOffsetSeconds": 0.741,
+      "usedBoundaryDurationSeconds": 0.235,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 4
+      }
+    }
+  ],
+  "audioSHA256": "946b86f7935144f97a061fdf3efb2bbc0de81a2704ee353e442eba88f3c4481f",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-s04-dog",
+      "rawSHA256": "2b53a193bc84a43b02f16f3cac8036878e9119d018581c8967d447fa6ddebe98",
+      "ssmlSHA256": "3591b60931e276177ebc562ac21d04be9ffd6a155f32156b6742241b8fa9cb91"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "xue-er-15-s07-cat",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "b4a292374827a194ec386c5d5cde9804a80c188ab12a8252c27ba81b2c97d697",
+  "attemptId": "0bdc1577-54de-4e73-b31f-a31051675f19",
+  "startedAt": "2026-11-03T13:06:32.929477+00:00",
+  "status": "reserved",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10
+}

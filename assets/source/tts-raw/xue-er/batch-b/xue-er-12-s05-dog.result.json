@@ -1,0 +1,92 @@
+{
+  "id": "xue-er-12-s05-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "a5c8d83de8bc9bc7806fead02334ac7ca3b811748d23d0b5b7130c704c9bdcaf",
+  "attemptId": "2eb834e6-5064-4360-b509-afaa4197b458",
+  "startedAt": "2026-11-03T13:03:30.698725+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:03:35.720010+00:00",
+  "rawSHA256": "29ad124cd8c2c4fc0277d91e179f13963843d5ba3c95ccd6d4d021826247eeb0",
+  "wb": [
+    [
+      0.082,
+      0.235,
+      "不"
+    ],
+    [
+      0.317,
+      0.141,
+      "以"
+    ],
+    [
+      0.458,
+      0.329,
+      "礼节"
+    ],
+    [
+      0.788,
+      0.0,
+      "之"
+    ],
+    [
+      1.323,
+      0.282,
+      "亦"
+    ],
+    [
+      1.605,
+      0.329,
+      "不可"
+    ],
+    [
+      1.935,
+      0.188,
+      "行"
+    ],
+    [
+      2.123,
+      0.0,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 290,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 291,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 293,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 294,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

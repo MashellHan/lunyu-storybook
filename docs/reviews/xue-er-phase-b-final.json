@@ -1,0 +1,268 @@
+{
+  "reviewedAt": "2026-11-03T12:38:05.554405+00:00",
+  "kind": "final-evidence-binding-no-test-rerun",
+  "findings": [],
+  "inputManifest": "tests/artifacts/xue-er-phase-b/frozen-inputs-final-before.json",
+  "suiteResult": "tests/artifacts/xue-er-phase-b/npm-test-b-final-result.json",
+  "suiteResultSHA256": "cc41c9237f404b7b9caf2f0e27e3fba689bdb7e474625816ec7bac46bea625f7",
+  "reuseStaticEvidence": "docs/reviews/xue-er-phase-b-36ce75f/static-check.json",
+  "reuseB2Evidence": "docs/reviews/xue-er-phase-b-36ce75f/b2-check.json",
+  "releaseScope": "Chapter-directory increment only; zero full new chapters ready. No deploy performed by reviewer.",
+  "inputs": {
+    "count": 48,
+    "sha256": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+    "files": {
+      "docs/content/xue-er-validation.json": "fa86e830a49a5b24891bff2178fc3fcede184be6fa55833858e0c9c138335b9b",
+      "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+      "docs/design/xue-er-scene-config.json": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+      "docs/design/xue-er-scene-ground-proposal.css": "df6210c5409af120ab8486585c1b775f0b95e222c73b10990c54998e34119393",
+      "docs/tts/xue-er-generation-request-b.json": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+      "docs/tts/xue-er-generation-request.json": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+      "package-lock.json": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+      "package.json": "b0c7269ccf2443ec75d90a9460755808135eb47b8f35b2e0df27c82398719f91",
+      "playwright.config.js": "ce16a3e5e979a34a0e145cc21e129525f07d54c5927bbcb3307de127c5f0410c",
+      "scripts/build.mjs": "08b31c20c5e295038156bd57736afcd10d652450c8ab24977bac352abfe01109",
+      "scripts/chapter-data.mjs": "71589fdd4e28f806929a3ec4dcc18bad50b78b9c8b7f8a3ed65ddfe7ccd6236c",
+      "scripts/image/clean.py": "19f46e7438e4ba22eaa73aa137b494a4fc021a275d9117b63767cba616e4a2a4",
+      "scripts/image/common.py": "be3890e5f79f8fe118b781caae2c7caec881d516b1d24dd91aee441820b01474",
+      "scripts/image/export.py": "c5b2e0875095080e5ef0a741d051fa8f16625a54c9feca582298e764be3716bc",
+      "scripts/image/layers_bunny.py": "c4be79d7b918a11830e892fd95197ea64e9b0817b3df24187315181e1f1ede93",
+      "scripts/image/layers_dog.py": "36f7c125585e1b853ff4c2b6978fd5940671a089b1ad567e49e05308f737e86e",
+      "scripts/import-chapter-media.mjs": "0c6f3e1428dd015fc6da98f8ab90ff8c3b801d9bb8a796cf975815f42c249174",
+      "scripts/requirements.txt": "00a216254e7c683178fdd3ef9db3992d266f3cc139fdb1a94c5bf5cb07a7075c",
+      "scripts/serve.mjs": "3a10312e4dca7f8582b3f3fb19597d23ea2cbd1e44bc311ec5530b58cecaebdb",
+      "scripts/sfx/make.py": "60e02bcf9614ee426f8e7974ce9df8301a80b1b49c76744fd1668022bd3b7fb4",
+      "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+      "scripts/tts/config.py": "5b8947b8ceedf4c92b6f8387d7c3b5716c1e296374d9115f4d2160d3f58b5f60",
+      "scripts/tts/gen.py": "3d39e408bd32ce8ad926dcde5275ba355ab09072f0f4e7b0d44a1f0613388baf",
+      "scripts/tts/process.py": "d4773c45efcfeedc8a39c3c346c15322fc00e611889152d5ef3a3fc2086f42a0",
+      "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab",
+      "src/_headers": "6cce4e01dd6faf1733da53dfa946a1ffde66c3224da5184fa53abfc9f01214ef",
+      "src/app.js": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+      "src/catalog.json": "273cb0305ad7787063c808576613cd79cf382f3d5b33954dbca96ac4ecae5c35",
+      "src/chapter-media.json": "27da14065dff01ca75eed78c219f8f0dbdfc5ec5d9d4c09f736f68dc2aaca6ef",
+      "src/chapter-player.js": "1c984b0cb11ca788eeb54787af71cfc800b248949dc666512a86b5dbe2c39da9",
+      "src/chapter.css": "7db8fffa8cba7a309002a6bc6750c09a07042c390f024d6ac47506a538fc0dcd",
+      "src/home.css": "2fbe1d045b88285fdcc9302164a88af0a37893b97367306708741c0f98ae7948",
+      "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+      "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+      "src/index.html": "2f9f135791c7f7a83134978f6c08150a6733abe88ebab11a022a938d0309f00e",
+      "src/styles.css": "4f8e61889207ef10cf2e226c90b88f78a2bfdd7931904ff922185ff8492f59c0",
+      "src/volume.css": "5cc0ded10b3a91dada1ab05ce76e89a4ced9b99eb32d33a231b4dc680db94a63",
+      "src/volume.html": "22c9b035d43c6d92d7776d797794f9a54c884082f1431f8f6fce2e2eaec4d4be",
+      "tests/cancellation.spec.js": "81b497e578e0a0a56ad06bcaae7b0c63e9f2628f6c1bfc5c3404870c08bdeb9a",
+      "tests/chapter-data.spec.js": "604f7d9df6fa4a271fff563626ef122f19cca4752b44e2862cf784ef7f056e11",
+      "tests/chapter-fixture.mjs": "8c0b5612ba6503fe9056b4341c3659e9d554aba8db63ebf9385e7ad8a97d2254",
+      "tests/chapters.spec.js": "8ea362e04b2baedab8b6eb76ed4ee91d64a44ac27a625b76b0fffb9d4f0f4fb2",
+      "tests/helpers.js": "696c23b0b5b2127da6550903e81b8580e2a0fe3d114cca071cf76f5302b1da3a",
+      "tests/homepage.spec.js": "27a1924e24b6a6c253e5562b8c4e4201ae8e0c73f50ec56554b40c221e994c3f",
+      "tests/lifecycle.spec.js": "e2aa21114a4192a227353d5d26eb33428f59e1d4aa748f9ebf411957a16b1a44",
+      "tests/responsive.spec.js": "acf511dcb544cc9d526264e71645fcfd999636547f1b9088363b7a131bf66848",
+      "tests/single-file.spec.js": "e08f92ebeb7c3a5fb5da1ca099a6913a2acb2a5e2fbb079446355020cb8511f3",
+      "tests/smoke.spec.js": "6b2cb4994b23368c398379f4a4bba54a47a7281a28feb0f023c8d597d56ede83"
+    }
+  },
+  "suite": {
+    "command": "npm test",
+    "started_at": "2026-11-03T12:32:59.164350+00:00",
+    "finished_at": "2026-11-03T12:36:42.403808+00:00",
+    "exit_code": 0,
+    "passed": 62,
+    "failed": 0,
+    "skipped": 0,
+    "did not run": 0,
+    "log": "tests/artifacts/xue-er-phase-b/npm-test-b-final.log",
+    "log_sha256": "129c4e5565b93224723180864c681bbeb26be484ef770e40eab11c38986b257a",
+    "actualLogSHA256": "129c4e5565b93224723180864c681bbeb26be484ef770e40eab11c38986b257a",
+    "rawPassedRows": 62
+  },
+  "products": {
+    "public/index.html": "d1686239c8584129988138ac1c525bb74ce3bdf796e3a8e90071dd5f9ec1b085",
+    "public/learn/xue-er/1/index.html": "d68901a4dc47b06c33639fedeef470c309d283270ed8b8fcf7dc6c1bbf01496c",
+    "public/learn/xue-er/index.html": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+    "dist/index-single.html": "431fcd0a50d346c5cc13ba14de326baef40e58170540317ba243fc2e389eca24",
+    "dist/index.html": "7a53c19a9f107120ef5de3401dd4d48ce83ae58247ca8bbf1391f1dfc8b3c228",
+    "dist/xue-er.html": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a"
+  },
+  "priorArtifactChanges": [
+    {
+      "path": "dist/index-single.html",
+      "before": "63aa2f64956ea148fffb4011159e5933e64b1d01f9bdf6d6352eebc1eb6349dc",
+      "after": "431fcd0a50d346c5cc13ba14de326baef40e58170540317ba243fc2e389eca24"
+    }
+  ],
+  "previewHTML": {
+    "build/xue-er-preview/index-single.html": "3045a78e066e3e9276d2a9edc1c7b4d1eaffa2c436e48e56a69ddd21209be4ef",
+    "build/xue-er-preview/xue-er-02.html": "8aa8eeee162e6cb1557ef90123fe54b036fc15abac662b6c9474c7f9f078d1b0",
+    "build/xue-er-preview/xue-er-03.html": "f193f2c73c6dc51d883de5da7ed065c7f1c721fc3f5167b96eb3741abe30ec08",
+    "build/xue-er-preview/xue-er-04.html": "7f3fbe48608b9869b8d2026f6e3b8c4245ddf6d57fa0f044331ee2a8516775ee",
+    "build/xue-er-preview/xue-er-05.html": "8c3f1aa7f5a578c07f78d64247736a3bf3cdcf0d77f2b656cfbfdd498c9f27ab",
+    "build/xue-er-preview/xue-er-06.html": "63d3a21fdd99757b0a9095d32a08bba8bc6c6280c8ac9695c65d02be0ef3ace2",
+    "build/xue-er-preview/xue-er-07.html": "3d2276b255ecdc37c1a083505e309255e3889d3ddee38025089a0ff13d9accaf",
+    "build/xue-er-preview/xue-er-08.html": "bb12939a01f87fc04203dc857669da1491e7accce17dbbab6918973dd9ab79f8",
+    "build/xue-er-preview/xue-er-09.html": "e453e4f2f21322247059bc63082c9d2ce09fd0e78cb55383e09bbb4615c1b842",
+    "build/xue-er-preview/xue-er-10.html": "6452ce119742c975d8bba1fc0969cf318cb8a89d40de3b3f0171b897febd7d59",
+    "build/xue-er-preview/xue-er-11.html": "a11d9168f36a0eb5cdc18959faffa21c00ff85bcaff0d235293f0b839901fca3",
+    "build/xue-er-preview/xue-er-12.html": "55900f2855de3d6dc29df08c7ab695fffd153ff43dff86a004626edef4f8e596",
+    "build/xue-er-preview/xue-er-13.html": "3512945bf2f435d7e11c6c4241ef19e10bf455a74c584aa5a0c383e792d1e6f4",
+    "build/xue-er-preview/xue-er-14.html": "7521bc0515fb23a105caa95047364628989950261b0c6c109226ceac80727122",
+    "build/xue-er-preview/xue-er-15.html": "3842d843fdd812b9dd1cdb9cf4f698ff6dd76dc5e497e30f39b110117d32f6f5",
+    "build/xue-er-preview/xue-er-16.html": "1b73208fe9cce772ba385b3ea760618d00ee86c11cb22397158bf8f96197439b"
+  },
+  "embeddedAppSHA256": {
+    "build/xue-er-preview/index-single.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-02.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-03.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-04.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-05.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-06.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-07.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-08.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-09.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-10.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-11.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-12.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-13.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-14.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-15.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "build/xue-er-preview/xue-er-16.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "public/learn/xue-er/1/index.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "dist/index-single.html": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143"
+  },
+  "screenshots": [
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-01-390x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-01-390x844.png",
+      "finalSHA256": "e91953090de145754c9c44dccb7adef3fed444979ff288cf761530aef838250a",
+      "reviewedSHA256": "e91953090de145754c9c44dccb7adef3fed444979ff288cf761530aef838250a"
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-03-320x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-320x844.png",
+      "finalSHA256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e",
+      "reviewedSHA256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e"
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-03-390x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-390x844.png",
+      "finalSHA256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+      "reviewedSHA256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871"
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-320x844.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-320x844.png",
+      "finalSHA256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee",
+      "reviewedSHA256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee"
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-768x1024.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-768x1024.png",
+      "finalSHA256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115",
+      "reviewedSHA256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115"
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-844x390.png",
+      "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-844x390.png",
+      "finalSHA256": "95fb8c100714fd1cab0637d6ad321ead67ab3a363959b5bae78a7b4af0da5407",
+      "reviewedSHA256": "95fb8c100714fd1cab0637d6ad321ead67ab3a363959b5bae78a7b4af0da5407"
+    }
+  ],
+  "protected": {
+    "count": 50,
+    "assets": 49,
+    "allMatch": true,
+    "files": {
+      "assets/CREDITS.md": "6e17fc9faa0df170a1e8a6e69d4d7a3713643ba0da068a56ef3c2b8c57bd78aa",
+      "assets/LICENSE.md": "beb3cf947d4a6294b0a1805bbb34a41796726ecad186513d7632e7c924609fb5",
+      "assets/audio/again.mp3": "7fa933dd4fbb2146705553b637c9c6e08036d2ad0031fbae68be418692cb7d93",
+      "assets/audio/b1.mp3": "b72be24f9e47fa0223190b3ea94664af63a3eead4056902b7c6c7077c69a2046",
+      "assets/audio/c2.mp3": "fc2dd940f4d0fb7b87fa2afe3ffdf14a86829fcd47d7cef55d755bca6ca3e18d",
+      "assets/audio/d3.mp3": "9ce361d91132106d0acf811207464b70e7fd020a6a87031bb95470a2122ea365",
+      "assets/audio/e1.mp3": "10151275036a9ca19cde4ffe4b82ee8f9a4ca143155e546c19c0fc3cede0ce57",
+      "assets/audio/e2.mp3": "3e631e9684bba7670dfe9e02d48a58f3f96c0aea8f8789fca6c5c475b26a6ef9",
+      "assets/audio/e3.mp3": "b4a78b1c809a5f438fe8590d40baa9d08bfa03e15dd586ed690dc991b115b714",
+      "assets/audio/meow.mp3": "b77845fe443aef68243754f8a656ad3de00e5411cfbe88751bceedebc7640dc4",
+      "assets/audio/squeak.mp3": "97d7a5a96cc7c8a0c856ae5f5e956d43ba914990c29a79a3225fbd849b7e2982",
+      "assets/audio/timings.json": "ee52e005809e1ac052eb667f276529afa89273fd360f2ebd612bfa534db02c1c",
+      "assets/audio/title.mp3": "3bd4b251311366d1e3a745120230c129fba6804183c8214e90dbfc154fc69cc9",
+      "assets/audio/trumpet.mp3": "61d868db022a1d8b934272abc0892dc6886a09fcbcad6e48c76ef444542fe645",
+      "assets/audio/u1.mp3": "357796f92f22c1f0930548846c149de26dcb18e2eac9bcd85d090f1c60195d87",
+      "assets/audio/u2.mp3": "4f28d911ffc00639555cb0b6c193845651c2e148f20248566f3cbce614dc8c9f",
+      "assets/audio/u3.mp3": "a4606525d3cf0c7ac26e1073c6d6ddc305ed8e36d9f8fa190b7a630335f62763",
+      "assets/audio/woof.mp3": "251b40df74d6f8cf6ca880ac52a1a96dd0f292dbd585547cf8ad4017b56754f2",
+      "assets/img/bunny-base.webp": "2dcece048cc7f729655a332c6cf120d7851c5fca38910e9855314deaf465951f",
+      "assets/img/bunny-ear.webp": "587fdc6c84c8e344f5d7881c42eeac0be33b9c94894fc83ca68675a01ed8f598",
+      "assets/img/cat-640.webp": "62ec2962d52a2c09dfeec2191a7f9493a1497603b0629ae80e50bd8d51f3557a",
+      "assets/img/dog-body.webp": "bc905d4bc1efa1560919fd019b70cbbac09bf8295cf996211995d722cd085092",
+      "assets/img/dog-head.webp": "260009d24d04c4528f0f06f717912748eb9b35cf215c7048175740b3f4e74678",
+      "assets/img/dog-tail.webp": "04d8aee0a15561eab02a5d7e4441a53749c7acc22eeddf719b09d8665a7ca224",
+      "assets/img/elephant-640.webp": "6b46eaa497b1db1b2cdaf8c78dca0588a73407939658d191a28c534bb5442109",
+      "assets/img/icon.png": "958b57f8b6cc2fae803b824b6e654861be7cce8cd3b564b5a61c8346273fbdfb",
+      "assets/source/characters/bunny.webp": "531ef2f25f246ae14af25e8f8ac89e7f2678e0d11ac80c332f594f187cc39e31",
+      "assets/source/characters/cat.webp": "2f84eeff1207e8b3129b0306d7407a2690367404e8a3bd8d4ecf95596ed9745e",
+      "assets/source/characters/dog.webp": "966b1be65ed8e5c39d66a9ff01cc70c2a85590643edbb93d2f9d18cb0cec6053",
+      "assets/source/characters/elephant.webp": "8c2ac88bce86f204b6b7edaf824cc607326549e354bae04173d1a55c88622b07",
+      "assets/source/sfx/Rabbit_oinks_and_squeaks-excerpt-19.83s.flac": "779ac44be284bb05a7a99d2e57546a5e2696b89156ca2392b597f6f83b71d58e",
+      "assets/source/sfx/fs-448084_9159316.mp3": "78eaf5b601a30543905418c53a61df5e53dd93c3dfee5f7c06ae1db11876e844",
+      "assets/source/sfx/fs-527845_11431915.mp3": "c785714009850d14d953eeea12136bceb33577938e3430b4c8848544c02239ae",
+      "assets/source/sfx/fs-583142_3403708.mp3": "5cbb9d28ae198365e6f131418e3ca23f25c5c612bdc1ecb1116ec46b00cd241a",
+      "assets/source/tts-raw/again.mp3": "da46276e716af3c7676b20c1bfe91f058bc784c4b4661429844f72f49f466d68",
+      "assets/source/tts-raw/b1.mp3": "5de2ff3b5929e3a2094afdf1dd37effa17583f8a663965f7c80dff1fd744d946",
+      "assets/source/tts-raw/b2.mp3": "210ad2697eff0bdeb6068b2bef4507ce2cbd1d8ae348dd8a9d2ec21e6153d382",
+      "assets/source/tts-raw/b3.mp3": "8245a0f8ba6d1e901a7dc5fd044a3a2fd03edb63a1452c4a3112bf3835033ce0",
+      "assets/source/tts-raw/c1.mp3": "65f73458fcec90717f538b75d51107a5b8f0c6cd467375efa11c73e870c4a552",
+      "assets/source/tts-raw/c2.mp3": "0ae776acaf18bfc6ced06e87e62a86059b503b9cf81f5773d8a3f765fe5f8f46",
+      "assets/source/tts-raw/c3.mp3": "ca9cb12108b3612807378f76efdbdf7ef3be6f41f7f56c9ac6daf9fa58e005e8",
+      "assets/source/tts-raw/d1.mp3": "37479bbeab27d7eed9d4baebacc705990b26ea2c835d349e72822b20e359b396",
+      "assets/source/tts-raw/d2.mp3": "14c719160c61adb53059bd7979f12ab7e33719fe80bc84a61d394e551bcb3114",
+      "assets/source/tts-raw/d3.mp3": "935e51ad9070a5ddf375a655a74546f106c66f5693afb506e6f36fb8ef241efa",
+      "assets/source/tts-raw/e1.mp3": "a939662c729fb3cb238e2e2d7c68e508b789b7ad18a559f1705d65573e13760c",
+      "assets/source/tts-raw/e2.mp3": "d5a24f92df72b8a06619df27710a1378bc84586f7b747588a26fa458cb01e5ec",
+      "assets/source/tts-raw/e3.mp3": "4b0fb3d8941bf895e2683941f97b3ebf5ef5e3a90ae696b0459db1018998b039",
+      "assets/source/tts-raw/meta.json": "698fd094270816fc593dda17a110a23a09eba45f8a4a3c6d1edc8a95a335dec5",
+      "assets/source/tts-raw/title.mp3": "d0158a0a6c551a076d56263e34718cbdc8de54d4196b315f547c51edf43b28c1",
+      "package-lock.json": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0"
+    }
+  },
+  "productionHTMLFiles": {
+    "public": [
+      "index.html",
+      "learn/xue-er/1/index.html",
+      "learn/xue-er/index.html"
+    ],
+    "dist": [
+      "index-single.html",
+      "index.html",
+      "xue-er.html"
+    ]
+  },
+  "readiness": {
+    "online": {
+      "count": 16,
+      "ready": 0,
+      "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+      "sceneSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c"
+    },
+    "offline": {
+      "count": 16,
+      "ready": 0,
+      "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+      "sceneSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c"
+    },
+    "preview": {
+      "count": 16,
+      "ready": 0,
+      "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+      "sceneSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c"
+    }
+  },
+  "status": "passed-directory-increment-review",
+  "engineeringAccepted": true,
+  "fullNewChaptersAccepted": false,
+  "deployedByReviewer": false,
+  "limitations": [
+    "No new browser matrix, timing repro, test suite, build, SDK, synthesis or deploy executed by reviewer.",
+    "True new media and human listening remain pending; static previews are not finished chapters.",
+    "Physical-device, real service and billing checks not performed."
+  ]
+}

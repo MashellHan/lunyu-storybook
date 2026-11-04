@@ -1,0 +1,1071 @@
+{
+  "reviewedAt": "2026-11-03T12:33:38.875Z",
+  "kind": "two-original-B2-reproduction-points-only",
+  "scope": "Current existing file previews after Engineer began timing fixes; exact HTML hashes below, not a new frozen-release verdict.",
+  "cases": [
+    {
+      "chapter": 1,
+      "page": 1,
+      "width": 320,
+      "height": 844,
+      "file": "build/xue-er-preview/index-single.html",
+      "htmlSHA256": "3045a78e066e3e9276d2a9edc1c7b4d1eaffa2c436e48e56a69ddd21209be4ef",
+      "htmlSHA256After": "3045a78e066e3e9276d2a9edc1c7b4d1eaffa2c436e48e56a69ddd21209be4ef",
+      "screenshot": "docs/reviews/xue-er-phase-b-36ce75f/b2-xue-er-01-p1-320x844.png",
+      "screenshotSHA256": "f83211073a71fe925bf78bbb2b930c863efb30339d58a876451386fe6906a195",
+      "measured": {
+        "chapter": "xue-er-01",
+        "page": "xue-er-01-p01",
+        "preview": "true",
+        "playable": "false",
+        "disabled": true,
+        "scrollWidth": 320,
+        "groups": [
+          {
+            "id": "xue-er-01-p01-r01",
+            "glyphs": [
+              {
+                "char": "子",
+                "pinyin": "zǐ",
+                "segmentId": "xue-er-01-s01",
+                "sourceIndex": 0,
+                "left": 62,
+                "top": 728.09375,
+                "right": 88,
+                "bottom": 780.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "曰",
+                "pinyin": "yuē",
+                "segmentId": "xue-er-01-s01",
+                "sourceIndex": 1,
+                "left": 88,
+                "top": 728.09375,
+                "right": 114.171875,
+                "bottom": 780.09375,
+                "width": 26.171875,
+                "height": 52
+              },
+              {
+                "char": "：",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s01",
+                "sourceIndex": 2,
+                "left": 114.171875,
+                "top": 732.09375,
+                "right": 138.171875,
+                "bottom": 780.09375,
+                "width": 24,
+                "height": 48
+              },
+              {
+                "char": "“",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s01",
+                "sourceIndex": 3,
+                "left": 138.171875,
+                "top": 732.09375,
+                "right": 149,
+                "bottom": 780.09375,
+                "width": 10.828125,
+                "height": 48
+              },
+              {
+                "char": "学",
+                "pinyin": "xué",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 4,
+                "left": 149,
+                "top": 729.09375,
+                "right": 175.078125,
+                "bottom": 780.09375,
+                "width": 26.078125,
+                "height": 51
+              },
+              {
+                "char": "而",
+                "pinyin": "ér",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 5,
+                "left": 175.078125,
+                "top": 729.09375,
+                "right": 201.078125,
+                "bottom": 780.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "时",
+                "pinyin": "shí",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 6,
+                "left": 201.078125,
+                "top": 729.09375,
+                "right": 227.078125,
+                "bottom": 780.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "习",
+                "pinyin": "xí",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 7,
+                "left": 227.078125,
+                "top": 729.09375,
+                "right": 253.078125,
+                "bottom": 780.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "之",
+                "pinyin": "zhī",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 8,
+                "left": 62,
+                "top": 780.09375,
+                "right": 88,
+                "bottom": 832.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "，",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 9,
+                "left": 88,
+                "top": 784.09375,
+                "right": 112,
+                "bottom": 832.09375,
+                "width": 24,
+                "height": 48
+              },
+              {
+                "char": "不",
+                "pinyin": "bù",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 10,
+                "left": 112,
+                "top": 781.09375,
+                "right": 138,
+                "bottom": 832.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "亦",
+                "pinyin": "yì",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 11,
+                "left": 138,
+                "top": 781.09375,
+                "right": 164,
+                "bottom": 832.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "说",
+                "pinyin": "yuè",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 12,
+                "left": 164,
+                "top": 781.09375,
+                "right": 190.375,
+                "bottom": 832.09375,
+                "width": 26.375,
+                "height": 51
+              },
+              {
+                "char": "乎",
+                "pinyin": "hū",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 13,
+                "left": 190.375,
+                "top": 780.09375,
+                "right": 216.375,
+                "bottom": 832.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "？",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s02",
+                "sourceIndex": 14,
+                "left": 216.375,
+                "top": 784.09375,
+                "right": 240.375,
+                "bottom": 832.09375,
+                "width": 24,
+                "height": 48
+              }
+            ],
+            "lines": [
+              {
+                "bottom": 780,
+                "first": "子",
+                "last": "习",
+                "text": "子曰：“学而时习",
+                "sourceIndices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "bottom": 832,
+                "first": "之",
+                "last": "？",
+                "text": "之，不亦说乎？",
+                "sourceIndices": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              }
+            ]
+          },
+          {
+            "id": "xue-er-01-p01-r02",
+            "glyphs": [
+              {
+                "char": "有",
+                "pinyin": "yǒu",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 15,
+                "left": 62,
+                "top": 880.09375,
+                "right": 88.4375,
+                "bottom": 932.09375,
+                "width": 26.4375,
+                "height": 52
+              },
+              {
+                "char": "朋",
+                "pinyin": "péng",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 16,
+                "left": 88.4375,
+                "top": 881.09375,
+                "right": 124.71875,
+                "bottom": 932.09375,
+                "width": 36.28125,
+                "height": 51
+              },
+              {
+                "char": "自",
+                "pinyin": "zì",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 17,
+                "left": 124.71875,
+                "top": 881.09375,
+                "right": 150.71875,
+                "bottom": 932.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "远",
+                "pinyin": "yuǎn",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 18,
+                "left": 150.71875,
+                "top": 880.09375,
+                "right": 185.15625,
+                "bottom": 932.09375,
+                "width": 34.4375,
+                "height": 52
+              },
+              {
+                "char": "方",
+                "pinyin": "fāng",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 19,
+                "left": 185.15625,
+                "top": 880.09375,
+                "right": 216.96875,
+                "bottom": 932.09375,
+                "width": 31.8125,
+                "height": 52
+              },
+              {
+                "char": "来",
+                "pinyin": "lái",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 20,
+                "left": 216.96875,
+                "top": 881.09375,
+                "right": 242.96875,
+                "bottom": 932.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "，",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 21,
+                "left": 242.96875,
+                "top": 884.09375,
+                "right": 266.96875,
+                "bottom": 932.09375,
+                "width": 24,
+                "height": 48
+              },
+              {
+                "char": "不",
+                "pinyin": "bù",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 22,
+                "left": 62,
+                "top": 933.09375,
+                "right": 88,
+                "bottom": 984.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "亦",
+                "pinyin": "yì",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 23,
+                "left": 88,
+                "top": 933.09375,
+                "right": 114,
+                "bottom": 984.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "乐",
+                "pinyin": "lè",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 24,
+                "left": 114,
+                "top": 933.09375,
+                "right": 140,
+                "bottom": 984.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "乎",
+                "pinyin": "hū",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 25,
+                "left": 140,
+                "top": 932.09375,
+                "right": 166,
+                "bottom": 984.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "？",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s03",
+                "sourceIndex": 26,
+                "left": 166,
+                "top": 936.09375,
+                "right": 190,
+                "bottom": 984.09375,
+                "width": 24,
+                "height": 48
+              }
+            ],
+            "lines": [
+              {
+                "bottom": 932,
+                "first": "有",
+                "last": "，",
+                "text": "有朋自远方来，",
+                "sourceIndices": [
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21
+                ]
+              },
+              {
+                "bottom": 984,
+                "first": "不",
+                "last": "？",
+                "text": "不亦乐乎？",
+                "sourceIndices": [
+                  22,
+                  23,
+                  24,
+                  25,
+                  26
+                ]
+              }
+            ]
+          },
+          {
+            "id": "xue-er-01-p01-r03",
+            "glyphs": [
+              {
+                "char": "人",
+                "pinyin": "rén",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 27,
+                "left": 62,
+                "top": 1033.09375,
+                "right": 88,
+                "bottom": 1084.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "不",
+                "pinyin": "bù",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 28,
+                "left": 88,
+                "top": 1033.09375,
+                "right": 114,
+                "bottom": 1084.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "知",
+                "pinyin": "zhī",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 29,
+                "left": 114,
+                "top": 1032.09375,
+                "right": 140,
+                "bottom": 1084.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "而",
+                "pinyin": "ér",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 30,
+                "left": 140,
+                "top": 1033.09375,
+                "right": 166,
+                "bottom": 1084.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "不",
+                "pinyin": "bù",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 31,
+                "left": 166,
+                "top": 1033.09375,
+                "right": 192,
+                "bottom": 1084.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "愠",
+                "pinyin": "yùn",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 32,
+                "left": 192,
+                "top": 1033.09375,
+                "right": 218.5,
+                "bottom": 1084.09375,
+                "width": 26.5,
+                "height": 51
+              },
+              {
+                "char": "，",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 33,
+                "left": 218.5,
+                "top": 1036.09375,
+                "right": 242.5,
+                "bottom": 1084.09375,
+                "width": 24,
+                "height": 48
+              },
+              {
+                "char": "不",
+                "pinyin": "bù",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 34,
+                "left": 242.5,
+                "top": 1033.09375,
+                "right": 268.5,
+                "bottom": 1084.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "亦",
+                "pinyin": "yì",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 35,
+                "left": 62,
+                "top": 1085.09375,
+                "right": 88,
+                "bottom": 1136.09375,
+                "width": 26,
+                "height": 51
+              },
+              {
+                "char": "君",
+                "pinyin": "jūn",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 36,
+                "left": 88,
+                "top": 1084.09375,
+                "right": 114,
+                "bottom": 1136.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "子",
+                "pinyin": "zǐ",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 37,
+                "left": 114,
+                "top": 1084.09375,
+                "right": 140,
+                "bottom": 1136.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "乎",
+                "pinyin": "hū",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 38,
+                "left": 140,
+                "top": 1084.09375,
+                "right": 166,
+                "bottom": 1136.09375,
+                "width": 26,
+                "height": 52
+              },
+              {
+                "char": "？",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 39,
+                "left": 166,
+                "top": 1088.09375,
+                "right": 190,
+                "bottom": 1136.09375,
+                "width": 24,
+                "height": 48
+              },
+              {
+                "char": "”",
+                "pinyin": "",
+                "segmentId": "xue-er-01-s04",
+                "sourceIndex": 40,
+                "left": 190,
+                "top": 1088.09375,
+                "right": 200.828125,
+                "bottom": 1136.09375,
+                "width": 10.828125,
+                "height": 48
+              }
+            ],
+            "lines": [
+              {
+                "bottom": 1084,
+                "first": "人",
+                "last": "不",
+                "text": "人不知而不愠，不",
+                "sourceIndices": [
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34
+                ]
+              },
+              {
+                "bottom": 1136,
+                "first": "亦",
+                "last": "”",
+                "text": "亦君子乎？”",
+                "sourceIndices": [
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "chapter": 15,
+      "page": 3,
+      "width": 768,
+      "height": 1024,
+      "file": "build/xue-er-preview/xue-er-15.html",
+      "htmlSHA256": "3842d843fdd812b9dd1cdb9cf4f698ff6dd76dc5e497e30f39b110117d32f6f5",
+      "htmlSHA256After": "3842d843fdd812b9dd1cdb9cf4f698ff6dd76dc5e497e30f39b110117d32f6f5",
+      "screenshot": "docs/reviews/xue-er-phase-b-36ce75f/b2-xue-er-15-p3-768x1024.png",
+      "screenshotSHA256": "7c7816165668b0689a1e2ef81eaeb71a73764f3f2eb46b0d60e859f758b19791",
+      "measured": {
+        "chapter": "xue-er-15",
+        "page": "xue-er-15-p03",
+        "preview": "true",
+        "playable": "false",
+        "disabled": true,
+        "scrollWidth": 768,
+        "groups": [
+          {
+            "id": "xue-er-15-p03-r01",
+            "glyphs": [
+              {
+                "char": "子",
+                "pinyin": "zǐ",
+                "segmentId": "xue-er-15-s06",
+                "sourceIndex": 40,
+                "left": 106,
+                "top": 636.5,
+                "right": 136,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 60
+              },
+              {
+                "char": "贡",
+                "pinyin": "gòng",
+                "segmentId": "xue-er-15-s06",
+                "sourceIndex": 41,
+                "left": 136,
+                "top": 637.5,
+                "right": 177.328125,
+                "bottom": 696.5,
+                "width": 41.328125,
+                "height": 59
+              },
+              {
+                "char": "曰",
+                "pinyin": "yuē",
+                "segmentId": "xue-er-15-s06",
+                "sourceIndex": 42,
+                "left": 177.328125,
+                "top": 636.5,
+                "right": 207.328125,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 60
+              },
+              {
+                "char": "：",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s06",
+                "sourceIndex": 43,
+                "left": 207.328125,
+                "top": 640.5,
+                "right": 235.328125,
+                "bottom": 696.5,
+                "width": 28,
+                "height": 56
+              },
+              {
+                "char": "“",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s06",
+                "sourceIndex": 44,
+                "left": 235.328125,
+                "top": 640.5,
+                "right": 247.96875,
+                "bottom": 696.5,
+                "width": 12.640625,
+                "height": 56
+              },
+              {
+                "char": "《",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 45,
+                "left": 247.96875,
+                "top": 640.5,
+                "right": 275.96875,
+                "bottom": 696.5,
+                "width": 28,
+                "height": 56
+              },
+              {
+                "char": "诗",
+                "pinyin": "shī",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 46,
+                "left": 275.96875,
+                "top": 636.5,
+                "right": 305.96875,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 60
+              },
+              {
+                "char": "》",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 47,
+                "left": 305.96875,
+                "top": 640.5,
+                "right": 333.96875,
+                "bottom": 696.5,
+                "width": 28,
+                "height": 56
+              },
+              {
+                "char": "云",
+                "pinyin": "yún",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 48,
+                "left": 333.96875,
+                "top": 637.5,
+                "right": 363.96875,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "：",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 49,
+                "left": 363.96875,
+                "top": 640.5,
+                "right": 391.96875,
+                "bottom": 696.5,
+                "width": 28,
+                "height": 56
+              },
+              {
+                "char": "‘",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 50,
+                "left": 391.96875,
+                "top": 640.5,
+                "right": 398.109375,
+                "bottom": 696.5,
+                "width": 6.140625,
+                "height": 56
+              },
+              {
+                "char": "如",
+                "pinyin": "rú",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 51,
+                "left": 398.109375,
+                "top": 637.5,
+                "right": 428.109375,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "切",
+                "pinyin": "qiē",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 52,
+                "left": 428.109375,
+                "top": 636.5,
+                "right": 458.109375,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 60
+              },
+              {
+                "char": "如",
+                "pinyin": "rú",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 53,
+                "left": 458.109375,
+                "top": 637.5,
+                "right": 488.109375,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "磋",
+                "pinyin": "cuō",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 54,
+                "left": 488.109375,
+                "top": 636.5,
+                "right": 518.734375,
+                "bottom": 696.5,
+                "width": 30.625,
+                "height": 60
+              },
+              {
+                "char": "，",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 55,
+                "left": 518.734375,
+                "top": 640.5,
+                "right": 546.734375,
+                "bottom": 696.5,
+                "width": 28,
+                "height": 56
+              },
+              {
+                "char": "如",
+                "pinyin": "rú",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 56,
+                "left": 546.734375,
+                "top": 637.5,
+                "right": 576.734375,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "琢",
+                "pinyin": "zhuó",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 57,
+                "left": 576.734375,
+                "top": 637.5,
+                "right": 616.0625,
+                "bottom": 696.5,
+                "width": 39.328125,
+                "height": 59
+              },
+              {
+                "char": "如",
+                "pinyin": "rú",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 58,
+                "left": 616.0625,
+                "top": 637.5,
+                "right": 646.0625,
+                "bottom": 696.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "磨",
+                "pinyin": "mó",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 59,
+                "left": 106,
+                "top": 696.5,
+                "right": 136,
+                "bottom": 755.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "’",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 60,
+                "left": 136,
+                "top": 699.5,
+                "right": 142.140625,
+                "bottom": 755.5,
+                "width": 6.140625,
+                "height": 56
+              },
+              {
+                "char": "，",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s07",
+                "sourceIndex": 61,
+                "left": 142.140625,
+                "top": 699.5,
+                "right": 170.140625,
+                "bottom": 755.5,
+                "width": 28,
+                "height": 56
+              }
+            ],
+            "lines": [
+              {
+                "bottom": 697,
+                "first": "子",
+                "last": "如",
+                "text": "子贡曰：“《诗》云：‘如切如磋，如琢如",
+                "sourceIndices": [
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49,
+                  50,
+                  51,
+                  52,
+                  53,
+                  54,
+                  55,
+                  56,
+                  57,
+                  58
+                ]
+              },
+              {
+                "bottom": 756,
+                "first": "磨",
+                "last": "，",
+                "text": "磨’，",
+                "sourceIndices": [
+                  59,
+                  60,
+                  61
+                ]
+              }
+            ]
+          },
+          {
+            "id": "xue-er-15-p03-r02",
+            "glyphs": [
+              {
+                "char": "其",
+                "pinyin": "qí",
+                "segmentId": "xue-er-15-s08",
+                "sourceIndex": 62,
+                "left": 106,
+                "top": 820.5,
+                "right": 136,
+                "bottom": 879.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "斯",
+                "pinyin": "sī",
+                "segmentId": "xue-er-15-s08",
+                "sourceIndex": 63,
+                "left": 136,
+                "top": 819.5,
+                "right": 166,
+                "bottom": 879.5,
+                "width": 30,
+                "height": 60
+              },
+              {
+                "char": "之",
+                "pinyin": "zhī",
+                "segmentId": "xue-er-15-s08",
+                "sourceIndex": 64,
+                "left": 166,
+                "top": 819.5,
+                "right": 196,
+                "bottom": 879.5,
+                "width": 30,
+                "height": 60
+              },
+              {
+                "char": "谓",
+                "pinyin": "wèi",
+                "segmentId": "xue-er-15-s08",
+                "sourceIndex": 65,
+                "left": 196,
+                "top": 820.5,
+                "right": 226,
+                "bottom": 879.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "与",
+                "pinyin": "yú",
+                "segmentId": "xue-er-15-s08",
+                "sourceIndex": 66,
+                "left": 226,
+                "top": 820.5,
+                "right": 256,
+                "bottom": 879.5,
+                "width": 30,
+                "height": 59
+              },
+              {
+                "char": "？",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s08",
+                "sourceIndex": 67,
+                "left": 256,
+                "top": 823.5,
+                "right": 284,
+                "bottom": 879.5,
+                "width": 28,
+                "height": 56
+              },
+              {
+                "char": "”",
+                "pinyin": "",
+                "segmentId": "xue-er-15-s08",
+                "sourceIndex": 68,
+                "left": 284,
+                "top": 823.5,
+                "right": 296.640625,
+                "bottom": 879.5,
+                "width": 12.640625,
+                "height": 56
+              }
+            ],
+            "lines": [
+              {
+                "bottom": 880,
+                "first": "其",
+                "last": "”",
+                "text": "其斯之谓与？”",
+                "sourceIndices": [
+                  62,
+                  63,
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "findings": [],
+  "releaseAccepted": false,
+  "status": "B2-passed-on-recorded-artifacts"
+}

@@ -1,0 +1,65 @@
+{
+  "text": "敏于事而慎于言，就有道而正焉。",
+  "dur": 5.143625,
+  "t": [
+    0.056833,
+    0.340922,
+    0.625012,
+    0.909101,
+    1.19319,
+    1.477279,
+    1.761369,
+    null,
+    2.357958,
+    2.642048,
+    2.926138,
+    3.210228,
+    3.494319,
+    3.778409,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "691d8e10df0d4e858eeddb13138a81ae344abb037acac7dc6ad970c116b928f6",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-s03-bunny",
+      "rawSHA256": "1fe98946ac610c9f5b3a11c91667761923f7f5c7c00c85f62754fb69fb39371c",
+      "ssmlSHA256": "59bc60968f5b2aa6c23266ee42cc9ef9f4e4602655f02ebc0d5bb3023a6f7a22"
+    },
+    {
+      "id": "xue-er-14-s03-cat",
+      "rawSHA256": "b0fd519178845edb76b6efd17fe855df35ca786fd4bdb78306b8abc598645ae3",
+      "ssmlSHA256": "0df7869c2516c907898f4a780c559c4cc604cd9c548d3e745e1cc7916a4dce0e"
+    },
+    {
+      "id": "xue-er-14-s03-dog",
+      "rawSHA256": "0f43ea80e6d5b0b87b4fd4d33220cfb2afaff0dd7152fa21b35b58b914e8aa3d",
+      "ssmlSHA256": "c065686cd993116c393de69ba2a59b727ab610ca3e582bf4cc420da35e7cf229"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8666666666666667,
+        0.6
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

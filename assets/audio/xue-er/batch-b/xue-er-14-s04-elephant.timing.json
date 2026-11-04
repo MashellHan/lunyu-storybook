@@ -1,0 +1,31 @@
+{
+  "text": "可谓好学也已。”",
+  "dur": 2.448,
+  "t": [
+    0.058833,
+    0.279416,
+    0.5,
+    0.83825,
+    1.205875,
+    1.441166,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "69e4947fe610fb723df8a5647094572800b985f83129326fad66b0fb6338e088",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-s04-elephant",
+      "rawSHA256": "d8283833d5396689b145534e60c29b509f1573caaf977cec44b92e597d0ff643",
+      "ssmlSHA256": "ff55ccbae89e6ae6fa937a6911e967025913c77c95eb54a197e9ef3760bbb8ef"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

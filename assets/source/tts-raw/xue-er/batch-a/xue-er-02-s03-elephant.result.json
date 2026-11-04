@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-02-s03-elephant",
+  "batch": "batch-a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "ssmlSHA256": "430b41bbf32a4554e0c2f8e5a9c9d5453574b2372d3640c696313e71cf49d3ff",
+  "attemptId": "c25caff5-077e-4e3c-82cd-28db2f619ebd",
+  "startedAt": "2026-11-03T12:48:58.019773+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:49:01.196528+00:00",
+  "rawSHA256": "36667ec69a08edf51e57d09545c0fc53861e1c923f3823077425705f2ede5217",
+  "wb": [
+    [
+      0.058833,
+      0.205875,
+      "不"
+    ],
+    [
+      0.264708,
+      0.205875,
+      "好"
+    ],
+    [
+      0.470583,
+      0.529416,
+      "犯上"
+    ],
+    [
+      1.132333,
+      0.294125,
+      "而"
+    ],
+    [
+      1.426458,
+      0.25,
+      "好"
+    ],
+    [
+      1.691166,
+      0.455875,
+      "作乱"
+    ],
+    [
+      2.147041,
+      0.264708,
+      "者"
+    ],
+    [
+      2.691166,
+      0.441166,
+      "未之"
+    ],
+    [
+      3.147041,
+      0.33825,
+      "有"
+    ],
+    [
+      3.485291,
+      0.382333,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 298,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 309,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 311,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 348,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 359,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 361,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 363,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 365,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 366,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

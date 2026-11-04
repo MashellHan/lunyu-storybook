@@ -1,0 +1,152 @@
+{
+  "reviewedAt": "2026-11-03T12:51:29.320178+00:00",
+  "kind": "new-real-HD-boundary-evidence",
+  "batch": "batch-a",
+  "originalRequestsSucceeded": 30,
+  "originalRequestFailures": 0,
+  "finding": "Actual SDK boundary text includes repeated source character after an approved alias and two following Han characters; retain raw events. Old documented d1 special case only covered one following character. Offline mapping review needed, no resynthesis.",
+  "eventNumberConvention": "zero-based event index and Unicode original source index",
+  "cases": [
+    {
+      "id": "xue-er-02-s02-dog",
+      "file": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.result.json",
+      "resultSHA256": "4a2f19ee25904d51a2c15ee529387c03b57437ebff98fe79c1fb89313bbe0476",
+      "rawMP3": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.mp3",
+      "rawSHA256": "b30bd0b474ef3128bbf0ed3da763c877d75711e86e0f2ba45755def6b10a62b5",
+      "eventIndexZeroBased": 7,
+      "event": [
+        2.04,
+        0.47,
+        "\">好犯上"
+      ],
+      "wordBoundaryDetails": {
+        "textOffset": -1,
+        "wordLength": 5
+      },
+      "previousEvent": [
+        1.852,
+        0.188,
+        "耗"
+      ],
+      "previousDetails": {
+        "textOffset": -1,
+        "wordLength": 1
+      },
+      "sourceText": "其为人也孝弟，而好犯上者，鲜矣；",
+      "alreadyMappedAliasSourceIndex": 8,
+      "originalCharacter": "好",
+      "approvedAlias": {
+        "index": 8,
+        "original": "好",
+        "alias": "耗"
+      },
+      "followingSourcePositions": [
+        {
+          "index": 9,
+          "character": "犯"
+        },
+        {
+          "index": 10,
+          "character": "上"
+        }
+      ],
+      "exactSSML": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"zh-CN\"><voice name=\"zh-CN-Yunxi:DragonHDFlashLatestNeural\"><mstts:express-as style=\"cheerful\" styledegree=\"1.2\"><prosody rate=\"-15%\" pitch=\"0%\">其为人也孝<sub alias=\"替\">弟</sub>，<break time=\"100ms\"/>而<sub alias=\"耗\">好</sub>犯上者，<sub alias=\"显\">鲜</sub>矣；</prosody></mstts:express-as></voice></speak>",
+      "ssmlSHA256": "b95722358f5eef9338f979d1838c96db56b0cea22174c8fcc6a5a1d9140896bc"
+    },
+    {
+      "id": "xue-er-02-s03-dog",
+      "file": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.result.json",
+      "resultSHA256": "6d888cc143bd619391f6d54db0b5d668187bbc3c9cb60fee482a596940b2f8cc",
+      "rawMP3": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.mp3",
+      "rawSHA256": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281",
+      "eventIndexZeroBased": 2,
+      "event": [
+        0.505,
+        0.658,
+        "\">好犯上"
+      ],
+      "wordBoundaryDetails": {
+        "textOffset": -1,
+        "wordLength": 5
+      },
+      "previousEvent": [
+        0.317,
+        0.188,
+        "耗"
+      ],
+      "previousDetails": {
+        "textOffset": -1,
+        "wordLength": 1
+      },
+      "sourceText": "不好犯上而好作乱者，未之有也。",
+      "alreadyMappedAliasSourceIndex": 1,
+      "originalCharacter": "好",
+      "approvedAlias": {
+        "index": 1,
+        "original": "好",
+        "alias": "耗"
+      },
+      "followingSourcePositions": [
+        {
+          "index": 2,
+          "character": "犯"
+        },
+        {
+          "index": 3,
+          "character": "上"
+        }
+      ],
+      "exactSSML": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"zh-CN\"><voice name=\"zh-CN-Yunxi:DragonHDFlashLatestNeural\"><mstts:express-as style=\"cheerful\" styledegree=\"1.2\"><prosody rate=\"-15%\" pitch=\"0%\">不<sub alias=\"耗\">好</sub>犯上而<sub alias=\"耗\">好</sub>作乱者，<break time=\"100ms\"/>未之有也。</prosody></mstts:express-as></voice></speak>",
+      "ssmlSHA256": "6a1fecbe6b991ec9db9846bb86c0f27b8f764d6e6741bb6e995476bce1d64e48"
+    },
+    {
+      "id": "xue-er-02-s03-dog",
+      "file": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.result.json",
+      "resultSHA256": "6d888cc143bd619391f6d54db0b5d668187bbc3c9cb60fee482a596940b2f8cc",
+      "rawMP3": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.mp3",
+      "rawSHA256": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281",
+      "eventIndexZeroBased": 5,
+      "event": [
+        1.588,
+        0.376,
+        "\">好作乱"
+      ],
+      "wordBoundaryDetails": {
+        "textOffset": -1,
+        "wordLength": 5
+      },
+      "previousEvent": [
+        1.447,
+        0.141,
+        "耗"
+      ],
+      "previousDetails": {
+        "textOffset": -1,
+        "wordLength": 1
+      },
+      "sourceText": "不好犯上而好作乱者，未之有也。",
+      "alreadyMappedAliasSourceIndex": 5,
+      "originalCharacter": "好",
+      "approvedAlias": {
+        "index": 5,
+        "original": "好",
+        "alias": "耗"
+      },
+      "followingSourcePositions": [
+        {
+          "index": 6,
+          "character": "作"
+        },
+        {
+          "index": 7,
+          "character": "乱"
+        }
+      ],
+      "exactSSML": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"zh-CN\"><voice name=\"zh-CN-Yunxi:DragonHDFlashLatestNeural\"><mstts:express-as style=\"cheerful\" styledegree=\"1.2\"><prosody rate=\"-15%\" pitch=\"0%\">不<sub alias=\"耗\">好</sub>犯上而<sub alias=\"耗\">好</sub>作乱者，<break time=\"100ms\"/>未之有也。</prosody></mstts:express-as></voice></speak>",
+      "ssmlSHA256": "6a1fecbe6b991ec9db9846bb86c0f27b8f764d6e6741bb6e995476bce1d64e48"
+    }
+  ],
+  "negativeTextOffsetMeaning": "Actual SDK returned -1; unknown location, not a reviewer-fabricated offset.",
+  "listeningPerformed": false,
+  "reviewerSDKCalls": 0
+}

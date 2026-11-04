@@ -1,0 +1,58 @@
+{
+  "text": "礼之用，和为贵。",
+  "dur": 3.327125,
+  "t": [
+    0.056833,
+    0.298291,
+    0.582375,
+    null,
+    1.221583,
+    1.519875,
+    1.818166,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "e625468c7891a9463c2800833f2433a9b7a9e166f71f9f1a3ffdb4fcf398f9ba",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-12-s02-bunny",
+      "rawSHA256": "34cb1be976a4dca3f3e0d530b2f75e78c9df12864b36bfb89841cd761539ffbb",
+      "ssmlSHA256": "30d2336edc03240502a5aa785865d672aacdf2f2b39edfca49f673737bc5abec"
+    },
+    {
+      "id": "xue-er-12-s02-cat",
+      "rawSHA256": "7847ae4e8301f41af5ab497543dcaef823d0e3064ed673aa5d22b83aef382339",
+      "ssmlSHA256": "6152b519a6c4a7bc3058a34225e2cb4ab50f2f43db6ac4bf3c7c4efe317066f8"
+    },
+    {
+      "id": "xue-er-12-s02-dog",
+      "rawSHA256": "e941f6a2d18f739457eb0aba8695b82a418fa368f4e64948497ab466caf39db7",
+      "ssmlSHA256": "ad7d353a40efe687b3b86e0b5d82b9e2e127ff88448fe3fbf247c6d4873545a7"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8955223880597014,
+        0.6417910447761194
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

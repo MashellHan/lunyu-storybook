@@ -1,0 +1,206 @@
+{
+  "reviewedAt": "2026-11-03T13:00:51.625608+00:00",
+  "kind": "real-B-zero-duration-word-boundary",
+  "cases": [
+    {
+      "id": "xue-er-04-s05-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-b/xue-er-04-s05-dog.result.json",
+      "resultSHA256": "e2e2e31c105bc3448b52b666f4bf9642726dc8c12f86d570ca1a431ea3ae3910",
+      "rawMP3": "assets/source/tts-raw/xue-er/batch-b/xue-er-04-s05-dog.mp3",
+      "rawSHA256": "07e0a7015543020e85d63a1ac4ee12391d70c024483fe93a7afe4e43e554e693",
+      "sourceText": "传不习乎？”",
+      "eventIndexZeroBased": 2,
+      "event": [
+        0.552,
+        0.0,
+        "习乎"
+      ],
+      "wordBoundaryDetails": {
+        "textOffset": 286,
+        "wordLength": 2
+      },
+      "previousEvent": [
+        0.364,
+        0.188,
+        "\">传不"
+      ],
+      "nextEvent": null,
+      "sourcePositions": [
+        {
+          "index": 2,
+          "character": "习"
+        },
+        {
+          "index": 3,
+          "character": "乎"
+        }
+      ],
+      "actualMP3Duration": 1.176,
+      "readableContainerMetadata": {
+        "tags": {},
+        "chapters": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1,
+            "duration": "1.176000",
+            "tags": {}
+          }
+        ]
+      },
+      "rawResultKeys": [
+        "id",
+        "batch",
+        "contentSHA256",
+        "sourceEntrySetSHA256",
+        "ssmlSHA256",
+        "attemptId",
+        "startedAt",
+        "status",
+        "maximumApplicationCalls",
+        "automaticRetries",
+        "budgetCeilingUSD",
+        "finishedAt",
+        "rawSHA256",
+        "wb",
+        "wordBoundaryDetails",
+        "positionSemantics"
+      ],
+      "interpretation": "Word onset is known, but a zero multi-character duration and textOffset/wordLength do not establish the internal character onset. Neither next word onset nor clip duration proves an intra-word split.",
+      "productionTimingDisposition": "Keep this item pending; no invented duration/timestamps and no automatic resynthesis."
+    },
+    {
+      "id": "xue-er-07-s03-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-b/xue-er-07-s03-dog.result.json",
+      "resultSHA256": "f0ffc85f1666780c8648fbcc07a3f21ca02c9eed2faf1f63ab150d0d937f3410",
+      "rawMP3": "assets/source/tts-raw/xue-er/batch-b/xue-er-07-s03-dog.mp3",
+      "rawSHA256": "0ba36694c37715a2b33ca5be33774ec2561568cdf61ea3a5dbb36638f60f946d",
+      "sourceText": "事父母，能竭其力；",
+      "eventIndexZeroBased": 1,
+      "event": [
+        0.364,
+        0.0,
+        "父母"
+      ],
+      "wordBoundaryDetails": {
+        "textOffset": 264,
+        "wordLength": 2
+      },
+      "previousEvent": [
+        0.082,
+        0.282,
+        "事"
+      ],
+      "nextEvent": [
+        1.087,
+        0.282,
+        "能"
+      ],
+      "sourcePositions": [
+        {
+          "index": 1,
+          "character": "父"
+        },
+        {
+          "index": 2,
+          "character": "母"
+        }
+      ],
+      "actualMP3Duration": 2.064,
+      "readableContainerMetadata": {
+        "tags": {},
+        "chapters": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "24000",
+            "channels": 1,
+            "duration": "2.064000",
+            "tags": {}
+          }
+        ]
+      },
+      "rawResultKeys": [
+        "id",
+        "batch",
+        "contentSHA256",
+        "sourceEntrySetSHA256",
+        "ssmlSHA256",
+        "attemptId",
+        "startedAt",
+        "status",
+        "maximumApplicationCalls",
+        "automaticRetries",
+        "budgetCeilingUSD",
+        "finishedAt",
+        "rawSHA256",
+        "wb",
+        "wordBoundaryDetails",
+        "positionSemantics"
+      ],
+      "interpretation": "Word onset is known, but a zero multi-character duration and textOffset/wordLength do not establish the internal character onset. Neither next word onset nor clip duration proves an intra-word split.",
+      "productionTimingDisposition": "Keep this item pending; no invented duration/timestamps and no automatic resynthesis."
+    }
+  ],
+  "requestFileSHA256": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+  "additionalProvableCharacterTimingFound": false,
+  "reviewerSDKCalls": 0,
+  "listeningPerformed": false,
+  "noOriginalMediaChanged": true,
+  "updatedAt": "2026-11-03T13:17:40.793956+00:00",
+  "resolutionPolicy": {
+    "authorization": "Explicit user instruction in the current review session",
+    "mode": "Preserve true SDK word onset shared by every source character in the zero-duration word",
+    "metadata": "wordGroups with granularity=word, boundaryIndex, originalBoundaryText, sourceIndexes, offsetSeconds, sourceDurationSeconds=0 and original sdkPosition",
+    "internalCharacterBoundaryObtained": false,
+    "estimatedWordDuration": false,
+    "resynthesis": false,
+    "actualProcessedTimingVerification": "Passed for all three actual B timings; each shared real word onset and complete wordGroups metadata matches its original SDK event."
+  },
+  "earlierDispositionIsHistorical": true,
+  "laterCompletedSourceEvents": [
+    {
+      "id": "xue-er-15-s11-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-b/xue-er-15-s11-dog.result.json",
+      "resultSHA256": "2f8950080ce7c336a0ba68ddb7e021d80e2da0282b924ab038207c47463084c5",
+      "rawMP3": "assets/source/tts-raw/xue-er/batch-b/xue-er-15-s11-dog.mp3",
+      "rawSHA256": "428d2a510267a68b009b8b2cb4e4661752e974c20ef07bf3f78d10e68e3450c9",
+      "sourceText": "告诸往而知来者。”",
+      "eventIndexZeroBased": 5,
+      "event": [
+        1.07,
+        0.0,
+        "来者"
+      ],
+      "wordBoundaryDetails": {
+        "textOffset": 268,
+        "wordLength": 2
+      },
+      "actualMP3DurationFromCompletedDecode": 1.512,
+      "approvedWordGroup": {
+        "granularity": "word",
+        "boundaryIndex": 5,
+        "originalBoundaryText": "来者",
+        "sourceIndexes": [
+          5,
+          6
+        ],
+        "offsetSeconds": 1.07,
+        "sourceDurationSeconds": 0,
+        "sdkPosition": {
+          "textOffset": 268,
+          "wordLength": 2
+        }
+      },
+      "internalCharacterPronunciationBoundariesKnown": false
+    }
+  ],
+  "allKnownWordLevelItemIds": [
+    "xue-er-04-s05-dog",
+    "xue-er-07-s03-dog",
+    "xue-er-15-s11-dog"
+  ],
+  "actualTimingEvidence": "docs/reviews/xue-er-real-batch-b-media.json",
+  "unresolvedTechnicalBlockers": []
+}

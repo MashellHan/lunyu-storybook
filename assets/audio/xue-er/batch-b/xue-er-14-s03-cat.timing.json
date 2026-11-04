@@ -1,0 +1,38 @@
+{
+  "text": "敏于事而慎于言，就有道而正焉。",
+  "dur": 4.368,
+  "t": [
+    0.056833,
+    0.298309,
+    0.539785,
+    0.781261,
+    1.022738,
+    1.264214,
+    1.50569,
+    null,
+    1.960208,
+    2.196951,
+    2.433694,
+    2.670437,
+    2.90718,
+    3.143923,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "32218c5aa57dfd257b594a0a216d65beb63c63cca6fb11f8903d49fbc4b787cb",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-s03-cat",
+      "rawSHA256": "b0fd519178845edb76b6efd17fe855df35ca786fd4bdb78306b8abc598645ae3",
+      "ssmlSHA256": "0df7869c2516c907898f4a780c559c4cc604cd9c548d3e745e1cc7916a4dce0e"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

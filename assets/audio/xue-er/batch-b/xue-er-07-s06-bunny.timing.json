@@ -1,0 +1,36 @@
+{
+  "text": "虽曰未学，吾必谓之学矣。”",
+  "dur": 4.44,
+  "t": [
+    0.056833,
+    0.426125,
+    0.710208,
+    0.980125,
+    null,
+    1.71875,
+    1.946041,
+    2.230125,
+    2.485791,
+    2.741458,
+    3.139208,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "386628a1f358d945c892a879e3f35fcf16ff48b7a99fe52d4e45bf5e9e6fddcc",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s06-bunny",
+      "rawSHA256": "769dac4b70415cb8fda15e3b48bca95ce3d6ced9537f91642cd388522f63c372",
+      "ssmlSHA256": "a13f1665beda188a4de56453b3985a00aa5381a7425c3ae3b2c63b0edc427fb1"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

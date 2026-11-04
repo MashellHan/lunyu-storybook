@@ -1,0 +1,36 @@
+{
+  "text": "夫子至于是邦也，必闻其政，",
+  "dur": 4.344,
+  "t": [
+    0.058833,
+    0.426479,
+    0.808833,
+    0.977937,
+    1.147041,
+    1.41175,
+    1.75,
+    null,
+    2.544125,
+    2.852958,
+    3.058833,
+    3.323541,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "acf5ccd09389ef4b71aaef5c33c604f4132c2246d090b1d1a4169023dbdb9cdf",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s02-elephant",
+      "rawSHA256": "c79c795c75ab83c6e7eef904a87fa2a2131f1c237c3f2c3e2159755eae87d775",
+      "ssmlSHA256": "f33efb0bb65bf76917992bffa876f51bec44a37cca28936823133a2069073aed"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

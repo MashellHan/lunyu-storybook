@@ -1,0 +1,334 @@
+{
+  "reviewedAt": "2026-11-03T13:41:49.628986+00:00",
+  "reviewer": "lunyu-review",
+  "scope": "Read-only rehearsal integration: shared word highlighting/cancellation, local technical readiness and production isolation. No execution of tests/builds/browser probes/media decode/SDK/API.",
+  "findings": [],
+  "sourceInputs": {
+    "count": 48,
+    "sha256": "4827477df48fd8e2d08299643cb6585d707b66da11c040b572c7aed11dff5c93",
+    "files": {
+      "docs/content/xue-er-validation.json": "fa86e830a49a5b24891bff2178fc3fcede184be6fa55833858e0c9c138335b9b",
+      "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+      "docs/design/xue-er-scene-config.json": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+      "docs/design/xue-er-scene-ground-proposal.css": "df6210c5409af120ab8486585c1b775f0b95e222c73b10990c54998e34119393",
+      "docs/tts/xue-er-generation-request-b.json": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+      "docs/tts/xue-er-generation-request.json": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+      "package-lock.json": "e36f510eda4ecb392a9cbd9ce4eb55639ce4ea819b09ccbeb0aa95467bb3e4d0",
+      "package.json": "b0c7269ccf2443ec75d90a9460755808135eb47b8f35b2e0df27c82398719f91",
+      "playwright.config.js": "ce16a3e5e979a34a0e145cc21e129525f07d54c5927bbcb3307de127c5f0410c",
+      "scripts/build.mjs": "a44c9cbd16dcf0f0314a1c10cc473f0cd8d1d59401c1e5fab7fb51f9b12d73d5",
+      "scripts/chapter-data.mjs": "0a05dadd73a0ae5fdd4816daa65a58294f83306714d6ce5c77414915e1cf603e",
+      "scripts/image/clean.py": "19f46e7438e4ba22eaa73aa137b494a4fc021a275d9117b63767cba616e4a2a4",
+      "scripts/image/common.py": "be3890e5f79f8fe118b781caae2c7caec881d516b1d24dd91aee441820b01474",
+      "scripts/image/export.py": "c5b2e0875095080e5ef0a741d051fa8f16625a54c9feca582298e764be3716bc",
+      "scripts/image/layers_bunny.py": "c4be79d7b918a11830e892fd95197ea64e9b0817b3df24187315181e1f1ede93",
+      "scripts/image/layers_dog.py": "36f7c125585e1b853ff4c2b6978fd5940671a089b1ad567e49e05308f737e86e",
+      "scripts/import-chapter-media.mjs": "0c6f3e1428dd015fc6da98f8ab90ff8c3b801d9bb8a796cf975815f42c249174",
+      "scripts/requirements.txt": "00a216254e7c683178fdd3ef9db3992d266f3cc139fdb1a94c5bf5cb07a7075c",
+      "scripts/serve.mjs": "d7f8c67c113efb11d650a064a36cb03d128e883d1e6ccdccbbdfdba549595edf",
+      "scripts/sfx/make.py": "60e02bcf9614ee426f8e7974ce9df8301a80b1b49c76744fd1668022bd3b7fb4",
+      "scripts/tts/batch.py": "d74ea3c297bf86dc6968e48af32bdc0a0e0da970c6a3afc8e51ca7f288444cd4",
+      "scripts/tts/config.py": "5b8947b8ceedf4c92b6f8387d7c3b5716c1e296374d9115f4d2160d3f58b5f60",
+      "scripts/tts/gen.py": "3d39e408bd32ce8ad926dcde5275ba355ab09072f0f4e7b0d44a1f0613388baf",
+      "scripts/tts/process.py": "d4773c45efcfeedc8a39c3c346c15322fc00e611889152d5ef3a3fc2086f42a0",
+      "scripts/tts/test_batch.py": "9f1c21e341dab08794399a6bece8094a809d43ff4c9c11b3cf0369aea264649d",
+      "src/_headers": "6cce4e01dd6faf1733da53dfa946a1ffde66c3224da5184fa53abfc9f01214ef",
+      "src/app.js": "0db882295fb8fe4e1451b628218665482df827b39036f05c321ee57950be7008",
+      "src/catalog.json": "273cb0305ad7787063c808576613cd79cf382f3d5b33954dbca96ac4ecae5c35",
+      "src/chapter-media.json": "83457528c86cca2ee737095447e241814b781b7a022bcd65e34222a1586bbe5c",
+      "src/chapter-player.js": "77f2d12c4cc2a917b8f46ec1c35c02632b4335a0b873ca7f519db4bbc5373938",
+      "src/chapter.css": "7db8fffa8cba7a309002a6bc6750c09a07042c390f024d6ac47506a538fc0dcd",
+      "src/home.css": "2fbe1d045b88285fdcc9302164a88af0a37893b97367306708741c0f98ae7948",
+      "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+      "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+      "src/index.html": "2f9f135791c7f7a83134978f6c08150a6733abe88ebab11a022a938d0309f00e",
+      "src/styles.css": "4f8e61889207ef10cf2e226c90b88f78a2bfdd7931904ff922185ff8492f59c0",
+      "src/volume.css": "5cc0ded10b3a91dada1ab05ce76e89a4ced9b99eb32d33a231b4dc680db94a63",
+      "src/volume.html": "22c9b035d43c6d92d7776d797794f9a54c884082f1431f8f6fce2e2eaec4d4be",
+      "tests/cancellation.spec.js": "bc708051d4ff4adc56c23688b5dba6587d5be2ff0336de297725bf91d04b575a",
+      "tests/chapter-data.spec.js": "149083be417f9883ace6b0b7f0198df0006ffabd8a837f5fa24a8ddc2193b87f",
+      "tests/chapter-fixture.mjs": "8c0b5612ba6503fe9056b4341c3659e9d554aba8db63ebf9385e7ad8a97d2254",
+      "tests/chapters.spec.js": "664db8d41fff0c436ee903fe665baa08f868286747c35bead87e18238ccf08ef",
+      "tests/helpers.js": "26893d70200c7e61ca45442038f37994016cea34781f315a5023e3094afc61f8",
+      "tests/homepage.spec.js": "ebe1782a5fbfa0649d73c8be93fefea442d111f493b5d356d40e7fcf096ad35e",
+      "tests/lifecycle.spec.js": "874268cd1fb286d3ff7ae1530651651508f89e2b44d5ea10cf29d694e19c2dc3",
+      "tests/responsive.spec.js": "acf511dcb544cc9d526264e71645fcfd999636547f1b9088363b7a131bf66848",
+      "tests/single-file.spec.js": "e148a7340a8f39e9b66a0c0b864f4ea4b341553d9f0b8d900d23879b828fc11e",
+      "tests/smoke.spec.js": "596fc9e3ce732fe3d1a6d9f9329d23f816abef2353befa1c506753e51197860b"
+    }
+  },
+  "allInputsSnapshot": {
+    "count": 679,
+    "sha256": "4bbfa6d08890f049fa74041761b678909cbea18c0376e01b15e7ea5a83bc5361",
+    "algorithm": "SHA256 of sorted relative path + TAB + fileSHA256 + LF, UTF-8"
+  },
+  "inputSnapshots": {
+    "tests/artifacts/xue-er-media/inputs-before-test.json": "b09859ce39676f6abb3154c7307a227e884a8bdfeb013a8ebba266d2cd84b26d",
+    "tests/artifacts/xue-er-media/inputs-after-test.json": "b09859ce39676f6abb3154c7307a227e884a8bdfeb013a8ebba266d2cd84b26d"
+  },
+  "beforeAfterSnapshotsEqual": true,
+  "mediaEvidenceReused": {
+    "closedReview": "docs/reviews/xue-er-real-media-final.json",
+    "frozenMediaSubsetMatchesAlreadyClosedHashes": true,
+    "mediaFilesRehashedInThisReview": 0
+  },
+  "humanListeningApproved": false,
+  "focused": {
+    "resultFile": "tests/artifacts/xue-er-media/media-focused-result.json",
+    "resultSHA256": "4e7de14c713ca487a72548dc65fa4dc12515bd761c6c511a29c2b7e449c07feb",
+    "log": "tests/artifacts/xue-er-media/media-focused.log",
+    "logSHA256": "3698951469d083a77bab85b2b9b28f943155881675d0ab4aad9105e4c0bd2f91",
+    "exitCode": 0,
+    "passed": 8
+  },
+  "finalSuite": {
+    "command": "npm test",
+    "exit_code": 0,
+    "passed": 70,
+    "failed": 0,
+    "skipped": 0,
+    "elapsed_seconds": 368.923,
+    "started_at": "2026-11-03T13:33:11.252384+00:00",
+    "finished_at": "2026-11-03T13:39:20.175771+00:00",
+    "log": "tests/artifacts/xue-er-media/npm-test-media-final.log",
+    "log_sha256": "59d793bfc21d294877810ddbbce9ab77156fa4fb2ea87a9e2e7ca1485687e7a0",
+    "source_inputs_sha256": "4827477df48fd8e2d08299643cb6585d707b66da11c040b572c7aed11dff5c93",
+    "all_inputs_sha256": "4bbfa6d08890f049fa74041761b678909cbea18c0376e01b15e7ea5a83bc5361",
+    "resultFile": "tests/artifacts/xue-er-media/npm-test-media-final-result.json",
+    "resultSHA256": "0adf79e326675318fbd646b53f9a818d10b97502ce664ff180be7ba748b1c0b7"
+  },
+  "wordEvidenceFile": {
+    "file": "tests/artifacts/xue-er-media/real-word-groups.json",
+    "sha256": "6ff918f3d292e8dd85b70c9523a2407fd553f0663c84b24f51666f8a16045011"
+  },
+  "words": [
+    {
+      "segment": "xue-er-04-s05",
+      "audioSHA256": "dc435df7e5ee433af527a2a1ff223e3167681b1838363c3e5c130916620697c4",
+      "wordGroups": [
+        {
+          "granularity": "word",
+          "boundaryIndex": 2,
+          "originalBoundaryText": "习乎",
+          "sourceIndexes": [
+            2,
+            3
+          ],
+          "offsetSeconds": 0.552,
+          "sourceDurationSeconds": 0,
+          "sdkPosition": {
+            "textOffset": 286,
+            "wordLength": 2
+          }
+        }
+      ],
+      "held": {
+        "time": 0.964051,
+        "active": [
+          31,
+          32
+        ],
+        "done": [
+          false,
+          false
+        ],
+        "text": "习乎"
+      },
+      "resumed": true,
+      "cancellation": "stop",
+      "oldEndedDidNotRevive": true,
+      "nextTapPlayed": true,
+      "humanListening": false,
+      "mappedChapterSourceIndexes": [
+        31,
+        32
+      ],
+      "htmlFile": "build/xue-er-rehearsal/xue-er-04.html",
+      "htmlSHA256": "a62ea34c6d9de252f6a1ba77c96a0c5348638be6b8c83a3d045105abece30f1f",
+      "embeddedAppMatchesFrozenSource": true,
+      "embeddedPlayerMatchesFrozenSource": true
+    },
+    {
+      "segment": "xue-er-07-s03",
+      "audioSHA256": "49394fc0a5ee8721dfe00f074c79cb436beef00940dfd4857ce3947154f9a78d",
+      "wordGroups": [
+        {
+          "granularity": "word",
+          "boundaryIndex": 1,
+          "originalBoundaryText": "父母",
+          "sourceIndexes": [
+            1,
+            2
+          ],
+          "offsetSeconds": 0.364,
+          "sourceDurationSeconds": 0,
+          "sdkPosition": {
+            "textOffset": 264,
+            "wordLength": 2
+          }
+        }
+      ],
+      "held": {
+        "time": 0.387436,
+        "active": [
+          11,
+          12
+        ],
+        "done": [
+          false,
+          false
+        ],
+        "text": "父母"
+      },
+      "resumed": true,
+      "cancellation": "page change",
+      "oldEndedDidNotRevive": true,
+      "nextTapPlayed": true,
+      "humanListening": false,
+      "mappedChapterSourceIndexes": [
+        11,
+        12
+      ],
+      "htmlFile": "build/xue-er-rehearsal/xue-er-07.html",
+      "htmlSHA256": "02e15621d3d8cda2b7a3bcc6c343f8c4153d8416e764466a40b811244bce7151",
+      "embeddedAppMatchesFrozenSource": true,
+      "embeddedPlayerMatchesFrozenSource": true
+    },
+    {
+      "segment": "xue-er-15-s11",
+      "audioSHA256": "4c676e2289f6be6148c2cfa3742dbfe42de3a31f79007a072b6f6a50e22900fe",
+      "wordGroups": [
+        {
+          "granularity": "word",
+          "boundaryIndex": 5,
+          "originalBoundaryText": "来者",
+          "sourceIndexes": [
+            5,
+            6
+          ],
+          "offsetSeconds": 1.07,
+          "sourceDurationSeconds": 0,
+          "sdkPosition": {
+            "textOffset": 268,
+            "wordLength": 2
+          }
+        }
+      ],
+      "held": {
+        "time": 1.416916,
+        "active": [
+          91,
+          92
+        ],
+        "done": [
+          false,
+          false
+        ],
+        "text": "来者"
+      },
+      "resumed": true,
+      "cancellation": "stop",
+      "oldEndedDidNotRevive": true,
+      "nextTapPlayed": true,
+      "humanListening": false,
+      "mappedChapterSourceIndexes": [
+        91,
+        92
+      ],
+      "htmlFile": "build/xue-er-rehearsal/xue-er-15.html",
+      "htmlSHA256": "3f3af098a50ccc2db5ec61b0611ce81fc43fa82454d779d1506018c3d50378bc",
+      "embeddedAppMatchesFrozenSource": true,
+      "embeddedPlayerMatchesFrozenSource": true
+    }
+  ],
+  "rehearsalHTML": {
+    "build/xue-er-rehearsal/xue-er-04.html": "a62ea34c6d9de252f6a1ba77c96a0c5348638be6b8c83a3d045105abece30f1f",
+    "build/xue-er-rehearsal/xue-er-07.html": "02e15621d3d8cda2b7a3bcc6c343f8c4153d8416e764466a40b811244bce7151",
+    "build/xue-er-rehearsal/xue-er-15.html": "3f3af098a50ccc2db5ec61b0611ce81fc43fa82454d779d1506018c3d50378bc"
+  },
+  "screenshots": [
+    {
+      "source": "tests/artifacts/xue-er-media/rehearsal-word-4-390x844.png",
+      "snapshot": "docs/reviews/xue-er-rehearsal-evidence/rehearsal-word-4-390x844.png",
+      "sha256": "5e7072a8f0f7596e37baef7a394d39b001de304b857d7f26214402e20fb62564",
+      "bytes": 79867,
+      "actuallyOpenedByReviewer": true,
+      "inspectionKind": "agent visual observation, not human acceptance or listening"
+    },
+    {
+      "source": "tests/artifacts/xue-er-media/rehearsal-word-7-390x844.png",
+      "snapshot": "docs/reviews/xue-er-rehearsal-evidence/rehearsal-word-7-390x844.png",
+      "sha256": "08e1055a7292c91c330328b276934191e149e654193661bb7c1732c908e9dc74",
+      "bytes": 81583,
+      "actuallyOpenedByReviewer": true,
+      "inspectionKind": "agent visual observation, not human acceptance or listening"
+    },
+    {
+      "source": "tests/artifacts/xue-er-media/rehearsal-word-15-390x844.png",
+      "snapshot": "docs/reviews/xue-er-rehearsal-evidence/rehearsal-word-15-390x844.png",
+      "sha256": "c4bdb3db4ffe6ffd07e4aa0b44924a3ae51415a3b92ce48bcb0df72676d2b339",
+      "bytes": 94895,
+      "actuallyOpenedByReviewer": true,
+      "inspectionKind": "agent visual observation, not human acceptance or listening"
+    }
+  ],
+  "rootTitleEvidence": {
+    "file": "build/xue-er-audit-root/rehearsal-title-smoke.json",
+    "sha256": "f804227b7194f932e8f7c6128b8d4d9a5b6504180434d9b82f2600c94336feb5",
+    "usedAs": "Existing agent title/stop evidence only; not rerun or treated as human acceptance",
+    "humanListeningApproved": false
+  },
+  "readiness": {
+    "rehearsal": {
+      "file": "build/xue-er-readiness-rehearsal.json",
+      "sha256": "bcc9f59c8c37e7ec8f3f1776209f94d95852a58dc0e03adf8f87cf32eb475ed9",
+      "chapters": 16,
+      "publicationReady": 0,
+      "technicalPlayable": 16
+    },
+    "online": {
+      "file": "build/xue-er-readiness-online.json",
+      "sha256": "ec35a000e70920b5fe6c7e2a12c0bec035ce3ec1b64224d3b2b8915e97b0a20e",
+      "chapters": 16,
+      "publicationReady": 0,
+      "technicalPlayable": null
+    },
+    "offline": {
+      "file": "build/xue-er-readiness-offline.json",
+      "sha256": "a06e141b0bc20b4ecf4a6e80dd93fbe376ed2073aacb9141c9ba31e811b8ac30",
+      "chapters": 16,
+      "publicationReady": 0,
+      "technicalPlayable": null
+    }
+  },
+  "isolation": {
+    "newListeningApprovalAdded": false,
+    "publicHTML": [
+      "index.html",
+      "learn/xue-er/1/index.html",
+      "learn/xue-er/index.html"
+    ],
+    "distHTML": [
+      "index-single.html",
+      "index.html",
+      "xue-er.html"
+    ],
+    "fileSHA256": {
+      "public/index.html": "d1686239c8584129988138ac1c525bb74ce3bdf796e3a8e90071dd5f9ec1b085",
+      "public/learn/xue-er/1/index.html": "0236f4a91ab12448c206ae88e69579e99f2b6e57382bba446ad117a8ee89a47a",
+      "public/learn/xue-er/index.html": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+      "dist/index-single.html": "133ff53b9ce70349b54c085998bd5fe58a1ca2dfdbfb335ac937342c5afe0c5e",
+      "dist/index.html": "7a53c19a9f107120ef5de3401dd4d48ce83ae58247ca8bbf1391f1dfc8b3c228",
+      "dist/xue-er.html": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a"
+    }
+  },
+  "status": "passed-limited-rehearsal-engineering-review",
+  "newPublishedChapters": 0,
+  "reviewerAPICalls": 0,
+  "limitations": [
+    "Human listening/acceptance remains false; A and B audio feedback is still pending.",
+    "Three word groups remain word-level timing, not internal character pronunciation boundaries.",
+    "Media/content/static-matrix reviews reused without reopening.",
+    "Reviewer did not run npm/test/build/browser/API or modify existing services."
+  ]
+}

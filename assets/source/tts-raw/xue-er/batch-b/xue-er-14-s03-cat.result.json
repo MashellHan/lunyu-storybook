@@ -1,0 +1,38 @@
+{
+  "id": "xue-er-14-s03-cat",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "0df7869c2516c907898f4a780c559c4cc604cd9c548d3e745e1cc7916a4dce0e",
+  "attemptId": "505ef9ac-f5ce-4f93-982b-d1996ce516e8",
+  "startedAt": "2026-11-03T13:05:02.911467+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:05:06.936178+00:00",
+  "rawSHA256": "b0fd519178845edb76b6efd17fe855df35ca786fd4bdb78306b8abc598645ae3",
+  "wb": [
+    [
+      0.056833,
+      1.690333,
+      "敏于事而慎于言"
+    ],
+    [
+      1.960208,
+      1.420458,
+      "就有道而正焉"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 244,
+      "wordLength": 7
+    },
+    {
+      "textOffset": 252,
+      "wordLength": 6
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

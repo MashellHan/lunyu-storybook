@@ -1,0 +1,62 @@
+{
+  "text": "君子食无求饱，居无求安，",
+  "dur": 4.594833,
+  "t": [
+    0.056833,
+    0.374069,
+    0.691305,
+    1.008541,
+    1.325777,
+    1.643013,
+    null,
+    2.258541,
+    2.571041,
+    2.883541,
+    3.196041,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "2c4b94726ad0b129c02c07dd468c8bd6c56076189589a0113e73ec8edf3c91cc",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-s02-bunny",
+      "rawSHA256": "d845757c2b5f307164728b3ef1c90bb1ed0383679e23d6a4bdbdbb7a88c40938",
+      "ssmlSHA256": "2880a1e3ae1a51c75ef2d7e6fe1976cd65f5612622b58b0269254a5c10e9ea05"
+    },
+    {
+      "id": "xue-er-14-s02-cat",
+      "rawSHA256": "0640bcb1e0f4532210cf62117448155eac75c0b22044f5084dc372c4641230eb",
+      "ssmlSHA256": "8d8dacee3e13db978d9746ee10701e940eedf40ac0733a973a685a3296e60dfa"
+    },
+    {
+      "id": "xue-er-14-s02-dog",
+      "rawSHA256": "3251ca0d2a3f0a0c44facbe6009959743229d0ab81475063c9077122d3a12451",
+      "ssmlSHA256": "9cd63fbe7ee412858242138da32dcc58ca09e64d70710f819fef7d00fcdacf68"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.7967914438502673,
+        0.6310160427807485
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

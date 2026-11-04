@@ -1,0 +1,38 @@
+{
+  "text": "夫子温、良、恭、俭、让以得之。",
+  "dur": 5.568,
+  "t": [
+    0.056833,
+    0.369333,
+    0.681833,
+    null,
+    1.335208,
+    null,
+    2.017041,
+    null,
+    2.65625,
+    null,
+    3.366458,
+    3.636375,
+    3.863625,
+    4.204541,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "b4fe9075e6a4733930ce0cdf9c3b73180f75261a5a6dd1aecb715a11cf6dca71",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s05-bunny",
+      "rawSHA256": "3e3ec9d2b3bf13b2c79195cdda38711828d13a9ac8e26c7b8351a2795160267b",
+      "ssmlSHA256": "72d57fee669cc5cf920190937e1e79656c20011a4e5c74d8c252ca14c6e7ac82"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

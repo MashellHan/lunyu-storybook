@@ -1,0 +1,128 @@
+{
+  "id": "xue-er-16-s02-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "5953caa6a1519191eae0ded01902828c6eae8fe254900f4c31fbd631028b0111",
+  "attemptId": "9de7febc-564b-46bf-8e57-88eab1ccd260",
+  "startedAt": "2026-11-03T13:07:38.259184+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:07:42.738461+00:00",
+  "rawSHA256": "ce5f7f3f8da9fc07e4549f85fc1e598ca2ef703efabf71dd39ed45b4e3c9f5ba",
+  "wb": [
+    [
+      0.058833,
+      0.279416,
+      "不"
+    ],
+    [
+      0.33825,
+      0.294083,
+      "患"
+    ],
+    [
+      0.632333,
+      0.220583,
+      "人"
+    ],
+    [
+      0.867666,
+      0.25,
+      "之"
+    ],
+    [
+      1.117666,
+      0.25,
+      "不"
+    ],
+    [
+      1.367666,
+      0.264666,
+      "己"
+    ],
+    [
+      1.632333,
+      0.397041,
+      "知"
+    ],
+    [
+      2.485291,
+      0.544125,
+      "患"
+    ],
+    [
+      3.029416,
+      0.191166,
+      "不"
+    ],
+    [
+      3.220583,
+      0.205875,
+      "知"
+    ],
+    [
+      3.426458,
+      0.308833,
+      "人"
+    ],
+    [
+      3.735291,
+      0.455875,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 262,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 269,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 270,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 271,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 272,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 273,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

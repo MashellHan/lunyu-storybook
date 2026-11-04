@@ -1,0 +1,505 @@
+{
+  "at": "2026-11-03T10:48:50.128Z",
+  "mode": "bfcache",
+  "artifactSha256": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+  "sourceSha256": "7d380a43f78f5a3b0bb05191642fb819335f306a92f8d8b13d0ad65a62d20903",
+  "cases": [
+    {
+      "name": "automatic e1 -> home -> real browser back",
+      "before": {
+        "docId": "0.70sxzyrajgb",
+        "step": "e1",
+        "free": false,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.347394,
+        "duration": 3.672,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793702936788
+          },
+          {
+            "key": "trumpet",
+            "t": 1793702944106
+          },
+          {
+            "key": "e1",
+            "t": 1793702946834
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 805.5,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 1643.9000000059605,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 8992.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 11692.10000000894,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 12179.79999999702
+      },
+      "returned": {
+        "docId": "0.70sxzyrajgb",
+        "step": "free",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": true,
+        "audioTime": 0.542494,
+        "duration": 3.672,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793702936788
+          },
+          {
+            "key": "trumpet",
+            "t": 1793702944106
+          },
+          {
+            "key": "e1",
+            "t": 1793702946834
+          }
+        ],
+        "focus": 0,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 805.5,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          },
+          {
+            "name": "pagehide",
+            "persisted": true,
+            "hidden": false,
+            "t": 12824.79999999702,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "visibilitychange",
+            "persisted": null,
+            "hidden": true,
+            "t": 12910.79999999702,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "freeze",
+            "persisted": null,
+            "hidden": true,
+            "t": 13031.60000000894,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "resume",
+            "persisted": null,
+            "hidden": true,
+            "t": 13676,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "visibilitychange",
+            "persisted": null,
+            "hidden": false,
+            "t": 13676.60000000894,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "pageshow",
+            "persisted": true,
+            "hidden": false,
+            "t": 13677.70000000298,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0.542494
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 1643.9000000059605,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 8992.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 11692.10000000894,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          }
+        ],
+        "persisted": true,
+        "historyState": {
+          "lunyuFree": true
+        },
+        "now": 14333.40000000596
+      },
+      "settled": {
+        "docId": "0.70sxzyrajgb",
+        "step": "free",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": true,
+        "audioTime": 0.542494,
+        "duration": 3.672,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793702936788
+          },
+          {
+            "key": "trumpet",
+            "t": 1793702944106
+          },
+          {
+            "key": "e1",
+            "t": 1793702946834
+          }
+        ],
+        "focus": 0,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 805.5,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          },
+          {
+            "name": "pagehide",
+            "persisted": true,
+            "hidden": false,
+            "t": 12824.79999999702,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "visibilitychange",
+            "persisted": null,
+            "hidden": true,
+            "t": 12910.79999999702,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "freeze",
+            "persisted": null,
+            "hidden": true,
+            "t": 13031.60000000894,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "resume",
+            "persisted": null,
+            "hidden": true,
+            "t": 13676,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "visibilitychange",
+            "persisted": null,
+            "hidden": false,
+            "t": 13676.60000000894,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "pageshow",
+            "persisted": true,
+            "hidden": false,
+            "t": 13677.70000000298,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0.542494
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 1643.9000000059605,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 8992.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 11692.10000000894,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          }
+        ],
+        "persisted": true,
+        "historyState": {
+          "lunyuFree": true
+        },
+        "now": 16391.70000000298
+      },
+      "clicked": {
+        "docId": "0.70sxzyrajgb",
+        "step": "solo-cat",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.317425,
+        "duration": 3.744,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793702936788
+          },
+          {
+            "key": "trumpet",
+            "t": 1793702944106
+          },
+          {
+            "key": "e1",
+            "t": 1793702946834
+          },
+          {
+            "key": "c2",
+            "t": 1793702952965
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 805.5,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          },
+          {
+            "name": "pagehide",
+            "persisted": true,
+            "hidden": false,
+            "t": 12824.79999999702,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "visibilitychange",
+            "persisted": null,
+            "hidden": true,
+            "t": 12910.79999999702,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "freeze",
+            "persisted": null,
+            "hidden": true,
+            "t": 13031.60000000894,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "resume",
+            "persisted": null,
+            "hidden": true,
+            "t": 13676,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "visibilitychange",
+            "persisted": null,
+            "hidden": false,
+            "t": 13676.60000000894,
+            "step": "free",
+            "paused": true,
+            "audioTime": 0.542494
+          },
+          {
+            "name": "pageshow",
+            "persisted": true,
+            "hidden": false,
+            "t": 13677.70000000298,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0.542494
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 1643.9000000059605,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 8992.5,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 11692.10000000894,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 1635.1000000089407,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          },
+          {
+            "t": 17830.10000000894,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 16772.20000000298,
+              "id": "cat"
+            },
+            "step": "solo-cat"
+          }
+        ],
+        "persisted": true,
+        "historyState": {
+          "lunyuFree": true
+        },
+        "now": 18315
+      },
+      "notRestored": [],
+      "actualBFCache": true
+    }
+  ],
+  "errors": [],
+  "browser": "156.0.8078.4",
+  "launch": {
+    "executablePath": "/Users/mengxionghan/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+    "headless": true,
+    "ignoreDefaultArgs": [
+      "--disable-back-forward-cache"
+    ]
+  },
+  "artifactAfter": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94"
+}

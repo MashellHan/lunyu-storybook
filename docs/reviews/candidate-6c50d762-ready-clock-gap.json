@@ -1,0 +1,157 @@
+{
+  "at": "2026-11-03T10:44:32.127Z",
+  "method": "Synthetic monotonic-clock gap while paused, not real background/freezing. Fallback case explicitly injects a rejected play() promise. Normal pause uses actual elapsed time.",
+  "artifactSha256": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+  "sourceSha256": "7d380a43f78f5a3b0bb05191642fb819335f306a92f8d8b13d0ad65a62d20903",
+  "cases": [
+    {
+      "kind": "fallback",
+      "before": {
+        "step": "e1",
+        "paused": false,
+        "audioPaused": true,
+        "audioTime": 0,
+        "log": [
+          "title",
+          "e1"
+        ],
+        "currentGlyphs": [
+          "学xué"
+        ],
+        "now": 2237.7999999970198
+      },
+      "gapMs": 12000,
+      "after": {
+        "step": "e1",
+        "paused": false,
+        "audioPaused": true,
+        "audioTime": 0,
+        "log": [
+          "title",
+          "e1"
+        ],
+        "currentGlyphs": [
+          "时shí"
+        ],
+        "now": 14950.79999999702
+      },
+      "pass": true
+    },
+    {
+      "kind": "wait",
+      "before": {
+        "step": "solo-bunny",
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0,
+        "log": [],
+        "currentGlyphs": [],
+        "now": 2168.6000000089407
+      },
+      "gapMs": 4000,
+      "after": {
+        "step": "solo-bunny",
+        "paused": false,
+        "audioPaused": true,
+        "audioTime": 0,
+        "log": [],
+        "currentGlyphs": [],
+        "now": 6581.9000000059605
+      },
+      "pass": true,
+      "eventually": {
+        "step": "solo-bunny",
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.023787,
+        "log": [
+          "b1"
+        ],
+        "currentGlyphs": [],
+        "now": 7112.100000008941
+      }
+    },
+    {
+      "kind": "media",
+      "before": {
+        "step": "e1",
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.254676,
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "currentGlyphs": [
+          "学xué"
+        ],
+        "now": 11152
+      },
+      "gapMs": 12000,
+      "after": {
+        "step": "e1",
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.917087,
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "currentGlyphs": [
+          "时shí"
+        ],
+        "now": 23873.39999999106
+      },
+      "pass": true
+    },
+    {
+      "kind": "normal-pause",
+      "before": {
+        "step": "e1",
+        "paused": true,
+        "audioPaused": true,
+        "audioTime": 0.038273,
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "currentGlyphs": [],
+        "now": 10895.10000000894
+      },
+      "paused": {
+        "step": "e1",
+        "paused": true,
+        "audioPaused": true,
+        "audioTime": 0.038273,
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "currentGlyphs": [],
+        "now": 12100.10000000894
+      },
+      "after": {
+        "step": "e1",
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.642147,
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "currentGlyphs": [
+          "而ér"
+        ],
+        "now": 12867.800000011921
+      },
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "artifactAfter": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94"
+}

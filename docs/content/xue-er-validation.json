@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "file": "docs/content/xue-er.json",
+  "sha256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "chapters": 16,
+  "segments": 72,
+  "hanCharacters": 493,
+  "codepoints": 660,
+  "punctuationPositions": 167,
+  "attributionSegments": 20,
+  "pronunciationOccurrences": 118,
+  "uniqueSegmentIds": true,
+  "exactPrimaryTextAndPunctuation": true,
+  "pinyinAlignedIncludingPunctuation": true,
+  "pronunciationsAligned": true,
+  "crossSourceHanMatches": 16,
+  "sources": [
+    {
+      "id": "base",
+      "sha256": "bc336a3839706377892719db44c48a09794a493190535a42bf1c7d4c4233e96c",
+      "matches": true
+    },
+    {
+      "id": "zhu-xi",
+      "sha256": "301790085da2a6216266973c79a70a0bf9562c792ae10051fccc206c0dfceb18",
+      "matches": true
+    },
+    {
+      "id": "wikisource",
+      "sha256": "bfa804b1108d47fd525e1a568c17303a4a3d0a1934c4dc5f20e8a5e4ce6c011b",
+      "matches": true
+    },
+    {
+      "id": "moe-readings",
+      "sha256": "f2aedec3784b8dd712fa5a356db9f79afe7fb3700115ed9ee25156a7c764ceab",
+      "matches": true
+    }
+  ],
+  "publicationReadyFalseForAll": true,
+  "batchA": "No changes to its frozen 30 SSML entries or counts; this validation does not regenerate them.",
+  "chapterSummary": [
+    {
+      "chapter": 1,
+      "id": "xue-er-01",
+      "title": "学而时习之",
+      "hanCharacters": 32,
+      "segments": 4,
+      "pronunciationOccurrences": 6,
+      "publicationReady": false
+    },
+    {
+      "chapter": 2,
+      "id": "xue-er-02",
+      "title": "其为人也孝弟",
+      "hanCharacters": 48,
+      "segments": 5,
+      "pronunciationOccurrences": 15,
+      "publicationReady": false
+    },
+    {
+      "chapter": 3,
+      "id": "xue-er-03",
+      "title": "巧言令色",
+      "hanCharacters": 9,
+      "segments": 2,
+      "pronunciationOccurrences": 3,
+      "publicationReady": false
+    },
+    {
+      "chapter": 4,
+      "id": "xue-er-04",
+      "title": "吾日三省吾身",
+      "hanCharacters": 28,
+      "segments": 5,
+      "pronunciationOccurrences": 6,
+      "publicationReady": false
+    },
+    {
+      "chapter": 5,
+      "id": "xue-er-05",
+      "title": "道千乘之国",
+      "hanCharacters": 20,
+      "segments": 4,
+      "pronunciationOccurrences": 4,
+      "publicationReady": false
+    },
+    {
+      "chapter": 6,
+      "id": "xue-er-06",
+      "title": "弟子入则孝",
+      "hanCharacters": 27,
+      "segments": 4,
+      "pronunciationOccurrences": 6,
+      "publicationReady": false
+    },
+    {
+      "chapter": 7,
+      "id": "xue-er-07",
+      "title": "贤贤易色",
+      "hanCharacters": 38,
+      "segments": 6,
+      "pronunciationOccurrences": 6,
+      "publicationReady": false
+    },
+    {
+      "chapter": 8,
+      "id": "xue-er-08",
+      "title": "君子不重则不威",
+      "hanCharacters": 27,
+      "segments": 4,
+      "pronunciationOccurrences": 5,
+      "publicationReady": false
+    },
+    {
+      "chapter": 9,
+      "id": "xue-er-09",
+      "title": "慎终追远",
+      "hanCharacters": 12,
+      "segments": 2,
+      "pronunciationOccurrences": 2,
+      "publicationReady": false
+    },
+    {
+      "chapter": 10,
+      "id": "xue-er-10",
+      "title": "夫子至于是邦也",
+      "hanCharacters": 53,
+      "segments": 7,
+      "pronunciationOccurrences": 8,
+      "publicationReady": false
+    },
+    {
+      "chapter": 11,
+      "id": "xue-er-11",
+      "title": "父在观其志",
+      "hanCharacters": 24,
+      "segments": 3,
+      "pronunciationOccurrences": 10,
+      "publicationReady": false
+    },
+    {
+      "chapter": 12,
+      "id": "xue-er-12",
+      "title": "礼之用和为贵",
+      "hanCharacters": 38,
+      "segments": 5,
+      "pronunciationOccurrences": 15,
+      "publicationReady": false
+    },
+    {
+      "chapter": 13,
+      "id": "xue-er-13",
+      "title": "信近于义",
+      "hanCharacters": 28,
+      "segments": 4,
+      "pronunciationOccurrences": 6,
+      "publicationReady": false
+    },
+    {
+      "chapter": 14,
+      "id": "xue-er-14",
+      "title": "君子食无求饱",
+      "hanCharacters": 31,
+      "segments": 4,
+      "pronunciationOccurrences": 8,
+      "publicationReady": false
+    },
+    {
+      "chapter": 15,
+      "id": "xue-er-15",
+      "title": "贫而无谄",
+      "hanCharacters": 64,
+      "segments": 11,
+      "pronunciationOccurrences": 16,
+      "publicationReady": false
+    },
+    {
+      "chapter": 16,
+      "id": "xue-er-16",
+      "title": "不患人之不己知",
+      "hanCharacters": 14,
+      "segments": 2,
+      "pronunciationOccurrences": 2,
+      "publicationReady": false
+    }
+  ]
+}

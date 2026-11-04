@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-15-s07-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "32f814ce42476e62784b8f6d4be05fcb619d7772334044c69f1b8edc28c3aebd",
+  "attemptId": "7678655a-a7a7-4469-8cc8-eb1370a47164",
+  "startedAt": "2026-11-03T13:06:36.752719+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:06:42.098138+00:00",
+  "rawSHA256": "3023316c1996de12bf227782c8a08634c53e070465fc6e40e31fa1edcdf5bcc4",
+  "wb": [
+    [
+      0.082,
+      0.376,
+      "《诗"
+    ],
+    [
+      0.458,
+      0.564,
+      "云"
+    ],
+    [
+      1.117,
+      0.282,
+      "如"
+    ],
+    [
+      1.4,
+      0.235,
+      "切"
+    ],
+    [
+      1.635,
+      0.188,
+      "如"
+    ],
+    [
+      1.823,
+      0.423,
+      "搓"
+    ],
+    [
+      2.501,
+      0.376,
+      "如"
+    ],
+    [
+      2.877,
+      0.235,
+      "卓"
+    ],
+    [
+      3.113,
+      0.188,
+      "\">琢如"
+    ],
+    [
+      3.301,
+      0.47,
+      "磨"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 269,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 270,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 271,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 316,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 4
+    },
+    {
+      "textOffset": 340,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "xue-er-15-s05-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "96b29b6dd59e73abdf8acb28b33ed2665010b7484eefae5b409737ef3967f8ae",
+  "attemptId": "39845850-f1b6-48a7-9547-703fff4638c0",
+  "startedAt": "2026-11-03T13:06:19.062309+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:06:23.953182+00:00",
+  "rawSHA256": "df89614dca4e6b0c2164450286cdd3051a1dbe300445659e8f53fff9b248ca8a",
+  "wb": [
+    [
+      0.082,
+      0.282,
+      "未"
+    ],
+    [
+      0.364,
+      0.141,
+      "若"
+    ],
+    [
+      0.505,
+      0.235,
+      "贫"
+    ],
+    [
+      0.741,
+      0.188,
+      "而"
+    ],
+    [
+      0.929,
+      0.329,
+      "乐"
+    ],
+    [
+      1.448,
+      0.282,
+      "富"
+    ],
+    [
+      1.73,
+      0.141,
+      "而"
+    ],
+    [
+      1.871,
+      0.188,
+      "耗"
+    ],
+    [
+      2.06,
+      0.141,
+      "\">好礼"
+    ],
+    [
+      2.201,
+      0.188,
+      "者"
+    ],
+    [
+      2.389,
+      0.0,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 290,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 291,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 4
+    },
+    {
+      "textOffset": 315,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 316,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

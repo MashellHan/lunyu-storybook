@@ -1,0 +1,74 @@
+{
+  "id": "xue-er-15-s02-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "951b0e91a5fd38c891f1fe428f0af4b053b9f604b9970aef3c96e4837a52abea",
+  "attemptId": "7741cd29-770a-4076-95c6-618f9d0d07b5",
+  "startedAt": "2026-11-03T13:05:33.110234+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:05:37.439448+00:00",
+  "rawSHA256": "2ad21c730802ecb3285fae5a427705a2743b7375e19ed51ba81afe59fccc2ce3",
+  "wb": [
+    [
+      0.058833,
+      0.3235,
+      "贫"
+    ],
+    [
+      0.382333,
+      0.205875,
+      "而"
+    ],
+    [
+      0.58825,
+      0.205875,
+      "无"
+    ],
+    [
+      0.794125,
+      0.41175,
+      "谄"
+    ],
+    [
+      1.558833,
+      1.117666,
+      "富而无骄"
+    ],
+    [
+      3.08825,
+      0.764708,
+      "何如"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 262,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 301,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 313,
+      "wordLength": 4
+    },
+    {
+      "textOffset": 318,
+      "wordLength": 2
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

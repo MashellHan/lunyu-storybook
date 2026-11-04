@@ -1,0 +1,5798 @@
+{
+  "schemaVersion": 1,
+  "book": {
+    "id": "xue-er",
+    "number": 1,
+    "title": "学而",
+    "expectedChapterCount": 16
+  },
+  "edition": {
+    "sourceId": "base",
+    "chapterSelector": "[0].paragraphs",
+    "policy": "逐字保留该固定版本的简体正文与标点；异文仅记录，不混入正文。这是数字工作底本，不冒称古籍影印校勘本。"
+  },
+  "sources": [
+    {
+      "id": "base",
+      "title": "chinese-poetry《论语》固定数字工作底本",
+      "url": "https://github.com/chinese-poetry/chinese-poetry/blob/fa1814a8044db4fb0c7a9e0a0449974e8c3463b7/论语/lunyu.json",
+      "revision": "fa1814a8044db4fb0c7a9e0a0449974e8c3463b7",
+      "snapshot": "sources/chinese-poetry-lunyu-fa1814a8.json",
+      "sha256": "bc336a3839706377892719db44c48a09794a493190535a42bf1c7d4c4233e96c",
+      "accessedOn": "2026-11-03"
+    },
+    {
+      "id": "zhu-xi",
+      "title": "朱熹《四书章句集注·论语集注卷一》维基文库转录",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2598582",
+      "revision": "2598582",
+      "snapshot": "sources/zhu-xi-2598582.wiki",
+      "sha256": "301790085da2a6216266973c79a70a0bf9562c792ae10051fccc206c0dfceb18",
+      "accessedOn": "2026-11-03"
+    },
+    {
+      "id": "wikisource",
+      "title": "《论语·学而第一》维基文库",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=11118093",
+      "revision": "11118093",
+      "snapshot": "sources/lunyu-xue-er-11118093.wiki",
+      "sha256": "bfa804b1108d47fd525e1a568c17303a4a3d0a1934c4dc5f20e8a5e4ce6c011b",
+      "accessedOn": "2026-11-03"
+    },
+    {
+      "id": "moe-readings",
+      "title": "教育部《重編國語辭典修訂本》萌典公开镜像；实际读取的词条快照",
+      "url": "https://www.moedict.tw/",
+      "snapshot": "sources/moe-readings.json",
+      "sha256": "f2aedec3784b8dd712fa5a356db9f79afe7fb3700115ed9ee25156a7c764ceab",
+      "accessedOn": "2026-11-03",
+      "scope": "仅用于所列现代读音、词义；各具体词条URL在快照中。不声称直接访问教育部当前线上版本。"
+    }
+  ],
+  "alignment": {
+    "unit": "Unicode code point",
+    "indexBase": 0,
+    "range": "[start,end)",
+    "pinyin": "与 Array.from(segment.text) 等长；每字一个带调拼音，所有标点位置为空字符串。",
+    "reading": "现代普通话逐字本调，并依固定朱注语义区分文言义读（如行xìng、远yuàn）；不、一及三声连读变调不改显示拼音；古代上/去/平声不得机械等同现代声调，按相应现代词条复核。",
+    "speaker": "原文人物；引语标识段为 narrator，不等于动画角色或 Azure voice。",
+    "title": "目录用原文开头，不添加到 fullText 或正文朗读。",
+    "pronunciations": "列出本篇实际出现的多音、多义易误读及少见字；每项有字位、语境、现代词条，必要时附朱注。SAPI/alias只是定位到该字的候选，不作全局替换。"
+  },
+  "review": {
+    "status": "content-checked-awaiting-human-and-media",
+    "checkedChapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "remainingChapters": [],
+    "humanTextReview": "pending",
+    "audio": "not-generated",
+    "listening": "not-performed",
+    "publicationReady": false,
+    "reviewer": "lunyu-review",
+    "checkedOn": "2026-11-03",
+    "pronunciationOccurrences": 118
+  },
+  "existingDemo": {
+    "chapter": 1,
+    "missingText": "子曰",
+    "action": "单独新录前缀，不重渲染既有 v5；保留原素材、混音与词边界。",
+    "completeAgainstEdition": false
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "id": "xue-er-01",
+      "title": "学而时习之",
+      "fullText": "子曰：“学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "prefix-missing-existing-v5-preserved",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-01-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-01-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 15,
+          "text": "学而时习之，不亦说乎？",
+          "pinyin": [
+            "xué",
+            "ér",
+            "shí",
+            "xí",
+            "zhī",
+            "",
+            "bù",
+            "yì",
+            "yuè",
+            "hū",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 8,
+              "chapterIndex": 12,
+              "char": "说",
+              "pinyin": "yuè",
+              "reason": "通悦，表示喜悦；保留原字说，不改成悦。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "說 / yuè",
+                  "url": "https://www.moedict.tw/%E8%AA%AA"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.1音注",
+                  "quote": "說、悅同。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yue 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yue 4\">说</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "悦",
+                "ssml": "<sub alias=\"悦\">说</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-01-s03",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 15,
+          "end": 27,
+          "text": "有朋自远方来，不亦乐乎？",
+          "pinyin": [
+            "yǒu",
+            "péng",
+            "zì",
+            "yuǎn",
+            "fāng",
+            "lái",
+            "",
+            "bù",
+            "yì",
+            "lè",
+            "hū",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 15,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 18,
+              "char": "远",
+              "pinyin": "yuǎn",
+              "reason": "远方/追远，空间或时间距离义。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "遠 / yuǎn",
+                  "url": "https://www.moedict.tw/%E9%81%A0"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yuan 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yuan 3\">远</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "远",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 9,
+              "chapterIndex": 24,
+              "char": "乐",
+              "pinyin": "lè",
+              "reason": "喜乐，不是音乐的 yuè；HD沿用已知默认 lè，仍需新片段听检。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "樂 / lè",
+                  "url": "https://www.moedict.tw/%E6%A8%82"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.1音注",
+                  "quote": "樂，音洛。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "le 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"le 4\">乐</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "乐",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-01-s04",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 27,
+          "end": 41,
+          "text": "人不知而不愠，不亦君子乎？”",
+          "pinyin": [
+            "rén",
+            "bù",
+            "zhī",
+            "ér",
+            "bù",
+            "yùn",
+            "",
+            "bù",
+            "yì",
+            "jūn",
+            "zǐ",
+            "hū",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 29,
+              "char": "知",
+              "pinyin": "zhī",
+              "reason": "了解、知道；本篇所列各处不作智的通假 zhì。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "知 / zhī",
+                  "url": "https://www.moedict.tw/%E7%9F%A5"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zhi 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhi 1\">知</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "知",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 32,
+              "char": "愠",
+              "pinyin": "yùn",
+              "reason": "含怒、怨怒；既有项目已校定此读音和HD候选。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "慍 / yùn",
+                  "url": "https://www.moedict.tw/%E6%85%8D"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.1音注",
+                  "quote": "慍，紆問反。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yun 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yun 4\">愠</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "运",
+                "ssml": "<sub alias=\"运\">愠</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "xue-er-02",
+      "title": "其为人也孝弟",
+      "fullText": "有子曰：“其为人也孝弟，而好犯上者，鲜矣；不好犯上而好作乱者，未之有也。君子务本，本立而道生。孝弟也者，其为仁之本与！”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-02-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 5,
+          "text": "有子曰：“",
+          "pinyin": [
+            "yǒu",
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 0,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ],
+          "attributedSpeaker": "有子"
+        },
+        {
+          "id": "xue-er-02-s02",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 5,
+          "end": 21,
+          "text": "其为人也孝弟，而好犯上者，鲜矣；",
+          "pinyin": [
+            "qí",
+            "wéi",
+            "rén",
+            "yě",
+            "xiào",
+            "tì",
+            "",
+            "ér",
+            "hào",
+            "fàn",
+            "shàng",
+            "zhě",
+            "",
+            "xiǎn",
+            "yǐ",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 1,
+              "chapterIndex": 6,
+              "char": "为",
+              "pinyin": "wéi",
+              "reason": "为人/为仁指做人、行仁；和为贵/斯为美为判断义。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "為 / wéi",
+                  "url": "https://www.moedict.tw/%E7%82%BA"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wei 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wei 2\">为</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "为",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 10,
+              "char": "弟",
+              "pinyin": "tì",
+              "reason": "孝弟、出则弟，敬顺兄长，通悌。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "弟 / tì",
+                  "url": "https://www.moedict.tw/%E5%BC%9F"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.2音注",
+                  "quote": "弟、好，皆去聲。鮮，上聲，下同。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ti 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ti 4\">弟</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "替",
+                "ssml": "<sub alias=\"替\">弟</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 13,
+              "char": "好",
+              "pinyin": "hào",
+              "reason": "喜好；好犯上/好作乱/好学/好礼均读去声。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "好 / hào",
+                  "url": "https://www.moedict.tw/%E5%A5%BD"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.2音注",
+                  "quote": "弟、好，皆去聲。鮮，上聲，下同。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "hao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"hao 4\">好</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "耗",
+                "ssml": "<sub alias=\"耗\">好</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 10,
+              "chapterIndex": 15,
+              "char": "上",
+              "pinyin": "shàng",
+              "reason": "犯上，居上位的人；非上声 shǎng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "上 / shàng",
+                  "url": "https://www.moedict.tw/%E4%B8%8A"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "shang 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"shang 4\">上</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "上",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 13,
+              "chapterIndex": 18,
+              "char": "鲜",
+              "pinyin": "xiǎn",
+              "reason": "少、罕有；不是新鲜 xiān。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "鮮 / xiǎn",
+                  "url": "https://www.moedict.tw/%E9%AE%AE"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.2音注",
+                  "quote": "弟、好，皆去聲。鮮，上聲，下同。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xian 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xian 3\">鲜</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "显",
+                "ssml": "<sub alias=\"显\">鲜</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-02-s03",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 21,
+          "end": 36,
+          "text": "不好犯上而好作乱者，未之有也。",
+          "pinyin": [
+            "bù",
+            "hào",
+            "fàn",
+            "shàng",
+            "ér",
+            "hào",
+            "zuò",
+            "luàn",
+            "zhě",
+            "",
+            "wèi",
+            "zhī",
+            "yǒu",
+            "yě",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 1,
+              "chapterIndex": 22,
+              "char": "好",
+              "pinyin": "hào",
+              "reason": "喜好；好犯上/好作乱/好学/好礼均读去声。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "好 / hào",
+                  "url": "https://www.moedict.tw/%E5%A5%BD"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.2音注",
+                  "quote": "弟、好，皆去聲。鮮，上聲，下同。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "hao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"hao 4\">好</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "耗",
+                "ssml": "<sub alias=\"耗\">好</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 24,
+              "char": "上",
+              "pinyin": "shàng",
+              "reason": "犯上，居上位的人；非上声 shǎng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "上 / shàng",
+                  "url": "https://www.moedict.tw/%E4%B8%8A"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "shang 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"shang 4\">上</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "上",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 26,
+              "char": "好",
+              "pinyin": "hào",
+              "reason": "喜好；好犯上/好作乱/好学/好礼均读去声。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "好 / hào",
+                  "url": "https://www.moedict.tw/%E5%A5%BD"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.2音注",
+                  "quote": "弟、好，皆去聲。鮮，上聲，下同。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "hao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"hao 4\">好</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "耗",
+                "ssml": "<sub alias=\"耗\">好</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 6,
+              "chapterIndex": 27,
+              "char": "作",
+              "pinyin": "zuò",
+              "reason": "作乱，发动或制造祸乱。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "作 / zuò",
+                  "url": "https://www.moedict.tw/%E4%BD%9C"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zuo 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zuo 4\">作</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "作",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 12,
+              "chapterIndex": 33,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-02-s04",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 36,
+          "end": 47,
+          "text": "君子务本，本立而道生。",
+          "pinyin": [
+            "jūn",
+            "zǐ",
+            "wù",
+            "běn",
+            "",
+            "běn",
+            "lì",
+            "ér",
+            "dào",
+            "shēng",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 8,
+              "chapterIndex": 44,
+              "char": "道",
+              "pinyin": "dào",
+              "reason": "道理/道路等；1.5治理义依朱注“道、乘，皆去聲”定 dào，不混用别本 dǎo。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "道 / dào",
+                  "url": "https://www.moedict.tw/%E9%81%93"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "dao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"dao 4\">道</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "道",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-02-s05",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 47,
+          "end": 60,
+          "text": "孝弟也者，其为仁之本与！”",
+          "pinyin": [
+            "xiào",
+            "tì",
+            "yě",
+            "zhě",
+            "",
+            "qí",
+            "wéi",
+            "rén",
+            "zhī",
+            "běn",
+            "yú",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 1,
+              "chapterIndex": 48,
+              "char": "弟",
+              "pinyin": "tì",
+              "reason": "孝弟、出则弟，敬顺兄长，通悌。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "弟 / tì",
+                  "url": "https://www.moedict.tw/%E5%BC%9F"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.2音注",
+                  "quote": "弟、好，皆去聲。鮮，上聲，下同。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ti 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ti 4\">弟</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "替",
+                "ssml": "<sub alias=\"替\">弟</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 6,
+              "chapterIndex": 53,
+              "char": "为",
+              "pinyin": "wéi",
+              "reason": "为人/为仁指做人、行仁；和为贵/斯为美为判断义。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "為 / wéi",
+                  "url": "https://www.moedict.tw/%E7%82%BA"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wei 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wei 2\">为</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "为",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 10,
+              "chapterIndex": 57,
+              "char": "与",
+              "pinyin": "yú",
+              "reason": "句末语气词，同欤；不是给予或同谁一起的 yǔ。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yú",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.2音注",
+                  "quote": "與，平聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 2\">与</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "于",
+                "ssml": "<sub alias=\"于\">与</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "xue-er-03",
+      "title": "巧言令色",
+      "fullText": "子曰：“巧言令色，鲜矣仁！”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-03-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-03-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 14,
+          "text": "巧言令色，鲜矣仁！”",
+          "pinyin": [
+            "qiǎo",
+            "yán",
+            "lìng",
+            "sè",
+            "",
+            "xiǎn",
+            "yǐ",
+            "rén",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 6,
+              "char": "令",
+              "pinyin": "lìng",
+              "reason": "令色，善美的脸色；朱注“令，善也”。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "令 / lìng",
+                  "url": "https://www.moedict.tw/%E4%BB%A4"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ling 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ling 4\">令</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "令",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 7,
+              "char": "色",
+              "pinyin": "sè",
+              "reason": "令色/易色，书面容色义，不读口语 shǎi。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "色 / sè",
+                  "url": "https://www.moedict.tw/%E8%89%B2"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "se 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"se 4\">色</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "色",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 9,
+              "char": "鲜",
+              "pinyin": "xiǎn",
+              "reason": "少、罕有；不是新鲜 xiān。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "鮮 / xiǎn",
+                  "url": "https://www.moedict.tw/%E9%AE%AE"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xian 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xian 3\">鲜</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "显",
+                "ssml": "<sub alias=\"显\">鲜</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "xue-er-04",
+      "title": "吾日三省吾身",
+      "fullText": "曾子曰：“吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-04-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 5,
+          "text": "曾子曰：“",
+          "pinyin": [
+            "zēng",
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 0,
+              "char": "曾",
+              "pinyin": "zēng",
+              "reason": "曾子之姓，非曾经的 céng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "曾 / zēng",
+                  "url": "https://www.moedict.tw/%E6%9B%BE"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zeng 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zeng 1\">曾</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "增",
+                "ssml": "<sub alias=\"增\">曾</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ],
+          "attributedSpeaker": "曾子"
+        },
+        {
+          "id": "xue-er-04-s02",
+          "kind": "speech",
+          "speaker": "曾子",
+          "start": 5,
+          "end": 12,
+          "text": "吾日三省吾身：",
+          "pinyin": [
+            "wú",
+            "rì",
+            "sān",
+            "xǐng",
+            "wú",
+            "shēn",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 3,
+              "chapterIndex": 8,
+              "char": "省",
+              "pinyin": "xǐng",
+              "reason": "三省，反省、审察；非省份 shěng。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "省 / xǐng",
+                  "url": "https://www.moedict.tw/%E7%9C%81"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.4音注",
+                  "quote": "省，悉井反。為，去聲。傳，平聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xing 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xing 3\">省</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "醒",
+                "ssml": "<sub alias=\"醒\">省</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-04-s03",
+          "kind": "speech",
+          "speaker": "曾子",
+          "start": 12,
+          "end": 20,
+          "text": "为人谋而不忠乎？",
+          "pinyin": [
+            "wèi",
+            "rén",
+            "móu",
+            "ér",
+            "bù",
+            "zhōng",
+            "hū",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 12,
+              "char": "为",
+              "pinyin": "wèi",
+              "reason": "为人谋，替别人谋划。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "為 / wèi",
+                  "url": "https://www.moedict.tw/%E7%82%BA"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.4音注",
+                  "quote": "省，悉井反。為，去聲。傳，平聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wei 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wei 4\">为</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "位",
+                "ssml": "<sub alias=\"位\">为</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-04-s04",
+          "kind": "speech",
+          "speaker": "曾子",
+          "start": 20,
+          "end": 29,
+          "text": "与朋友交而不信乎？",
+          "pinyin": [
+            "yǔ",
+            "péng",
+            "yǒu",
+            "jiāo",
+            "ér",
+            "bù",
+            "xìn",
+            "hū",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 20,
+              "char": "与",
+              "pinyin": "yǔ",
+              "reason": "与朋友/与言为同、跟；抑与之与的第一个与为给予。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yǔ",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 3\">与</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "与",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 6,
+              "chapterIndex": 26,
+              "char": "信",
+              "pinyin": "xìn",
+              "reason": "忠信、诚信或约信；不是伸的古通假 shēn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "信 / xìn",
+                  "url": "https://www.moedict.tw/%E4%BF%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xin 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xin 4\">信</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "信",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-04-s05",
+          "kind": "speech",
+          "speaker": "曾子",
+          "start": 29,
+          "end": 35,
+          "text": "传不习乎？”",
+          "pinyin": [
+            "chuán",
+            "bù",
+            "xí",
+            "hū",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 29,
+              "char": "传",
+              "pinyin": "chuán",
+              "reason": "所传授的学业；非传记 zhuàn。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "傳 / chuán",
+                  "url": "https://www.moedict.tw/%E5%82%B3"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.4音注",
+                  "quote": "省，悉井反。為，去聲。傳，平聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "chuan 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"chuan 2\">传</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "船",
+                "ssml": "<sub alias=\"船\">传</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "xue-er-05",
+      "title": "道千乘之国",
+      "fullText": "子曰：“道千乘之国，敬事而信，节用而爱人，使民以时。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-05-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-05-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 10,
+          "text": "道千乘之国，",
+          "pinyin": [
+            "dào",
+            "qiān",
+            "shèng",
+            "zhī",
+            "guó",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 4,
+              "char": "道",
+              "pinyin": "dào",
+              "reason": "道理/道路等；1.5治理义依朱注“道、乘，皆去聲”定 dào，不混用别本 dǎo。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "道 / dào",
+                  "url": "https://www.moedict.tw/%E9%81%93"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.5音注",
+                  "quote": "道、乘，皆去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "dao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"dao 4\">道</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "道",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 2,
+              "chapterIndex": 6,
+              "char": "乘",
+              "pinyin": "shèng",
+              "reason": "兵车及其数量单位，千乘之国；非乘坐 chéng。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "乘 / shèng",
+                  "url": "https://www.moedict.tw/%E4%B9%98"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.5音注",
+                  "quote": "道、乘，皆去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "sheng 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"sheng 4\">乘</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "圣",
+                "ssml": "<sub alias=\"圣\">乘</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-05-s03",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 10,
+          "end": 21,
+          "text": "敬事而信，节用而爱人，",
+          "pinyin": [
+            "jìng",
+            "shì",
+            "ér",
+            "xìn",
+            "",
+            "jié",
+            "yòng",
+            "ér",
+            "ài",
+            "rén",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 3,
+              "chapterIndex": 13,
+              "char": "信",
+              "pinyin": "xìn",
+              "reason": "忠信、诚信或约信；不是伸的古通假 shēn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "信 / xìn",
+                  "url": "https://www.moedict.tw/%E4%BF%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xin 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xin 4\">信</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "信",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 15,
+              "char": "节",
+              "pinyin": "jié",
+              "reason": "节用/礼节之，节制、约束。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "節 / jié",
+                  "url": "https://www.moedict.tw/%E7%AF%80"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "jie 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"jie 2\">节</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "节",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-05-s04",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 21,
+          "end": 27,
+          "text": "使民以时。”",
+          "pinyin": [
+            "shǐ",
+            "mín",
+            "yǐ",
+            "shí",
+            "",
+            ""
+          ],
+          "pronunciations": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "xue-er-06",
+      "title": "弟子入则孝",
+      "fullText": "子曰：“弟子入则孝，出则弟，谨而信，泛爱众，而亲仁，行有余力，则以学文。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-06-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-06-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 14,
+          "text": "弟子入则孝，出则弟，",
+          "pinyin": [
+            "dì",
+            "zǐ",
+            "rù",
+            "zé",
+            "xiào",
+            "",
+            "chū",
+            "zé",
+            "tì",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 4,
+              "char": "弟",
+              "pinyin": "dì",
+              "reason": "弟子指后辈、学生，与敬兄义 tì 区分。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "弟 / dì",
+                  "url": "https://www.moedict.tw/%E5%BC%9F"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.6音注",
+                  "quote": "弟子之弟，上聲。則弟之弟，去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "di 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"di 4\">弟</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "弟",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 12,
+              "char": "弟",
+              "pinyin": "tì",
+              "reason": "孝弟、出则弟，敬顺兄长，通悌。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "弟 / tì",
+                  "url": "https://www.moedict.tw/%E5%BC%9F"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.6音注",
+                  "quote": "弟子之弟，上聲。則弟之弟，去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ti 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ti 4\">弟</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "替",
+                "ssml": "<sub alias=\"替\">弟</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-06-s03",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 14,
+          "end": 26,
+          "text": "谨而信，泛爱众，而亲仁，",
+          "pinyin": [
+            "jǐn",
+            "ér",
+            "xìn",
+            "",
+            "fàn",
+            "ài",
+            "zhòng",
+            "",
+            "ér",
+            "qīn",
+            "rén",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 16,
+              "char": "信",
+              "pinyin": "xìn",
+              "reason": "忠信、诚信或约信；不是伸的古通假 shēn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "信 / xìn",
+                  "url": "https://www.moedict.tw/%E4%BF%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xin 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xin 4\">信</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "信",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 9,
+              "chapterIndex": 23,
+              "char": "亲",
+              "pinyin": "qīn",
+              "reason": "亲近、可亲之人；非亲家 qìng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "親 / qīn",
+                  "url": "https://www.moedict.tw/%E8%A6%AA"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "qin 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"qin 1\">亲</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "亲",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-06-s04",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 26,
+          "end": 37,
+          "text": "行有余力，则以学文。”",
+          "pinyin": [
+            "xíng",
+            "yǒu",
+            "yú",
+            "lì",
+            "",
+            "zé",
+            "yǐ",
+            "xué",
+            "wén",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 26,
+              "char": "行",
+              "pinyin": "xíng",
+              "reason": "实践、实行或行得通；与1.11品行 xìng 区分。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "行 / xíng",
+                  "url": "https://www.moedict.tw/%E8%A1%8C"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xing 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xing 2\">行</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "行",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 1,
+              "chapterIndex": 27,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "xue-er-07",
+      "title": "贤贤易色",
+      "fullText": "子夏曰：“贤贤易色；事父母，能竭其力；事君，能致其身；与朋友交，言而有信。虽曰未学，吾必谓之学矣。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-07-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 5,
+          "text": "子夏曰：“",
+          "pinyin": [
+            "zǐ",
+            "xià",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "子夏"
+        },
+        {
+          "id": "xue-er-07-s02",
+          "kind": "speech",
+          "speaker": "子夏",
+          "start": 5,
+          "end": 10,
+          "text": "贤贤易色；",
+          "pinyin": [
+            "xián",
+            "xián",
+            "yì",
+            "sè",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 7,
+              "char": "易",
+              "pinyin": "yì",
+              "reason": "贤贤易色，改变或移易；不把训诂分歧改写为别的正文。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "易 / yì",
+                  "url": "https://www.moedict.tw/%E6%98%93"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yi 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yi 4\">易</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "易",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 8,
+              "char": "色",
+              "pinyin": "sè",
+              "reason": "令色/易色，书面容色义，不读口语 shǎi。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "色 / sè",
+                  "url": "https://www.moedict.tw/%E8%89%B2"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "se 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"se 4\">色</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "色",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-07-s03",
+          "kind": "speech",
+          "speaker": "子夏",
+          "start": 10,
+          "end": 19,
+          "text": "事父母，能竭其力；",
+          "pinyin": [
+            "shì",
+            "fù",
+            "mǔ",
+            "",
+            "néng",
+            "jié",
+            "qí",
+            "lì",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 1,
+              "chapterIndex": 11,
+              "char": "父",
+              "pinyin": "fù",
+              "reason": "父母/父在/父没，父亲；非古代男子美称 fǔ。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "父 / fù",
+                  "url": "https://www.moedict.tw/%E7%88%B6"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "fu 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"fu 4\">父</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "父",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-07-s04",
+          "kind": "speech",
+          "speaker": "子夏",
+          "start": 19,
+          "end": 27,
+          "text": "事君，能致其身；",
+          "pinyin": [
+            "shì",
+            "jūn",
+            "",
+            "néng",
+            "zhì",
+            "qí",
+            "shēn",
+            ""
+          ],
+          "pronunciations": []
+        },
+        {
+          "id": "xue-er-07-s05",
+          "kind": "speech",
+          "speaker": "子夏",
+          "start": 27,
+          "end": 37,
+          "text": "与朋友交，言而有信。",
+          "pinyin": [
+            "yǔ",
+            "péng",
+            "yǒu",
+            "jiāo",
+            "",
+            "yán",
+            "ér",
+            "yǒu",
+            "xìn",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 27,
+              "char": "与",
+              "pinyin": "yǔ",
+              "reason": "与朋友/与言为同、跟；抑与之与的第一个与为给予。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yǔ",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 3\">与</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "与",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 7,
+              "chapterIndex": 34,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 35,
+              "char": "信",
+              "pinyin": "xìn",
+              "reason": "忠信、诚信或约信；不是伸的古通假 shēn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "信 / xìn",
+                  "url": "https://www.moedict.tw/%E4%BF%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xin 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xin 4\">信</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "信",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-07-s06",
+          "kind": "speech",
+          "speaker": "子夏",
+          "start": 37,
+          "end": 50,
+          "text": "虽曰未学，吾必谓之学矣。”",
+          "pinyin": [
+            "suī",
+            "yuē",
+            "wèi",
+            "xué",
+            "",
+            "wú",
+            "bì",
+            "wèi",
+            "zhī",
+            "xué",
+            "yǐ",
+            "",
+            ""
+          ],
+          "pronunciations": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "xue-er-08",
+      "title": "君子不重则不威",
+      "fullText": "子曰：“君子不重则不威，学则不固。主忠信，无友不如己者，过，则勿惮改。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-08-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-08-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 17,
+          "text": "君子不重则不威，学则不固。",
+          "pinyin": [
+            "jūn",
+            "zǐ",
+            "bù",
+            "zhòng",
+            "zé",
+            "bù",
+            "wēi",
+            "",
+            "xué",
+            "zé",
+            "bù",
+            "gù",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 3,
+              "chapterIndex": 7,
+              "char": "重",
+              "pinyin": "zhòng",
+              "reason": "厚重、庄重；非重复 chóng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "重 / zhòng",
+                  "url": "https://www.moedict.tw/%E9%87%8D"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zhong 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhong 4\">重</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "众",
+                "ssml": "<sub alias=\"众\">重</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-08-s03",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 17,
+          "end": 28,
+          "text": "主忠信，无友不如己者，",
+          "pinyin": [
+            "zhǔ",
+            "zhōng",
+            "xìn",
+            "",
+            "wú",
+            "yǒu",
+            "bù",
+            "rú",
+            "jǐ",
+            "zhě",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 19,
+              "char": "信",
+              "pinyin": "xìn",
+              "reason": "忠信、诚信或约信；不是伸的古通假 shēn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "信 / xìn",
+                  "url": "https://www.moedict.tw/%E4%BF%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xin 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xin 4\">信</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "信",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 4,
+              "chapterIndex": 21,
+              "char": "无",
+              "pinyin": "wú",
+              "reason": "没有或禁止（无友通毋友），均读 wú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "無 / wú",
+                  "url": "https://www.moedict.tw/%E7%84%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "无",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-08-s04",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 28,
+          "end": 36,
+          "text": "过，则勿惮改。”",
+          "pinyin": [
+            "guò",
+            "",
+            "zé",
+            "wù",
+            "dàn",
+            "gǎi",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 28,
+              "char": "过",
+              "pinyin": "guò",
+              "reason": "有过错；非姓氏 guō。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "過 / guò",
+                  "url": "https://www.moedict.tw/%E9%81%8E"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "guo 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"guo 4\">过</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "过",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 4,
+              "chapterIndex": 32,
+              "char": "惮",
+              "pinyin": "dàn",
+              "reason": "畏惧；过则勿惮改，不读弹的 tán。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "憚 / dàn",
+                  "url": "https://www.moedict.tw/%E6%86%9A"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "dan 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"dan 4\">惮</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "惮",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "xue-er-09",
+      "title": "慎终追远",
+      "fullText": "曾子曰：“慎终追远，民德归厚矣。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-09-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 5,
+          "text": "曾子曰：“",
+          "pinyin": [
+            "zēng",
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 0,
+              "char": "曾",
+              "pinyin": "zēng",
+              "reason": "曾子之姓，非曾经的 céng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "曾 / zēng",
+                  "url": "https://www.moedict.tw/%E6%9B%BE"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zeng 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zeng 1\">曾</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "增",
+                "ssml": "<sub alias=\"增\">曾</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ],
+          "attributedSpeaker": "曾子"
+        },
+        {
+          "id": "xue-er-09-s02",
+          "kind": "speech",
+          "speaker": "曾子",
+          "start": 5,
+          "end": 17,
+          "text": "慎终追远，民德归厚矣。”",
+          "pinyin": [
+            "shèn",
+            "zhōng",
+            "zhuī",
+            "yuǎn",
+            "",
+            "mín",
+            "dé",
+            "guī",
+            "hòu",
+            "yǐ",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 3,
+              "chapterIndex": 8,
+              "char": "远",
+              "pinyin": "yuǎn",
+              "reason": "远方/追远，空间或时间距离义。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "遠 / yuǎn",
+                  "url": "https://www.moedict.tw/%E9%81%A0"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yuan 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yuan 3\">远</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "远",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "xue-er-10",
+      "title": "夫子至于是邦也",
+      "fullText": "子禽问于子贡曰：“夫子至于是邦也，必闻其政，求之与，抑与之与？”子贡曰：“夫子温、良、恭、俭、让以得之。夫子之求之也，其诸异乎人之求之与？”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-10-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 9,
+          "text": "子禽问于子贡曰：“",
+          "pinyin": [
+            "zǐ",
+            "qín",
+            "wèn",
+            "yú",
+            "zǐ",
+            "gòng",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "子禽"
+        },
+        {
+          "id": "xue-er-10-s02",
+          "kind": "speech",
+          "speaker": "子禽",
+          "start": 9,
+          "end": 22,
+          "text": "夫子至于是邦也，必闻其政，",
+          "pinyin": [
+            "fū",
+            "zǐ",
+            "zhì",
+            "yú",
+            "shì",
+            "bāng",
+            "yě",
+            "",
+            "bì",
+            "wén",
+            "qí",
+            "zhèng",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 9,
+              "char": "夫",
+              "pinyin": "fū",
+              "reason": "夫子，尊称老师；非文言指示/发语 fú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "夫 / fū",
+                  "url": "https://www.moedict.tw/%E5%A4%AB"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "fu 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"fu 1\">夫</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "夫",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-10-s03",
+          "kind": "speech",
+          "speaker": "子禽",
+          "start": 22,
+          "end": 32,
+          "text": "求之与，抑与之与？”",
+          "pinyin": [
+            "qiú",
+            "zhī",
+            "yú",
+            "",
+            "yì",
+            "yǔ",
+            "zhī",
+            "yú",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 24,
+              "char": "与",
+              "pinyin": "yú",
+              "reason": "句末语气词，同欤；不是给予或同谁一起的 yǔ。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yú",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 2\">与</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "于",
+                "ssml": "<sub alias=\"于\">与</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 27,
+              "char": "与",
+              "pinyin": "yǔ",
+              "reason": "与朋友/与言为同、跟；抑与之与的第一个与为给予。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yǔ",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 3\">与</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "与",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 7,
+              "chapterIndex": 29,
+              "char": "与",
+              "pinyin": "yú",
+              "reason": "句末语气词，同欤；不是给予或同谁一起的 yǔ。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yú",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 2\">与</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "于",
+                "ssml": "<sub alias=\"于\">与</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-10-s04",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 32,
+          "end": 37,
+          "text": "子贡曰：“",
+          "pinyin": [
+            "zǐ",
+            "gòng",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "子贡"
+        },
+        {
+          "id": "xue-er-10-s05",
+          "kind": "speech",
+          "speaker": "子贡",
+          "start": 37,
+          "end": 52,
+          "text": "夫子温、良、恭、俭、让以得之。",
+          "pinyin": [
+            "fū",
+            "zǐ",
+            "wēn",
+            "",
+            "liáng",
+            "",
+            "gōng",
+            "",
+            "jiǎn",
+            "",
+            "ràng",
+            "yǐ",
+            "dé",
+            "zhī",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 37,
+              "char": "夫",
+              "pinyin": "fū",
+              "reason": "夫子，尊称老师；非文言指示/发语 fú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "夫 / fū",
+                  "url": "https://www.moedict.tw/%E5%A4%AB"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "fu 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"fu 1\">夫</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "夫",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 12,
+              "chapterIndex": 49,
+              "char": "得",
+              "pinyin": "dé",
+              "reason": "以得之，获得；非必须 děi 或结构助词 de。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "得 / dé",
+                  "url": "https://www.moedict.tw/%E5%BE%97"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "de 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"de 2\">得</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "得",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-10-s06",
+          "kind": "speech",
+          "speaker": "子贡",
+          "start": 52,
+          "end": 59,
+          "text": "夫子之求之也，",
+          "pinyin": [
+            "fū",
+            "zǐ",
+            "zhī",
+            "qiú",
+            "zhī",
+            "yě",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 52,
+              "char": "夫",
+              "pinyin": "fū",
+              "reason": "夫子，尊称老师；非文言指示/发语 fú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "夫 / fū",
+                  "url": "https://www.moedict.tw/%E5%A4%AB"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "fu 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"fu 1\">夫</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "夫",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-10-s07",
+          "kind": "speech",
+          "speaker": "子贡",
+          "start": 59,
+          "end": 70,
+          "text": "其诸异乎人之求之与？”",
+          "pinyin": [
+            "qí",
+            "zhū",
+            "yì",
+            "hū",
+            "rén",
+            "zhī",
+            "qiú",
+            "zhī",
+            "yú",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 8,
+              "chapterIndex": 67,
+              "char": "与",
+              "pinyin": "yú",
+              "reason": "句末语气词，同欤；不是给予或同谁一起的 yǔ。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yú",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 2\">与</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "于",
+                "ssml": "<sub alias=\"于\">与</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "xue-er-11",
+      "title": "父在观其志",
+      "fullText": "子曰：“父在，观其志；父没，观其行；三年无改于父之道，可谓孝矣。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-11-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-11-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 18,
+          "text": "父在，观其志；父没，观其行；",
+          "pinyin": [
+            "fù",
+            "zài",
+            "",
+            "guān",
+            "qí",
+            "zhì",
+            "",
+            "fù",
+            "mò",
+            "",
+            "guān",
+            "qí",
+            "xìng",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 4,
+              "char": "父",
+              "pinyin": "fù",
+              "reason": "父母/父在/父没，父亲；非古代男子美称 fǔ。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "父 / fù",
+                  "url": "https://www.moedict.tw/%E7%88%B6"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "fu 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"fu 4\">父</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "父",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 7,
+              "char": "观",
+              "pinyin": "guān",
+              "reason": "观其志/观其行，观察；非道观 guàn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "觀 / guān",
+                  "url": "https://www.moedict.tw/%E8%A7%80"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "guan 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"guan 1\">观</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "观",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 7,
+              "chapterIndex": 11,
+              "char": "父",
+              "pinyin": "fù",
+              "reason": "父母/父在/父没，父亲；非古代男子美称 fǔ。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "父 / fù",
+                  "url": "https://www.moedict.tw/%E7%88%B6"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "fu 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"fu 4\">父</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "父",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 12,
+              "char": "没",
+              "pinyin": "mò",
+              "reason": "父没，父亲去世；非没有 méi。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "沒 / mò",
+                  "url": "https://www.moedict.tw/%E6%B2%92"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "mo 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"mo 4\">没</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "墨",
+                "ssml": "<sub alias=\"墨\">没</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 10,
+              "chapterIndex": 14,
+              "char": "观",
+              "pinyin": "guān",
+              "reason": "观其志/观其行，观察；非道观 guàn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "觀 / guān",
+                  "url": "https://www.moedict.tw/%E8%A7%80"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "guan 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"guan 1\">观</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "观",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 12,
+              "chapterIndex": 16,
+              "char": "行",
+              "pinyin": "xìng",
+              "reason": "观其行，品行、行为表现；朱注标去声，按文言义读 xìng。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "行 / xìng",
+                  "url": "https://www.moedict.tw/%E8%A1%8C"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.11音注",
+                  "quote": "行，去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xing 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xing 4\">行</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "性",
+                "ssml": "<sub alias=\"性\">行</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-11-s03",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 18,
+          "end": 33,
+          "text": "三年无改于父之道，可谓孝矣。”",
+          "pinyin": [
+            "sān",
+            "nián",
+            "wú",
+            "gǎi",
+            "yú",
+            "fù",
+            "zhī",
+            "dào",
+            "",
+            "kě",
+            "wèi",
+            "xiào",
+            "yǐ",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 20,
+              "char": "无",
+              "pinyin": "wú",
+              "reason": "没有或禁止（无友通毋友），均读 wú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "無 / wú",
+                  "url": "https://www.moedict.tw/%E7%84%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "无",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 23,
+              "char": "父",
+              "pinyin": "fù",
+              "reason": "父母/父在/父没，父亲；非古代男子美称 fǔ。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "父 / fù",
+                  "url": "https://www.moedict.tw/%E7%88%B6"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "fu 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"fu 4\">父</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "父",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 7,
+              "chapterIndex": 25,
+              "char": "道",
+              "pinyin": "dào",
+              "reason": "道理/道路等；1.5治理义依朱注“道、乘，皆去聲”定 dào，不混用别本 dǎo。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "道 / dào",
+                  "url": "https://www.moedict.tw/%E9%81%93"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "dao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"dao 4\">道</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "道",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 9,
+              "chapterIndex": 27,
+              "char": "可",
+              "pinyin": "kě",
+              "reason": "可以、可谓；不是可汗的 kè。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "可 / kě",
+                  "url": "https://www.moedict.tw/%E5%8F%AF"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ke 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ke 3\">可</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "可",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "xue-er-12",
+      "title": "礼之用和为贵",
+      "fullText": "有子曰：“礼之用，和为贵。先王之道，斯为美，小大由之。有所不行，知和而和，不以礼节之，亦不可行也。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-12-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 5,
+          "text": "有子曰：“",
+          "pinyin": [
+            "yǒu",
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 0,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ],
+          "attributedSpeaker": "有子"
+        },
+        {
+          "id": "xue-er-12-s02",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 5,
+          "end": 13,
+          "text": "礼之用，和为贵。",
+          "pinyin": [
+            "lǐ",
+            "zhī",
+            "yòng",
+            "",
+            "hé",
+            "wéi",
+            "guì",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 4,
+              "chapterIndex": 9,
+              "char": "和",
+              "pinyin": "hé",
+              "reason": "和谐、和顺；不是应和 hè 或和面 huó。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "和 / hé",
+                  "url": "https://www.moedict.tw/%E5%92%8C"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "he 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"he 2\">和</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": "河",
+                "ssml": "<sub alias=\"河\">和</sub>",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 10,
+              "char": "为",
+              "pinyin": "wéi",
+              "reason": "为人/为仁指做人、行仁；和为贵/斯为美为判断义。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "為 / wéi",
+                  "url": "https://www.moedict.tw/%E7%82%BA"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wei 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wei 2\">为</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "为",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-12-s03",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 13,
+          "end": 27,
+          "text": "先王之道，斯为美，小大由之。",
+          "pinyin": [
+            "xiān",
+            "wáng",
+            "zhī",
+            "dào",
+            "",
+            "sī",
+            "wéi",
+            "měi",
+            "",
+            "xiǎo",
+            "dà",
+            "yóu",
+            "zhī",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 1,
+              "chapterIndex": 14,
+              "char": "王",
+              "pinyin": "wáng",
+              "reason": "先王，古代君王；非称王、为王的动词 wàng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "王 / wáng",
+                  "url": "https://www.moedict.tw/%E7%8E%8B"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wang 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wang 2\">王</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "王",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 16,
+              "char": "道",
+              "pinyin": "dào",
+              "reason": "道理/道路等；1.5治理义依朱注“道、乘，皆去聲”定 dào，不混用别本 dǎo。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "道 / dào",
+                  "url": "https://www.moedict.tw/%E9%81%93"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "dao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"dao 4\">道</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "道",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 6,
+              "chapterIndex": 19,
+              "char": "为",
+              "pinyin": "wéi",
+              "reason": "为人/为仁指做人、行仁；和为贵/斯为美为判断义。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "為 / wéi",
+                  "url": "https://www.moedict.tw/%E7%82%BA"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wei 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wei 2\">为</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "为",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 10,
+              "chapterIndex": 23,
+              "char": "大",
+              "pinyin": "dà",
+              "reason": "小大，大小之事；非大夫 dài。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "大 / dà",
+                  "url": "https://www.moedict.tw/%E5%A4%A7"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "da 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "大",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-12-s04",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 27,
+          "end": 37,
+          "text": "有所不行，知和而和，",
+          "pinyin": [
+            "yǒu",
+            "suǒ",
+            "bù",
+            "xíng",
+            "",
+            "zhī",
+            "hé",
+            "ér",
+            "hé",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 27,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 30,
+              "char": "行",
+              "pinyin": "xíng",
+              "reason": "实践、实行或行得通；与1.11品行 xìng 区分。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "行 / xíng",
+                  "url": "https://www.moedict.tw/%E8%A1%8C"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xing 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xing 2\">行</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "行",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 32,
+              "char": "知",
+              "pinyin": "zhī",
+              "reason": "了解、知道；本篇所列各处不作智的通假 zhì。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "知 / zhī",
+                  "url": "https://www.moedict.tw/%E7%9F%A5"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zhi 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhi 1\">知</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "知",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 6,
+              "chapterIndex": 33,
+              "char": "和",
+              "pinyin": "hé",
+              "reason": "和谐、和顺；不是应和 hè 或和面 huó。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "和 / hé",
+                  "url": "https://www.moedict.tw/%E5%92%8C"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "he 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"he 2\">和</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": "河",
+                "ssml": "<sub alias=\"河\">和</sub>",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 35,
+              "char": "和",
+              "pinyin": "hé",
+              "reason": "和谐、和顺；不是应和 hè 或和面 huó。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "和 / hé",
+                  "url": "https://www.moedict.tw/%E5%92%8C"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "he 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"he 2\">和</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": "河",
+                "ssml": "<sub alias=\"河\">和</sub>",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-12-s05",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 37,
+          "end": 50,
+          "text": "不以礼节之，亦不可行也。”",
+          "pinyin": [
+            "bù",
+            "yǐ",
+            "lǐ",
+            "jié",
+            "zhī",
+            "",
+            "yì",
+            "bù",
+            "kě",
+            "xíng",
+            "yě",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 3,
+              "chapterIndex": 40,
+              "char": "节",
+              "pinyin": "jié",
+              "reason": "节用/礼节之，节制、约束。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "節 / jié",
+                  "url": "https://www.moedict.tw/%E7%AF%80"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "jie 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"jie 2\">节</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "节",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 45,
+              "char": "可",
+              "pinyin": "kě",
+              "reason": "可以、可谓；不是可汗的 kè。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "可 / kě",
+                  "url": "https://www.moedict.tw/%E5%8F%AF"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ke 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ke 3\">可</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "可",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 9,
+              "chapterIndex": 46,
+              "char": "行",
+              "pinyin": "xíng",
+              "reason": "实践、实行或行得通；与1.11品行 xìng 区分。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "行 / xíng",
+                  "url": "https://www.moedict.tw/%E8%A1%8C"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xing 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xing 2\">行</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "行",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "xue-er-13",
+      "title": "信近于义",
+      "fullText": "有子曰：“信近于义，言可复也。恭近于礼，远耻辱也。因不失其亲，亦可宗也。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-13-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 5,
+          "text": "有子曰：“",
+          "pinyin": [
+            "yǒu",
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 0,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ],
+          "attributedSpeaker": "有子"
+        },
+        {
+          "id": "xue-er-13-s02",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 5,
+          "end": 15,
+          "text": "信近于义，言可复也。",
+          "pinyin": [
+            "xìn",
+            "jìn",
+            "yú",
+            "yì",
+            "",
+            "yán",
+            "kě",
+            "fù",
+            "yě",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 5,
+              "char": "信",
+              "pinyin": "xìn",
+              "reason": "忠信、诚信或约信；不是伸的古通假 shēn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "信 / xìn",
+                  "url": "https://www.moedict.tw/%E4%BF%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "xin 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"xin 4\">信</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "信",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 6,
+              "chapterIndex": 11,
+              "char": "可",
+              "pinyin": "kě",
+              "reason": "可以、可谓；不是可汗的 kè。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "可 / kě",
+                  "url": "https://www.moedict.tw/%E5%8F%AF"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ke 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ke 3\">可</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "可",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-13-s03",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 15,
+          "end": 25,
+          "text": "恭近于礼，远耻辱也。",
+          "pinyin": [
+            "gōng",
+            "jìn",
+            "yú",
+            "lǐ",
+            "",
+            "yuàn",
+            "chǐ",
+            "rǔ",
+            "yě",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 5,
+              "chapterIndex": 20,
+              "char": "远",
+              "pinyin": "yuàn",
+              "reason": "远耻辱，远离、避免；朱注标去声，按文言动词义读 yuàn。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "遠 / yuàn",
+                  "url": "https://www.moedict.tw/%E9%81%A0"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.13音注",
+                  "quote": "近、遠，皆去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yuan 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yuan 4\">远</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "愿",
+                "ssml": "<sub alias=\"愿\">远</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-13-s04",
+          "kind": "speech",
+          "speaker": "有子",
+          "start": 25,
+          "end": 37,
+          "text": "因不失其亲，亦可宗也。”",
+          "pinyin": [
+            "yīn",
+            "bù",
+            "shī",
+            "qí",
+            "qīn",
+            "",
+            "yì",
+            "kě",
+            "zōng",
+            "yě",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 4,
+              "chapterIndex": 29,
+              "char": "亲",
+              "pinyin": "qīn",
+              "reason": "亲近、可亲之人；非亲家 qìng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "親 / qīn",
+                  "url": "https://www.moedict.tw/%E8%A6%AA"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "qin 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"qin 1\">亲</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "亲",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 7,
+              "chapterIndex": 32,
+              "char": "可",
+              "pinyin": "kě",
+              "reason": "可以、可谓；不是可汗的 kè。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "可 / kě",
+                  "url": "https://www.moedict.tw/%E5%8F%AF"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ke 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ke 3\">可</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "可",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "xue-er-14",
+      "title": "君子食无求饱",
+      "fullText": "子曰：“君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉。可谓好学也已。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-14-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-14-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 16,
+          "text": "君子食无求饱，居无求安，",
+          "pinyin": [
+            "jūn",
+            "zǐ",
+            "shí",
+            "wú",
+            "qiú",
+            "bǎo",
+            "",
+            "jū",
+            "wú",
+            "qiú",
+            "ān",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 6,
+              "char": "食",
+              "pinyin": "shí",
+              "reason": "食无求饱，饮食、吃；非饲喂 sì。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "食 / shí",
+                  "url": "https://www.moedict.tw/%E9%A3%9F"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "shi 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"shi 2\">食</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "食",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 7,
+              "char": "无",
+              "pinyin": "wú",
+              "reason": "没有或禁止（无友通毋友），均读 wú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "無 / wú",
+                  "url": "https://www.moedict.tw/%E7%84%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "无",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 12,
+              "char": "无",
+              "pinyin": "wú",
+              "reason": "没有或禁止（无友通毋友），均读 wú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "無 / wú",
+                  "url": "https://www.moedict.tw/%E7%84%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "无",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-14-s03",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 16,
+          "end": 31,
+          "text": "敏于事而慎于言，就有道而正焉。",
+          "pinyin": [
+            "mǐn",
+            "yú",
+            "shì",
+            "ér",
+            "shèn",
+            "yú",
+            "yán",
+            "",
+            "jiù",
+            "yǒu",
+            "dào",
+            "ér",
+            "zhèng",
+            "yān",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 9,
+              "chapterIndex": 25,
+              "char": "有",
+              "pinyin": "yǒu",
+              "reason": "有子之姓及拥有、存在诸义；本篇不作又的通假 yòu。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "有 / yǒu",
+                  "url": "https://www.moedict.tw/%E6%9C%89"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "you 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "有",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 10,
+              "chapterIndex": 26,
+              "char": "道",
+              "pinyin": "dào",
+              "reason": "道理/道路等；1.5治理义依朱注“道、乘，皆去聲”定 dào，不混用别本 dǎo。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "道 / dào",
+                  "url": "https://www.moedict.tw/%E9%81%93"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "dao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"dao 4\">道</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "道",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 12,
+              "chapterIndex": 28,
+              "char": "正",
+              "pinyin": "zhèng",
+              "reason": "就有道而正焉，匡正、修正；非正月 zhēng。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "正 / zhèng",
+                  "url": "https://www.moedict.tw/%E6%AD%A3"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zheng 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zheng 4\">正</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "正",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-14-s04",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 31,
+          "end": 39,
+          "text": "可谓好学也已。”",
+          "pinyin": [
+            "kě",
+            "wèi",
+            "hào",
+            "xué",
+            "yě",
+            "yǐ",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 31,
+              "char": "可",
+              "pinyin": "kě",
+              "reason": "可以、可谓；不是可汗的 kè。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "可 / kě",
+                  "url": "https://www.moedict.tw/%E5%8F%AF"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ke 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ke 3\">可</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "可",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 2,
+              "chapterIndex": 33,
+              "char": "好",
+              "pinyin": "hào",
+              "reason": "喜好；好犯上/好作乱/好学/好礼均读去声。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "好 / hào",
+                  "url": "https://www.moedict.tw/%E5%A5%BD"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.14音注",
+                  "quote": "好，去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "hao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"hao 4\">好</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "耗",
+                "ssml": "<sub alias=\"耗\">好</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "xue-er-15",
+      "title": "贫而无谄",
+      "fullText": "子贡曰：“贫而无谄，富而无骄，何如？”子曰：“可也。未若贫而乐，富而好礼者也。”子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？”子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-15-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 5,
+          "text": "子贡曰：“",
+          "pinyin": [
+            "zǐ",
+            "gòng",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "子贡"
+        },
+        {
+          "id": "xue-er-15-s02",
+          "kind": "speech",
+          "speaker": "子贡",
+          "start": 5,
+          "end": 19,
+          "text": "贫而无谄，富而无骄，何如？”",
+          "pinyin": [
+            "pín",
+            "ér",
+            "wú",
+            "chǎn",
+            "",
+            "fù",
+            "ér",
+            "wú",
+            "jiāo",
+            "",
+            "hé",
+            "rú",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 2,
+              "chapterIndex": 7,
+              "char": "无",
+              "pinyin": "wú",
+              "reason": "没有或禁止（无友通毋友），均读 wú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "無 / wú",
+                  "url": "https://www.moedict.tw/%E7%84%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "无",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 3,
+              "chapterIndex": 8,
+              "char": "谄",
+              "pinyin": "chǎn",
+              "reason": "谄媚、卑屈；不得误读 xiàn。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "諂 / chǎn",
+                  "url": "https://www.moedict.tw/%E8%AB%82"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "chan 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"chan 3\">谄</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "谄",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 7,
+              "chapterIndex": 12,
+              "char": "无",
+              "pinyin": "wú",
+              "reason": "没有或禁止（无友通毋友），均读 wú。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "無 / wú",
+                  "url": "https://www.moedict.tw/%E7%84%A1"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "wu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "无",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 10,
+              "chapterIndex": 15,
+              "char": "何",
+              "pinyin": "hé",
+              "reason": "何如，询问怎么样。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "何 / hé",
+                  "url": "https://www.moedict.tw/%E4%BD%95"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "he 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"he 2\">何</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "何",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-15-s03",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 19,
+          "end": 23,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-15-s04",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 23,
+          "end": 26,
+          "text": "可也。",
+          "pinyin": [
+            "kě",
+            "yě",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 0,
+              "chapterIndex": 23,
+              "char": "可",
+              "pinyin": "kě",
+              "reason": "可以、可谓；不是可汗的 kè。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "可 / kě",
+                  "url": "https://www.moedict.tw/%E5%8F%AF"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ke 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ke 3\">可</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "可",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-15-s05",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 26,
+          "end": 40,
+          "text": "未若贫而乐，富而好礼者也。”",
+          "pinyin": [
+            "wèi",
+            "ruò",
+            "pín",
+            "ér",
+            "lè",
+            "",
+            "fù",
+            "ér",
+            "hào",
+            "lǐ",
+            "zhě",
+            "yě",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 1,
+              "chapterIndex": 27,
+              "char": "若",
+              "pinyin": "ruò",
+              "reason": "未若，不如；非佛教词般若 rě。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "若 / ruò",
+                  "url": "https://www.moedict.tw/%E8%8B%A5"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ruo 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ruo 4\">若</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "若",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 4,
+              "chapterIndex": 30,
+              "char": "乐",
+              "pinyin": "lè",
+              "reason": "喜乐，不是音乐的 yuè；HD沿用已知默认 lè，仍需新片段听检。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "樂 / lè",
+                  "url": "https://www.moedict.tw/%E6%A8%82"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.15音注",
+                  "quote": "樂，音洛。好，去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "le 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"le 4\">乐</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "乐",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 8,
+              "chapterIndex": 34,
+              "char": "好",
+              "pinyin": "hào",
+              "reason": "喜好；好犯上/好作乱/好学/好礼均读去声。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "好 / hào",
+                  "url": "https://www.moedict.tw/%E5%A5%BD"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.15音注",
+                  "quote": "樂，音洛。好，去聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "hao 4",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"hao 4\">好</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "耗",
+                "ssml": "<sub alias=\"耗\">好</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-15-s06",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 40,
+          "end": 45,
+          "text": "子贡曰：“",
+          "pinyin": [
+            "zǐ",
+            "gòng",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "子贡"
+        },
+        {
+          "id": "xue-er-15-s07",
+          "kind": "speech",
+          "speaker": "子贡",
+          "start": 45,
+          "end": 62,
+          "text": "《诗》云：‘如切如磋，如琢如磨’，",
+          "pinyin": [
+            "",
+            "shī",
+            "",
+            "yún",
+            "",
+            "",
+            "rú",
+            "qiē",
+            "rú",
+            "cuō",
+            "",
+            "rú",
+            "zhuó",
+            "rú",
+            "mó",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 7,
+              "chapterIndex": 52,
+              "char": "切",
+              "pinyin": "qiē",
+              "reason": "切治骨角，与磋相承；非贴切 qiè，HD先保留原字。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "切 / qiē",
+                  "url": "https://www.moedict.tw/%E5%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "qie 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"qie 1\">切</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "切",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 9,
+              "chapterIndex": 54,
+              "char": "磋",
+              "pinyin": "cuō",
+              "reason": "磋治骨角；朱注“磋，七多反”。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "磋 / cuō",
+                  "url": "https://www.moedict.tw/%E7%A3%8B"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.15音注",
+                  "quote": "磋，七多反。與，平聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "cuo 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"cuo 1\">磋</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "搓",
+                "ssml": "<sub alias=\"搓\">磋</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 12,
+              "chapterIndex": 57,
+              "char": "琢",
+              "pinyin": "zhuó",
+              "reason": "雕琢玉石；非口语“琢磨主意”的 zuó。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "琢 / zhuó",
+                  "url": "https://www.moedict.tw/%E7%90%A2"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zhuo 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhuo 2\">琢</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "卓",
+                "ssml": "<sub alias=\"卓\">琢</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 14,
+              "chapterIndex": 59,
+              "char": "磨",
+              "pinyin": "mó",
+              "reason": "磨治石料；非磨坊 mò。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "磨 / mó",
+                  "url": "https://www.moedict.tw/%E7%A3%A8"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "mo 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"mo 2\">磨</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": "摩",
+                "ssml": "<sub alias=\"摩\">磨</sub>",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-15-s08",
+          "kind": "speech",
+          "speaker": "子贡",
+          "start": 62,
+          "end": 69,
+          "text": "其斯之谓与？”",
+          "pinyin": [
+            "qí",
+            "sī",
+            "zhī",
+            "wèi",
+            "yú",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 4,
+              "chapterIndex": 66,
+              "char": "与",
+              "pinyin": "yú",
+              "reason": "句末语气词，同欤；不是给予或同谁一起的 yǔ。",
+              "sourceIds": [
+                "moe-readings",
+                "zhu-xi"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yú",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                },
+                {
+                  "sourceId": "zhu-xi",
+                  "locator": "学而1.15音注",
+                  "quote": "磋，七多反。與，平聲。"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 2",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 2\">与</phoneme>",
+                "suggestedForNewSpeech": true
+              },
+              "hd": {
+                "alias": "于",
+                "ssml": "<sub alias=\"于\">与</sub>",
+                "suggestedForNewSpeech": true,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-15-s09",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 69,
+          "end": 73,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-15-s10",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 73,
+          "end": 86,
+          "text": "赐也，始可与言《诗》已矣，",
+          "pinyin": [
+            "cì",
+            "yě",
+            "",
+            "shǐ",
+            "kě",
+            "yǔ",
+            "yán",
+            "",
+            "shī",
+            "",
+            "yǐ",
+            "yǐ",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 4,
+              "chapterIndex": 77,
+              "char": "可",
+              "pinyin": "kě",
+              "reason": "可以、可谓；不是可汗的 kè。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "可 / kě",
+                  "url": "https://www.moedict.tw/%E5%8F%AF"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "ke 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"ke 3\">可</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "可",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；新片段需人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 5,
+              "chapterIndex": 78,
+              "char": "与",
+              "pinyin": "yǔ",
+              "reason": "与朋友/与言为同、跟；抑与之与的第一个与为给予。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "與 / yǔ",
+                  "url": "https://www.moedict.tw/%E8%88%87"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "yu 3",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"yu 3\">与</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "与",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xue-er-15-s11",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 86,
+          "end": 95,
+          "text": "告诸往而知来者。”",
+          "pinyin": [
+            "gào",
+            "zhū",
+            "wǎng",
+            "ér",
+            "zhī",
+            "lái",
+            "zhě",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 4,
+              "chapterIndex": 90,
+              "char": "知",
+              "pinyin": "zhī",
+              "reason": "了解、知道；本篇所列各处不作智的通假 zhì。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "知 / zhī",
+                  "url": "https://www.moedict.tw/%E7%9F%A5"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zhi 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhi 1\">知</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "知",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "xue-er-16",
+      "title": "不患人之不己知",
+      "fullText": "子曰：“不患人之不己知，患不知人也。”",
+      "sourceId": "base",
+      "review": {
+        "text": "checked-against-zhu-xi",
+        "pinyin": "editorially-checked",
+        "humanReview": "pending",
+        "audio": "not-generated",
+        "listening": "not-performed",
+        "publicationReady": false
+      },
+      "segments": [
+        {
+          "id": "xue-er-16-s01",
+          "kind": "attribution",
+          "speaker": "narrator",
+          "start": 0,
+          "end": 4,
+          "text": "子曰：“",
+          "pinyin": [
+            "zǐ",
+            "yuē",
+            "",
+            ""
+          ],
+          "pronunciations": [],
+          "attributedSpeaker": "孔子"
+        },
+        {
+          "id": "xue-er-16-s02",
+          "kind": "speech",
+          "speaker": "孔子",
+          "start": 4,
+          "end": 19,
+          "text": "不患人之不己知，患不知人也。”",
+          "pinyin": [
+            "bù",
+            "huàn",
+            "rén",
+            "zhī",
+            "bù",
+            "jǐ",
+            "zhī",
+            "",
+            "huàn",
+            "bù",
+            "zhī",
+            "rén",
+            "yě",
+            "",
+            ""
+          ],
+          "pronunciations": [
+            {
+              "index": 6,
+              "chapterIndex": 10,
+              "char": "知",
+              "pinyin": "zhī",
+              "reason": "了解、知道；本篇所列各处不作智的通假 zhì。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "知 / zhī",
+                  "url": "https://www.moedict.tw/%E7%9F%A5"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zhi 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhi 1\">知</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "知",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            },
+            {
+              "index": 10,
+              "chapterIndex": 14,
+              "char": "知",
+              "pinyin": "zhī",
+              "reason": "了解、知道；本篇所列各处不作智的通假 zhì。",
+              "sourceIds": [
+                "moe-readings"
+              ],
+              "evidence": [
+                {
+                  "sourceId": "moe-readings",
+                  "locator": "知 / zhī",
+                  "url": "https://www.moedict.tw/%E7%9F%A5"
+                }
+              ],
+              "sapi": {
+                "alphabet": "sapi",
+                "ph": "zhi 1",
+                "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhi 1\">知</phoneme>",
+                "suggestedForNewSpeech": false
+              },
+              "hd": {
+                "alias": null,
+                "ssml": "知",
+                "suggestedForNewSpeech": false,
+                "policy": "候选建议，默认读对则保留原字；需对新片段人工听检，不据此重生成既有v5。",
+                "status": "not-auditioned"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collation": {
+    "primarySourceId": "base",
+    "secondarySourceId": "zhu-xi",
+    "method": "去除朱注 annotate 模板后保留逐章经文；仅为比对按本表转简并忽略标点。输出正文与标点仍逐字保留base，不回写转换后的朱本。",
+    "glyphMapping": {
+      "學": "学",
+      "時": "时",
+      "習": "习",
+      "說": "说",
+      "遠": "远",
+      "來": "来",
+      "樂": "乐",
+      "慍": "愠",
+      "為": "为",
+      "鮮": "鲜",
+      "亂": "乱",
+      "務": "务",
+      "與": "与",
+      "傳": "传",
+      "謀": "谋",
+      "國": "国",
+      "節": "节",
+      "愛": "爱",
+      "謹": "谨",
+      "眾": "众",
+      "餘": "余",
+      "則": "则",
+      "賢": "贤",
+      "雖": "虽",
+      "謂": "谓",
+      "無": "无",
+      "過": "过",
+      "憚": "惮",
+      "終": "终",
+      "歸": "归",
+      "問": "问",
+      "於": "于",
+      "貢": "贡",
+      "聞": "闻",
+      "溫": "温",
+      "儉": "俭",
+      "讓": "让",
+      "諸": "诸",
+      "異": "异",
+      "觀": "观",
+      "沒": "没",
+      "禮": "礼",
+      "貴": "贵",
+      "義": "义",
+      "復": "复",
+      "恥": "耻",
+      "親": "亲",
+      "飽": "饱",
+      "貧": "贫",
+      "諂": "谄",
+      "驕": "骄",
+      "詩": "诗",
+      "賜": "赐"
+    },
+    "allChaptersHanEqual": true,
+    "chapters": [
+      {
+        "number": 1,
+        "primaryText": "子曰：“学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？”",
+        "secondaryText": "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 32
+      },
+      {
+        "number": 2,
+        "primaryText": "有子曰：“其为人也孝弟，而好犯上者，鲜矣；不好犯上而好作乱者，未之有也。君子务本，本立而道生。孝弟也者，其为仁之本与！”",
+        "secondaryText": "有子曰：「其為人也孝弟，而好犯上者，鮮矣；不好犯上，而好作亂者，未之有也。君子務本，本立而道生。孝弟也者，其為仁之本與？」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 48
+      },
+      {
+        "number": 3,
+        "primaryText": "子曰：“巧言令色，鲜矣仁！”",
+        "secondaryText": "子曰：「巧言令色，鮮矣仁！」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 9
+      },
+      {
+        "number": 4,
+        "primaryText": "曾子曰：“吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？”",
+        "secondaryText": "曾子曰：「吾日三省吾身：為人謀而不忠乎？與朋友交而不信乎？傳不習乎？」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 28
+      },
+      {
+        "number": 5,
+        "primaryText": "子曰：“道千乘之国，敬事而信，节用而爱人，使民以时。”",
+        "secondaryText": "子曰：「道千乘之國：敬事而信，節用而愛人，使民以時。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 20
+      },
+      {
+        "number": 6,
+        "primaryText": "子曰：“弟子入则孝，出则弟，谨而信，泛爱众，而亲仁，行有余力，则以学文。”",
+        "secondaryText": "子曰：「弟子入則孝，出則弟，謹而信，泛愛眾，而親仁。行有餘力，則以學文。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 27
+      },
+      {
+        "number": 7,
+        "primaryText": "子夏曰：“贤贤易色；事父母，能竭其力；事君，能致其身；与朋友交，言而有信。虽曰未学，吾必谓之学矣。”",
+        "secondaryText": "子夏曰：「賢賢易色，事父母能竭其力，事君能致其身，與朋友交言而有信。雖曰未學，吾必謂之學矣。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 38
+      },
+      {
+        "number": 8,
+        "primaryText": "子曰：“君子不重则不威，学则不固。主忠信，无友不如己者，过，则勿惮改。”",
+        "secondaryText": "子曰：「君子不重則不威，學則不固。主忠信。無友不如己者。過則勿憚改。",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 27
+      },
+      {
+        "number": 9,
+        "primaryText": "曾子曰：“慎终追远，民德归厚矣。”",
+        "secondaryText": "曾子曰：「慎終追遠，民德歸厚矣。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 12
+      },
+      {
+        "number": 10,
+        "primaryText": "子禽问于子贡曰：“夫子至于是邦也，必闻其政，求之与，抑与之与？”子贡曰：“夫子温、良、恭、俭、让以得之。夫子之求之也，其诸异乎人之求之与？”",
+        "secondaryText": "子禽問於子貢曰：「夫子至於是邦也，必聞其政，求之與？抑與之與？」子貢曰：「夫子溫、良、恭、儉、讓以得之。夫子之求之也，其諸異乎人之求之與？」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 53
+      },
+      {
+        "number": 11,
+        "primaryText": "子曰：“父在，观其志；父没，观其行；三年无改于父之道，可谓孝矣。”",
+        "secondaryText": "子曰：「父在，觀其志；父沒，觀其行；三年無改於父之道，可謂孝矣。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 24
+      },
+      {
+        "number": 12,
+        "primaryText": "有子曰：“礼之用，和为贵。先王之道，斯为美，小大由之。有所不行，知和而和，不以礼节之，亦不可行也。”",
+        "secondaryText": "有子曰：「禮之用，和為貴。先王之道斯為美，小大由之。有所不行，知和而和，不以禮節之，亦不可行也。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 38
+      },
+      {
+        "number": 13,
+        "primaryText": "有子曰：“信近于义，言可复也。恭近于礼，远耻辱也。因不失其亲，亦可宗也。”",
+        "secondaryText": "有子曰：「信近於義，言可復也；恭近於禮，遠恥辱也；因不失其親，亦可宗也。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 28
+      },
+      {
+        "number": 14,
+        "primaryText": "子曰：“君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉。可谓好学也已。”",
+        "secondaryText": "子曰：「君子食無求飽，居無求安，敏於事而慎於言，就有道而正焉，可謂好學也已。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 31
+      },
+      {
+        "number": 15,
+        "primaryText": "子贡曰：“贫而无谄，富而无骄，何如？”子曰：“可也。未若贫而乐，富而好礼者也。”子贡曰：“《诗》云：‘如切如磋，如琢如磨’，其斯之谓与？”子曰：“赐也，始可与言《诗》已矣，告诸往而知来者。”",
+        "secondaryText": "子貢曰：「貧而無諂，富而無驕，何如？」子曰：「可也。未若貧而樂，富而好禮者也。」子貢曰：「詩云：『如切如磋，如琢如磨。』其斯之謂與？」子曰：「賜也，始可與言詩已矣！告諸往而知來者。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 64
+      },
+      {
+        "number": 16,
+        "primaryText": "子曰：“不患人之不己知，患不知人也。”",
+        "secondaryText": "子曰：「不患人之不己知，患不知人也。」",
+        "hanEqualAfterExplicitGlyphMapping": true,
+        "hanCount": 14
+      }
+    ],
+    "limitations": "维基文库数字转录，未核古籍影印；1.8的闭引号在注释模板内，抽取经文时未将其移入正文，标点不据此修补底本。"
+  },
+  "headingPronunciations": [
+    {
+      "text": "论语",
+      "pinyin": [
+        "lún",
+        "yǔ"
+      ],
+      "status": "existing-title-preserved-no-new-title-generation",
+      "pronunciations": [
+        {
+          "index": 0,
+          "char": "论",
+          "pinyin": "lún",
+          "sapi": "<phoneme alphabet=\"sapi\" ph=\"lun 2\">论</phoneme>",
+          "hdAliasCandidate": "轮",
+          "evidence": [
+            {
+              "sourceId": "moe-readings",
+              "locator": "論 / lún"
+            },
+            {
+              "source": "../polyphones.md"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "char": "语",
+          "pinyin": "yǔ",
+          "sapi": "<phoneme alphabet=\"sapi\" ph=\"yu 3\">语</phoneme>",
+          "hdAliasCandidate": null,
+          "evidence": [
+            {
+              "sourceId": "moe-readings",
+              "locator": "語 / yǔ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

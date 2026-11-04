@@ -1,0 +1,13 @@
+{
+  "id": "xue-er-10-s05-bunny",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "72d57fee669cc5cf920190937e1e79656c20011a4e5c74d8c252ca14c6e7ac82",
+  "attemptId": "5d3cbf17-0087-4f7c-bd3d-ffd824099d93",
+  "startedAt": "2026-11-03T13:00:49.641962+00:00",
+  "status": "reserved",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10
+}

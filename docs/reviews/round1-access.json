@@ -1,0 +1,279 @@
+{
+  "at": "2026-11-03T10:32:25.800Z",
+  "method": "Chromium keyboard and synthesized touch; no physical device or screen reader.",
+  "artifactSha256": "189e70c7017f28e278acd3f56e891e1af0cb709c86a34b2f7451bd6738136a5b",
+  "errors": [],
+  "browser": "156.0.8078.4",
+  "titleTabOrder": [
+    "homeBtn",
+    "pauseBtn",
+    "stopBtn",
+    "startBtn"
+  ],
+  "keyboardStop": {
+    "step": "free",
+    "focus": "stopBtn",
+    "outline": "rgb(59, 130, 196) solid 4px"
+  },
+  "freeTabOrder": [
+    {
+      "id": "elephant",
+      "label": "大象老师",
+      "outline": "rgb(59, 130, 196) solid 4px",
+      "focusVisible": true
+    },
+    {
+      "id": "bunny",
+      "label": "小兔子",
+      "outline": "rgb(59, 130, 196) solid 4px",
+      "focusVisible": true
+    },
+    {
+      "id": "cat",
+      "label": "小猫",
+      "outline": "rgb(59, 130, 196) solid 4px",
+      "focusVisible": true
+    },
+    {
+      "id": "dog",
+      "label": "小狗",
+      "outline": "rgb(59, 130, 196) solid 4px",
+      "focusVisible": true
+    },
+    {
+      "id": "",
+      "label": "学而时习之，不亦说乎？",
+      "outline": "rgb(59, 130, 196) solid 4px",
+      "focusVisible": true
+    },
+    {
+      "id": "",
+      "label": "有朋自远方来，不亦乐乎？",
+      "outline": "rgb(59, 130, 196) solid 4px",
+      "focusVisible": true
+    },
+    {
+      "id": "",
+      "label": "人不知而不愠，不亦君子乎？",
+      "outline": "rgb(59, 130, 196) solid 4px",
+      "focusVisible": true
+    }
+  ],
+  "keyboardRead": {
+    "step": "solo-cat",
+    "paused": false,
+    "time": 0.334544
+  },
+  "content": [
+    {
+      "label": "学而时习之，不亦说乎？",
+      "characters": [
+        {
+          "char": "学",
+          "pinyin": "xué"
+        },
+        {
+          "char": "而",
+          "pinyin": "ér"
+        },
+        {
+          "char": "时",
+          "pinyin": "shí"
+        },
+        {
+          "char": "习",
+          "pinyin": "xí"
+        },
+        {
+          "char": "之",
+          "pinyin": "zhī"
+        },
+        {
+          "char": "，",
+          "pinyin": ""
+        },
+        {
+          "char": "不",
+          "pinyin": "bù"
+        },
+        {
+          "char": "亦",
+          "pinyin": "yì"
+        },
+        {
+          "char": "说",
+          "pinyin": "yuè"
+        },
+        {
+          "char": "乎",
+          "pinyin": "hū"
+        },
+        {
+          "char": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "label": "有朋自远方来，不亦乐乎？",
+      "characters": [
+        {
+          "char": "有",
+          "pinyin": "yǒu"
+        },
+        {
+          "char": "朋",
+          "pinyin": "péng"
+        },
+        {
+          "char": "自",
+          "pinyin": "zì"
+        },
+        {
+          "char": "远",
+          "pinyin": "yuǎn"
+        },
+        {
+          "char": "方",
+          "pinyin": "fāng"
+        },
+        {
+          "char": "来",
+          "pinyin": "lái"
+        },
+        {
+          "char": "，",
+          "pinyin": ""
+        },
+        {
+          "char": "不",
+          "pinyin": "bù"
+        },
+        {
+          "char": "亦",
+          "pinyin": "yì"
+        },
+        {
+          "char": "乐",
+          "pinyin": "lè"
+        },
+        {
+          "char": "乎",
+          "pinyin": "hū"
+        },
+        {
+          "char": "？",
+          "pinyin": ""
+        }
+      ]
+    },
+    {
+      "label": "人不知而不愠，不亦君子乎？",
+      "characters": [
+        {
+          "char": "人",
+          "pinyin": "rén"
+        },
+        {
+          "char": "不",
+          "pinyin": "bù"
+        },
+        {
+          "char": "知",
+          "pinyin": "zhī"
+        },
+        {
+          "char": "而",
+          "pinyin": "ér"
+        },
+        {
+          "char": "不",
+          "pinyin": "bù"
+        },
+        {
+          "char": "愠",
+          "pinyin": "yùn"
+        },
+        {
+          "char": "，",
+          "pinyin": ""
+        },
+        {
+          "char": "不",
+          "pinyin": "bù"
+        },
+        {
+          "char": "亦",
+          "pinyin": "yì"
+        },
+        {
+          "char": "君",
+          "pinyin": "jūn"
+        },
+        {
+          "char": "子",
+          "pinyin": "zǐ"
+        },
+        {
+          "char": "乎",
+          "pinyin": "hū"
+        },
+        {
+          "char": "？",
+          "pinyin": ""
+        }
+      ]
+    }
+  ],
+  "touch": [
+    {
+      "selector": "#bunny",
+      "step": "solo-bunny",
+      "paused": false,
+      "time": 0.174943,
+      "key": "b1"
+    },
+    {
+      "selector": "#cat",
+      "step": "solo-cat",
+      "paused": false,
+      "time": 0.181781,
+      "key": "c2"
+    },
+    {
+      "selector": "#dog",
+      "step": "solo-dog",
+      "paused": false,
+      "time": 0.236507,
+      "key": "d3"
+    },
+    {
+      "selector": "#elephant",
+      "step": "trumpet",
+      "paused": false,
+      "time": 0.221747,
+      "key": "trumpet"
+    },
+    {
+      "selector": ".card:nth-child(1)",
+      "step": "e1",
+      "paused": false,
+      "time": 0.205065,
+      "key": "e1"
+    },
+    {
+      "selector": ".card:nth-child(2)",
+      "step": "e2",
+      "paused": false,
+      "time": 0.125602,
+      "key": "e2"
+    },
+    {
+      "selector": ".card:nth-child(3)",
+      "step": "e3",
+      "paused": false,
+      "time": 0.106577,
+      "key": "e3"
+    }
+  ]
+}

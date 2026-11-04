@@ -1,0 +1,245 @@
+{
+  "at": "2026-11-03T10:22:53.554Z",
+  "mode": "bfcache",
+  "artifactSha256": "9cf9e107a3628c9358787a06533e7f767fad27211bd55e423c0a9293dfd94221",
+  "sourceSha256": "a37bace9d8ae27fb78ff3bb972300746ae0a5702d1ae6ed18da278a321bd535c",
+  "cases": [
+    {
+      "name": "automatic e1 -> home -> real browser back",
+      "before": {
+        "docId": "0.tg9p3tchpi",
+        "step": "e1",
+        "free": false,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.170191,
+        "duration": 3.672,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "title",
+            "t": 1793701375582
+          },
+          {
+            "key": "trumpet",
+            "t": 1793701382147
+          },
+          {
+            "key": "e1",
+            "t": 1793701384711
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 421.3999999910593,
+            "step": "title",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 659.2999999970198,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 656.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "title-voice"
+          },
+          {
+            "t": 7224.899999991059,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 656.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "trumpet"
+          },
+          {
+            "t": 9788.09999999404,
+            "audio": 0,
+            "gesture": false,
+            "lastClick": {
+              "t": 656.7999999970198,
+              "id": "startBtn"
+            },
+            "step": "e1"
+          }
+        ],
+        "persisted": false,
+        "historyState": null,
+        "now": 10170
+      },
+      "returned": {
+        "docId": "0.dgvja0ie8l",
+        "step": "free",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": true,
+        "audioTime": 0,
+        "duration": null,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [],
+        "focus": 0,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 197.8999999910593,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [],
+        "persisted": false,
+        "historyState": {
+          "lunyuFree": true
+        },
+        "now": 784.8999999910593
+      },
+      "settled": {
+        "docId": "0.dgvja0ie8l",
+        "step": "free",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": true,
+        "audioTime": 0,
+        "duration": null,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [],
+        "focus": 0,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 197.8999999910593,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [],
+        "persisted": false,
+        "historyState": {
+          "lunyuFree": true
+        },
+        "now": 2865.8999999910593
+      },
+      "clicked": {
+        "docId": "0.dgvja0ie8l",
+        "step": "solo-cat",
+        "free": true,
+        "hidden": false,
+        "paused": false,
+        "audioPaused": false,
+        "audioTime": 0.254117,
+        "duration": 3.744,
+        "audioCount": 1,
+        "sameAudio": true,
+        "log": [
+          {
+            "key": "c2",
+            "t": 1793701390402
+          }
+        ],
+        "focus": 3,
+        "bubbles": 0,
+        "stars": 0,
+        "events": [
+          {
+            "name": "pageshow",
+            "persisted": false,
+            "hidden": false,
+            "t": 197.8999999910593,
+            "step": "free",
+            "paused": false,
+            "audioTime": 0
+          }
+        ],
+        "playCalls": [
+          {
+            "t": 3385.5,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 3345.5999999940395,
+              "id": "cat"
+            },
+            "step": "free"
+          },
+          {
+            "t": 4331,
+            "audio": 0,
+            "gesture": true,
+            "lastClick": {
+              "t": 3345.5999999940395,
+              "id": "cat"
+            },
+            "step": "solo-cat"
+          }
+        ],
+        "persisted": false,
+        "historyState": {
+          "lunyuFree": true
+        },
+        "now": 4739.29999999702
+      },
+      "notRestored": [
+        {
+          "loaderId": "DD5E289475A54A0009A7EAD43EAEE268",
+          "frameId": "16B9003A6DB9D5587546635AA1CF106D",
+          "notRestoredExplanations": [
+            {
+              "type": "Circumstantial",
+              "reason": "BrowsingInstanceNotSwapped"
+            },
+            {
+              "type": "Circumstantial",
+              "reason": "BackForwardCacheDisabledForDelegate"
+            }
+          ],
+          "notRestoredExplanationsTree": {
+            "url": "http://127.0.0.1:4173/learn/xue-er/1/",
+            "explanations": [
+              {
+                "type": "Circumstantial",
+                "reason": "BrowsingInstanceNotSwapped"
+              },
+              {
+                "type": "Circumstantial",
+                "reason": "BackForwardCacheDisabledForDelegate"
+              }
+            ],
+            "children": []
+          }
+        }
+      ],
+      "actualBFCache": false
+    }
+  ],
+  "errors": [],
+  "browser": "156.0.8078.4",
+  "artifactAfter": "9cf9e107a3628c9358787a06533e7f767fad27211bd55e423c0a9293dfd94221"
+}

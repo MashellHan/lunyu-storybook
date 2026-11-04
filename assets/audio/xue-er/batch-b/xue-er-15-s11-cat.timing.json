@@ -1,0 +1,32 @@
+{
+  "text": "告诸往而知来者。”",
+  "dur": 2.448,
+  "t": [
+    0.056833,
+    0.298291,
+    0.454541,
+    0.610791,
+    0.767041,
+    0.909083,
+    1.186062,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "1acee0612f13c56ab1d9b850ab71320923189c4cc783ec01e85ca11cce008aff",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s11-cat",
+      "rawSHA256": "b1039b836db41d00d2c1e6eef10d960189655aac11fed45e0454e14f1284e6bd",
+      "ssmlSHA256": "7204d299869dcfd49f3617f5f6e3e7cb6168f0010444e2fb822669eca3f23fba"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

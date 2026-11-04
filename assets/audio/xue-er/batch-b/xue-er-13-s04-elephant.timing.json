@@ -1,0 +1,35 @@
+{
+  "text": "因不失其亲，亦可宗也。”",
+  "dur": 4.008,
+  "t": [
+    0.058833,
+    0.529416,
+    0.808833,
+    1.0,
+    1.25,
+    null,
+    2.014708,
+    2.25,
+    2.514708,
+    2.882333,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "7d3038973d902d89e76f9ec3e8b2954854207fa584e95833ed47cdae1ba96a40",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-13-s04-elephant",
+      "rawSHA256": "861c9f84dc4e457e439c5da5ec88ed7ac29bf0ff6e8d3adc162fe395d8a936c9",
+      "ssmlSHA256": "fab7bba27a2db8bf31396deef7c63699949cf52578edbd4d4e7a5f3667a2e073"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

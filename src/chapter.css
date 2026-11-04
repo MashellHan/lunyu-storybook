@@ -1,0 +1,183 @@
+.chapter-mode{--scene-ink:#4a3424;--scene-line:#b68a61}
+.chapter-document:not(.chapter-enhanced) #fit{display:none}
+.chapter-fallback{max-width:960px;margin:24px auto;padding:24px;background:#fffaf2;border-radius:20px}
+.fallback-line{font-size:26px;line-height:2.2;color:var(--ink)}
+.fallback-line rt{font-size:15px}
+.fallback-group+.fallback-group{margin-top:24px}
+.chapter-fallback section+section{border-top:1px solid #e4d1b3;margin-top:24px;padding-top:12px}
+#book.chapter-mode{display:flex;flex-direction:column;min-height:calc(100svh - 40px);padding-bottom:24px}
+.chapter-mode header{display:grid;grid-template-columns:64px 64px minmax(0,1fr) 64px 64px;flex:none;height:64px}
+.chapter-mode #homeBtn{grid-area:auto;order:0}.chapter-mode #tocBtn{order:1}.chapter-mode #stars{grid-area:auto;order:2}.chapter-mode #pauseBtn{grid-area:auto;order:3}.chapter-mode #stopBtn{grid-area:auto;order:4}
+.chapter-heading{z-index:3;position:relative;text-align:center;margin:24px 16px 20px;font-size:30px;font-weight:700;line-height:1.35;text-wrap:balance;color:var(--ink)}
+.chapter-mode:not(.chapter-legacy)>.floor,.chapter-mode:not(.chapter-legacy)>.rug,.chapter-mode:not(.chapter-legacy)>.cushion,.chapter-mode:not(.chapter-legacy)>.lamp,.chapter-mode:not(.chapter-legacy)>.window,.chapter-mode:not(.chapter-legacy)>.shelf,.chapter-mode:not(.chapter-legacy)>.plant{display:none}
+.chapter-mode:not(.chapter-legacy)>.wall{height:auto;inset:0;background:#fff6e4}
+.chapter-mode:not(.chapter-legacy) #cast{display:block;position:relative;min-height:0;padding:0;margin:0 auto 16px;flex:none;isolation:isolate}
+.chapter-mode:not(.chapter-legacy) #cast .char{position:absolute;min-width:0;max-width:none;bottom:auto;right:auto;padding:0;--foot:7.5%;z-index:2;animation:none}
+.chapter-mode:not(.chapter-legacy) #cast #cat{--foot:11%}
+.chapter-mode .char .idle,.chapter-mode .char .blink,.chapter-mode .char .ear,.chapter-mode .char .tail,.chapter-mode .char .head{animation:none!important}
+.chapter-mode .tap{display:none}
+.chapter-mode .char:disabled{opacity:1;cursor:default}
+.chapter-mode .char .shadow{height:12px;opacity:.3;bottom:var(--foot)}
+.scene-prop{position:absolute;margin:0;padding:0;border:0;background:none;color:var(--scene-ink);pointer-events:none;z-index:1}
+.scene-prop.foreground{z-index:4}
+button.scene-prop{pointer-events:auto;cursor:pointer;min-width:48px;min-height:48px;border-radius:6px;touch-action:manipulation}
+button.scene-prop:focus-visible{outline:3px solid #3b82c4;outline-offset:4px}
+.prop-motion{display:block;width:100%;height:100%}
+.scene-prop svg{display:block;width:100%;height:100%;overflow:visible;stroke:var(--scene-line);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.scene-prop g{transform-box:fill-box}
+.page-controls{position:relative;z-index:4;display:flex;justify-content:center;align-items:center;gap:12px;margin:0 16px 20px;flex:none}
+.page-controls button{display:grid;place-items:center;flex:none;color:var(--ink);border:0;background:#f0d7b8;border-radius:12px;cursor:pointer}
+.page-arrow{width:48px;height:48px}
+.page-controls svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.page-controls #readBtn svg{fill:currentColor;stroke:none}
+.page-controls button:focus-visible{outline:3px solid #3b82c4;outline-offset:4px}
+.page-controls button:disabled{color:#765d49;background:#eadcc9;cursor:default}
+#pageNumber{min-width:52px;text-align:center;font-size:18px;font-variant-numeric:tabular-nums}
+.chapter-mode .cards{display:flex;flex-direction:column;gap:16px;width:min(960px,calc(100% - 48px));margin:0 auto;flex:none}
+.reading-group{min-width:0}
+.reading-group>.card{display:block;width:100%}
+.annotations{margin:12px 20px 8px;font-size:18px;line-height:1.75;color:var(--ink-2);user-select:text;cursor:text;overflow-wrap:anywhere}
+.annotation-meaning{margin:0}
+.annotation-label,.annotation-terms dt{font-weight:600;color:var(--ink)}
+.annotation-terms{margin:6px 0 0}
+.annotation-terms dt,.annotation-terms dd{display:inline;margin:0}
+.annotation-terms dd::before{content:"："}
+.chapter-fallback .annotations{margin-inline:0}
+.chapter-mode .card{min-height:100px;border-radius:16px;padding:24px 24px 24px 70px;text-align:left;box-shadow:none;background:#fffaf2}
+.chapter-mode .card:disabled{color:var(--ink);opacity:1;cursor:default}
+.chapter-mode .card .txt{display:block;font-size:28px;line-height:2;letter-spacing:0;word-break:normal;overflow-wrap:normal}
+.chapter-mode .card rt{font-size:16px}
+.chapter-mode .card .k{vertical-align:baseline}
+.chapter-mode .word-unit{display:inline-block;white-space:nowrap}
+.chapter-mode .cards.reading .card.playing{transform:none;box-shadow:none}
+.chapter-mode .card .num{width:34px;height:34px;font-size:20px;left:18px;margin-top:-17px}
+.chapter-mode .card .bar{left:70px;right:24px;bottom:12px}
+.chapter-mode .aBubble{font-size:22px;max-width:220px;min-width:0!important;white-space:normal;bottom:85%;left:50%!important;padding:10px 12px}
+.chapter-mode #title{align-items:start}
+.chapter-mode #title .main{flex-wrap:wrap;justify-content:center;font-size:clamp(36px,7vw,80px)}
+.chapter-mode #title .t[hidden]{display:none}
+@media(max-width:640px){
+  #book.chapter-mode{min-height:calc(100svh - 16px)}
+  .chapter-mode header{grid-template-columns:repeat(4,64px);grid-template-areas:"home toc pause stop" "stars stars stars stars";justify-content:space-between;height:auto;gap:8px;margin:12px 8px 0;padding:0}
+  .chapter-mode #homeBtn{grid-area:home}.chapter-mode #tocBtn{grid-area:toc}.chapter-mode #pauseBtn{grid-area:pause}.chapter-mode #stopBtn{grid-area:stop}.chapter-mode #stars{grid-area:stars}
+  .chapter-heading{font-size:26px;margin:16px 12px 20px}
+  .chapter-mode .cards{width:calc(100% - 24px);gap:12px}
+  .annotations{margin-inline:10px}
+  .chapter-mode .card{padding:16px 10px 20px 42px;min-height:100px}
+  .chapter-mode .card .txt{font-size:26px;line-height:2}
+  .chapter-mode .card rt{font-size:15px}
+  .chapter-mode .card .num{left:8px;width:26px;height:26px;margin-top:-13px;font-size:18px}
+  .chapter-mode .card .bar{left:42px;right:12px;bottom:8px}
+  .chapter-mode .aBubble{font-size:18px;max-width:150px}
+}
+@media(max-width:360px){.chapter-mode .card .txt{font-size:24px}.chapter-mode .card rt{font-size:14px}.page-controls{gap:10px;margin-inline:8px}}
+@media(prefers-reduced-motion:reduce){.chapter-mode *{scroll-behavior:auto}.chapter-mode .card .k.cur{transform:none!important}}
+
+/* Design handoff only. Engineer may append these narrowly scoped rules to chapter.css.
+   No scene size, character placement, text, controls or hit targets are changed here. */
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast {
+  --local-ground-top: 96px;
+}
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: var(--local-ground-top);
+  right: 0;
+  bottom: 4px;
+  left: 0;
+  pointer-events: none;
+}
+#book[data-scene="paper-screen"] #cast::before {
+  border-radius: 40% 40% 12% 12% / 18% 18% 8% 8%;
+  background: #e5e9d8;
+  box-shadow: inset 0 1px 0 #d5dcc5, inset 0 -2px 0 #d5dcc5;
+}
+#book[data-scene="polishing-dialogue"] #cast::before {
+  border-radius: 24px 24px 12px 12px;
+  background: repeating-linear-gradient(0deg, transparent 0 31px, #b68a6124 31px 32px), #efd9b7;
+  box-shadow: inset 0 1px 0 #e0c29a, inset 0 -2px 0 #e0c29a;
+}
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast .char .shadow {
+  height: 9px;
+  bottom: calc(var(--foot) - 4px);
+  opacity: .7;
+  background: radial-gradient(ellipse, #4a342432 0, #4a342410 55%, transparent 72%);
+}
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast .scene-prop.foreground::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 22%;
+  right: 22%;
+  bottom: 7%;
+  height: 4px;
+  border-radius: 50%;
+  background: #4a342422;
+  pointer-events: none;
+}
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast .scene-prop.foreground svg {
+  stroke: #8b6546;
+}
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast .scene-prop.foreground svg :is(path, rect, polygon, ellipse, circle, line) {
+  vector-effect: non-scaling-stroke;
+  stroke-width: 1.25px;
+}
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast[data-profile="compact"] {
+  --local-ground-top: 74px;
+}
+#book:is([data-scene="paper-screen"], [data-scene="polishing-dialogue"]) #cast[data-profile="phone"] {
+  --local-ground-top: 86px;
+}
+/* No animation: reduced-motion and background cancellation gain no extra work. */
+
+/* Chapter 13: two static banks and a narrow stream underneath the existing bridge.
+   Keep the 56/64/80px bridge target and all page/cue bindings unchanged. */
+#book[data-scene="three-plank-bridge"] #cast {
+  --local-ground-top: 108px;
+  --creek-width: 40px;
+}
+#book[data-scene="three-plank-bridge"] #cast::before,
+#book[data-scene="three-plank-bridge"] #cast::after {
+  content: "";
+  position: absolute;
+  top: var(--local-ground-top);
+  bottom: 4px;
+  z-index: 0;
+  pointer-events: none;
+}
+#book[data-scene="three-plank-bridge"] #cast::before {
+  left: 0;
+  right: 0;
+  border-radius: 30px 30px 16px 16px;
+  background: #e5e9d8;
+}
+#book[data-scene="three-plank-bridge"] #cast::after {
+  left: calc(50% - var(--creek-width) / 2);
+  width: var(--creek-width);
+  box-sizing: border-box;
+  border-inline: 2px solid #b8cdb5;
+  border-radius: 8px;
+  background: #d6e8df;
+}
+#book[data-scene="three-plank-bridge"] [data-prop="bridge"] [data-part="stream"] {
+  opacity: 0;
+}
+#book[data-scene="three-plank-bridge"] #cast .char .shadow {
+  height: 9px;
+  bottom: calc(var(--foot) - 4px);
+  opacity: .7;
+  background: radial-gradient(ellipse, #4a342432 0, #4a342410 55%, transparent 72%);
+}
+#book[data-scene="three-plank-bridge"] #cast[data-profile="compact"] {
+  --local-ground-top: 86px;
+  --creek-width: 20px;
+}
+#book[data-scene="three-plank-bridge"] #cast[data-profile="phone"] {
+  --local-ground-top: 108px;
+  --creek-width: 24px;
+}
+#book[data-scene="three-plank-bridge"] #cast[data-profile="tablet"] {
+  --local-ground-top: 116px;
+  --creek-width: 32px;
+}

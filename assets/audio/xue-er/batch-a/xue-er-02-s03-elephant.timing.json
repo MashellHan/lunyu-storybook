@@ -1,0 +1,38 @@
+{
+  "text": "不好犯上而好作乱者，未之有也。",
+  "dur": 4.536,
+  "t": [
+    0.058833,
+    0.264708,
+    0.470583,
+    0.735291,
+    1.132333,
+    1.426458,
+    1.691166,
+    1.919103,
+    2.147041,
+    null,
+    2.691166,
+    2.911749,
+    3.147041,
+    3.485291,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "130c4327a7f866358ea81ebd5c88017062c676c7d5583cc55918666c175802cd",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s03-elephant",
+      "rawSHA256": "36667ec69a08edf51e57d09545c0fc53861e1c923f3823077425705f2ede5217",
+      "ssmlSHA256": "430b41bbf32a4554e0c2f8e5a9c9d5453574b2372d3640c696313e71cf49d3ff"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

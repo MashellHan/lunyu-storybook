@@ -1,0 +1,33 @@
+{
+  "text": "恭近于礼，远耻辱也。",
+  "dur": 3.24,
+  "t": [
+    0.056833,
+    0.3125,
+    0.511354,
+    0.710208,
+    null,
+    1.164791,
+    1.434666,
+    1.647728,
+    1.860791,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "084e8f1ce4a63625d4fa20ff98aa982231dc25b2d40d122cbcc7c904b369e9a8",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-13-s03-cat",
+      "rawSHA256": "25369894c58b51575f9d70756da5dcb1a60ffab39fe7cb87573423dc82b1754c",
+      "ssmlSHA256": "637b34d3fd02135ae8d9f5f1401c3ad7f5a96cd5c6dfb4dd40d96e7c572bf64d"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "xue-er-14-s02-bunny",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "2880a1e3ae1a51c75ef2d7e6fe1976cd65f5612622b58b0269254a5c10e9ea05",
+  "attemptId": "a3796c90-1808-4632-81ec-3d88e2052270",
+  "startedAt": "2026-11-03T13:04:40.011978+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:04:44.498279+00:00",
+  "rawSHA256": "d845757c2b5f307164728b3ef1c90bb1ed0383679e23d6a4bdbdbb7a88c40938",
+  "wb": [
+    [
+      0.056833,
+      1.903416,
+      "君子食无求饱"
+    ],
+    [
+      2.258541,
+      1.25,
+      "居无求安"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 192,
+      "wordLength": 6
+    },
+    {
+      "textOffset": 199,
+      "wordLength": 4
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

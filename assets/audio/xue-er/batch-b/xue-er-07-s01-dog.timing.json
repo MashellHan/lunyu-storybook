@@ -1,0 +1,28 @@
+{
+  "text": "子夏曰：“",
+  "dur": 0.984,
+  "t": [
+    0.082,
+    0.317,
+    0.552,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "c4db32fa7471715e0adfd259b263ebd114702149dd71e6835c18a636429d4cb4",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s01-dog",
+      "rawSHA256": "6ee5a8e8afa56192e7943c89060aa7f1ea6afb094f34da72faaa412f46d9a9ae",
+      "ssmlSHA256": "0d4a1b8780744e2491e49ed7546a6c115438c120395f608a91f9b6ea9e3c4492"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

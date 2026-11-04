@@ -1,0 +1,36 @@
+{
+  "text": "君子不重则不威，学则不固。",
+  "dur": 4.272,
+  "t": [
+    0.058833,
+    0.316187,
+    0.58825,
+    0.794125,
+    1.191166,
+    1.441166,
+    1.632333,
+    null,
+    2.397041,
+    2.897041,
+    3.16175,
+    3.397041,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "435403ef1ee8f5c5d7a77a18c045292e8c09084dce7712c54174702660e560ea",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-08-s02-elephant",
+      "rawSHA256": "f16a1a07aed01d1c026d03dd9542b51c57ab55d8c6dff82b1d1c786cc2a58c38",
+      "ssmlSHA256": "028849e7b70de23b2ecd39f252f3a24dd0f1efeab8fd9d242c9e7ba9fb67c42c"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

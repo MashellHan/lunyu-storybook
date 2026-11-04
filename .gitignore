@@ -13,6 +13,7 @@ build/
 # test output
 test-results/
 playwright-report/
+tests/artifacts/
 
 # secrets
 .env

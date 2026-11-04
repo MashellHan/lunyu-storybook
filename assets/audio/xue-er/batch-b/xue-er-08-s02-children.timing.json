@@ -1,0 +1,63 @@
+{
+  "text": "君子不重则不威，学则不固。",
+  "dur": 4.627,
+  "t": [
+    0.056833,
+    0.376437,
+    0.696041,
+    0.909083,
+    1.221583,
+    1.505666,
+    1.71875,
+    null,
+    2.34375,
+    2.698875,
+    2.982958,
+    3.196041,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "6254a4ccccd96016092ebc6fc58a7fa406ca544db283c16b01fd4e4e255e09ac",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-08-s02-bunny",
+      "rawSHA256": "c447c14b460d6a84bd50d852ad18287bce8cf6568a759771879f51e77419158e",
+      "ssmlSHA256": "181edee124e3ace315f921e1ec5b463f882b3862aba226422ff975902bd22e38"
+    },
+    {
+      "id": "xue-er-08-s02-cat",
+      "rawSHA256": "25e04276faa7cad7b578658b8abdfacd9a21c4cfb64c09524e0473926643be4e",
+      "ssmlSHA256": "00b82ec8dd3c348ad0233d66acc4aba6a05421e439c65c26b191e0015cdcfd4e"
+    },
+    {
+      "id": "xue-er-08-s02-dog",
+      "rawSHA256": "3a524857a6e5d84e832b860f09e8b18e753f96c3381e7d49fd2cf8d59db8ef0d",
+      "ssmlSHA256": "5744a72aadaab53dd07fb2326e3b39715e053f260c2430166412583f9155897f"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8138297872340426,
+        0.6329787234042553
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

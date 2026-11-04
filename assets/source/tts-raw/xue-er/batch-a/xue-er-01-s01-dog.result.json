@@ -1,0 +1,38 @@
+{
+  "id": "xue-er-01-s01-dog",
+  "batch": "batch-a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "ssmlSHA256": "4f35a41bae13bbe9fdc6fea1e8c75a6a4fcca03857f48eea87ac71126b18819a",
+  "attemptId": "5f29e919-2004-4485-ab74-a079ca975200",
+  "startedAt": "2026-11-03T12:48:24.496652+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:48:27.992815+00:00",
+  "rawSHA256": "5919679c92aa8961c0c27b7737e3173a0314d11a7e581cbfbba002fc2fe9217e",
+  "wb": [
+    [
+      0.082,
+      0.423,
+      "子"
+    ],
+    [
+      0.505,
+      0.0,
+      "曰"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

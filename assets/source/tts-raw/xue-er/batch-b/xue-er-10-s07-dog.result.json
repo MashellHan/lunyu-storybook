@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-10-s07-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "8a3d25eb624cbf26f14a56a744b9259bff86f8bb864437a07bf8c5bbd02d8cdb",
+  "attemptId": "f995c37e-9e85-475b-9d0b-0c80b9d1e669",
+  "startedAt": "2026-11-03T13:01:34.302133+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:01:38.803294+00:00",
+  "rawSHA256": "c216627ff046d75fc4cac7f32697cfb7b9aef07f70bc8fb145d198242b8dfca9",
+  "wb": [
+    [
+      0.082,
+      0.329,
+      "其"
+    ],
+    [
+      0.411,
+      0.141,
+      "诸"
+    ],
+    [
+      0.552,
+      0.141,
+      "异"
+    ],
+    [
+      0.694,
+      0.188,
+      "乎"
+    ],
+    [
+      0.882,
+      0.141,
+      "人"
+    ],
+    [
+      1.023,
+      0.141,
+      "之"
+    ],
+    [
+      1.164,
+      0.235,
+      "求"
+    ],
+    [
+      1.4,
+      0.141,
+      "之"
+    ],
+    [
+      1.541,
+      0.376,
+      "于"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 268,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 269,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 270,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

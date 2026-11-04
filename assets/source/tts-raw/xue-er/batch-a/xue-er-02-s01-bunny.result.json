@@ -1,0 +1,47 @@
+{
+  "id": "xue-er-02-s01-bunny",
+  "batch": "batch-a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "ssmlSHA256": "af366d1ba2e834c09ba6af929d9b3b75283ec415f854db4f070ba79ccdbb76f2",
+  "attemptId": "da66aba4-f7af-47c2-b646-b8b1ad8279b1",
+  "startedAt": "2026-11-03T12:48:31.785649+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:48:35.164641+00:00",
+  "rawSHA256": "99e94f436a87fb77789bb10fd02b458cf33264db571e93b35d2829bf9c12cf04",
+  "wb": [
+    [
+      0.056833,
+      0.298291,
+      "有"
+    ],
+    [
+      0.355125,
+      0.3125,
+      "子"
+    ],
+    [
+      0.667625,
+      0.411916,
+      "曰"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 192,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 193,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 194,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

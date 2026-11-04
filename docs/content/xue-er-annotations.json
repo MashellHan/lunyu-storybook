@@ -1,0 +1,1018 @@
+{
+  "schemaVersion": 1,
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "segments": {
+    "xue-er-01-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-01-s02": {
+      "meaning": "学过以后常常温习和实践，不也是令人高兴的事吗？",
+      "terms": [
+        {
+          "term": "时习",
+          "explanation": "时常温习、实践学过的内容。"
+        },
+        {
+          "term": "说",
+          "explanation": "同“悦”，内心高兴。"
+        }
+      ]
+    },
+    "xue-er-01-s03": {
+      "meaning": "有志趣相投的朋友从远处来，不也是令人快乐的事吗？",
+      "terms": [
+        {
+          "term": "朋",
+          "explanation": "这里指一起学习、志趣相投的朋友。"
+        }
+      ]
+    },
+    "xue-er-01-s04": {
+      "meaning": "别人不了解自己也不怨恼，不也是有修养的君子吗？",
+      "terms": [
+        {
+          "term": "知",
+          "explanation": "这里指了解、理解自己。"
+        },
+        {
+          "term": "愠",
+          "explanation": "心里怨恼。"
+        },
+        {
+          "term": "君子",
+          "explanation": "这里指品德和修养好的人。"
+        }
+      ]
+    },
+    "xue-er-02-s01": {
+      "meaning": "下面是有子说的话；有子名叫有若，是孔子的学生。",
+      "terms": [
+        {
+          "term": "有子",
+          "explanation": "对有若的尊称。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-02-s02": {
+      "meaning": "有子认为，孝顺父母、敬爱兄长，却喜欢冒犯上位者的人很少。",
+      "terms": [
+        {
+          "term": "孝弟",
+          "explanation": "善待父母、敬爱兄长；弟同“悌”。"
+        },
+        {
+          "term": "犯上",
+          "explanation": "冲犯地位在上的人，属于古代等级语境。"
+        },
+        {
+          "term": "鲜",
+          "explanation": "很少。"
+        }
+      ]
+    },
+    "xue-er-02-s03": {
+      "meaning": "他还认为，不喜欢冒犯上位者，却喜欢叛乱争斗的人，是没有的。",
+      "terms": [
+        {
+          "term": "作乱",
+          "explanation": "这里指背逆、争斗等扰乱秩序的事。"
+        },
+        {
+          "term": "未之有",
+          "explanation": "没有过这样的人。"
+        }
+      ]
+    },
+    "xue-er-02-s04": {
+      "meaning": "君子专心做好根本的事，根本立稳了，为人处世之道便能由此发展。",
+      "terms": [
+        {
+          "term": "务本",
+          "explanation": "把力气用在根本上。"
+        },
+        {
+          "term": "道",
+          "explanation": "这里指为人处世的正当道理。"
+        }
+      ]
+    },
+    "xue-er-02-s05": {
+      "meaning": "善待父母、敬爱兄长，大概就是实践仁爱的根本吧！",
+      "terms": [
+        {
+          "term": "为仁",
+          "explanation": "把关爱他人的心落实在行为上。"
+        },
+        {
+          "term": "与",
+          "explanation": "句末语气词，这里带推测、商量的语气。"
+        }
+      ]
+    },
+    "xue-er-03-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-03-s02": {
+      "meaning": "只顾说漂亮话、装出讨人喜欢的脸色，这样的人很少有真正的仁心。",
+      "terms": [
+        {
+          "term": "巧言",
+          "explanation": "为讨好别人而刻意修饰言语。"
+        },
+        {
+          "term": "令色",
+          "explanation": "装出好看的脸色来讨好别人。"
+        },
+        {
+          "term": "鲜",
+          "explanation": "很少。"
+        },
+        {
+          "term": "仁",
+          "explanation": "关爱他人的品德。"
+        }
+      ]
+    },
+    "xue-er-04-s01": {
+      "meaning": "下面是曾子说的话；曾子名叫曾参，是孔子的学生。",
+      "terms": [
+        {
+          "term": "曾子",
+          "explanation": "对曾参的尊称。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-04-s02": {
+      "meaning": "我每天从下面三个方面检查自己做得怎么样。",
+      "terms": [
+        {
+          "term": "三省",
+          "explanation": "从下文所列三方面反省自己。"
+        },
+        {
+          "term": "吾身",
+          "explanation": "我自己。"
+        }
+      ]
+    },
+    "xue-er-04-s03": {
+      "meaning": "替别人谋划事情时，我有没有尽心尽力？",
+      "terms": [
+        {
+          "term": "为人谋",
+          "explanation": "替别人考虑、谋划事情。"
+        },
+        {
+          "term": "忠",
+          "explanation": "这里指尽到自己的心力。"
+        }
+      ]
+    },
+    "xue-er-04-s04": {
+      "meaning": "和朋友交往时，我有没有做到诚实守信？",
+      "terms": [
+        {
+          "term": "信",
+          "explanation": "说真话、守信用。"
+        }
+      ]
+    },
+    "xue-er-04-s05": {
+      "meaning": "老师传授给我的知识和道理，我有没有温习、弄懂并掌握？",
+      "terms": [
+        {
+          "term": "传",
+          "explanation": "这里指老师传授给自己的内容。"
+        },
+        {
+          "term": "习",
+          "explanation": "温习所学，使自己熟悉、掌握。"
+        }
+      ]
+    },
+    "xue-er-05-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-05-s02": {
+      "meaning": "孔子在这里谈怎样治理一个能出动一千辆兵车的诸侯国。",
+      "terms": [
+        {
+          "term": "道",
+          "explanation": "这里是治理的意思。"
+        },
+        {
+          "term": "千乘之国",
+          "explanation": "古代能出动一千辆兵车的诸侯国；乘是计车的单位。"
+        }
+      ]
+    },
+    "xue-er-05-s03": {
+      "meaning": "他主张治国者认真办事、对百姓守信，节省用度并爱护人民。",
+      "terms": [
+        {
+          "term": "敬事",
+          "explanation": "认真郑重地处理事务。"
+        },
+        {
+          "term": "节用",
+          "explanation": "节制用度，不挥霍财物。"
+        },
+        {
+          "term": "爱人",
+          "explanation": "爱护他人，这里联系治国而言。"
+        }
+      ]
+    },
+    "xue-er-05-s04": {
+      "meaning": "古代治国者征用百姓劳力，应选农闲时候，不耽误农事。",
+      "terms": [
+        {
+          "term": "使民",
+          "explanation": "古代统治者征用百姓劳力。"
+        },
+        {
+          "term": "时",
+          "explanation": "这里指不妨碍耕作、收获的时节。"
+        }
+      ]
+    },
+    "xue-er-06-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-06-s02": {
+      "meaning": "孔子希望年轻人在家善待父母，在外也懂得敬重兄长和年长的人。",
+      "terms": [
+        {
+          "term": "弟子",
+          "explanation": "这里泛指做子弟的年轻人。"
+        },
+        {
+          "term": "孝",
+          "explanation": "善待、敬爱父母。"
+        },
+        {
+          "term": "出则弟",
+          "explanation": "在外敬重兄长、年长的人；弟同“悌”。"
+        }
+      ]
+    },
+    "xue-er-06-s03": {
+      "meaning": "做事谨慎，说话守信，广泛关爱众人，并亲近有仁德的人。",
+      "terms": [
+        {
+          "term": "谨",
+          "explanation": "言行谨慎，不轻率。"
+        },
+        {
+          "term": "泛",
+          "explanation": "广泛地。"
+        },
+        {
+          "term": "亲仁",
+          "explanation": "亲近心地仁厚、善待别人的人。"
+        }
+      ]
+    },
+    "xue-er-06-s04": {
+      "meaning": "把这些事情努力做好以后，若还有余力，就用来学习诗书等文化知识。",
+      "terms": [
+        {
+          "term": "行",
+          "explanation": "实践前面说的那些事情。"
+        },
+        {
+          "term": "余力",
+          "explanation": "剩余的精力和时间。"
+        },
+        {
+          "term": "学文",
+          "explanation": "学习诗书等文化典籍和知识。"
+        }
+      ]
+    },
+    "xue-er-07-s01": {
+      "meaning": "下面是子夏说的话；子夏名叫卜商，是孔子的学生。",
+      "terms": [
+        {
+          "term": "子夏",
+          "explanation": "卜商的字。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-07-s02": {
+      "meaning": "敬重贤德的人，把爱慕美色的心转为喜爱贤德。",
+      "terms": [
+        {
+          "term": "贤贤",
+          "explanation": "前一个贤是敬重，后一个贤指贤德的人。"
+        },
+        {
+          "term": "易色",
+          "explanation": "把喜爱美色的心转向贤德；易是改变。"
+        }
+      ]
+    },
+    "xue-er-07-s03": {
+      "meaning": "侍奉父母时，能够拿出自己的全部心力。",
+      "terms": [
+        {
+          "term": "事",
+          "explanation": "侍奉、照料。"
+        },
+        {
+          "term": "竭其力",
+          "explanation": "尽到自己的心力。"
+        }
+      ]
+    },
+    "xue-er-07-s04": {
+      "meaning": "按当时的君臣观念，为君主办事能尽心效力，甚至不惜献出自身。",
+      "terms": [
+        {
+          "term": "事君",
+          "explanation": "古代臣子侍奉君主。"
+        },
+        {
+          "term": "致其身",
+          "explanation": "把自身交付所事之君，含不惜献身的意思。"
+        }
+      ]
+    },
+    "xue-er-07-s05": {
+      "meaning": "和朋友来往时，说出的话能够算数，答应的事能够做到。",
+      "terms": [
+        {
+          "term": "言而有信",
+          "explanation": "说话真实可靠，能够遵守诺言。"
+        }
+      ]
+    },
+    "xue-er-07-s06": {
+      "meaning": "一个人若能做到这些，即使被说成没学过，我也认为他已经有所学。",
+      "terms": [
+        {
+          "term": "未学",
+          "explanation": "未曾受过相应的学习教育。"
+        },
+        {
+          "term": "学",
+          "explanation": "这里着重学习如何待人处世，不只指读书。"
+        }
+      ]
+    },
+    "xue-er-08-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-08-s02": {
+      "meaning": "君子若不庄重，就难以使人敬重，学来的东西也难以稳固。",
+      "terms": [
+        {
+          "term": "重",
+          "explanation": "庄重、稳重。"
+        },
+        {
+          "term": "威",
+          "explanation": "使人敬重的威仪。"
+        },
+        {
+          "term": "固",
+          "explanation": "这里指所学扎实、牢固。"
+        }
+      ]
+    },
+    "xue-er-08-s03": {
+      "meaning": "孔子主张以尽心守信为本，交友不取德行逊于自己的人。",
+      "terms": [
+        {
+          "term": "忠信",
+          "explanation": "待人尽心，说话守信。"
+        },
+        {
+          "term": "无",
+          "explanation": "同“毋”，不要。"
+        },
+        {
+          "term": "不如己",
+          "explanation": "这里按进德择友的语境，指德行不如自己。"
+        }
+      ]
+    },
+    "xue-er-08-s04": {
+      "meaning": "发现自己有过错，就不要因为怕困难而不肯改正。",
+      "terms": [
+        {
+          "term": "过",
+          "explanation": "过错、做得不对的地方。"
+        },
+        {
+          "term": "惮",
+          "explanation": "畏惧、怕困难。"
+        }
+      ]
+    },
+    "xue-er-09-s01": {
+      "meaning": "下面是曾子说的话；曾子名叫曾参，是孔子的学生。",
+      "terms": [
+        {
+          "term": "曾子",
+          "explanation": "对曾参的尊称。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-09-s02": {
+      "meaning": "曾子认为，慎重办理丧事、真诚追念先人，能使民风趋于淳厚。",
+      "terms": [
+        {
+          "term": "慎终",
+          "explanation": "郑重办理父母的丧事。"
+        },
+        {
+          "term": "追远",
+          "explanation": "真诚祭念已经去世的先人。"
+        },
+        {
+          "term": "厚",
+          "explanation": "这里指朴实厚道、重情义。"
+        }
+      ]
+    },
+    "xue-er-10-s01": {
+      "meaning": "子禽向子贡请教；子禽名陈亢，子贡是孔子的学生。",
+      "terms": [
+        {
+          "term": "子禽",
+          "explanation": "陈亢的字，本章向子贡发问的人。"
+        },
+        {
+          "term": "子贡",
+          "explanation": "孔子的学生，姓端木，名赐。"
+        }
+      ]
+    },
+    "xue-er-10-s02": {
+      "meaning": "老师每到一个诸侯国，总能听到那个国家的政事情况。",
+      "terms": [
+        {
+          "term": "夫子",
+          "explanation": "对老师的尊称，这里指孔子。"
+        },
+        {
+          "term": "邦",
+          "explanation": "诸侯国。"
+        },
+        {
+          "term": "闻其政",
+          "explanation": "得知那个国家怎样治理。"
+        }
+      ]
+    },
+    "xue-er-10-s03": {
+      "meaning": "这些政事情况，是老师主动询问的，还是别人主动告诉他的呢？",
+      "terms": [
+        {
+          "term": "求",
+          "explanation": "主动寻求或询问。"
+        },
+        {
+          "term": "抑",
+          "explanation": "还是，表示另一种可能。"
+        },
+        {
+          "term": "与",
+          "explanation": "句末的与表疑问；与之的与是给予。"
+        }
+      ]
+    },
+    "xue-er-10-s04": {
+      "meaning": "子贡回答了子禽的问题；他是孔子的学生，名叫端木赐。",
+      "terms": [
+        {
+          "term": "子贡",
+          "explanation": "端木赐的字。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-10-s05": {
+      "meaning": "老师凭温和、正直、恭敬、节制、谦让的品格，使人愿意向他谈政事。",
+      "terms": [
+        {
+          "term": "温",
+          "explanation": "温和厚道。"
+        },
+        {
+          "term": "良",
+          "explanation": "平易正直。"
+        },
+        {
+          "term": "恭",
+          "explanation": "态度端庄，待人有敬意。"
+        },
+        {
+          "term": "俭",
+          "explanation": "这里指约束自己、不放纵。"
+        },
+        {
+          "term": "让",
+          "explanation": "谦逊退让，不争抢。"
+        }
+      ]
+    },
+    "xue-er-10-s06": {
+      "meaning": "这里接着说的，是老师获得这些政事情况的方式。",
+      "terms": [
+        {
+          "term": "求",
+          "explanation": "承用上文提问的说法，并非断言孔子主动求取。"
+        }
+      ]
+    },
+    "xue-er-10-s07": {
+      "meaning": "老师的方式，大概和别人主动求取的方式不一样吧？",
+      "terms": [
+        {
+          "term": "其诸",
+          "explanation": "大概、恐怕，带推测语气。"
+        },
+        {
+          "term": "异",
+          "explanation": "不同。"
+        }
+      ]
+    },
+    "xue-er-11-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-11-s02": {
+      "meaning": "父亲在世时，观察儿子的志向；父亲去世后，观察儿子的行为。",
+      "terms": [
+        {
+          "term": "其志",
+          "explanation": "指儿子的志向，不是父亲的志向。"
+        },
+        {
+          "term": "没",
+          "explanation": "这里指去世。"
+        },
+        {
+          "term": "其行",
+          "explanation": "指儿子自身的行为、品行。"
+        }
+      ]
+    },
+    "xue-er-11-s03": {
+      "meaning": "父亲去世后的三年中，不轻率改变他留下的合宜做法，可以称为孝。",
+      "terms": [
+        {
+          "term": "三年",
+          "explanation": "这里联系古代为父母守丧的三年礼制。"
+        },
+        {
+          "term": "父之道",
+          "explanation": "父亲原有的行事原则和办法；不包括明知有错的做法。"
+        }
+      ]
+    },
+    "xue-er-12-s01": {
+      "meaning": "下面是有子说的话；有子名叫有若，是孔子的学生。",
+      "terms": [
+        {
+          "term": "有子",
+          "explanation": "对有若的尊称。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-12-s02": {
+      "meaning": "运用礼的规则时，能使人自然、和谐地相处最为可贵。",
+      "terms": [
+        {
+          "term": "礼",
+          "explanation": "古代规范交往、仪式和社会秩序的规则。"
+        },
+        {
+          "term": "和",
+          "explanation": "这里指相处协调、从容自然。"
+        }
+      ]
+    },
+    "xue-er-12-s03": {
+      "meaning": "古代贤明君王的治世之道，可贵就在这里，大事小事都遵循这个原则。",
+      "terms": [
+        {
+          "term": "先王",
+          "explanation": "古人所推重的贤明君王。"
+        },
+        {
+          "term": "斯",
+          "explanation": "这，指依礼而和的原则。"
+        },
+        {
+          "term": "由",
+          "explanation": "遵循、依照。"
+        }
+      ]
+    },
+    "xue-er-12-s04": {
+      "meaning": "但只知道和谐可贵，凡事一味求和，也会有行不通的时候。",
+      "terms": [
+        {
+          "term": "知和而和",
+          "explanation": "只为求和而求和，不顾应有的原则。"
+        },
+        {
+          "term": "有所不行",
+          "explanation": "有行不通的地方。"
+        }
+      ]
+    },
+    "xue-er-12-s05": {
+      "meaning": "如果不用礼的规范来约束、调节，这样一味求和也行不通。",
+      "terms": [
+        {
+          "term": "节",
+          "explanation": "节制、调节，使行为有所分寸。"
+        }
+      ]
+    },
+    "xue-er-13-s01": {
+      "meaning": "下面是有子说的话；有子名叫有若，是孔子的学生。",
+      "terms": [
+        {
+          "term": "有子",
+          "explanation": "对有若的尊称。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-13-s02": {
+      "meaning": "许下的诺言合乎应有的道义，才有条件把答应的话做到。",
+      "terms": [
+        {
+          "term": "信",
+          "explanation": "此处指约定、承诺。"
+        },
+        {
+          "term": "义",
+          "explanation": "做事应当遵循的合宜道理。"
+        },
+        {
+          "term": "复",
+          "explanation": "履行诺言，不是再说一遍。"
+        }
+      ]
+    },
+    "xue-er-13-s03": {
+      "meaning": "他认为，恭敬的态度合乎礼的分寸，就能避免招致羞耻和侮辱。",
+      "terms": [
+        {
+          "term": "恭",
+          "explanation": "对人表示敬意。"
+        },
+        {
+          "term": "礼",
+          "explanation": "这里指表达敬意时合宜的分寸。"
+        },
+        {
+          "term": "远",
+          "explanation": "避开、远离。"
+        }
+      ]
+    },
+    "xue-er-13-s04": {
+      "meaning": "依靠的人若确实值得亲近，也就可以尊重他、把他当作可靠的依托。",
+      "terms": [
+        {
+          "term": "因",
+          "explanation": "依靠、依凭。"
+        },
+        {
+          "term": "亲",
+          "explanation": "这里指值得亲近的人，不专指亲戚。"
+        },
+        {
+          "term": "宗",
+          "explanation": "尊为主、作为依靠。"
+        }
+      ]
+    },
+    "xue-er-14-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-14-s02": {
+      "meaning": "君子心有所求，不把吃得饱足、住得安逸当成首要追求。",
+      "terms": [
+        {
+          "term": "食无求饱",
+          "explanation": "不以吃得丰足为一心所求，并非要求忍饥挨饿。"
+        },
+        {
+          "term": "居无求安",
+          "explanation": "不一味追求住得舒适安逸。"
+        }
+      ]
+    },
+    "xue-er-14-s03": {
+      "meaning": "做事勤勉，说话谨慎，并向有德行、懂道理的人请教，改正自己的不足。",
+      "terms": [
+        {
+          "term": "敏",
+          "explanation": "勤勉、努力，不只是动作快。"
+        },
+        {
+          "term": "就",
+          "explanation": "走近、求教。"
+        },
+        {
+          "term": "有道",
+          "explanation": "有德行、明白正当道理的人。"
+        },
+        {
+          "term": "正",
+          "explanation": "请对方指正自己的是非得失。"
+        }
+      ]
+    },
+    "xue-er-14-s04": {
+      "meaning": "能够这样做，便可以说是一个真正爱好学习的人了。",
+      "terms": [
+        {
+          "term": "好学",
+          "explanation": "喜爱学习，并认真落实到行为中。"
+        }
+      ]
+    },
+    "xue-er-15-s01": {
+      "meaning": "子贡向孔子发问；子贡名赐，是孔子的学生。",
+      "terms": [
+        {
+          "term": "子贡",
+          "explanation": "孔子的学生，姓端木，名赐。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-15-s02": {
+      "meaning": "贫穷时不低声讨好，富裕时不自高自大，这样算怎样呢？",
+      "terms": [
+        {
+          "term": "谄",
+          "explanation": "卑躬屈膝地讨好别人。"
+        },
+        {
+          "term": "骄",
+          "explanation": "自高自大，骄横放纵。"
+        },
+        {
+          "term": "何如",
+          "explanation": "怎么样。"
+        }
+      ]
+    },
+    "xue-er-15-s03": {
+      "meaning": "孔子回答子贡的提问，下面是他的评价。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-15-s04": {
+      "meaning": "这样已经可以了，但还没有达到最好的境界。",
+      "terms": [
+        {
+          "term": "可",
+          "explanation": "表示认可，也含还有进步余地。"
+        }
+      ]
+    },
+    "xue-er-15-s05": {
+      "meaning": "还不如贫穷时仍有内心的安乐、富裕时仍喜爱并遵循礼的人。",
+      "terms": [
+        {
+          "term": "乐",
+          "explanation": "心有安乐，不因贫穷而困住自己。"
+        },
+        {
+          "term": "好礼",
+          "explanation": "喜欢并乐于遵循合宜的礼。"
+        }
+      ]
+    },
+    "xue-er-15-s06": {
+      "meaning": "子贡接着回应孔子，并引出《诗》中的一句话。",
+      "terms": [
+        {
+          "term": "子贡",
+          "explanation": "孔子的学生，姓端木，名赐。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-15-s07": {
+      "meaning": "《诗经》说，像加工骨角玉石那样，切过还要磋，琢过还要磨。",
+      "terms": [
+        {
+          "term": "《诗》",
+          "explanation": "指《诗经》；这里引的是《卫风·淇奥》。"
+        },
+        {
+          "term": "如切如磋",
+          "explanation": "加工骨角，切过以后还要继续锉磨。"
+        },
+        {
+          "term": "如琢如磨",
+          "explanation": "加工玉石，琢过以后还要继续磨细磨光。"
+        }
+      ]
+    },
+    "xue-er-15-s08": {
+      "meaning": "这句诗大概就是说：有了进步，还要继续把自己修养得更好吧？",
+      "terms": [
+        {
+          "term": "斯",
+          "explanation": "这，指上文从不谄不骄再进到安乐、好礼。"
+        }
+      ]
+    },
+    "xue-er-15-s09": {
+      "meaning": "孔子回应子贡，肯定他对诗句的领悟。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-15-s10": {
+      "meaning": "赐啊，你已经有所领悟，现在可以同你谈《诗》了。",
+      "terms": [
+        {
+          "term": "赐",
+          "explanation": "子贡的名，孔子在直接称呼他。"
+        },
+        {
+          "term": "始",
+          "explanation": "才，表示由此更进一步。"
+        },
+        {
+          "term": "《诗》",
+          "explanation": "指《诗经》。"
+        }
+      ]
+    },
+    "xue-er-15-s11": {
+      "meaning": "告诉你已经讲过的道理，你就能推想到还没有讲出的意思。",
+      "terms": [
+        {
+          "term": "往",
+          "explanation": "已经说过的内容。"
+        },
+        {
+          "term": "来",
+          "explanation": "还未说出的内容；不是预知未来。"
+        }
+      ]
+    },
+    "xue-er-16-s01": {
+      "meaning": "这里是孔子说的话，孔子是古代的一位老师。",
+      "terms": [
+        {
+          "term": "子",
+          "explanation": "对老师等人的尊称，这里指孔子。"
+        },
+        {
+          "term": "曰",
+          "explanation": "说。"
+        }
+      ]
+    },
+    "xue-er-16-s02": {
+      "meaning": "不必担心别人不了解自己，应当担心的是自己还不了解别人。",
+      "terms": [
+        {
+          "term": "患",
+          "explanation": "忧虑、担心。"
+        },
+        {
+          "term": "不己知",
+          "explanation": "不了解自己；己是自己。"
+        },
+        {
+          "term": "知人",
+          "explanation": "了解别人的品德和实际情况，辨别是非好坏。"
+        }
+      ]
+    }
+  }
+}

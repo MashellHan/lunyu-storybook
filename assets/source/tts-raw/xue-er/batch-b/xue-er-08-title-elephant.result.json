@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-08-title-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "daaefd763f43bc883e2998b8dc1338342a9b841d74ec775ec52a8b7eb9ee83af",
+  "attemptId": "57d215ed-d79a-46f5-8637-5ecebb2d3d8e",
+  "startedAt": "2026-11-03T12:59:12.336759+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:59:16.279355+00:00",
+  "rawSHA256": "1632296a347b6895f5b0f092efa4eec794f75dd6431c9e4b2967294f5d82d783",
+  "wb": [
+    [
+      0.058833,
+      0.352916,
+      "论"
+    ],
+    [
+      0.41175,
+      0.33825,
+      "语"
+    ],
+    [
+      0.985291,
+      0.367666,
+      "之"
+    ],
+    [
+      1.705875,
+      0.602958,
+      "君子"
+    ],
+    [
+      2.308833,
+      0.220583,
+      "不"
+    ],
+    [
+      2.529416,
+      0.382333,
+      "重"
+    ],
+    [
+      2.91175,
+      0.235291,
+      "则"
+    ],
+    [
+      3.16175,
+      0.205875,
+      "不"
+    ],
+    [
+      3.367666,
+      0.308791,
+      "威"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 297,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 308,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 310,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 312,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 314,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 353,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 364,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 365,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 366,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

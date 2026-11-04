@@ -1,0 +1,61 @@
+{
+  "text": "君子务本，本立而道生。",
+  "dur": 4.120792,
+  "t": [
+    0.056833,
+    0.355125,
+    0.653416,
+    0.894875,
+    null,
+    1.534083,
+    1.835216,
+    2.136349,
+    2.437483,
+    2.738616,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "4f3f55767b747c075b7e55adafe8e8ac7cc96ced471538ed0b63f9cd75ad0537",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s04-bunny",
+      "rawSHA256": "d881a8474c7a141db4487270ff66515f14dd65a476538d93169c7ad56ba74b46",
+      "ssmlSHA256": "1b8a368e77789d3d5b975d2cd5a4783dae35c9e3bcdcebaa6fb8dfcac475715f"
+    },
+    {
+      "id": "xue-er-02-s04-cat",
+      "rawSHA256": "f93f535a191dfe675bef0d8aa9e255cf4d9d377def4c58ffd396c24b5f907af8",
+      "ssmlSHA256": "b33dec83bc8c06efa9cb3214081cfeaff502105d85703c6c8a7a83bbe43b5f3d"
+    },
+    {
+      "id": "xue-er-02-s04-dog",
+      "rawSHA256": "cc4b407100bc762446e8064fed02ad0bf76c4a9dc572bb77e2ade423ec634148",
+      "ssmlSHA256": "35b79a1665753b079014833a29c8d7a2a23b741faedb7180ad1b38c065c4782a"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8323353293413174,
+        0.6347305389221557
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

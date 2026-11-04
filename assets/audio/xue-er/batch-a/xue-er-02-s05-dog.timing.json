@@ -1,0 +1,53 @@
+{
+  "text": "孝弟也者，其为仁之本与！”",
+  "dur": 2.904,
+  "t": [
+    0.082,
+    0.505,
+    0.694,
+    0.882,
+    null,
+    1.389,
+    1.671,
+    1.907,
+    2.095,
+    2.283,
+    2.471,
+    null,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 2,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 1,
+      "remainingSourceIndex": 2,
+      "remainingSourceIndices": [
+        2
+      ],
+      "originalBoundaryText": "\">弟也",
+      "usedBoundaryOffsetSeconds": 0.694,
+      "usedBoundaryDurationSeconds": 0.188,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 4
+      }
+    }
+  ],
+  "audioSHA256": "f058d91e44da449d3551309e8fff49e2aaf010c4b019f74ff9e0e271d170929a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s05-dog",
+      "rawSHA256": "6580847c4ee5c4b120567c3738ea9ffb41682056dd969dfcf316b111805acdb7",
+      "ssmlSHA256": "bcb4909a32d9e121cd91d22327872aa595bb292893230a9aad4951406e749680"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

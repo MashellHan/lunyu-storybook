@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-10-s05-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "349e9a7875bbd2d583e9b84831380e03d803065a08e064d4fe150476a27916fa",
+  "attemptId": "1d4630bc-8e18-4d56-a0fa-2ec9ab518add",
+  "startedAt": "2026-11-03T13:00:58.731202+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:01:03.773638+00:00",
+  "rawSHA256": "1db89ef4a0f4af9e481b387244be8958a1eee8f931cf61649b7a9fac79dc3e59",
+  "wb": [
+    [
+      0.082,
+      0.47,
+      "夫子"
+    ],
+    [
+      0.552,
+      0.47,
+      "温"
+    ],
+    [
+      1.023,
+      0.564,
+      "良"
+    ],
+    [
+      1.682,
+      0.376,
+      "恭"
+    ],
+    [
+      2.058,
+      0.235,
+      "俭"
+    ],
+    [
+      2.294,
+      0.329,
+      "让"
+    ],
+    [
+      2.623,
+      0.234,
+      "以"
+    ],
+    [
+      2.857,
+      0.142,
+      "得"
+    ],
+    [
+      3.0,
+      0.0,
+      "之"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 269,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 271,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 273,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 274,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 275,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 276,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

@@ -1,0 +1,190 @@
+{
+  "reviewedAt": "2026-11-03T12:35:55.150553+00:00",
+  "reviewer": "lunyu-review",
+  "currentInputSHA256": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+  "currentInputCount": 48,
+  "capturedStaticInputsExactlyMatchNewFreeze": true,
+  "previousInputSHA256": "36ce75f047f73f1ab7ed49c17e2d0278d952dc9ef2e8fe1cb2c4464421e9c8c1",
+  "changedInputs": [
+    {
+      "path": "src/app.js",
+      "oldSHA256": "1dd60948844378a24efce5361b7e8cc44ab81c40b2ba46fda1638997dfefb8dd",
+      "newSHA256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143"
+    },
+    {
+      "path": "tests/cancellation.spec.js",
+      "oldSHA256": "5b5b05b2178072155d7137605031ded35cc684cf4ff03b1e4c24588e47796f1d",
+      "newSHA256": "81b497e578e0a0a56ad06bcaae7b0c63e9f2628f6c1bfc5c3404870c08bdeb9a"
+    },
+    {
+      "path": "tests/chapters.spec.js",
+      "oldSHA256": "3511005a64a041c92744ed53b6ba4d5d0a8e942d7abfcd5c33d59cd31469e99a",
+      "newSHA256": "8ea362e04b2baedab8b6eb76ed4ee91d64a44ac27a625b76b0fffb9d4f0f4fb2"
+    },
+    {
+      "path": "tests/homepage.spec.js",
+      "oldSHA256": "61f60f36b1ca8897187de8e0499aa986c62284676927e34b2d8fe58b18adff71",
+      "newSHA256": "27a1924e24b6a6c253e5562b8c4e4201ae8e0c73f50ec56554b40c221e994c3f"
+    }
+  ],
+  "staticScopeStatus": "passed-on-recorded-artifacts",
+  "B2Status": "B2-passed-on-recorded-artifacts",
+  "B2RendererUnchanged": true,
+  "B2RendererSHA256": "a23da217906f2d30e72befa730111a540590236e4173a99b3682b3028ceeb3f7",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sceneSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+  "visualReview": {
+    "opened": [
+      {
+        "source": "tests/artifacts/xue-er-phase-b/xue-er-01-390x844.png",
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-01-390x844.png",
+        "sha256": "e91953090de145754c9c44dccb7adef3fed444979ff288cf761530aef838250a",
+        "bytes": 118503,
+        "actualDimensions": [
+          390,
+          1235
+        ],
+        "sourceStillMatches": true
+      },
+      {
+        "source": "tests/artifacts/xue-er-phase-b/xue-er-03-320x844.png",
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-320x844.png",
+        "sha256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e",
+        "bytes": 66927,
+        "actualDimensions": [
+          320,
+          844
+        ],
+        "sourceStillMatches": true
+      },
+      {
+        "source": "tests/artifacts/xue-er-phase-b/xue-er-03-390x844.png",
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-390x844.png",
+        "sha256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+        "bytes": 78241,
+        "actualDimensions": [
+          390,
+          844
+        ],
+        "sourceStillMatches": true
+      },
+      {
+        "source": "tests/artifacts/xue-er-phase-b/xue-er-15-320x844.png",
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-320x844.png",
+        "sha256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee",
+        "bytes": 78894,
+        "actualDimensions": [
+          320,
+          916
+        ],
+        "sourceStillMatches": true
+      },
+      {
+        "source": "tests/artifacts/xue-er-phase-b/xue-er-15-768x1024.png",
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-768x1024.png",
+        "sha256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115",
+        "bytes": 105851,
+        "actualDimensions": [
+          768,
+          1024
+        ],
+        "sourceStillMatches": true
+      },
+      {
+        "source": "tests/artifacts/xue-er-phase-b/xue-er-15-844x390.png",
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-844x390.png",
+        "sha256": "95fb8c100714fd1cab0637d6ad321ead67ab3a363959b5bae78a7b4af0da5407",
+        "bytes": 105925,
+        "actualDimensions": [
+          844,
+          881
+        ],
+        "sourceStillMatches": true
+      },
+      {
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/b2-xue-er-01-p1-320x844.png",
+        "sha256": "f83211073a71fe925bf78bbb2b930c863efb30339d58a876451386fe6906a195"
+      },
+      {
+        "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/b2-xue-er-15-p3-768x1024.png",
+        "sha256": "7c7816165668b0689a1e2ef81eaeb71a73764f3f2eb46b0d60e859f758b19791"
+      }
+    ],
+    "observation": "Six fixed engineering PNGs plus two B2 screenshots actually opened. No new clipping/overlap found in this limited sample; landscape is a vertically scrollable full-page capture."
+  },
+  "staticEvidence": "static-check.json",
+  "browserEvidence": "b2-check.json",
+  "rawConsistencyFindingsInterpretation": [
+    {
+      "finding": {
+        "where": "tests/artifacts/xue-er-phase-b/frozen-inputs-before.json",
+        "expectation": "48/48 frozen inputs and aggregate match"
+      },
+      "interpretation": "Expected comparison against superseded 36ce baseline. The captured 48 files exactly match the subsequently supplied bbe55d8 freeze."
+    },
+    {
+      "finding": {
+        "where": "dist/index-single.html",
+        "expectation": "embedded app.js matches source except the three JSON payloads"
+      },
+      "interpretation": "At read time public/preview app.js contained the pause fix while dist still embedded the prior 1dd60948 app. Final artifact binding remains pending; not declared a product regression.",
+      "resolution": "Closed by final binding: offline legacy demo now embeds frozen app.js and its SHA matches the final suite product record."
+    }
+  ],
+  "suiteStatus": "final-full-suite-exit0-62-passed-0-failed-0-skipped",
+  "previousSuite": {
+    "passed": 59,
+    "failed": 3,
+    "exitCode": 1,
+    "log": "engineering-suite.log",
+    "result": "engineering-suite-result.json"
+  },
+  "focusedEvidence": {
+    "log": "tests/artifacts/xue-er-phase-b/failure-fixes-focused.log",
+    "result": "tests/artifacts/xue-er-phase-b/failure-fixes-focused-result.json",
+    "passed": 3,
+    "exitCode": 0
+  },
+  "engineeringAccepted": true,
+  "fullNewChaptersReady": 0,
+  "reviewerNewAPICalls": 0,
+  "pending": [],
+  "limitations": [
+    "No full suite, old-player matrix, timing repro or build run by reviewer.",
+    "Existing full-chapter files are media-free private previews; production remains legacy three-sentence demo only.",
+    "Real new media, service, physical devices, human listening and billing not verified.",
+    "TTS 5cc282ec/67f889d1 review remains closed."
+  ],
+  "finalizedAt": "2026-11-03T12:38:47.802115+00:00",
+  "finalEvidence": "docs/reviews/xue-er-phase-b-final.json",
+  "finalSuite": {
+    "command": "npm test",
+    "started_at": "2026-11-03T12:32:59.164350+00:00",
+    "finished_at": "2026-11-03T12:36:42.403808+00:00",
+    "exit_code": 0,
+    "passed": 62,
+    "failed": 0,
+    "skipped": 0,
+    "did not run": 0,
+    "log": "tests/artifacts/xue-er-phase-b/npm-test-b-final.log",
+    "log_sha256": "129c4e5565b93224723180864c681bbeb26be484ef770e40eab11c38986b257a",
+    "actualLogSHA256": "129c4e5565b93224723180864c681bbeb26be484ef770e40eab11c38986b257a",
+    "rawPassedRows": 62
+  },
+  "acceptedScope": "Chapter-directory increment only; zero complete new chapters ready",
+  "deploymentVerified": false,
+  "remainingProductionBoundaries": [
+    "Full new chapters remain nonready until real required media and human listening are complete.",
+    "Physical-device, real service and billing checks not performed."
+  ],
+  "finalBinding": {
+    "inputs": 48,
+    "products": 6,
+    "unchangedPreviews": 16,
+    "unchangedReviewedScreenshots": 6,
+    "protectedFiles": 50,
+    "findings": []
+  },
+  "directoryIncrementReviewPassed": true,
+  "fullNewChapterPublicationAccepted": false
+}

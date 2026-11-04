@@ -1,0 +1,35 @@
+{
+  "text": "论语，之，其为人也孝弟。",
+  "dur": 3.792,
+  "t": [
+    0.058833,
+    0.397041,
+    null,
+    0.955875,
+    null,
+    1.573541,
+    1.83825,
+    2.044125,
+    2.294125,
+    2.514708,
+    2.83825,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "beb8f02e77285ae7a0b14c2abbb09070ec8f942ba95ad723818d6b63204e6e40",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-title-elephant",
+      "rawSHA256": "777e210dea48b8a247804c216f609409f291bd0a89828e1edcee9dcadf57ecbf",
+      "ssmlSHA256": "5a66592dcda2bdf39334b6ea16e9d57a76b927d520eb853e154415b7a9f96aae"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

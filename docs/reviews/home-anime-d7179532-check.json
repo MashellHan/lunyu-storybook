@@ -1,0 +1,1432 @@
+{
+  "at": "2026-11-03T11:27:11.304Z",
+  "scope": "homepage decoration increment only",
+  "expected": {
+    "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+    "src/home.css": "c904aa3095309e197de62e098ec1084fb257da530198d138955a4a26bbbdd5c2",
+    "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+    "public/index.html": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba"
+  },
+  "before": {
+    "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+    "src/home.css": "c904aa3095309e197de62e098ec1084fb257da530198d138955a4a26bbbdd5c2",
+    "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+    "public/index.html": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba"
+  },
+  "viewports": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "decorations": [
+        {
+          "class": "bookmark bookmark-coral",
+          "x": 587.1875,
+          "y": 116.5,
+          "width": 14,
+          "height": 26,
+          "right": 601.1875,
+          "bottom": 142.5
+        },
+        {
+          "class": "bookmark bookmark-sage",
+          "x": 617.1875,
+          "y": 120.5,
+          "width": 12,
+          "height": 22,
+          "right": 629.1875,
+          "bottom": 142.5
+        },
+        {
+          "class": "paper-plane",
+          "x": 767.0486450195312,
+          "y": 101.38299560546875,
+          "width": 41.5902099609375,
+          "height": 30.2340087890625,
+          "right": 808.6388549804688,
+          "bottom": 131.61700439453125
+        },
+        {
+          "class": "peek peek-bunny",
+          "x": 957.59375,
+          "y": 74.5,
+          "width": 80,
+          "height": 64,
+          "right": 1037.59375,
+          "bottom": 138.5
+        },
+        {
+          "class": "peek peek-cat",
+          "x": 1212,
+          "y": 74.5,
+          "width": 72,
+          "height": 64,
+          "right": 1284,
+          "bottom": 138.5
+        }
+      ],
+      "overlaps": [],
+      "focusOverlaps": [],
+      "focused": "first-chapter",
+      "focusOutline": "rgb(59, 130, 196) solid 3px",
+      "first": {
+        "x": 579.1875,
+        "y": 206.5,
+        "width": 334.40625,
+        "height": 88,
+        "right": 913.59375,
+        "bottom": 294.5
+      },
+      "centerTarget": "first-chapter",
+      "names": [
+        "学而",
+        "为政",
+        "八佾",
+        "里仁",
+        "公冶长",
+        "雍也",
+        "述而",
+        "泰伯",
+        "子罕",
+        "乡党",
+        "先进",
+        "颜渊",
+        "子路",
+        "宪问",
+        "卫灵公",
+        "季氏",
+        "阳货",
+        "微子",
+        "子张",
+        "尧曰"
+      ],
+      "decorText": "",
+      "decorAriaHidden": "true",
+      "tabStops": [
+        {
+          "id": "first-chapter",
+          "tag": "A"
+        }
+      ],
+      "decorPointerEvents": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "audioElements": 0,
+      "prefetches": 0,
+      "scrollWidth": 1440,
+      "created": [
+        {
+          "target": "welcome-cat",
+          "options": {
+            "duration": 640,
+            "easing": "cubic-bezier(0.16,1,0.3,1)"
+          },
+          "frames": [
+            {
+              "transform": "none"
+            },
+            {
+              "transform": "translateY(2px) rotate(2deg)",
+              "offset": 0.45
+            },
+            {
+              "transform": "none"
+            }
+          ]
+        }
+      ],
+      "after": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "finished",
+            "currentTime": 640
+          }
+        ],
+        "cancelled": 0,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "screenshot": "/Users/mengxionghan/workspace/lunyu-storybook/docs/reviews/home-anime-d7179532-focus-1440x900.png",
+      "nonDataRequests": [
+        {
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/cat-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-body.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-head.webp"
+        },
+        {
+          "type": "other",
+          "url": "http://127.0.0.1:4173/assets/img/icon.png"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "decorations": [
+        {
+          "class": "bookmark bookmark-coral",
+          "x": 408.578125,
+          "y": 54.5,
+          "width": 12,
+          "height": 22,
+          "right": 420.578125,
+          "bottom": 76.5
+        },
+        {
+          "class": "bookmark bookmark-sage",
+          "x": 434.578125,
+          "y": 58.5,
+          "width": 10,
+          "height": 18,
+          "right": 444.578125,
+          "bottom": 76.5
+        },
+        {
+          "class": "paper-plane",
+          "x": 553.1476440429688,
+          "y": 42.04719924926758,
+          "width": 33.0172119140625,
+          "height": 24.905597686767578,
+          "right": 586.1648559570312,
+          "bottom": 66.95279693603516
+        },
+        {
+          "class": "peek peek-cat",
+          "x": 924,
+          "y": 26.5,
+          "width": 52,
+          "height": 46,
+          "right": 976,
+          "bottom": 72.5
+        }
+      ],
+      "overlaps": [],
+      "focusOverlaps": [],
+      "focused": "first-chapter",
+      "focusOutline": "rgb(59, 130, 196) solid 3px",
+      "first": {
+        "x": 404.578125,
+        "y": 140.5,
+        "width": 263.703125,
+        "height": 88,
+        "right": 668.28125,
+        "bottom": 228.5
+      },
+      "centerTarget": "first-chapter",
+      "names": [
+        "学而",
+        "为政",
+        "八佾",
+        "里仁",
+        "公冶长",
+        "雍也",
+        "述而",
+        "泰伯",
+        "子罕",
+        "乡党",
+        "先进",
+        "颜渊",
+        "子路",
+        "宪问",
+        "卫灵公",
+        "季氏",
+        "阳货",
+        "微子",
+        "子张",
+        "尧曰"
+      ],
+      "decorText": "",
+      "decorAriaHidden": "true",
+      "tabStops": [
+        {
+          "id": "first-chapter",
+          "tag": "A"
+        }
+      ],
+      "decorPointerEvents": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "audioElements": 0,
+      "prefetches": 0,
+      "scrollWidth": 1024,
+      "created": [
+        {
+          "target": "welcome-cat",
+          "options": {
+            "duration": 640,
+            "easing": "cubic-bezier(0.16,1,0.3,1)"
+          },
+          "frames": [
+            {
+              "transform": "none"
+            },
+            {
+              "transform": "translateY(2px) rotate(2deg)",
+              "offset": 0.45
+            },
+            {
+              "transform": "none"
+            }
+          ]
+        }
+      ],
+      "after": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "finished",
+            "currentTime": 640
+          }
+        ],
+        "cancelled": 0,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "nonDataRequests": [
+        {
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/cat-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-body.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-head.webp"
+        },
+        {
+          "type": "other",
+          "url": "http://127.0.0.1:4173/assets/img/icon.png"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "decorations": [
+        {
+          "class": "bookmark bookmark-coral",
+          "x": 48,
+          "y": 387.796875,
+          "width": 12,
+          "height": 22,
+          "right": 60,
+          "bottom": 409.796875
+        },
+        {
+          "class": "bookmark bookmark-sage",
+          "x": 74,
+          "y": 391.796875,
+          "width": 10,
+          "height": 18,
+          "right": 84,
+          "bottom": 409.796875
+        },
+        {
+          "class": "paper-plane",
+          "x": 224.0851593017578,
+          "y": 375.3440856933594,
+          "width": 33.01719665527344,
+          "height": 24.90557861328125,
+          "right": 257.10235595703125,
+          "bottom": 400.2496643066406
+        },
+        {
+          "class": "peek peek-cat",
+          "x": 676,
+          "y": 359.796875,
+          "width": 52,
+          "height": 46,
+          "right": 728,
+          "bottom": 405.796875
+        }
+      ],
+      "overlaps": [],
+      "focusOverlaps": [],
+      "focused": "first-chapter",
+      "focusOutline": "rgb(59, 130, 196) solid 3px",
+      "first": {
+        "x": 46,
+        "y": 475.796875,
+        "width": 316,
+        "height": 88,
+        "right": 362,
+        "bottom": 563.796875
+      },
+      "centerTarget": "first-chapter",
+      "names": [
+        "学而",
+        "为政",
+        "八佾",
+        "里仁",
+        "公冶长",
+        "雍也",
+        "述而",
+        "泰伯",
+        "子罕",
+        "乡党",
+        "先进",
+        "颜渊",
+        "子路",
+        "宪问",
+        "卫灵公",
+        "季氏",
+        "阳货",
+        "微子",
+        "子张",
+        "尧曰"
+      ],
+      "decorText": "",
+      "decorAriaHidden": "true",
+      "tabStops": [
+        {
+          "id": "first-chapter",
+          "tag": "A"
+        }
+      ],
+      "decorPointerEvents": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "audioElements": 0,
+      "prefetches": 0,
+      "scrollWidth": 768,
+      "created": [
+        {
+          "target": "welcome-cat",
+          "options": {
+            "duration": 640,
+            "easing": "cubic-bezier(0.16,1,0.3,1)"
+          },
+          "frames": [
+            {
+              "transform": "none"
+            },
+            {
+              "transform": "translateY(2px) rotate(2deg)",
+              "offset": 0.45
+            },
+            {
+              "transform": "none"
+            }
+          ]
+        }
+      ],
+      "after": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "finished",
+            "currentTime": 640
+          }
+        ],
+        "cancelled": 0,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "nonDataRequests": [
+        {
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/cat-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-body.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-head.webp"
+        },
+        {
+          "type": "other",
+          "url": "http://127.0.0.1:4173/assets/img/icon.png"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "decorations": [
+        {
+          "class": "bookmark bookmark-coral",
+          "x": 40,
+          "y": 362.296875,
+          "width": 12,
+          "height": 20,
+          "right": 52,
+          "bottom": 382.296875
+        },
+        {
+          "class": "bookmark bookmark-sage",
+          "x": 64,
+          "y": 364.296875,
+          "width": 10,
+          "height": 18,
+          "right": 74,
+          "bottom": 382.296875
+        },
+        {
+          "class": "paper-plane",
+          "x": 136.3686065673828,
+          "y": 352.0025329589844,
+          "width": 30.700286865234375,
+          "height": 22.58868408203125,
+          "right": 167.0688934326172,
+          "bottom": 374.5912170410156
+        },
+        {
+          "class": "peek peek-cat",
+          "x": 310,
+          "y": 332.296875,
+          "width": 52,
+          "height": 46,
+          "right": 362,
+          "bottom": 378.296875
+        }
+      ],
+      "overlaps": [],
+      "focusOverlaps": [],
+      "focused": "first-chapter",
+      "focusOutline": "rgb(59, 130, 196) solid 3px",
+      "first": {
+        "x": 32,
+        "y": 446.296875,
+        "width": 326,
+        "height": 88,
+        "right": 358,
+        "bottom": 534.296875
+      },
+      "centerTarget": "first-chapter",
+      "names": [
+        "学而",
+        "为政",
+        "八佾",
+        "里仁",
+        "公冶长",
+        "雍也",
+        "述而",
+        "泰伯",
+        "子罕",
+        "乡党",
+        "先进",
+        "颜渊",
+        "子路",
+        "宪问",
+        "卫灵公",
+        "季氏",
+        "阳货",
+        "微子",
+        "子张",
+        "尧曰"
+      ],
+      "decorText": "",
+      "decorAriaHidden": "true",
+      "tabStops": [
+        {
+          "id": "first-chapter",
+          "tag": "A"
+        }
+      ],
+      "decorPointerEvents": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "audioElements": 0,
+      "prefetches": 0,
+      "scrollWidth": 390,
+      "created": [
+        {
+          "target": "welcome-cat",
+          "options": {
+            "duration": 640,
+            "easing": "cubic-bezier(0.16,1,0.3,1)"
+          },
+          "frames": [
+            {
+              "transform": "none"
+            },
+            {
+              "transform": "translateY(2px) rotate(2deg)",
+              "offset": 0.45
+            },
+            {
+              "transform": "none"
+            }
+          ]
+        }
+      ],
+      "after": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "finished",
+            "currentTime": 1016.6760000018347
+          }
+        ],
+        "cancelled": 0,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "screenshot": "/Users/mengxionghan/workspace/lunyu-storybook/docs/reviews/home-anime-d7179532-focus-390x844.png",
+      "nonDataRequests": [
+        {
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/cat-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-body.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-head.webp"
+        },
+        {
+          "type": "other",
+          "url": "http://127.0.0.1:4173/assets/img/icon.png"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "decorations": [
+        {
+          "class": "bookmark bookmark-coral",
+          "x": 36,
+          "y": 338.296875,
+          "width": 10,
+          "height": 18,
+          "right": 46,
+          "bottom": 356.296875
+        },
+        {
+          "class": "bookmark bookmark-sage",
+          "x": 58,
+          "y": 340.296875,
+          "width": 9,
+          "height": 16,
+          "right": 67,
+          "bottom": 356.296875
+        },
+        {
+          "class": "paper-plane",
+          "x": 104.05874633789062,
+          "y": 330.3346252441406,
+          "width": 26.41375732421875,
+          "height": 19.92449951171875,
+          "right": 130.47250366210938,
+          "bottom": 350.2591247558594
+        },
+        {
+          "class": "peek peek-cat",
+          "x": 250,
+          "y": 313.296875,
+          "width": 44,
+          "height": 39,
+          "right": 294,
+          "bottom": 352.296875
+        }
+      ],
+      "overlaps": [],
+      "focusOverlaps": [],
+      "focused": "first-chapter",
+      "focusOutline": "rgb(59, 130, 196) solid 3px",
+      "first": {
+        "x": 28,
+        "y": 420.296875,
+        "width": 264,
+        "height": 88,
+        "right": 292,
+        "bottom": 508.296875
+      },
+      "centerTarget": "first-chapter",
+      "names": [
+        "学而",
+        "为政",
+        "八佾",
+        "里仁",
+        "公冶长",
+        "雍也",
+        "述而",
+        "泰伯",
+        "子罕",
+        "乡党",
+        "先进",
+        "颜渊",
+        "子路",
+        "宪问",
+        "卫灵公",
+        "季氏",
+        "阳货",
+        "微子",
+        "子张",
+        "尧曰"
+      ],
+      "decorText": "",
+      "decorAriaHidden": "true",
+      "tabStops": [
+        {
+          "id": "first-chapter",
+          "tag": "A"
+        }
+      ],
+      "decorPointerEvents": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "audioElements": 0,
+      "prefetches": 0,
+      "scrollWidth": 320,
+      "created": [
+        {
+          "target": "welcome-cat",
+          "options": {
+            "duration": 640,
+            "easing": "cubic-bezier(0.16,1,0.3,1)"
+          },
+          "frames": [
+            {
+              "transform": "none"
+            },
+            {
+              "transform": "translateY(2px) rotate(2deg)",
+              "offset": 0.45
+            },
+            {
+              "transform": "none"
+            }
+          ]
+        }
+      ],
+      "after": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "finished",
+            "currentTime": 640
+          }
+        ],
+        "cancelled": 0,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "screenshot": "/Users/mengxionghan/workspace/lunyu-storybook/docs/reviews/home-anime-d7179532-focus-320x568.png",
+      "nonDataRequests": [
+        {
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/cat-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-body.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-head.webp"
+        },
+        {
+          "type": "other",
+          "url": "http://127.0.0.1:4173/assets/img/icon.png"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "decorations": [
+        {
+          "class": "bookmark bookmark-coral",
+          "x": 306,
+          "y": 14,
+          "width": 10,
+          "height": 12,
+          "right": 316,
+          "bottom": 26
+        },
+        {
+          "class": "bookmark bookmark-sage",
+          "x": 328,
+          "y": 14,
+          "width": 10,
+          "height": 12,
+          "right": 338,
+          "bottom": 26
+        }
+      ],
+      "overlaps": [],
+      "focusOverlaps": [],
+      "focused": "first-chapter",
+      "focusOutline": "rgb(59, 130, 196) solid 3px",
+      "first": {
+        "x": 296,
+        "y": 88,
+        "width": 246,
+        "height": 118,
+        "right": 542,
+        "bottom": 206
+      },
+      "centerTarget": "first-chapter",
+      "names": [
+        "学而",
+        "为政",
+        "八佾",
+        "里仁",
+        "公冶长",
+        "雍也",
+        "述而",
+        "泰伯",
+        "子罕",
+        "乡党",
+        "先进",
+        "颜渊",
+        "子路",
+        "宪问",
+        "卫灵公",
+        "季氏",
+        "阳货",
+        "微子",
+        "子张",
+        "尧曰"
+      ],
+      "decorText": "",
+      "decorAriaHidden": "true",
+      "tabStops": [
+        {
+          "id": "first-chapter",
+          "tag": "A"
+        }
+      ],
+      "decorPointerEvents": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ],
+      "audioElements": 0,
+      "prefetches": 0,
+      "scrollWidth": 844,
+      "created": [],
+      "after": {
+        "created": [],
+        "cancelled": 0,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "nonDataRequests": [
+        {
+          "type": "document",
+          "url": "http://127.0.0.1:4173/"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/elephant-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-ear.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/bunny-base.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/cat-640.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-tail.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-body.webp"
+        },
+        {
+          "type": "image",
+          "url": "http://127.0.0.1:4173/assets/img/dog-head.webp"
+        },
+        {
+          "type": "other",
+          "url": "http://127.0.0.1:4173/assets/img/icon.png"
+        }
+      ]
+    }
+  ],
+  "lifecycle": {
+    "onceBefore": {
+      "created": [
+        {
+          "target": "welcome-cat",
+          "options": {
+            "duration": 640,
+            "easing": "cubic-bezier(0.16,1,0.3,1)"
+          },
+          "frames": [
+            {
+              "transform": "none"
+            },
+            {
+              "transform": "translateY(2px) rotate(2deg)",
+              "offset": 0.45
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "state": "running",
+          "currentTime": 33.307000001807694
+        }
+      ],
+      "cancelled": 0,
+      "active": 1,
+      "events": [],
+      "hidden": false,
+      "reduced": false
+    },
+    "onceAfter": {
+      "created": [
+        {
+          "target": "welcome-cat",
+          "options": {
+            "duration": 640,
+            "easing": "cubic-bezier(0.16,1,0.3,1)"
+          },
+          "frames": [
+            {
+              "transform": "none"
+            },
+            {
+              "transform": "translateY(2px) rotate(2deg)",
+              "offset": 0.45
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "state": "finished",
+          "currentTime": 640
+        }
+      ],
+      "cancelled": 0,
+      "active": 0,
+      "events": [],
+      "hidden": false,
+      "reduced": false
+    },
+    "initialReduce": {
+      "created": [],
+      "cancelled": 0,
+      "active": 0,
+      "events": [],
+      "hidden": false,
+      "reduced": true
+    },
+    "reduceChange": {
+      "method": "browser media emulation while native animation active",
+      "before": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "running",
+            "currentTime": 116.64299999720046
+          }
+        ],
+        "cancelled": 0,
+        "active": 1,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "after": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "idle",
+            "currentTime": null
+          }
+        ],
+        "cancelled": 1,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": true
+      },
+      "restored": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "idle",
+            "currentTime": null
+          }
+        ],
+        "cancelled": 1,
+        "active": 0,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      }
+    },
+    "hidden": {
+      "method": "synthetic branch probe, not actual OS background",
+      "before": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "running",
+            "currentTime": 49.96700000052154
+          }
+        ],
+        "cancelled": 0,
+        "active": 1,
+        "events": [],
+        "hidden": false,
+        "reduced": false
+      },
+      "after": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "idle",
+            "currentTime": null
+          }
+        ],
+        "cancelled": 1,
+        "active": 0,
+        "events": [
+          {
+            "type": "visibilitychange",
+            "trusted": false,
+            "hidden": true
+          }
+        ],
+        "hidden": true,
+        "reduced": false
+      },
+      "restored": {
+        "created": [
+          {
+            "target": "welcome-cat",
+            "options": {
+              "duration": 640,
+              "easing": "cubic-bezier(0.16,1,0.3,1)"
+            },
+            "frames": [
+              {
+                "transform": "none"
+              },
+              {
+                "transform": "translateY(2px) rotate(2deg)",
+                "offset": 0.45
+              },
+              {
+                "transform": "none"
+              }
+            ],
+            "state": "idle",
+            "currentTime": null
+          }
+        ],
+        "cancelled": 1,
+        "active": 0,
+        "events": [
+          {
+            "type": "visibilitychange",
+            "trusted": false,
+            "hidden": true
+          },
+          {
+            "type": "visibilitychange",
+            "trusted": false,
+            "hidden": false
+          }
+        ],
+        "hidden": false,
+        "reduced": false
+      }
+    }
+  },
+  "errors": [],
+  "evidenceScreenshots": [],
+  "limitations": [
+    "hidden uses an explicitly synthetic visibilitychange with an overridden document.hidden getter",
+    "No physical device or OS background testing; no player testing"
+  ],
+  "browser": {
+    "path": "/Users/mengxionghan/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+    "headless": true,
+    "version": "156.0.8078.4"
+  },
+  "failure": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(monitor.events.some(e=>e.type==='pagehide'&&e.trusted))\n",
+  "passed": false,
+  "after": {
+    "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+    "src/home.css": "c904aa3095309e197de62e098ec1084fb257da530198d138955a4a26bbbdd5c2",
+    "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+    "public/index.html": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba"
+  }
+}

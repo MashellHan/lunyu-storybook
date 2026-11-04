@@ -1,0 +1,35 @@
+{
+  "text": "君子食无求饱，居无求安，",
+  "dur": 3.696,
+  "t": [
+    0.058833,
+    0.32109,
+    0.583347,
+    0.845603,
+    1.10786,
+    1.370117,
+    null,
+    1.852958,
+    2.150749,
+    2.448541,
+    2.746333,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "ba73502444aaf18bd0da62e527fb982e72452e1d2520ac1918bcf9ce6820c883",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-s02-elephant",
+      "rawSHA256": "9d2ccb15126b32482f8e6d49ede3e0f261010e249c81fa5b8f0a4e1125d8be05",
+      "ssmlSHA256": "0a28a7366f4d902e645ebedccbb541f427c8ce8def13387dbe0c9e6b6c87b808"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

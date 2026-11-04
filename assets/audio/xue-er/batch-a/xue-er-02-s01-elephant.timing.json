@@ -1,0 +1,28 @@
+{
+  "text": "有子曰：“",
+  "dur": 1.872,
+  "t": [
+    0.058833,
+    0.382333,
+    0.676458,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "6850afcb1651b7d86da045263fa759b889973ec0e9851cae060a26145ff6cbcd",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s01-elephant",
+      "rawSHA256": "872bbdd43026cfb0ec5532286e69da367b4dcd0608aa54ab4a9a0e6777972646",
+      "ssmlSHA256": "7b2846647f081a19a7c0fb5b1bdd84f6bd97c3aa14d75703c27ee95e48693e70"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

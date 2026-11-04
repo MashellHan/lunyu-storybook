@@ -1,0 +1,38 @@
+[
+  {
+    "source": "tests/artifacts/xue-er-phase-b/xue-er-01-390x844.png",
+    "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-01-390x844.png",
+    "sha256": "e91953090de145754c9c44dccb7adef3fed444979ff288cf761530aef838250a",
+    "bytes": 118503
+  },
+  {
+    "source": "tests/artifacts/xue-er-phase-b/xue-er-03-320x844.png",
+    "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-320x844.png",
+    "sha256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e",
+    "bytes": 66927
+  },
+  {
+    "source": "tests/artifacts/xue-er-phase-b/xue-er-03-390x844.png",
+    "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-03-390x844.png",
+    "sha256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+    "bytes": 78241
+  },
+  {
+    "source": "tests/artifacts/xue-er-phase-b/xue-er-15-320x844.png",
+    "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-320x844.png",
+    "sha256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee",
+    "bytes": 78894
+  },
+  {
+    "source": "tests/artifacts/xue-er-phase-b/xue-er-15-768x1024.png",
+    "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-768x1024.png",
+    "sha256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115",
+    "bytes": 105851
+  },
+  {
+    "source": "tests/artifacts/xue-er-phase-b/xue-er-15-844x390.png",
+    "snapshot": "docs/reviews/xue-er-phase-b-36ce75f/xue-er-15-844x390.png",
+    "sha256": "95fb8c100714fd1cab0637d6ad321ead67ab3a363959b5bae78a7b4af0da5407",
+    "bytes": 105925
+  }
+]

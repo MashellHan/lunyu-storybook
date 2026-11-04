@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "Pairwise analysis of actual browser bounds from the main and targeted tail probes; preview inputs remain disabled.",
+  "observations": 62,
+  "distinctPages": 26,
+  "findings": [],
+  "checks": [
+    "Four-role bounds do not overlap one another",
+    "Control rectangles do not overlap one another",
+    "Bound prop rectangles are at least 48px and do not overlap roles",
+    "Roles do not overlap control rectangles at measured page-top position",
+    "Bound prop rectangles do not overlap controls or each other"
+  ],
+  "minimumTextPx": 24,
+  "minimumPinyinPx": 14,
+  "minimumRoleDimensionPx": 80,
+  "sourceUpdatesAfterProbe": {
+    "src/chapter-media.json": {
+      "observed": "5a3a5d19110eff3bbaec4dc109b1180c4c514c944cf1135e64ff4b89e0e7457f",
+      "now": "27da14065dff01ca75eed78c219f8f0dbdfc5ec5d9d4c09f736f68dc2aaca6ef"
+    },
+    "src/chapter.css": {
+      "observed": "a22e85e17b128d4b72e1fee7e858d212864a63b89e5d4648cd81b5b0a4ee063f",
+      "now": "11facc54a140876af072d396dc9adcc245bab5b4a57f33eb6ec33213ca0ae1c1"
+    },
+    "src/app.js": {
+      "observed": "385fee9b35063d631a8ce853d22789d45b336aa8bda64d5470993282e7d493fc",
+      "now": "ce3ae19deacf49e77a6c84ab018a4475e20ba7a2efe3129b0df1a9252b233237"
+    },
+    "src/index.html": {
+      "observed": "a9375ec394b3acd6a7eac722926d3493e1dea487b80bdb30577f871ed97d4134",
+      "now": "05120985a57c396d48e2449a98c68f568a7c45aaa66185e1717ab093195e5760"
+    },
+    "scripts/chapter-data.mjs": {
+      "observed": "07f2d2ba08a983009a28a2ab06268371b5ac66b80a139c0dc5f1e8dc287106cc",
+      "now": "45cd3f1296d62b48ec3261903c9d5301cadd79da03b4cdc7bde6fbbe2084cd8d"
+    }
+  },
+  "measurementPosition": "Page top after each navigation; sticky-header behavior during arbitrary scroll is not inferred from these bounds."
+}

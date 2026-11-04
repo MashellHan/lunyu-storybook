@@ -1,0 +1,60 @@
+{
+  "text": "恭近于礼，远耻辱也。",
+  "dur": 4.003167,
+  "t": [
+    0.056833,
+    0.326708,
+    0.653416,
+    0.980125,
+    null,
+    1.576708,
+    1.889208,
+    2.223021,
+    2.556833,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "2e2d566f3ac0f9499ea043f0c36d4a72dfb5e9c81c70bb2033f61340d58a3797",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-13-s03-bunny",
+      "rawSHA256": "8d5d890e511d8f5ae06095c7896738a9124ee36559ead80235cea1825ca36a93",
+      "ssmlSHA256": "bf3e6a8c77d2f525e3538dfa523fc4748429643b19deebb428eb0c9291763ff8"
+    },
+    {
+      "id": "xue-er-13-s03-cat",
+      "rawSHA256": "25369894c58b51575f9d70756da5dcb1a60ffab39fe7cb87573423dc82b1754c",
+      "ssmlSHA256": "637b34d3fd02135ae8d9f5f1401c3ad7f5a96cd5c6dfb4dd40d96e7c572bf64d"
+    },
+    {
+      "id": "xue-er-13-s03-dog",
+      "rawSHA256": "0ec5a068a3d46dccca0107bde4135e9f62222ab9e9e23c66eb2d1dd04a34c8f8",
+      "ssmlSHA256": "b8db5261fb73fb1972d7f8d93ee8179fc0f4a3391979c02a0656c0d4af6ae05a"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8333333333333334,
+        0.6296296296296297
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

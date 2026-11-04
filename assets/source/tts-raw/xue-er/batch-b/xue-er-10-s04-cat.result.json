@@ -1,0 +1,38 @@
+{
+  "id": "xue-er-10-s04-cat",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "23926f8bca5cdb4f3aed77d1ec2d5cca1b73620840ffe741368b151108ff8407",
+  "attemptId": "7a7dd2fb-22bb-4cf1-9c53-fd15e99c0f01",
+  "startedAt": "2026-11-03T13:00:38.284768+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:00:41.395839+00:00",
+  "rawSHA256": "a82767af9a76b3cc7b338e6bf8c8ed764631b5931b21919a0e16b3b041c6c8f4",
+  "wb": [
+    [
+      0.056833,
+      0.3835,
+      "子贡"
+    ],
+    [
+      0.440333,
+      0.340916,
+      "曰"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 244,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 246,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

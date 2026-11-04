@@ -1,0 +1,26 @@
+{
+  "text": "可也。",
+  "dur": 0.984,
+  "t": [
+    0.082,
+    0.505,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "025d8e956382f3e2d2f0992ec0b2f74ed08a82f632cbe5034c0c4859c813daa6",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s04-dog",
+      "rawSHA256": "c967f50997b4a98c4dd46b13c013b246a2cfcf22440a1c1fa477bbd47ac4c848",
+      "ssmlSHA256": "54dc32734c8fedc35387e90737010fd6e132a8f2193063be8a8247f84ce8700e"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

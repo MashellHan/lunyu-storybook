@@ -1,0 +1,92 @@
+{
+  "id": "xue-er-10-title-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "c39c1ba50886a25fe975459a188778f9ccc8a37f8c1252ea722ef832f2f6e775",
+  "attemptId": "049acbe7-96dc-4e0d-ab8e-91bab5947b87",
+  "startedAt": "2026-11-03T13:01:38.807262+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:01:43.590627+00:00",
+  "rawSHA256": "bbb627e8f349bda3449f5c21195b035e7a8008bf6dd1fb365ff823b65fe64ab4",
+  "wb": [
+    [
+      0.058833,
+      0.367625,
+      "论"
+    ],
+    [
+      0.426458,
+      0.33825,
+      "语"
+    ],
+    [
+      1.0,
+      0.33825,
+      "之"
+    ],
+    [
+      1.705875,
+      0.75,
+      "夫子"
+    ],
+    [
+      2.470583,
+      0.323541,
+      "至于"
+    ],
+    [
+      2.794125,
+      0.308833,
+      "是"
+    ],
+    [
+      3.102958,
+      0.25,
+      "邦"
+    ],
+    [
+      3.352958,
+      0.426458,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 297,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 308,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 310,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 312,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 314,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 316,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 317,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 318,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

@@ -1,0 +1,29 @@
+{
+  "text": "道千乘之国，",
+  "dur": 2.808,
+  "t": [
+    0.056833,
+    0.3125,
+    0.724416,
+    1.051125,
+    1.434646,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "4d7302806f9142ad5e165cc7718697d5523184b4b41c9642b93a3becb7e16e67",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-05-s02-bunny",
+      "rawSHA256": "0bf1732fee8e9bba327ed9fd5837a92e366df1aff11afb524d6d8a4503623ab9",
+      "ssmlSHA256": "0fb1ba6ee8d9c93bcea8c1888830d4cfdd6053ee6c09bd6178fd2100f9c19379"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

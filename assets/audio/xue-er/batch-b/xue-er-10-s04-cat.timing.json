@@ -1,0 +1,28 @@
+{
+  "text": "子贡曰：“",
+  "dur": 1.872,
+  "t": [
+    0.056833,
+    0.248583,
+    0.440333,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "63514a53234ae9947af5251699a2b46cec0d4918bd956a2ac6e8d607257ff227",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s04-cat",
+      "rawSHA256": "a82767af9a76b3cc7b338e6bf8c8ed764631b5931b21919a0e16b3b041c6c8f4",
+      "ssmlSHA256": "23926f8bca5cdb4f3aed77d1ec2d5cca1b73620840ffe741368b151108ff8407"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

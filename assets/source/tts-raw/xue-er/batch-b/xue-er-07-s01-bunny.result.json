@@ -1,0 +1,38 @@
+{
+  "id": "xue-er-07-s01-bunny",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "21c95075a194327aa20cfa5256503f5b652ca1fa0a1d0d5d61652f8fdc60f3ce",
+  "attemptId": "0d08b5fe-4e9a-495e-bf07-300c4932b7e4",
+  "startedAt": "2026-11-03T12:56:31.752793+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:56:35.755840+00:00",
+  "rawSHA256": "09f3e369189c0f2615a4295f579811d3c19c041080d25b0970824540f1e78de7",
+  "wb": [
+    [
+      0.056833,
+      0.610791,
+      "子夏"
+    ],
+    [
+      0.667625,
+      0.397708,
+      "曰"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 192,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 194,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

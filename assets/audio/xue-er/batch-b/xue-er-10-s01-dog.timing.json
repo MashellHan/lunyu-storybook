@@ -1,0 +1,32 @@
+{
+  "text": "子禽问于子贡曰：“",
+  "dur": 1.968,
+  "t": [
+    0.082,
+    0.364,
+    0.647,
+    0.835,
+    1.07,
+    1.2815,
+    1.494,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "f85d2c28089f604df8fc857ec9ba7461224b649a28c09f3864a4903fd6e61b6b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s01-dog",
+      "rawSHA256": "0f74bee136576a742add4912b0624326648ab4218c128ac0c93cee28018efe1e",
+      "ssmlSHA256": "035cc12eb162b1ddf5724da9186c38cbea4d78556fc90d0aa83ff94668342c8c"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

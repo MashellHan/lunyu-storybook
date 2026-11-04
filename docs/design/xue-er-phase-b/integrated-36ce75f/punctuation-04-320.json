@@ -1,0 +1,272 @@
+{
+  "page": "xue-er-04-p01",
+  "playable": "false",
+  "pageIndex": 0,
+  "viewport": [
+    320,
+    844
+  ],
+  "cards": [
+    {
+      "groupId": "xue-er-04-p01-r01",
+      "text": "曾子曰：“吾日三省吾身：",
+      "font": "24px",
+      "pinyinFont": "14px",
+      "units": [
+        {
+          "text": "曾",
+          "x": 62,
+          "y": 597.09375,
+          "width": 34.625,
+          "height": 52
+        },
+        {
+          "text": "子",
+          "x": 96.625,
+          "y": 597.09375,
+          "width": 26,
+          "height": 52
+        },
+        {
+          "text": "曰：",
+          "x": 122.625,
+          "y": 597.09375,
+          "width": 50.171875,
+          "height": 52
+        },
+        {
+          "text": "“吾",
+          "x": 172.796875,
+          "y": 598.09375,
+          "width": 36.828125,
+          "height": 51
+        },
+        {
+          "text": "日",
+          "x": 209.625,
+          "y": 598.09375,
+          "width": 26,
+          "height": 51
+        },
+        {
+          "text": "三",
+          "x": 235.625,
+          "y": 597.09375,
+          "width": 26,
+          "height": 52
+        },
+        {
+          "text": "省",
+          "x": 62,
+          "y": 649.09375,
+          "width": 30.1875,
+          "height": 52
+        },
+        {
+          "text": "吾",
+          "x": 92.1875,
+          "y": 650.09375,
+          "width": 26,
+          "height": 51
+        },
+        {
+          "text": "身：",
+          "x": 118.1875,
+          "y": 649.09375,
+          "width": 58.625,
+          "height": 52
+        }
+      ],
+      "glyphs": [
+        {
+          "text": "曾",
+          "pinyin": "zēng",
+          "segmentId": "xue-er-04-s01",
+          "sourceIndex": 0
+        },
+        {
+          "text": "子",
+          "pinyin": "zǐ",
+          "segmentId": "xue-er-04-s01",
+          "sourceIndex": 1
+        },
+        {
+          "text": "曰",
+          "pinyin": "yuē",
+          "segmentId": "xue-er-04-s01",
+          "sourceIndex": 2
+        },
+        {
+          "text": "：",
+          "pinyin": "",
+          "segmentId": "xue-er-04-s01",
+          "sourceIndex": 3
+        },
+        {
+          "text": "“",
+          "pinyin": "",
+          "segmentId": "xue-er-04-s01",
+          "sourceIndex": 4
+        },
+        {
+          "text": "吾",
+          "pinyin": "wú",
+          "segmentId": "xue-er-04-s02",
+          "sourceIndex": 5
+        },
+        {
+          "text": "日",
+          "pinyin": "rì",
+          "segmentId": "xue-er-04-s02",
+          "sourceIndex": 6
+        },
+        {
+          "text": "三",
+          "pinyin": "sān",
+          "segmentId": "xue-er-04-s02",
+          "sourceIndex": 7
+        },
+        {
+          "text": "省",
+          "pinyin": "xǐng",
+          "segmentId": "xue-er-04-s02",
+          "sourceIndex": 8
+        },
+        {
+          "text": "吾",
+          "pinyin": "wú",
+          "segmentId": "xue-er-04-s02",
+          "sourceIndex": 9
+        },
+        {
+          "text": "身",
+          "pinyin": "shēn",
+          "segmentId": "xue-er-04-s02",
+          "sourceIndex": 10
+        },
+        {
+          "text": "：",
+          "pinyin": "",
+          "segmentId": "xue-er-04-s02",
+          "sourceIndex": 11
+        }
+      ]
+    },
+    {
+      "groupId": "xue-er-04-p01-r02",
+      "text": "为人谋而不忠乎？",
+      "font": "24px",
+      "pinyinFont": "14px",
+      "units": [
+        {
+          "text": "为",
+          "x": 62,
+          "y": 750.09375,
+          "width": 26,
+          "height": 51
+        },
+        {
+          "text": "人",
+          "x": 88,
+          "y": 750.09375,
+          "width": 26,
+          "height": 51
+        },
+        {
+          "text": "谋",
+          "x": 114,
+          "y": 750.09375,
+          "width": 31.3125,
+          "height": 51
+        },
+        {
+          "text": "而",
+          "x": 145.3125,
+          "y": 750.09375,
+          "width": 26,
+          "height": 51
+        },
+        {
+          "text": "不",
+          "x": 171.3125,
+          "y": 750.09375,
+          "width": 26,
+          "height": 51
+        },
+        {
+          "text": "忠",
+          "x": 197.3125,
+          "y": 749.09375,
+          "width": 43.34375,
+          "height": 52
+        },
+        {
+          "text": "乎？",
+          "x": 62,
+          "y": 801.09375,
+          "width": 50,
+          "height": 52
+        }
+      ],
+      "glyphs": [
+        {
+          "text": "为",
+          "pinyin": "wèi",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 12
+        },
+        {
+          "text": "人",
+          "pinyin": "rén",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 13
+        },
+        {
+          "text": "谋",
+          "pinyin": "móu",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 14
+        },
+        {
+          "text": "而",
+          "pinyin": "ér",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 15
+        },
+        {
+          "text": "不",
+          "pinyin": "bù",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 16
+        },
+        {
+          "text": "忠",
+          "pinyin": "zhōng",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 17
+        },
+        {
+          "text": "乎",
+          "pinyin": "hū",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 18
+        },
+        {
+          "text": "？",
+          "pinyin": "",
+          "segmentId": "xue-er-04-s03",
+          "sourceIndex": 19
+        }
+      ]
+    }
+  ],
+  "scrollWidth": 320,
+  "errors": [],
+  "previewHtml": "build/xue-er-preview/xue-er-04.html",
+  "htmlSha256Before": "4946122a60ae3af04cd957a76b0fe9f9cdf05d6b0ef0f9c811f4ebbecdb2a9ad",
+  "htmlSha256After": "4946122a60ae3af04cd957a76b0fe9f9cdf05d6b0ef0f9c811f4ebbecdb2a9ad",
+  "screenshot": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-04-p01-320x844.png",
+  "screenshotSha256": "03d33de4c69eae3cba2e0514cc19b5e0932b11887984cc28f1276c85bd8746b1",
+  "capturedAt": "2026-11-03T12:30:26.260Z",
+  "originalTextAndPinyinMatch": true
+}

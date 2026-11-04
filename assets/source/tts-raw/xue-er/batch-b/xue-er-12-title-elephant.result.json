@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-12-title-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "8070d78cc7118b98f78c58ba78a86d1c64c32cd58d765c5e2d187e69854bdfd3",
+  "attemptId": "093e74f9-9e08-4653-a886-a3dbc446d7e3",
+  "startedAt": "2026-11-03T13:03:35.722524+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:03:39.050977+00:00",
+  "rawSHA256": "dc69f387f5cc4a0fc64485686469440abf693270229f88af7152c67cd7014bcd",
+  "wb": [
+    [
+      0.058833,
+      0.338208,
+      "论"
+    ],
+    [
+      0.397041,
+      0.33825,
+      "语"
+    ],
+    [
+      1.0,
+      0.323541,
+      "之"
+    ],
+    [
+      1.602958,
+      0.279375,
+      "礼"
+    ],
+    [
+      1.882333,
+      0.220583,
+      "之"
+    ],
+    [
+      2.102958,
+      0.382333,
+      "用"
+    ],
+    [
+      2.5,
+      0.235291,
+      "和"
+    ],
+    [
+      2.75,
+      0.205875,
+      "为"
+    ],
+    [
+      2.955875,
+      0.308833,
+      "贵"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 297,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 308,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 310,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 312,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 313,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 314,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 315,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 316,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 317,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

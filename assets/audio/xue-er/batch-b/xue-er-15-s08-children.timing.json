@@ -1,0 +1,57 @@
+{
+  "text": "其斯之谓与？”",
+  "dur": 2.691292,
+  "t": [
+    0.056833,
+    0.369333,
+    0.667625,
+    0.923291,
+    1.235791,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "8c73348f833bcd68493695fea04deb4935bfba63ce9c977586f156f4134ff1a2",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s08-bunny",
+      "rawSHA256": "9be8711d6f5ec3b07d1317c77fa32ac7142bb1cbababbe60f8f336cf543458f3",
+      "ssmlSHA256": "a974550077d334096b6bf7bc0ac3c0b6b39bc855fe4cebfec75353dbee0769b9"
+    },
+    {
+      "id": "xue-er-15-s08-cat",
+      "rawSHA256": "f6ad62d6fb0f46b5d38e559987a769db662c5307235ec56dfb38d002213694c4",
+      "ssmlSHA256": "81e264bd856c969b10ca072e71efdffbd8c032bc8364d1b01c4ab98a15563529"
+    },
+    {
+      "id": "xue-er-15-s08-dog",
+      "rawSHA256": "c04533c93e980363da4ccde22d75cdb3a0d8fcca02801c54efd0d92313d373a1",
+      "ssmlSHA256": "cdc78c9b0ef08aacd75f5491f0ef17459b3955be2003afc782b8945af130d75b"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.9074074074074073,
+        0.5277777777777778
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

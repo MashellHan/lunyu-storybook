@@ -1,0 +1,63 @@
+{
+  "text": "夫子至于是邦也，必闻其政，",
+  "dur": 4.818667,
+  "t": [
+    0.056833,
+    0.397729,
+    0.738625,
+    1.001416,
+    1.264208,
+    1.519875,
+    1.846583,
+    null,
+    2.471583,
+    2.741458,
+    3.025583,
+    3.366458,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "fed7c8c65b82e387a9d81391916a288169d2aaa7a6bf7847fd94bee3bc72da00",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s02-bunny",
+      "rawSHA256": "aff8aaf83af2ea324b3ae178c40fbcd703593427f5dbed51a276473f9f602034",
+      "ssmlSHA256": "75182ae34c4902a706affb5f9e1651a1cf96e47801269521b1da1af0a0b32464"
+    },
+    {
+      "id": "xue-er-10-s02-cat",
+      "rawSHA256": "75c5fa6cfd5a2b508ac56cb2c9c9b8079bb37ca5ae9d3cf677cbfb3825af7760",
+      "ssmlSHA256": "e6953a2f44fe16e7a0b3ab9fde4d96b754efa678d96c8b693222a62de70ff55a"
+    },
+    {
+      "id": "xue-er-10-s02-dog",
+      "rawSHA256": "48a066279ae447384db440aa16552f44bedc08c604c967955ade3fec9f83fbdc",
+      "ssmlSHA256": "413bcf4a5ac346ce5c7406f94f576fc66c336dd5349cbe0e856474382c4de3fb"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.7908163265306123,
+        0.6377551020408163
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

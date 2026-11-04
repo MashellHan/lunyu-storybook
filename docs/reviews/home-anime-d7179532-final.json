@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "scope": "Stage A homepage decoration increment only",
+  "homeSha256": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba",
+  "sourceHashes": {
+    "src/home.html": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+    "src/home.css": "c904aa3095309e197de62e098ec1084fb257da530198d138955a4a26bbbdd5c2",
+    "src/home.js": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+    "public/index.html": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba"
+  },
+  "matrixEvidence": "home-anime-d7179532-check.json",
+  "matrixInitialFailure": "Cross-document console did not retain the about:blank pagehide event; diagnostic only, not a product defect. The original evidence is retained.",
+  "actualPagehideEvidence": "home-anime-d7179532-pagehide.json",
+  "actualPagehide": {
+    "isTrusted": true,
+    "persisted": false,
+    "url": "http://127.0.0.1:4173/",
+    "cancelled": 1,
+    "active": 0,
+    "states": [
+      "idle"
+    ]
+  },
+  "screenshotsActuallyViewed": [
+    {
+      "path": "tests/artifacts/home-1440x900.png",
+      "sha256": "6f36fcdd152cc2707c2a861bfbad47f5b91b87042c1b7f64221e8c1758c7a3e4",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-1024x768.png",
+      "sha256": "e2b2a7d4291838714ef6682f8d584a4b30f80dce4e7bcc9e7ca7d485cb10b9c1",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-768x1024.png",
+      "sha256": "561892ec7286bdf43912f053c324eaa5fbfb244a1fe1936e6f0a7172bb7687ef",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-390x844.png",
+      "sha256": "c236549102a77b3db5464127e614f71b644c94ec2e87ced77cceddc130a2b423",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-320x568.png",
+      "sha256": "cd1278662052897c399262468ac7e268e10db0a460fab637898caf3602621621",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-844x390.png",
+      "sha256": "7000bf2ee053a29e2c207bf8dd8d837776f16eb433186719ee58d94b8d3da8ee",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-peak-1440x900.png",
+      "sha256": "68dd620ba8da017adaa34caf4c9c5d777690acd686ebd829b7635d3f40b3f9f6",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-peak-1024x768.png",
+      "sha256": "6bfab72fea9ca6b21fea5bee3d11123708825faec905c8f9dd5d9018bdae57aa",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-peak-768x1024.png",
+      "sha256": "4ff74af0e4f23bc5392758b20d21960bb7f110af3b78cd95b655e732c928ea94",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-peak-390x844.png",
+      "sha256": "fb06d2209ec181978bf785aead2bc1bf8990b85f0e6b31eff50d2c64d22abb01",
+      "matches": true
+    },
+    {
+      "path": "tests/artifacts/home-peak-320x568.png",
+      "sha256": "6df7fab28b4b4aed06e387675ba4f2398eb49d66b2cee070ab29f91b91c4eac1",
+      "matches": true
+    }
+  ],
+  "independentFocusScreenshots": [
+    "home-anime-d7179532-focus-1440x900.png",
+    "home-anime-d7179532-focus-390x844.png"
+  ],
+  "suite": {
+    "runBy": "engineer",
+    "readOnlyVerified": true,
+    "passed": 45,
+    "failed": 0,
+    "skipped": 0,
+    "exitCode": 0,
+    "log": "tests/artifacts/npm-test-home-polish.log",
+    "logSha256": "4cfd0aef897757ff665c7b8968bf39f6042e0d7604ee4ede8c696f3dd1d85d9f"
+  },
+  "unresolvedBlockers": [],
+  "limitations": [
+    "hidden was explicitly simulated, not physical OS background",
+    "Actual pagehide persisted=false; no new BFCache claim",
+    "No physical-device or listening check; no player retest"
+  ]
+}

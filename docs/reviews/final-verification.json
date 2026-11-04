@@ -1,0 +1,448 @@
+{
+  "at": "2026-11-03T10:48:48.963Z",
+  "manifestSha256": "05f1dbf4ec7d52f805746b3fb06e4182c96169314b2fcfb1e5e1557008ed764f",
+  "mismatches": [],
+  "checks": {
+    "inputs": 27,
+    "artifacts": 4,
+    "screenshots": 7
+  },
+  "evidence": {
+    "candidate-6c50d762-layout.json": {
+      "beforeMismatches": [],
+      "afterMismatches": [],
+      "errors": [],
+      "allSourcesMatch": true,
+      "allScrolledControlsVisible": true,
+      "measurements": [
+        {
+          "viewport": "1440x900",
+          "fonts": [
+            [
+              "30px",
+              "15px"
+            ],
+            [
+              "30px",
+              "15px"
+            ],
+            [
+              "30px",
+              "15px"
+            ]
+          ],
+          "allRolesWithinWidth": true,
+          "overlaps": 0,
+          "scrolledControls": [
+            {
+              "id": "homeBtn",
+              "x": 154,
+              "y": 40,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "homeBtn"
+            },
+            {
+              "id": "pauseBtn",
+              "x": 1146,
+              "y": 40,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "pauseBtn"
+            },
+            {
+              "id": "stopBtn",
+              "x": 1222,
+              "y": 40,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "stopBtn"
+            }
+          ],
+          "entryBottom": 294.5
+        },
+        {
+          "viewport": "1024x768",
+          "fonts": [
+            [
+              "26.112px",
+              "14px"
+            ],
+            [
+              "26.112px",
+              "14px"
+            ],
+            [
+              "26.112px",
+              "14px"
+            ]
+          ],
+          "allRolesWithinWidth": true,
+          "overlaps": 0,
+          "scrolledControls": [
+            {
+              "id": "homeBtn",
+              "x": 44,
+              "y": 34,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "homeBtn"
+            },
+            {
+              "id": "pauseBtn",
+              "x": 840,
+              "y": 34,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "pauseBtn"
+            },
+            {
+              "id": "stopBtn",
+              "x": 916,
+              "y": 34,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "stopBtn"
+            }
+          ],
+          "entryBottom": 228.5
+        },
+        {
+          "viewport": "768x1024",
+          "fonts": [
+            [
+              "26px",
+              "15px"
+            ],
+            [
+              "26px",
+              "15px"
+            ],
+            [
+              "26px",
+              "15px"
+            ]
+          ],
+          "allRolesWithinWidth": true,
+          "overlaps": 0,
+          "scrolledControls": [
+            {
+              "id": "homeBtn",
+              "x": 30,
+              "y": 28,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "homeBtn"
+            },
+            {
+              "id": "pauseBtn",
+              "x": 598,
+              "y": 28,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "pauseBtn"
+            },
+            {
+              "id": "stopBtn",
+              "x": 674,
+              "y": 28,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "stopBtn"
+            }
+          ],
+          "entryBottom": 563.796875
+        },
+        {
+          "viewport": "844x390",
+          "fonts": [
+            [
+              "26px",
+              "15px"
+            ],
+            [
+              "26px",
+              "15px"
+            ],
+            [
+              "26px",
+              "15px"
+            ]
+          ],
+          "allRolesWithinWidth": true,
+          "overlaps": 0,
+          "scrolledControls": [
+            {
+              "id": "homeBtn",
+              "x": 30,
+              "y": 8,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "homeBtn"
+            },
+            {
+              "id": "pauseBtn",
+              "x": 674,
+              "y": 8,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "pauseBtn"
+            },
+            {
+              "id": "stopBtn",
+              "x": 750,
+              "y": 8,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "stopBtn"
+            }
+          ],
+          "entryBottom": 206
+        },
+        {
+          "viewport": "390x844",
+          "fonts": [
+            [
+              "26px",
+              "15px"
+            ],
+            [
+              "26px",
+              "15px"
+            ],
+            [
+              "26px",
+              "15px"
+            ]
+          ],
+          "allRolesWithinWidth": true,
+          "overlaps": 0,
+          "scrolledControls": [
+            {
+              "id": "homeBtn",
+              "x": 24,
+              "y": 12,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "homeBtn"
+            },
+            {
+              "id": "pauseBtn",
+              "x": 162.984375,
+              "y": 12,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "pauseBtn"
+            },
+            {
+              "id": "stopBtn",
+              "x": 302,
+              "y": 12,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "stopBtn"
+            }
+          ],
+          "entryBottom": 534.296875
+        },
+        {
+          "viewport": "320x568",
+          "fonts": [
+            [
+              "24px",
+              "14px"
+            ],
+            [
+              "24px",
+              "14px"
+            ],
+            [
+              "24px",
+              "14px"
+            ]
+          ],
+          "allRolesWithinWidth": true,
+          "overlaps": 0,
+          "scrolledControls": [
+            {
+              "id": "homeBtn",
+              "x": 22,
+              "y": 12,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "homeBtn"
+            },
+            {
+              "id": "pauseBtn",
+              "x": 127.984375,
+              "y": 12,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "pauseBtn"
+            },
+            {
+              "id": "stopBtn",
+              "x": 233.984375,
+              "y": 12,
+              "width": 64,
+              "height": 64,
+              "visible": true,
+              "centerTarget": "stopBtn"
+            }
+          ],
+          "entryBottom": 508.296875
+        }
+      ]
+    },
+    "candidate-6c50d762-ready-clock-gap.json": {
+      "before": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "after": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "match": true,
+      "errors": [],
+      "cases": [
+        {
+          "kind": "fallback",
+          "pass": true,
+          "beforeTime": 0,
+          "afterTime": 0,
+          "afterStep": "e1"
+        },
+        {
+          "kind": "wait",
+          "pass": true,
+          "beforeTime": 0,
+          "afterTime": 0,
+          "afterStep": "solo-bunny"
+        },
+        {
+          "kind": "media",
+          "pass": true,
+          "beforeTime": 0.254676,
+          "afterTime": 0.917087,
+          "afterStep": "e1"
+        },
+        {
+          "kind": "normal-pause",
+          "pass": true,
+          "beforeTime": 0.038273,
+          "afterTime": 0.642147,
+          "afterStep": "e1"
+        }
+      ]
+    }
+  },
+  "inputAggregate": {
+    "count": 27,
+    "sha256": "6bee5af9ec89479fe0933af96c6fb6e04d4cec3e6348eb20aae6afcba957cc7e",
+    "match": true
+  },
+  "test": {
+    "sha256": "7d4a6ba6a9b4969a05c7346ce197a4d740b9d3be1d2f3fbc500c5ee4ae4a293a",
+    "logHashMatch": true,
+    "passedEntries": 38,
+    "summary": "38 passed (2.5m)",
+    "recordedExitCode": 0,
+    "recordedFailed": 0,
+    "recordedSkipped": 0,
+    "lastRun": {
+      "status": "passed",
+      "failedTests": []
+    }
+  },
+  "embeddedAudio": [
+    {
+      "key": "title",
+      "match": true
+    },
+    {
+      "key": "again",
+      "match": true
+    },
+    {
+      "key": "e1",
+      "match": true
+    },
+    {
+      "key": "e2",
+      "match": true
+    },
+    {
+      "key": "e3",
+      "match": true
+    },
+    {
+      "key": "u1",
+      "match": true
+    },
+    {
+      "key": "u2",
+      "match": true
+    },
+    {
+      "key": "u3",
+      "match": true
+    },
+    {
+      "key": "b1",
+      "match": true
+    },
+    {
+      "key": "c2",
+      "match": true
+    },
+    {
+      "key": "d3",
+      "match": true
+    },
+    {
+      "key": "squeak",
+      "match": true
+    },
+    {
+      "key": "meow",
+      "match": true
+    },
+    {
+      "key": "woof",
+      "match": true
+    },
+    {
+      "key": "trumpet",
+      "match": true
+    }
+  ],
+  "baselineProtectedDiff": "",
+  "finalBFCache": {
+    "evidence": "final-6c50d762-bfcache.json",
+    "artifactSha256": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+    "actualBFCache": true,
+    "sameDocument": true,
+    "sameAudio": true,
+    "returnedStep": "free",
+    "returnedAudioPaused": true,
+    "unchangedAfter2s": true,
+    "nextClickKey": "c2",
+    "nextClickAudioTime": 0.317425,
+    "notRestored": [],
+    "errors": []
+  },
+  "lastFingerprintCheckAt": "2026-11-03T10:52:51.085655+00:00",
+  "finalResult": "R1-R4 verified fixed for the frozen local build; physical device and human listening remain unverified."
+}

@@ -1,0 +1,65 @@
+{
+  "text": "不好犯上而好作乱者，未之有也。",
+  "dur": 5.490958,
+  "t": [
+    0.056833,
+    0.213083,
+    0.525583,
+    0.866499,
+    1.292625,
+    1.576708,
+    1.903416,
+    2.187499,
+    2.471583,
+    null,
+    3.139208,
+    3.409083,
+    3.678958,
+    4.048291,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "fee4ae7ee212fd7b7ae3b8fdce2a6696fed8ad712780c5559bdb011016b304b6",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s03-bunny",
+      "rawSHA256": "1ec89b6b283b5eed14d92e74a9454ee49371a72ee8bb4705adc0b89208d20bf7",
+      "ssmlSHA256": "796f62214c43ba939b6739bb6ce4c9f921325b45e75a5aa5573004cd45b59777"
+    },
+    {
+      "id": "xue-er-02-s03-cat",
+      "rawSHA256": "4a6598803561df09baee21ad64d71114a86ffea330d306c2eeac21d6d124316a",
+      "ssmlSHA256": "2ee45f9c2cb9e2d88b4feb524f39a77ffb8781109034128987961dda6dba5deb"
+    },
+    {
+      "id": "xue-er-02-s03-dog",
+      "rawSHA256": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281",
+      "ssmlSHA256": "6a1fecbe6b991ec9db9846bb86c0f27b8f764d6e6741bb6e995476bce1d64e48"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8348214285714286,
+        0.65625
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}
