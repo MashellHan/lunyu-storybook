@@ -1,0 +1,47 @@
+{
+  "id": "xue-er-04-s01-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "420d4cd9819af364f6cca11121809a0e6890db9f7d222d81bc55fbab78d920d0",
+  "attemptId": "f305c388-ce58-4e62-9cf6-06754ddaea0e",
+  "startedAt": "2026-11-03T12:52:49.529749+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:52:53.890855+00:00",
+  "rawSHA256": "5aefb4f2d92d9e9d61dd9b9c18ceee9695faaed6f3e95e0a958ec7c5a36c1c57",
+  "wb": [
+    [
+      0.058833,
+      0.308833,
+      "曾"
+    ],
+    [
+      0.367666,
+      0.220583,
+      "子"
+    ],
+    [
+      0.58825,
+      0.3235,
+      "曰"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 298,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 309,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 310,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

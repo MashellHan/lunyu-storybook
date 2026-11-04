@@ -1,0 +1,36 @@
+{
+  "text": "不以礼节之，亦不可行也。”",
+  "dur": 2.472,
+  "t": [
+    0.082,
+    0.317,
+    0.458,
+    0.6225,
+    0.788,
+    null,
+    1.323,
+    1.605,
+    1.7695,
+    1.935,
+    2.123,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "d543bc89e344e8d1669703d004c33345f100df362d98b907f5f9956b16027660",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-12-s05-dog",
+      "rawSHA256": "29ad124cd8c2c4fc0277d91e179f13963843d5ba3c95ccd6d4d021826247eeb0",
+      "ssmlSHA256": "a5c8d83de8bc9bc7806fead02334ac7ca3b811748d23d0b5b7130c704c9bdcaf"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

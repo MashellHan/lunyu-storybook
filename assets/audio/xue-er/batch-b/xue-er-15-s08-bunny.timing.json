@@ -1,0 +1,30 @@
+{
+  "text": "其斯之谓与？”",
+  "dur": 2.592,
+  "t": [
+    0.056833,
+    0.369333,
+    0.667625,
+    0.923291,
+    1.235791,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "9d079f152b84f6545f9f0c98b616e6d928a9d9e5d0c01777336325a622034b39",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s08-bunny",
+      "rawSHA256": "9be8711d6f5ec3b07d1317c77fa32ac7142bb1cbababbe60f8f336cf543458f3",
+      "ssmlSHA256": "a974550077d334096b6bf7bc0ac3c0b6b39bc855fe4cebfec75353dbee0769b9"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

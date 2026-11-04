@@ -1,0 +1,83 @@
+{
+  "id": "xue-er-12-s03-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "021262e248f9634225891a6ba2869858dcd95e65e3b064060d73503346d98eee",
+  "attemptId": "9c9f4865-6b86-4753-9112-971577f7a1b1",
+  "startedAt": "2026-11-03T13:02:39.818846+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:02:43.473614+00:00",
+  "rawSHA256": "c31e92e25ae94f0b15f718155ca07f704a1da2f98da6a5f49bbbadbaf26a5920",
+  "wb": [
+    [
+      0.058833,
+      0.544125,
+      "先王"
+    ],
+    [
+      0.617666,
+      0.176458,
+      "之"
+    ],
+    [
+      0.794125,
+      0.426458,
+      "道"
+    ],
+    [
+      1.602958,
+      0.308791,
+      "斯"
+    ],
+    [
+      1.91175,
+      0.25,
+      "为"
+    ],
+    [
+      2.16175,
+      0.397041,
+      "美"
+    ],
+    [
+      2.779416,
+      1.352958,
+      "小大由之"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 268,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 270,
+      "wordLength": 4
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

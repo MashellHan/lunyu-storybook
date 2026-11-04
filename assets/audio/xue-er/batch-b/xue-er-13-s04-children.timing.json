@@ -1,0 +1,62 @@
+{
+  "text": "因不失其亲，亦可宗也。”",
+  "dur": 4.23375,
+  "t": [
+    0.056833,
+    0.369333,
+    0.568166,
+    0.838083,
+    1.150583,
+    null,
+    1.889208,
+    2.130666,
+    2.428958,
+    2.798291,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "f33a2b97e9f2b7de6e760015a9355b19e9145eb993d88b40fd83867cc5c0919a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-13-s04-bunny",
+      "rawSHA256": "87d366fe232e1f49955006b2be0f4dce6cabdd3e4d519ae5bf612cf064f1ea4d",
+      "ssmlSHA256": "177cedb47de553d20504a45752e33c3910ab22574f346e26b9c00a0066c14492"
+    },
+    {
+      "id": "xue-er-13-s04-cat",
+      "rawSHA256": "ffe5e8a02eb8dc8ea6a5f0b2e86154bcf316eba0767ae262f95f5c343d8fe396",
+      "ssmlSHA256": "f02e8f1b10a9753bcfd5541986ed2bde0fe620fafea00398553f4fe168c752c0"
+    },
+    {
+      "id": "xue-er-13-s04-dog",
+      "rawSHA256": "7e8cd51e6a3a106a60c5046e716deb87493a1c129e10da439d004f92e57656c7",
+      "ssmlSHA256": "bf12d31c632b88dad57c73e0a1bc4cacdcf5ca083ad027b86eeae0d62cc8f6ee"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8488372093023255,
+        0.5930232558139534
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

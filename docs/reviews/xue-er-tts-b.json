@@ -1,0 +1,3373 @@
+{
+  "status": "passed-static-request-audit",
+  "reviewedAt": "2026-11-03T11:46:45.861569+00:00",
+  "reviewer": "lunyu-review",
+  "checker": "docs/reviews/check-xue-er-tts-b.py",
+  "checks": 4589,
+  "findings": [],
+  "inputSha256": {
+    "docs/tts/xue-er-generation-request-b.json": "26b79e3aa570877d917ce741079d0b67140ce1b33a29db7557b83d133396ead4",
+    "docs/tts/xue-er-generation-request-b.md": "71e86b2a9bbe71b981ab219bfac0a3a57c3418815c9bff94b65c6e217cbea9f1",
+    "docs/tts/xue-er-generation-request.json": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+    "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+    "scripts/tts/config.py": "5b8947b8ceedf4c92b6f8387d7c3b5716c1e296374d9115f4d2160d3f58b5f60"
+  },
+  "requestSetSha256": {
+    "A": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+    "B": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f"
+  },
+  "contentSubsetB": "857311575852d2d949063498f2c92ad12905ebc8024ea53bce2f1f2a299ce193",
+  "counts": {
+    "newRequests": 205,
+    "newBodySegments": 48,
+    "titles": 13,
+    "uniqueTextInputs": 61,
+    "voiceDistribution": {
+      "elephant": 61,
+      "bunny": 48,
+      "cat": 48,
+      "dog": 48
+    },
+    "reusedAttributions": 13,
+    "avoidedRequests": 52,
+    "uniqueNewPaths": 410,
+    "bodyCodePoints": 488,
+    "bodyHanzi": 373,
+    "sapiMarks": 84,
+    "hdAliases": 18,
+    "newTargetPathsPresent": 0,
+    "totalABRequests": 235,
+    "fullBookSegmentsCoveredInPlan": 72
+  },
+  "referenceArithmetic": {
+    "neuralPlainCharacters": 1612,
+    "hdPlainCharacters": 488,
+    "neuralSSMLCharacters": 48499,
+    "hdSSMLCharacters": 16322,
+    "plainUSD": 0.034916,
+    "ssmlUSD": 1.086569,
+    "combinedABPlainUSD": 0.040204,
+    "combinedABSSMLUSD": 1.26606,
+    "billingValidation": "not-performed; Dragon SKU and billed-character rules unconfirmed"
+  },
+  "titles": [
+    {
+      "textId": "xue-er-04-title",
+      "title": "吾日三省吾身",
+      "sourcePositions": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "pinyin": [
+        "wú",
+        "rì",
+        "sān",
+        "xǐng",
+        "wú",
+        "shēn"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 8,
+          "char": "省",
+          "ph": "xing 3"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-05-title",
+      "title": "道千乘之国",
+      "sourcePositions": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pinyin": [
+        "dào",
+        "qiān",
+        "shèng",
+        "zhī",
+        "guó"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 5,
+          "char": "道",
+          "ph": "dao 4"
+        },
+        {
+          "index": 7,
+          "char": "乘",
+          "ph": "sheng 4"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-06-title",
+      "title": "弟子入则孝",
+      "sourcePositions": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pinyin": [
+        "dì",
+        "zǐ",
+        "rù",
+        "zé",
+        "xiào"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-07-title",
+      "title": "贤贤易色",
+      "sourcePositions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pinyin": [
+        "xián",
+        "xián",
+        "yì",
+        "sè"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-08-title",
+      "title": "君子不重则不威",
+      "sourcePositions": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "pinyin": [
+        "jūn",
+        "zǐ",
+        "bù",
+        "zhòng",
+        "zé",
+        "bù",
+        "wēi"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 8,
+          "char": "重",
+          "ph": "zhong 4"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-09-title",
+      "title": "慎终追远",
+      "sourcePositions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pinyin": [
+        "shèn",
+        "zhōng",
+        "zhuī",
+        "yuǎn"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-10-title",
+      "title": "夫子至于是邦也",
+      "sourcePositions": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "pinyin": [
+        "fū",
+        "zǐ",
+        "zhì",
+        "yú",
+        "shì",
+        "bāng",
+        "yě"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-11-title",
+      "title": "父在观其志",
+      "sourcePositions": [
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "pinyin": [
+        "fù",
+        "zài",
+        "guān",
+        "qí",
+        "zhì"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-12-title",
+      "title": "礼之用和为贵",
+      "sourcePositions": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "pinyin": [
+        "lǐ",
+        "zhī",
+        "yòng",
+        "hé",
+        "wéi",
+        "guì"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-13-title",
+      "title": "信近于义",
+      "sourcePositions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pinyin": [
+        "xìn",
+        "jìn",
+        "yú",
+        "yì"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-14-title",
+      "title": "君子食无求饱",
+      "sourcePositions": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "pinyin": [
+        "jūn",
+        "zǐ",
+        "shí",
+        "wú",
+        "qiú",
+        "bǎo"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-15-title",
+      "title": "贫而无谄",
+      "sourcePositions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pinyin": [
+        "pín",
+        "ér",
+        "wú",
+        "chǎn"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 8,
+          "char": "谄",
+          "ph": "chan 3"
+        }
+      ]
+    },
+    {
+      "textId": "xue-er-16-title",
+      "title": "不患人之不己知",
+      "sourcePositions": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "pinyin": [
+        "bù",
+        "huàn",
+        "rén",
+        "zhī",
+        "bù",
+        "jǐ",
+        "zhī"
+      ],
+      "expectedPhonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ]
+    }
+  ],
+  "reuse": [
+    {
+      "segmentId": "xue-er-05-s01",
+      "chapterRange": [
+        0,
+        4
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-06-s01",
+      "chapterRange": [
+        0,
+        4
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-08-s01",
+      "chapterRange": [
+        0,
+        4
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-09-s01",
+      "chapterRange": [
+        0,
+        5
+      ],
+      "sourceSegmentId": "xue-er-04-s01",
+      "fromBatch": "B",
+      "sourceEntryIds": [
+        "xue-er-04-s01-elephant",
+        "xue-er-04-s01-bunny",
+        "xue-er-04-s01-cat",
+        "xue-er-04-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-11-s01",
+      "chapterRange": [
+        0,
+        4
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-12-s01",
+      "chapterRange": [
+        0,
+        5
+      ],
+      "sourceSegmentId": "xue-er-02-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-02-s01-elephant",
+        "xue-er-02-s01-bunny",
+        "xue-er-02-s01-cat",
+        "xue-er-02-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-13-s01",
+      "chapterRange": [
+        0,
+        5
+      ],
+      "sourceSegmentId": "xue-er-02-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-02-s01-elephant",
+        "xue-er-02-s01-bunny",
+        "xue-er-02-s01-cat",
+        "xue-er-02-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-14-s01",
+      "chapterRange": [
+        0,
+        4
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-15-s01",
+      "chapterRange": [
+        0,
+        5
+      ],
+      "sourceSegmentId": "xue-er-10-s04",
+      "fromBatch": "B",
+      "sourceEntryIds": [
+        "xue-er-10-s04-elephant",
+        "xue-er-10-s04-bunny",
+        "xue-er-10-s04-cat",
+        "xue-er-10-s04-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-15-s03",
+      "chapterRange": [
+        19,
+        23
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-15-s06",
+      "chapterRange": [
+        40,
+        45
+      ],
+      "sourceSegmentId": "xue-er-10-s04",
+      "fromBatch": "B",
+      "sourceEntryIds": [
+        "xue-er-10-s04-elephant",
+        "xue-er-10-s04-bunny",
+        "xue-er-10-s04-cat",
+        "xue-er-10-s04-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-15-s09",
+      "chapterRange": [
+        69,
+        73
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    },
+    {
+      "segmentId": "xue-er-16-s01",
+      "chapterRange": [
+        0,
+        4
+      ],
+      "sourceSegmentId": "xue-er-01-s01",
+      "fromBatch": "A",
+      "sourceEntryIds": [
+        "xue-er-01-s01-elephant",
+        "xue-er-01-s01-bunny",
+        "xue-er-01-s01-cat",
+        "xue-er-01-s01-dog"
+      ]
+    }
+  ],
+  "fullBookPlannedCoverage": [
+    {
+      "chapter": 1,
+      "segments": [
+        {
+          "segmentId": "xue-er-01-s01",
+          "source": "xue-er-01-s01",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-01-s02",
+          "source": "legacy-v5",
+          "kind": "legacy"
+        },
+        {
+          "segmentId": "xue-er-01-s03",
+          "source": "legacy-v5",
+          "kind": "legacy"
+        },
+        {
+          "segmentId": "xue-er-01-s04",
+          "source": "legacy-v5",
+          "kind": "legacy"
+        }
+      ],
+      "title": "legacy"
+    },
+    {
+      "chapter": 2,
+      "segments": [
+        {
+          "segmentId": "xue-er-02-s01",
+          "source": "xue-er-02-s01",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-02-s02",
+          "source": "xue-er-02-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-02-s03",
+          "source": "xue-er-02-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-02-s04",
+          "source": "xue-er-02-s04",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-02-s05",
+          "source": "xue-er-02-s05",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 3,
+      "segments": [
+        {
+          "segmentId": "xue-er-03-s01",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-03-s02",
+          "source": "xue-er-03-s02",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 4,
+      "segments": [
+        {
+          "segmentId": "xue-er-04-s01",
+          "source": "xue-er-04-s01",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-04-s02",
+          "source": "xue-er-04-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-04-s03",
+          "source": "xue-er-04-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-04-s04",
+          "source": "xue-er-04-s04",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-04-s05",
+          "source": "xue-er-04-s05",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 5,
+      "segments": [
+        {
+          "segmentId": "xue-er-05-s01",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-05-s02",
+          "source": "xue-er-05-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-05-s03",
+          "source": "xue-er-05-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-05-s04",
+          "source": "xue-er-05-s04",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 6,
+      "segments": [
+        {
+          "segmentId": "xue-er-06-s01",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-06-s02",
+          "source": "xue-er-06-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-06-s03",
+          "source": "xue-er-06-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-06-s04",
+          "source": "xue-er-06-s04",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 7,
+      "segments": [
+        {
+          "segmentId": "xue-er-07-s01",
+          "source": "xue-er-07-s01",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-07-s02",
+          "source": "xue-er-07-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-07-s03",
+          "source": "xue-er-07-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-07-s04",
+          "source": "xue-er-07-s04",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-07-s05",
+          "source": "xue-er-07-s05",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-07-s06",
+          "source": "xue-er-07-s06",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 8,
+      "segments": [
+        {
+          "segmentId": "xue-er-08-s01",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-08-s02",
+          "source": "xue-er-08-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-08-s03",
+          "source": "xue-er-08-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-08-s04",
+          "source": "xue-er-08-s04",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 9,
+      "segments": [
+        {
+          "segmentId": "xue-er-09-s01",
+          "source": "xue-er-04-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-09-s02",
+          "source": "xue-er-09-s02",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 10,
+      "segments": [
+        {
+          "segmentId": "xue-er-10-s01",
+          "source": "xue-er-10-s01",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-10-s02",
+          "source": "xue-er-10-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-10-s03",
+          "source": "xue-er-10-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-10-s04",
+          "source": "xue-er-10-s04",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-10-s05",
+          "source": "xue-er-10-s05",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-10-s06",
+          "source": "xue-er-10-s06",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-10-s07",
+          "source": "xue-er-10-s07",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 11,
+      "segments": [
+        {
+          "segmentId": "xue-er-11-s01",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-11-s02",
+          "source": "xue-er-11-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-11-s03",
+          "source": "xue-er-11-s03",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 12,
+      "segments": [
+        {
+          "segmentId": "xue-er-12-s01",
+          "source": "xue-er-02-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-12-s02",
+          "source": "xue-er-12-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-12-s03",
+          "source": "xue-er-12-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-12-s04",
+          "source": "xue-er-12-s04",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-12-s05",
+          "source": "xue-er-12-s05",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 13,
+      "segments": [
+        {
+          "segmentId": "xue-er-13-s01",
+          "source": "xue-er-02-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-13-s02",
+          "source": "xue-er-13-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-13-s03",
+          "source": "xue-er-13-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-13-s04",
+          "source": "xue-er-13-s04",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 14,
+      "segments": [
+        {
+          "segmentId": "xue-er-14-s01",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-14-s02",
+          "source": "xue-er-14-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-14-s03",
+          "source": "xue-er-14-s03",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-14-s04",
+          "source": "xue-er-14-s04",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 15,
+      "segments": [
+        {
+          "segmentId": "xue-er-15-s01",
+          "source": "xue-er-10-s04",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-15-s02",
+          "source": "xue-er-15-s02",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-15-s03",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-15-s04",
+          "source": "xue-er-15-s04",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-15-s05",
+          "source": "xue-er-15-s05",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-15-s06",
+          "source": "xue-er-10-s04",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-15-s07",
+          "source": "xue-er-15-s07",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-15-s08",
+          "source": "xue-er-15-s08",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-15-s09",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-15-s10",
+          "source": "xue-er-15-s10",
+          "kind": "new-request-set"
+        },
+        {
+          "segmentId": "xue-er-15-s11",
+          "source": "xue-er-15-s11",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    },
+    {
+      "chapter": 16,
+      "segments": [
+        {
+          "segmentId": "xue-er-16-s01",
+          "source": "xue-er-01-s01",
+          "kind": "reuse"
+        },
+        {
+          "segmentId": "xue-er-16-s02",
+          "source": "xue-er-16-s02",
+          "kind": "new-request-set"
+        }
+      ],
+      "title": "new"
+    }
+  ],
+  "entries": [
+    {
+      "id": "xue-er-04-s01-elephant",
+      "passed": true,
+      "ssmlSHA256": "420d4cd9819af364f6cca11121809a0e6890db9f7d222d81bc55fbab78d920d0",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "曾",
+          "ph": "zeng 1"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s01-bunny",
+      "passed": true,
+      "ssmlSHA256": "27998da01b1af982fc590380740a555fbef58e93c2b018db5dcaa8f054d49b55",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "曾",
+          "ph": "zeng 1"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s01-cat",
+      "passed": true,
+      "ssmlSHA256": "06d28f62416b5244ce48a76ada25b9c6ae9c80fa58fbd4372b84dd8c10239a43",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "曾",
+          "ph": "zeng 1"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s01-dog",
+      "passed": true,
+      "ssmlSHA256": "be667bbc1c0b190fb09f2b5909e826fd215310d3ffbea00a02c6699780fd10af",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 0,
+          "original": "曾",
+          "alias": "增"
+        }
+      ],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "70801c2aea6d112101915e946e963d0b2c146b9a2a2a065fd1a85990a40e4a18",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "省",
+          "ph": "xing 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "a3f892106cfc6d0a67dddba80da7f32cc9b8d21f1683f37da35fd4c645e52ef9",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "省",
+          "ph": "xing 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "348ee0caa255039cdfa846be9265ebb7bf05cb898c79374069e12021b9c92529",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "省",
+          "ph": "xing 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "9c3c4545dc464e9ccca4683bc86843786bc4075e55489566eb51e505425e2e01",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 3,
+          "original": "省",
+          "alias": "醒"
+        }
+      ],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "e2306f72b9113bb4b3df45ae70307e6b2ef6020d7625705aaa352fe7f12b385c",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "为",
+          "ph": "wei 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "f232eb7620c6c12781689b69b32d2cc055519dfde205af98f3508e6584059a2e",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "为",
+          "ph": "wei 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "6a2e81e8b189e12e1d0717ff87ed0beff7f776763777c55f6334ce81c0980eeb",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "为",
+          "ph": "wei 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "4ad8b97400fb4b753ae40dd46cf7709cd0c5b3e409e61ad90b560275fab25767",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 0,
+          "original": "为",
+          "alias": "位"
+        }
+      ],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "f4def8c1e7ead4c5f3a874c36b00adbe8092bf85ac3815714b51dd2cfa08883c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "516261877a3aadd51b8397b3545deef59698fe94e553177c50d8e0fce1b6c817",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "09de12c1ae247b4094deb00ef20969c39106e1de06fdd7198f73344ddfea91a0",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "1b7ced5defce0fb7af241b5f17b81429a0fba25f70e283b8fdb2cdfbe36f45bc",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s05-elephant",
+      "passed": true,
+      "ssmlSHA256": "796ef072a2d44b229dbb5283ca4bc4057a7b7feea21c835f7a495913d8b96389",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "传",
+          "ph": "chuan 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s05-bunny",
+      "passed": true,
+      "ssmlSHA256": "10d30b12202c3bc7960cd913bf36fa6749ed42de9f5290f3e002683de6aa9acb",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "传",
+          "ph": "chuan 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s05-cat",
+      "passed": true,
+      "ssmlSHA256": "89c9ae399a4ea833417e44a1a85c9b0dbf967acedcb3b51f4fa05cd450f023b4",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "传",
+          "ph": "chuan 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-s05-dog",
+      "passed": true,
+      "ssmlSHA256": "86776d75f73c0cf16c746254699469ab55b402f0dc2a039d5471c54c1c310a8f",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 0,
+          "original": "传",
+          "alias": "船"
+        }
+      ],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-04-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "9ee2252b197010e36c9eb481603d458f2907ffb0ca56c4e5d18979a44cdc8470",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 8,
+          "char": "省",
+          "ph": "xing 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "9c2f7cf6b8bd894fa69a7db06a1d49018517ab7590f558f08c8ea1ae7254fb70",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "道",
+          "ph": "dao 4"
+        },
+        {
+          "index": 2,
+          "char": "乘",
+          "ph": "sheng 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "0fb1ba6ee8d9c93bcea8c1888830d4cfdd6053ee6c09bd6178fd2100f9c19379",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "道",
+          "ph": "dao 4"
+        },
+        {
+          "index": 2,
+          "char": "乘",
+          "ph": "sheng 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "9908fb9dba1551c3b24dc6869bf1cb86f519dc5c7c66a5c57d631b267a91b883",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "道",
+          "ph": "dao 4"
+        },
+        {
+          "index": 2,
+          "char": "乘",
+          "ph": "sheng 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "19b314ee31c20d34dd1519fc8aa572f46c15373bc7eca18e1b8dabcf42292ee6",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 2,
+          "original": "乘",
+          "alias": "圣"
+        }
+      ],
+      "breakPositions": [
+        6
+      ]
+    },
+    {
+      "id": "xue-er-05-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "9c12a479f75e51f865ad1ad6508b7d3b4214385e27d9b0e407d994f576675cc5",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "bc14199e840c9a0392a549366b806325049c25a9df96d6bd37a8e770b52a5523",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "6c057751b9cfd1d78589e053842ae0db136996a5c59a8cbdcd1872be3d8cbccf",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "2cdb10542f1084363af77b373518a33346a6388ddaf92cef5baa414da9941b65",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-05-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "248f2d97c682e72ab07bb46a937a4039a66582cefeeedc8406b4dc7b15525958",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "ea95310d8fa5178320d240808bc2e62900be52eb5d50ada75853505668afed7c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "b01d869706b8e86341b6010f119ed8445b66cf21ef6e30b6e03d507657612d65",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "f53cb056654ea12c57326ad32942c26157cb6e3912ba1dd4cae3837238376bbb",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-05-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "3c0da21512d1d3b4b7c1e865dff1d0109b2941d4fe668b5abd1228c4d5722915",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 5,
+          "char": "道",
+          "ph": "dao 4"
+        },
+        {
+          "index": 7,
+          "char": "乘",
+          "ph": "sheng 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "3f1acdf43b678a68be4f079d8b414ab5e083f91397f7c9627a8866191e2a6ddf",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "弟",
+          "ph": "ti 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "edbe27f7f90c791e46912341768a88c4bb610d4268fe08afd8ee0fe8520afb9f",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "弟",
+          "ph": "ti 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "5346489599b2904f72f604e91fd804603322bd6460dec2fba7474a22a517eb87",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "弟",
+          "ph": "ti 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "0da0902b652e385c8b00c7f265852a1ae39ff551a97214bb9f5a4bf594f8adaf",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 8,
+          "original": "弟",
+          "alias": "替"
+        }
+      ],
+      "breakPositions": [
+        6
+      ]
+    },
+    {
+      "id": "xue-er-06-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "84083b9e4d886ee83f4e965e0aaa4eb32fc1c9a989256166500cc98090b4784a",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "af923bb8da70fdf976f3c2d63f838972c525d137a12d1f92abba3441e5a1e33d",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "224d4d976908edd0085907c09b873341c3f9e6b0ff6018003a11d289c9643b42",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "9b8dc15b302535a3a4cc059e087c306949e5db3f59d89cc3dae1a42f909bfb75",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        4
+      ]
+    },
+    {
+      "id": "xue-er-06-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "320bc67ec8f41eaff34c17aeddd0c8fa456f7d4c32fab9c0cf9b331f6ed9459a",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "15da8b3900b3308c71857d0501d5a0c078c2c6b4b3b37951ae54979f29a12042",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "bff2ca1410b69429cfd3f4b434fe630e24093a46343f6c9518276b55f03f18db",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-06-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "20c196932fec361e14a8f7ecd1fb8475063ff53927a12bc1aa78cd66da7913a0",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-06-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "188af9dd7755ff4d886a97a047e5f330e31206f678083fc4f43e5229be8f4666",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s01-elephant",
+      "passed": true,
+      "ssmlSHA256": "1f8f7946c53e786037df1011a6c582daa690bc805f58e8d28646119664c3f579",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s01-bunny",
+      "passed": true,
+      "ssmlSHA256": "21c95075a194327aa20cfa5256503f5b652ca1fa0a1d0d5d61652f8fdc60f3ce",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s01-cat",
+      "passed": true,
+      "ssmlSHA256": "42066c9aebdf8a1901a8009b880107bc13cecebd71c00655b528c07e08092d13",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s01-dog",
+      "passed": true,
+      "ssmlSHA256": "0d4a1b8780744e2491e49ed7546a6c115438c120395f608a91f9b6ea9e3c4492",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "6c79b6d438ad6c2b89b429155b9c6ab5d9f46ab472b9a5ed2060e8d3a8412f4e",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "6c44e833551574eaf001c85ab05f58ae00cbef2d5420cfd576b97d51b7e1d317",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "acb372cf555d039a9792f36d3fd202ba24e25f860494a3f369601eb9edd56184",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "b536dba70922d15c9103c2b03abee03126936b8564f7e2c721158004c81d880d",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "bc8789697953850314b512824e174f33419e00daf1e8334781e4aaa3a0356190",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "089d470c70231112624c51567a561bee0fa5f7ca700019f3289f72e0ec2046c9",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "3f3e72cee0fd01a78d73df1c94671f8b58deda88dd5a014012a77d2b3ed7e7d9",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "1e643546cf42cf03c067a125dd4365344271d6e318e33d3f7059fd1487d3a449",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        4
+      ]
+    },
+    {
+      "id": "xue-er-07-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "04c256a33e25367a3047aba8401d684a9e6445772ae8a6ea1e33606254557217",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "2d9e66d362817213cb0b2c63129fd2c86ed9bcd687b126678974d00cf84f0e7f",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "378c18b224a25cd9e69bde25159584884eda425d4a4840aa7d22385b96d2bb91",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "d7a4546da50b73eb6cf9443f4ea0056c4b610fb5298663aa97e970c399ddb984",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        3
+      ]
+    },
+    {
+      "id": "xue-er-07-s05-elephant",
+      "passed": true,
+      "ssmlSHA256": "bafbff658015ee152081403266743b03879d38119afbbc6fca1db6817b180c90",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s05-bunny",
+      "passed": true,
+      "ssmlSHA256": "d0d6752a891a104b63eacf6edff3365b2e49b8475893d3849d6a4a2d89ef5c93",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s05-cat",
+      "passed": true,
+      "ssmlSHA256": "fb5103bc92b480f4363478a6b41e7089f791296cfe85b34ab340da932719b5fe",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s05-dog",
+      "passed": true,
+      "ssmlSHA256": "7ad6949e6a5d64e250ef3370c72a776fac13823cf34356a739b48b9b1c32df90",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-07-s06-elephant",
+      "passed": true,
+      "ssmlSHA256": "d3da8db01894b912bb1ac0e4fffe3ddcbf85872cb10a7648d03e20a36ae2ce3f",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s06-bunny",
+      "passed": true,
+      "ssmlSHA256": "a13f1665beda188a4de56453b3985a00aa5381a7425c3ae3b2c63b0edc427fb1",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s06-cat",
+      "passed": true,
+      "ssmlSHA256": "da7f08ad5184765967357c6dfaeb039a205f3aa4d0de73e40d40799d056bc6c2",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-07-s06-dog",
+      "passed": true,
+      "ssmlSHA256": "9c9227ebc6b0cf3a60d869b61899225994264b5e794fb89469b6e6ec691372dc",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-07-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "527b034e20ad28ff76881af8d1ff8c6a64ff0835e251ece9f39e264c2402fcae",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "028849e7b70de23b2ecd39f252f3a24dd0f1efeab8fd9d242c9e7ba9fb67c42c",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "重",
+          "ph": "zhong 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "181edee124e3ace315f921e1ec5b463f882b3862aba226422ff975902bd22e38",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "重",
+          "ph": "zhong 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "00b82ec8dd3c348ad0233d66acc4aba6a05421e439c65c26b191e0015cdcfd4e",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "重",
+          "ph": "zhong 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "5744a72aadaab53dd07fb2326e3b39715e053f260c2430166412583f9155897f",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 3,
+          "original": "重",
+          "alias": "众"
+        }
+      ],
+      "breakPositions": [
+        8
+      ]
+    },
+    {
+      "id": "xue-er-08-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "6d7f62a03f9e43dc9960c7a044ee5f6974e5bcf129b51477c69071e6063d2b82",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "6e71051f1d4bebee0f71acdedd038568100a82778e33bf83180c65870a63907d",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "4f0b4e13c5fbe851f40bf84541eac6a5cb36ebb20777345230b31e2ca7b5ca1e",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "885cfab4fffeec267c12a65d2e3e64597ec86b2076dd91d7e8d167c42754e322",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        4
+      ]
+    },
+    {
+      "id": "xue-er-08-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "e23df641cb8f10f11f73cc185ba80e1149047f873e092a1aa0af2ad627f91d73",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "惮",
+          "ph": "dan 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "5843411fa556c02d5f9215228df4b07366c7651b19e4f2627c0431edc4b77fb1",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "惮",
+          "ph": "dan 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "f8fe832451bd061fb3800a0d64287f425bea507afdea7af051cd19a0b05f7958",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "惮",
+          "ph": "dan 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-08-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "a18ab2ef393878d4cae5bfff54aed8791be2b2e788efe108e39d112a792cb321",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        2
+      ]
+    },
+    {
+      "id": "xue-er-08-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "daaefd763f43bc883e2998b8dc1338342a9b841d74ec775ec52a8b7eb9ee83af",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 8,
+          "char": "重",
+          "ph": "zhong 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-09-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "61f237e66540794ba3efb611e4e169f96d5783a15e34ff87c764d187c31eb2b2",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-09-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "d9f7dbfe62983808a3ff2192f1b4a993cb52a8c38786c908851138d45d90c43b",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-09-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "8c188eed1900fbd7e04540cf3c6f1438e6dc41040b8dee6c6a8b46722f366448",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-09-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "7279b0f1a93c8d5461cae42bffeb205449e9f2582032110c3fdec6f518cb5d9f",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-09-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "56f39377a468a0af0755a95cfd94455f975bbae9cae194167c4378bca37073b3",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s01-elephant",
+      "passed": true,
+      "ssmlSHA256": "204ea278d1bd77be3b0ccc28bd416fa295333a8ce53d0760900c02aa40d85272",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s01-bunny",
+      "passed": true,
+      "ssmlSHA256": "3cdf7ebc509f1e2c8d9391ac6f5a1998f2772d1da7608fe749b3babc5493ade5",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s01-cat",
+      "passed": true,
+      "ssmlSHA256": "f3c98d30ef042731f2028f94e8af24d8258548ee529b9582bcfafe3876e8f9c8",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s01-dog",
+      "passed": true,
+      "ssmlSHA256": "035cc12eb162b1ddf5724da9186c38cbea4d78556fc90d0aa83ff94668342c8c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "f33efb0bb65bf76917992bffa876f51bec44a37cca28936823133a2069073aed",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "75182ae34c4902a706affb5f9e1651a1cf96e47801269521b1da1af0a0b32464",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "e6953a2f44fe16e7a0b3ab9fde4d96b754efa678d96c8b693222a62de70ff55a",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "413bcf4a5ac346ce5c7406f94f576fc66c336dd5349cbe0e856474382c4de3fb",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        8
+      ]
+    },
+    {
+      "id": "xue-er-10-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "daebe3cfb5b9bfdbeb7833725c1b3ab36cf67a28294b8e65f0f7886ef108904f",
+      "phonemes": [
+        {
+          "index": 2,
+          "char": "与",
+          "ph": "yu 2"
+        },
+        {
+          "index": 7,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "abe9858a99a46f55f391022d8d78c25e837dce1b9ea7053320f7fdb442cb581b",
+      "phonemes": [
+        {
+          "index": 2,
+          "char": "与",
+          "ph": "yu 2"
+        },
+        {
+          "index": 7,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "5a9ed43477e412719b2a444ae7f7cfd4e72e9a408fcf26caada4164fcf28b39c",
+      "phonemes": [
+        {
+          "index": 2,
+          "char": "与",
+          "ph": "yu 2"
+        },
+        {
+          "index": 7,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "86facdfcfbd5e89952f83bb69b6afca8b2aef17fd5d88286575046abdbb0858e",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 2,
+          "original": "与",
+          "alias": "于"
+        },
+        {
+          "index": 7,
+          "original": "与",
+          "alias": "于"
+        }
+      ],
+      "breakPositions": [
+        4
+      ]
+    },
+    {
+      "id": "xue-er-10-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "7ce2e839ba617d03928de9c8fdd46de370a54dfb198217f7f6482819f6eba01a",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "75d21e9ea9feb38760c33464d874f0e18faa6f5a0ecec5bacffc31925c093045",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "23926f8bca5cdb4f3aed77d1ec2d5cca1b73620840ffe741368b151108ff8407",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "71ff628b845b8573670c594314cc3ecc5d659f45a61ae0c581e4f65e74422a1e",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s05-elephant",
+      "passed": true,
+      "ssmlSHA256": "b1dec191ecc2eb2c659bffa5c672a17fed09f88ebf95ab90c86f94ac74b0fdb4",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s05-bunny",
+      "passed": true,
+      "ssmlSHA256": "72d57fee669cc5cf920190937e1e79656c20011a4e5c74d8c252ca14c6e7ac82",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s05-cat",
+      "passed": true,
+      "ssmlSHA256": "33c041b6781215341db6b43eecd3edca232dced65fce359c1e9cf40f2c4b026e",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s05-dog",
+      "passed": true,
+      "ssmlSHA256": "349e9a7875bbd2d583e9b84831380e03d803065a08e064d4fe150476a27916fa",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s06-elephant",
+      "passed": true,
+      "ssmlSHA256": "1f05aedb9dea5d8db59f05772f3e9d03c5dce1189416d6446774baf531155460",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s06-bunny",
+      "passed": true,
+      "ssmlSHA256": "278318671189525a25d8fee9dc9c9aa35c2ca86229f3761a21d8993e9b5c3221",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s06-cat",
+      "passed": true,
+      "ssmlSHA256": "7871db4a6eb6a01c18d4099b4536d6506b301906f3e6552f87d71a12732cbf98",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s06-dog",
+      "passed": true,
+      "ssmlSHA256": "89967514be0a8e18083ea004e01623f63ab90b1b88fdd70adac0dc58cb951d9a",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        7
+      ]
+    },
+    {
+      "id": "xue-er-10-s07-elephant",
+      "passed": true,
+      "ssmlSHA256": "4b8cb9535d543b464ef8c60c1b14790712020124a60df9b9bef42745079ad344",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s07-bunny",
+      "passed": true,
+      "ssmlSHA256": "c0e8fd4f32f0ddbcbcd2850b2b9ca4a212f5c1a6beb837f75902d42d1795cbef",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s07-cat",
+      "passed": true,
+      "ssmlSHA256": "09415b216dba5921a6482866c64923577af8a0ed185ed4d26b04bdc85f7f0f33",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-s07-dog",
+      "passed": true,
+      "ssmlSHA256": "8a3d25eb624cbf26f14a56a744b9259bff86f8bb864437a07bf8c5bbd02d8cdb",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 8,
+          "original": "与",
+          "alias": "于"
+        }
+      ],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-10-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "c39c1ba50886a25fe975459a188778f9ccc8a37f8c1252ea722ef832f2f6e775",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-11-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "896626a5b61692c5f5f9fe531093e8c606c529e7fc1327320be4badcea1a9b5a",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "没",
+          "ph": "mo 4"
+        },
+        {
+          "index": 12,
+          "char": "行",
+          "ph": "xing 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-11-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "35446bbd5b1448f56e95f299797cf728b5d16cdbd952252aeeb5916af1e78a00",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "没",
+          "ph": "mo 4"
+        },
+        {
+          "index": 12,
+          "char": "行",
+          "ph": "xing 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-11-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "f04c78f5c5c105da54357c83dc8fe3bf1b080487d4b924306784461bf49e1c4d",
+      "phonemes": [
+        {
+          "index": 8,
+          "char": "没",
+          "ph": "mo 4"
+        },
+        {
+          "index": 12,
+          "char": "行",
+          "ph": "xing 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-11-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "0dfbccedbdc8ce6bd6e116035fea50fbd497b5669b365732d09745b022093f4d",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 8,
+          "original": "没",
+          "alias": "墨"
+        },
+        {
+          "index": 12,
+          "original": "行",
+          "alias": "性"
+        }
+      ],
+      "breakPositions": [
+        3
+      ]
+    },
+    {
+      "id": "xue-er-11-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "7de046fbbdafe6d19032d0699eb908134444ea28d819aa8dd5bb47c101ef9190",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-11-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "51f950491b250f65efacab439b7f6643a540c8ff6a4f7b6ae8444ee075589b6b",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-11-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "66045bba8d7eb672e5e40b4f160cb6ba76fdd5cc36e1d3a4aba2dfbf1858d413",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-11-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "19749a8eda923639a266e6fb999552bda159a7710ba6c816ed39265534c8a37f",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        9
+      ]
+    },
+    {
+      "id": "xue-er-11-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "47a56d9d4786f03833afd3b8d387a88a81a45e4eab0d1483183ba230506b10c0",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "17f98949ea856b605c6d257f9e95e9f98bc683e970a0a9978c485613457929dd",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "30d2336edc03240502a5aa785865d672aacdf2f2b39edfca49f673737bc5abec",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "6152b519a6c4a7bc3058a34225e2cb4ab50f2f43db6ac4bf3c7c4efe317066f8",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "ad7d353a40efe687b3b86e0b5d82b9e2e127ff88448fe3fbf247c6d4873545a7",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        4
+      ]
+    },
+    {
+      "id": "xue-er-12-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "021262e248f9634225891a6ba2869858dcd95e65e3b064060d73503346d98eee",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "f65fab51925c7527cbce6e6f6f967bbcdf6c086e5946dc761b78aa8eb3166603",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "1190eab70728b47de183f1cda26a9b6d5161c825e0a901cb68755f824fc7f8e8",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "7fbd2485ea8500a5c0cd767f13e28da39f7c67d0b3944c79fd066f10c75bcd05",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-12-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "278c6b18ea6abc1d12f84a9e10b1369ef397918d83587937adf24f289e5f6085",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "d3cea02ab9f93eab4b983e47e7b2b5facc3f02ec9acac20aad0e7776a259fa33",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "ff1fce8fb8243d018b9ac6845be7a0d5f8f452ae6d369de7ee3cf8886190099c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "908aac386122c4744fdd3a5c4ba0d962e164c5a7e8aafa53feb8d87680e2db0c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-12-s05-elephant",
+      "passed": true,
+      "ssmlSHA256": "33976d570d2855ccce7d643908034f0381e42d316c0cff04cec3057dc3f66f51",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s05-bunny",
+      "passed": true,
+      "ssmlSHA256": "e5bd4e77374d51d84e55787be4188a30d5a4195e4051966a7c671a7edce0ab1a",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s05-cat",
+      "passed": true,
+      "ssmlSHA256": "d683980f2136a4422a4b9ae7268130477a365974f12be1010067ae13818c039c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-12-s05-dog",
+      "passed": true,
+      "ssmlSHA256": "a5c8d83de8bc9bc7806fead02334ac7ca3b811748d23d0b5b7130c704c9bdcaf",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        6
+      ]
+    },
+    {
+      "id": "xue-er-12-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "8070d78cc7118b98f78c58ba78a86d1c64c32cd58d765c5e2d187e69854bdfd3",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "20a59a118f5618105055c62ac9ab0077f35467ee9e1b3744b8b508ee2e44bbe7",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "7462a40ffa497ce6f62499ca678b12b2140d073a4ccce1f0d26708602d8a76f8",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "6965c8b83980a5853d363e7bf2dd3bea19dd4f260112edcb1be5e845207e3170",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "00a266d56d5bcdb5586ced7a930da9fb6341e74ad917d65f1c4e53391229aec2",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-13-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "e368a4d9ff95b3cefe3e110b6759394861994e13d6f068e2c671ca1028f28098",
+      "phonemes": [
+        {
+          "index": 5,
+          "char": "远",
+          "ph": "yuan 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "bf3e6a8c77d2f525e3538dfa523fc4748429643b19deebb428eb0c9291763ff8",
+      "phonemes": [
+        {
+          "index": 5,
+          "char": "远",
+          "ph": "yuan 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "637b34d3fd02135ae8d9f5f1401c3ad7f5a96cd5c6dfb4dd40d96e7c572bf64d",
+      "phonemes": [
+        {
+          "index": 5,
+          "char": "远",
+          "ph": "yuan 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "b8db5261fb73fb1972d7f8d93ee8179fc0f4a3391979c02a0656c0d4af6ae05a",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 5,
+          "original": "远",
+          "alias": "愿"
+        }
+      ],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-13-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "fab7bba27a2db8bf31396deef7c63699949cf52578edbd4d4e7a5f3667a2e073",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "177cedb47de553d20504a45752e33c3910ab22574f346e26b9c00a0066c14492",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "f02e8f1b10a9753bcfd5541986ed2bde0fe620fafea00398553f4fe168c752c0",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-13-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "bf12d31c632b88dad57c73e0a1bc4cacdcf5ca083ad027b86eeae0d62cc8f6ee",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        6
+      ]
+    },
+    {
+      "id": "xue-er-13-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "be1518f2b82b5944a9aedaa7d9ee3cfa8c43c49af7dd418206d468e1cc68d270",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "0a28a7366f4d902e645ebedccbb541f427c8ce8def13387dbe0c9e6b6c87b808",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "2880a1e3ae1a51c75ef2d7e6fe1976cd65f5612622b58b0269254a5c10e9ea05",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "8d8dacee3e13db978d9746ee10701e940eedf40ac0733a973a685a3296e60dfa",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "9cd63fbe7ee412858242138da32dcc58ca09e64d70710f819fef7d00fcdacf68",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        7
+      ]
+    },
+    {
+      "id": "xue-er-14-s03-elephant",
+      "passed": true,
+      "ssmlSHA256": "7eb4ff11feaec579b8dee63289a89f3dd6e452aefd49726e95d3028c282f57d7",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s03-bunny",
+      "passed": true,
+      "ssmlSHA256": "59bc60968f5b2aa6c23266ee42cc9ef9f4e4602655f02ebc0d5bb3023a6f7a22",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s03-cat",
+      "passed": true,
+      "ssmlSHA256": "0df7869c2516c907898f4a780c559c4cc604cd9c548d3e745e1cc7916a4dce0e",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s03-dog",
+      "passed": true,
+      "ssmlSHA256": "c065686cd993116c393de69ba2a59b727ab610ca3e582bf4cc420da35e7cf229",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        8
+      ]
+    },
+    {
+      "id": "xue-er-14-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "ff55ccbae89e6ae6fa937a6911e967025913c77c95eb54a197e9ef3760bbb8ef",
+      "phonemes": [
+        {
+          "index": 2,
+          "char": "好",
+          "ph": "hao 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "a748c6a33c40cfe8f0e9532e00142893b24fe594bd5c6476ec43ca4decf576cd",
+      "phonemes": [
+        {
+          "index": 2,
+          "char": "好",
+          "ph": "hao 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "d7742976597ce470b413b3286da6a84187a54be6585c6cee575cac359e005791",
+      "phonemes": [
+        {
+          "index": 2,
+          "char": "好",
+          "ph": "hao 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "3591b60931e276177ebc562ac21d04be9ffd6a155f32156b6742241b8fa9cb91",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 2,
+          "original": "好",
+          "alias": "耗"
+        }
+      ],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-14-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "314f2fe55119c1a5775492929813abd9b54928f266dc50c25b6691c257659290",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "951b0e91a5fd38c891f1fe428f0af4b053b9f604b9970aef3c96e4837a52abea",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "谄",
+          "ph": "chan 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "68a65f872f1e6a65d5af8908e4de0631598985c70b547dc734114cf95c8da290",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "谄",
+          "ph": "chan 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "85afcc7c47db0961825445a8c9628ac6b2a7d2b059481b2f149c2539d7cde737",
+      "phonemes": [
+        {
+          "index": 3,
+          "char": "谄",
+          "ph": "chan 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "d46374f9606aa5b7339f8c59982a6dbbb8ce2e17db746a7cbf5bdf450d8a5419",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        5
+      ]
+    },
+    {
+      "id": "xue-er-15-s04-elephant",
+      "passed": true,
+      "ssmlSHA256": "08b6cbd5cedf9dcf1f3945dcc94cc7d454c05b5d0cc32ec405d1a60394a4ae8f",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s04-bunny",
+      "passed": true,
+      "ssmlSHA256": "af5515b29e166c094fddb230715ea05bd2fce08aa3a9d091598bfcfe9a6983fd",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s04-cat",
+      "passed": true,
+      "ssmlSHA256": "4d4d16f7b930e56c1a3dbb9942b096a7c1549589aba9b2db1498511f91d63365",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s04-dog",
+      "passed": true,
+      "ssmlSHA256": "54dc32734c8fedc35387e90737010fd6e132a8f2193063be8a8247f84ce8700e",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s05-elephant",
+      "passed": true,
+      "ssmlSHA256": "555aee175dcdd6ca4ec761fc22ea5dd759d94879ad9e1d2b4fa2e639774d6532",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "乐",
+          "ph": "le 4"
+        },
+        {
+          "index": 8,
+          "char": "好",
+          "ph": "hao 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s05-bunny",
+      "passed": true,
+      "ssmlSHA256": "da2479e0f3e286f31dcdde30d8ab01d88e0d226ce04437fd9be464095cf51b94",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "乐",
+          "ph": "le 4"
+        },
+        {
+          "index": 8,
+          "char": "好",
+          "ph": "hao 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s05-cat",
+      "passed": true,
+      "ssmlSHA256": "e03dc07e7c6d9bed32071f9c55ef4ba6eca1c8becc8a4396d9f093d588088d7a",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "乐",
+          "ph": "le 4"
+        },
+        {
+          "index": 8,
+          "char": "好",
+          "ph": "hao 4"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s05-dog",
+      "passed": true,
+      "ssmlSHA256": "96b29b6dd59e73abdf8acb28b33ed2665010b7484eefae5b409737ef3967f8ae",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 8,
+          "original": "好",
+          "alias": "耗"
+        }
+      ],
+      "breakPositions": [
+        6
+      ]
+    },
+    {
+      "id": "xue-er-15-s07-elephant",
+      "passed": true,
+      "ssmlSHA256": "c1a3b55f32f9f726796b863a472d43d4c94576d560b9c31c1c57f66f6b332cc0",
+      "phonemes": [
+        {
+          "index": 9,
+          "char": "磋",
+          "ph": "cuo 1"
+        },
+        {
+          "index": 12,
+          "char": "琢",
+          "ph": "zhuo 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s07-bunny",
+      "passed": true,
+      "ssmlSHA256": "25dab378df0ed2a3e01497a6a771ab058d731e529ce67e381d18c867f196d559",
+      "phonemes": [
+        {
+          "index": 9,
+          "char": "磋",
+          "ph": "cuo 1"
+        },
+        {
+          "index": 12,
+          "char": "琢",
+          "ph": "zhuo 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s07-cat",
+      "passed": true,
+      "ssmlSHA256": "b4a292374827a194ec386c5d5cde9804a80c188ab12a8252c27ba81b2c97d697",
+      "phonemes": [
+        {
+          "index": 9,
+          "char": "磋",
+          "ph": "cuo 1"
+        },
+        {
+          "index": 12,
+          "char": "琢",
+          "ph": "zhuo 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s07-dog",
+      "passed": true,
+      "ssmlSHA256": "32f814ce42476e62784b8f6d4be05fcb619d7772334044c69f1b8edc28c3aebd",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 9,
+          "original": "磋",
+          "alias": "搓"
+        },
+        {
+          "index": 12,
+          "original": "琢",
+          "alias": "卓"
+        }
+      ],
+      "breakPositions": [
+        11
+      ]
+    },
+    {
+      "id": "xue-er-15-s08-elephant",
+      "passed": true,
+      "ssmlSHA256": "53f72565c9f04a68e18c40810d496945ceed771e2c8b03cdd215df8c3968f310",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s08-bunny",
+      "passed": true,
+      "ssmlSHA256": "a974550077d334096b6bf7bc0ac3c0b6b39bc855fe4cebfec75353dbee0769b9",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s08-cat",
+      "passed": true,
+      "ssmlSHA256": "81e264bd856c969b10ca072e71efdffbd8c032bc8364d1b01c4ab98a15563529",
+      "phonemes": [
+        {
+          "index": 4,
+          "char": "与",
+          "ph": "yu 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s08-dog",
+      "passed": true,
+      "ssmlSHA256": "cdc78c9b0ef08aacd75f5491f0ef17459b3955be2003afc782b8945af130d75b",
+      "phonemes": [],
+      "aliasesBySourcePosition": [
+        {
+          "index": 4,
+          "original": "与",
+          "alias": "于"
+        }
+      ],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s10-elephant",
+      "passed": true,
+      "ssmlSHA256": "caf926e69cf1e7c7b61adb8abd77b2b7e66216f46e484538589a0e0216a5f4f3",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s10-bunny",
+      "passed": true,
+      "ssmlSHA256": "3d06ecf6de34dbcd226ebac6db088231de9714c2f9d2fa956883d99c5a4fdb68",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s10-cat",
+      "passed": true,
+      "ssmlSHA256": "db2978ff59ed6f4822c820f75a476e6b4ad6356e1437f33f64de26e7087e980c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s10-dog",
+      "passed": true,
+      "ssmlSHA256": "57a0e0e6ff4a76814554a18eb18d93b8be9088feae168934dc123a41ee0755dd",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        3
+      ]
+    },
+    {
+      "id": "xue-er-15-s11-elephant",
+      "passed": true,
+      "ssmlSHA256": "7b1227eb7ad522d52c57d25d48151a7ea2b960246c165341d4a6a3d6584f78c1",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s11-bunny",
+      "passed": true,
+      "ssmlSHA256": "102ae4364eb43ba9483c17774205b3a4a5746a8a1bdee41ed945ec1733c4e54c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s11-cat",
+      "passed": true,
+      "ssmlSHA256": "7204d299869dcfd49f3617f5f6e3e7cb6168f0010444e2fb822669eca3f23fba",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-s11-dog",
+      "passed": true,
+      "ssmlSHA256": "0a69a894cd455d40dfb05ec8be229be1cb4159bdd1139e4c2df8e391a79c081d",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-15-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "cbfc7874c669f8e1a63333a30bf2e8c7dd812903bc83efa508f7e07378610630",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        },
+        {
+          "index": 8,
+          "char": "谄",
+          "ph": "chan 3"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-16-s02-elephant",
+      "passed": true,
+      "ssmlSHA256": "5953caa6a1519191eae0ded01902828c6eae8fe254900f4c31fbd631028b0111",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-16-s02-bunny",
+      "passed": true,
+      "ssmlSHA256": "5ac7bd2ec6142bfa6dfc9c31115d4e5a90e4767740523a999695e07bc1a36968",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-16-s02-cat",
+      "passed": true,
+      "ssmlSHA256": "6a166c1d31bb490fbbde13578c34531c086cb280d7df70c650a575c255014b5c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    },
+    {
+      "id": "xue-er-16-s02-dog",
+      "passed": true,
+      "ssmlSHA256": "9e45a76dcb88c1a84f168af99d3f50352acb39887900b042cae6b25decc6bf6c",
+      "phonemes": [],
+      "aliasesBySourcePosition": [],
+      "breakPositions": [
+        8
+      ]
+    },
+    {
+      "id": "xue-er-16-title-elephant",
+      "passed": true,
+      "ssmlSHA256": "1086d82101cc824bb8533fe4fcad077c29e093e0193798427f46b4ddb15074ff",
+      "phonemes": [
+        {
+          "index": 0,
+          "char": "论",
+          "ph": "lun 2"
+        }
+      ],
+      "aliasesBySourcePosition": [],
+      "breakPositions": []
+    }
+  ],
+  "inputBytesUnchanged": true,
+  "scope": "Read-only source inputs; only review files written. No SDK import/execution, service request, build, homepage tests, media or production edits.",
+  "limitations": [
+    "Main-session instruction authorizes exact A+B 235 requests within shared USD10; preserved manifest approval flags are historical. Credentials remain pending; this reviewer does not synthesize.",
+    "Manifest coverage is a production plan, not actual media completeness or publication readiness.",
+    "Azure acceptance, acoustic pronunciations, HD realization, word-boundary mapping and human listening are not verified.",
+    "No physical device or stage-B runtime was tested; old v5 and exact Batch A inputs are unchanged."
+  ]
+}

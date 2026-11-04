@@ -1,0 +1,48 @@
+{
+  "text": "为人谋而不忠乎？",
+  "dur": 1.68,
+  "t": [
+    0.082,
+    0.411,
+    0.552,
+    0.741,
+    0.882,
+    1.07,
+    1.258,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 1,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 0,
+      "remainingSourceIndex": 1,
+      "remainingSourceIndices": [
+        1
+      ],
+      "originalBoundaryText": "\">为人",
+      "usedBoundaryOffsetSeconds": 0.411,
+      "usedBoundaryDurationSeconds": 0.141,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 4
+      }
+    }
+  ],
+  "audioSHA256": "1c2bda12d119a08615f0100171a9620556cf1609bb86fb69a841b0c1ecb2842e",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-04-s03-dog",
+      "rawSHA256": "f80964e6eafd6bb1c91c2037a245ff5b3bd8210128f009b9ed940830afb0d670",
+      "ssmlSHA256": "4ad8b97400fb4b753ae40dd46cf7709cd0c5b3e409e61ad90b560275fab25767"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

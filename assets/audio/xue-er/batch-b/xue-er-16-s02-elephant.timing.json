@@ -1,0 +1,38 @@
+{
+  "text": "不患人之不己知，患不知人也。”",
+  "dur": 4.848,
+  "t": [
+    0.058833,
+    0.33825,
+    0.632333,
+    0.867666,
+    1.117666,
+    1.367666,
+    1.632333,
+    null,
+    2.485291,
+    3.029416,
+    3.220583,
+    3.426458,
+    3.735291,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "c91ecde500879c9afe06cd215a8e6ae5036d115c9e46e295e40e02f76d79eb9b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-16-s02-elephant",
+      "rawSHA256": "ce5f7f3f8da9fc07e4549f85fc1e598ca2ef703efabf71dd39ed45b4e3c9f5ba",
+      "ssmlSHA256": "5953caa6a1519191eae0ded01902828c6eae8fe254900f4c31fbd631028b0111"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

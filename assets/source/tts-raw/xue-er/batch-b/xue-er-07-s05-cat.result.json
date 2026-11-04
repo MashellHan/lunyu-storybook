@@ -1,0 +1,56 @@
+{
+  "id": "xue-er-07-s05-cat",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "fb5103bc92b480f4363478a6b41e7089f791296cfe85b34ab340da932719b5fe",
+  "attemptId": "90cb8189-ccdc-4d0b-a59f-1739d99589b3",
+  "startedAt": "2026-11-03T12:57:47.795799+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:57:52.155301+00:00",
+  "rawSHA256": "baf59ab801cbde6684f2c79367b52013ee05f2a126fcd8f92000f353f7f3530a",
+  "wb": [
+    [
+      0.056833,
+      0.170458,
+      "与"
+    ],
+    [
+      0.227291,
+      0.369291,
+      "朋友"
+    ],
+    [
+      0.596583,
+      0.369333,
+      "交"
+    ],
+    [
+      1.207375,
+      0.951708,
+      "言而有信"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 244,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 245,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 247,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 249,
+      "wordLength": 4
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

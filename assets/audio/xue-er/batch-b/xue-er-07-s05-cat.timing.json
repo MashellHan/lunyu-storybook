@@ -1,0 +1,33 @@
+{
+  "text": "与朋友交，言而有信。",
+  "dur": 3.144,
+  "t": [
+    0.056833,
+    0.227291,
+    0.411936,
+    0.596583,
+    null,
+    1.207375,
+    1.445302,
+    1.683229,
+    1.921156,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "f93a5ca6ef05fca47806cbe2878078c7498088cc5d988e61a297881a327c9051",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s05-cat",
+      "rawSHA256": "baf59ab801cbde6684f2c79367b52013ee05f2a126fcd8f92000f353f7f3530a",
+      "ssmlSHA256": "fb5103bc92b480f4363478a6b41e7089f791296cfe85b34ab340da932719b5fe"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

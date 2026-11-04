@@ -1,0 +1,34 @@
+{
+  "text": "主忠信，无友不如己者，",
+  "dur": 2.592,
+  "t": [
+    0.082,
+    0.364,
+    0.6695,
+    null,
+    1.24,
+    1.381,
+    1.616,
+    1.7805,
+    1.946,
+    2.181,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "69a11ffa76f89e88fe5c3e59a6a8a33077beeaf441d49baca81901b8d538a9a3",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-08-s03-dog",
+      "rawSHA256": "016164a7c2e3027b115d414bbf0309b280ce23a9ad7e088ac3da6c1c859263f1",
+      "ssmlSHA256": "885cfab4fffeec267c12a65d2e3e64597ec86b2076dd91d7e8d167c42754e322"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

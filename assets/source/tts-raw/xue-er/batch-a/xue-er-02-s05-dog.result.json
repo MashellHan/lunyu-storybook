@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-02-s05-dog",
+  "batch": "batch-a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "ssmlSHA256": "bcb4909a32d9e121cd91d22327872aa595bb292893230a9aad4951406e749680",
+  "attemptId": "f8020afb-eafe-4a15-bfdf-c6a79eeb9b2b",
+  "startedAt": "2026-11-03T12:49:44.733956+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:49:49.185836+00:00",
+  "rawSHA256": "6580847c4ee5c4b120567c3738ea9ffb41682056dd969dfcf316b111805acdb7",
+  "wb": [
+    [
+      0.082,
+      0.423,
+      "孝"
+    ],
+    [
+      0.505,
+      0.188,
+      "替"
+    ],
+    [
+      0.694,
+      0.188,
+      "\">弟也"
+    ],
+    [
+      0.882,
+      0.0,
+      "者"
+    ],
+    [
+      1.389,
+      0.282,
+      "其"
+    ],
+    [
+      1.671,
+      0.235,
+      "为"
+    ],
+    [
+      1.907,
+      0.188,
+      "仁"
+    ],
+    [
+      2.095,
+      0.188,
+      "之"
+    ],
+    [
+      2.283,
+      0.188,
+      "本"
+    ],
+    [
+      2.471,
+      0.0,
+      "于"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 4
+    },
+    {
+      "textOffset": 287,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 310,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 311,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 312,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 313,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 314,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

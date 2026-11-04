@@ -1,0 +1,33 @@
+{
+  "text": "信近于义，言可复也。",
+  "dur": 3.336,
+  "t": [
+    0.056833,
+    0.426125,
+    0.596583,
+    0.767041,
+    null,
+    1.321041,
+    1.590916,
+    1.789791,
+    2.017041,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "4e7c1e7b643918f967050540e5f14ea6a5d3e8940683e4a9a62583819073ed49",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-13-s02-cat",
+      "rawSHA256": "fd19bd3b5b8fe55962ce23025ca43afd9070b6fbfe66755954c2da0153d57f6d",
+      "ssmlSHA256": "6965c8b83980a5853d363e7bf2dd3bea19dd4f260112edcb1be5e845207e3170"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

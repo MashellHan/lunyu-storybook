@@ -1,0 +1,46 @@
+{
+  "text": "道千乘之国，",
+  "dur": 1.416,
+  "t": [
+    0.082,
+    0.364,
+    0.6,
+    0.788,
+    0.929,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 3,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 2,
+      "remainingSourceIndex": 3,
+      "remainingSourceIndices": [
+        3
+      ],
+      "originalBoundaryText": "\">乘之",
+      "usedBoundaryOffsetSeconds": 0.788,
+      "usedBoundaryDurationSeconds": 0.141,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 4
+      }
+    }
+  ],
+  "audioSHA256": "666d54cc406b0e79d7768c58193fa19dc03108ceb3983e31939b109b63f24707",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-05-s02-dog",
+      "rawSHA256": "cabce8fd527707fc36536f5fc90e1517e71732a530a7d75ce647356fdc699196",
+      "ssmlSHA256": "19b314ee31c20d34dd1519fc8aa572f46c15373bc7eca18e1b8dabcf42292ee6"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

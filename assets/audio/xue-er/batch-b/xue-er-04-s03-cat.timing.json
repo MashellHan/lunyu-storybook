@@ -1,0 +1,31 @@
+{
+  "text": "为人谋而不忠乎？",
+  "dur": 2.64,
+  "t": [
+    0.056833,
+    0.3125,
+    0.482958,
+    0.710208,
+    0.894875,
+    1.079541,
+    1.264208,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "fa9092a44c5074395bc63f9af9f7d343797b49c59f8646dc2a5f682c2da9f0f7",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-04-s03-cat",
+      "rawSHA256": "c651dfdef6e60d2f1ea738053f4041e8c6cc28fd9097883ab2ae8b5df76db8a2",
+      "ssmlSHA256": "6a2e81e8b189e12e1d0717ff87ed0beff7f776763777c55f6334ce81c0980eeb"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "text": "孝弟也者，其为仁之本与！”",
+  "dur": 4.248,
+  "t": [
+    0.058833,
+    0.573541,
+    0.823541,
+    1.014708,
+    null,
+    1.705875,
+    2.0,
+    2.279416,
+    2.558833,
+    2.823541,
+    3.132333,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "448a9698cd0c31c679065dd2d907a66027d332ab6c77c610d13f3396fef87e83",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s05-elephant",
+      "rawSHA256": "338da9cbb9c25d63d5282109662b731b84a781db42c74930b42030844dc653c8",
+      "ssmlSHA256": "0936e7f0a5db90af0f26413a304825615cca448b9c7039521fe6bba6a9084c31"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

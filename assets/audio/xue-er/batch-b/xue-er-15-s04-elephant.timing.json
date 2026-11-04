@@ -1,0 +1,26 @@
+{
+  "text": "可也。",
+  "dur": 1.872,
+  "t": [
+    0.058833,
+    0.455875,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "c3a3217c5bab85f843f06e227f7b1981115d172f01e5cf96c16ad570cef56316",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s04-elephant",
+      "rawSHA256": "2f9d58e80cae925c619490e7f6bf901a9471f767c4696990dd3114fe5bb5882b",
+      "ssmlSHA256": "08b6cbd5cedf9dcf1f3945dcc94cc7d454c05b5d0cc32ec405d1a60394a4ae8f"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

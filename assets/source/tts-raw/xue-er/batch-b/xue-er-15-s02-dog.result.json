@@ -1,0 +1,47 @@
+{
+  "id": "xue-er-15-s02-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "d46374f9606aa5b7339f8c59982a6dbbb8ce2e17db746a7cbf5bdf450d8a5419",
+  "attemptId": "45c49637-a2fa-43a9-8eea-ac22214209e5",
+  "startedAt": "2026-11-03T13:05:46.531035+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:05:51.442707+00:00",
+  "rawSHA256": "42bfe4024ea2dd54a65ce0de06b92d957e4696815157a6a39f5ec779a821baf4",
+  "wb": [
+    [
+      0.082,
+      0.988,
+      "贫而无谄"
+    ],
+    [
+      1.271,
+      1.035,
+      "富而无骄"
+    ],
+    [
+      2.306,
+      0.658,
+      "何如"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 4
+    },
+    {
+      "textOffset": 289,
+      "wordLength": 4
+    },
+    {
+      "textOffset": 294,
+      "wordLength": 2
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

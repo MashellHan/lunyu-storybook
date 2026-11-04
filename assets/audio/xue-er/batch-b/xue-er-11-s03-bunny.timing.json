@@ -1,0 +1,38 @@
+{
+  "text": "三年无改于父之道，可谓孝矣。”",
+  "dur": 4.896,
+  "t": [
+    0.056833,
+    0.397729,
+    0.738625,
+    0.994333,
+    1.306833,
+    1.548291,
+    1.818166,
+    2.059666,
+    null,
+    2.684666,
+    2.940354,
+    3.196041,
+    3.59375,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "77cc20001cbeca6e52e3f52f5262fb42632aa84b10b4eedd68cc308dd8f07025",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-11-s03-bunny",
+      "rawSHA256": "2efe76b99de2e414bcf3fff1a48a1b74cea8e8f74fd28d3ac201ca4f44f62950",
+      "ssmlSHA256": "51f950491b250f65efacab439b7f6643a540c8ff6a4f7b6ae8444ee075589b6b"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

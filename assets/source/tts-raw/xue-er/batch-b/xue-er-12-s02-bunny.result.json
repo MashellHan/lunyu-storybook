@@ -1,0 +1,74 @@
+{
+  "id": "xue-er-12-s02-bunny",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "30d2336edc03240502a5aa785865d672aacdf2f2b39edfca49f673737bc5abec",
+  "attemptId": "5442c90d-5127-4eb4-a173-497dd9c4cb3b",
+  "startedAt": "2026-11-03T13:02:26.761185+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:02:30.440828+00:00",
+  "rawSHA256": "34cb1be976a4dca3f3e0d530b2f75e78c9df12864b36bfb89841cd761539ffbb",
+  "wb": [
+    [
+      0.056833,
+      0.241458,
+      "礼"
+    ],
+    [
+      0.298291,
+      0.284083,
+      "之"
+    ],
+    [
+      0.582375,
+      0.326708,
+      "用"
+    ],
+    [
+      1.221583,
+      0.298291,
+      "和"
+    ],
+    [
+      1.519875,
+      0.298291,
+      "为"
+    ],
+    [
+      1.818166,
+      0.440333,
+      "贵"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 192,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 193,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 194,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 196,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 197,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 198,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

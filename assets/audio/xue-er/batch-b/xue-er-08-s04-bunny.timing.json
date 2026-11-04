@@ -1,0 +1,31 @@
+{
+  "text": "过，则勿惮改。”",
+  "dur": 2.88,
+  "t": [
+    0.056833,
+    null,
+    0.724416,
+    1.036916,
+    1.235791,
+    1.5625,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "1ee3d2963c86e3e0fc4057ea7449108f07f4d82c587f54f2bdc10bf7d0a7b9ce",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-08-s04-bunny",
+      "rawSHA256": "f2652a8468ad6dbe51ef35a711e773af7a29e8c671ea4dcf8e8a1daf347aac87",
+      "ssmlSHA256": "5843411fa556c02d5f9215228df4b07366c7651b19e4f2627c0431edc4b77fb1"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

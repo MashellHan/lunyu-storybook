@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "kind": "Designer final binding; existing static review reused without browser or test rerun",
+  "verifiedAt": "2026-11-03T12:39:45.692Z",
+  "repository": "/Users/mengxionghan/workspace/lunyu-storybook",
+  "designConclusion": "Passed for the previously agreed static geometry, B2 punctuation and non-ready isolation.",
+  "finalInputSha256": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+  "designConfigSha256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+  "designCssSha256": "df6210c5409af120ab8486585c1b775f0b95e222c73b10990c54998e34119393",
+  "previousReview": "docs/design/xue-er-phase-b-review.md",
+  "previousStaticEvidence": "docs/design/xue-er-phase-b/integrated-36ce75f/",
+  "sourceAndHtmlRebind": {
+    "oldInput": "36ce75f047f73f1ab7ed49c17e2d0278d952dc9ef2e8fe1cb2c4464421e9c8c1",
+    "newInput": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+    "appSha256": "0991c6e0c12e20965778af6b6f2a4b7ce5138783f0e2e91e6dc0660e3e5cc143",
+    "appMatchesNewFrozen": true,
+    "reverseOnlyHoldAnimationChangeMatchesOldApp": true,
+    "changedInputs": [
+      "src/app.js",
+      "tests/cancellation.spec.js",
+      "tests/chapters.spec.js",
+      "tests/homepage.spec.js"
+    ],
+    "html": [
+      {
+        "path": "build/xue-er-preview/xue-er-03.html",
+        "previousSha256": "d1abbaa1e1621cea160ef20737d96f2d3be3dece9825330d953de66dacaaadc8",
+        "currentSha256": "f193f2c73c6dc51d883de5da7ed065c7f1c721fc3f5167b96eb3741abe30ec08",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "build/xue-er-preview/xue-er-04.html",
+        "previousSha256": "4946122a60ae3af04cd957a76b0fe9f9cdf05d6b0ef0f9c811f4ebbecdb2a9ad",
+        "currentSha256": "7f3fbe48608b9869b8d2026f6e3b8c4245ddf6d57fa0f044331ee2a8516775ee",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "build/xue-er-preview/xue-er-05.html",
+        "previousSha256": "503a931fd8b82ba14f58d1bd195c266c3c2ebbd6d0d483a7903e9c56b1d7148b",
+        "currentSha256": "8c3f1aa7f5a578c07f78d64247736a3bf3cdcf0d77f2b656cfbfdd498c9f27ab",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "build/xue-er-preview/xue-er-10.html",
+        "previousSha256": "f0e2280fafde949c2fc9183e4394bc215afa71ca38fec9007a111adee8bebca6",
+        "currentSha256": "6452ce119742c975d8bba1fc0969cf318cb8a89d40de3b3f0171b897febd7d59",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "build/xue-er-preview/xue-er-11.html",
+        "previousSha256": "48b1890126fc734871b3b6c7050a33ed9c21656749d25b74b9890652c93b1d99",
+        "currentSha256": "a11d9168f36a0eb5cdc18959faffa21c00ff85bcaff0d235293f0b839901fca3",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "build/xue-er-preview/xue-er-13.html",
+        "previousSha256": "75b43f6ee437118f9fe44c4b2f20e2027a274715cf20e1d1f4f2323da29485d3",
+        "currentSha256": "3512945bf2f435d7e11c6c4241ef19e10bf455a74c584aa5a0c383e792d1e6f4",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "build/xue-er-preview/xue-er-15.html",
+        "previousSha256": "bec2b8ed0413bbbf064d7d68b75e9507e6ea8a458b89249e6a179b6c81baae8b",
+        "currentSha256": "3842d843fdd812b9dd1cdb9cf4f698ff6dd76dc5e497e30f39b110117d32f6f5",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "public/learn/xue-er/index.html",
+        "previousSha256": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+        "currentSha256": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "public/learn/xue-er/1/index.html",
+        "previousSha256": "5ad4437835201b1d0a4c3d9ee90be39f74a4362d876a2c845b22ba53b2c31e51",
+        "currentSha256": "d68901a4dc47b06c33639fedeef470c309d283270ed8b8fcf7dc6c1bbf01496c",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "dist/xue-er.html",
+        "previousSha256": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a",
+        "currentSha256": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      },
+      {
+        "path": "dist/index-single.html",
+        "previousSha256": "63aa2f64956ea148fffb4011159e5933e64b1d01f9bdf6d6352eebc1eb6349dc",
+        "currentSha256": "431fcd0a50d346c5cc13ba14de326baef40e58170540317ba243fc2e389eca24",
+        "sameStaticBytesAfterReversingPauseHelper": true
+      }
+    ]
+  },
+  "changeVerificationMethod": "Read-only memory transformation removes only the added holdAnimation function and restores its two prior call sites. The resulting app SHA exactly equals the 36ce snapshot app SHA, and the same transformation on each reviewed HTML exactly recovers its previous SHA. No repository source or product file was rewritten.",
+  "finalResultVerification": {
+    "phase": "B-xue-er-engineering-directory-final",
+    "command": "npm test",
+    "started_at": "2026-11-03T12:32:59.164350+00:00",
+    "finished_at": "2026-11-03T12:36:42.403808+00:00",
+    "elapsed_seconds": 223.239,
+    "exit_code": 0,
+    "passed": 62,
+    "failed": 0,
+    "skipped": 0,
+    "did not run": 0,
+    "log": "tests/artifacts/xue-er-phase-b/npm-test-b-final.log",
+    "log_capture": "Original npm test stdout/stderr streamed directly during this run; no reconstruction or rerun for logging.",
+    "log_sha256": "129c4e5565b93224723180864c681bbeb26be484ef770e40eab11c38986b257a",
+    "source_inputs_unchanged": true,
+    "protected_media_lock_unchanged": true,
+    "fingerprints": {
+      "input_fingerprint_before": {
+        "sha256": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+        "count": 48
+      },
+      "input_fingerprint_after": {
+        "sha256": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+        "count": 48
+      },
+      "product_sha256": {
+        "sha256": null,
+        "count": null
+      }
+    },
+    "resultSha256": "cc41c9237f404b7b9caf2f0e27e3fba689bdb7e474625816ec7bac46bea625f7",
+    "actualLogSha256": "129c4e5565b93224723180864c681bbeb26be484ef770e40eab11c38986b257a",
+    "logHashMatches": true,
+    "beforeAfterManifestEqual": true,
+    "beforeAggregate": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+    "afterAggregate": "bbe55d83261a0d9ec045f649564fa9e4a272925f7e0037e9c6dd03ff201c5b40",
+    "currentInputMismatches": [],
+    "reusedScreenshots": [
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-03-320x844.png",
+        "currentSha256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e",
+        "reviewedSha256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-03-390x844.png",
+        "currentSha256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+        "reviewedSha256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-03-1024x768.png",
+        "currentSha256": "2083b3fc6b2b2db54f91df21197a2daec17ed527beff4724401b9136892ac4b2",
+        "reviewedSha256": "2083b3fc6b2b2db54f91df21197a2daec17ed527beff4724401b9136892ac4b2",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-15-320x844.png",
+        "currentSha256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee",
+        "reviewedSha256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-15-390x844.png",
+        "currentSha256": "6031778ae1960bc6546c00811dd53151368b5ac59ceee62560dd89506da8018f",
+        "reviewedSha256": "6031778ae1960bc6546c00811dd53151368b5ac59ceee62560dd89506da8018f",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-15-768x1024.png",
+        "currentSha256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115",
+        "reviewedSha256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-05-390x844.png",
+        "currentSha256": "c87362e194d254bfb171d60290e738b84fd26b912b7cd0fcb6d3a401ade02836",
+        "reviewedSha256": "c87362e194d254bfb171d60290e738b84fd26b912b7cd0fcb6d3a401ade02836",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-10-1024x768.png",
+        "currentSha256": "1c9dc1e70d090a525f50d8dd1308111a958aae6656408bd4cf8ea5cca0baac3c",
+        "reviewedSha256": "1c9dc1e70d090a525f50d8dd1308111a958aae6656408bd4cf8ea5cca0baac3c",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-11-390x844.png",
+        "currentSha256": "9d35e14dbfd61b353219b3478ac241f6cc53900a16c81a89dc21b15cb1a73967",
+        "reviewedSha256": "9d35e14dbfd61b353219b3478ac241f6cc53900a16c81a89dc21b15cb1a73967",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-13-390x844.png",
+        "currentSha256": "a7be8f1c4f859635997462041fe217f835305a3d595842854163ee3af7357b36",
+        "reviewedSha256": "a7be8f1c4f859635997462041fe217f835305a3d595842854163ee3af7357b36",
+        "byteIdenticalToReviewed": true
+      },
+      {
+        "path": "tests/artifacts/xue-er-phase-b/xue-er-04-390x844.png",
+        "currentSha256": "b8ae9b0b4785451ccfb0181b9e4d12d6ece342207ab5a934eab6e4296df2bce4",
+        "reviewedSha256": "b8ae9b0b4785451ccfb0181b9e4d12d6ece342207ab5a934eab6e4296df2bce4",
+        "byteIdenticalToReviewed": true
+      }
+    ]
+  },
+  "products": {
+    "public/index.html": {
+      "recordedSha256": "d1686239c8584129988138ac1c525bb74ce3bdf796e3a8e90071dd5f9ec1b085",
+      "actualSha256": "d1686239c8584129988138ac1c525bb74ce3bdf796e3a8e90071dd5f9ec1b085",
+      "matches": true
+    },
+    "public/learn/xue-er/1/index.html": {
+      "recordedSha256": "d68901a4dc47b06c33639fedeef470c309d283270ed8b8fcf7dc6c1bbf01496c",
+      "actualSha256": "d68901a4dc47b06c33639fedeef470c309d283270ed8b8fcf7dc6c1bbf01496c",
+      "matches": true
+    },
+    "public/learn/xue-er/index.html": {
+      "recordedSha256": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+      "actualSha256": "b0e782677933ba77f93111f549f9e16e960e299dbe999f1f7d7bce76998bf9df",
+      "matches": true
+    },
+    "dist/index-single.html": {
+      "recordedSha256": "431fcd0a50d346c5cc13ba14de326baef40e58170540317ba243fc2e389eca24",
+      "actualSha256": "431fcd0a50d346c5cc13ba14de326baef40e58170540317ba243fc2e389eca24",
+      "matches": true
+    },
+    "dist/index.html": {
+      "recordedSha256": "7a53c19a9f107120ef5de3401dd4d48ce83ae58247ca8bbf1391f1dfc8b3c228",
+      "actualSha256": "7a53c19a9f107120ef5de3401dd4d48ce83ae58247ca8bbf1391f1dfc8b3c228",
+      "matches": true
+    },
+    "dist/xue-er.html": {
+      "recordedSha256": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a",
+      "actualSha256": "5521081cc2f6ae1de3c883f7ea3bdb42d0e37840743f4df294ce21577abe217a",
+      "matches": true
+    }
+  },
+  "records": {
+    "fullTestResult": "tests/artifacts/xue-er-phase-b/npm-test-b-final-result.json",
+    "fullTestLog": "tests/artifacts/xue-er-phase-b/npm-test-b-final.log",
+    "inputBefore": "tests/artifacts/xue-er-phase-b/frozen-inputs-final-before.json",
+    "inputAfter": "tests/artifacts/xue-er-phase-b/frozen-inputs-final-after.json",
+    "previousFailedResult": "tests/artifacts/xue-er-phase-b/npm-test-b-result.json",
+    "previousFailures": "tests/artifacts/xue-er-phase-b/failed-first-full-run/"
+  },
+  "limits": [
+    "No additional browser matrix, screenshot capture, timing probe, build or npm test performed by Designer in this final binding.",
+    "New chapters remain not ready; release scope is the volume directory plus the existing demo.",
+    "No new media/API generation performed by Designer; no physical device or human listening acceptance.",
+    "Deployment is owned by Lead; this record does not claim that deployment has occurred."
+  ]
+}

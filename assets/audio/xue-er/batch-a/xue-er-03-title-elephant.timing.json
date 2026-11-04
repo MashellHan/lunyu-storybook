@@ -1,0 +1,33 @@
+{
+  "text": "论语，之，巧言令色。",
+  "dur": 3.408,
+  "t": [
+    0.058833,
+    0.367666,
+    null,
+    0.955875,
+    null,
+    1.558833,
+    1.882353,
+    2.220583,
+    2.41175,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "5a9a999f1c27f1c6be4dbd998ab4121c7a9e351013939c625e91a4cda17e78bc",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-03-title-elephant",
+      "rawSHA256": "467be7fa3ade825d60e23e0110c5d329edfe67cb9495eadcae29f4a1e9cb230b",
+      "ssmlSHA256": "fb1f4aad7e056dd66d6e1cc16a139be5302288fae62441affdeb01f0e09001a0"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

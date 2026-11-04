@@ -1,0 +1,63 @@
+{
+  "text": "不以礼节之，亦不可行也。”",
+  "dur": 4.247167,
+  "t": [
+    0.056833,
+    0.255666,
+    0.525583,
+    0.788354,
+    1.051125,
+    null,
+    1.71875,
+    1.946041,
+    2.180416,
+    2.414791,
+    2.8125,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "1f057d05577e0801bb46e14f22d16d4a68ff0653c080ae06af274e94c7cfdc5c",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-12-s05-bunny",
+      "rawSHA256": "d333bc68108382a9b2afb96bc0355148b60388a913e9566b8968dd1c02f72f09",
+      "ssmlSHA256": "e5bd4e77374d51d84e55787be4188a30d5a4195e4051966a7c671a7edce0ab1a"
+    },
+    {
+      "id": "xue-er-12-s05-cat",
+      "rawSHA256": "2c105127de5f644574c9b301be7dfb00a43a41e863b2d04da593767520d60b32",
+      "ssmlSHA256": "d683980f2136a4422a4b9ae7268130477a365974f12be1010067ae13818c039c"
+    },
+    {
+      "id": "xue-er-12-s05-dog",
+      "rawSHA256": "29ad124cd8c2c4fc0277d91e179f13963843d5ba3c95ccd6d4d021826247eeb0",
+      "ssmlSHA256": "a5c8d83de8bc9bc7806fead02334ac7ca3b811748d23d0b5b7130c704c9bdcaf"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8313953488372092,
+        0.5988372093023255
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

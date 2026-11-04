@@ -1,0 +1,27 @@
+{
+  "text": "子曰：“",
+  "dur": 1.872,
+  "t": [
+    0.056833,
+    0.369333,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-01-s01-bunny",
+      "rawSHA256": "30df70bbb6d1b91f1dff6b6dbe338855effa9d335e33eb7f2aa5e1189483c6ab",
+      "ssmlSHA256": "128aa8814487e7713ff4d429f19b10377e282974ce273bc417a224d5625f83cf"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

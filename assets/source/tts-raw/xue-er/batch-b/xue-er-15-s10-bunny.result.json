@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-15-s10-bunny",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "3d06ecf6de34dbcd226ebac6db088231de9714c2f9d2fa956883d99c5a4fdb68",
+  "attemptId": "ac7a54fb-6b3f-4f07-bce5-6fcd6d979fee",
+  "startedAt": "2026-11-03T13:07:03.001565+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:07:07.486832+00:00",
+  "rawSHA256": "618fa67e68ee92bf00688ba2373a18fd1abea944c5cf459612d41d77e1c576fe",
+  "wb": [
+    [
+      0.056833,
+      0.369291,
+      "赐"
+    ],
+    [
+      0.426125,
+      0.3125,
+      "也"
+    ],
+    [
+      1.065333,
+      0.326708,
+      "始"
+    ],
+    [
+      1.392041,
+      0.326708,
+      "可"
+    ],
+    [
+      1.71875,
+      0.269875,
+      "与"
+    ],
+    [
+      1.988625,
+      0.326708,
+      "言"
+    ],
+    [
+      2.315333,
+      0.340916,
+      "《诗"
+    ],
+    [
+      2.65625,
+      0.326708,
+      "》已"
+    ],
+    [
+      2.982958,
+      0.3125,
+      "矣"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 192,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 193,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 195,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 196,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 197,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 198,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 199,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 201,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 203,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

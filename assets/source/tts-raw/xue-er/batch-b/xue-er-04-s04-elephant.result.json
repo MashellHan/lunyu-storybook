@@ -1,0 +1,29 @@
+{
+  "id": "xue-er-04-s04-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "f4def8c1e7ead4c5f3a874c36b00adbe8092bf85ac3815714b51dd2cfa08883c",
+  "attemptId": "29ea638d-f591-46dd-a0f2-56954f9d0950",
+  "startedAt": "2026-11-03T12:53:42.995479+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:53:47.674068+00:00",
+  "rawSHA256": "55c10b2b4f0c84bb8dbd3d772f3f9673afec0ecf8f57bca4dea7244bf85bb0c3",
+  "wb": [
+    [
+      0.058833,
+      2.588208,
+      "与朋友交而不信乎"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 8
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

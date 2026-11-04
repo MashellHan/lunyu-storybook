@@ -1,0 +1,965 @@
+{
+  "previousSHA256": "13be8fad01ccda687f94222c0656b378e7a7ff8f9dc4d6d3380d57163b47ff4a",
+  "candidateSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+  "unchanged": [
+    "segment/page/prop/cue/part IDs",
+    "all page, reading-group and audio references",
+    "all character slots, shared layout presets and scene heights",
+    "motion presets, cue steps, layers and colors",
+    "Chapter-level prop placements change only in 03/15. Shared table geometry benefits 04/07; static wide backgrounds change in 05/10/11; the creek in 13 is CSS only. All their page, target and motion bindings stay unchanged."
+  ],
+  "placements": {
+    "xue-er-03": {
+      "screen": {
+        "anchor": "scene",
+        "frames": {
+          "compact": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 116,
+            "heightPx": 80
+          },
+          "phone": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 140,
+            "heightPx": 88
+          },
+          "tablet": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 232,
+            "heightPx": 140
+          },
+          "desktop": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 232,
+            "heightPx": 144
+          }
+        }
+      },
+      "fan": {
+        "anchor": "scene",
+        "frames": {
+          "compact": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 88,
+            "widthPx": 96,
+            "heightPx": 52
+          },
+          "phone": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 80,
+            "widthPx": 128,
+            "heightPx": 68
+          },
+          "tablet": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 98,
+            "widthPx": 144,
+            "heightPx": 78
+          },
+          "desktop": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 168,
+            "widthPx": 176,
+            "heightPx": 100
+          }
+        }
+      }
+    },
+    "xue-er-15": {
+      "workbench": {
+        "anchor": "scene",
+        "frames": {
+          "compact": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 88,
+            "widthPx": 96,
+            "heightPx": 52
+          },
+          "phone": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 80,
+            "widthPx": 128,
+            "heightPx": 68
+          },
+          "tablet": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 96,
+            "widthPx": 160,
+            "heightPx": 80
+          },
+          "desktop": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 140,
+            "widthPx": 224,
+            "heightPx": 128
+          }
+        }
+      }
+    }
+  },
+  "templates": {
+    "screen": {
+      "viewBox": [
+        0,
+        0,
+        160,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 3,
+            "y": 4,
+            "width": 72,
+            "height": 90,
+            "rx": 5
+          }
+        },
+        {
+          "id": "right",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 85,
+            "y": 4,
+            "width": 72,
+            "height": 90,
+            "rx": 5
+          }
+        },
+        {
+          "id": "edges",
+          "tag": "path",
+          "attrs": {
+            "d": "M3 96 V4 H75 V96 M85 96 V4 H157 V96 M75 14 L85 18 M75 84 L85 88",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "fan": {
+      "viewBox": [
+        0,
+        0,
+        160,
+        84
+      ],
+      "parts": [
+        {
+          "id": "paper",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 50,
+            "y": 20,
+            "width": 60,
+            "height": 56,
+            "rx": 4
+          }
+        },
+        {
+          "id": "left-leaf",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "points": "80,76 8,30 60,6 80,20"
+          }
+        },
+        {
+          "id": "right-leaf",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f08a5d",
+            "points": "80,76 80,20 100,6 152,30"
+          }
+        },
+        {
+          "id": "pivot",
+          "tag": "circle",
+          "attrs": {
+            "fill": "#4a3424",
+            "cx": 80,
+            "cy": 76,
+            "r": 3
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "workbench": {
+      "viewBox": [
+        0,
+        0,
+        160,
+        88
+      ],
+      "parts": [
+        {
+          "id": "desk",
+          "tag": "path",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "d": "M6 48 H154 Q158 48 158 52 V60 Q158 64 154 64 H146 V82 H136 V64 H24 V82 H14 V64 H6 Q2 64 2 60 V52 Q2 48 6 48 Z"
+          }
+        },
+        {
+          "id": "rough",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "points": "40,34 48,28 60,33 74,27 88,32 112,28 128,34 128,46 40,46"
+          }
+        },
+        {
+          "id": "smooth",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 40,
+            "y": 32,
+            "width": 88,
+            "height": 14,
+            "rx": 5
+          }
+        },
+        {
+          "id": "stone",
+          "tag": "ellipse",
+          "attrs": {
+            "fill": "#8aa99c",
+            "cx": 76,
+            "cy": 19,
+            "rx": 19,
+            "ry": 9
+          }
+        },
+        {
+          "id": "marker",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f08a5d",
+            "x": 76,
+            "y": 50,
+            "width": 8,
+            "height": 12,
+            "rx": 2
+          }
+        }
+      ],
+      "baseStyles": {
+        "smooth": {
+          "opacity": 0
+        },
+        "rough": {
+          "opacity": 1
+        }
+      }
+    },
+    "table": {
+      "viewBox": [
+        0,
+        0,
+        320,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left-leg",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 28.8,
+            "y": 60,
+            "width": 28.8,
+            "height": 32,
+            "rx": 3
+          }
+        },
+        {
+          "id": "right-leg",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 262.4,
+            "y": 60,
+            "width": 28.8,
+            "height": 32,
+            "rx": 3
+          }
+        },
+        {
+          "id": "top",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 6.4,
+            "y": 40,
+            "width": 307.2,
+            "height": 24,
+            "rx": 7
+          }
+        }
+      ],
+      "baseStyles": {}
+    }
+  },
+  "configSHA256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+  "interfacePreservation": true,
+  "detailedChanges": [
+    {
+      "path": "/propTemplates/fan/viewBox/2",
+      "before": 100,
+      "after": 160
+    },
+    {
+      "path": "/propTemplates/fan/viewBox/3",
+      "before": 100,
+      "after": 84
+    },
+    {
+      "path": "/propTemplates/fan/parts/0/attrs/x",
+      "before": 29,
+      "after": 50
+    },
+    {
+      "path": "/propTemplates/fan/parts/0/attrs/width",
+      "before": 42,
+      "after": 60
+    },
+    {
+      "path": "/propTemplates/fan/parts/0/attrs/height",
+      "before": 52,
+      "after": 56
+    },
+    {
+      "path": "/propTemplates/fan/parts/0/attrs/y",
+      "before": 25,
+      "after": 20
+    },
+    {
+      "path": "/propTemplates/fan/parts/1/attrs/points",
+      "before": "50,84 8,30 42,12 50,26",
+      "after": "80,76 8,30 60,6 80,20"
+    },
+    {
+      "path": "/propTemplates/fan/parts/2/attrs/points",
+      "before": "50,84 50,26 58,12 92,30",
+      "after": "80,76 80,20 100,6 152,30"
+    },
+    {
+      "path": "/propTemplates/fan/parts/3/attrs/cx",
+      "before": 50,
+      "after": 80
+    },
+    {
+      "path": "/propTemplates/fan/parts/3/attrs/cy",
+      "before": 84,
+      "after": 76
+    },
+    {
+      "path": "/propTemplates/table/viewBox/2",
+      "before": 100,
+      "after": 320
+    },
+    {
+      "path": "/propTemplates/table/parts/0/attrs/x",
+      "before": 9,
+      "after": 28.8
+    },
+    {
+      "path": "/propTemplates/table/parts/0/attrs/width",
+      "before": 9,
+      "after": 28.8
+    },
+    {
+      "path": "/propTemplates/table/parts/1/attrs/x",
+      "before": 82,
+      "after": 262.4
+    },
+    {
+      "path": "/propTemplates/table/parts/1/attrs/width",
+      "before": 9,
+      "after": 28.8
+    },
+    {
+      "path": "/propTemplates/table/parts/2/attrs/x",
+      "before": 2,
+      "after": 6.4
+    },
+    {
+      "path": "/propTemplates/table/parts/2/attrs/width",
+      "before": 96,
+      "after": 307.2
+    },
+    {
+      "path": "/propTemplates/screen/viewBox/2",
+      "before": 100,
+      "after": 160
+    },
+    {
+      "path": "/propTemplates/screen/parts/0/attrs/rx",
+      "before": 6,
+      "after": 5
+    },
+    {
+      "path": "/propTemplates/screen/parts/0/attrs/width",
+      "before": 41,
+      "after": 72
+    },
+    {
+      "path": "/propTemplates/screen/parts/0/attrs/height",
+      "before": 88,
+      "after": 90
+    },
+    {
+      "path": "/propTemplates/screen/parts/0/attrs/y",
+      "before": 6,
+      "after": 4
+    },
+    {
+      "path": "/propTemplates/screen/parts/1/attrs/rx",
+      "before": 6,
+      "after": 5
+    },
+    {
+      "path": "/propTemplates/screen/parts/1/attrs/x",
+      "before": 56,
+      "after": 85
+    },
+    {
+      "path": "/propTemplates/screen/parts/1/attrs/width",
+      "before": 41,
+      "after": 72
+    },
+    {
+      "path": "/propTemplates/screen/parts/1/attrs/height",
+      "before": 88,
+      "after": 90
+    },
+    {
+      "path": "/propTemplates/screen/parts/1/attrs/y",
+      "before": 6,
+      "after": 4
+    },
+    {
+      "path": "/propTemplates/screen/parts/2/attrs/d",
+      "before": "M3 94 V6 H44 V94 M56 94 V6 H97 V94",
+      "after": "M3 96 V4 H75 V96 M85 96 V4 H157 V96 M75 14 L85 18 M75 84 L85 88"
+    },
+    {
+      "path": "/propTemplates/workbench/viewBox/2",
+      "before": 100,
+      "after": 160
+    },
+    {
+      "path": "/propTemplates/workbench/viewBox/3",
+      "before": 100,
+      "after": 88
+    },
+    {
+      "path": "/propTemplates/workbench/parts/0/attrs/rx",
+      "before": 5,
+      "after": null
+    },
+    {
+      "path": "/propTemplates/workbench/parts/0/attrs/x",
+      "before": 2,
+      "after": null
+    },
+    {
+      "path": "/propTemplates/workbench/parts/0/attrs/width",
+      "before": 96,
+      "after": null
+    },
+    {
+      "path": "/propTemplates/workbench/parts/0/attrs/height",
+      "before": 13,
+      "after": null
+    },
+    {
+      "path": "/propTemplates/workbench/parts/0/attrs/d",
+      "before": null,
+      "after": "M6 48 H154 Q158 48 158 52 V60 Q158 64 154 64 H146 V82 H136 V64 H24 V82 H14 V64 H6 Q2 64 2 60 V52 Q2 48 6 48 Z"
+    },
+    {
+      "path": "/propTemplates/workbench/parts/0/attrs/y",
+      "before": 80,
+      "after": null
+    },
+    {
+      "path": "/propTemplates/workbench/parts/0/tag",
+      "before": "rect",
+      "after": "path"
+    },
+    {
+      "path": "/propTemplates/workbench/parts/1/attrs/points",
+      "before": "18,64 24,58 36,62 46,56 57,62 70,58 82,64 82,78 18,78",
+      "after": "40,34 48,28 60,33 74,27 88,32 112,28 128,34 128,46 40,46"
+    },
+    {
+      "path": "/propTemplates/workbench/parts/2/attrs/rx",
+      "before": 7,
+      "after": 5
+    },
+    {
+      "path": "/propTemplates/workbench/parts/2/attrs/x",
+      "before": 18,
+      "after": 40
+    },
+    {
+      "path": "/propTemplates/workbench/parts/2/attrs/width",
+      "before": 64,
+      "after": 88
+    },
+    {
+      "path": "/propTemplates/workbench/parts/2/attrs/height",
+      "before": 16,
+      "after": 14
+    },
+    {
+      "path": "/propTemplates/workbench/parts/2/attrs/y",
+      "before": 62,
+      "after": 32
+    },
+    {
+      "path": "/propTemplates/workbench/parts/3/attrs/cx",
+      "before": 46,
+      "after": 76
+    },
+    {
+      "path": "/propTemplates/workbench/parts/3/attrs/ry",
+      "before": 10,
+      "after": 9
+    },
+    {
+      "path": "/propTemplates/workbench/parts/3/attrs/cy",
+      "before": 43,
+      "after": 19
+    },
+    {
+      "path": "/propTemplates/workbench/parts/4/attrs/x",
+      "before": 46,
+      "after": 76
+    },
+    {
+      "path": "/propTemplates/workbench/parts/4/attrs/height",
+      "before": 18,
+      "after": 12
+    },
+    {
+      "path": "/propTemplates/workbench/parts/4/attrs/y",
+      "before": 12,
+      "after": 50
+    },
+    {
+      "path": "/chapters/2/props/0/placement/frames/tablet/widthPx",
+      "before": 220,
+      "after": 232
+    },
+    {
+      "path": "/chapters/2/props/0/placement/frames/tablet/heightPx",
+      "before": 112,
+      "after": 140
+    },
+    {
+      "path": "/chapters/2/props/0/placement/frames/compact/heightPx",
+      "before": 76,
+      "after": 80
+    },
+    {
+      "path": "/chapters/2/props/0/placement/frames/phone/heightPx",
+      "before": 84,
+      "after": 88
+    },
+    {
+      "path": "/chapters/2/props/0/placement/frames/desktop/widthPx",
+      "before": 440,
+      "after": 232
+    },
+    {
+      "path": "/chapters/2/props/0/placement/frames/desktop/heightPx",
+      "before": 132,
+      "after": 144
+    },
+    {
+      "path": "/chapters/2/props/1/placement/widthPx",
+      "before": null,
+      "after": null
+    },
+    {
+      "path": "/chapters/2/props/1/placement/anchor",
+      "before": "propDock",
+      "after": "scene"
+    },
+    {
+      "path": "/chapters/2/props/1/placement/dyPx",
+      "before": 0,
+      "after": null
+    },
+    {
+      "path": "/chapters/2/props/1/placement/frames",
+      "before": null,
+      "after": {
+        "compact": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 88,
+          "widthPx": 96,
+          "heightPx": 52
+        },
+        "phone": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 80,
+          "widthPx": 128,
+          "heightPx": 68
+        },
+        "tablet": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 98,
+          "widthPx": 144,
+          "heightPx": 78
+        },
+        "desktop": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 168,
+          "widthPx": 176,
+          "heightPx": 100
+        }
+      }
+    },
+    {
+      "path": "/chapters/2/props/1/placement/heightPx",
+      "before": null,
+      "after": null
+    },
+    {
+      "path": "/chapters/2/props/1/placement/dxPx",
+      "before": 0,
+      "after": null
+    },
+    {
+      "path": "/chapters/14/props/0/placement/widthPx",
+      "before": null,
+      "after": null
+    },
+    {
+      "path": "/chapters/14/props/0/placement/anchor",
+      "before": "propDock",
+      "after": "scene"
+    },
+    {
+      "path": "/chapters/14/props/0/placement/dyPx",
+      "before": 0,
+      "after": null
+    },
+    {
+      "path": "/chapters/14/props/0/placement/frames",
+      "before": null,
+      "after": {
+        "compact": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 88,
+          "widthPx": 96,
+          "heightPx": 52
+        },
+        "phone": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 80,
+          "widthPx": 128,
+          "heightPx": 68
+        },
+        "tablet": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 96,
+          "widthPx": 160,
+          "heightPx": 80
+        },
+        "desktop": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 140,
+          "widthPx": 224,
+          "heightPx": 128
+        }
+      }
+    },
+    {
+      "path": "/chapters/14/props/0/placement/heightPx",
+      "before": null,
+      "after": null
+    },
+    {
+      "path": "/chapters/14/props/0/placement/dxPx",
+      "before": 0,
+      "after": null
+    }
+  ],
+  "cssSHA256": "df6210c5409af120ab8486585c1b775f0b95e222c73b10990c54998e34119393",
+  "intermediateSHA256": "5e5521f8ba8d8eb2d34e17955d0968b27ad0ac7d9b4c65a3cd8b566894f68dfb",
+  "additionalStaticBackgroundChanges": {
+    "field": {
+      "before": {
+        "viewBox": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "parts": [
+          {
+            "id": "field-a",
+            "tag": "polygon",
+            "attrs": {
+              "fill": "#8aa99c",
+              "points": "4,26 92,6 96,35 8,57"
+            }
+          },
+          {
+            "id": "field-b",
+            "tag": "polygon",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "points": "8,66 96,45 96,75 12,96"
+            }
+          }
+        ],
+        "baseStyles": {}
+      },
+      "after": {
+        "viewBox": [
+          0,
+          0,
+          640,
+          100
+        ],
+        "parts": [
+          {
+            "id": "field-a",
+            "tag": "polygon",
+            "attrs": {
+              "fill": "#8aa99c",
+              "points": "25.6,26 588.8,6 614.4,35 51.2,57"
+            }
+          },
+          {
+            "id": "field-b",
+            "tag": "polygon",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "points": "51.2,66 614.4,45 614.4,75 76.8,96"
+            }
+          }
+        ],
+        "baseStyles": {},
+        "preserveAspectRatio": "none"
+      }
+    },
+    "corridor": {
+      "before": {
+        "viewBox": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "parts": [
+          {
+            "id": "left-post",
+            "tag": "rect",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "x": 3,
+              "y": 18,
+              "width": 8,
+              "height": 80,
+              "rx": 3
+            }
+          },
+          {
+            "id": "right-post",
+            "tag": "rect",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "x": 89,
+              "y": 18,
+              "width": 8,
+              "height": 80,
+              "rx": 3
+            }
+          },
+          {
+            "id": "roof",
+            "tag": "polygon",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "points": "0,18 18,3 82,3 100,18"
+            }
+          }
+        ],
+        "baseStyles": {}
+      },
+      "after": {
+        "viewBox": [
+          0,
+          0,
+          640,
+          100
+        ],
+        "parts": [
+          {
+            "id": "left-post",
+            "tag": "rect",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "x": 8,
+              "y": 18,
+              "width": 18,
+              "height": 80,
+              "rx": 3
+            }
+          },
+          {
+            "id": "right-post",
+            "tag": "rect",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "x": 614,
+              "y": 18,
+              "width": 18,
+              "height": 80,
+              "rx": 3
+            }
+          },
+          {
+            "id": "roof",
+            "tag": "polygon",
+            "attrs": {
+              "fill": "#f0d7b8",
+              "points": "0,18 48,3 592,3 640,18"
+            }
+          }
+        ],
+        "baseStyles": {},
+        "preserveAspectRatio": "none"
+      }
+    },
+    "window": {
+      "before": {
+        "viewBox": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "parts": [
+          {
+            "id": "pane",
+            "tag": "rect",
+            "attrs": {
+              "fill": "#fffaf2",
+              "x": 4,
+              "y": 4,
+              "width": 92,
+              "height": 80,
+              "rx": 8
+            }
+          },
+          {
+            "id": "frame",
+            "tag": "path",
+            "attrs": {
+              "d": "M4 84 V4 H96 V84 Z M50 4 V84 M4 44 H96",
+              "fill": "none",
+              "stroke": "#4a3424",
+              "stroke-width": 2,
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            }
+          }
+        ],
+        "baseStyles": {}
+      },
+      "after": {
+        "viewBox": [
+          0,
+          0,
+          480,
+          100
+        ],
+        "parts": [
+          {
+            "id": "pane",
+            "tag": "rect",
+            "attrs": {
+              "fill": "#fffaf2",
+              "x": 4,
+              "y": 4,
+              "width": 472,
+              "height": 80,
+              "rx": 8
+            }
+          },
+          {
+            "id": "frame",
+            "tag": "path",
+            "attrs": {
+              "d": "M4 84 V4 H476 V84 Z M240 4 V84 M4 44 H476",
+              "fill": "none",
+              "stroke": "#4a3424",
+              "stroke-width": 2,
+              "stroke-linecap": "round",
+              "stroke-linejoin": "round"
+            }
+          }
+        ],
+        "baseStyles": {},
+        "preserveAspectRatio": "none"
+      }
+    }
+  },
+  "staticCSSScenes": [
+    "paper-screen",
+    "polishing-dialogue",
+    "three-plank-bridge"
+  ],
+  "newOptionalStaticSVGAttribute": {
+    "name": "preserveAspectRatio",
+    "value": "none",
+    "templates": [
+      "field",
+      "corridor",
+      "window"
+    ],
+    "requiresRendererToReadAttribute": true
+  }
+}

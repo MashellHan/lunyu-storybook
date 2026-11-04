@@ -1,0 +1,51 @@
+{
+  "text": "恭近于礼，远耻辱也。",
+  "dur": 2.448,
+  "t": [
+    0.082,
+    0.411,
+    0.6225,
+    0.835,
+    null,
+    1.33,
+    1.659,
+    1.847,
+    2.036,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 4,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 5,
+      "remainingSourceIndex": 6,
+      "remainingSourceIndices": [
+        6,
+        7
+      ],
+      "originalBoundaryText": "\">远耻辱",
+      "usedBoundaryOffsetSeconds": 1.659,
+      "usedBoundaryDurationSeconds": 0.376,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 5
+      }
+    }
+  ],
+  "audioSHA256": "d89dd71c763f2480a6868c6db08cc940021314c5955435a28a517a872201e744",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-13-s03-dog",
+      "rawSHA256": "0ec5a068a3d46dccca0107bde4135e9f62222ab9e9e23c66eb2d1dd04a34c8f8",
+      "ssmlSHA256": "b8db5261fb73fb1972d7f8d93ee8179fc0f4a3391979c02a0656c0d4af6ae05a"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

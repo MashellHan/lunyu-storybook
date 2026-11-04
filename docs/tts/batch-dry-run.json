@@ -1,0 +1,41 @@
+{
+  "status": "validated",
+  "mode": "offline-dry-run",
+  "paidCallsThisRun": 0,
+  "mediaWritesThisRun": 0,
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "batches": {
+    "batch-a": {
+      "entries": 30,
+      "entrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+      "recordedResults": {
+        "unstarted": 30,
+        "unknown": 0,
+        "failed": 0,
+        "succeeded": 0
+      }
+    },
+    "batch-b": {
+      "entries": 205,
+      "entrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+      "recordedResults": {
+        "unstarted": 205,
+        "unknown": 0,
+        "failed": 0,
+        "succeeded": 0
+      }
+    }
+  },
+  "selectedEntries": 235,
+  "newTitles": 15,
+  "uniqueNewSegments": 55,
+  "reusedSegmentPositions": 14,
+  "approvedMaximumRequests": 235,
+  "approvedBudgetUSD": 10,
+  "fullSSMLPlanningReferenceUSD": 1.26606,
+  "referenceIsActualQuote": false,
+  "credentialsPresent": {
+    "AZURE_SPEECH_KEY": false,
+    "AZURE_SPEECH_REGION": false
+  }
+}

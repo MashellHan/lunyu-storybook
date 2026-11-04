@@ -1,0 +1,253 @@
+{
+  "status": "content-scene-reference-preflight-passed",
+  "inputSha256": {
+    "docs/content/xue-er.json": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+    "docs/design/xue-er-scene-config.json": "13be8fad01ccda687f94222c0656b378e7a7ff8f9dc4d6d3380d57163b47ff4a"
+  },
+  "chapters": [
+    {
+      "chapterId": "xue-er-01",
+      "pages": 1,
+      "segments": 4,
+      "readingGroups": 3,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-02",
+      "pages": 2,
+      "segments": 5,
+      "readingGroups": 4,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-03",
+      "pages": 1,
+      "segments": 2,
+      "readingGroups": 1,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-04",
+      "pages": 2,
+      "segments": 5,
+      "readingGroups": 4,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-05",
+      "pages": 1,
+      "segments": 4,
+      "readingGroups": 3,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-06",
+      "pages": 2,
+      "segments": 4,
+      "readingGroups": 3,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-07",
+      "pages": 3,
+      "segments": 6,
+      "readingGroups": 5,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-08",
+      "pages": 1,
+      "segments": 4,
+      "readingGroups": 3,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-09",
+      "pages": 1,
+      "segments": 2,
+      "readingGroups": 1,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-10",
+      "pages": 2,
+      "segments": 7,
+      "readingGroups": 4,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-11",
+      "pages": 1,
+      "segments": 3,
+      "readingGroups": 2,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-12",
+      "pages": 2,
+      "segments": 5,
+      "readingGroups": 4,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-13",
+      "pages": 1,
+      "segments": 4,
+      "readingGroups": 3,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-14",
+      "pages": 1,
+      "segments": 4,
+      "readingGroups": 3,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-15",
+      "pages": 4,
+      "segments": 11,
+      "readingGroups": 5,
+      "publicationReady": false
+    },
+    {
+      "chapterId": "xue-er-16",
+      "pages": 1,
+      "segments": 2,
+      "readingGroups": 1,
+      "publicationReady": false
+    }
+  ],
+  "pages": 26,
+  "segments": 72,
+  "readingGroups": 49,
+  "propBindings": 20,
+  "characterLayersPresent": 7,
+  "legacyMappings": [
+    {
+      "segmentId": "xue-er-01-s02",
+      "kind": "lead",
+      "path": "assets/audio/e1.mp3",
+      "sha256": "10151275036a9ca19cde4ffe4b82ee8f9a4ca143155e546c19c0fc3cede0ce57",
+      "timingKey": "e1",
+      "exactTextMatch": true,
+      "timingText": "学而时习之，不亦说乎？",
+      "contentText": "学而时习之，不亦说乎？",
+      "requiresPunctuationIndexRemap": false
+    },
+    {
+      "segmentId": "xue-er-01-s02",
+      "kind": "follow",
+      "path": "assets/audio/u1.mp3",
+      "sha256": "357796f92f22c1f0930548846c149de26dcb18e2eac9bcd85d090f1c60195d87",
+      "timingKey": "u1",
+      "exactTextMatch": true,
+      "timingText": "学而时习之，不亦说乎？",
+      "contentText": "学而时习之，不亦说乎？",
+      "requiresPunctuationIndexRemap": false
+    },
+    {
+      "segmentId": "xue-er-01-s02",
+      "kind": "solo",
+      "path": "assets/audio/b1.mp3",
+      "sha256": "b72be24f9e47fa0223190b3ea94664af63a3eead4056902b7c6c7077c69a2046",
+      "timingKey": "b1",
+      "exactTextMatch": true,
+      "timingText": "学而时习之，不亦说乎？",
+      "contentText": "学而时习之，不亦说乎？",
+      "requiresPunctuationIndexRemap": false
+    },
+    {
+      "segmentId": "xue-er-01-s03",
+      "kind": "lead",
+      "path": "assets/audio/e2.mp3",
+      "sha256": "3e631e9684bba7670dfe9e02d48a58f3f96c0aea8f8789fca6c5c475b26a6ef9",
+      "timingKey": "e2",
+      "exactTextMatch": true,
+      "timingText": "有朋自远方来，不亦乐乎？",
+      "contentText": "有朋自远方来，不亦乐乎？",
+      "requiresPunctuationIndexRemap": false
+    },
+    {
+      "segmentId": "xue-er-01-s03",
+      "kind": "follow",
+      "path": "assets/audio/u2.mp3",
+      "sha256": "4f28d911ffc00639555cb0b6c193845651c2e148f20248566f3cbce614dc8c9f",
+      "timingKey": "u2",
+      "exactTextMatch": true,
+      "timingText": "有朋自远方来，不亦乐乎？",
+      "contentText": "有朋自远方来，不亦乐乎？",
+      "requiresPunctuationIndexRemap": false
+    },
+    {
+      "segmentId": "xue-er-01-s03",
+      "kind": "solo",
+      "path": "assets/audio/c2.mp3",
+      "sha256": "fc2dd940f4d0fb7b87fa2afe3ffdf14a86829fcd47d7cef55d755bca6ca3e18d",
+      "timingKey": "c2",
+      "exactTextMatch": true,
+      "timingText": "有朋自远方来，不亦乐乎？",
+      "contentText": "有朋自远方来，不亦乐乎？",
+      "requiresPunctuationIndexRemap": false
+    },
+    {
+      "segmentId": "xue-er-01-s04",
+      "kind": "lead",
+      "path": "assets/audio/e3.mp3",
+      "sha256": "b4a78b1c809a5f438fe8590d40baa9d08bfa03e15dd586ed690dc991b115b714",
+      "timingKey": "e3",
+      "exactTextMatch": false,
+      "timingText": "人不知而不愠，不亦君子乎？",
+      "contentText": "人不知而不愠，不亦君子乎？”",
+      "requiresPunctuationIndexRemap": true
+    },
+    {
+      "segmentId": "xue-er-01-s04",
+      "kind": "follow",
+      "path": "assets/audio/u3.mp3",
+      "sha256": "a4606525d3cf0c7ac26e1073c6d6ddc305ed8e36d9f8fa190b7a630335f62763",
+      "timingKey": "u3",
+      "exactTextMatch": false,
+      "timingText": "人不知而不愠，不亦君子乎？",
+      "contentText": "人不知而不愠，不亦君子乎？”",
+      "requiresPunctuationIndexRemap": true
+    },
+    {
+      "segmentId": "xue-er-01-s04",
+      "kind": "solo",
+      "path": "assets/audio/d3.mp3",
+      "sha256": "9ce361d91132106d0acf811207464b70e7fd020a6a87031bb95470a2122ea365",
+      "timingKey": "d3",
+      "exactTextMatch": false,
+      "timingText": "人不知而不愠，不亦君子乎？",
+      "contentText": "人不知而不愠，不亦君子乎？”",
+      "requiresPunctuationIndexRemap": true
+    }
+  ],
+  "negativeSelfChecks": [
+    {
+      "case": "duplicate-page-segment",
+      "rejected": true,
+      "reason": "xue-er-01-p01: source range gap"
+    },
+    {
+      "case": "invalid-source-range",
+      "rejected": true,
+      "reason": "xue-er-01-p01: source range gap"
+    },
+    {
+      "case": "foreign-prop-reading-group",
+      "rejected": true,
+      "reason": "xue-er-02-p02: prop points outside page"
+    },
+    {
+      "case": "premature-ready",
+      "rejected": true,
+      "reason": "xue-er-01: premature ready"
+    }
+  ],
+  "formalReadyChapters": [],
+  "productionMediaCompleteness": "not-verified; no frozen runtime media manifest handed off",
+  "runtimeFlows": "not-run; await stage-B implementation",
+  "scope": "Read-only inputs; no build, synthesis, media edits, Batch A manifest edits or publication."
+}

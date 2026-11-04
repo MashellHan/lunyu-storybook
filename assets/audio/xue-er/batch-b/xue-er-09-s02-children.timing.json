@@ -1,0 +1,62 @@
+{
+  "text": "慎终追远，民德归厚矣。”",
+  "dur": 4.384917,
+  "t": [
+    0.056833,
+    0.394187,
+    0.731541,
+    1.068895,
+    null,
+    1.690333,
+    2.017041,
+    2.286916,
+    2.571041,
+    2.954541,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "10639270afdb3bdf110e6e2c6f38e3c2341a58dee63ce21bf3c463b4ed3cbb91",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-09-s02-bunny",
+      "rawSHA256": "40eb1e818935d00930553805963022ac5b19166ee250f988e5ebb7e083bfddc5",
+      "ssmlSHA256": "d9f7dbfe62983808a3ff2192f1b4a993cb52a8c38786c908851138d45d90c43b"
+    },
+    {
+      "id": "xue-er-09-s02-cat",
+      "rawSHA256": "c13aab4abe4574e93e25a6e1ac01acd9f286236bf6479d85f159860a7165c5d0",
+      "ssmlSHA256": "8c188eed1900fbd7e04540cf3c6f1438e6dc41040b8dee6c6a8b46722f366448"
+    },
+    {
+      "id": "xue-er-09-s02-dog",
+      "rawSHA256": "a7fb2c7aaf7f9c98980a7c72445a39e70cc21c9455f25d043d72a1f34a6eea04",
+      "ssmlSHA256": "7279b0f1a93c8d5461cae42bffeb205449e9f2582032110c3fdec6f518cb5d9f"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.7865168539325842,
+        0.6348314606741573
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

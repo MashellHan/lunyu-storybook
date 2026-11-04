@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-08-s02-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "5744a72aadaab53dd07fb2326e3b39715e053f260c2430166412583f9155897f",
+  "attemptId": "326f015c-11bf-4151-b2b5-b5a54517879d",
+  "startedAt": "2026-11-03T12:58:31.547458+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:58:36.731997+00:00",
+  "rawSHA256": "3a524857a6e5d84e832b860f09e8b18e753f96c3381e7d49fd2cf8d59db8ef0d",
+  "wb": [
+    [
+      0.082,
+      0.517,
+      "君子"
+    ],
+    [
+      0.6,
+      0.141,
+      "不"
+    ],
+    [
+      0.741,
+      0.188,
+      "众"
+    ],
+    [
+      0.929,
+      0.141,
+      "\">重则"
+    ],
+    [
+      1.07,
+      0.141,
+      "不"
+    ],
+    [
+      1.211,
+      0.235,
+      "威"
+    ],
+    [
+      1.624,
+      0.423,
+      "学"
+    ],
+    [
+      2.047,
+      0.188,
+      "则"
+    ],
+    [
+      2.236,
+      0.517,
+      "不"
+    ],
+    [
+      2.753,
+      0.0,
+      "固"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 4
+    },
+    {
+      "textOffset": 289,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 290,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 313,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 314,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 315,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 316,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

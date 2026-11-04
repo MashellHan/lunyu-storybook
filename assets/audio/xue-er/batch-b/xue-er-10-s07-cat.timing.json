@@ -1,0 +1,34 @@
+{
+  "text": "其诸异乎人之求之与？”",
+  "dur": 2.976,
+  "t": [
+    0.056833,
+    0.340916,
+    0.482958,
+    0.625,
+    0.809666,
+    1.008541,
+    1.164791,
+    1.377833,
+    1.590916,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "e50382ac7c88698981b2781c2ff37279e6e10a6cddd9a14294ccd5f53db2d26b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s07-cat",
+      "rawSHA256": "b0fbf98fa126433bf4704e9fb17b1560c462a83d99516604393bbe621ae46ee8",
+      "ssmlSHA256": "09415b216dba5921a6482866c64923577af8a0ed185ed4d26b04bdc85f7f0f33"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

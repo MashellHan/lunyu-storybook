@@ -1,0 +1,64 @@
+{
+  "text": "未若贫而乐，富而好礼者也。”",
+  "dur": 4.698958,
+  "t": [
+    0.056833,
+    0.326708,
+    0.582375,
+    0.965916,
+    1.178958,
+    null,
+    1.803958,
+    2.088083,
+    2.301125,
+    2.642041,
+    2.883541,
+    3.28125,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "05d3cb77eb13742728948aeb0213764d050df5ae67ecac387d49454330a8bd2d",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s05-bunny",
+      "rawSHA256": "7092dccfdafee4eee75662b3c708f219f59d16550f9d8ebb1b1eb06065c7d1b9",
+      "ssmlSHA256": "da2479e0f3e286f31dcdde30d8ab01d88e0d226ce04437fd9be464095cf51b94"
+    },
+    {
+      "id": "xue-er-15-s05-cat",
+      "rawSHA256": "d54c883fe27b2236addf4089cf17c105311d56583c9e8f254794fcbf3951e4c3",
+      "ssmlSHA256": "e03dc07e7c6d9bed32071f9c55ef4ba6eca1c8becc8a4396d9f093d588088d7a"
+    },
+    {
+      "id": "xue-er-15-s05-dog",
+      "rawSHA256": "df89614dca4e6b0c2164450286cdd3051a1dbe300445659e8f53fff9b248ca8a",
+      "ssmlSHA256": "96b29b6dd59e73abdf8acb28b33ed2665010b7484eefae5b409737ef3967f8ae"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8125000000000001,
+        0.5833333333333334
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

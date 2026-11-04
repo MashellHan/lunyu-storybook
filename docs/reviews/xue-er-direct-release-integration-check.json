@@ -1,0 +1,178 @@
+{
+  "reviewedAt": "2026-11-03T14:09:13.692913+00:00",
+  "reviewer": "lunyu-review",
+  "status": "passed-current-exact-sixteen-chapter-direct-release",
+  "scope": "Exact current sixteen-chapter direct-release authorization; no repeat of prior media or UI review.",
+  "files": {
+    "scripts/chapter-data.mjs": "a4bc6a79676b2f1edaa0ab0689d071b58f396b10439c063375396bfdea70f65d",
+    "scripts/build.mjs": "ba2618e88e1d361f5fa2a8485bea685fdec44a84e66605b381c771410ab303d1",
+    "tests/chapter-data.spec.js": "c045b3cb6b25585498a655d6df2be983cf627fb8904fc4d120abd8888bcf9270",
+    "docs/xue-er-release-authorization.json": "9dcafa05a26b38c05c14c5c770221d7c3de7d7bcc2a6324d4aa26e23d54b51c2",
+    "docs/xue-er-release-authorization.md": "1fc81760a8dc22d21bd9d87a91a0b1f13d3948c5af0ab209b71d62f6883080ee",
+    "src/chapter-media.json": "83457528c86cca2ee737095447e241814b781b7a022bcd65e34222a1586bbe5c"
+  },
+  "authorizationScopeEvidence": "docs/reviews/xue-er-direct-release-authorization-check.json",
+  "baseline": "docs/reviews/xue-er-direct-release-baseline.json",
+  "technicalFunctions": {
+    "validateBook": {
+      "unchanged": true,
+      "sha256": "f6afc5cbcf98dc4fc5ea6f008697f46d4c615ac0e2c0963b42ca12eadb43e1a4"
+    },
+    "validateTiming": {
+      "unchanged": true,
+      "sha256": "3ad9319796a44c102f9d278d76990ca5ec7a8acf6bb2eb396224e38a611c3faa"
+    },
+    "verifyClip": {
+      "unchanged": true,
+      "sha256": "322884fb3b81d3a04a23d21979f3d5338660b4e5c2c6e1a7e28b48d2128d5fcc"
+    },
+    "assessReadiness": {
+      "unchanged": true,
+      "sha256": "c37d98b6faa46a09bf7b623f12f304ecc77ace9cc81fd2f808a7aa7fd37c38ac"
+    }
+  },
+  "integration": {
+    "entryPoint": "scripts/chapter-data.mjs:225 loadBook",
+    "authorizationVerifier": "scripts/chapter-data.mjs:211 verifyReleaseAuthorization",
+    "exactAuthorizationBytesPinned": true,
+    "contentManifestAndOrderedChapterIdsMatched": true,
+    "everyAuthorizedAudioAndTimingHashRequired": true,
+    "missingAuthorizationUsesStrictDefault": true,
+    "mismatchingAuthorizationOrCurrentInputsThrow": true,
+    "defaultVerifyClipAndAssessReadinessRemainStrict": true,
+    "noListeningApprovalWritten": true,
+    "humanListeningApproved": false,
+    "productionReadinessUsesLoadBookResult": true,
+    "futureNewOrReplacedMediaCannotInherit": true
+  },
+  "testSourceReviewed": {
+    "file": "tests/chapter-data.spec.js",
+    "rejections": [
+      "missing authorization returns null",
+      "changed authorization bytes or humanListeningApproved",
+      "changed content or manifest fingerprint",
+      "missing, reversed or extra chapter ID",
+      "changed new/old audio or timing fingerprint",
+      "default verifyClip and assessReadiness reject unheard new media"
+    ],
+    "executionStatus": "Engineer full npm test exit 0: 71 passed, 0 failed, 0 skipped. Raw log and input snapshots independently bound by reviewer; no rerun."
+  },
+  "findings": [],
+  "finalSuite": {
+    "executedBy": "Engineer",
+    "resultFile": "tests/artifacts/xue-er-direct-release/npm-test-direct-release-final-result.json",
+    "resultSHA256": "0ee7dffd83042392a598c726b9f9a335af12ad5035a8411249bdcb811102125c",
+    "actualResult": {
+      "command": "npm test",
+      "exit_code": 0,
+      "passed": 71,
+      "failed": 0,
+      "skipped": 0,
+      "elapsed_seconds": 662.268,
+      "started_at": "2026-11-03T14:13:04.239238+00:00",
+      "finished_at": "2026-11-03T14:24:06.509170+00:00",
+      "all_inputs_unchanged": true,
+      "log": "tests/artifacts/xue-er-direct-release/npm-test-direct-release-final.log",
+      "log_sha256": "b79b89280c6e9cde582938b815035d44092d89591c14014ee5159aea8f12dbad",
+      "source_inputs_sha256": "ec6dfd811b559fd4885c3b686fdbbb32777d40f36dccc8e16ac2bc07bb5e0221",
+      "all_inputs_sha256": "dcd1caf8a503c7b91d271f207d73938bf9e798e347a631a03a2920c82dd8c84f",
+      "input_snapshot": "tests/artifacts/xue-er-direct-release/inputs-before-test.json",
+      "post_test_snapshot": "tests/artifacts/xue-er-direct-release/inputs-after-test.json",
+      "releaseAuthorizationSHA256": "9dcafa05a26b38c05c14c5c770221d7c3de7d7bcc2a6324d4aa26e23d54b51c2",
+      "humanListeningApproved": false
+    },
+    "rawLogSHA256Verified": true,
+    "passedLogLineCount": 71,
+    "logSummary": "71 passed (8.3m)",
+    "inputSnapshotsIdentical": true,
+    "inputSnapshotSHA256": "e860936962f2a188999ebe89a195c6c01b7d26612f48c4ad193f0d9597371bc2",
+    "postTestSnapshotSHA256": "e860936962f2a188999ebe89a195c6c01b7d26612f48c4ad193f0d9597371bc2",
+    "inputAggregateMetadataVerified": true,
+    "allInputsCount": 680,
+    "currentSourceFilesIndependentlyMatched": 49,
+    "mediaBytesReinspectedOrDecoded": false,
+    "scopedPassedLogLines": [
+      "✓  14 tests/chapter-data.spec.js:9:1 › only the exact direct-release record can cover the current chapters, manifest and every audio/timing byte (517ms)",
+      "✓  15 tests/chapter-data.spec.js:32:1 › the frozen edition maps exactly to sixteen chapters, twenty-six pages and forty-nine reading groups (1.4m)",
+      "✓  38 tests/chapter-data.spec.js:101:1 › generated media still requires actual listening evidence for every required new voice (1.1s)",
+      "✓  57 tests/chapters.spec.js:79:1 › real-media rehearsal keeps its notice and production follows the separate release authorization (5.6s)"
+    ]
+  },
+  "boundaries": [
+    "No builds, tests, media decoding, SDK/API calls or deployment performed by reviewer.",
+    "Prior media/text/UI evidence reused.",
+    "Human listening is still pending; exact user authorization permits current publication without claiming listening approval.",
+    "Root owns dry-run, deployment and live verification."
+  ],
+  "focusedEvidence": {
+    "file": "tests/artifacts/xue-er-direct-release/focused-result.json",
+    "records": [
+      {
+        "command": [
+          "node",
+          "/Users/mengxionghan/workspace/lunyu-storybook/node_modules/@playwright/test/cli.js",
+          "test",
+          "tests/chapter-data.spec.js",
+          "--workers=1",
+          "--grep",
+          "only the exact direct-release"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 4.973,
+        "log": "tests/artifacts/xue-er-direct-release/authorization-focused.log",
+        "logSHA256": "3178838d6a3726f261bb297057089affad07ed4e5fd9ddca310adcf345d1e391"
+      },
+      {
+        "command": [
+          "node",
+          "/Users/mengxionghan/workspace/lunyu-storybook/scripts/build.mjs"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 76.819,
+        "log": "tests/artifacts/xue-er-direct-release/online-build.log",
+        "logSHA256": "8bb2cfc61df1e7546e8cbc7198fa1ad96dbdadf2f1d2eb3dbdcb60bd5d4ef415"
+      },
+      {
+        "command": [
+          "node",
+          "/Users/mengxionghan/workspace/lunyu-storybook/scripts/build.mjs",
+          "--single"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 73.05,
+        "log": "tests/artifacts/xue-er-direct-release/offline-build.log",
+        "logSHA256": "ab13acbf36492257c0dfbf044864006d3efdb7e70132b1ce0e110d11892edab8"
+      },
+      {
+        "command": [
+          "node",
+          "/Users/mengxionghan/workspace/lunyu-storybook/node_modules/@playwright/test/cli.js",
+          "test",
+          "tests/smoke.spec.js",
+          "tests/homepage.spec.js",
+          "tests/single-file.spec.js",
+          "--workers=1",
+          "--grep",
+          "the published edition|loads with no JS|every asset|chapter direct entry|single-file build|offline index"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 47.329,
+        "log": "tests/artifacts/xue-er-direct-release/production-focused.log",
+        "logSHA256": "cf73fe613b3b0ed7e0f9d4347b9a3541495071dbfec951c38aec6d8807759395"
+      }
+    ],
+    "allLogFingerprintsMatched": true
+  },
+  "updatedAt": "2026-11-03T14:13:38.483297+00:00",
+  "currentSourceBinding": {
+    "checkedAt": "2026-11-03T14:24:33.515554+00:00",
+    "snapshot": "tests/artifacts/xue-er-direct-release/inputs-before-test.json",
+    "count": 49,
+    "sha256": "ec6dfd811b559fd4885c3b686fdbbb32777d40f36dccc8e16ac2bc07bb5e0221",
+    "allFilesMatch": true,
+    "mediaRehashed": false
+  },
+  "finalizedAt": "2026-11-03T14:25:56.580989+00:00",
+  "verdict": "No unresolved blocking findings in the authorized direct-release scope; current sixteen chapters may proceed to Root deployment.",
+  "artifactArchiveRequiredForThisVerdict": false
+}

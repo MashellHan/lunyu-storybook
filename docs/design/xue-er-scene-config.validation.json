@@ -1,0 +1,703 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-03T12:14:10.464126+00:00",
+  "validator": "docs/design/validate-xue-er-scene-config.py",
+  "configSha256": "17a163e213a206b39622fec527e185a7e5ff8a4c71a18e63fa22eb8225e97a9c",
+  "sourceSha256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "counts": {
+    "chapters": 16,
+    "pages": 26,
+    "segments": 72,
+    "readingGroups": 49,
+    "attributionsWithFollowingSpeech": 20,
+    "originalHanzi": 493
+  },
+  "chapters": [
+    {
+      "chapterId": "xue-er-01",
+      "pages": 1,
+      "segments": 4,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-01-p01",
+          "range": [
+            0,
+            41
+          ],
+          "readingGroupCount": 3
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-02",
+      "pages": 2,
+      "segments": 5,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-02-p01",
+          "range": [
+            0,
+            36
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-02-p02",
+          "range": [
+            36,
+            60
+          ],
+          "readingGroupCount": 2
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-03",
+      "pages": 1,
+      "segments": 2,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-03-p01",
+          "range": [
+            0,
+            14
+          ],
+          "readingGroupCount": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-04",
+      "pages": 2,
+      "segments": 5,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-04-p01",
+          "range": [
+            0,
+            20
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-04-p02",
+          "range": [
+            20,
+            35
+          ],
+          "readingGroupCount": 2
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-05",
+      "pages": 1,
+      "segments": 4,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-05-p01",
+          "range": [
+            0,
+            27
+          ],
+          "readingGroupCount": 3
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-06",
+      "pages": 2,
+      "segments": 4,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-06-p01",
+          "range": [
+            0,
+            26
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-06-p02",
+          "range": [
+            26,
+            37
+          ],
+          "readingGroupCount": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-07",
+      "pages": 3,
+      "segments": 6,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-07-p01",
+          "range": [
+            0,
+            19
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-07-p02",
+          "range": [
+            19,
+            37
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-07-p03",
+          "range": [
+            37,
+            50
+          ],
+          "readingGroupCount": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-08",
+      "pages": 1,
+      "segments": 4,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-08-p01",
+          "range": [
+            0,
+            36
+          ],
+          "readingGroupCount": 3
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-09",
+      "pages": 1,
+      "segments": 2,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-09-p01",
+          "range": [
+            0,
+            17
+          ],
+          "readingGroupCount": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-10",
+      "pages": 2,
+      "segments": 7,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-10-p01",
+          "range": [
+            0,
+            32
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-10-p02",
+          "range": [
+            32,
+            70
+          ],
+          "readingGroupCount": 2
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-11",
+      "pages": 1,
+      "segments": 3,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-11-p01",
+          "range": [
+            0,
+            33
+          ],
+          "readingGroupCount": 2
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-12",
+      "pages": 2,
+      "segments": 5,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-12-p01",
+          "range": [
+            0,
+            27
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-12-p02",
+          "range": [
+            27,
+            50
+          ],
+          "readingGroupCount": 2
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-13",
+      "pages": 1,
+      "segments": 4,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-13-p01",
+          "range": [
+            0,
+            37
+          ],
+          "readingGroupCount": 3
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-14",
+      "pages": 1,
+      "segments": 4,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-14-p01",
+          "range": [
+            0,
+            39
+          ],
+          "readingGroupCount": 3
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-15",
+      "pages": 4,
+      "segments": 11,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-15-p01",
+          "range": [
+            0,
+            19
+          ],
+          "readingGroupCount": 1
+        },
+        {
+          "pageId": "xue-er-15-p02",
+          "range": [
+            19,
+            40
+          ],
+          "readingGroupCount": 1
+        },
+        {
+          "pageId": "xue-er-15-p03",
+          "range": [
+            40,
+            69
+          ],
+          "readingGroupCount": 2
+        },
+        {
+          "pageId": "xue-er-15-p04",
+          "range": [
+            69,
+            95
+          ],
+          "readingGroupCount": 1
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-16",
+      "pages": 1,
+      "segments": 2,
+      "pageTextEqualsFullText": true,
+      "exactSegmentOrder": true,
+      "pageRanges": [
+        {
+          "pageId": "xue-er-16-p01",
+          "range": [
+            0,
+            19
+          ],
+          "readingGroupCount": 1
+        }
+      ]
+    }
+  ],
+  "priorityMobileTargets": [
+    {
+      "pageId": "xue-er-02-p01",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-02-p02",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [
+        {
+          "propId": "roots",
+          "rect": [
+            116.0,
+            102.0,
+            56,
+            56
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-02-p01",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-02-p02",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [
+        {
+          "propId": "roots",
+          "rect": [
+            147.0,
+            108.0,
+            64,
+            64
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-03-p01",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [
+        {
+          "propId": "fan",
+          "rect": [
+            96.0,
+            88,
+            96,
+            52
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-03-p01",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [
+        {
+          "propId": "fan",
+          "rect": [
+            115.0,
+            80,
+            128,
+            68
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-04-p01",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [
+        {
+          "propId": "question-1",
+          "rect": [
+            52.0,
+            124.0,
+            56,
+            48
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-04-p02",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [
+        {
+          "propId": "question-2",
+          "rect": [
+            116.0,
+            124.0,
+            56,
+            48
+          ]
+        },
+        {
+          "propId": "question-3",
+          "rect": [
+            180.0,
+            124.0,
+            56,
+            48
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-04-p01",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [
+        {
+          "propId": "question-1",
+          "rect": [
+            87.0,
+            128.0,
+            56,
+            48
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-04-p02",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [
+        {
+          "propId": "question-2",
+          "rect": [
+            151.0,
+            128.0,
+            56,
+            48
+          ]
+        },
+        {
+          "propId": "question-3",
+          "rect": [
+            215.0,
+            128.0,
+            56,
+            48
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p01",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p02",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p03",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [
+        {
+          "propId": "workbench",
+          "rect": [
+            96.0,
+            88,
+            96,
+            52
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p04",
+      "viewportWidth": 320,
+      "sceneSize": [
+        288,
+        260
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p01",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p02",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p03",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [
+        {
+          "propId": "workbench",
+          "rect": [
+            115.0,
+            80,
+            128,
+            68
+          ]
+        }
+      ],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    },
+    {
+      "pageId": "xue-er-15-p04",
+      "viewportWidth": 390,
+      "sceneSize": [
+        358,
+        280
+      ],
+      "targets": [],
+      "insideScene": true,
+      "minimumTargetGapPx": 8
+    }
+  ],
+  "checks": [
+    "Exact segment order and uniqueness",
+    "Strict per-page/fullText concatenation including punctuation",
+    "Continuous Unicode source ranges",
+    "Attribution and following speech share page and reading group",
+    "All prop/cue/audio-group/character references resolve",
+    "Only existing layers and approved legacy audio paths referenced",
+    "Only transform/opacity, one-shot motion and one focal object per step",
+    "Static geometry at 320/360/389/390/599/600/768/1023/1024/1440: targets >=48, role boxes >=80, gaps >=8, contained in scene",
+    "Optional preserveAspectRatio=none is restricted to static background props"
+  ],
+  "limits": [
+    "Data and geometry validation alone does not establish rendered visual acceptance; see xue-er-phase-b-review.md",
+    "This validator performs no build, browser run, media generation or listening",
+    "Audio readiness and publication remain separate Lead/Engineer responsibilities"
+  ]
+}

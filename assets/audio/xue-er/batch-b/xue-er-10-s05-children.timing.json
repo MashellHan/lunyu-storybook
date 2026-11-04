@@ -1,0 +1,65 @@
+{
+  "text": "夫子温、良、恭、俭、让以得之。",
+  "dur": 5.680417,
+  "t": [
+    0.056833,
+    0.369333,
+    0.681833,
+    null,
+    1.335208,
+    null,
+    2.017041,
+    null,
+    2.65625,
+    null,
+    3.366458,
+    3.636375,
+    3.863625,
+    4.204541,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "403425560035daf3b24f5fa9ace8c49082c556962009e37cb1ab8c8b6e5b91fd",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s05-bunny",
+      "rawSHA256": "3e3ec9d2b3bf13b2c79195cdda38711828d13a9ac8e26c7b8351a2795160267b",
+      "ssmlSHA256": "72d57fee669cc5cf920190937e1e79656c20011a4e5c74d8c252ca14c6e7ac82"
+    },
+    {
+      "id": "xue-er-10-s05-cat",
+      "rawSHA256": "d90b08adc52118f5b560c498e14303f92c3ea8c3a25975a668ebe9ca478a8c71",
+      "ssmlSHA256": "33c041b6781215341db6b43eecd3edca232dced65fce359c1e9cf40f2c4b026e"
+    },
+    {
+      "id": "xue-er-10-s05-dog",
+      "rawSHA256": "1db89ef4a0f4af9e481b387244be8958a1eee8f931cf61649b7a9fac79dc3e59",
+      "ssmlSHA256": "349e9a7875bbd2d583e9b84831380e03d803065a08e064d4fe150476a27916fa"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.9051724137931035,
+        0.6120689655172414
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

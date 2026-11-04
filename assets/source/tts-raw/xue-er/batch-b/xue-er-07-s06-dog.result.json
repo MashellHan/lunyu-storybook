@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-07-s06-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "9c9227ebc6b0cf3a60d869b61899225994264b5e794fb89469b6e6ec691372dc",
+  "attemptId": "41bca6c4-6764-41ea-aed4-748db8c88a94",
+  "startedAt": "2026-11-03T12:58:09.595473+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:58:14.334757+00:00",
+  "rawSHA256": "aded872a212518c8f30f39884c39d5b2c1124a69b545f6b995da40d54242e70c",
+  "wb": [
+    [
+      0.082,
+      0.282,
+      "虽"
+    ],
+    [
+      0.364,
+      0.141,
+      "曰"
+    ],
+    [
+      0.505,
+      0.188,
+      "未"
+    ],
+    [
+      0.694,
+      0.423,
+      "学"
+    ],
+    [
+      1.323,
+      0.329,
+      "吾"
+    ],
+    [
+      1.652,
+      0.141,
+      "必"
+    ],
+    [
+      1.793,
+      0.141,
+      "谓"
+    ],
+    [
+      1.935,
+      0.141,
+      "之"
+    ],
+    [
+      2.076,
+      0.235,
+      "学"
+    ],
+    [
+      2.311,
+      0.0,
+      "矣"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 289,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 290,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 291,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 292,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 293,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 294,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

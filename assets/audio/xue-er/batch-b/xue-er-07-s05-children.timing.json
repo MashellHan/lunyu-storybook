@@ -1,0 +1,60 @@
+{
+  "text": "与朋友交，言而有信。",
+  "dur": 3.848875,
+  "t": [
+    0.056833,
+    0.269875,
+    0.568167,
+    0.866458,
+    null,
+    1.548291,
+    1.853687,
+    2.159083,
+    2.464478,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "4fc4ce1c7a0909fc3ebe6f651280f72cd02197ceb2ae3f0e438127f145fd1fda",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s05-bunny",
+      "rawSHA256": "1da8f13a773b6828e92e46b3a36d5b65f7734f48ef96ff1b0b2c6fe5e556755f",
+      "ssmlSHA256": "d0d6752a891a104b63eacf6edff3365b2e49b8475893d3849d6a4a2d89ef5c93"
+    },
+    {
+      "id": "xue-er-07-s05-cat",
+      "rawSHA256": "baf59ab801cbde6684f2c79367b52013ee05f2a126fcd8f92000f353f7f3530a",
+      "ssmlSHA256": "fb5103bc92b480f4363478a6b41e7089f791296cfe85b34ab340da932719b5fe"
+    },
+    {
+      "id": "xue-er-07-s05-dog",
+      "rawSHA256": "5cb6bd5404da4744b34dd6cce3dbdc1c0468e2490cb90faea25be9f6d88fdae9",
+      "ssmlSHA256": "7ad6949e6a5d64e250ef3370c72a776fac13823cf34356a739b48b9b1c32df90"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8397435897435898,
+        0.6025641025641024
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

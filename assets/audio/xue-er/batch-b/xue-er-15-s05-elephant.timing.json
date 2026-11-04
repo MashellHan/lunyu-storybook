@@ -1,0 +1,37 @@
+{
+  "text": "未若贫而乐，富而好礼者也。”",
+  "dur": 4.368,
+  "t": [
+    0.058833,
+    0.308833,
+    0.544125,
+    0.882333,
+    1.073541,
+    null,
+    1.882333,
+    2.235291,
+    2.441166,
+    2.764708,
+    3.029416,
+    3.323541,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "8222939f5b2186f11d385938f746abd3017bade99b1ceaa7a93bce1ceb847961",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s05-elephant",
+      "rawSHA256": "fc1a175fe05de11e08515421bbefc508c161554a42d90c18b3972ea0163b31fa",
+      "ssmlSHA256": "555aee175dcdd6ca4ec761fc22ea5dd759d94879ad9e1d2b4fa2e639774d6532"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

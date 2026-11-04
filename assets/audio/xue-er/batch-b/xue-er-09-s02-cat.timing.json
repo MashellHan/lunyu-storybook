@@ -1,0 +1,35 @@
+{
+  "text": "慎终追远，民德归厚矣。”",
+  "dur": 3.36,
+  "t": [
+    0.056833,
+    0.31251,
+    0.568187,
+    0.823864,
+    null,
+    1.292625,
+    1.491458,
+    1.647708,
+    1.832375,
+    2.045458,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "cb291afdbdb640924cfdcb7ba3606a5dc0108e820a4abb4d674234cad942f858",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-09-s02-cat",
+      "rawSHA256": "c13aab4abe4574e93e25a6e1ac01acd9f286236bf6479d85f159860a7165c5d0",
+      "ssmlSHA256": "8c188eed1900fbd7e04540cf3c6f1438e6dc41040b8dee6c6a8b46722f366448"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

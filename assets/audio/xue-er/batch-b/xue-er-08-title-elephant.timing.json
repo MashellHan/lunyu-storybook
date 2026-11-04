@@ -1,0 +1,36 @@
+{
+  "text": "论语，之，君子不重则不威。",
+  "dur": 4.344,
+  "t": [
+    0.058833,
+    0.41175,
+    null,
+    0.985291,
+    null,
+    1.705875,
+    2.007354,
+    2.308833,
+    2.529416,
+    2.91175,
+    3.16175,
+    3.367666,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "2328ed180f568ca6d333db42169cdca249f64079601151242beabfd2080f75f2",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-08-title-elephant",
+      "rawSHA256": "1632296a347b6895f5b0f092efa4eec794f75dd6431c9e4b2967294f5d82d783",
+      "ssmlSHA256": "daaefd763f43bc883e2998b8dc1338342a9b841d74ec775ec52a8b7eb9ee83af"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

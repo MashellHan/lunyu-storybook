@@ -1,0 +1,4474 @@
+{
+  "reviewedAt": "2026-11-03T12:54:18.890521+00:00",
+  "kind": "independent-real-boundary-proof",
+  "batch": "batch-a",
+  "requestSHA256": "0c0a0fc0ee93868a91fcb76765a906c2bbe79d7a4a3e88c8cf60e462132be6da",
+  "entrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "completed": [
+    {
+      "id": "xue-er-01-s01-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-elephant.result.json",
+      "resultSHA256": "1360bcfbabbda419f36d5621cb756fd91189230764a013cbbedbf6ecb8f2a09e",
+      "ssmlSHA256": "23a8d71e4d5d015c321521851f8e2b09569e9e966b172f106e4a5e1fb348bcd5",
+      "rawSHA256": "829d03e329181a5f65efa483dad1602ee8adc1ab9452629f90d9094c442686f2",
+      "text": "子曰：“",
+      "sourceCodePoints": 4,
+      "sourceHan": 2,
+      "expectedTimes": [
+        0.058833,
+        0.397041,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.338208,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 261,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.397041,
+            0.426458,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 262,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-01-s01-bunny",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-bunny.result.json",
+      "resultSHA256": "6f67504ccc003848658fc8f1724b932714b410ff9ae22b7f24cbe671b3bd0736",
+      "ssmlSHA256": "128aa8814487e7713ff4d429f19b10377e282974ce273bc417a224d5625f83cf",
+      "rawSHA256": "30df70bbb6d1b91f1dff6b6dbe338855effa9d335e33eb7f2aa5e1189483c6ab",
+      "text": "子曰：“",
+      "sourceCodePoints": 4,
+      "sourceHan": 2,
+      "expectedTimes": [
+        0.056833,
+        0.369333,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.3125,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 192,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.369333,
+            0.411916,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 193,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-01-s01-cat",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-cat.result.json",
+      "resultSHA256": "d79d4db86ee49dc8b1dfc2f837b5729581e3b140528585ba001d12e699a2d463",
+      "ssmlSHA256": "baa2ba0327ed80a80130be0598fcf528cbd8cae04ad3af84230aab68eff6685d",
+      "rawSHA256": "5a9ee19d63652c71de2c0499f8ff446915add959a38d9c237438dd1ba35f3dae",
+      "text": "子曰：“",
+      "sourceCodePoints": 4,
+      "sourceHan": 2,
+      "expectedTimes": [
+        0.056833,
+        0.255666,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.198833,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 244,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.255666,
+            0.440333,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 245,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-01-s01-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-01-s01-dog.result.json",
+      "resultSHA256": "df10ae0285d71e20477ce02dc5f9a87d517612a61f4de2b43f4f2bef61aec107",
+      "ssmlSHA256": "4f35a41bae13bbe9fdc6fea1e8c75a6a4fcca03857f48eea87ac71126b18819a",
+      "rawSHA256": "5919679c92aa8961c0c27b7737e3173a0314d11a7e581cbfbba002fc2fe9217e",
+      "text": "子曰：“",
+      "sourceCodePoints": 4,
+      "sourceHan": 2,
+      "expectedTimes": [
+        0.082,
+        0.505,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.082,
+            0.423,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.505,
+            0.0,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 264,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s01-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-elephant.result.json",
+      "resultSHA256": "3caea84b079d7be32b4880f9a01e10b8652aa3cbe86cba1d208b67cdf4a0a359",
+      "ssmlSHA256": "7b2846647f081a19a7c0fb5b1bdd84f6bd97c3aa14d75703c27ee95e48693e70",
+      "rawSHA256": "872bbdd43026cfb0ec5532286e69da367b4dcd0608aa54ab4a9a0e6777972646",
+      "text": "有子曰：“",
+      "sourceCodePoints": 5,
+      "sourceHan": 3,
+      "expectedTimes": [
+        0.058833,
+        0.382333,
+        0.676458,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.3235,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 261,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.382333,
+            0.294125,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 262,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.676458,
+            0.308833,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s01-bunny",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-bunny.result.json",
+      "resultSHA256": "3c0a1b951af46cd03ce314ccb73d1f7cb415d21480ba2944a79e1cd12c04c60d",
+      "ssmlSHA256": "af366d1ba2e834c09ba6af929d9b3b75283ec415f854db4f070ba79ccdbb76f2",
+      "rawSHA256": "99e94f436a87fb77789bb10fd02b458cf33264db571e93b35d2829bf9c12cf04",
+      "text": "有子曰：“",
+      "sourceCodePoints": 5,
+      "sourceHan": 3,
+      "expectedTimes": [
+        0.056833,
+        0.355125,
+        0.667625,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.298291,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 192,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.355125,
+            0.3125,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 193,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.667625,
+            0.411916,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 194,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s01-cat",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-cat.result.json",
+      "resultSHA256": "6dabeb18cf4501bc04cff123e0a17eace49f3236276cdb1bac506f7e87b095b0",
+      "ssmlSHA256": "3165a3ffb9b6de7e7ba51efa0c98a2907670cd8efd36f8e359cb59b9d2079afe",
+      "rawSHA256": "da92f077425d9471a42891d45c6e2cea646210d2f175918d6fd0416150c4edbe",
+      "text": "有子曰：“",
+      "sourceCodePoints": 5,
+      "sourceHan": 3,
+      "expectedTimes": [
+        0.056833,
+        0.326708,
+        0.497166,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.269875,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 244,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.326708,
+            0.170458,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 245,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.497166,
+            0.383541,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 246,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s01-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s01-dog.result.json",
+      "resultSHA256": "c3485a93f9e2db8c44297960164290ae9c9c21e84e51281b359f1da4d38b7087",
+      "ssmlSHA256": "82f9ca54f4c7b2cad7707c66cdd537327b15d1cea50d9bcb0c21b6c196c16540",
+      "rawSHA256": "71ec41e8391682dab404bc30c29b469a873dfed3bc07bfb3f22a769c7705501e",
+      "text": "有子曰：“",
+      "sourceCodePoints": 5,
+      "sourceHan": 3,
+      "expectedTimes": [
+        0.082,
+        0.364,
+        0.505,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.082,
+            0.282,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.364,
+            0.141,
+            "子"
+          ],
+          "sdkPosition": {
+            "textOffset": 264,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.505,
+            0.423,
+            "曰"
+          ],
+          "sdkPosition": {
+            "textOffset": 265,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s02-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-elephant.result.json",
+      "resultSHA256": "ca91d22b1fb75e9ad11be5066deef564d8120db1bb39a44315206621e3376547",
+      "ssmlSHA256": "bd0c0d624d7944d3ff84a9e0db4b97d4227ffda18f7a95d80bbf01264992f285",
+      "rawSHA256": "9804b8a2e02c05eb86e90e5645eef86fba5b3eacd2ced0b9bead8036f7e6d1db",
+      "text": "其为人也孝弟，而好犯上者，鲜矣；",
+      "sourceCodePoints": 16,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.058833,
+        0.382333,
+        0.617666,
+        0.867666,
+        1.08825,
+        1.470583,
+        null,
+        2.132333,
+        2.441166,
+        2.75,
+        3.014708,
+        3.279416,
+        null,
+        3.823541,
+        4.308833,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.3235,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 261,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.382333,
+            0.235291,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 298,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.617666,
+            0.220583,
+            "人"
+          ],
+          "sdkPosition": {
+            "textOffset": 309,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            0.867666,
+            0.220583,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 310,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.08825,
+            0.382333,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 311,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.470583,
+            0.397041,
+            "弟"
+          ],
+          "sdkPosition": {
+            "textOffset": 347,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.132333,
+            0.294125,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 359,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.441166,
+            0.308833,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 396,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.75,
+            0.529416,
+            "犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": 407,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9,
+            10
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            3.279416,
+            0.294125,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 409,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            11
+          ]
+        },
+        {
+          "eventIndex": 10,
+          "rawEvent": [
+            3.823541,
+            0.485291,
+            "鲜"
+          ],
+          "sdkPosition": {
+            "textOffset": 448,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            13
+          ]
+        },
+        {
+          "eventIndex": 11,
+          "rawEvent": [
+            4.308833,
+            0.279416,
+            "矣"
+          ],
+          "sdkPosition": {
+            "textOffset": 459,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            14
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s02-bunny",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-bunny.result.json",
+      "resultSHA256": "d6af8bee26ce32e33881ef4972f2cb7cfec4e8087f47b42afe5a6e0c7541a24a",
+      "ssmlSHA256": "bf341b349251942f5a5f547473e821e086b0be0de20e767521aa937cdaf907b2",
+      "rawSHA256": "20d1e6fe7089c797d4872c0d83525fe863cca190d718f77a9c1fecdb16932b3b",
+      "text": "其为人也孝弟，而好犯上者，鲜矣；",
+      "sourceCodePoints": 16,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.056833,
+        0.383541,
+        0.667625,
+        1.008541,
+        1.264208,
+        1.619333,
+        null,
+        2.357958,
+        2.585208,
+        2.883541,
+        3.188937,
+        3.494333,
+        null,
+        4.147708,
+        4.588083,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.326708,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 192,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.383541,
+            0.284083,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 229,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.667625,
+            0.340916,
+            "人"
+          ],
+          "sdkPosition": {
+            "textOffset": 240,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.008541,
+            0.255666,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 241,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.264208,
+            0.355125,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 242,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.619333,
+            0.369333,
+            "弟"
+          ],
+          "sdkPosition": {
+            "textOffset": 278,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.357958,
+            0.22725,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 290,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.585208,
+            0.298291,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 327,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.883541,
+            0.610791,
+            "犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": 338,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9,
+            10
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            3.494333,
+            0.369333,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 340,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            11
+          ]
+        },
+        {
+          "eventIndex": 10,
+          "rawEvent": [
+            4.147708,
+            0.440333,
+            "鲜"
+          ],
+          "sdkPosition": {
+            "textOffset": 379,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            13
+          ]
+        },
+        {
+          "eventIndex": 11,
+          "rawEvent": [
+            4.588083,
+            0.340916,
+            "矣"
+          ],
+          "sdkPosition": {
+            "textOffset": 390,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            14
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s02-cat",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-cat.result.json",
+      "resultSHA256": "270a2bc1c113d77f0b81b087195c110ea0edcb0557ddbfbce2b3c26592fb614a",
+      "ssmlSHA256": "c3b04e3d1ab7debaf56c2c9e25d6fa046b8af9e35b36d1cd7f9567f8e283a80e",
+      "rawSHA256": "3e47f9e8137d9f4f072ebdd7ebc6b291002ae4da8aae462354f39103920b274e",
+      "text": "其为人也孝弟，而好犯上者，鲜矣；",
+      "sourceCodePoints": 16,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.056833,
+        0.298291,
+        0.482958,
+        0.610791,
+        0.795458,
+        1.051125,
+        null,
+        1.661916,
+        1.903416,
+        2.116458,
+        2.322416,
+        2.528416,
+        null,
+        2.997166,
+        3.323875,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.241458,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 244,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.298291,
+            0.184666,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 281,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.482958,
+            0.113625,
+            "人"
+          ],
+          "sdkPosition": {
+            "textOffset": 292,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            0.610791,
+            0.184666,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 293,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            0.795458,
+            0.255666,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 294,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.051125,
+            0.326708,
+            "弟"
+          ],
+          "sdkPosition": {
+            "textOffset": 330,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            1.661916,
+            0.227291,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 342,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            1.903416,
+            0.213041,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 379,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.116458,
+            0.411916,
+            "犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": 390,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9,
+            10
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            2.528416,
+            0.3125,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 392,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            11
+          ]
+        },
+        {
+          "eventIndex": 10,
+          "rawEvent": [
+            2.997166,
+            0.326708,
+            "鲜"
+          ],
+          "sdkPosition": {
+            "textOffset": 431,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            13
+          ]
+        },
+        {
+          "eventIndex": 11,
+          "rawEvent": [
+            3.323875,
+            0.269875,
+            "矣"
+          ],
+          "sdkPosition": {
+            "textOffset": 442,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            14
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s02-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s02-dog.result.json",
+      "resultSHA256": "4a2f19ee25904d51a2c15ee529387c03b57437ebff98fe79c1fb89313bbe0476",
+      "ssmlSHA256": "b95722358f5eef9338f979d1838c96db56b0cea22174c8fcc6a5a1d9140896bc",
+      "rawSHA256": "b30bd0b474ef3128bbf0ed3da763c877d75711e86e0f2ba45755def6b10a62b5",
+      "text": "其为人也孝弟，而好犯上者，鲜矣；",
+      "sourceCodePoints": 16,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.082,
+        0.364,
+        0.5285,
+        0.694,
+        0.882,
+        1.117,
+        null,
+        1.617,
+        1.852,
+        2.04,
+        2.275,
+        2.511,
+        null,
+        2.887,
+        3.358,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.082,
+            0.282,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.364,
+            0.329,
+            "为人"
+          ],
+          "sdkPosition": {
+            "textOffset": 264,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1,
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.694,
+            0.188,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 266,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            0.882,
+            0.235,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 267,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.117,
+            0.329,
+            "替"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.617,
+            0.235,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 312,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            1.852,
+            0.188,
+            "耗"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.04,
+            0.47,
+            "\">好犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 8,
+          "sourceIndices": [
+            9,
+            10
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "犯上"
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.511,
+            0.376,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 337,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            11
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            2.887,
+            0.47,
+            "显"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            13
+          ]
+        },
+        {
+          "eventIndex": 10,
+          "rawEvent": [
+            3.358,
+            0.376,
+            "\">鲜矣"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 13,
+          "sourceIndices": [
+            14
+          ],
+          "droppedDuplicate": "鲜",
+          "remainingText": "矣"
+        }
+      ],
+      "unknownSDKPositions": 5,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.04,
+            0.47,
+            "\">好犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 8,
+          "sourceIndices": [
+            9,
+            10
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "犯上"
+        },
+        {
+          "eventIndex": 10,
+          "rawEvent": [
+            3.358,
+            0.376,
+            "\">鲜矣"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 13,
+          "sourceIndices": [
+            14
+          ],
+          "droppedDuplicate": "鲜",
+          "remainingText": "矣"
+        }
+      ],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s03-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-elephant.result.json",
+      "resultSHA256": "fb1ef7b2005efc0f280d9eea92ec613c4efb88315ae96b77989085b9824f05f9",
+      "ssmlSHA256": "430b41bbf32a4554e0c2f8e5a9c9d5453574b2372d3640c696313e71cf49d3ff",
+      "rawSHA256": "36667ec69a08edf51e57d09545c0fc53861e1c923f3823077425705f2ede5217",
+      "text": "不好犯上而好作乱者，未之有也。",
+      "sourceCodePoints": 15,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.058833,
+        0.264708,
+        0.470583,
+        0.735291,
+        1.132333,
+        1.426458,
+        1.691166,
+        1.919103,
+        2.147041,
+        null,
+        2.691166,
+        2.911749,
+        3.147041,
+        3.485291,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.205875,
+            "不"
+          ],
+          "sdkPosition": {
+            "textOffset": 261,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.264708,
+            0.205875,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 298,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.470583,
+            0.529416,
+            "犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": 309,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.132333,
+            0.294125,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 311,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.426458,
+            0.25,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 348,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.691166,
+            0.455875,
+            "作乱"
+          ],
+          "sdkPosition": {
+            "textOffset": 359,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6,
+            7
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.147041,
+            0.264708,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 361,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.691166,
+            0.441166,
+            "未之"
+          ],
+          "sdkPosition": {
+            "textOffset": 363,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10,
+            11
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            3.147041,
+            0.33825,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 365,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            12
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            3.485291,
+            0.382333,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 366,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            13
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s03-bunny",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-bunny.result.json",
+      "resultSHA256": "b8eb61a9a912ef6854d50fbbb7d4d1c1640a9b7c2341fa9562e336a1eb19a31b",
+      "ssmlSHA256": "796f62214c43ba939b6739bb6ce4c9f921325b45e75a5aa5573004cd45b59777",
+      "rawSHA256": "1ec89b6b283b5eed14d92e74a9454ee49371a72ee8bb4705adc0b89208d20bf7",
+      "text": "不好犯上而好作乱者，未之有也。",
+      "sourceCodePoints": 15,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.056833,
+        0.213083,
+        0.525583,
+        0.866499,
+        1.292625,
+        1.576708,
+        1.903416,
+        2.187499,
+        2.471583,
+        null,
+        3.139208,
+        3.409083,
+        3.678958,
+        4.048291,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.15625,
+            "不"
+          ],
+          "sdkPosition": {
+            "textOffset": 192,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.213083,
+            0.3125,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 229,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.525583,
+            0.681833,
+            "犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": 240,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.292625,
+            0.284083,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 242,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.576708,
+            0.326708,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 279,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.903416,
+            0.568166,
+            "作乱"
+          ],
+          "sdkPosition": {
+            "textOffset": 290,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6,
+            7
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.471583,
+            0.340916,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 292,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            3.139208,
+            0.53975,
+            "未之"
+          ],
+          "sdkPosition": {
+            "textOffset": 294,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10,
+            11
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            3.678958,
+            0.369333,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 296,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            12
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            4.048291,
+            0.383541,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 297,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            13
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s03-cat",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-cat.result.json",
+      "resultSHA256": "b948396fe0a89ce61f5f4d754a525127bd513daf70445f60d2ef32b6af1e315c",
+      "ssmlSHA256": "2ee45f9c2cb9e2d88b4feb524f39a77ffb8781109034128987961dda6dba5deb",
+      "rawSHA256": "4a6598803561df09baee21ad64d71114a86ffea330d306c2eeac21d6d124316a",
+      "text": "不好犯上而好作乱者，未之有也。",
+      "sourceCodePoints": 15,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.056833,
+        0.241458,
+        0.454541,
+        0.745729,
+        1.150583,
+        1.392041,
+        1.619333,
+        1.832395,
+        2.045458,
+        null,
+        2.542625,
+        2.727292,
+        2.926125,
+        3.139208,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.184625,
+            "不"
+          ],
+          "sdkPosition": {
+            "textOffset": 244,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.241458,
+            0.213083,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 281,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.454541,
+            0.582375,
+            "犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": 292,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.150583,
+            0.241458,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 294,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.392041,
+            0.213083,
+            "好"
+          ],
+          "sdkPosition": {
+            "textOffset": 331,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.619333,
+            0.426125,
+            "作乱"
+          ],
+          "sdkPosition": {
+            "textOffset": 342,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6,
+            7
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.045458,
+            0.298291,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 344,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.542625,
+            0.369333,
+            "未之"
+          ],
+          "sdkPosition": {
+            "textOffset": 346,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10,
+            11
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.926125,
+            0.213083,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 348,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            12
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            3.139208,
+            0.355125,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 349,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            13
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s03-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s03-dog.result.json",
+      "resultSHA256": "6d888cc143bd619391f6d54db0b5d668187bbc3c9cb60fee482a596940b2f8cc",
+      "ssmlSHA256": "6a1fecbe6b991ec9db9846bb86c0f27b8f764d6e6741bb6e995476bce1d64e48",
+      "rawSHA256": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281",
+      "text": "不好犯上而好作乱者，未之有也。",
+      "sourceCodePoints": 15,
+      "sourceHan": 13,
+      "expectedTimes": [
+        0.082,
+        0.317,
+        0.505,
+        0.834,
+        1.164,
+        1.447,
+        1.588,
+        1.776,
+        1.964,
+        null,
+        2.501,
+        2.736,
+        2.971,
+        3.207,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.082,
+            0.235,
+            "不"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.317,
+            0.188,
+            "耗"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.505,
+            0.658,
+            "\">好犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 1,
+          "sourceIndices": [
+            2,
+            3
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "犯上"
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.164,
+            0.282,
+            "而"
+          ],
+          "sdkPosition": {
+            "textOffset": 288,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            4
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.447,
+            0.141,
+            "耗"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.588,
+            0.376,
+            "\">好作乱"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 5,
+          "sourceIndices": [
+            6,
+            7
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "作乱"
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            1.964,
+            0.0,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 313,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.501,
+            0.47,
+            "未之"
+          ],
+          "sdkPosition": {
+            "textOffset": 336,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10,
+            11
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.971,
+            0.235,
+            "有"
+          ],
+          "sdkPosition": {
+            "textOffset": 338,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            12
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            3.207,
+            0.0,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 339,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            13
+          ]
+        }
+      ],
+      "unknownSDKPositions": 4,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.505,
+            0.658,
+            "\">好犯上"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 1,
+          "sourceIndices": [
+            2,
+            3
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "犯上"
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.588,
+            0.376,
+            "\">好作乱"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 5,
+          "sourceIndices": [
+            6,
+            7
+          ],
+          "droppedDuplicate": "好",
+          "remainingText": "作乱"
+        }
+      ],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s04-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-elephant.result.json",
+      "resultSHA256": "69340999e880aa2081103795468de42bcf955e9a5a3304bbf5169ee53ce890b6",
+      "ssmlSHA256": "39b265672ed550200901877607da9d90009cb74d9bf2c88add2d7a8434f6ae43",
+      "rawSHA256": "f07b91bb47c4aad9316bc42e2ad6f0fbd68b25d391fbf8d51ab97eec305680aa",
+      "text": "君子务本，本立而道生。",
+      "sourceCodePoints": 11,
+      "sourceHan": 9,
+      "expectedTimes": [
+        0.058833,
+        0.316187,
+        0.573541,
+        0.764708,
+        null,
+        1.455875,
+        1.726467,
+        1.997058,
+        2.26765,
+        2.538241,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.514708,
+            "君子"
+          ],
+          "sdkPosition": {
+            "textOffset": 261,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.573541,
+            0.191166,
+            "务"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.764708,
+            0.33825,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 264,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.455875,
+            1.352958,
+            "本立而道生"
+          ],
+          "sdkPosition": {
+            "textOffset": 266,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s04-bunny",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-bunny.result.json",
+      "resultSHA256": "aeb05a6e48689f7a762580c6170dcba461e137534f9be46ee3eeb7dc1019998a",
+      "ssmlSHA256": "1b8a368e77789d3d5b975d2cd5a4783dae35c9e3bcdcebaa6fb8dfcac475715f",
+      "rawSHA256": "d881a8474c7a141db4487270ff66515f14dd65a476538d93169c7ad56ba74b46",
+      "text": "君子务本，本立而道生。",
+      "sourceCodePoints": 11,
+      "sourceHan": 9,
+      "expectedTimes": [
+        0.056833,
+        0.355125,
+        0.653416,
+        0.894875,
+        null,
+        1.534083,
+        1.835216,
+        2.136349,
+        2.437483,
+        2.738616,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.596583,
+            "君子"
+          ],
+          "sdkPosition": {
+            "textOffset": 192,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.653416,
+            0.241458,
+            "务"
+          ],
+          "sdkPosition": {
+            "textOffset": 194,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.894875,
+            0.340916,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 195,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.534083,
+            1.505666,
+            "本立而道生"
+          ],
+          "sdkPosition": {
+            "textOffset": 197,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s04-cat",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-cat.result.json",
+      "resultSHA256": "de8c85e896ab9bd123d1c85cf74d3af3c07b88286b21d1129b4063ac06d683ba",
+      "ssmlSHA256": "b33dec83bc8c06efa9cb3214081cfeaff502105d85703c6c8a7a83bbe43b5f3d",
+      "rawSHA256": "f93f535a191dfe675bef0d8aa9e255cf4d9d377def4c58ffd396c24b5f907af8",
+      "text": "君子务本，本立而道生。",
+      "sourceCodePoints": 11,
+      "sourceHan": 9,
+      "expectedTimes": [
+        0.056833,
+        0.277,
+        0.497166,
+        0.738625,
+        null,
+        1.278416,
+        1.491483,
+        1.704549,
+        1.917616,
+        2.130682,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.440333,
+            "君子"
+          ],
+          "sdkPosition": {
+            "textOffset": 244,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.497166,
+            0.241458,
+            "务"
+          ],
+          "sdkPosition": {
+            "textOffset": 246,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.738625,
+            0.3125,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 247,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.278416,
+            1.065333,
+            "本立而道生"
+          ],
+          "sdkPosition": {
+            "textOffset": 249,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s04-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s04-dog.result.json",
+      "resultSHA256": "fcfe63df3bf1d6792c878825d1279cedebd79601b4cbd164a18000a84c720039",
+      "ssmlSHA256": "35b79a1665753b079014833a29c8d7a2a23b741faedb7180ad1b38c065c4782a",
+      "rawSHA256": "cc4b407100bc762446e8064fed02ad0bf76c4a9dc572bb77e2ade423ec634148",
+      "text": "君子务本，本立而道生。",
+      "sourceCodePoints": 11,
+      "sourceHan": 9,
+      "expectedTimes": [
+        0.082,
+        0.3875,
+        0.694,
+        0.929,
+        null,
+        1.389,
+        1.6148,
+        1.8406,
+        2.0664,
+        2.2922,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.082,
+            0.611,
+            "君子"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.694,
+            0.235,
+            "务"
+          ],
+          "sdkPosition": {
+            "textOffset": 265,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.929,
+            0.282,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 266,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.389,
+            1.129,
+            "本立而道生"
+          ],
+          "sdkPosition": {
+            "textOffset": 289,
+            "wordLength": 5
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s05-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-elephant.result.json",
+      "resultSHA256": "36f3b677d0390dcb0ef0256d7626e59074919e071b3473d4462496c9243a7e76",
+      "ssmlSHA256": "0936e7f0a5db90af0f26413a304825615cca448b9c7039521fe6bba6a9084c31",
+      "rawSHA256": "338da9cbb9c25d63d5282109662b731b84a781db42c74930b42030844dc653c8",
+      "text": "孝弟也者，其为仁之本与！”",
+      "sourceCodePoints": 13,
+      "sourceHan": 10,
+      "expectedTimes": [
+        0.058833,
+        0.573541,
+        0.823541,
+        1.014708,
+        null,
+        1.705875,
+        2.0,
+        2.279416,
+        2.558833,
+        2.823541,
+        3.132333,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.514708,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 261,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.573541,
+            0.235291,
+            "弟"
+          ],
+          "sdkPosition": {
+            "textOffset": 297,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.823541,
+            0.191166,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 308,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.014708,
+            0.441166,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 309,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.705875,
+            0.294125,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 311,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            2.0,
+            0.264708,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 348,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.279416,
+            0.279416,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 359,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.558833,
+            0.264708,
+            "之"
+          ],
+          "sdkPosition": {
+            "textOffset": 360,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.823541,
+            0.308791,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 361,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            3.132333,
+            0.470583,
+            "与"
+          ],
+          "sdkPosition": {
+            "textOffset": 397,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s05-bunny",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-bunny.result.json",
+      "resultSHA256": "9582253131c86bad749ac4e677eb5b9d8e41f991e0c27c259b0193cad9d7f1f7",
+      "ssmlSHA256": "79d996a39e8ed8953a8ff5eb1a6fe673e23c431dba49de60b705b9b7002d0f1b",
+      "rawSHA256": "46a73d9549b16fa13f4164cf26abc5bbfc71a2431e58a57b52a73424ee51f4dd",
+      "text": "孝弟也者，其为仁之本与！”",
+      "sourceCodePoints": 13,
+      "sourceHan": 10,
+      "expectedTimes": [
+        0.056833,
+        0.426125,
+        0.752833,
+        1.022708,
+        null,
+        1.633541,
+        1.946041,
+        2.258541,
+        2.556833,
+        2.784083,
+        3.110791,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.369291,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 192,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.426125,
+            0.326708,
+            "弟"
+          ],
+          "sdkPosition": {
+            "textOffset": 228,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.752833,
+            0.269875,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 239,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.022708,
+            0.340916,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 240,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.633541,
+            0.3125,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 242,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.946041,
+            0.3125,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 279,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.258541,
+            0.298291,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 290,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.556833,
+            0.22725,
+            "之"
+          ],
+          "sdkPosition": {
+            "textOffset": 291,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.784083,
+            0.326708,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 292,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            3.110791,
+            0.426125,
+            "与"
+          ],
+          "sdkPosition": {
+            "textOffset": 328,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s05-cat",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-cat.result.json",
+      "resultSHA256": "ff4492222e36b583cbf5e98675dcfdc8c6a7681d27f86d094c94dca30ed50117",
+      "ssmlSHA256": "192f2a155eb932d2c90b27e769dc46b5c210c3155dfe92dda7f383c2dddfd0a5",
+      "rawSHA256": "f8e671aedb2bdff9efd16d98dfdadccba37e6ddffd61efb2d3a7296268c896c0",
+      "text": "孝弟也者，其为仁之本与！”",
+      "sourceCodePoints": 13,
+      "sourceHan": 10,
+      "expectedTimes": [
+        0.056833,
+        0.411916,
+        0.610791,
+        0.795458,
+        null,
+        1.306833,
+        1.534083,
+        1.690333,
+        1.889208,
+        2.045458,
+        2.201708,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.355083,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 244,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.411916,
+            0.184666,
+            "弟"
+          ],
+          "sdkPosition": {
+            "textOffset": 280,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.610791,
+            0.184666,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 291,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            0.795458,
+            0.298291,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 292,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.306833,
+            0.22725,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 294,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.534083,
+            0.142041,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 331,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            1.690333,
+            0.198875,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 342,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            1.889208,
+            0.15625,
+            "之"
+          ],
+          "sdkPosition": {
+            "textOffset": 343,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.045458,
+            0.15625,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 344,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            2.201708,
+            0.3125,
+            "与"
+          ],
+          "sdkPosition": {
+            "textOffset": 380,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-s05-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-s05-dog.result.json",
+      "resultSHA256": "842450636979555011484c45f0e75d19b59f57ad32d6cbf6a5cf026f37db3545",
+      "ssmlSHA256": "bcb4909a32d9e121cd91d22327872aa595bb292893230a9aad4951406e749680",
+      "rawSHA256": "6580847c4ee5c4b120567c3738ea9ffb41682056dd969dfcf316b111805acdb7",
+      "text": "孝弟也者，其为仁之本与！”",
+      "sourceCodePoints": 13,
+      "sourceHan": 10,
+      "expectedTimes": [
+        0.082,
+        0.505,
+        0.694,
+        0.882,
+        null,
+        1.389,
+        1.671,
+        1.907,
+        2.095,
+        2.283,
+        2.471,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.082,
+            0.423,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.505,
+            0.188,
+            "替"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.694,
+            0.188,
+            "\">弟也"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 1,
+          "sourceIndices": [
+            2
+          ],
+          "droppedDuplicate": "弟",
+          "remainingText": "也"
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            0.882,
+            0.0,
+            "者"
+          ],
+          "sdkPosition": {
+            "textOffset": 287,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.389,
+            0.282,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 310,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.671,
+            0.235,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 311,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            1.907,
+            0.188,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 312,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.095,
+            0.188,
+            "之"
+          ],
+          "sdkPosition": {
+            "textOffset": 313,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.283,
+            0.188,
+            "本"
+          ],
+          "sdkPosition": {
+            "textOffset": 314,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9
+          ]
+        },
+        {
+          "eventIndex": 9,
+          "rawEvent": [
+            2.471,
+            0.0,
+            "于"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            10
+          ]
+        }
+      ],
+      "unknownSDKPositions": 3,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.694,
+            0.188,
+            "\">弟也"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 1,
+          "sourceIndices": [
+            2
+          ],
+          "droppedDuplicate": "弟",
+          "remainingText": "也"
+        }
+      ],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-02-title-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-02-title-elephant.result.json",
+      "resultSHA256": "27a7d5f57ad955a1146fedb7c21da92a87ece093426efc1b638799a20b7a0ee5",
+      "ssmlSHA256": "5a66592dcda2bdf39334b6ea16e9d57a76b927d520eb853e154415b7a9f96aae",
+      "rawSHA256": "777e210dea48b8a247804c216f609409f291bd0a89828e1edcee9dcadf57ecbf",
+      "text": "论语，之，其为人也孝弟。",
+      "sourceCodePoints": 12,
+      "sourceHan": 9,
+      "expectedTimes": [
+        0.058833,
+        0.397041,
+        null,
+        0.955875,
+        null,
+        1.573541,
+        1.83825,
+        2.044125,
+        2.294125,
+        2.514708,
+        2.83825,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.338208,
+            "论"
+          ],
+          "sdkPosition": {
+            "textOffset": 297,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.397041,
+            0.323541,
+            "语"
+          ],
+          "sdkPosition": {
+            "textOffset": 308,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.955875,
+            0.352958,
+            "之"
+          ],
+          "sdkPosition": {
+            "textOffset": 310,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.573541,
+            0.264708,
+            "其"
+          ],
+          "sdkPosition": {
+            "textOffset": 312,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.83825,
+            0.205875,
+            "为"
+          ],
+          "sdkPosition": {
+            "textOffset": 349,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            2.044125,
+            0.235291,
+            "人"
+          ],
+          "sdkPosition": {
+            "textOffset": 360,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 6,
+          "rawEvent": [
+            2.294125,
+            0.220583,
+            "也"
+          ],
+          "sdkPosition": {
+            "textOffset": 361,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        },
+        {
+          "eventIndex": 7,
+          "rawEvent": [
+            2.514708,
+            0.323541,
+            "孝"
+          ],
+          "sdkPosition": {
+            "textOffset": 362,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            9
+          ]
+        },
+        {
+          "eventIndex": 8,
+          "rawEvent": [
+            2.83825,
+            0.279416,
+            "弟"
+          ],
+          "sdkPosition": {
+            "textOffset": 398,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            10
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-03-s02-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-elephant.result.json",
+      "resultSHA256": "9e152d53947bb6e2eca3b186f545ece2ea42f184d11564196f1db4d3330c3e29",
+      "ssmlSHA256": "e9f5c6ad8e16f5696c25c42f003ce0a305fad77b571e468c5a21b5c5ac906387",
+      "rawSHA256": "081e312496b1fad39828e28e277bbca6118b0b9c71b0d4a275deab0f518a6038",
+      "text": "巧言令色，鲜矣仁！”",
+      "sourceCodePoints": 10,
+      "sourceHan": 7,
+      "expectedTimes": [
+        0.058833,
+        0.360312,
+        0.676458,
+        0.882333,
+        null,
+        1.647041,
+        2.08825,
+        2.308833,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.602958,
+            "巧言"
+          ],
+          "sdkPosition": {
+            "textOffset": 261,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.676458,
+            0.205875,
+            "令"
+          ],
+          "sdkPosition": {
+            "textOffset": 300,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.882333,
+            0.470583,
+            "色"
+          ],
+          "sdkPosition": {
+            "textOffset": 311,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.647041,
+            0.441166,
+            "鲜"
+          ],
+          "sdkPosition": {
+            "textOffset": 350,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            2.08825,
+            0.220583,
+            "矣"
+          ],
+          "sdkPosition": {
+            "textOffset": 361,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            2.308833,
+            0.338208,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 362,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-03-s02-bunny",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-bunny.result.json",
+      "resultSHA256": "d57ba27822f99f10ea53003cb20c578bf9380ff01b6a20cfb7dff6cddca0ca37",
+      "ssmlSHA256": "b2cb6f416e9de83a4848c4cfc5570421afe5cbbaefbd9c767331d0615502defc",
+      "rawSHA256": "fe8ec018e458e3ef99b57793b46c940f0f0aa1a522ab68c322bfad439a3d4f17",
+      "text": "巧言令色，鲜矣仁！”",
+      "sourceCodePoints": 10,
+      "sourceHan": 7,
+      "expectedTimes": [
+        0.056833,
+        0.397729,
+        0.738625,
+        1.065333,
+        null,
+        1.732958,
+        2.130666,
+        2.372166,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.681791,
+            "巧言"
+          ],
+          "sdkPosition": {
+            "textOffset": 192,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.738625,
+            0.326708,
+            "令"
+          ],
+          "sdkPosition": {
+            "textOffset": 231,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            1.065333,
+            0.369333,
+            "色"
+          ],
+          "sdkPosition": {
+            "textOffset": 242,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.732958,
+            0.397708,
+            "鲜"
+          ],
+          "sdkPosition": {
+            "textOffset": 281,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            2.130666,
+            0.241458,
+            "矣"
+          ],
+          "sdkPosition": {
+            "textOffset": 292,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            2.372166,
+            0.383541,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 293,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-03-s02-cat",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-cat.result.json",
+      "resultSHA256": "43df92634c06f6f1b0ee77a3d488360c5cc9ce63dd3b240e9df7e68fc18cf38c",
+      "ssmlSHA256": "12b008fba7ddace20facecfc0dba4d9455d9e73c17e57663a983541a068d4f3f",
+      "rawSHA256": "97e61b35c4d935b35b6966898c01f045447de061601f96c8053154ce52d8c8a5",
+      "text": "巧言令色，鲜矣仁！”",
+      "sourceCodePoints": 10,
+      "sourceHan": 7,
+      "expectedTimes": [
+        0.056833,
+        0.277,
+        0.511375,
+        0.710208,
+        null,
+        1.221583,
+        1.519875,
+        1.690333,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.056833,
+            0.440333,
+            "巧言"
+          ],
+          "sdkPosition": {
+            "textOffset": 244,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.511375,
+            0.198833,
+            "令"
+          ],
+          "sdkPosition": {
+            "textOffset": 283,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            2
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.710208,
+            0.3125,
+            "色"
+          ],
+          "sdkPosition": {
+            "textOffset": 294,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.221583,
+            0.298291,
+            "鲜"
+          ],
+          "sdkPosition": {
+            "textOffset": 333,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            1.519875,
+            0.170458,
+            "矣"
+          ],
+          "sdkPosition": {
+            "textOffset": 344,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            6
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            1.690333,
+            0.326708,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 345,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-03-s02-dog",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-s02-dog.result.json",
+      "resultSHA256": "f622dcd111173c16ca1b0cbf7011c36f7dd1c6e7fa7be32e7d94afc70a73992d",
+      "ssmlSHA256": "72f24c3efb3e8365cbc15f09257dae90412d76f24d0bbcaec2b68a63bfd4a2a7",
+      "rawSHA256": "538d71c7821e50eecba3944f62ec426b9b1f305eb35e15cc028062c3caf7d634",
+      "text": "巧言令色，鲜矣仁！”",
+      "sourceCodePoints": 10,
+      "sourceHan": 7,
+      "expectedTimes": [
+        0.082,
+        0.423,
+        0.764,
+        1.105,
+        null,
+        1.617,
+        2.04,
+        2.276,
+        null,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.082,
+            1.364,
+            "巧言令色"
+          ],
+          "sdkPosition": {
+            "textOffset": 263,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            1.617,
+            0.423,
+            "显"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-sdk-position-approved-alias",
+          "sourceIndices": [
+            5
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            2.04,
+            0.235,
+            "\">鲜矣"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 5,
+          "sourceIndices": [
+            6
+          ],
+          "droppedDuplicate": "鲜",
+          "remainingText": "矣"
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            2.276,
+            0.329,
+            "仁"
+          ],
+          "sdkPosition": {
+            "textOffset": 312,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        }
+      ],
+      "unknownSDKPositions": 2,
+      "fragmentCorrections": [
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            2.04,
+            0.235,
+            "\">鲜矣"
+          ],
+          "sdkPosition": {
+            "textOffset": -1,
+            "wordLength": 4
+          },
+          "sdkPositionKnown": false,
+          "classification": "unknown-position-proven-alias-repeat-run",
+          "alreadyMappedSourceIndex": 5,
+          "sourceIndices": [
+            6
+          ],
+          "droppedDuplicate": "鲜",
+          "remainingText": "矣"
+        }
+      ],
+      "status": "complete-original-positions-proven"
+    },
+    {
+      "id": "xue-er-03-title-elephant",
+      "resultFile": "assets/source/tts-raw/xue-er/batch-a/xue-er-03-title-elephant.result.json",
+      "resultSHA256": "541e769dc368ffc49f00501f848b58690e8ef0bc6c4d6a91dabf3a0e41e34a03",
+      "ssmlSHA256": "fb1f4aad7e056dd66d6e1cc16a139be5302288fae62441affdeb01f0e09001a0",
+      "rawSHA256": "467be7fa3ade825d60e23e0110c5d329edfe67cb9495eadcae29f4a1e9cb230b",
+      "text": "论语，之，巧言令色。",
+      "sourceCodePoints": 10,
+      "sourceHan": 7,
+      "expectedTimes": [
+        0.058833,
+        0.367666,
+        null,
+        0.955875,
+        null,
+        1.558833,
+        1.882353,
+        2.220583,
+        2.41175,
+        null
+      ],
+      "events": [
+        {
+          "eventIndex": 0,
+          "rawEvent": [
+            0.058833,
+            0.308833,
+            "论"
+          ],
+          "sdkPosition": {
+            "textOffset": 297,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            0
+          ]
+        },
+        {
+          "eventIndex": 1,
+          "rawEvent": [
+            0.367666,
+            0.33825,
+            "语"
+          ],
+          "sdkPosition": {
+            "textOffset": 308,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            1
+          ]
+        },
+        {
+          "eventIndex": 2,
+          "rawEvent": [
+            0.955875,
+            0.323541,
+            "之"
+          ],
+          "sdkPosition": {
+            "textOffset": 310,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            3
+          ]
+        },
+        {
+          "eventIndex": 3,
+          "rawEvent": [
+            1.558833,
+            0.647041,
+            "巧言"
+          ],
+          "sdkPosition": {
+            "textOffset": 312,
+            "wordLength": 2
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            5,
+            6
+          ]
+        },
+        {
+          "eventIndex": 4,
+          "rawEvent": [
+            2.220583,
+            0.191166,
+            "令"
+          ],
+          "sdkPosition": {
+            "textOffset": 351,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            7
+          ]
+        },
+        {
+          "eventIndex": 5,
+          "rawEvent": [
+            2.41175,
+            0.323541,
+            "色"
+          ],
+          "sdkPosition": {
+            "textOffset": 362,
+            "wordLength": 1
+          },
+          "sdkPositionKnown": true,
+          "classification": "known-sdk-position",
+          "sourceIndices": [
+            8
+          ]
+        }
+      ],
+      "unknownSDKPositions": 0,
+      "fragmentCorrections": [],
+      "status": "complete-original-positions-proven"
+    }
+  ],
+  "pending": [],
+  "findings": [],
+  "counterexamples": [
+    {
+      "name": "extra Han after valid remainder",
+      "rejected": true,
+      "reason": "fragment remainder not exact complete next source run"
+    },
+    {
+      "name": "missing 上 must not disappear",
+      "rejected": true,
+      "reason": "unexpected character/alias at source 10"
+    },
+    {
+      "name": "wrong homophonic alias 毫 is unapproved",
+      "rejected": true,
+      "reason": "unexpected character/alias at source 8"
+    },
+    {
+      "name": "fragment across punctuation is nonadjacent",
+      "rejected": true,
+      "reason": "fragment remainder not contiguous source positions"
+    },
+    {
+      "name": "fragment without previous event",
+      "rejected": true,
+      "reason": "fragment has no mapped prior/remaining source"
+    },
+    {
+      "name": "fragment with wrong repeated original",
+      "rejected": true,
+      "reason": "fragment duplicate lacks approved source alias"
+    },
+    {
+      "name": "literal backslash must not be stripped",
+      "rejected": true,
+      "reason": "unrecognized literal/SSML fragment"
+    },
+    {
+      "name": "negative offset below -1 is not an unknown sentinel",
+      "rejected": true,
+      "reason": "SDK position outside known -1 sentinel/nonnegative domain"
+    }
+  ],
+  "sdkCalls": 0,
+  "listeningPerformed": false,
+  "scope": "Original SDK positioning -1 is retained as unknown. Every original Han position must be mapped exactly once; timing is derived only from existing event offsets/durations. MP3 decoding is a separate check.",
+  "status": "all-recorded-boundaries-proven"
+}

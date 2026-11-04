@@ -1,0 +1,33 @@
+{
+  "text": "求之与，抑与之与？”",
+  "dur": 3.216,
+  "t": [
+    0.056833,
+    0.340916,
+    0.553958,
+    null,
+    1.235791,
+    1.505666,
+    1.619333,
+    1.832375,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "4168d33b57b1484ec0a249b78655da45fc017bdc903ef5caf2169616bd28c4de",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-10-s03-cat",
+      "rawSHA256": "2f442fc6546eb0e73cc4ebe2ba087152b29ed89a103ed52c827190124c5e52d7",
+      "ssmlSHA256": "5a9ed43477e412719b2a444ae7f7cfd4e72e9a408fcf26caada4164fcf28b39c"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

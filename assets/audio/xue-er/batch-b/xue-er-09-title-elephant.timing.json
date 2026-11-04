@@ -1,0 +1,33 @@
+{
+  "text": "论语，之，慎终追远。",
+  "dur": 3.864,
+  "t": [
+    0.058833,
+    0.441166,
+    null,
+    1.044125,
+    null,
+    1.691166,
+    2.062489,
+    2.433812,
+    2.805134,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "dec41ad5edd53f08b197c55f96b91bfde05abe1f1edaf7cdc281bf752fb771ff",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-09-title-elephant",
+      "rawSHA256": "6427f26df01f8e4609a44b64919192e90813d80a0d50475436f484e148fd7eb8",
+      "ssmlSHA256": "56f39377a468a0af0755a95cfd94455f975bbae9cae194167c4378bca37073b3"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

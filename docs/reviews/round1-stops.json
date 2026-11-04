@@ -1,0 +1,3209 @@
+{
+  "at": "2026-11-03T10:24:46.188Z",
+  "artifactSha256": "9cf9e107a3628c9358787a06533e7f767fad27211bd55e423c0a9293dfd94221",
+  "sourceSha256": "a37bace9d8ae27fb78ff3bb972300746ae0a5702d1ae6ed18da278a321bd535c",
+  "method": "Native pointer/keyboard events; actual audio at playbackRate=8 only to reach late automatic stages; no synthetic ended or lifecycle events.",
+  "cases": [
+    {
+      "stage": "title",
+      "before": {
+        "step": "title",
+        "audioPaused": true,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": false,
+        "castInert": true,
+        "cardsInert": true,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": []
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": []
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": []
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.19674,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 3920.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 3912.5999999940395,
+              "id": "cat"
+            }
+          },
+          {
+            "t": 4853,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 3912.5999999940395,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "title-voice",
+      "before": {
+        "step": "title-voice",
+        "audioPaused": false,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": false,
+        "castInert": true,
+        "cardsInert": true,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 739.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 738.7999999970198,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 739.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 738.7999999970198,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 739.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 738.7999999970198,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.248754,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 739.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 738.7999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4132.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 4126.5999999940395,
+              "id": "cat"
+            }
+          },
+          {
+            "t": 5074.5999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 4126.5999999940395,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "intro",
+      "before": {
+        "step": "intro",
+        "audioPaused": true,
+        "audioTime": 3.984,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 704.2999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702.9000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 3.984,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 704.2999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702.9000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 3.984,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 704.2999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702.9000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.208381,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 704.2999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702.9000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 6887.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 5884.79999999702,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "e1",
+      "before": {
+        "step": "e1",
+        "audioPaused": false,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 2,
+        "bubbles": 0,
+        "sparks": 14,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 670.5999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3279.7000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4023.4000000059605,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 670.5999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3279.7000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4023.4000000059605,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 670.5999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3279.7000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4023.4000000059605,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.233873,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 670.5999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3279.7000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4023.4000000059605,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 670.0999999940395,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8186.5999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 7228.70000000298,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "paused",
+      "pauseBefore": {
+        "step": "e1",
+        "audioPaused": true,
+        "audioTime": 0.465361,
+        "paused": true,
+        "pausePressed": "true",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 14,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 680.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3080.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3739.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "pauseAfter": {
+        "step": "e1",
+        "audioPaused": true,
+        "audioTime": 0.465361,
+        "paused": true,
+        "pausePressed": "true",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 14,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 680.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3080.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3739.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "before": {
+        "step": "e1",
+        "audioPaused": true,
+        "audioTime": 0.465361,
+        "paused": true,
+        "pausePressed": "true",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 14,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 680.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3080.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3739.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0.465361,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 680.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3080.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3739.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0.465361,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 680.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3080.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3739.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.042667,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 2,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 680.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3080.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3739.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 679.4000000059605,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 9069.70000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 8149.79999999702,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "u1",
+      "before": {
+        "step": "u1",
+        "audioPaused": true,
+        "audioTime": 3.672,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 1,
+        "bubbles": 0,
+        "sparks": 11,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 703.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3143.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3925.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 3.672,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 703.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3143.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3925.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 3.672,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 703.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3143.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3925.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.042667,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 2,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 703.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3143.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3925.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 702,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 9018.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 8099.70000000298,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "solo-bunny",
+      "before": {
+        "step": "solo-bunny",
+        "audioPaused": true,
+        "audioTime": 1.992,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again"
+        ],
+        "stars": 0,
+        "focus": 1,
+        "bubbles": 0,
+        "sparks": 6,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 805.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3183.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3943.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5590.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7188.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8668.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10237.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12008.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13439.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 1.992,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 805.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3183.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3943.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5590.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7188.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8668.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10237.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12008.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13439.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 1.992,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again"
+        ],
+        "stars": 0,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 805.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3183.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3943.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5590.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7188.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8668.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10237.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12008.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13439.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.232106,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 805.0999999940395,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3183.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3943.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5590.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7188.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8668.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10237.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12008.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13439.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 803.5,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18805.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 17866.90000000596,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "sound-dog",
+      "before": {
+        "step": "sound-dog",
+        "audioPaused": false,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof"
+        ],
+        "stars": 2,
+        "focus": 2,
+        "bubbles": 1,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 829.6999999880791,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3224.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3948.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5579.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7091.5999999940395,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8592.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10200.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 11905.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13287.199999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15071.699999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15913.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17353,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18146.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19523.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20250.19999998808,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0.488914,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof"
+        ],
+        "stars": 2,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 829.6999999880791,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3224.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3948.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5579.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7091.5999999940395,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8592.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10200.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 11905.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13287.199999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15071.699999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15913.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17353,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18146.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19523.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20250.19999998808,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0.488914,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof"
+        ],
+        "stars": 2,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 829.6999999880791,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3224.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3948.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5579.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7091.5999999940395,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8592.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10200.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 11905.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13287.199999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15071.699999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15913.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17353,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18146.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19523.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20250.19999998808,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.200573,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof",
+          "c2"
+        ],
+        "stars": 2,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 829.6999999880791,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3224.8999999910593,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3948.7999999970198,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5579.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7091.5999999940395,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8592.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10200.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 11905.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13287.199999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15071.699999988079,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15913.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17353,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18146.29999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19523.39999999106,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20250.19999998808,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 827.1999999880791,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 24462.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 23527.89999999106,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "celebrate",
+      "before": {
+        "step": "celebrate",
+        "audioPaused": false,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof",
+          "trumpet"
+        ],
+        "stars": 3,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 13,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 981.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3418.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4102.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5623.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7222.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8688.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10220.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12094,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13466.70000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15336.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 16183.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17611.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18430,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19804.90000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20497.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 21031.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "immediate": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0.371526,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof",
+          "trumpet"
+        ],
+        "stars": 3,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 981.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3418.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4102.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5623.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7222.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8688.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10220.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12094,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13466.70000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15336.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 16183.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17611.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18430,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19804.90000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20497.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 21031.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "after3s": {
+        "step": "free",
+        "audioPaused": true,
+        "audioTime": 0.371526,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof",
+          "trumpet"
+        ],
+        "stars": 3,
+        "focus": 0,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 981.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3418.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4102.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5623.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7222.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8688.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10220.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12094,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13466.70000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15336.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 16183.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17611.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18430,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19804.90000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20497.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 21031.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          }
+        ]
+      },
+      "stopPass": true,
+      "nextClick": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.219811,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "title",
+          "trumpet",
+          "e1",
+          "u1",
+          "e2",
+          "u2",
+          "e3",
+          "u3",
+          "again",
+          "b1",
+          "squeak",
+          "c2",
+          "meow",
+          "d3",
+          "woof",
+          "trumpet",
+          "c2"
+        ],
+        "stars": 3,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 981.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 3418.1000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 4102.79999999702,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 5623.20000000298,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 7222.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 8688.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 10220.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 12094,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 13466.70000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 15336.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 16183.40000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 17611.5,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 18430,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 19804.90000000596,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 20497.20000000298,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 21031.79999999702,
+            "audio": 0,
+            "gesture": false,
+            "click": {
+              "t": 980.2999999970198,
+              "id": "startBtn"
+            }
+          },
+          {
+            "t": 25472.40000000596,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 24391.10000000894,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "clickPass": true
+    },
+    {
+      "stage": "rapid cat playing -> dog -> cat -> bunny",
+      "before": {
+        "step": "solo-cat",
+        "audioPaused": false,
+        "audioTime": 0.109166,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "c2"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 704.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 699.2000000029802,
+              "id": "cat"
+            }
+          },
+          {
+            "t": 1700.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 699.2000000029802,
+              "id": "cat"
+            }
+          }
+        ]
+      },
+      "after": {
+        "step": "solo-bunny",
+        "audioPaused": false,
+        "audioTime": 0.39871,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "c2",
+          "b1"
+        ],
+        "stars": 0,
+        "focus": 3,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 704.2000000029802,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 699.2000000029802,
+              "id": "cat"
+            }
+          },
+          {
+            "t": 1700.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 699.2000000029802,
+              "id": "cat"
+            }
+          },
+          {
+            "t": 3669,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 2545,
+              "id": "bunny"
+            }
+          }
+        ]
+      },
+      "pass": true
+    },
+    {
+      "stage": "all four animals and three sentence cards",
+      "interactions": [
+        {
+          "selector": "#bunny",
+          "log": [
+            "b1",
+            "squeak"
+          ]
+        },
+        {
+          "selector": "#cat",
+          "log": [
+            "c2",
+            "meow"
+          ]
+        },
+        {
+          "selector": "#dog",
+          "log": [
+            "d3",
+            "woof"
+          ]
+        },
+        {
+          "selector": "#elephant",
+          "log": [
+            "trumpet",
+            "e1",
+            "e2",
+            "e3"
+          ]
+        },
+        {
+          "selector": ".card:nth-child(1)",
+          "log": [
+            "e1",
+            "u1"
+          ]
+        },
+        {
+          "selector": ".card:nth-child(2)",
+          "log": [
+            "e2",
+            "u2"
+          ]
+        },
+        {
+          "selector": ".card:nth-child(3)",
+          "log": [
+            "e3",
+            "u3"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "runtime reduced-motion while reading",
+      "transformAnimations": [],
+      "state": {
+        "step": "e1",
+        "audioPaused": false,
+        "audioTime": 0,
+        "paused": false,
+        "pausePressed": "false",
+        "log": [
+          "e1"
+        ],
+        "stars": 0,
+        "focus": 2,
+        "bubbles": 0,
+        "sparks": 0,
+        "titleHidden": true,
+        "castInert": false,
+        "cardsInert": false,
+        "audioCount": 1,
+        "sameAudio": true,
+        "playCalls": [
+          {
+            "t": 780.5,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 776.2000000029802,
+              "id": "RT"
+            }
+          },
+          {
+            "t": 782.6000000089407,
+            "audio": 0,
+            "gesture": true,
+            "click": {
+              "t": 776.2000000029802,
+              "id": "RT"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "browser": "156.0.8078.4",
+  "artifactAfter": "9cf9e107a3628c9358787a06533e7f767fad27211bd55e423c0a9293dfd94221"
+}

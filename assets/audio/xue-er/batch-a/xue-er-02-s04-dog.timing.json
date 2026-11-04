@@ -1,0 +1,34 @@
+{
+  "text": "君子务本，本立而道生。",
+  "dur": 2.544,
+  "t": [
+    0.082,
+    0.3875,
+    0.694,
+    0.929,
+    null,
+    1.389,
+    1.6148,
+    1.8406,
+    2.0664,
+    2.2922,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "fdb1aa90699a0a959aeced2e49f3837bd4e158680a66becbe976bb21ec93d441",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s04-dog",
+      "rawSHA256": "cc4b407100bc762446e8064fed02ad0bf76c4a9dc572bb77e2ade423ec634148",
+      "ssmlSHA256": "35b79a1665753b079014833a29c8d7a2a23b741faedb7180ad1b38c065c4782a"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

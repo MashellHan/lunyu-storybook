@@ -1,0 +1,22 @@
+test_aliases_are_position_based_with_punctuation_and_unicode (__main__.BatchTests) ... ok
+test_attempt_precedes_call_and_success_is_skipped (__main__.BatchTests) ... ok
+test_batch_order_and_235_exact_requests_cannot_expand_on_rerun (__main__.BatchTests) ... ok
+test_crash_after_reservation_stays_unknown_without_retry (__main__.BatchTests) ... ok
+test_default_and_execute_dry_run_never_load_sdk_or_write (__main__.BatchTests) ... ok
+test_empty_candidate_reports_missing_titles_without_fabricated_refs (__main__.BatchTests) ... ok
+test_failure_is_sanitized_and_never_automatically_retried (__main__.BatchTests) ... ok
+test_full_selection_preflight_blocks_before_any_new_call (__main__.BatchTests) ... ok
+test_hd_fragment_requires_exact_alias_context_and_does_not_drop_arbitrary_text (__main__.BatchTests) ... ok
+test_media_paths_reject_escape_and_symlink (__main__.BatchTests) ... ok
+test_missing_credentials_do_not_reserve_or_call (__main__.BatchTests) ... ok
+test_missing_extra_nonmonotonic_and_durationless_words_fail (__main__.BatchTests) ... ok
+test_offline_process_unison_cross_batch_reuse_and_all_fifteen_titles (__main__.BatchTests) ... ok
+test_raw_tamper_and_untracked_outputs_are_rejected (__main__.BatchTests) ... ok
+test_real_legacy_sdk_boundaries_including_hd_sub_fragment (__main__.BatchTests) ... ok
+test_reviewed_manifests_and_content_are_bound_by_hash (__main__.BatchTests) ... ok
+test_selection_rejects_unknown_duplicate_and_cross_batch_ids (__main__.BatchTests) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 21.999s
+
+OK

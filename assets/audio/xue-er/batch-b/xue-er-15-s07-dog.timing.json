@@ -1,0 +1,57 @@
+{
+  "text": "《诗》云：‘如切如磋，如琢如磨’，",
+  "dur": 3.84,
+  "t": [
+    null,
+    0.082,
+    null,
+    0.458,
+    null,
+    null,
+    1.117,
+    1.4,
+    1.635,
+    1.823,
+    null,
+    2.501,
+    2.877,
+    3.113,
+    3.301,
+    null,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 8,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 12,
+      "remainingSourceIndex": 13,
+      "remainingSourceIndices": [
+        13
+      ],
+      "originalBoundaryText": "\">琢如",
+      "usedBoundaryOffsetSeconds": 3.113,
+      "usedBoundaryDurationSeconds": 0.188,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 4
+      }
+    }
+  ],
+  "audioSHA256": "b46fb7d04747dbe37efcc985fcec6aee21ac940a1015ab19db14bd4c097b04de",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s07-dog",
+      "rawSHA256": "3023316c1996de12bf227782c8a08634c53e070465fc6e40e31fa1edcdf5bcc4",
+      "ssmlSHA256": "32f814ce42476e62784b8f6d4be05fcb619d7772334044c69f1b8edc28c3aebd"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

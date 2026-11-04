@@ -1,0 +1,34 @@
+{
+  "text": "敬事而信，节用而爱人，",
+  "dur": 3.984,
+  "t": [
+    0.056833,
+    0.355125,
+    0.568166,
+    0.809666,
+    null,
+    1.491458,
+    1.818166,
+    2.144875,
+    2.400583,
+    2.713083,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "95147f0a138aa18be13cee399f4bcb1da07c33e6b9704a4be6eef54b5f6ac2d8",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-05-s03-bunny",
+      "rawSHA256": "cf619630a759830490c7a176ec1fa5fad6974f5fd0cb72b81902b11d41ebf7e2",
+      "ssmlSHA256": "bc14199e840c9a0392a549366b806325049c25a9df96d6bd37a8e770b52a5523"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-11-s03-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "19749a8eda923639a266e6fb999552bda159a7710ba6c816ed39265534c8a37f",
+  "attemptId": "2f7370b2-926c-4dd5-80ba-0b12e8f88a72",
+  "startedAt": "2026-11-03T13:02:12.548790+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:02:17.906141+00:00",
+  "rawSHA256": "02b624b5e590726d05de8823047dfc015b0ef917eddb2ffef990da19a28e8656",
+  "wb": [
+    [
+      0.082,
+      0.705,
+      "三年"
+    ],
+    [
+      0.788,
+      0.141,
+      "无"
+    ],
+    [
+      0.929,
+      0.141,
+      "改"
+    ],
+    [
+      1.07,
+      0.188,
+      "于"
+    ],
+    [
+      1.258,
+      0.141,
+      "父"
+    ],
+    [
+      1.4,
+      0.141,
+      "之"
+    ],
+    [
+      1.541,
+      0.282,
+      "道"
+    ],
+    [
+      2.031,
+      0.517,
+      "可谓"
+    ],
+    [
+      2.549,
+      0.329,
+      "孝"
+    ],
+    [
+      2.878,
+      0.282,
+      "矣"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 267,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 268,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 269,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 270,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 293,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 295,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 296,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

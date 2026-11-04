@@ -1,0 +1,101 @@
+{
+  "id": "xue-er-06-s03-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "9b8dc15b302535a3a4cc059e087c306949e5db3f59d89cc3dae1a42f909bfb75",
+  "attemptId": "4c4aed3a-4807-4ed0-8fc1-3abc9c3f2f6d",
+  "startedAt": "2026-11-03T12:55:53.981220+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:55:59.384705+00:00",
+  "rawSHA256": "ecd0b24cc7f585692e80e7f7b7b819ca0d85432b1a5ac40062a66f46abb0f8a6",
+  "wb": [
+    [
+      0.082,
+      0.282,
+      "谨"
+    ],
+    [
+      0.364,
+      0.188,
+      "而"
+    ],
+    [
+      0.552,
+      0.376,
+      "信"
+    ],
+    [
+      1.148,
+      0.282,
+      "泛"
+    ],
+    [
+      1.43,
+      0.141,
+      "爱"
+    ],
+    [
+      1.571,
+      0.282,
+      "众"
+    ],
+    [
+      1.854,
+      0.235,
+      "而"
+    ],
+    [
+      2.089,
+      0.188,
+      "亲"
+    ],
+    [
+      2.277,
+      0.282,
+      "仁"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 288,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 289,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 290,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 292,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 293,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 294,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

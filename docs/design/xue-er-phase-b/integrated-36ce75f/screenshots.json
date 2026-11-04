@@ -1,0 +1,101 @@
+{
+  "capturedAt": "2026-11-03T12:28:35.487629+00:00",
+  "sourceInputSnapshot": "tests/artifacts/xue-er-phase-b/frozen-inputs-before.json",
+  "sourceInputAggregate": "36ce75f047f73f1ab7ed49c17e2d0278d952dc9ef2e8fe1cb2c4464421e9c8c1",
+  "status": "Static visual review only. Full suite has timing failures and is not accepted.",
+  "screenshots": [
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-03-320x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-03-320x844.png",
+      "sha256": "b19198788a70b996904b35c68ee15f4c355f4a4cb67b717e6209e4e724e7f94e",
+      "sourceModifiedAt": "2026-11-03T12:27:00.198698+00:00",
+      "bytes": 66927
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-03-390x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-03-390x844.png",
+      "sha256": "277699bde0464569ab95390bdbbed728e926be3d0caf1242820dd512a4249871",
+      "sourceModifiedAt": "2026-11-03T12:27:07.496144+00:00",
+      "bytes": 78241
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-03-1024x768.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-03-1024x768.png",
+      "sha256": "2083b3fc6b2b2db54f91df21197a2daec17ed527beff4724401b9136892ac4b2",
+      "sourceModifiedAt": "2026-11-03T12:27:48.520794+00:00",
+      "bytes": 107295
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-320x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-15-320x844.png",
+      "sha256": "b5db63e0cd2bdbfc9de853b22ca8e4754d5b46cb1708c78d7f2d9b0ba698c6ee",
+      "sourceModifiedAt": "2026-11-03T12:27:04.997760+00:00",
+      "bytes": 78894
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-390x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-15-390x844.png",
+      "sha256": "6031778ae1960bc6546c00811dd53151368b5ac59ceee62560dd89506da8018f",
+      "sourceModifiedAt": "2026-11-03T12:27:18.052870+00:00",
+      "bytes": 89591
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-15-768x1024.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-15-768x1024.png",
+      "sha256": "a1f64e43e80b47b7d438819e63bef0b9a08a35f07c8329e586d7147c5909e115",
+      "sourceModifiedAt": "2026-11-03T12:27:29.349483+00:00",
+      "bytes": 105851
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-05-390x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-05-390x844.png",
+      "sha256": "c87362e194d254bfb171d60290e738b84fd26b912b7cd0fcb6d3a401ade02836",
+      "sourceModifiedAt": "2026-11-03T12:27:09.470191+00:00",
+      "bytes": 102154
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-10-1024x768.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-10-1024x768.png",
+      "sha256": "1c9dc1e70d090a525f50d8dd1308111a958aae6656408bd4cf8ea5cca0baac3c",
+      "sourceModifiedAt": "2026-11-03T12:27:52.827750+00:00",
+      "bytes": 121093
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-11-390x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-11-390x844.png",
+      "sha256": "9d35e14dbfd61b353219b3478ac241f6cc53900a16c81a89dc21b15cb1a73967",
+      "sourceModifiedAt": "2026-11-03T12:27:14.405200+00:00",
+      "bytes": 89321
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-13-390x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-13-390x844.png",
+      "sha256": "a7be8f1c4f859635997462041fe217f835305a3d595842854163ee3af7357b36",
+      "sourceModifiedAt": "2026-11-03T12:27:16.085243+00:00",
+      "bytes": 107155
+    },
+    {
+      "source": "tests/artifacts/xue-er-phase-b/xue-er-04-390x844.png",
+      "reviewCopy": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-04-390x844.png",
+      "sha256": "b8ae9b0b4785451ccfb0181b9e4d12d6ece342207ab5a934eab6e4296df2bce4",
+      "sourceModifiedAt": "2026-11-03T12:27:08.414799+00:00",
+      "bytes": 75278
+    }
+  ],
+  "targetedSupplement": {
+    "page": "xue-er-04-p01",
+    "viewport": [
+      320,
+      844
+    ],
+    "path": "docs/design/xue-er-phase-b/integrated-36ce75f/xue-er-04-p01-320x844.png",
+    "sha256": "03d33de4c69eae3cba2e0514cc19b5e0932b11887984cc28f1276c85bd8746b1",
+    "previewHtml": "build/xue-er-preview/xue-er-04.html",
+    "htmlSha256": "4946122a60ae3af04cd957a76b0fe9f9cdf05d6b0ef0f9c811f4ebbecdb2a9ad",
+    "capturedAt": "2026-11-03T12:30:26.260Z",
+    "reason": "B2 original chapter 4 page 1 320px reproduction point only; no matrix rerun."
+  },
+  "allListedPngsOpenedByDesigner": true,
+  "imageSetSha256": "840a8c489bd50a673543480620003cde2d17b568fba23e83654f1bf4cf118bf8",
+  "imageSetHashAlgorithm": "SHA256 of sorted review-relative path + TAB + image SHA256 + LF, UTF-8"
+}

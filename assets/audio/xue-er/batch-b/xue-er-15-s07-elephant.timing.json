@@ -1,0 +1,40 @@
+{
+  "text": "《诗》云：‘如切如磋，如琢如磨’，",
+  "dur": 5.088,
+  "t": [
+    null,
+    0.058833,
+    null,
+    0.514708,
+    null,
+    null,
+    1.352958,
+    1.66175,
+    1.91175,
+    2.102958,
+    null,
+    2.955875,
+    3.397041,
+    3.720583,
+    3.970583,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "0a0e6fab1313f736861a0298e8e2afa479d68ee64f9a5944e4205f77efd3c4c1",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s07-elephant",
+      "rawSHA256": "b8076b4f0bc12dd6cc4959f4fa475c939ef9b38fe464c2a92451889752444d51",
+      "ssmlSHA256": "c1a3b55f32f9f726796b863a472d43d4c94576d560b9c31c1c57f66f6b332cc0"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

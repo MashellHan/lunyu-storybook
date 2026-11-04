@@ -1,0 +1,20 @@
+[
+  {
+    "source": "tests/artifacts/xue-er-media/rehearsal-word-4-390x844.png",
+    "snapshot": "docs/reviews/xue-er-rehearsal-evidence/rehearsal-word-4-390x844.png",
+    "sha256": "5e7072a8f0f7596e37baef7a394d39b001de304b857d7f26214402e20fb62564",
+    "bytes": 79867
+  },
+  {
+    "source": "tests/artifacts/xue-er-media/rehearsal-word-7-390x844.png",
+    "snapshot": "docs/reviews/xue-er-rehearsal-evidence/rehearsal-word-7-390x844.png",
+    "sha256": "08e1055a7292c91c330328b276934191e149e654193661bb7c1732c908e9dc74",
+    "bytes": 81583
+  },
+  {
+    "source": "tests/artifacts/xue-er-media/rehearsal-word-15-390x844.png",
+    "snapshot": "docs/reviews/xue-er-rehearsal-evidence/rehearsal-word-15-390x844.png",
+    "sha256": "c4bdb3db4ffe6ffd07e4aa0b44924a3ae51415a3b92ce48bcb0df72676d2b339",
+    "bytes": 94895
+  }
+]

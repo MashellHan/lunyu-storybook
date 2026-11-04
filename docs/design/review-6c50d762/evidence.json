@@ -1,0 +1,1522 @@
+{
+  "capturedAt": "2026-11-03T10:40:28.776Z",
+  "method": "Read-only DOM and computed-style inspection; no clicks, no scrolling, no tests, no build, no detector",
+  "chapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+  "homeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+  "recordedFingerprint": {
+    "built_at": "2026-11-03T10:30:27.646728+00:00",
+    "files": {
+      "public/index.html": {
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c"
+      },
+      "public/learn/xue-er/1/index.html": {
+        "bytes": 564197,
+        "sha256": "189e70c7017f28e278acd3f56e891e1af0cb709c86a34b2f7451bd6738136a5b"
+      },
+      "dist/index.html": {
+        "bytes": 280936,
+        "sha256": "1366ae8429aad94473c89b053a96b6c26b0c69dc3c7c5733743f43a61bc9f9a0"
+      },
+      "dist/index-single.html": {
+        "bytes": 829332,
+        "sha256": "b78e07919ecbbf7c289e31d83548f5deb40acb1cbfe256f68d682bcd6d64cf35"
+      }
+    }
+  },
+  "results": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "servedHomeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "servedChapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "matchedInitial": true,
+      "home": {
+        "entry": {
+          "x": 579.1875,
+          "y": 206.5,
+          "w": 334.40625,
+          "h": 88,
+          "right": 913.59375,
+          "bottom": 294.5
+        },
+        "scene": {
+          "x": 134.59375,
+          "y": 323.390625,
+          "w": 390,
+          "h": 360,
+          "right": 524.59375,
+          "bottom": 683.390625
+        },
+        "animals": [
+          {
+            "class": "home-animal home-elephant",
+            "x": 134.59375,
+            "y": 333.390625,
+            "w": 226.1875,
+            "h": 226.1875,
+            "right": 360.78125,
+            "bottom": 559.578125
+          },
+          {
+            "class": "home-animal home-bunny",
+            "x": 395.90625,
+            "y": 368.390625,
+            "w": 128.6875,
+            "h": 128.6875,
+            "right": 524.59375,
+            "bottom": 497.078125
+          },
+          {
+            "class": "home-animal home-cat",
+            "x": 181.390625,
+            "y": 558.59375,
+            "w": 124.796875,
+            "h": 124.796875,
+            "right": 306.1875,
+            "bottom": 683.390625
+          },
+          {
+            "class": "home-animal home-dog",
+            "x": 321.796875,
+            "y": 527.390625,
+            "w": 156,
+            "h": 156,
+            "right": 477.796875,
+            "bottom": 683.390625
+          }
+        ],
+        "rug": {
+          "height": "230px",
+          "bottom": "6px",
+          "left": "0px",
+          "right": "0px"
+        },
+        "overflow": false
+      },
+      "chapter": {
+        "book": {
+          "x": 130,
+          "y": 20,
+          "w": 1180,
+          "h": 780,
+          "right": 1310,
+          "bottom": 800
+        },
+        "animals": [
+          {
+            "id": "elephant",
+            "x": 196.203125,
+            "y": 264,
+            "w": 320,
+            "h": 320,
+            "right": 516.203125,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 196.203125,
+                "y": 264,
+                "w": 320,
+                "h": 320,
+                "right": 516.203125,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "bunny",
+            "x": 598.671875,
+            "y": 414,
+            "w": 170,
+            "h": 170,
+            "right": 768.671875,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 598.671875,
+                "y": 414,
+                "w": 170,
+                "h": 170,
+                "right": 768.671875,
+                "bottom": 584,
+                "complete": true
+              },
+              {
+                "x": 598.671875,
+                "y": 414,
+                "w": 170,
+                "h": 170,
+                "right": 768.671875,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "cat",
+            "x": 845.53125,
+            "y": 434,
+            "w": 150,
+            "h": 150,
+            "right": 995.53125,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 845.53125,
+                "y": 434,
+                "w": 150,
+                "h": 150,
+                "right": 995.53125,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "dog",
+            "x": 1073.0625,
+            "y": 404,
+            "w": 180,
+            "h": 180,
+            "right": 1253.0625,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 1073.0625,
+                "y": 404,
+                "w": 180,
+                "h": 180,
+                "right": 1253.0625,
+                "bottom": 584,
+                "complete": true
+              },
+              {
+                "x": 1073.0625,
+                "y": 404,
+                "w": 180,
+                "h": 180,
+                "right": 1253.0625,
+                "bottom": 584,
+                "complete": true
+              },
+              {
+                "x": 1073.0625,
+                "y": 404,
+                "w": 180,
+                "h": 180,
+                "right": 1253.0625,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          }
+        ],
+        "imageOutsideBook": [],
+        "decorations": {
+          ".floor": "block",
+          ".rug": "block",
+          ".cushion": "block"
+        },
+        "controls": [
+          {
+            "id": "homeBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 154,
+            "y": 40,
+            "w": 64,
+            "h": 64,
+            "right": 218,
+            "bottom": 104
+          },
+          {
+            "id": "pauseBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 1146,
+            "y": 40,
+            "w": 64,
+            "h": 64,
+            "right": 1210,
+            "bottom": 104
+          },
+          {
+            "id": "stopBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 1222,
+            "y": 40,
+            "w": 64,
+            "h": 64,
+            "right": 1286,
+            "bottom": 104
+          }
+        ],
+        "textSizes": [
+          30,
+          30,
+          30
+        ],
+        "pinyinMinimum": 15,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "servedHomeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "servedChapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "matchedInitial": true,
+      "home": {
+        "entry": {
+          "x": 404.578125,
+          "y": 140.5,
+          "w": 263.703125,
+          "h": 88,
+          "right": 668.28125,
+          "bottom": 228.5
+        },
+        "scene": {
+          "x": 32,
+          "y": 248.1875,
+          "w": 320.578125,
+          "h": 360,
+          "right": 352.578125,
+          "bottom": 608.1875
+        },
+        "animals": [
+          {
+            "class": "home-animal home-elephant",
+            "x": 32,
+            "y": 258.1875,
+            "w": 185.921875,
+            "h": 185.921875,
+            "right": 217.921875,
+            "bottom": 444.109375
+          },
+          {
+            "class": "home-animal home-bunny",
+            "x": 246.796875,
+            "y": 293.1875,
+            "w": 105.78125,
+            "h": 105.78125,
+            "right": 352.578125,
+            "bottom": 398.96875
+          },
+          {
+            "class": "home-animal home-cat",
+            "x": 70.46875,
+            "y": 505.609375,
+            "w": 102.578125,
+            "h": 102.578125,
+            "right": 173.046875,
+            "bottom": 608.1875
+          },
+          {
+            "class": "home-animal home-dog",
+            "x": 185.890625,
+            "y": 479.96875,
+            "w": 128.21875,
+            "h": 128.21875,
+            "right": 314.109375,
+            "bottom": 608.1875
+          }
+        ],
+        "rug": {
+          "height": "230px",
+          "bottom": "6px",
+          "left": "0px",
+          "right": "0px"
+        },
+        "overflow": false
+      },
+      "chapter": {
+        "book": {
+          "x": 20,
+          "y": 20,
+          "w": 984,
+          "h": 780,
+          "right": 1004,
+          "bottom": 800
+        },
+        "animals": [
+          {
+            "id": "elephant",
+            "x": 50.09375,
+            "y": 264,
+            "w": 320,
+            "h": 320,
+            "right": 370.09375,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 50.09375,
+                "y": 264,
+                "w": 320,
+                "h": 320,
+                "right": 370.09375,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "bunny",
+            "x": 395.828125,
+            "y": 414,
+            "w": 170,
+            "h": 170,
+            "right": 565.828125,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 395.828125,
+                "y": 414,
+                "w": 170,
+                "h": 170,
+                "right": 565.828125,
+                "bottom": 584,
+                "complete": true
+              },
+              {
+                "x": 395.828125,
+                "y": 414,
+                "w": 170,
+                "h": 170,
+                "right": 565.828125,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "cat",
+            "x": 602.46875,
+            "y": 434,
+            "w": 150,
+            "h": 150,
+            "right": 752.46875,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 602.46875,
+                "y": 434,
+                "w": 150,
+                "h": 150,
+                "right": 752.46875,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "dog",
+            "x": 788.71875,
+            "y": 404,
+            "w": 180,
+            "h": 180,
+            "right": 968.71875,
+            "bottom": 584,
+            "images": [
+              {
+                "x": 788.71875,
+                "y": 404,
+                "w": 180,
+                "h": 180,
+                "right": 968.71875,
+                "bottom": 584,
+                "complete": true
+              },
+              {
+                "x": 788.71875,
+                "y": 404,
+                "w": 180,
+                "h": 180,
+                "right": 968.71875,
+                "bottom": 584,
+                "complete": true
+              },
+              {
+                "x": 788.71875,
+                "y": 404,
+                "w": 180,
+                "h": 180,
+                "right": 968.71875,
+                "bottom": 584,
+                "complete": true
+              }
+            ]
+          }
+        ],
+        "imageOutsideBook": [],
+        "decorations": {
+          ".floor": "block",
+          ".rug": "block",
+          ".cushion": "block"
+        },
+        "controls": [
+          {
+            "id": "homeBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 44,
+            "y": 40,
+            "w": 64,
+            "h": 64,
+            "right": 108,
+            "bottom": 104
+          },
+          {
+            "id": "pauseBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 840,
+            "y": 40,
+            "w": 64,
+            "h": 64,
+            "right": 904,
+            "bottom": 104
+          },
+          {
+            "id": "stopBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 916,
+            "y": 40,
+            "w": 64,
+            "h": 64,
+            "right": 980,
+            "bottom": 104
+          }
+        ],
+        "textSizes": [
+          26.112,
+          26.112,
+          26.112
+        ],
+        "pinyinMinimum": 14,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "servedHomeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "servedChapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "matchedInitial": true,
+      "home": {
+        "entry": {
+          "x": 46,
+          "y": 475.796875,
+          "w": 316,
+          "h": 88,
+          "right": 362,
+          "bottom": 563.796875
+        },
+        "scene": {
+          "x": 204,
+          "y": 95.796875,
+          "w": 360,
+          "h": 286,
+          "right": 564,
+          "bottom": 381.796875
+        },
+        "animals": [
+          {
+            "class": "home-animal home-elephant",
+            "x": 204,
+            "y": 95.796875,
+            "w": 187.1875,
+            "h": 187.1875,
+            "right": 391.1875,
+            "bottom": 282.984375
+          },
+          {
+            "class": "home-animal home-bunny",
+            "x": 448.8125,
+            "y": 123.796875,
+            "w": 115.1875,
+            "h": 115.1875,
+            "right": 564,
+            "bottom": 238.984375
+          },
+          {
+            "class": "home-animal home-cat",
+            "x": 247.1875,
+            "y": 273.796875,
+            "w": 108,
+            "h": 108,
+            "right": 355.1875,
+            "bottom": 381.796875
+          },
+          {
+            "class": "home-animal home-dog",
+            "x": 376.8125,
+            "y": 252.203125,
+            "w": 129.59375,
+            "h": 129.59375,
+            "right": 506.40625,
+            "bottom": 381.796875
+          }
+        ],
+        "rug": {
+          "height": "190px",
+          "bottom": "6px",
+          "left": "0px",
+          "right": "0px"
+        },
+        "overflow": false
+      },
+      "chapter": {
+        "book": {
+          "x": 12,
+          "y": 12,
+          "w": 744,
+          "h": 789,
+          "right": 756,
+          "bottom": 801
+        },
+        "animals": [
+          {
+            "id": "elephant",
+            "x": 28,
+            "y": 210.671875,
+            "w": 232.328125,
+            "h": 232.328125,
+            "right": 260.328125,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 28,
+                "y": 210.671875,
+                "w": 232.328125,
+                "h": 232.328125,
+                "right": 260.328125,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "bunny",
+            "x": 270.328125,
+            "y": 293.109375,
+            "w": 149.890625,
+            "h": 149.890625,
+            "right": 420.21875,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 270.328125,
+                "y": 293.109375,
+                "w": 149.890625,
+                "h": 149.890625,
+                "right": 420.21875,
+                "bottom": 443,
+                "complete": true
+              },
+              {
+                "x": 270.328125,
+                "y": 293.109375,
+                "w": 149.890625,
+                "h": 149.890625,
+                "right": 420.21875,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "cat",
+            "x": 430.21875,
+            "y": 300.609375,
+            "w": 142.390625,
+            "h": 142.390625,
+            "right": 572.609375,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 430.21875,
+                "y": 300.609375,
+                "w": 142.390625,
+                "h": 142.390625,
+                "right": 572.609375,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "dog",
+            "x": 582.609375,
+            "y": 285.625,
+            "w": 157.375,
+            "h": 157.375,
+            "right": 739.984375,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 582.609375,
+                "y": 285.625,
+                "w": 157.375,
+                "h": 157.375,
+                "right": 739.984375,
+                "bottom": 443,
+                "complete": true
+              },
+              {
+                "x": 582.609375,
+                "y": 285.625,
+                "w": 157.375,
+                "h": 157.375,
+                "right": 739.984375,
+                "bottom": 443,
+                "complete": true
+              },
+              {
+                "x": 582.609375,
+                "y": 285.625,
+                "w": 157.375,
+                "h": 157.375,
+                "right": 739.984375,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          }
+        ],
+        "imageOutsideBook": [],
+        "decorations": {
+          ".floor": "none",
+          ".rug": "none",
+          ".cushion": "none"
+        },
+        "controls": [
+          {
+            "id": "homeBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 30,
+            "y": 28,
+            "w": 64,
+            "h": 64,
+            "right": 94,
+            "bottom": 92
+          },
+          {
+            "id": "pauseBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 598,
+            "y": 28,
+            "w": 64,
+            "h": 64,
+            "right": 662,
+            "bottom": 92
+          },
+          {
+            "id": "stopBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 674,
+            "y": 28,
+            "w": 64,
+            "h": 64,
+            "right": 738,
+            "bottom": 92
+          }
+        ],
+        "textSizes": [
+          26,
+          26,
+          26
+        ],
+        "pinyinMinimum": 15,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "servedHomeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "servedChapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "matchedInitial": true,
+      "home": {
+        "entry": {
+          "x": 32,
+          "y": 446.296875,
+          "w": 326,
+          "h": 88,
+          "right": 358,
+          "bottom": 534.296875
+        },
+        "scene": {
+          "x": 20,
+          "y": 82.296875,
+          "w": 350,
+          "h": 276,
+          "right": 370,
+          "bottom": 358.296875
+        },
+        "animals": [
+          {
+            "class": "home-animal home-elephant",
+            "x": 20,
+            "y": 82.296875,
+            "w": 182,
+            "h": 182,
+            "right": 202,
+            "bottom": 264.296875
+          },
+          {
+            "class": "home-animal home-bunny",
+            "x": 258,
+            "y": 110.296875,
+            "w": 112,
+            "h": 112,
+            "right": 370,
+            "bottom": 222.296875
+          },
+          {
+            "class": "home-animal home-cat",
+            "x": 62,
+            "y": 253.296875,
+            "w": 105,
+            "h": 105,
+            "right": 167,
+            "bottom": 358.296875
+          },
+          {
+            "class": "home-animal home-dog",
+            "x": 188,
+            "y": 232.296875,
+            "w": 126,
+            "h": 126,
+            "right": 314,
+            "bottom": 358.296875
+          }
+        ],
+        "rug": {
+          "height": "176px",
+          "bottom": "4px",
+          "left": "0px",
+          "right": "0px"
+        },
+        "overflow": false
+      },
+      "chapter": {
+        "book": {
+          "x": 8,
+          "y": 8,
+          "w": 374,
+          "h": 1011.78125,
+          "right": 382,
+          "bottom": 1019.78125
+        },
+        "animals": [
+          {
+            "id": "elephant",
+            "x": 28,
+            "y": 144,
+            "w": 150,
+            "h": 212,
+            "right": 178,
+            "bottom": 356,
+            "images": [
+              {
+                "x": 28,
+                "y": 206,
+                "w": 150,
+                "h": 150,
+                "right": 178,
+                "bottom": 356,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "bunny",
+            "x": 219,
+            "y": 158,
+            "w": 136,
+            "h": 198,
+            "right": 355,
+            "bottom": 356,
+            "images": [
+              {
+                "x": 219,
+                "y": 220,
+                "w": 136,
+                "h": 136,
+                "right": 355,
+                "bottom": 356,
+                "complete": true
+              },
+              {
+                "x": 219,
+                "y": 220,
+                "w": 136,
+                "h": 136,
+                "right": 355,
+                "bottom": 356,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "cat",
+            "x": 40,
+            "y": 382,
+            "w": 126,
+            "h": 188,
+            "right": 166,
+            "bottom": 570,
+            "images": [
+              {
+                "x": 40,
+                "y": 444,
+                "w": 126,
+                "h": 126,
+                "right": 166,
+                "bottom": 570,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "dog",
+            "x": 217,
+            "y": 368,
+            "w": 140,
+            "h": 202,
+            "right": 357,
+            "bottom": 570,
+            "images": [
+              {
+                "x": 217,
+                "y": 430,
+                "w": 140,
+                "h": 140,
+                "right": 357,
+                "bottom": 570,
+                "complete": true
+              },
+              {
+                "x": 217,
+                "y": 430,
+                "w": 140,
+                "h": 140,
+                "right": 357,
+                "bottom": 570,
+                "complete": true
+              },
+              {
+                "x": 217,
+                "y": 430,
+                "w": 140,
+                "h": 140,
+                "right": 357,
+                "bottom": 570,
+                "complete": true
+              }
+            ]
+          }
+        ],
+        "imageOutsideBook": [],
+        "decorations": {
+          ".floor": "none",
+          ".rug": "none",
+          ".cushion": "none"
+        },
+        "controls": [
+          {
+            "id": "homeBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 24,
+            "y": 24,
+            "w": 64,
+            "h": 64,
+            "right": 88,
+            "bottom": 88
+          },
+          {
+            "id": "pauseBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 162.984375,
+            "y": 24,
+            "w": 64,
+            "h": 64,
+            "right": 226.984375,
+            "bottom": 88
+          },
+          {
+            "id": "stopBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 302,
+            "y": 24,
+            "w": 64,
+            "h": 64,
+            "right": 366,
+            "bottom": 88
+          }
+        ],
+        "textSizes": [
+          26,
+          26,
+          26
+        ],
+        "pinyinMinimum": 15,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "servedHomeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "servedChapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "matchedInitial": true,
+      "home": {
+        "entry": {
+          "x": 28,
+          "y": 420.296875,
+          "w": 264,
+          "h": 88,
+          "right": 292,
+          "bottom": 508.296875
+        },
+        "scene": {
+          "x": 16,
+          "y": 82.296875,
+          "w": 288,
+          "h": 250,
+          "right": 304,
+          "bottom": 332.296875
+        },
+        "animals": [
+          {
+            "class": "home-animal home-elephant",
+            "x": 16,
+            "y": 82.296875,
+            "w": 149.75,
+            "h": 149.75,
+            "right": 165.75,
+            "bottom": 232.046875
+          },
+          {
+            "class": "home-animal home-bunny",
+            "x": 211.84375,
+            "y": 110.296875,
+            "w": 92.15625,
+            "h": 92.15625,
+            "right": 304,
+            "bottom": 202.453125
+          },
+          {
+            "class": "home-animal home-cat",
+            "x": 50.546875,
+            "y": 245.90625,
+            "w": 86.390625,
+            "h": 86.390625,
+            "right": 136.9375,
+            "bottom": 332.296875
+          },
+          {
+            "class": "home-animal home-dog",
+            "x": 154.25,
+            "y": 228.625,
+            "w": 103.671875,
+            "h": 103.671875,
+            "right": 257.921875,
+            "bottom": 332.296875
+          }
+        ],
+        "rug": {
+          "height": "176px",
+          "bottom": "4px",
+          "left": "0px",
+          "right": "0px"
+        },
+        "overflow": false
+      },
+      "chapter": {
+        "book": {
+          "x": 8,
+          "y": 8,
+          "w": 304,
+          "h": 962.125,
+          "right": 312,
+          "bottom": 970.125
+        },
+        "animals": [
+          {
+            "id": "elephant",
+            "x": 16,
+            "y": 142,
+            "w": 139,
+            "h": 201,
+            "right": 155,
+            "bottom": 343,
+            "images": [
+              {
+                "x": 16,
+                "y": 204,
+                "w": 139,
+                "h": 139,
+                "right": 155,
+                "bottom": 343,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "bunny",
+            "x": 173.5,
+            "y": 159,
+            "w": 122,
+            "h": 184,
+            "right": 295.5,
+            "bottom": 343,
+            "images": [
+              {
+                "x": 173.5,
+                "y": 221,
+                "w": 122,
+                "h": 122,
+                "right": 295.5,
+                "bottom": 343,
+                "complete": true
+              },
+              {
+                "x": 173.5,
+                "y": 221,
+                "w": 122,
+                "h": 122,
+                "right": 295.5,
+                "bottom": 343,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "cat",
+            "x": 27.5,
+            "y": 367,
+            "w": 116,
+            "h": 178,
+            "right": 143.5,
+            "bottom": 545,
+            "images": [
+              {
+                "x": 27.5,
+                "y": 429,
+                "w": 116,
+                "h": 116,
+                "right": 143.5,
+                "bottom": 545,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "dog",
+            "x": 170.5,
+            "y": 355,
+            "w": 128,
+            "h": 190,
+            "right": 298.5,
+            "bottom": 545,
+            "images": [
+              {
+                "x": 170.5,
+                "y": 417,
+                "w": 128,
+                "h": 128,
+                "right": 298.5,
+                "bottom": 545,
+                "complete": true
+              },
+              {
+                "x": 170.5,
+                "y": 417,
+                "w": 128,
+                "h": 128,
+                "right": 298.5,
+                "bottom": 545,
+                "complete": true
+              },
+              {
+                "x": 170.5,
+                "y": 417,
+                "w": 128,
+                "h": 128,
+                "right": 298.5,
+                "bottom": 545,
+                "complete": true
+              }
+            ]
+          }
+        ],
+        "imageOutsideBook": [],
+        "decorations": {
+          ".floor": "none",
+          ".rug": "none",
+          ".cushion": "none"
+        },
+        "controls": [
+          {
+            "id": "homeBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 22,
+            "y": 24,
+            "w": 64,
+            "h": 64,
+            "right": 86,
+            "bottom": 88
+          },
+          {
+            "id": "pauseBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 127.984375,
+            "y": 24,
+            "w": 64,
+            "h": 64,
+            "right": 191.984375,
+            "bottom": 88
+          },
+          {
+            "id": "stopBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 233.984375,
+            "y": 24,
+            "w": 64,
+            "h": 64,
+            "right": 297.984375,
+            "bottom": 88
+          }
+        ],
+        "textSizes": [
+          24,
+          24,
+          24
+        ],
+        "pinyinMinimum": 14,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "servedHomeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "servedChapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "matchedInitial": true,
+      "home": {
+        "entry": {
+          "x": 296,
+          "y": 88,
+          "w": 246,
+          "h": 118,
+          "right": 542,
+          "bottom": 206
+        },
+        "scene": {
+          "x": 20,
+          "y": 76,
+          "w": 240,
+          "h": 168,
+          "right": 260,
+          "bottom": 244
+        },
+        "animals": [
+          {
+            "class": "home-animal home-elephant",
+            "x": 20,
+            "y": 76,
+            "w": 115.1875,
+            "h": 115.1875,
+            "right": 135.1875,
+            "bottom": 191.1875
+          },
+          {
+            "class": "home-animal home-bunny",
+            "x": 183.203125,
+            "y": 84,
+            "w": 76.796875,
+            "h": 76.796875,
+            "right": 260,
+            "bottom": 160.796875
+          },
+          {
+            "class": "home-animal home-cat",
+            "x": 48.796875,
+            "y": 172,
+            "w": 72,
+            "h": 72,
+            "right": 120.796875,
+            "bottom": 244
+          },
+          {
+            "class": "home-animal home-dog",
+            "x": 144.8125,
+            "y": 162.40625,
+            "w": 81.59375,
+            "h": 81.59375,
+            "right": 226.40625,
+            "bottom": 244
+          }
+        ],
+        "rug": {
+          "height": "110px",
+          "bottom": "6px",
+          "left": "0px",
+          "right": "0px"
+        },
+        "overflow": false
+      },
+      "chapter": {
+        "book": {
+          "x": 12,
+          "y": 12,
+          "w": 820,
+          "h": 789,
+          "right": 832,
+          "bottom": 801
+        },
+        "animals": [
+          {
+            "id": "elephant",
+            "x": 28,
+            "y": 184.78125,
+            "w": 258.21875,
+            "h": 258.21875,
+            "right": 286.21875,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 28,
+                "y": 184.78125,
+                "w": 258.21875,
+                "h": 258.21875,
+                "right": 286.21875,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "bunny",
+            "x": 296.21875,
+            "y": 276.40625,
+            "w": 166.59375,
+            "h": 166.59375,
+            "right": 462.8125,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 296.21875,
+                "y": 276.40625,
+                "w": 166.59375,
+                "h": 166.59375,
+                "right": 462.8125,
+                "bottom": 443,
+                "complete": true
+              },
+              {
+                "x": 296.21875,
+                "y": 276.40625,
+                "w": 166.59375,
+                "h": 166.59375,
+                "right": 462.8125,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "cat",
+            "x": 476.9375,
+            "y": 293,
+            "w": 150,
+            "h": 150,
+            "right": 626.9375,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 476.9375,
+                "y": 293,
+                "w": 150,
+                "h": 150,
+                "right": 626.9375,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          },
+          {
+            "id": "dog",
+            "x": 641.0625,
+            "y": 268.078125,
+            "w": 174.921875,
+            "h": 174.921875,
+            "right": 815.984375,
+            "bottom": 443,
+            "images": [
+              {
+                "x": 641.0625,
+                "y": 268.078125,
+                "w": 174.921875,
+                "h": 174.921875,
+                "right": 815.984375,
+                "bottom": 443,
+                "complete": true
+              },
+              {
+                "x": 641.0625,
+                "y": 268.078125,
+                "w": 174.921875,
+                "h": 174.921875,
+                "right": 815.984375,
+                "bottom": 443,
+                "complete": true
+              },
+              {
+                "x": 641.0625,
+                "y": 268.078125,
+                "w": 174.921875,
+                "h": 174.921875,
+                "right": 815.984375,
+                "bottom": 443,
+                "complete": true
+              }
+            ]
+          }
+        ],
+        "imageOutsideBook": [],
+        "decorations": {
+          ".floor": "none",
+          ".rug": "none",
+          ".cushion": "none"
+        },
+        "controls": [
+          {
+            "id": "homeBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 30,
+            "y": 28,
+            "w": 64,
+            "h": 64,
+            "right": 94,
+            "bottom": 92
+          },
+          {
+            "id": "pauseBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 674,
+            "y": 28,
+            "w": 64,
+            "h": 64,
+            "right": 738,
+            "bottom": 92
+          },
+          {
+            "id": "stopBtn",
+            "color": "rgb(74, 52, 36)",
+            "x": 750,
+            "y": 28,
+            "w": 64,
+            "h": 64,
+            "right": 814,
+            "bottom": 92
+          }
+        ],
+        "textSizes": [
+          26,
+          26,
+          26
+        ],
+        "pinyinMinimum": 15,
+        "overflow": false
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "chapter-scrolled-320x568.png",
+      "sha256": "dbf3b683eaf10e45839ae371f6d34de5dc5cd92dced1b2200d697c1502ff7cc2",
+      "modified": "2026-11-03T10:37:49.974Z"
+    },
+    {
+      "name": "chapter-scrolled-390x844.png",
+      "sha256": "6c1189374cef195e061db2b570026269814d7b8f2f27b93a2e9e2a27bad363d2",
+      "modified": "2026-11-03T10:37:47.733Z"
+    },
+    {
+      "name": "chapter-scrolled-844x390.png",
+      "sha256": "1587324da0b0548c2fdb8018f6de13e3abd60bedf88c9ff76db73899fcb4ba5e",
+      "modified": "2026-11-03T10:37:54.190Z"
+    },
+    {
+      "name": "chapter-stopped-1024x768.png",
+      "sha256": "0efaa9542590a1a953e389f8afd3638253d99f3c028877c06eeff7362f7f571e",
+      "modified": "2026-11-03T10:37:44.027Z"
+    },
+    {
+      "name": "chapter-stopped-1440x900.png",
+      "sha256": "22bcf3331c4885114a3cf62cc869e82e5a95f9736f1a386ed36c1bda3c0bdf6b",
+      "modified": "2026-11-03T10:37:35.518Z"
+    },
+    {
+      "name": "chapter-stopped-320x568.png",
+      "sha256": "3867847d9895f500e04256047bc99d9d8be252a1d936847ada186d2482a98ff4",
+      "modified": "2026-11-03T10:37:48.961Z"
+    },
+    {
+      "name": "chapter-stopped-390x844.png",
+      "sha256": "57a5dc94d26ed3de4009374ac9aea456b4cdad09cbecad215740927693cf3c31",
+      "modified": "2026-11-03T10:37:46.846Z"
+    },
+    {
+      "name": "chapter-stopped-768x1024.png",
+      "sha256": "6d1bb6c3ab5dff33c36c0e879cf7e20943dd9330e3265aeeb5b21a955de096ad",
+      "modified": "2026-11-03T10:37:41.904Z"
+    },
+    {
+      "name": "chapter-stopped-844x390.png",
+      "sha256": "ed525a34ada7d226b48d17557c85b503b993af27db2717507848ffea5bfdbc25",
+      "modified": "2026-11-03T10:37:53.397Z"
+    },
+    {
+      "name": "home-1024x768.png",
+      "sha256": "0465648b9b4bfa19f4da334eda34a8a4425aab7608e2e2f61fb74b2877562c99",
+      "modified": "2026-11-03T10:37:41.948Z"
+    },
+    {
+      "name": "home-1440x900.png",
+      "sha256": "cd2fb4f30ab8efb5bf0770278238ab93498fdb6d8c6068cacbcdc8532184bbf2",
+      "modified": "2026-11-03T10:37:33.483Z"
+    },
+    {
+      "name": "home-320x568.png",
+      "sha256": "2d80df985b06af89d87d7a4853ec316493e16adf200e5a3c9fe8fadf43e46247",
+      "modified": "2026-11-03T10:37:47.441Z"
+    },
+    {
+      "name": "home-390x844.png",
+      "sha256": "d5dfb726b24c26c514f0e56ebf77b4459fad24e6a9abcc4d023a1f646bb4cb5b",
+      "modified": "2026-11-03T10:37:45.378Z"
+    },
+    {
+      "name": "home-768x1024.png",
+      "sha256": "1b9a6be637b0031dc56ab759daacaa6c318c0d496ed2ba429850c21f58c04daa",
+      "modified": "2026-11-03T10:37:39.919Z"
+    },
+    {
+      "name": "home-844x390.png",
+      "sha256": "63e14610993d9995e1eb2986a2b63f66b0735318abcf9fb0cc05e199a7c6d258",
+      "modified": "2026-11-03T10:37:50.646Z"
+    }
+  ]
+}

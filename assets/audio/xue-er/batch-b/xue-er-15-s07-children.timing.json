@@ -1,0 +1,67 @@
+{
+  "text": "《诗》云：‘如切如磋，如琢如磨’，",
+  "dur": 5.3025,
+  "t": [
+    null,
+    0.056833,
+    null,
+    0.426125,
+    null,
+    null,
+    1.136375,
+    1.434666,
+    1.818166,
+    2.088083,
+    null,
+    2.855125,
+    3.139208,
+    3.480125,
+    3.75,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "6a2dcab78c8a55bcb4d1fd8d398a7809824099070cc724f31b5f7541ddce30ad",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s07-bunny",
+      "rawSHA256": "eb789e26826edba693b46157e1692fc907c9525fd2f5212c4b4272375f62a3e2",
+      "ssmlSHA256": "25dab378df0ed2a3e01497a6a771ab058d731e529ce67e381d18c867f196d559"
+    },
+    {
+      "id": "xue-er-15-s07-cat",
+      "rawSHA256": "3785d2f9072705f5337bc6575e97526a2f1a155c67c9731fab8c9d3a2dfead24",
+      "ssmlSHA256": "b4a292374827a194ec386c5d5cde9804a80c188ab12a8252c27ba81b2c97d697"
+    },
+    {
+      "id": "xue-er-15-s07-dog",
+      "rawSHA256": "3023316c1996de12bf227782c8a08634c53e070465fc6e40e31fa1edcdf5bcc4",
+      "ssmlSHA256": "32f814ce42476e62784b8f6d4be05fcb619d7772334044c69f1b8edc28c3aebd"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8287037037037037,
+        0.7407407407407407
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

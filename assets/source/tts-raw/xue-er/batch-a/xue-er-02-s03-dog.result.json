@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-02-s03-dog",
+  "batch": "batch-a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "ssmlSHA256": "6a1fecbe6b991ec9db9846bb86c0f27b8f764d6e6741bb6e995476bce1d64e48",
+  "attemptId": "971e2b48-56a0-4762-a4d3-5b564c7d02fd",
+  "startedAt": "2026-11-03T12:49:08.798507+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:49:13.835751+00:00",
+  "rawSHA256": "3a256bbde8152033a7600a864483292e349bf7b19e565ee7e5052dee8c97d281",
+  "wb": [
+    [
+      0.082,
+      0.235,
+      "不"
+    ],
+    [
+      0.317,
+      0.188,
+      "耗"
+    ],
+    [
+      0.505,
+      0.658,
+      "\">好犯上"
+    ],
+    [
+      1.164,
+      0.282,
+      "而"
+    ],
+    [
+      1.447,
+      0.141,
+      "耗"
+    ],
+    [
+      1.588,
+      0.376,
+      "\">好作乱"
+    ],
+    [
+      1.964,
+      0.0,
+      "者"
+    ],
+    [
+      2.501,
+      0.47,
+      "未之"
+    ],
+    [
+      2.971,
+      0.235,
+      "有"
+    ],
+    [
+      3.207,
+      0.0,
+      "也"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 5
+    },
+    {
+      "textOffset": 288,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 5
+    },
+    {
+      "textOffset": 313,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 336,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 338,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 339,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

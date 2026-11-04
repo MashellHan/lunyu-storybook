@@ -1,0 +1,74 @@
+{
+  "id": "xue-er-15-s11-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "7b1227eb7ad522d52c57d25d48151a7ea2b960246c165341d4a6a3d6584f78c1",
+  "attemptId": "f7c6ea7c-61c1-43bf-a266-ccd8b5849e9b",
+  "startedAt": "2026-11-03T13:07:16.137749+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:07:20.350036+00:00",
+  "rawSHA256": "25b5d65ea1384d4c5b9ba86389ceec630e907abfcb4654eda27876cf41007ae1",
+  "wb": [
+    [
+      0.058833,
+      0.367625,
+      "告"
+    ],
+    [
+      0.426458,
+      0.323541,
+      "诸"
+    ],
+    [
+      0.764708,
+      0.205875,
+      "往"
+    ],
+    [
+      0.970583,
+      0.176458,
+      "而"
+    ],
+    [
+      1.147041,
+      0.191166,
+      "知"
+    ],
+    [
+      1.352958,
+      0.602958,
+      "来者"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 261,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 262,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 266,
+      "wordLength": 2
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

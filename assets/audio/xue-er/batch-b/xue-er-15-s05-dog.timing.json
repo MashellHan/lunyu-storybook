@@ -1,0 +1,54 @@
+{
+  "text": "未若贫而乐，富而好礼者也。”",
+  "dur": 2.688,
+  "t": [
+    0.082,
+    0.364,
+    0.505,
+    0.741,
+    0.929,
+    null,
+    1.448,
+    1.73,
+    1.871,
+    2.06,
+    2.201,
+    2.389,
+    null,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 8,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 8,
+      "remainingSourceIndex": 9,
+      "remainingSourceIndices": [
+        9
+      ],
+      "originalBoundaryText": "\">好礼",
+      "usedBoundaryOffsetSeconds": 2.06,
+      "usedBoundaryDurationSeconds": 0.141,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 4
+      }
+    }
+  ],
+  "audioSHA256": "f5f7968a477b0297053d89c4d2da9a61cab984530ba19e2a701bc9de0126607a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s05-dog",
+      "rawSHA256": "df89614dca4e6b0c2164450286cdd3051a1dbe300445659e8f53fff9b248ca8a",
+      "ssmlSHA256": "96b29b6dd59e73abdf8acb28b33ed2665010b7484eefae5b409737ef3967f8ae"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "capturedAt": "2026-11-03T10:37:10.537Z",
+  "expectedChapter": "189e70c7017f28e278acd3f56e891e1af0cb709c86a34b2f7451bd6738136a5b",
+  "fingerprint": {
+    "built_at": "2026-11-03T10:30:27.646728+00:00",
+    "files": {
+      "public/index.html": {
+        "bytes": 15795,
+        "sha256": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c"
+      },
+      "public/learn/xue-er/1/index.html": {
+        "bytes": 564197,
+        "sha256": "189e70c7017f28e278acd3f56e891e1af0cb709c86a34b2f7451bd6738136a5b"
+      },
+      "dist/index.html": {
+        "bytes": 280936,
+        "sha256": "1366ae8429aad94473c89b053a96b6c26b0c69dc3c7c5733743f43a61bc9f9a0"
+      },
+      "dist/index-single.html": {
+        "bytes": 829332,
+        "sha256": "b78e07919ecbbf7c289e31d83548f5deb40acb1cbfe256f68d682bcd6d64cf35"
+      }
+    }
+  },
+  "method": "Read-only measurements of existing served build, reduced-motion for static geometry; no build and no detector",
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "homeHash": "0f66016708052036855c415f2eb47dd280bf0ed0e31d990a7a34c8d376e3669c",
+      "chapterHash": "6c50d7627405b26fa63eaf4fa8854f7ed13f981662d555a164b712fbfa791e94",
+      "skipped": "served chapter changed during review"
+    }
+  ]
+}

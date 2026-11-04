@@ -1,0 +1,840 @@
+{
+  "checked_at": "2026-11-03T11:18:26.715449+00:00",
+  "status": "Final visual pass for the frozen homepage increment; complete test suite and deployment remain Lead-owned gates.",
+  "repository": "/Users/mengxionghan/workspace/lunyu-storybook",
+  "products": {
+    "public/index.html": {
+      "bytes": 19084,
+      "sha256": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba",
+      "modified_at": "2026-11-03T11:14:40.242493+00:00"
+    }
+  },
+  "sources": {
+    "src/home.html": {
+      "bytes": 2208,
+      "sha256": "e2126e18b18625fec612d1bb58747a7c3992a3bfdfe6db4c2e82a87be03368a0",
+      "modified_at": "2026-11-03T11:08:03.663741+00:00"
+    },
+    "src/home.css": {
+      "bytes": 7958,
+      "sha256": "c904aa3095309e197de62e098ec1084fb257da530198d138955a4a26bbbdd5c2",
+      "modified_at": "2026-11-03T11:14:37.284266+00:00"
+    },
+    "src/home.js": {
+      "bytes": 962,
+      "sha256": "fcca7591645564f374587ecbf6579ddc3a30ff3e9c71cef0cba38f0023792584",
+      "modified_at": "2026-11-03T11:08:03.668953+00:00"
+    }
+  },
+  "screenshots": {
+    "tests/artifacts/home-1440x900.png": {
+      "bytes": 163582,
+      "sha256": "6f36fcdd152cc2707c2a861bfbad47f5b91b87042c1b7f64221e8c1758c7a3e4",
+      "modified_at": "2026-11-03T11:15:54.731092+00:00"
+    },
+    "tests/artifacts/home-peak-1440x900.png": {
+      "bytes": 163800,
+      "sha256": "68dd620ba8da017adaa34caf4c9c5d777690acd686ebd829b7635d3f40b3f9f6",
+      "modified_at": "2026-11-03T11:15:55.065939+00:00"
+    },
+    "tests/artifacts/home-1024x768.png": {
+      "bytes": 127294,
+      "sha256": "e2b2a7d4291838714ef6682f8d584a4b30f80dce4e7bcc9e7ca7d485cb10b9c1",
+      "modified_at": "2026-11-03T11:15:54.761730+00:00"
+    },
+    "tests/artifacts/home-peak-1024x768.png": {
+      "bytes": 127707,
+      "sha256": "6bfab72fea9ca6b21fea5bee3d11123708825faec905c8f9dd5d9018bdae57aa",
+      "modified_at": "2026-11-03T11:15:54.988474+00:00"
+    },
+    "tests/artifacts/home-768x1024.png": {
+      "bytes": 127328,
+      "sha256": "561892ec7286bdf43912f053c324eaa5fbfb244a1fe1936e6f0a7172bb7687ef",
+      "modified_at": "2026-11-03T11:15:55.232612+00:00"
+    },
+    "tests/artifacts/home-peak-768x1024.png": {
+      "bytes": 127743,
+      "sha256": "4ff74af0e4f23bc5392758b20d21960bb7f110af3b78cd95b655e732c928ea94",
+      "modified_at": "2026-11-03T11:15:55.706771+00:00"
+    },
+    "tests/artifacts/home-390x844.png": {
+      "bytes": 119903,
+      "sha256": "c236549102a77b3db5464127e614f71b644c94ec2e87ced77cceddc130a2b423",
+      "modified_at": "2026-11-03T11:16:00.019295+00:00"
+    },
+    "tests/artifacts/home-peak-390x844.png": {
+      "bytes": 119725,
+      "sha256": "fb06d2209ec181978bf785aead2bc1bf8990b85f0e6b31eff50d2c64d22abb01",
+      "modified_at": "2026-11-03T11:16:00.407171+00:00"
+    },
+    "tests/artifacts/home-320x568.png": {
+      "bytes": 100153,
+      "sha256": "cd1278662052897c399262468ac7e268e10db0a460fab637898caf3602621621",
+      "modified_at": "2026-11-03T11:16:00.068480+00:00"
+    },
+    "tests/artifacts/home-peak-320x568.png": {
+      "bytes": 100030,
+      "sha256": "6df7fab28b4b4aed06e387675ba4f2398eb49d66b2cee070ab29f91b91c4eac1",
+      "modified_at": "2026-11-03T11:16:00.242811+00:00"
+    },
+    "tests/artifacts/home-844x390.png": {
+      "bytes": 86163,
+      "sha256": "7000bf2ee053a29e2c207bf8dd8d837776f16eb433186719ee58d94b8d3da8ee",
+      "modified_at": "2026-11-03T11:16:00.591609+00:00"
+    }
+  },
+  "layouts": {
+    "tests/artifacts/home-1440x900-layout.json": {
+      "file": {
+        "bytes": 1926,
+        "sha256": "b7231b94e1feb98ed3b2dc213e41ff01c76a2da60fa1c569b5a0ea0d0d14dc3b",
+        "modified_at": "2026-11-03T11:15:54.524199+00:00"
+      },
+      "data": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "entry": {
+          "x": 579.1875,
+          "y": 206.5,
+          "width": 334.40625,
+          "height": 88
+        },
+        "playIcon": {
+          "x": 849.59375,
+          "y": 218.5,
+          "width": 64,
+          "height": 64
+        },
+        "entryHit": "first-chapter",
+        "characters": [
+          {
+            "x": 134.59375,
+            "y": 333.390625,
+            "width": 226.1875,
+            "height": 226.1875,
+            "right": 360.78125
+          },
+          {
+            "x": 395.90625,
+            "y": 368.390625,
+            "width": 128.6875,
+            "height": 128.6875,
+            "right": 524.59375
+          },
+          {
+            "x": 181.390625,
+            "y": 558.59375,
+            "width": 124.796875,
+            "height": 124.796875,
+            "right": 306.1875
+          },
+          {
+            "x": 321.796875,
+            "y": 527.390625,
+            "width": 156,
+            "height": 156,
+            "right": 477.796875
+          }
+        ],
+        "decorations": [
+          {
+            "decoration": "bookmark bookmark-coral",
+            "visible": true,
+            "x": 587.1875,
+            "y": 116.5,
+            "width": 14,
+            "height": 26,
+            "right": 601.1875,
+            "bottom": 142.5
+          },
+          {
+            "decoration": "bookmark bookmark-sage",
+            "visible": true,
+            "x": 617.1875,
+            "y": 120.5,
+            "width": 12,
+            "height": 22,
+            "right": 629.1875,
+            "bottom": 142.5
+          },
+          {
+            "decoration": "paper-plane",
+            "visible": true,
+            "x": 767.0486450195312,
+            "y": 101.38299560546875,
+            "width": 41.5902099609375,
+            "height": 30.2340087890625,
+            "right": 808.6388549804688,
+            "bottom": 131.61700439453125
+          },
+          {
+            "decoration": "peek peek-bunny",
+            "visible": true,
+            "x": 957.59375,
+            "y": 74.5,
+            "width": 80,
+            "height": 64,
+            "right": 1037.59375,
+            "bottom": 138.5
+          },
+          {
+            "decoration": "peek peek-cat",
+            "visible": true,
+            "x": 1212,
+            "y": 74.5,
+            "width": 72,
+            "height": 64,
+            "right": 1284,
+            "bottom": 138.5
+          }
+        ]
+      }
+    },
+    "tests/artifacts/home-1024x768-layout.json": {
+      "file": {
+        "bytes": 1915,
+        "sha256": "5c694e06150b22e949eea61abd60706246d8bb7085b9a762bc8d651fcf890cae",
+        "modified_at": "2026-11-03T11:15:54.581916+00:00"
+      },
+      "data": {
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "entry": {
+          "x": 404.578125,
+          "y": 140.5,
+          "width": 263.703125,
+          "height": 88
+        },
+        "playIcon": {
+          "x": 604.28125,
+          "y": 152.5,
+          "width": 64,
+          "height": 64
+        },
+        "entryHit": "first-chapter",
+        "characters": [
+          {
+            "x": 32,
+            "y": 258.1875,
+            "width": 185.921875,
+            "height": 185.921875,
+            "right": 217.921875
+          },
+          {
+            "x": 246.796875,
+            "y": 293.1875,
+            "width": 105.78125,
+            "height": 105.78125,
+            "right": 352.578125
+          },
+          {
+            "x": 70.46875,
+            "y": 505.609375,
+            "width": 102.578125,
+            "height": 102.578125,
+            "right": 173.046875
+          },
+          {
+            "x": 185.890625,
+            "y": 479.96875,
+            "width": 128.21875,
+            "height": 128.21875,
+            "right": 314.109375
+          }
+        ],
+        "decorations": [
+          {
+            "decoration": "bookmark bookmark-coral",
+            "visible": true,
+            "x": 408.578125,
+            "y": 54.5,
+            "width": 12,
+            "height": 22,
+            "right": 420.578125,
+            "bottom": 76.5
+          },
+          {
+            "decoration": "bookmark bookmark-sage",
+            "visible": true,
+            "x": 434.578125,
+            "y": 58.5,
+            "width": 10,
+            "height": 18,
+            "right": 444.578125,
+            "bottom": 76.5
+          },
+          {
+            "decoration": "paper-plane",
+            "visible": true,
+            "x": 553.1476440429688,
+            "y": 42.04719924926758,
+            "width": 33.0172119140625,
+            "height": 24.905597686767578,
+            "right": 586.1648559570312,
+            "bottom": 66.95279693603516
+          },
+          {
+            "decoration": "peek peek-bunny",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          {
+            "decoration": "peek peek-cat",
+            "visible": true,
+            "x": 924,
+            "y": 26.5,
+            "width": 52,
+            "height": 46,
+            "right": 976,
+            "bottom": 72.5
+          }
+        ]
+      }
+    },
+    "tests/artifacts/home-768x1024-layout.json": {
+      "file": {
+        "bytes": 1878,
+        "sha256": "756f8a8f4098c3c055d5b87e73841b7ef4a1fe878d60549a2b3491f307595f74",
+        "modified_at": "2026-11-03T11:15:54.670913+00:00"
+      },
+      "data": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "entry": {
+          "x": 46,
+          "y": 475.796875,
+          "width": 316,
+          "height": 88
+        },
+        "playIcon": {
+          "x": 298,
+          "y": 487.796875,
+          "width": 64,
+          "height": 64
+        },
+        "entryHit": "first-chapter",
+        "characters": [
+          {
+            "x": 204,
+            "y": 95.796875,
+            "width": 187.1875,
+            "height": 187.1875,
+            "right": 391.1875
+          },
+          {
+            "x": 448.8125,
+            "y": 123.796875,
+            "width": 115.1875,
+            "height": 115.1875,
+            "right": 564
+          },
+          {
+            "x": 247.1875,
+            "y": 273.796875,
+            "width": 108,
+            "height": 108,
+            "right": 355.1875
+          },
+          {
+            "x": 376.8125,
+            "y": 252.203125,
+            "width": 129.59375,
+            "height": 129.59375,
+            "right": 506.40625
+          }
+        ],
+        "decorations": [
+          {
+            "decoration": "bookmark bookmark-coral",
+            "visible": true,
+            "x": 48,
+            "y": 387.796875,
+            "width": 12,
+            "height": 22,
+            "right": 60,
+            "bottom": 409.796875
+          },
+          {
+            "decoration": "bookmark bookmark-sage",
+            "visible": true,
+            "x": 74,
+            "y": 391.796875,
+            "width": 10,
+            "height": 18,
+            "right": 84,
+            "bottom": 409.796875
+          },
+          {
+            "decoration": "paper-plane",
+            "visible": true,
+            "x": 224.0851593017578,
+            "y": 375.3440856933594,
+            "width": 33.01719665527344,
+            "height": 24.90557861328125,
+            "right": 257.10235595703125,
+            "bottom": 400.2496643066406
+          },
+          {
+            "decoration": "peek peek-bunny",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          {
+            "decoration": "peek peek-cat",
+            "visible": true,
+            "x": 676,
+            "y": 359.796875,
+            "width": 52,
+            "height": 46,
+            "right": 728,
+            "bottom": 405.796875
+          }
+        ]
+      }
+    },
+    "tests/artifacts/home-390x844-layout.json": {
+      "file": {
+        "bytes": 1812,
+        "sha256": "bb6e7ed3e317f231f4e93ae216effc9c6be865ed3b9bccb1b5813db713447fdc",
+        "modified_at": "2026-11-03T11:15:59.671880+00:00"
+      },
+      "data": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "entry": {
+          "x": 32,
+          "y": 446.296875,
+          "width": 326,
+          "height": 88
+        },
+        "playIcon": {
+          "x": 294,
+          "y": 458.296875,
+          "width": 64,
+          "height": 64
+        },
+        "entryHit": "first-chapter",
+        "characters": [
+          {
+            "x": 20,
+            "y": 82.296875,
+            "width": 182,
+            "height": 182,
+            "right": 202
+          },
+          {
+            "x": 258,
+            "y": 110.296875,
+            "width": 112,
+            "height": 112,
+            "right": 370
+          },
+          {
+            "x": 62,
+            "y": 253.296875,
+            "width": 105,
+            "height": 105,
+            "right": 167
+          },
+          {
+            "x": 188,
+            "y": 232.296875,
+            "width": 126,
+            "height": 126,
+            "right": 314
+          }
+        ],
+        "decorations": [
+          {
+            "decoration": "bookmark bookmark-coral",
+            "visible": true,
+            "x": 40,
+            "y": 362.296875,
+            "width": 12,
+            "height": 20,
+            "right": 52,
+            "bottom": 382.296875
+          },
+          {
+            "decoration": "bookmark bookmark-sage",
+            "visible": true,
+            "x": 64,
+            "y": 364.296875,
+            "width": 10,
+            "height": 18,
+            "right": 74,
+            "bottom": 382.296875
+          },
+          {
+            "decoration": "paper-plane",
+            "visible": true,
+            "x": 136.3686065673828,
+            "y": 352.0025329589844,
+            "width": 30.700286865234375,
+            "height": 22.58868408203125,
+            "right": 167.0688934326172,
+            "bottom": 374.5912170410156
+          },
+          {
+            "decoration": "peek peek-bunny",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          {
+            "decoration": "peek peek-cat",
+            "visible": true,
+            "x": 310,
+            "y": 332.296875,
+            "width": 52,
+            "height": 46,
+            "right": 362,
+            "bottom": 378.296875
+          }
+        ]
+      }
+    },
+    "tests/artifacts/home-320x568-layout.json": {
+      "file": {
+        "bytes": 1881,
+        "sha256": "3f70660bb3c8d8f6d3738b3c7fa52a3ad644c4675e75e7300dbe08d59d546ab9",
+        "modified_at": "2026-11-03T11:15:59.747293+00:00"
+      },
+      "data": {
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "entry": {
+          "x": 28,
+          "y": 420.296875,
+          "width": 264,
+          "height": 88
+        },
+        "playIcon": {
+          "x": 228,
+          "y": 432.296875,
+          "width": 64,
+          "height": 64
+        },
+        "entryHit": "first-chapter",
+        "characters": [
+          {
+            "x": 16,
+            "y": 82.296875,
+            "width": 149.75,
+            "height": 149.75,
+            "right": 165.75
+          },
+          {
+            "x": 211.84375,
+            "y": 110.296875,
+            "width": 92.15625,
+            "height": 92.15625,
+            "right": 304
+          },
+          {
+            "x": 50.546875,
+            "y": 245.90625,
+            "width": 86.390625,
+            "height": 86.390625,
+            "right": 136.9375
+          },
+          {
+            "x": 154.25,
+            "y": 228.625,
+            "width": 103.671875,
+            "height": 103.671875,
+            "right": 257.921875
+          }
+        ],
+        "decorations": [
+          {
+            "decoration": "bookmark bookmark-coral",
+            "visible": true,
+            "x": 36,
+            "y": 338.296875,
+            "width": 10,
+            "height": 18,
+            "right": 46,
+            "bottom": 356.296875
+          },
+          {
+            "decoration": "bookmark bookmark-sage",
+            "visible": true,
+            "x": 58,
+            "y": 340.296875,
+            "width": 9,
+            "height": 16,
+            "right": 67,
+            "bottom": 356.296875
+          },
+          {
+            "decoration": "paper-plane",
+            "visible": true,
+            "x": 104.05874633789062,
+            "y": 330.3346252441406,
+            "width": 26.41375732421875,
+            "height": 19.92449951171875,
+            "right": 130.47250366210938,
+            "bottom": 350.2591247558594
+          },
+          {
+            "decoration": "peek peek-bunny",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          {
+            "decoration": "peek peek-cat",
+            "visible": true,
+            "x": 250,
+            "y": 313.296875,
+            "width": 44,
+            "height": 39,
+            "right": 294,
+            "bottom": 352.296875
+          }
+        ]
+      }
+    },
+    "tests/artifacts/home-844x390-layout.json": {
+      "file": {
+        "bytes": 1696,
+        "sha256": "787cdfe89c91352fbdf4168d5d11d4c207523712192c0dcfc35a3a2818b657ff",
+        "modified_at": "2026-11-03T11:16:00.227981+00:00"
+      },
+      "data": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "entry": {
+          "x": 296,
+          "y": 88,
+          "width": 246,
+          "height": 118
+        },
+        "playIcon": {
+          "x": 316,
+          "y": 130,
+          "width": 64,
+          "height": 64
+        },
+        "entryHit": "first-chapter",
+        "characters": [
+          {
+            "x": 20,
+            "y": 76,
+            "width": 115.1875,
+            "height": 115.1875,
+            "right": 135.1875
+          },
+          {
+            "x": 183.203125,
+            "y": 84,
+            "width": 76.796875,
+            "height": 76.796875,
+            "right": 260
+          },
+          {
+            "x": 48.796875,
+            "y": 172,
+            "width": 72,
+            "height": 72,
+            "right": 120.796875
+          },
+          {
+            "x": 144.8125,
+            "y": 162.40625,
+            "width": 81.59375,
+            "height": 81.59375,
+            "right": 226.40625
+          }
+        ],
+        "decorations": [
+          {
+            "decoration": "bookmark bookmark-coral",
+            "visible": true,
+            "x": 306,
+            "y": 14,
+            "width": 10,
+            "height": 12,
+            "right": 316,
+            "bottom": 26
+          },
+          {
+            "decoration": "bookmark bookmark-sage",
+            "visible": true,
+            "x": 328,
+            "y": 14,
+            "width": 10,
+            "height": 12,
+            "right": 338,
+            "bottom": 26
+          },
+          {
+            "decoration": "paper-plane",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          {
+            "decoration": "peek peek-bunny",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          {
+            "decoration": "peek peek-cat",
+            "visible": false,
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        ]
+      }
+    }
+  },
+  "detail_crops": [
+    {
+      "path": "docs/design/review-home-anime-d7179532/home-cat-1440x900-4x.png",
+      "source": "tests/artifacts/home-1440x900.png",
+      "source_sha256": "6f36fcdd152cc2707c2a861bfbad47f5b91b87042c1b7f64221e8c1758c7a3e4",
+      "source_crop_xywh": [
+        1200,
+        62,
+        96,
+        88
+      ],
+      "scale": 4,
+      "sha256": "227018fa6720aed845592062a2908a1eae0b9a2a666e3d17c35b666e2b472d57"
+    },
+    {
+      "path": "docs/design/review-home-anime-d7179532/home-peak-cat-1440x900-4x.png",
+      "source": "tests/artifacts/home-peak-1440x900.png",
+      "source_sha256": "68dd620ba8da017adaa34caf4c9c5d777690acd686ebd829b7635d3f40b3f9f6",
+      "source_crop_xywh": [
+        1200,
+        62,
+        96,
+        88
+      ],
+      "scale": 4,
+      "sha256": "0c2233bf93a6c81038690b4d64bc5c25af68e9daee1729e7b2d7517868043fa6"
+    },
+    {
+      "path": "docs/design/review-home-anime-d7179532/home-cat-390x844-4x.png",
+      "source": "tests/artifacts/home-390x844.png",
+      "source_sha256": "c236549102a77b3db5464127e614f71b644c94ec2e87ced77cceddc130a2b423",
+      "source_crop_xywh": [
+        298,
+        320,
+        76,
+        70
+      ],
+      "scale": 4,
+      "sha256": "28943c65c42cc9db632cc478032cf52c8a1d960fac70cdee12ba7af4c70375e8"
+    },
+    {
+      "path": "docs/design/review-home-anime-d7179532/home-peak-cat-390x844-4x.png",
+      "source": "tests/artifacts/home-peak-390x844.png",
+      "source_sha256": "fb06d2209ec181978bf785aead2bc1bf8990b85f0e6b31eff50d2c64d22abb01",
+      "source_crop_xywh": [
+        298,
+        320,
+        76,
+        70
+      ],
+      "scale": 4,
+      "sha256": "e236690995782f5b719b7795714271104fd301a6a65dd4e91c77ffa1e6d52f14"
+    },
+    {
+      "path": "docs/design/review-home-anime-d7179532/home-cat-320x568-4x.png",
+      "source": "tests/artifacts/home-320x568.png",
+      "source_sha256": "cd1278662052897c399262468ac7e268e10db0a460fab637898caf3602621621",
+      "source_crop_xywh": [
+        238,
+        301,
+        68,
+        63
+      ],
+      "scale": 4,
+      "sha256": "5a1418f9788584ca0c99da7c986e7245073d165ba5f36497d1df8b4d0e650191"
+    },
+    {
+      "path": "docs/design/review-home-anime-d7179532/home-peak-cat-320x568-4x.png",
+      "source": "tests/artifacts/home-peak-320x568.png",
+      "source_sha256": "6df7fab28b4b4aed06e387675ba4f2398eb49d66b2cee070ab29f91b91c4eac1",
+      "source_crop_xywh": [
+        238,
+        301,
+        68,
+        63
+      ],
+      "scale": 4,
+      "sha256": "26e8021e47d08850eef06d9bed0617ccf15bb693ad165a3c8faffe7d2861edb2"
+    }
+  ],
+  "final_checked_at": "2026-11-03T11:21:25.079193+00:00",
+  "served_homepage": {
+    "url": "http://127.0.0.1:4173/",
+    "bytes": 19084,
+    "sha256": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba"
+  },
+  "freeze_confirmation": {
+    "from": "Engineer via Herdr and latest user/Lead handoff",
+    "source_and_product_confirmed": true,
+    "screenshots_confirmed_same_product": true,
+    "test_suite_status_at_visual_review": "45-case complete suite running in exec session 85606; not claimed passed by Designer"
+  },
+  "method": [
+    "Opened six full homepage screenshots and five authored peak screenshots.",
+    "Read six Engineer-generated home layout JSON files; did not rerun browser layout probes.",
+    "Opened six 4x crops derived with sips from current screenshots; source art and screenshots unchanged.",
+    "Read home sources and peak-capture test code; no build, test suite, detector or media generation.",
+    "Rechecked local homepage, HTTP response, source and all reviewed screenshot/layout SHA-256 values before finalizing."
+  ],
+  "not_verified": [
+    "Physical iPhone/iPad/Android and Safari",
+    "Physical touch, real background/lock-screen behavior and human audio listening",
+    "Complete test-suite result and deployment are reported separately by Lead"
+  ]
+}

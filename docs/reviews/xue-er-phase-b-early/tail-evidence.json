@@ -1,0 +1,670 @@
+{
+  "reviewedAt": "2026-11-03T12:00:33.565Z",
+  "kind": "targeted-tail-after-screenshot-timeout",
+  "file": "build/xue-er-preview/xue-er-15.html",
+  "htmlSHA256": "332857ceaaa2ebfa8c91edec34c8294624c1344b6fa172aba772b2227f6dc71b",
+  "pages": [
+    {
+      "page": "xue-er-15-p03",
+      "cells": [
+        {
+          "char": "子",
+          "py": "zǐ",
+          "segmentId": "xue-er-15-s06",
+          "chapterIndex": 40
+        },
+        {
+          "char": "贡",
+          "py": "gòng",
+          "segmentId": "xue-er-15-s06",
+          "chapterIndex": 41
+        },
+        {
+          "char": "曰",
+          "py": "yuē",
+          "segmentId": "xue-er-15-s06",
+          "chapterIndex": 42
+        },
+        {
+          "char": "：",
+          "py": "",
+          "segmentId": "xue-er-15-s06",
+          "chapterIndex": 43
+        },
+        {
+          "char": "“",
+          "py": "",
+          "segmentId": "xue-er-15-s06",
+          "chapterIndex": 44
+        },
+        {
+          "char": "《",
+          "py": "",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 45
+        },
+        {
+          "char": "诗",
+          "py": "shī",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 46
+        },
+        {
+          "char": "》",
+          "py": "",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 47
+        },
+        {
+          "char": "云",
+          "py": "yún",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 48
+        },
+        {
+          "char": "：",
+          "py": "",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 49
+        },
+        {
+          "char": "‘",
+          "py": "",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 50
+        },
+        {
+          "char": "如",
+          "py": "rú",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 51
+        },
+        {
+          "char": "切",
+          "py": "qiē",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 52
+        },
+        {
+          "char": "如",
+          "py": "rú",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 53
+        },
+        {
+          "char": "磋",
+          "py": "cuō",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 54
+        },
+        {
+          "char": "，",
+          "py": "",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 55
+        },
+        {
+          "char": "如",
+          "py": "rú",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 56
+        },
+        {
+          "char": "琢",
+          "py": "zhuó",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 57
+        },
+        {
+          "char": "如",
+          "py": "rú",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 58
+        },
+        {
+          "char": "磨",
+          "py": "mó",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 59
+        },
+        {
+          "char": "’",
+          "py": "",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 60
+        },
+        {
+          "char": "，",
+          "py": "",
+          "segmentId": "xue-er-15-s07",
+          "chapterIndex": 61
+        },
+        {
+          "char": "其",
+          "py": "qí",
+          "segmentId": "xue-er-15-s08",
+          "chapterIndex": 62
+        },
+        {
+          "char": "斯",
+          "py": "sī",
+          "segmentId": "xue-er-15-s08",
+          "chapterIndex": 63
+        },
+        {
+          "char": "之",
+          "py": "zhī",
+          "segmentId": "xue-er-15-s08",
+          "chapterIndex": 64
+        },
+        {
+          "char": "谓",
+          "py": "wèi",
+          "segmentId": "xue-er-15-s08",
+          "chapterIndex": 65
+        },
+        {
+          "char": "与",
+          "py": "yú",
+          "segmentId": "xue-er-15-s08",
+          "chapterIndex": 66
+        },
+        {
+          "char": "？",
+          "py": "",
+          "segmentId": "xue-er-15-s08",
+          "chapterIndex": 67
+        },
+        {
+          "char": "”",
+          "py": "",
+          "segmentId": "xue-er-15-s08",
+          "chapterIndex": 68
+        }
+      ],
+      "groups": [
+        {
+          "id": "xue-er-15-p03-r01",
+          "disabled": true
+        },
+        {
+          "id": "xue-er-15-p03-r02",
+          "disabled": true
+        }
+      ],
+      "chars": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "x": 526,
+          "y": 376.5,
+          "width": 136,
+          "height": 136,
+          "right": 662,
+          "bottom": 512.5
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "x": 182,
+          "y": 192.5,
+          "width": 116,
+          "height": 116,
+          "right": 298,
+          "bottom": 308.5
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "x": 182,
+          "y": 376.5,
+          "width": 136,
+          "height": 136,
+          "right": 318,
+          "bottom": 512.5
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "x": 546,
+          "y": 192.5,
+          "width": 116,
+          "height": 116,
+          "right": 662,
+          "bottom": 308.5
+        }
+      ],
+      "props": [
+        {
+          "id": "workbench",
+          "tag": "DIV",
+          "tabIndex": -1,
+          "ariaHidden": "true",
+          "pointerEvents": "none",
+          "x": 382,
+          "y": 320.5,
+          "width": 80,
+          "height": 80,
+          "right": 462,
+          "bottom": 400.5
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "x": 30,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 94,
+          "bottom": 92
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "x": 106,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 170,
+          "bottom": 92
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "x": 674,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 738,
+          "bottom": 92
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "x": 750,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 814,
+          "bottom": 92
+        },
+        {
+          "id": "prevPage",
+          "disabled": false,
+          "x": 298,
+          "y": 536.5,
+          "width": 48,
+          "height": 48,
+          "right": 346,
+          "bottom": 584.5
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "x": 422,
+          "y": 528.5,
+          "width": 64,
+          "height": 64,
+          "right": 486,
+          "bottom": 592.5
+        },
+        {
+          "id": "nextPage",
+          "disabled": false,
+          "x": 498,
+          "y": 536.5,
+          "width": 48,
+          "height": 48,
+          "right": 546,
+          "bottom": 584.5
+        }
+      ],
+      "minTextPx": 28,
+      "minPinyinPx": 16,
+      "preview": "true",
+      "playable": "false",
+      "step": "free",
+      "audioSrc": null,
+      "audioPaused": true,
+      "log": [],
+      "pendingWaits": 0,
+      "stars": "0 / 2",
+      "prevDisabled": false,
+      "nextDisabled": false,
+      "readDisabled": true,
+      "scrollWidth": 844,
+      "activeAnimations": 0,
+      "brokenImages": 0,
+      "focusAfterNavigation": "nextPage",
+      "viewportWidth": 844,
+      "viewportHeight": 390
+    },
+    {
+      "page": "xue-er-15-p04",
+      "cells": [
+        {
+          "char": "子",
+          "py": "zǐ",
+          "segmentId": "xue-er-15-s09",
+          "chapterIndex": 69
+        },
+        {
+          "char": "曰",
+          "py": "yuē",
+          "segmentId": "xue-er-15-s09",
+          "chapterIndex": 70
+        },
+        {
+          "char": "：",
+          "py": "",
+          "segmentId": "xue-er-15-s09",
+          "chapterIndex": 71
+        },
+        {
+          "char": "“",
+          "py": "",
+          "segmentId": "xue-er-15-s09",
+          "chapterIndex": 72
+        },
+        {
+          "char": "赐",
+          "py": "cì",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 73
+        },
+        {
+          "char": "也",
+          "py": "yě",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 74
+        },
+        {
+          "char": "，",
+          "py": "",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 75
+        },
+        {
+          "char": "始",
+          "py": "shǐ",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 76
+        },
+        {
+          "char": "可",
+          "py": "kě",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 77
+        },
+        {
+          "char": "与",
+          "py": "yǔ",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 78
+        },
+        {
+          "char": "言",
+          "py": "yán",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 79
+        },
+        {
+          "char": "《",
+          "py": "",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 80
+        },
+        {
+          "char": "诗",
+          "py": "shī",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 81
+        },
+        {
+          "char": "》",
+          "py": "",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 82
+        },
+        {
+          "char": "已",
+          "py": "yǐ",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 83
+        },
+        {
+          "char": "矣",
+          "py": "yǐ",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 84
+        },
+        {
+          "char": "，",
+          "py": "",
+          "segmentId": "xue-er-15-s10",
+          "chapterIndex": 85
+        },
+        {
+          "char": "告",
+          "py": "gào",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 86
+        },
+        {
+          "char": "诸",
+          "py": "zhū",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 87
+        },
+        {
+          "char": "往",
+          "py": "wǎng",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 88
+        },
+        {
+          "char": "而",
+          "py": "ér",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 89
+        },
+        {
+          "char": "知",
+          "py": "zhī",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 90
+        },
+        {
+          "char": "来",
+          "py": "lái",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 91
+        },
+        {
+          "char": "者",
+          "py": "zhě",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 92
+        },
+        {
+          "char": "。",
+          "py": "",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 93
+        },
+        {
+          "char": "”",
+          "py": "",
+          "segmentId": "xue-er-15-s11",
+          "chapterIndex": 94
+        }
+      ],
+      "groups": [
+        {
+          "id": "xue-er-15-p04-r01",
+          "disabled": true
+        }
+      ],
+      "chars": [
+        {
+          "id": "elephant",
+          "disabled": true,
+          "x": 526,
+          "y": 376.5,
+          "width": 136,
+          "height": 136,
+          "right": 662,
+          "bottom": 512.5
+        },
+        {
+          "id": "bunny",
+          "disabled": true,
+          "x": 182,
+          "y": 192.5,
+          "width": 116,
+          "height": 116,
+          "right": 298,
+          "bottom": 308.5
+        },
+        {
+          "id": "cat",
+          "disabled": true,
+          "x": 182,
+          "y": 376.5,
+          "width": 136,
+          "height": 136,
+          "right": 318,
+          "bottom": 512.5
+        },
+        {
+          "id": "dog",
+          "disabled": true,
+          "x": 546,
+          "y": 192.5,
+          "width": 116,
+          "height": 116,
+          "right": 662,
+          "bottom": 308.5
+        }
+      ],
+      "props": [
+        {
+          "id": "workbench",
+          "tag": "DIV",
+          "tabIndex": -1,
+          "ariaHidden": "true",
+          "pointerEvents": "none",
+          "x": 382,
+          "y": 320.5,
+          "width": 80,
+          "height": 80,
+          "right": 462,
+          "bottom": 400.5
+        }
+      ],
+      "controls": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "x": 30,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 94,
+          "bottom": 92
+        },
+        {
+          "id": "tocBtn",
+          "disabled": false,
+          "x": 106,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 170,
+          "bottom": 92
+        },
+        {
+          "id": "pauseBtn",
+          "disabled": false,
+          "x": 674,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 738,
+          "bottom": 92
+        },
+        {
+          "id": "stopBtn",
+          "disabled": false,
+          "x": 750,
+          "y": 28,
+          "width": 64,
+          "height": 64,
+          "right": 814,
+          "bottom": 92
+        },
+        {
+          "id": "prevPage",
+          "disabled": false,
+          "x": 298,
+          "y": 536.5,
+          "width": 48,
+          "height": 48,
+          "right": 346,
+          "bottom": 584.5
+        },
+        {
+          "id": "readBtn",
+          "disabled": true,
+          "x": 422,
+          "y": 528.5,
+          "width": 64,
+          "height": 64,
+          "right": 486,
+          "bottom": 592.5
+        },
+        {
+          "id": "nextPage",
+          "disabled": true,
+          "x": 498,
+          "y": 536.5,
+          "width": 48,
+          "height": 48,
+          "right": 546,
+          "bottom": 584.5
+        }
+      ],
+      "minTextPx": 28,
+      "minPinyinPx": 16,
+      "preview": "true",
+      "playable": "false",
+      "step": "free",
+      "audioSrc": null,
+      "audioPaused": true,
+      "log": [],
+      "pendingWaits": 0,
+      "stars": "0 / 1",
+      "prevDisabled": false,
+      "nextDisabled": true,
+      "readDisabled": true,
+      "scrollWidth": 844,
+      "activeAnimations": 0,
+      "brokenImages": 0,
+      "focusAfterNavigation": "prevPage",
+      "viewportWidth": 844,
+      "viewportHeight": 390
+    }
+  ],
+  "findings": [],
+  "screenshots": [
+    "docs/reviews/xue-er-phase-b-early/xue-er-15-p3-844x390-reading.png",
+    "docs/reviews/xue-er-phase-b-early/xue-er-15-p4-844x390-reading.png"
+  ],
+  "diagnostic": "Initial 60 completed page/viewport observations passed; screenshot timeout at chapter 15 page 3, 844x390. Only final two page observations repeated/completed.",
+  "errors": [],
+  "networkRequests": [],
+  "inputBytesUnchanged": true,
+  "status": "passed-targeted-tail"
+}

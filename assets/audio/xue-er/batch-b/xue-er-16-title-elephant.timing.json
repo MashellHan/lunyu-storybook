@@ -1,0 +1,36 @@
+{
+  "text": "论语，之，不患人之不己知。",
+  "dur": 4.512,
+  "t": [
+    0.058833,
+    0.41175,
+    null,
+    1.058833,
+    null,
+    1.882333,
+    2.191166,
+    2.544125,
+    2.764708,
+    2.985291,
+    3.25,
+    3.558833,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "d57b231b348ccff96e68a2b9cc6db44a9132a11675f3d24298f3ab9f539b728a",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-16-title-elephant",
+      "rawSHA256": "469268c283e5a966d36249f8d22df354e1f2b2919e408a7f04f9e2a5d0e1f47f",
+      "ssmlSHA256": "1086d82101cc824bb8533fe4fcad077c29e093e0193798427f46b4ddb15074ff"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

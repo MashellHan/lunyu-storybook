@@ -1,0 +1,83 @@
+{
+  "id": "xue-er-06-s02-cat",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "5346489599b2904f72f604e91fd804603322bd6460dec2fba7474a22a517eb87",
+  "attemptId": "3dd95759-4eb9-4fb1-8e66-0852363836d7",
+  "startedAt": "2026-11-03T12:55:32.841719+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:55:37.421659+00:00",
+  "rawSHA256": "95ab1b5ab9dcd4f66b11344e29c829c15b2cc5dadfc0305276fe7c047511ba67",
+  "wb": [
+    [
+      0.056833,
+      0.340916,
+      "弟子"
+    ],
+    [
+      0.411916,
+      0.184666,
+      "入"
+    ],
+    [
+      0.596583,
+      0.198875,
+      "则"
+    ],
+    [
+      0.795458,
+      0.411916,
+      "孝"
+    ],
+    [
+      1.335208,
+      0.213083,
+      "出"
+    ],
+    [
+      1.548291,
+      0.198875,
+      "则"
+    ],
+    [
+      1.747166,
+      0.326708,
+      "弟"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 244,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 246,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 247,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 248,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 250,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 251,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 287,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

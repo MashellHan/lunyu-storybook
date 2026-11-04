@@ -1,0 +1,3770 @@
+{
+  "schemaVersion": 1,
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "publicationReady": false,
+  "batches": {
+    "batch-a": {
+      "request": "docs/tts/xue-er-generation-request.json",
+      "entrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296"
+    },
+    "batch-b": {
+      "request": "docs/tts/xue-er-generation-request-b.json",
+      "entrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f"
+    }
+  },
+  "segments": {
+    "xue-er-01-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-02-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.mp3",
+        "sha256": "6850afcb1651b7d86da045263fa759b889973ec0e9851cae060a26145ff6cbcd",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.mp3",
+        "sha256": "0076634f7a3de7298b51d1d9eeb27026e4b0a2c9969e373ea334133fb63abe4b",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.mp3",
+        "sha256": "06f977813687e6403df1fb998ca9aa601c716c6771c2addeb92973f80cee2bee",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.mp3",
+        "sha256": "edfb598052786d8ecde5e81708762ee2164b5fd7d36828d008ab0fb66132980a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.mp3",
+        "sha256": "9a86ff1afb28799c58a953c0d0a25ebccebdc42bc4d8c4da422338db6e1c290a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-02-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-elephant.mp3",
+        "sha256": "d5a7fa8c07abfbbd704bb91cab1ae6bbd6247f15f06820b74335a60978fd2891",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-bunny.mp3",
+        "sha256": "9f5deea2401bcd4fe8f3f134ad53875d68dacd729000a264d5b8ef80d1951c44",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-cat.mp3",
+        "sha256": "e65f093da9bcd4f56c72bfe3ee0adb2b516505892ccea7e78cb3bcd5a0771fe6",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-dog.mp3",
+        "sha256": "41e54c65c29356ef704bbeda145b18e1120527f08488dcd4d7ade9c7dd11a081",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-children.mp3",
+        "sha256": "3b59ad00b6afd22afba50f32c72ec2f1090c9e02fe9210b666c687978936890b",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s02-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-02-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-elephant.mp3",
+        "sha256": "130c4327a7f866358ea81ebd5c88017062c676c7d5583cc55918666c175802cd",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-bunny.mp3",
+        "sha256": "a9f278ad7f54efeadc12336788ad98129c81b8a0b6cf6f535c564a9da72faa03",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-cat.mp3",
+        "sha256": "cfab93418cbd0516c142ef628ab5c283672527abe3c65a45112c86e4f0a4c0ea",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-dog.mp3",
+        "sha256": "bba02d7243402a4208c09978df8e41b59e3ae57f35ed02bc82e34661debf70dc",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-children.mp3",
+        "sha256": "fee4ae7ee212fd7b7ae3b8fdce2a6696fed8ad712780c5559bdb011016b304b6",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s03-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-02-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-elephant.mp3",
+        "sha256": "bbf57fcce1131df7fbc8bc8bf43c197ab890cb72a634e97d597685424c0c67d1",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-bunny.mp3",
+        "sha256": "08cdf684069eefe3e8dc5efe6061fc255a61d5522b475d36b98decf86652bc66",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-cat.mp3",
+        "sha256": "872026aa20e846bc19df66a5f238845ea69721c2ce02ce11c6c72567b8691bd6",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-dog.mp3",
+        "sha256": "fdb1aa90699a0a959aeced2e49f3837bd4e158680a66becbe976bb21ec93d441",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-children.mp3",
+        "sha256": "4f3f55767b747c075b7e55adafe8e8ac7cc96ced471538ed0b63f9cd75ad0537",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s04-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-02-s05": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-elephant.mp3",
+        "sha256": "448a9698cd0c31c679065dd2d907a66027d332ab6c77c610d13f3396fef87e83",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-bunny.mp3",
+        "sha256": "a266d62d59be83439e0b560eccc29fa288e0ae91777c3e2836ee4c1f7048f86b",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-cat.mp3",
+        "sha256": "9a0c9bd7f3965a2399d56b5a082b05a74bf188d4a7df0a6feef50e72d097b51a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-dog.mp3",
+        "sha256": "f058d91e44da449d3551309e8fff49e2aaf010c4b019f74ff9e0e271d170929a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-children.mp3",
+        "sha256": "789943a4f582ee332eb637ead3b9764907c8d78282f4d5eb7041ae4fb8e24aa1",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s05-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-03-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-elephant.mp3",
+        "sha256": "57de00336f269754b677202f69ffb3e5313c1703ad58e8ec86ea0a7b6943b90d",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-bunny.mp3",
+        "sha256": "87f45f9f7f6231cda7345ce7fc252752d3bb2b944f02b9c3022f91aa58fe5731",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-cat.mp3",
+        "sha256": "9b440b64d58ce56d920fa4d7a989da72304b5de63c2b1ceadb15c24fcab84c37",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-dog.mp3",
+        "sha256": "d558d86c966c619ba8e52084f6bbc0b2a3cc047df0f18f9439cb400a57456221",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-children.mp3",
+        "sha256": "d79f94c0fe605f0ce4f349f580441f0592d806521b04e2438eb52b31e2136fa4",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-s02-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-04-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-elephant.mp3",
+        "sha256": "ecc43239bcbf1c8d0b0e4f34ecc024a5001e274d29483aedc5f25f647e0f3241",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-bunny.mp3",
+        "sha256": "b086b26d6d57646647c39c610c58c8ea2ae5e29437be8f3bb84023b71a5e2c08",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-cat.mp3",
+        "sha256": "f6f43fd4251c6c1dfff7a4bba92832d28a149bec066e19756c02381cffcd8b43",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-dog.mp3",
+        "sha256": "973a14a3ce96a5ed9bad16e59816ab9d27623a2ec6448f518720e05cd6a16cfa",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-children.mp3",
+        "sha256": "2580b502de7e9410209664b73e093a132e01336a6b3c6b52b7b3bd193beb7ae3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-04-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-elephant.mp3",
+        "sha256": "9a449a1a48247b08689f1ddf1148b6fda4e88ceaa404af35da81ee87320ebf99",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-bunny.mp3",
+        "sha256": "372f91991c207bc2f5ecb30aba55ebd292d3a9bec348752d521f53267851aa88",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-cat.mp3",
+        "sha256": "d9306309be3122e1585398e8f1fd7303b773d893fde63c453cb502efe88a84ed",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-dog.mp3",
+        "sha256": "c3c0828a5206134685c5ee32be309c8e947e381464fe4bc365f7741eaa16f9dc",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-children.mp3",
+        "sha256": "040b447bd54b80b45c224f2a6f8c44318993e40dcf66fbeb2b48dda4ca2af048",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-04-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-elephant.mp3",
+        "sha256": "4e0adfbe7cc7baba11f7d72e8d0b410b960f8490176d24f0a16b9794c3807a11",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-bunny.mp3",
+        "sha256": "900b8232da9b1a4f75b34ead2f54488d2ebc9f0d8ba45b1c47eb3825c082c306",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-cat.mp3",
+        "sha256": "fa9092a44c5074395bc63f9af9f7d343797b49c59f8646dc2a5f682c2da9f0f7",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-dog.mp3",
+        "sha256": "1c2bda12d119a08615f0100171a9620556cf1609bb86fb69a841b0c1ecb2842e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-children.mp3",
+        "sha256": "be01367e4cc0d18c86570f936fe5704ca37caa52c78fbd0185afd7f662ed2968",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-04-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-elephant.mp3",
+        "sha256": "47697a2b17aef1857c35fd60a1cdbcbbacbf6b50842eb169955d4e8cdd790516",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-bunny.mp3",
+        "sha256": "4cd6bbc57065dfedfdf1151bafe0f995e71f3485de6c7f11f30ef4ec305d2574",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-cat.mp3",
+        "sha256": "5c74b6367b57ecbb07ee8ef34918afc9e43caf17399ac0d8bc5a67d921b0239e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-dog.mp3",
+        "sha256": "1b2219bff7ea2d12e7b2e91c5d6fd55b258bd5164e486bf5eb8fd824b327e3d8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-children.mp3",
+        "sha256": "b70bebab419127396cb2b1e724e84b75ed50716fdfd2b67daad2aab6a69a0cc1",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-04-s05": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-elephant.mp3",
+        "sha256": "cd9c4fd55a3cc63762b3d44e7ba0c22b7e10a155402d6917b0d96db54fdf6ee4",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s05-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-bunny.mp3",
+        "sha256": "f66888da22ce8f35baef693d6efa816b354ff8838752e6e02272401487af9c3e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s05-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-cat.mp3",
+        "sha256": "276be4dca3526c5eba9b2fefbdce9e73001aaac4c7e24f1702ec392c6b699148",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s05-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-dog.mp3",
+        "sha256": "dc435df7e5ee433af527a2a1ff223e3167681b1838363c3e5c130916620697c4",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s05-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-children.mp3",
+        "sha256": "fdf1593bea43d220f6ba0a6132885ff719b5c81fa6ee1d751a9c1632ae99782a",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s05-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-05-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-elephant.mp3",
+        "sha256": "5a6fb6b29cfba21105545353cc15f6103a76d1a82f48cef633c7c0df22415ae6",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-bunny.mp3",
+        "sha256": "4d7302806f9142ad5e165cc7718697d5523184b4b41c9642b93a3becb7e16e67",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-cat.mp3",
+        "sha256": "dc5cf624abddbd5c8f6002386e4e837e1f72f0a05c1e2140ae90ae677273adf8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-dog.mp3",
+        "sha256": "666d54cc406b0e79d7768c58193fa19dc03108ceb3983e31939b109b63f24707",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-children.mp3",
+        "sha256": "ee18a81117c25a43ef89c5252d5b0095cdc0a8899c8c2f39bfd08c3ab3c3fa72",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-05-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-elephant.mp3",
+        "sha256": "512b7e32064c9443d555101cc9f384481c52467e39a4a4a9a02ded6f5eefa0bc",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-bunny.mp3",
+        "sha256": "95147f0a138aa18be13cee399f4bcb1da07c33e6b9704a4be6eef54b5f6ac2d8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-cat.mp3",
+        "sha256": "32402a481597f5d20dd7a2549e3a099188e32e8f3379b49baf1c2db0d7d51aa5",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-dog.mp3",
+        "sha256": "d9c576b21578d3ce56e4a99094556dc69168330323d096d19372320ebd7eb5f1",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-children.mp3",
+        "sha256": "5bae4ee8367f7d40af79755d6cd3c913def4776a64a9029680b63f938cdb66e7",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-05-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-elephant.mp3",
+        "sha256": "1581ea93773b15945533f224582ff4f5976aeb09bc7aeef51730ff8732fae0a3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-bunny.mp3",
+        "sha256": "861fd04afd1bc3ffe8aad7126980beaaadef1c4cc6c0d7e5539ee0ad1e7ef3e9",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-cat.mp3",
+        "sha256": "ecb15522f1a5e72f436faff413116af87c8e484c9891e63d6b3d6a329e659098",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-dog.mp3",
+        "sha256": "50c50ddd1428819081cb50d3a23deb6725eba3d54e9d1de57017bdf77a1bef45",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-children.mp3",
+        "sha256": "47f3cfee462fcde83d01cd020ea2eb9dc68d4714d213397bab00979ffa628d9b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-06-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-elephant.mp3",
+        "sha256": "d79e0b87bae360f457281d77946edaf1c31af614597cc640d11779be76b26092",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-bunny.mp3",
+        "sha256": "8df91ac63c61dca85d7fc3dabae3fa0d6054adeb6b692930bbdcd439c2a2c2eb",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-cat.mp3",
+        "sha256": "9bb3364cce84003111e5e3028498ec284e6d0ccf9424518eec40ad3d303277a0",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-dog.mp3",
+        "sha256": "17f6331cf37fde5c44363920d703363d7c2b0274ea957552ad06483f2230f5f1",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-children.mp3",
+        "sha256": "3c6ff0731cf4909517a8f5fd0b5703eede70c1579a0672ecdf0c1cac6e1896c8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-06-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-elephant.mp3",
+        "sha256": "1ef268f1b43971b8afca675d4f91ce60ab42a2ae074e349b9df0a1b37b39015b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-bunny.mp3",
+        "sha256": "b0d4ca66960b902646d6654a66f59c14abf1607c0aca1b5ea4005e6955796706",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-cat.mp3",
+        "sha256": "1867a6ff2fce192be433dce682225229bfc42893c513b5fd983609f8c319cde9",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-dog.mp3",
+        "sha256": "0abb001f5e46938d84a05720c6dbb5c2468667518b66fc08e3b05511d527767f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-children.mp3",
+        "sha256": "7dc819519595620c87aa8df1422dcc5649eac46facda451802f4317bad70fed8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-06-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-elephant.mp3",
+        "sha256": "5100d24f46aaad0ed017c80ad7552361f20c15ec05bf07efe147cbf33a94e619",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-bunny.mp3",
+        "sha256": "74de521b72d4105f86364a53e17b0b229820cefe438d57ffb4f3ba46555d0996",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-cat.mp3",
+        "sha256": "0b895ef91ea5064ff544af76e50b6ae4a7e03a2cc763df023fa625843c18dbc8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-dog.mp3",
+        "sha256": "ae35631c30f729580dddf15a3fc998d1466f4b1817f562e9e92e2c737f04c5a8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-children.mp3",
+        "sha256": "c13939e7c41591dfac93f4e3aae1fdf6904acf66184c462b9ea606c1ba511791",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-07-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-elephant.mp3",
+        "sha256": "8017cf5c70db48447f3e43e97543b75d56cac58145022099b739bf11f9c4860e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s01-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-bunny.mp3",
+        "sha256": "9789cab41c04268dba7b05c438b9f1e7ebb6ed9304a830d2ccf0f273d1a09e0d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s01-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-cat.mp3",
+        "sha256": "1276cb6f71ffb978facf058a9fe33e82f0004e8b550bf56c18a3645bb227a469",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s01-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-dog.mp3",
+        "sha256": "c4db32fa7471715e0adfd259b263ebd114702149dd71e6835c18a636429d4cb4",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s01-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-children.mp3",
+        "sha256": "a329493f51beefe2d752223ba5cb96d1c52ce420471ad9b45dcaeca7c83c49d1",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s01-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-07-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-elephant.mp3",
+        "sha256": "25f37cd8e4215fe0c0f9a5aedd1da6d4ad6314cd51cfa8313e272bc3a94dd3a9",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-bunny.mp3",
+        "sha256": "eb5b5c163164b207421c1037ce255c3c35aa4ed5b666c55d314d9ee08824b877",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-cat.mp3",
+        "sha256": "34f79c3f79fee4783213bb8ea167f523634dd810208b0c81ce37163855af6246",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-dog.mp3",
+        "sha256": "d10f07785d3aee7151259b68a049293332beac156dc01f6bea642e708545f130",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-children.mp3",
+        "sha256": "d06bca62085abad6c8b57fb775c0013622e74e0f64364a35b55d35e6ad9911f3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-07-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-elephant.mp3",
+        "sha256": "47327fc68c5ed06b04cab9d41f7a15f0b00517260da22feb775b6da9cd8f2114",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-bunny.mp3",
+        "sha256": "ad4f0bd9630e2537df1918dba51bc46a0c5fde0a5c1116e7f16b33bced63a573",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-cat.mp3",
+        "sha256": "3221dc4facdb5c0d08c618adeb6e2bf449e8b36f1569e02d6f4ad111910c329e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-dog.mp3",
+        "sha256": "49394fc0a5ee8721dfe00f074c79cb436beef00940dfd4857ce3947154f9a78d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-children.mp3",
+        "sha256": "4a9f36d7718b919cab51e91ca79f1f25a9d1b69846dc7f6a58aac517650c19a7",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-07-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-elephant.mp3",
+        "sha256": "bbf98b72e4af95acf93d826122d5d513d6ffe145c1e3dcbd7758f8aa8b248076",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-bunny.mp3",
+        "sha256": "b01fc82f3e96aa30c7b6f0d244f2fda9140e79eaf1a5ba0220d6dc814a1792ee",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-cat.mp3",
+        "sha256": "3d801c297f83c00719e8e413f01083e985ecd367aaa1d394e70567d847afdd92",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-dog.mp3",
+        "sha256": "dc86e82f3b798b0b56a4a705ab3ae11223f685dfddda54e277f86aa65d88f45e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-children.mp3",
+        "sha256": "df331c265778e3df422cb614a02f53dfb0611ea1219fd878cd878b76cec18fd3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-07-s05": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-elephant.mp3",
+        "sha256": "b116efc9c27f515398fd7e784d4e6a0515bac5ec9a54ee2cd2f95bcf4e736c48",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s05-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-bunny.mp3",
+        "sha256": "ebf1b52f15bdaa354473701e415ae11dc29b186dbf6d0aa708f754fe9d599aa1",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s05-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-cat.mp3",
+        "sha256": "f93a5ca6ef05fca47806cbe2878078c7498088cc5d988e61a297881a327c9051",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s05-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-dog.mp3",
+        "sha256": "290106aaf340427f0de7d3e3f28f1a8711f2918bd194a01c870758863b6d2f1c",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s05-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-children.mp3",
+        "sha256": "4fc4ce1c7a0909fc3ebe6f651280f72cd02197ceb2ae3f0e438127f145fd1fda",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s05-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-07-s06": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-elephant.mp3",
+        "sha256": "7ecb956b9f0902b1d141c1416bca7d39094b1a63aa9e7a3103a35e5334c982af",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s06-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-bunny.mp3",
+        "sha256": "386628a1f358d945c892a879e3f35fcf16ff48b7a99fe52d4e45bf5e9e6fddcc",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s06-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-cat.mp3",
+        "sha256": "64533a694fcca23ff74844b328a224790e8e95db5e14ec37a76229e0360ab702",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s06-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-dog.mp3",
+        "sha256": "e763d1c78b5a8321f9a0f06c8dfde20bfafaaaac1e73ac5fd6a1b5569b038c9b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s06-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-children.mp3",
+        "sha256": "91d5dea4124f2cbf5d75c16432819eb450bc00d470eaa82348b00dc880f670cd",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s06-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-08-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-elephant.mp3",
+        "sha256": "435403ef1ee8f5c5d7a77a18c045292e8c09084dce7712c54174702660e560ea",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-bunny.mp3",
+        "sha256": "30ee0b463f598fc0f84695eb6631e642636d6d3b18f6766be6d23d65502ea004",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-cat.mp3",
+        "sha256": "102ac9fd59738880804f664632d54065c191605041225523236bd5f437a601ae",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-dog.mp3",
+        "sha256": "08eb4e688effe1e26a43c2a099d4c02ea98ef1194d5b75ee50191aec8659f550",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-children.mp3",
+        "sha256": "6254a4ccccd96016092ebc6fc58a7fa406ca544db283c16b01fd4e4e255e09ac",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-08-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-elephant.mp3",
+        "sha256": "cb7091497b9b40502b751c93f75675d3cb6b64ce94d334aad61b67a9b4baed75",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-bunny.mp3",
+        "sha256": "b0538a104ef2aeb48f1de26472983980259dcd9cae3d2727509658ebf54b7683",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-cat.mp3",
+        "sha256": "02075c07faedafe6acf85540ffc08dfc32717cdb0cc7e1905d3db33c492a3d40",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-dog.mp3",
+        "sha256": "69a11ffa76f89e88fe5c3e59a6a8a33077beeaf441d49baca81901b8d538a9a3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-children.mp3",
+        "sha256": "b536a5203635b143f31cd4a76750dbbe4074fcbf1f32195eb1cf0f37596aafd3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-08-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-elephant.mp3",
+        "sha256": "be26662b303cb91fcf3fb6fb1805cfeb0c86495507d8ca7430f5defcd92171bc",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-bunny.mp3",
+        "sha256": "1ee3d2963c86e3e0fc4057ea7449108f07f4d82c587f54f2bdc10bf7d0a7b9ce",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-cat.mp3",
+        "sha256": "41abfd07cb4aa780611eb39812bdd0eedd820da7760dd56db830e866ace7598d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-dog.mp3",
+        "sha256": "6101896c723976590d06c9801ad06eef40c7196d8144d2e972728f229114ee0a",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-children.mp3",
+        "sha256": "90b603a5f3f7484f088f7de57a695e0bc51af8c019c167b9989471e06366dd29",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-09-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-elephant.mp3",
+        "sha256": "0f889d7caebf9f857ccf61c605d65b44c3e5fd266a99ab9863468197d78b4b58",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-09-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-bunny.mp3",
+        "sha256": "e5c86d2ad2fe193e52142e7bf44a723463327a3775290e7325e051e170cbcc6d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-09-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-cat.mp3",
+        "sha256": "cb291afdbdb640924cfdcb7ba3606a5dc0108e820a4abb4d674234cad942f858",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-09-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-dog.mp3",
+        "sha256": "2d85d550614c17a328f2828d9a0b0f9525f80a2a2acd2eedec455745f10ad1ee",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-09-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-children.mp3",
+        "sha256": "10639270afdb3bdf110e6e2c6f38e3c2341a58dee63ce21bf3c463b4ed3cbb91",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-09-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-10-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-elephant.mp3",
+        "sha256": "2391af60270b22d63118295300b112ef548a4cbe16713ab62a932c127e62018d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s01-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-bunny.mp3",
+        "sha256": "db145bea9d1ed902d7f12c5fe29041fc141f6fb6e1967d84ff36cdaaeddb25e7",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s01-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-cat.mp3",
+        "sha256": "0f30bad45aa4a92622886129a3e5b261ccca0717f760793cd54835ff7967feab",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s01-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-dog.mp3",
+        "sha256": "f85d2c28089f604df8fc857ec9ba7461224b649a28c09f3864a4903fd6e61b6b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s01-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-children.mp3",
+        "sha256": "145d5a7b2baeb38f882762ba86439a47d0b72be6b1b23d017f8f70b3cbfceaa1",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s01-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-10-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-elephant.mp3",
+        "sha256": "acf5ccd09389ef4b71aaef5c33c604f4132c2246d090b1d1a4169023dbdb9cdf",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-bunny.mp3",
+        "sha256": "ea7a32fd9a23280dd66d3087128470ff6c616ed4b8da44463c51927ef095e8ea",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-cat.mp3",
+        "sha256": "148b8ff3676a9f9893d2f9a0729e72cfb7ec21ba879b2d79a90044cbbf5b7382",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-dog.mp3",
+        "sha256": "79919f8f42b8b4ab5e2d641ea58c40778edce88e8ce4e0d6399f9131dea15869",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-children.mp3",
+        "sha256": "fed7c8c65b82e387a9d81391916a288169d2aaa7a6bf7847fd94bee3bc72da00",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-10-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-elephant.mp3",
+        "sha256": "67bf4a4fff87606cc71d6c49b322c8053bfbd1dc2ba19cb54c36c9f1928bbbeb",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-bunny.mp3",
+        "sha256": "f14308e25f200ce81c266e432abe8416b9e3ee03980493e1887133193758ecdf",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-cat.mp3",
+        "sha256": "4168d33b57b1484ec0a249b78655da45fc017bdc903ef5caf2169616bd28c4de",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-dog.mp3",
+        "sha256": "01018bab5ef25384815aca80670f4747773030d691913af910f6148a5421b4bb",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-children.mp3",
+        "sha256": "4811c50d81771d67128f71f6cf87d17787542799e86043eb8ffa2486df0f0560",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-10-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-elephant.mp3",
+        "sha256": "4a7c4da4992913b0292a4a28915788d381036dc3980fd5a6b169ae27389672aa",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-bunny.mp3",
+        "sha256": "9eee907f495269d5840404eb48a99d61df7dc629577508d6f156611facbd92e5",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-cat.mp3",
+        "sha256": "63514a53234ae9947af5251699a2b46cec0d4918bd956a2ac6e8d607257ff227",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-dog.mp3",
+        "sha256": "f48eb1192bb3125e328d654c4e4ef9e3fa204f0a6f1d550c406347e97f4d5201",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-children.mp3",
+        "sha256": "2b4dd43fad689d638bfa123ec1ed6042a3fd9e82d133a957f3e02407ecb36d00",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-10-s05": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-elephant.mp3",
+        "sha256": "c8f2adcf5890d1a3aae08aab4a09f96c8bd333bc48f501d42c99e7d77ce799ae",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s05-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-bunny.mp3",
+        "sha256": "b4fe9075e6a4733930ce0cdf9c3b73180f75261a5a6dd1aecb715a11cf6dca71",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s05-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-cat.mp3",
+        "sha256": "d647809f720f02f9c501750edb34e2b06b5b6dd4ac0b9db7cf00f745d23c4348",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s05-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-dog.mp3",
+        "sha256": "dc8d6ec087bdd2379e33b0812da840c8783256befed3882505200fe6e65ae95d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s05-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-children.mp3",
+        "sha256": "403425560035daf3b24f5fa9ace8c49082c556962009e37cb1ab8c8b6e5b91fd",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s05-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-10-s06": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-elephant.mp3",
+        "sha256": "c5c4324ddd991298130d7b7492445b63bff8276f289846e5ed7e3f1c34ff7213",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s06-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-bunny.mp3",
+        "sha256": "04b6c05a82a1f54a89b9fe5434f7aade8b8fc4b7d5d95017a5e80b3f0b08e13c",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s06-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-cat.mp3",
+        "sha256": "ecd54441a56fba1c8681f38971359f8c75a5b39dca2e2542c3ac4dcd85df0a00",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s06-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-dog.mp3",
+        "sha256": "2e06c8c8cd30952e47c6e9ef4613a1e95b1036f76a60265c7969c8f15e26181e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s06-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-children.mp3",
+        "sha256": "447162569ecfc5427b0c24e8ee6f1fe792ed5b30bae147025eb4b7bbdbcdf16c",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s06-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-10-s07": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-elephant.mp3",
+        "sha256": "a0dd1c7b635ea47829a8dcfc2e7e5c809c28b1122a981eef6c8ce476e4cde8e0",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s07-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-bunny.mp3",
+        "sha256": "9c9687347143865aaf7e13692cee222554e9768e42f50643aba992650723cf19",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s07-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-cat.mp3",
+        "sha256": "e50382ac7c88698981b2781c2ff37279e6e10a6cddd9a14294ccd5f53db2d26b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s07-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-dog.mp3",
+        "sha256": "bb8a3076f88654fc8a463bd972e6676622ff89512d450ad3d3d1d4527a50464a",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s07-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-children.mp3",
+        "sha256": "4acd84fbbba8e35859f476356c2fb36fe924d6d40cfaa6f75ae12adc57b67c5b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s07-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-11-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-elephant.mp3",
+        "sha256": "1c61f9217ecf6dd741bc4c35932cc429ed85f75bbe3f343afc745d1247bc9e62",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-bunny.mp3",
+        "sha256": "9771b67b3e92589110d1aa40ed6861fb845ad7e525ea5c2e0d04b9bb7926144e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-cat.mp3",
+        "sha256": "715388f83b91dc361b506c182063fb97af1ec271fc5537fbf16fdf7e0b6582a0",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-dog.mp3",
+        "sha256": "e47899f43660fb542f90cacf295f972200f67a3b1905becd132c36d861710028",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-children.mp3",
+        "sha256": "3c19388774b4fb648bbbeace2cece94dd6f2f9209fb5b7c12663a3625674e2a9",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-11-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-elephant.mp3",
+        "sha256": "0ecc78fa7972c993a002d5a3cd70303cbf6de2e06a7f3dc614284747a8e9c735",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-bunny.mp3",
+        "sha256": "77cc20001cbeca6e52e3f52f5262fb42632aa84b10b4eedd68cc308dd8f07025",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-cat.mp3",
+        "sha256": "e540f369b8043b7b5cc0909bfcc12c86aa0114d2551be6381cf92eeb209ec6eb",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-dog.mp3",
+        "sha256": "bb43f7197aeec6d48a7acabd04e2c7073e3e1b2da16026233ba383ca6e3b70d2",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-children.mp3",
+        "sha256": "7aa48d8ac0baf0cfcc59d2117c0baa9b06acd06202107d1d79638c9f5924b07e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-12-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-elephant.mp3",
+        "sha256": "139de96cdfd08ea943fa371337e7f74fd2730dad5100f321471d70510752ff5e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-bunny.mp3",
+        "sha256": "8f99657b8979a933b18c0f385cb29947dcfde1260372874ca6ee7613400574e8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-cat.mp3",
+        "sha256": "84b427556c9939179505a3c22c8bd6629cd877e28f7a58b042b1572826753c9d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-dog.mp3",
+        "sha256": "5673d8133ac6bc3db88d37220d56570c8586671f14d0fba99ca0a7fc34a5f971",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-children.mp3",
+        "sha256": "e625468c7891a9463c2800833f2433a9b7a9e166f71f9f1a3ffdb4fcf398f9ba",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-12-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-elephant.mp3",
+        "sha256": "531c0c884a74a1386c464725178c3cb02613faac3aa2dc059059ac6ade8ba97c",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-bunny.mp3",
+        "sha256": "1262b125e2727f04e2e88668f64a4cbe55a7d7e8638c4a21a8fd589baca564bc",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-cat.mp3",
+        "sha256": "0f9aa57336502f7f09439ec9c8ff797948083cc9292c981903434df452d5182f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-dog.mp3",
+        "sha256": "9416381e81f3455700b932ea272ad21bfc1f8ab5de0ea44ce6f4ade68b4c2b39",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-children.mp3",
+        "sha256": "650e78955491edd99372ca2b12637f281ef6218a0ed7a676692c2a8681942f95",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-12-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-elephant.mp3",
+        "sha256": "4c420b1772670455e791e03adb0adcbea9ab3acd043900b6c6ba82a19001512d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-bunny.mp3",
+        "sha256": "d035e9ae570028c27992720d0de1525f7a12931b42a7badb8b13b9169c9e9b26",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-cat.mp3",
+        "sha256": "3b996e3716a3991f031fe8f9923c24a1f0c437a4f37ba3542ea7d8435a949072",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-dog.mp3",
+        "sha256": "bde5871078ccc521f9580fe49a12a58085fdb0fc7d87da4943f065702da53849",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-children.mp3",
+        "sha256": "0616174f8df7ca0fcf08a9690f1ad4bfe89602dacf953df653d3ba6e4f316b57",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-12-s05": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-elephant.mp3",
+        "sha256": "bc5d4a40cd0bce4eb706ce5dd8f6dad9773f1219130e04faf60c41cd2b5fc63b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s05-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-bunny.mp3",
+        "sha256": "4f3614c9ca068da26a6fdf79ed978f65eaf5ce7c6c79401064b182f8770d5a0e",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s05-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-cat.mp3",
+        "sha256": "5693de13a19dba92d5721e9fb33b631aa66ee07f416faae90089260851ba88a0",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s05-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-dog.mp3",
+        "sha256": "d543bc89e344e8d1669703d004c33345f100df362d98b907f5f9956b16027660",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s05-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-children.mp3",
+        "sha256": "1f057d05577e0801bb46e14f22d16d4a68ff0653c080ae06af274e94c7cfdc5c",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-s05-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-13-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-elephant.mp3",
+        "sha256": "565685d97fa478d6c8302c25934af40125ae1bfcbc8abd989d4466d3b1a3b728",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-bunny.mp3",
+        "sha256": "f82710a1bf1d0d27b17bbd338102814e66ef19e001b2a898ab20436d12fe3fcf",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-cat.mp3",
+        "sha256": "4e7c1e7b643918f967050540e5f14ea6a5d3e8940683e4a9a62583819073ed49",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-dog.mp3",
+        "sha256": "31e880c625c13745489b4d301e923ef10807267573e6316274e9e3e2cf82a13d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-children.mp3",
+        "sha256": "81ae88fec8ba19bd78e10d055679bbffedb8ee2d3a06dcf0d12ec88123183bee",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-13-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-elephant.mp3",
+        "sha256": "94f526cebc7e39e6cd9abce373b00daa761b06954fdf3de561c12f6696f608e4",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-bunny.mp3",
+        "sha256": "1d808165a0c596fa5ace1d571014899bbe968fcd5717e3cc45a220dbeada6918",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-cat.mp3",
+        "sha256": "084e8f1ce4a63625d4fa20ff98aa982231dc25b2d40d122cbcc7c904b369e9a8",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-dog.mp3",
+        "sha256": "d89dd71c763f2480a6868c6db08cc940021314c5955435a28a517a872201e744",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-children.mp3",
+        "sha256": "2e2d566f3ac0f9499ea043f0c36d4a72dfb5e9c81c70bb2033f61340d58a3797",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-13-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-elephant.mp3",
+        "sha256": "7d3038973d902d89e76f9ec3e8b2954854207fa584e95833ed47cdae1ba96a40",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-bunny.mp3",
+        "sha256": "0d692db32f63a232a42f300b702322d7064820b06d527149fd1f97fe93bb09fc",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-cat.mp3",
+        "sha256": "3bd65143d8d6a09d04958fe3c4e3db8315053c253ae5bbe3b6c3bdf2218b352f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-dog.mp3",
+        "sha256": "f191f6df12ad24b2793943ef8d39c9e007588b92e796b75fe2c725c47a688d22",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-children.mp3",
+        "sha256": "f33a2b97e9f2b7de6e760015a9355b19e9145eb993d88b40fd83867cc5c0919a",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-14-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-elephant.mp3",
+        "sha256": "ba73502444aaf18bd0da62e527fb982e72452e1d2520ac1918bcf9ce6820c883",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-bunny.mp3",
+        "sha256": "46e921b63060ca2b0e68a7c248667b7275d01caa748d39bc7fe3f09f3ed255e7",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-cat.mp3",
+        "sha256": "e08887d12bf3fc857247efdce6737350b6d472cfa3bc1ca123181f2b7536ae31",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-dog.mp3",
+        "sha256": "913a67b69f03aebfcdb673fe024bac86d2dd1a2b2d5360416a1d76862c2a65f5",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-children.mp3",
+        "sha256": "2c4b94726ad0b129c02c07dd468c8bd6c56076189589a0113e73ec8edf3c91cc",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-14-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-elephant.mp3",
+        "sha256": "d4daf98d7cde5cd26542598e962c9487d01986cbcbd90df95b0a0fe247c8bdc2",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s03-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-bunny.mp3",
+        "sha256": "73b66e2e4036946796c6c7bd752a11f3e887bcaaac539c03ea384a1d8367e011",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s03-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-cat.mp3",
+        "sha256": "32218c5aa57dfd257b594a0a216d65beb63c63cca6fb11f8903d49fbc4b787cb",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s03-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-dog.mp3",
+        "sha256": "48e188e0539a7f2f6e4e188a213aad1e68d4da3cdc3507003fa7f6db6ebac33f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s03-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-children.mp3",
+        "sha256": "691d8e10df0d4e858eeddb13138a81ae344abb037acac7dc6ad970c116b928f6",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s03-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-14-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-elephant.mp3",
+        "sha256": "69e4947fe610fb723df8a5647094572800b985f83129326fad66b0fb6338e088",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-bunny.mp3",
+        "sha256": "9999ff8c0ea8cea08eaf2abca6335a5fa53798f95ee32f40e3f697f5ecf046d2",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-cat.mp3",
+        "sha256": "78d671f4a2e5196fa8d96d10244f22f622cf9d3cde79fa6a68c64a7b51f875b9",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-dog.mp3",
+        "sha256": "946b86f7935144f97a061fdf3efb2bbc0de81a2704ee353e442eba88f3c4481f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-children.mp3",
+        "sha256": "8804b2915d027b2e54e0604e7c40ba40fa3cc4451929b4da0dbd7a7d484ee9ce",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-elephant.mp3",
+        "sha256": "589c7384652f88adf3296c7081e12592c6a6fd9208c995c03ce1ed8a91015d20",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-bunny.mp3",
+        "sha256": "1db9f2f16de018de83f3b6e6f03fcc4751f6891204148814af90ed030f7f8ebf",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-cat.mp3",
+        "sha256": "c3c2904dbf888f1990fcc03efb2d993359ef6c275d299055bff9b37511758ef9",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-dog.mp3",
+        "sha256": "25bea5e9a8061d543345fc3830165ecd752c03fc2a6561a221c1c10df8cf8811",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-children.mp3",
+        "sha256": "2820e15fdd6e4b465fec0157547a68f2f0cefc8bd0511eff488ece69c1bcc919",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s04": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-elephant.mp3",
+        "sha256": "c3a3217c5bab85f843f06e227f7b1981115d172f01e5cf96c16ad570cef56316",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-bunny.mp3",
+        "sha256": "afbc94f4090837c2f6c9292646039a1769341619dd9ca5a04e57832049a2e642",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-cat.mp3",
+        "sha256": "1bf22865c61bb4334c72c797e9136dc7e746d86be244394ff6aaa2a4a48845d5",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-dog.mp3",
+        "sha256": "025d8e956382f3e2d2f0992ec0b2f74ed08a82f632cbe5034c0c4859c813daa6",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-children.mp3",
+        "sha256": "978bbc71619099c46e81ef9cd2805ace41818c7b12ba4e870979a6c6a06de986",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s05": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-elephant.mp3",
+        "sha256": "8222939f5b2186f11d385938f746abd3017bade99b1ceaa7a93bce1ceb847961",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s05-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-bunny.mp3",
+        "sha256": "f9b0b413024e0009abda0ff33270bcbdd7210caec97fba4a4c92177a57092724",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s05-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-cat.mp3",
+        "sha256": "423b91da0a79ae1f2195ec9952acff4bfc5aae9312858b7f211e89b4ebe355b2",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s05-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-dog.mp3",
+        "sha256": "f5f7968a477b0297053d89c4d2da9a61cab984530ba19e2a701bc9de0126607a",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s05-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-children.mp3",
+        "sha256": "05d3cb77eb13742728948aeb0213764d050df5ae67ecac387d49454330a8bd2d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s05-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s07": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-elephant.mp3",
+        "sha256": "0a0e6fab1313f736861a0298e8e2afa479d68ee64f9a5944e4205f77efd3c4c1",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s07-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-bunny.mp3",
+        "sha256": "6bae18356f0740c23e7ea61dd20b73b4e937bed34d084a0a953ed9212292915f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s07-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-cat.mp3",
+        "sha256": "889d5d672eabbc28392d09b542c9eec0d9b8b1285073ba9c99cd3d928d5e8d04",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s07-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-dog.mp3",
+        "sha256": "b46fb7d04747dbe37efcc985fcec6aee21ac940a1015ab19db14bd4c097b04de",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s07-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-children.mp3",
+        "sha256": "6a2dcab78c8a55bcb4d1fd8d398a7809824099070cc724f31b5f7541ddce30ad",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s07-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s08": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-elephant.mp3",
+        "sha256": "4a76bc80e28a83f117d1d6ff5bb024dce41e879d321f8f3d2fca049ec1fb84a3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s08-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-bunny.mp3",
+        "sha256": "9d079f152b84f6545f9f0c98b616e6d928a9d9e5d0c01777336325a622034b39",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s08-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-cat.mp3",
+        "sha256": "98d1ed070c97a745a13f0fd6806f04773509cfe98898ebe04f81952d8110e54d",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s08-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-dog.mp3",
+        "sha256": "79abe2b6d0263d36af61044e6f0e4bdefa698be1b7c01086eb633ce236e9eb2b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s08-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-children.mp3",
+        "sha256": "8c73348f833bcd68493695fea04deb4935bfba63ce9c977586f156f4134ff1a2",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s08-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s10": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-elephant.mp3",
+        "sha256": "ea183be4bc9f6f148e450a779136f50f5ed2f923b09090ef04f8f1a5664e1e72",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s10-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-bunny.mp3",
+        "sha256": "7436cda49c4dc2bd560392f8ebdf144745349fd296e255554a4e5f6769f7a6b5",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s10-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-cat.mp3",
+        "sha256": "7928d0a524cc625329480e8b3bd50e07d6836f410981a73299492cc4721f7f18",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s10-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-dog.mp3",
+        "sha256": "a2e5b5831551fa589c633a53f499179fc1dde22aa0d6c2a218c79582fbe4957f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s10-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-children.mp3",
+        "sha256": "28a4142ef81350189122ba3b8cd2fc8db39b890b9d45dea6e2791804a19be0ed",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s10-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s11": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-elephant.mp3",
+        "sha256": "e06378ec461ee43d9deafeaa4c0043d1ca732a6d43844fb25583d1882488ff9b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s11-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-bunny.mp3",
+        "sha256": "125747c3205f6a61aa53be47c36e823767fb271f2a3c5e4b311f30f5416168de",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s11-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-cat.mp3",
+        "sha256": "1acee0612f13c56ab1d9b850ab71320923189c4cc783ec01e85ca11cce008aff",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s11-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-dog.mp3",
+        "sha256": "4c676e2289f6be6148c2cfa3742dbfe42de3a31f79007a072b6f6a50e22900fe",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s11-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-children.mp3",
+        "sha256": "21b9524863e4d35d6b6dcdfba43f90231a2b95f1ff33b10a11121267c747e25f",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s11-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-16-s02": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-elephant.mp3",
+        "sha256": "c91ecde500879c9afe06cd215a8e6ae5036d115c9e46e295e40e02f76d79eb9b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-16-s02-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-bunny.mp3",
+        "sha256": "ea904fccdc1778b1a8398566db0b3f6075fecd204c63ba433d8b94dca84ff93b",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-16-s02-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-cat.mp3",
+        "sha256": "3eee047d4b329a51ce0a121cdede4b81010a6d7017ff9d114b32b3e1b422adbe",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-16-s02-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-dog.mp3",
+        "sha256": "9aec1a11e6d6f24d511c8258d28e9bbcf8b695dfc0f8f26d74b55c75456aa425",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-16-s02-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-children.mp3",
+        "sha256": "446a53a473211f6a4783b1fbecc823dca10eef38decab22f9cdd87cc53ea8193",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-16-s02-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-03-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-05-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-06-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-08-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-09-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-elephant.mp3",
+        "sha256": "ecc43239bcbf1c8d0b0e4f34ecc024a5001e274d29483aedc5f25f647e0f3241",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-bunny.mp3",
+        "sha256": "b086b26d6d57646647c39c610c58c8ea2ae5e29437be8f3bb84023b71a5e2c08",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-cat.mp3",
+        "sha256": "f6f43fd4251c6c1dfff7a4bba92832d28a149bec066e19756c02381cffcd8b43",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-dog.mp3",
+        "sha256": "973a14a3ce96a5ed9bad16e59816ab9d27623a2ec6448f518720e05cd6a16cfa",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-children.mp3",
+        "sha256": "2580b502de7e9410209664b73e093a132e01336a6b3c6b52b7b3bd193beb7ae3",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s01-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-11-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-12-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.mp3",
+        "sha256": "6850afcb1651b7d86da045263fa759b889973ec0e9851cae060a26145ff6cbcd",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.mp3",
+        "sha256": "0076634f7a3de7298b51d1d9eeb27026e4b0a2c9969e373ea334133fb63abe4b",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.mp3",
+        "sha256": "06f977813687e6403df1fb998ca9aa601c716c6771c2addeb92973f80cee2bee",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.mp3",
+        "sha256": "edfb598052786d8ecde5e81708762ee2164b5fd7d36828d008ab0fb66132980a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.mp3",
+        "sha256": "9a86ff1afb28799c58a953c0d0a25ebccebdc42bc4d8c4da422338db6e1c290a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-13-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.mp3",
+        "sha256": "6850afcb1651b7d86da045263fa759b889973ec0e9851cae060a26145ff6cbcd",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.mp3",
+        "sha256": "0076634f7a3de7298b51d1d9eeb27026e4b0a2c9969e373ea334133fb63abe4b",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.mp3",
+        "sha256": "06f977813687e6403df1fb998ca9aa601c716c6771c2addeb92973f80cee2bee",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.mp3",
+        "sha256": "edfb598052786d8ecde5e81708762ee2164b5fd7d36828d008ab0fb66132980a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.mp3",
+        "sha256": "9a86ff1afb28799c58a953c0d0a25ebccebdc42bc4d8c4da422338db6e1c290a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-14-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-15-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-elephant.mp3",
+        "sha256": "4a7c4da4992913b0292a4a28915788d381036dc3980fd5a6b169ae27389672aa",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-bunny.mp3",
+        "sha256": "9eee907f495269d5840404eb48a99d61df7dc629577508d6f156611facbd92e5",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-cat.mp3",
+        "sha256": "63514a53234ae9947af5251699a2b46cec0d4918bd956a2ac6e8d607257ff227",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-dog.mp3",
+        "sha256": "f48eb1192bb3125e328d654c4e4ef9e3fa204f0a6f1d550c406347e97f4d5201",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-children.mp3",
+        "sha256": "2b4dd43fad689d638bfa123ec1ed6042a3fd9e82d133a957f3e02407ecb36d00",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s03": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-15-s06": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-elephant.mp3",
+        "sha256": "4a7c4da4992913b0292a4a28915788d381036dc3980fd5a6b169ae27389672aa",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-elephant.timing.json",
+        "batch": "batch-b"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-bunny.mp3",
+        "sha256": "9eee907f495269d5840404eb48a99d61df7dc629577508d6f156611facbd92e5",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-bunny.timing.json",
+        "batch": "batch-b"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-cat.mp3",
+        "sha256": "63514a53234ae9947af5251699a2b46cec0d4918bd956a2ac6e8d607257ff227",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-cat.timing.json",
+        "batch": "batch-b"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-dog.mp3",
+        "sha256": "f48eb1192bb3125e328d654c4e4ef9e3fa204f0a6f1d550c406347e97f4d5201",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-dog.timing.json",
+        "batch": "batch-b"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-children.mp3",
+        "sha256": "2b4dd43fad689d638bfa123ec1ed6042a3fd9e82d133a957f3e02407ecb36d00",
+        "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-s04-children.timing.json",
+        "batch": "batch-b"
+      }
+    },
+    "xue-er-15-s09": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    },
+    "xue-er-16-s01": {
+      "elephant": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+        "sha256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.timing.json",
+        "batch": "batch-a"
+      },
+      "bunny": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+        "sha256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.timing.json",
+        "batch": "batch-a"
+      },
+      "cat": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+        "sha256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.timing.json",
+        "batch": "batch-a"
+      },
+      "dog": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+        "sha256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.timing.json",
+        "batch": "batch-a"
+      },
+      "children": {
+        "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+        "sha256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+        "timingFile": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.timing.json",
+        "batch": "batch-a"
+      }
+    }
+  },
+  "titles": {
+    "xue-er-02": {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-title-elephant.mp3",
+      "sha256": "beb8f02e77285ae7a0b14c2abbb09070ec8f942ba95ad723818d6b63204e6e40",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-02-title-elephant.timing.json",
+      "batch": "batch-a"
+    },
+    "xue-er-03": {
+      "file": "assets/audio/xue-er/batch-a/xue-er-03-title-elephant.mp3",
+      "sha256": "5a9a999f1c27f1c6be4dbd998ab4121c7a9e351013939c625e91a4cda17e78bc",
+      "timingFile": "assets/audio/xue-er/batch-a/xue-er-03-title-elephant.timing.json",
+      "batch": "batch-a"
+    },
+    "xue-er-04": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-title-elephant.mp3",
+      "sha256": "9b971dcd0820877cc0d05f99e1da7e542b1ff3ee8fbbacc3ef28667365f87997",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-05": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-title-elephant.mp3",
+      "sha256": "c09bade6b5439dd8422ed0157c4d1d3080752fffebb845c2c91bdb04c6d19de8",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-05-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-06": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-title-elephant.mp3",
+      "sha256": "c98f32bfcc260a7bebf9d69831941c459a36fe80fe6a3cd9a3ee9b6b0252276d",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-06-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-07": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-title-elephant.mp3",
+      "sha256": "e0f63bc735e0201ee0412ff09c0aaa5c63b98d16519af7c5bae3e23cee36a7e4",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-08": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-title-elephant.mp3",
+      "sha256": "2328ed180f568ca6d333db42169cdca249f64079601151242beabfd2080f75f2",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-08-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-09": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-09-title-elephant.mp3",
+      "sha256": "dec41ad5edd53f08b197c55f96b91bfde05abe1f1edaf7cdc281bf752fb771ff",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-09-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-10": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-title-elephant.mp3",
+      "sha256": "74cdd6595686f47a8835475fdd08a05f0d8ba0a4b238e204d81f4f84cb57de4b",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-10-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-11": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-title-elephant.mp3",
+      "sha256": "7886e0fabb526492b97f996e1ab2fa88d5948b1fbfe4502e8284c66862c3264f",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-11-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-12": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-title-elephant.mp3",
+      "sha256": "a722e111c8c06dac26bb03494c17a41d9aec26cf5d598d9b6bf6d39e8f1538ea",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-12-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-13": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-title-elephant.mp3",
+      "sha256": "af1fe61a6ff388a934e02a27bdace24db67e8b653dd55300203d8108e9bb79fb",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-13-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-14": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-title-elephant.mp3",
+      "sha256": "51b747127e59d2946340b18e84a9bffcb23c64a8f73c003d74b938549eddd703",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-14-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-15": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-title-elephant.mp3",
+      "sha256": "fc1adba567434ab0b0d23b947aaa99189dcd07a2693a836fa7ad03667340353f",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-title-elephant.timing.json",
+      "batch": "batch-b"
+    },
+    "xue-er-16": {
+      "file": "assets/audio/xue-er/batch-b/xue-er-16-title-elephant.mp3",
+      "sha256": "d57b231b348ccff96e68a2b9cc6db44a9132a11675f3d24298f3ab9f539b728a",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-16-title-elephant.timing.json",
+      "batch": "batch-b"
+    }
+  },
+  "missing": [],
+  "pendingListening": [
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-elephant.mp3",
+      "audioSHA256": "b752e48afda3a1f7e7925bdefceef6f0171e1e682a3d3f51478c473af34358fb",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-bunny.mp3",
+      "audioSHA256": "2c5769580a727898015cf8038be037b5537ed481e7ae7a531e7d1672e6aa721a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-cat.mp3",
+      "audioSHA256": "d9bafd20b63a44b5dc1254a8793a6ef0155612261bd1a4b19489e5b3c3eff1b2",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-dog.mp3",
+      "audioSHA256": "922ab2ce2e958e331c9f28953ec0a62a000609c870c6a11d709f8b22079f451e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-01-s01-children.mp3",
+      "audioSHA256": "c9788a5f56bd4141166e7ffd99937903c3dd90cd637c89e62403c2d4c2e13d6f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-elephant.mp3",
+      "audioSHA256": "6850afcb1651b7d86da045263fa759b889973ec0e9851cae060a26145ff6cbcd",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-bunny.mp3",
+      "audioSHA256": "0076634f7a3de7298b51d1d9eeb27026e4b0a2c9969e373ea334133fb63abe4b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-cat.mp3",
+      "audioSHA256": "06f977813687e6403df1fb998ca9aa601c716c6771c2addeb92973f80cee2bee",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-dog.mp3",
+      "audioSHA256": "edfb598052786d8ecde5e81708762ee2164b5fd7d36828d008ab0fb66132980a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s01-children.mp3",
+      "audioSHA256": "9a86ff1afb28799c58a953c0d0a25ebccebdc42bc4d8c4da422338db6e1c290a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-elephant.mp3",
+      "audioSHA256": "d5a7fa8c07abfbbd704bb91cab1ae6bbd6247f15f06820b74335a60978fd2891",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-bunny.mp3",
+      "audioSHA256": "9f5deea2401bcd4fe8f3f134ad53875d68dacd729000a264d5b8ef80d1951c44",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-cat.mp3",
+      "audioSHA256": "e65f093da9bcd4f56c72bfe3ee0adb2b516505892ccea7e78cb3bcd5a0771fe6",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-dog.mp3",
+      "audioSHA256": "41e54c65c29356ef704bbeda145b18e1120527f08488dcd4d7ade9c7dd11a081",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s02-children.mp3",
+      "audioSHA256": "3b59ad00b6afd22afba50f32c72ec2f1090c9e02fe9210b666c687978936890b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-elephant.mp3",
+      "audioSHA256": "130c4327a7f866358ea81ebd5c88017062c676c7d5583cc55918666c175802cd",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-bunny.mp3",
+      "audioSHA256": "a9f278ad7f54efeadc12336788ad98129c81b8a0b6cf6f535c564a9da72faa03",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-cat.mp3",
+      "audioSHA256": "cfab93418cbd0516c142ef628ab5c283672527abe3c65a45112c86e4f0a4c0ea",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-dog.mp3",
+      "audioSHA256": "bba02d7243402a4208c09978df8e41b59e3ae57f35ed02bc82e34661debf70dc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s03-children.mp3",
+      "audioSHA256": "fee4ae7ee212fd7b7ae3b8fdce2a6696fed8ad712780c5559bdb011016b304b6",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-elephant.mp3",
+      "audioSHA256": "bbf57fcce1131df7fbc8bc8bf43c197ab890cb72a634e97d597685424c0c67d1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-bunny.mp3",
+      "audioSHA256": "08cdf684069eefe3e8dc5efe6061fc255a61d5522b475d36b98decf86652bc66",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-cat.mp3",
+      "audioSHA256": "872026aa20e846bc19df66a5f238845ea69721c2ce02ce11c6c72567b8691bd6",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-dog.mp3",
+      "audioSHA256": "fdb1aa90699a0a959aeced2e49f3837bd4e158680a66becbe976bb21ec93d441",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s04-children.mp3",
+      "audioSHA256": "4f3f55767b747c075b7e55adafe8e8ac7cc96ced471538ed0b63f9cd75ad0537",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-elephant.mp3",
+      "audioSHA256": "448a9698cd0c31c679065dd2d907a66027d332ab6c77c610d13f3396fef87e83",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-bunny.mp3",
+      "audioSHA256": "a266d62d59be83439e0b560eccc29fa288e0ae91777c3e2836ee4c1f7048f86b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-cat.mp3",
+      "audioSHA256": "9a0c9bd7f3965a2399d56b5a082b05a74bf188d4a7df0a6feef50e72d097b51a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-dog.mp3",
+      "audioSHA256": "f058d91e44da449d3551309e8fff49e2aaf010c4b019f74ff9e0e271d170929a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-s05-children.mp3",
+      "audioSHA256": "789943a4f582ee332eb637ead3b9764907c8d78282f4d5eb7041ae4fb8e24aa1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-elephant.mp3",
+      "audioSHA256": "57de00336f269754b677202f69ffb3e5313c1703ad58e8ec86ea0a7b6943b90d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-bunny.mp3",
+      "audioSHA256": "87f45f9f7f6231cda7345ce7fc252752d3bb2b944f02b9c3022f91aa58fe5731",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-cat.mp3",
+      "audioSHA256": "9b440b64d58ce56d920fa4d7a989da72304b5de63c2b1ceadb15c24fcab84c37",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-dog.mp3",
+      "audioSHA256": "d558d86c966c619ba8e52084f6bbc0b2a3cc047df0f18f9439cb400a57456221",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-03-s02-children.mp3",
+      "audioSHA256": "d79f94c0fe605f0ce4f349f580441f0592d806521b04e2438eb52b31e2136fa4",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-elephant.mp3",
+      "audioSHA256": "ecc43239bcbf1c8d0b0e4f34ecc024a5001e274d29483aedc5f25f647e0f3241",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-bunny.mp3",
+      "audioSHA256": "b086b26d6d57646647c39c610c58c8ea2ae5e29437be8f3bb84023b71a5e2c08",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-cat.mp3",
+      "audioSHA256": "f6f43fd4251c6c1dfff7a4bba92832d28a149bec066e19756c02381cffcd8b43",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-dog.mp3",
+      "audioSHA256": "973a14a3ce96a5ed9bad16e59816ab9d27623a2ec6448f518720e05cd6a16cfa",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s01-children.mp3",
+      "audioSHA256": "2580b502de7e9410209664b73e093a132e01336a6b3c6b52b7b3bd193beb7ae3",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-elephant.mp3",
+      "audioSHA256": "9a449a1a48247b08689f1ddf1148b6fda4e88ceaa404af35da81ee87320ebf99",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-bunny.mp3",
+      "audioSHA256": "372f91991c207bc2f5ecb30aba55ebd292d3a9bec348752d521f53267851aa88",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-cat.mp3",
+      "audioSHA256": "d9306309be3122e1585398e8f1fd7303b773d893fde63c453cb502efe88a84ed",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-dog.mp3",
+      "audioSHA256": "c3c0828a5206134685c5ee32be309c8e947e381464fe4bc365f7741eaa16f9dc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s02-children.mp3",
+      "audioSHA256": "040b447bd54b80b45c224f2a6f8c44318993e40dcf66fbeb2b48dda4ca2af048",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-elephant.mp3",
+      "audioSHA256": "4e0adfbe7cc7baba11f7d72e8d0b410b960f8490176d24f0a16b9794c3807a11",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-bunny.mp3",
+      "audioSHA256": "900b8232da9b1a4f75b34ead2f54488d2ebc9f0d8ba45b1c47eb3825c082c306",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-cat.mp3",
+      "audioSHA256": "fa9092a44c5074395bc63f9af9f7d343797b49c59f8646dc2a5f682c2da9f0f7",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-dog.mp3",
+      "audioSHA256": "1c2bda12d119a08615f0100171a9620556cf1609bb86fb69a841b0c1ecb2842e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s03-children.mp3",
+      "audioSHA256": "be01367e4cc0d18c86570f936fe5704ca37caa52c78fbd0185afd7f662ed2968",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-elephant.mp3",
+      "audioSHA256": "47697a2b17aef1857c35fd60a1cdbcbbacbf6b50842eb169955d4e8cdd790516",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-bunny.mp3",
+      "audioSHA256": "4cd6bbc57065dfedfdf1151bafe0f995e71f3485de6c7f11f30ef4ec305d2574",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-cat.mp3",
+      "audioSHA256": "5c74b6367b57ecbb07ee8ef34918afc9e43caf17399ac0d8bc5a67d921b0239e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-dog.mp3",
+      "audioSHA256": "1b2219bff7ea2d12e7b2e91c5d6fd55b258bd5164e486bf5eb8fd824b327e3d8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s04-children.mp3",
+      "audioSHA256": "b70bebab419127396cb2b1e724e84b75ed50716fdfd2b67daad2aab6a69a0cc1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-elephant.mp3",
+      "audioSHA256": "cd9c4fd55a3cc63762b3d44e7ba0c22b7e10a155402d6917b0d96db54fdf6ee4",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-bunny.mp3",
+      "audioSHA256": "f66888da22ce8f35baef693d6efa816b354ff8838752e6e02272401487af9c3e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-cat.mp3",
+      "audioSHA256": "276be4dca3526c5eba9b2fefbdce9e73001aaac4c7e24f1702ec392c6b699148",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-dog.mp3",
+      "audioSHA256": "dc435df7e5ee433af527a2a1ff223e3167681b1838363c3e5c130916620697c4",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-s05-children.mp3",
+      "audioSHA256": "fdf1593bea43d220f6ba0a6132885ff719b5c81fa6ee1d751a9c1632ae99782a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-elephant.mp3",
+      "audioSHA256": "5a6fb6b29cfba21105545353cc15f6103a76d1a82f48cef633c7c0df22415ae6",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-bunny.mp3",
+      "audioSHA256": "4d7302806f9142ad5e165cc7718697d5523184b4b41c9642b93a3becb7e16e67",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-cat.mp3",
+      "audioSHA256": "dc5cf624abddbd5c8f6002386e4e837e1f72f0a05c1e2140ae90ae677273adf8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-dog.mp3",
+      "audioSHA256": "666d54cc406b0e79d7768c58193fa19dc03108ceb3983e31939b109b63f24707",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s02-children.mp3",
+      "audioSHA256": "ee18a81117c25a43ef89c5252d5b0095cdc0a8899c8c2f39bfd08c3ab3c3fa72",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-elephant.mp3",
+      "audioSHA256": "512b7e32064c9443d555101cc9f384481c52467e39a4a4a9a02ded6f5eefa0bc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-bunny.mp3",
+      "audioSHA256": "95147f0a138aa18be13cee399f4bcb1da07c33e6b9704a4be6eef54b5f6ac2d8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-cat.mp3",
+      "audioSHA256": "32402a481597f5d20dd7a2549e3a099188e32e8f3379b49baf1c2db0d7d51aa5",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-dog.mp3",
+      "audioSHA256": "d9c576b21578d3ce56e4a99094556dc69168330323d096d19372320ebd7eb5f1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s03-children.mp3",
+      "audioSHA256": "5bae4ee8367f7d40af79755d6cd3c913def4776a64a9029680b63f938cdb66e7",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-elephant.mp3",
+      "audioSHA256": "1581ea93773b15945533f224582ff4f5976aeb09bc7aeef51730ff8732fae0a3",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-bunny.mp3",
+      "audioSHA256": "861fd04afd1bc3ffe8aad7126980beaaadef1c4cc6c0d7e5539ee0ad1e7ef3e9",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-cat.mp3",
+      "audioSHA256": "ecb15522f1a5e72f436faff413116af87c8e484c9891e63d6b3d6a329e659098",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-dog.mp3",
+      "audioSHA256": "50c50ddd1428819081cb50d3a23deb6725eba3d54e9d1de57017bdf77a1bef45",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-s04-children.mp3",
+      "audioSHA256": "47f3cfee462fcde83d01cd020ea2eb9dc68d4714d213397bab00979ffa628d9b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-elephant.mp3",
+      "audioSHA256": "d79e0b87bae360f457281d77946edaf1c31af614597cc640d11779be76b26092",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-bunny.mp3",
+      "audioSHA256": "8df91ac63c61dca85d7fc3dabae3fa0d6054adeb6b692930bbdcd439c2a2c2eb",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-cat.mp3",
+      "audioSHA256": "9bb3364cce84003111e5e3028498ec284e6d0ccf9424518eec40ad3d303277a0",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-dog.mp3",
+      "audioSHA256": "17f6331cf37fde5c44363920d703363d7c2b0274ea957552ad06483f2230f5f1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s02-children.mp3",
+      "audioSHA256": "3c6ff0731cf4909517a8f5fd0b5703eede70c1579a0672ecdf0c1cac6e1896c8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-elephant.mp3",
+      "audioSHA256": "1ef268f1b43971b8afca675d4f91ce60ab42a2ae074e349b9df0a1b37b39015b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-bunny.mp3",
+      "audioSHA256": "b0d4ca66960b902646d6654a66f59c14abf1607c0aca1b5ea4005e6955796706",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-cat.mp3",
+      "audioSHA256": "1867a6ff2fce192be433dce682225229bfc42893c513b5fd983609f8c319cde9",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-dog.mp3",
+      "audioSHA256": "0abb001f5e46938d84a05720c6dbb5c2468667518b66fc08e3b05511d527767f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s03-children.mp3",
+      "audioSHA256": "7dc819519595620c87aa8df1422dcc5649eac46facda451802f4317bad70fed8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-elephant.mp3",
+      "audioSHA256": "5100d24f46aaad0ed017c80ad7552361f20c15ec05bf07efe147cbf33a94e619",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-bunny.mp3",
+      "audioSHA256": "74de521b72d4105f86364a53e17b0b229820cefe438d57ffb4f3ba46555d0996",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-cat.mp3",
+      "audioSHA256": "0b895ef91ea5064ff544af76e50b6ae4a7e03a2cc763df023fa625843c18dbc8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-dog.mp3",
+      "audioSHA256": "ae35631c30f729580dddf15a3fc998d1466f4b1817f562e9e92e2c737f04c5a8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-s04-children.mp3",
+      "audioSHA256": "c13939e7c41591dfac93f4e3aae1fdf6904acf66184c462b9ea606c1ba511791",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-elephant.mp3",
+      "audioSHA256": "8017cf5c70db48447f3e43e97543b75d56cac58145022099b739bf11f9c4860e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-bunny.mp3",
+      "audioSHA256": "9789cab41c04268dba7b05c438b9f1e7ebb6ed9304a830d2ccf0f273d1a09e0d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-cat.mp3",
+      "audioSHA256": "1276cb6f71ffb978facf058a9fe33e82f0004e8b550bf56c18a3645bb227a469",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-dog.mp3",
+      "audioSHA256": "c4db32fa7471715e0adfd259b263ebd114702149dd71e6835c18a636429d4cb4",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s01-children.mp3",
+      "audioSHA256": "a329493f51beefe2d752223ba5cb96d1c52ce420471ad9b45dcaeca7c83c49d1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-elephant.mp3",
+      "audioSHA256": "25f37cd8e4215fe0c0f9a5aedd1da6d4ad6314cd51cfa8313e272bc3a94dd3a9",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-bunny.mp3",
+      "audioSHA256": "eb5b5c163164b207421c1037ce255c3c35aa4ed5b666c55d314d9ee08824b877",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-cat.mp3",
+      "audioSHA256": "34f79c3f79fee4783213bb8ea167f523634dd810208b0c81ce37163855af6246",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-dog.mp3",
+      "audioSHA256": "d10f07785d3aee7151259b68a049293332beac156dc01f6bea642e708545f130",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s02-children.mp3",
+      "audioSHA256": "d06bca62085abad6c8b57fb775c0013622e74e0f64364a35b55d35e6ad9911f3",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-elephant.mp3",
+      "audioSHA256": "47327fc68c5ed06b04cab9d41f7a15f0b00517260da22feb775b6da9cd8f2114",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-bunny.mp3",
+      "audioSHA256": "ad4f0bd9630e2537df1918dba51bc46a0c5fde0a5c1116e7f16b33bced63a573",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-cat.mp3",
+      "audioSHA256": "3221dc4facdb5c0d08c618adeb6e2bf449e8b36f1569e02d6f4ad111910c329e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-dog.mp3",
+      "audioSHA256": "49394fc0a5ee8721dfe00f074c79cb436beef00940dfd4857ce3947154f9a78d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s03-children.mp3",
+      "audioSHA256": "4a9f36d7718b919cab51e91ca79f1f25a9d1b69846dc7f6a58aac517650c19a7",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-elephant.mp3",
+      "audioSHA256": "bbf98b72e4af95acf93d826122d5d513d6ffe145c1e3dcbd7758f8aa8b248076",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-bunny.mp3",
+      "audioSHA256": "b01fc82f3e96aa30c7b6f0d244f2fda9140e79eaf1a5ba0220d6dc814a1792ee",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-cat.mp3",
+      "audioSHA256": "3d801c297f83c00719e8e413f01083e985ecd367aaa1d394e70567d847afdd92",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-dog.mp3",
+      "audioSHA256": "dc86e82f3b798b0b56a4a705ab3ae11223f685dfddda54e277f86aa65d88f45e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s04-children.mp3",
+      "audioSHA256": "df331c265778e3df422cb614a02f53dfb0611ea1219fd878cd878b76cec18fd3",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-elephant.mp3",
+      "audioSHA256": "b116efc9c27f515398fd7e784d4e6a0515bac5ec9a54ee2cd2f95bcf4e736c48",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-bunny.mp3",
+      "audioSHA256": "ebf1b52f15bdaa354473701e415ae11dc29b186dbf6d0aa708f754fe9d599aa1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-cat.mp3",
+      "audioSHA256": "f93a5ca6ef05fca47806cbe2878078c7498088cc5d988e61a297881a327c9051",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-dog.mp3",
+      "audioSHA256": "290106aaf340427f0de7d3e3f28f1a8711f2918bd194a01c870758863b6d2f1c",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s05-children.mp3",
+      "audioSHA256": "4fc4ce1c7a0909fc3ebe6f651280f72cd02197ceb2ae3f0e438127f145fd1fda",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-elephant.mp3",
+      "audioSHA256": "7ecb956b9f0902b1d141c1416bca7d39094b1a63aa9e7a3103a35e5334c982af",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-bunny.mp3",
+      "audioSHA256": "386628a1f358d945c892a879e3f35fcf16ff48b7a99fe52d4e45bf5e9e6fddcc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-cat.mp3",
+      "audioSHA256": "64533a694fcca23ff74844b328a224790e8e95db5e14ec37a76229e0360ab702",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-dog.mp3",
+      "audioSHA256": "e763d1c78b5a8321f9a0f06c8dfde20bfafaaaac1e73ac5fd6a1b5569b038c9b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-s06-children.mp3",
+      "audioSHA256": "91d5dea4124f2cbf5d75c16432819eb450bc00d470eaa82348b00dc880f670cd",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-elephant.mp3",
+      "audioSHA256": "435403ef1ee8f5c5d7a77a18c045292e8c09084dce7712c54174702660e560ea",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-bunny.mp3",
+      "audioSHA256": "30ee0b463f598fc0f84695eb6631e642636d6d3b18f6766be6d23d65502ea004",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-cat.mp3",
+      "audioSHA256": "102ac9fd59738880804f664632d54065c191605041225523236bd5f437a601ae",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-dog.mp3",
+      "audioSHA256": "08eb4e688effe1e26a43c2a099d4c02ea98ef1194d5b75ee50191aec8659f550",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s02-children.mp3",
+      "audioSHA256": "6254a4ccccd96016092ebc6fc58a7fa406ca544db283c16b01fd4e4e255e09ac",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-elephant.mp3",
+      "audioSHA256": "cb7091497b9b40502b751c93f75675d3cb6b64ce94d334aad61b67a9b4baed75",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-bunny.mp3",
+      "audioSHA256": "b0538a104ef2aeb48f1de26472983980259dcd9cae3d2727509658ebf54b7683",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-cat.mp3",
+      "audioSHA256": "02075c07faedafe6acf85540ffc08dfc32717cdb0cc7e1905d3db33c492a3d40",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-dog.mp3",
+      "audioSHA256": "69a11ffa76f89e88fe5c3e59a6a8a33077beeaf441d49baca81901b8d538a9a3",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s03-children.mp3",
+      "audioSHA256": "b536a5203635b143f31cd4a76750dbbe4074fcbf1f32195eb1cf0f37596aafd3",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-elephant.mp3",
+      "audioSHA256": "be26662b303cb91fcf3fb6fb1805cfeb0c86495507d8ca7430f5defcd92171bc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-bunny.mp3",
+      "audioSHA256": "1ee3d2963c86e3e0fc4057ea7449108f07f4d82c587f54f2bdc10bf7d0a7b9ce",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-cat.mp3",
+      "audioSHA256": "41abfd07cb4aa780611eb39812bdd0eedd820da7760dd56db830e866ace7598d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-dog.mp3",
+      "audioSHA256": "6101896c723976590d06c9801ad06eef40c7196d8144d2e972728f229114ee0a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-s04-children.mp3",
+      "audioSHA256": "90b603a5f3f7484f088f7de57a695e0bc51af8c019c167b9989471e06366dd29",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-elephant.mp3",
+      "audioSHA256": "0f889d7caebf9f857ccf61c605d65b44c3e5fd266a99ab9863468197d78b4b58",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-bunny.mp3",
+      "audioSHA256": "e5c86d2ad2fe193e52142e7bf44a723463327a3775290e7325e051e170cbcc6d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-cat.mp3",
+      "audioSHA256": "cb291afdbdb640924cfdcb7ba3606a5dc0108e820a4abb4d674234cad942f858",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-dog.mp3",
+      "audioSHA256": "2d85d550614c17a328f2828d9a0b0f9525f80a2a2acd2eedec455745f10ad1ee",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-09-s02-children.mp3",
+      "audioSHA256": "10639270afdb3bdf110e6e2c6f38e3c2341a58dee63ce21bf3c463b4ed3cbb91",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-elephant.mp3",
+      "audioSHA256": "2391af60270b22d63118295300b112ef548a4cbe16713ab62a932c127e62018d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-bunny.mp3",
+      "audioSHA256": "db145bea9d1ed902d7f12c5fe29041fc141f6fb6e1967d84ff36cdaaeddb25e7",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-cat.mp3",
+      "audioSHA256": "0f30bad45aa4a92622886129a3e5b261ccca0717f760793cd54835ff7967feab",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-dog.mp3",
+      "audioSHA256": "f85d2c28089f604df8fc857ec9ba7461224b649a28c09f3864a4903fd6e61b6b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s01-children.mp3",
+      "audioSHA256": "145d5a7b2baeb38f882762ba86439a47d0b72be6b1b23d017f8f70b3cbfceaa1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-elephant.mp3",
+      "audioSHA256": "acf5ccd09389ef4b71aaef5c33c604f4132c2246d090b1d1a4169023dbdb9cdf",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-bunny.mp3",
+      "audioSHA256": "ea7a32fd9a23280dd66d3087128470ff6c616ed4b8da44463c51927ef095e8ea",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-cat.mp3",
+      "audioSHA256": "148b8ff3676a9f9893d2f9a0729e72cfb7ec21ba879b2d79a90044cbbf5b7382",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-dog.mp3",
+      "audioSHA256": "79919f8f42b8b4ab5e2d641ea58c40778edce88e8ce4e0d6399f9131dea15869",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s02-children.mp3",
+      "audioSHA256": "fed7c8c65b82e387a9d81391916a288169d2aaa7a6bf7847fd94bee3bc72da00",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-elephant.mp3",
+      "audioSHA256": "67bf4a4fff87606cc71d6c49b322c8053bfbd1dc2ba19cb54c36c9f1928bbbeb",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-bunny.mp3",
+      "audioSHA256": "f14308e25f200ce81c266e432abe8416b9e3ee03980493e1887133193758ecdf",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-cat.mp3",
+      "audioSHA256": "4168d33b57b1484ec0a249b78655da45fc017bdc903ef5caf2169616bd28c4de",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-dog.mp3",
+      "audioSHA256": "01018bab5ef25384815aca80670f4747773030d691913af910f6148a5421b4bb",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s03-children.mp3",
+      "audioSHA256": "4811c50d81771d67128f71f6cf87d17787542799e86043eb8ffa2486df0f0560",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-elephant.mp3",
+      "audioSHA256": "4a7c4da4992913b0292a4a28915788d381036dc3980fd5a6b169ae27389672aa",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-bunny.mp3",
+      "audioSHA256": "9eee907f495269d5840404eb48a99d61df7dc629577508d6f156611facbd92e5",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-cat.mp3",
+      "audioSHA256": "63514a53234ae9947af5251699a2b46cec0d4918bd956a2ac6e8d607257ff227",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-dog.mp3",
+      "audioSHA256": "f48eb1192bb3125e328d654c4e4ef9e3fa204f0a6f1d550c406347e97f4d5201",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s04-children.mp3",
+      "audioSHA256": "2b4dd43fad689d638bfa123ec1ed6042a3fd9e82d133a957f3e02407ecb36d00",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-elephant.mp3",
+      "audioSHA256": "c8f2adcf5890d1a3aae08aab4a09f96c8bd333bc48f501d42c99e7d77ce799ae",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-bunny.mp3",
+      "audioSHA256": "b4fe9075e6a4733930ce0cdf9c3b73180f75261a5a6dd1aecb715a11cf6dca71",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-cat.mp3",
+      "audioSHA256": "d647809f720f02f9c501750edb34e2b06b5b6dd4ac0b9db7cf00f745d23c4348",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-dog.mp3",
+      "audioSHA256": "dc8d6ec087bdd2379e33b0812da840c8783256befed3882505200fe6e65ae95d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s05-children.mp3",
+      "audioSHA256": "403425560035daf3b24f5fa9ace8c49082c556962009e37cb1ab8c8b6e5b91fd",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-elephant.mp3",
+      "audioSHA256": "c5c4324ddd991298130d7b7492445b63bff8276f289846e5ed7e3f1c34ff7213",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-bunny.mp3",
+      "audioSHA256": "04b6c05a82a1f54a89b9fe5434f7aade8b8fc4b7d5d95017a5e80b3f0b08e13c",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-cat.mp3",
+      "audioSHA256": "ecd54441a56fba1c8681f38971359f8c75a5b39dca2e2542c3ac4dcd85df0a00",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-dog.mp3",
+      "audioSHA256": "2e06c8c8cd30952e47c6e9ef4613a1e95b1036f76a60265c7969c8f15e26181e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s06-children.mp3",
+      "audioSHA256": "447162569ecfc5427b0c24e8ee6f1fe792ed5b30bae147025eb4b7bbdbcdf16c",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-elephant.mp3",
+      "audioSHA256": "a0dd1c7b635ea47829a8dcfc2e7e5c809c28b1122a981eef6c8ce476e4cde8e0",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-bunny.mp3",
+      "audioSHA256": "9c9687347143865aaf7e13692cee222554e9768e42f50643aba992650723cf19",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-cat.mp3",
+      "audioSHA256": "e50382ac7c88698981b2781c2ff37279e6e10a6cddd9a14294ccd5f53db2d26b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-dog.mp3",
+      "audioSHA256": "bb8a3076f88654fc8a463bd972e6676622ff89512d450ad3d3d1d4527a50464a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-s07-children.mp3",
+      "audioSHA256": "4acd84fbbba8e35859f476356c2fb36fe924d6d40cfaa6f75ae12adc57b67c5b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-elephant.mp3",
+      "audioSHA256": "1c61f9217ecf6dd741bc4c35932cc429ed85f75bbe3f343afc745d1247bc9e62",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-bunny.mp3",
+      "audioSHA256": "9771b67b3e92589110d1aa40ed6861fb845ad7e525ea5c2e0d04b9bb7926144e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-cat.mp3",
+      "audioSHA256": "715388f83b91dc361b506c182063fb97af1ec271fc5537fbf16fdf7e0b6582a0",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-dog.mp3",
+      "audioSHA256": "e47899f43660fb542f90cacf295f972200f67a3b1905becd132c36d861710028",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s02-children.mp3",
+      "audioSHA256": "3c19388774b4fb648bbbeace2cece94dd6f2f9209fb5b7c12663a3625674e2a9",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-elephant.mp3",
+      "audioSHA256": "0ecc78fa7972c993a002d5a3cd70303cbf6de2e06a7f3dc614284747a8e9c735",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-bunny.mp3",
+      "audioSHA256": "77cc20001cbeca6e52e3f52f5262fb42632aa84b10b4eedd68cc308dd8f07025",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-cat.mp3",
+      "audioSHA256": "e540f369b8043b7b5cc0909bfcc12c86aa0114d2551be6381cf92eeb209ec6eb",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-dog.mp3",
+      "audioSHA256": "bb43f7197aeec6d48a7acabd04e2c7073e3e1b2da16026233ba383ca6e3b70d2",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-s03-children.mp3",
+      "audioSHA256": "7aa48d8ac0baf0cfcc59d2117c0baa9b06acd06202107d1d79638c9f5924b07e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-elephant.mp3",
+      "audioSHA256": "139de96cdfd08ea943fa371337e7f74fd2730dad5100f321471d70510752ff5e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-bunny.mp3",
+      "audioSHA256": "8f99657b8979a933b18c0f385cb29947dcfde1260372874ca6ee7613400574e8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-cat.mp3",
+      "audioSHA256": "84b427556c9939179505a3c22c8bd6629cd877e28f7a58b042b1572826753c9d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-dog.mp3",
+      "audioSHA256": "5673d8133ac6bc3db88d37220d56570c8586671f14d0fba99ca0a7fc34a5f971",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s02-children.mp3",
+      "audioSHA256": "e625468c7891a9463c2800833f2433a9b7a9e166f71f9f1a3ffdb4fcf398f9ba",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-elephant.mp3",
+      "audioSHA256": "531c0c884a74a1386c464725178c3cb02613faac3aa2dc059059ac6ade8ba97c",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-bunny.mp3",
+      "audioSHA256": "1262b125e2727f04e2e88668f64a4cbe55a7d7e8638c4a21a8fd589baca564bc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-cat.mp3",
+      "audioSHA256": "0f9aa57336502f7f09439ec9c8ff797948083cc9292c981903434df452d5182f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-dog.mp3",
+      "audioSHA256": "9416381e81f3455700b932ea272ad21bfc1f8ab5de0ea44ce6f4ade68b4c2b39",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s03-children.mp3",
+      "audioSHA256": "650e78955491edd99372ca2b12637f281ef6218a0ed7a676692c2a8681942f95",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-elephant.mp3",
+      "audioSHA256": "4c420b1772670455e791e03adb0adcbea9ab3acd043900b6c6ba82a19001512d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-bunny.mp3",
+      "audioSHA256": "d035e9ae570028c27992720d0de1525f7a12931b42a7badb8b13b9169c9e9b26",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-cat.mp3",
+      "audioSHA256": "3b996e3716a3991f031fe8f9923c24a1f0c437a4f37ba3542ea7d8435a949072",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-dog.mp3",
+      "audioSHA256": "bde5871078ccc521f9580fe49a12a58085fdb0fc7d87da4943f065702da53849",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s04-children.mp3",
+      "audioSHA256": "0616174f8df7ca0fcf08a9690f1ad4bfe89602dacf953df653d3ba6e4f316b57",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-elephant.mp3",
+      "audioSHA256": "bc5d4a40cd0bce4eb706ce5dd8f6dad9773f1219130e04faf60c41cd2b5fc63b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-bunny.mp3",
+      "audioSHA256": "4f3614c9ca068da26a6fdf79ed978f65eaf5ce7c6c79401064b182f8770d5a0e",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-cat.mp3",
+      "audioSHA256": "5693de13a19dba92d5721e9fb33b631aa66ee07f416faae90089260851ba88a0",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-dog.mp3",
+      "audioSHA256": "d543bc89e344e8d1669703d004c33345f100df362d98b907f5f9956b16027660",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-s05-children.mp3",
+      "audioSHA256": "1f057d05577e0801bb46e14f22d16d4a68ff0653c080ae06af274e94c7cfdc5c",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-elephant.mp3",
+      "audioSHA256": "565685d97fa478d6c8302c25934af40125ae1bfcbc8abd989d4466d3b1a3b728",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-bunny.mp3",
+      "audioSHA256": "f82710a1bf1d0d27b17bbd338102814e66ef19e001b2a898ab20436d12fe3fcf",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-cat.mp3",
+      "audioSHA256": "4e7c1e7b643918f967050540e5f14ea6a5d3e8940683e4a9a62583819073ed49",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-dog.mp3",
+      "audioSHA256": "31e880c625c13745489b4d301e923ef10807267573e6316274e9e3e2cf82a13d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s02-children.mp3",
+      "audioSHA256": "81ae88fec8ba19bd78e10d055679bbffedb8ee2d3a06dcf0d12ec88123183bee",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-elephant.mp3",
+      "audioSHA256": "94f526cebc7e39e6cd9abce373b00daa761b06954fdf3de561c12f6696f608e4",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-bunny.mp3",
+      "audioSHA256": "1d808165a0c596fa5ace1d571014899bbe968fcd5717e3cc45a220dbeada6918",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-cat.mp3",
+      "audioSHA256": "084e8f1ce4a63625d4fa20ff98aa982231dc25b2d40d122cbcc7c904b369e9a8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-dog.mp3",
+      "audioSHA256": "d89dd71c763f2480a6868c6db08cc940021314c5955435a28a517a872201e744",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s03-children.mp3",
+      "audioSHA256": "2e2d566f3ac0f9499ea043f0c36d4a72dfb5e9c81c70bb2033f61340d58a3797",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-elephant.mp3",
+      "audioSHA256": "7d3038973d902d89e76f9ec3e8b2954854207fa584e95833ed47cdae1ba96a40",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-bunny.mp3",
+      "audioSHA256": "0d692db32f63a232a42f300b702322d7064820b06d527149fd1f97fe93bb09fc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-cat.mp3",
+      "audioSHA256": "3bd65143d8d6a09d04958fe3c4e3db8315053c253ae5bbe3b6c3bdf2218b352f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-dog.mp3",
+      "audioSHA256": "f191f6df12ad24b2793943ef8d39c9e007588b92e796b75fe2c725c47a688d22",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-s04-children.mp3",
+      "audioSHA256": "f33a2b97e9f2b7de6e760015a9355b19e9145eb993d88b40fd83867cc5c0919a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-elephant.mp3",
+      "audioSHA256": "ba73502444aaf18bd0da62e527fb982e72452e1d2520ac1918bcf9ce6820c883",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-bunny.mp3",
+      "audioSHA256": "46e921b63060ca2b0e68a7c248667b7275d01caa748d39bc7fe3f09f3ed255e7",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-cat.mp3",
+      "audioSHA256": "e08887d12bf3fc857247efdce6737350b6d472cfa3bc1ca123181f2b7536ae31",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-dog.mp3",
+      "audioSHA256": "913a67b69f03aebfcdb673fe024bac86d2dd1a2b2d5360416a1d76862c2a65f5",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s02-children.mp3",
+      "audioSHA256": "2c4b94726ad0b129c02c07dd468c8bd6c56076189589a0113e73ec8edf3c91cc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-elephant.mp3",
+      "audioSHA256": "d4daf98d7cde5cd26542598e962c9487d01986cbcbd90df95b0a0fe247c8bdc2",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-bunny.mp3",
+      "audioSHA256": "73b66e2e4036946796c6c7bd752a11f3e887bcaaac539c03ea384a1d8367e011",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-cat.mp3",
+      "audioSHA256": "32218c5aa57dfd257b594a0a216d65beb63c63cca6fb11f8903d49fbc4b787cb",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-dog.mp3",
+      "audioSHA256": "48e188e0539a7f2f6e4e188a213aad1e68d4da3cdc3507003fa7f6db6ebac33f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s03-children.mp3",
+      "audioSHA256": "691d8e10df0d4e858eeddb13138a81ae344abb037acac7dc6ad970c116b928f6",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-elephant.mp3",
+      "audioSHA256": "69e4947fe610fb723df8a5647094572800b985f83129326fad66b0fb6338e088",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-bunny.mp3",
+      "audioSHA256": "9999ff8c0ea8cea08eaf2abca6335a5fa53798f95ee32f40e3f697f5ecf046d2",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-cat.mp3",
+      "audioSHA256": "78d671f4a2e5196fa8d96d10244f22f622cf9d3cde79fa6a68c64a7b51f875b9",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-dog.mp3",
+      "audioSHA256": "946b86f7935144f97a061fdf3efb2bbc0de81a2704ee353e442eba88f3c4481f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-s04-children.mp3",
+      "audioSHA256": "8804b2915d027b2e54e0604e7c40ba40fa3cc4451929b4da0dbd7a7d484ee9ce",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-elephant.mp3",
+      "audioSHA256": "589c7384652f88adf3296c7081e12592c6a6fd9208c995c03ce1ed8a91015d20",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-bunny.mp3",
+      "audioSHA256": "1db9f2f16de018de83f3b6e6f03fcc4751f6891204148814af90ed030f7f8ebf",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-cat.mp3",
+      "audioSHA256": "c3c2904dbf888f1990fcc03efb2d993359ef6c275d299055bff9b37511758ef9",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-dog.mp3",
+      "audioSHA256": "25bea5e9a8061d543345fc3830165ecd752c03fc2a6561a221c1c10df8cf8811",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s02-children.mp3",
+      "audioSHA256": "2820e15fdd6e4b465fec0157547a68f2f0cefc8bd0511eff488ece69c1bcc919",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-elephant.mp3",
+      "audioSHA256": "c3a3217c5bab85f843f06e227f7b1981115d172f01e5cf96c16ad570cef56316",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-bunny.mp3",
+      "audioSHA256": "afbc94f4090837c2f6c9292646039a1769341619dd9ca5a04e57832049a2e642",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-cat.mp3",
+      "audioSHA256": "1bf22865c61bb4334c72c797e9136dc7e746d86be244394ff6aaa2a4a48845d5",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-dog.mp3",
+      "audioSHA256": "025d8e956382f3e2d2f0992ec0b2f74ed08a82f632cbe5034c0c4859c813daa6",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s04-children.mp3",
+      "audioSHA256": "978bbc71619099c46e81ef9cd2805ace41818c7b12ba4e870979a6c6a06de986",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-elephant.mp3",
+      "audioSHA256": "8222939f5b2186f11d385938f746abd3017bade99b1ceaa7a93bce1ceb847961",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-bunny.mp3",
+      "audioSHA256": "f9b0b413024e0009abda0ff33270bcbdd7210caec97fba4a4c92177a57092724",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-cat.mp3",
+      "audioSHA256": "423b91da0a79ae1f2195ec9952acff4bfc5aae9312858b7f211e89b4ebe355b2",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-dog.mp3",
+      "audioSHA256": "f5f7968a477b0297053d89c4d2da9a61cab984530ba19e2a701bc9de0126607a",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s05-children.mp3",
+      "audioSHA256": "05d3cb77eb13742728948aeb0213764d050df5ae67ecac387d49454330a8bd2d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-elephant.mp3",
+      "audioSHA256": "0a0e6fab1313f736861a0298e8e2afa479d68ee64f9a5944e4205f77efd3c4c1",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-bunny.mp3",
+      "audioSHA256": "6bae18356f0740c23e7ea61dd20b73b4e937bed34d084a0a953ed9212292915f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-cat.mp3",
+      "audioSHA256": "889d5d672eabbc28392d09b542c9eec0d9b8b1285073ba9c99cd3d928d5e8d04",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-dog.mp3",
+      "audioSHA256": "b46fb7d04747dbe37efcc985fcec6aee21ac940a1015ab19db14bd4c097b04de",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s07-children.mp3",
+      "audioSHA256": "6a2dcab78c8a55bcb4d1fd8d398a7809824099070cc724f31b5f7541ddce30ad",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-elephant.mp3",
+      "audioSHA256": "4a76bc80e28a83f117d1d6ff5bb024dce41e879d321f8f3d2fca049ec1fb84a3",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-bunny.mp3",
+      "audioSHA256": "9d079f152b84f6545f9f0c98b616e6d928a9d9e5d0c01777336325a622034b39",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-cat.mp3",
+      "audioSHA256": "98d1ed070c97a745a13f0fd6806f04773509cfe98898ebe04f81952d8110e54d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-dog.mp3",
+      "audioSHA256": "79abe2b6d0263d36af61044e6f0e4bdefa698be1b7c01086eb633ce236e9eb2b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s08-children.mp3",
+      "audioSHA256": "8c73348f833bcd68493695fea04deb4935bfba63ce9c977586f156f4134ff1a2",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-elephant.mp3",
+      "audioSHA256": "ea183be4bc9f6f148e450a779136f50f5ed2f923b09090ef04f8f1a5664e1e72",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-bunny.mp3",
+      "audioSHA256": "7436cda49c4dc2bd560392f8ebdf144745349fd296e255554a4e5f6769f7a6b5",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-cat.mp3",
+      "audioSHA256": "7928d0a524cc625329480e8b3bd50e07d6836f410981a73299492cc4721f7f18",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-dog.mp3",
+      "audioSHA256": "a2e5b5831551fa589c633a53f499179fc1dde22aa0d6c2a218c79582fbe4957f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s10-children.mp3",
+      "audioSHA256": "28a4142ef81350189122ba3b8cd2fc8db39b890b9d45dea6e2791804a19be0ed",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-elephant.mp3",
+      "audioSHA256": "e06378ec461ee43d9deafeaa4c0043d1ca732a6d43844fb25583d1882488ff9b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-bunny.mp3",
+      "audioSHA256": "125747c3205f6a61aa53be47c36e823767fb271f2a3c5e4b311f30f5416168de",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-cat.mp3",
+      "audioSHA256": "1acee0612f13c56ab1d9b850ab71320923189c4cc783ec01e85ca11cce008aff",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-dog.mp3",
+      "audioSHA256": "4c676e2289f6be6148c2cfa3742dbfe42de3a31f79007a072b6f6a50e22900fe",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-s11-children.mp3",
+      "audioSHA256": "21b9524863e4d35d6b6dcdfba43f90231a2b95f1ff33b10a11121267c747e25f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-elephant.mp3",
+      "audioSHA256": "c91ecde500879c9afe06cd215a8e6ae5036d115c9e46e295e40e02f76d79eb9b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-bunny.mp3",
+      "audioSHA256": "ea904fccdc1778b1a8398566db0b3f6075fecd204c63ba433d8b94dca84ff93b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-cat.mp3",
+      "audioSHA256": "3eee047d4b329a51ce0a121cdede4b81010a6d7017ff9d114b32b3e1b422adbe",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-dog.mp3",
+      "audioSHA256": "9aec1a11e6d6f24d511c8258d28e9bbcf8b695dfc0f8f26d74b55c75456aa425",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-16-s02-children.mp3",
+      "audioSHA256": "446a53a473211f6a4783b1fbecc823dca10eef38decab22f9cdd87cc53ea8193",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-02-title-elephant.mp3",
+      "audioSHA256": "beb8f02e77285ae7a0b14c2abbb09070ec8f942ba95ad723818d6b63204e6e40",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-a/xue-er-03-title-elephant.mp3",
+      "audioSHA256": "5a9a999f1c27f1c6be4dbd998ab4121c7a9e351013939c625e91a4cda17e78bc",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-04-title-elephant.mp3",
+      "audioSHA256": "9b971dcd0820877cc0d05f99e1da7e542b1ff3ee8fbbacc3ef28667365f87997",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-05-title-elephant.mp3",
+      "audioSHA256": "c09bade6b5439dd8422ed0157c4d1d3080752fffebb845c2c91bdb04c6d19de8",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-06-title-elephant.mp3",
+      "audioSHA256": "c98f32bfcc260a7bebf9d69831941c459a36fe80fe6a3cd9a3ee9b6b0252276d",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-07-title-elephant.mp3",
+      "audioSHA256": "e0f63bc735e0201ee0412ff09c0aaa5c63b98d16519af7c5bae3e23cee36a7e4",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-08-title-elephant.mp3",
+      "audioSHA256": "2328ed180f568ca6d333db42169cdca249f64079601151242beabfd2080f75f2",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-09-title-elephant.mp3",
+      "audioSHA256": "dec41ad5edd53f08b197c55f96b91bfde05abe1f1edaf7cdc281bf752fb771ff",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-10-title-elephant.mp3",
+      "audioSHA256": "74cdd6595686f47a8835475fdd08a05f0d8ba0a4b238e204d81f4f84cb57de4b",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-11-title-elephant.mp3",
+      "audioSHA256": "7886e0fabb526492b97f996e1ab2fa88d5948b1fbfe4502e8284c66862c3264f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-12-title-elephant.mp3",
+      "audioSHA256": "a722e111c8c06dac26bb03494c17a41d9aec26cf5d598d9b6bf6d39e8f1538ea",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-13-title-elephant.mp3",
+      "audioSHA256": "af1fe61a6ff388a934e02a27bdace24db67e8b653dd55300203d8108e9bb79fb",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-14-title-elephant.mp3",
+      "audioSHA256": "51b747127e59d2946340b18e84a9bffcb23c64a8f73c003d74b938549eddd703",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-15-title-elephant.mp3",
+      "audioSHA256": "fc1adba567434ab0b0d23b947aaa99189dcd07a2693a836fa7ad03667340353f",
+      "status": "not-listened"
+    },
+    {
+      "file": "assets/audio/xue-er/batch-b/xue-er-16-title-elephant.mp3",
+      "audioSHA256": "d57b231b348ccff96e68a2b9cc6db44a9132a11675f3d24298f3ab9f539b728a",
+      "status": "not-listened"
+    }
+  ]
+}

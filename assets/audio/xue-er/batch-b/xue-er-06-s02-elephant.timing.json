@@ -1,0 +1,33 @@
+{
+  "text": "弟子入则孝，出则弟，",
+  "dur": 3.552,
+  "t": [
+    0.058833,
+    0.308833,
+    0.573541,
+    0.823541,
+    1.08825,
+    null,
+    1.852958,
+    2.264708,
+    2.5,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "d79e0b87bae360f457281d77946edaf1c31af614597cc640d11779be76b26092",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-06-s02-elephant",
+      "rawSHA256": "039c54bbd6e8ff146dd24f77acce83bee76507dd684ad533ef6743c77bca337c",
+      "ssmlSHA256": "3f1acdf43b678a68be4f079d8b414ab5e083f91397f7c9627a8866191e2a6ddf"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

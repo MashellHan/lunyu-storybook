@@ -1,0 +1,32 @@
+{
+  "text": "与朋友交而不信乎？",
+  "dur": 1.824,
+  "t": [
+    0.129,
+    0.329,
+    0.529,
+    0.729,
+    0.929,
+    1.129,
+    1.329,
+    1.529,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "1b2219bff7ea2d12e7b2e91c5d6fd55b258bd5164e486bf5eb8fd824b327e3d8",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-04-s04-dog",
+      "rawSHA256": "1b2f9cd7f76d6ebe21ec00aab7a0b4b95eb7fcbdea44192e83dab72acfcee0dc",
+      "ssmlSHA256": "1b7ced5defce0fb7af241b5f17b81429a0fba25f70e283b8fdb2cdfbe36f45bc"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

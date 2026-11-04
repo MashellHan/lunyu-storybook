@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/Users/mengxionghan/workspace/lunyu-storybook/.venv/bin/python",
+    "-B",
+    "scripts/tts/test_batch.py"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 22.383,
+  "realSynthesisCalls": 0,
+  "fixtureScope": "temporary directories only; mocked SDK and locally generated test tones",
+  "logSHA256": "6e98969bc55d3653abf75250d9587dd667827b654c64956b8e85d5babcb70a65",
+  "sourceSHA256": {
+    "scripts/tts/batch.py": "5cc282ec213c832b0f252f16a7b7820cc0dd002e53094d888ced806cda08525e",
+    "scripts/tts/test_batch.py": "67f889d11d267f5cdf239711fb602f2c6c5405847091b1496f07aedb5b4770ab"
+  }
+}

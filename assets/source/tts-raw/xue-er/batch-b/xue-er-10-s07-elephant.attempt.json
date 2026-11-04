@@ -1,0 +1,13 @@
+{
+  "id": "xue-er-10-s07-elephant",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "4b8cb9535d543b464ef8c60c1b14790712020124a60df9b9bef42745079ad344",
+  "attemptId": "4494a8fb-42b9-45d9-bad2-67273c69f679",
+  "startedAt": "2026-11-03T13:01:21.234268+00:00",
+  "status": "reserved",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10
+}

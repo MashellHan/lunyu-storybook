@@ -1,0 +1,28 @@
+{
+  "text": "曾子曰：“",
+  "dur": 2.088,
+  "t": [
+    0.056833,
+    0.383541,
+    0.681833,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "b086b26d6d57646647c39c610c58c8ea2ae5e29437be8f3bb84023b71a5e2c08",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-04-s01-bunny",
+      "rawSHA256": "aa57c3439a64bbc617ac8a100ebe5a4037044ddabf51dedc16cda8f0fda8cc2b",
+      "ssmlSHA256": "27998da01b1af982fc590380740a555fbef58e93c2b018db5dcaa8f054d49b55"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

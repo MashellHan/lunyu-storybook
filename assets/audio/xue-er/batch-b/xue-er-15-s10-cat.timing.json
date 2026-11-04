@@ -1,0 +1,36 @@
+{
+  "text": "赐也，始可与言《诗》已矣，",
+  "dur": 3.624,
+  "t": [
+    0.056833,
+    0.326708,
+    null,
+    0.880666,
+    1.178958,
+    1.363625,
+    1.5625,
+    null,
+    1.789791,
+    null,
+    2.088083,
+    2.329541,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "7928d0a524cc625329480e8b3bd50e07d6836f410981a73299492cc4721f7f18",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s10-cat",
+      "rawSHA256": "47bc2ee9010e33d645dfd29db0b1eef351a99bb8bf026d38c7ee621b4b630ed9",
+      "ssmlSHA256": "db2978ff59ed6f4822c820f75a476e6b4ad6356e1437f33f64de26e7087e980c"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

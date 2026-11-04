@@ -1,0 +1,110 @@
+{
+  "id": "xue-er-11-s03-bunny",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "51f950491b250f65efacab439b7f6643a540c8ff6a4f7b6ae8444ee075589b6b",
+  "attemptId": "102e9205-c2ba-4c16-b532-0ff75c12fed3",
+  "startedAt": "2026-11-03T13:02:03.809696+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T13:02:08.088848+00:00",
+  "rawSHA256": "2efe76b99de2e414bcf3fff1a48a1b74cea8e8f74fd28d3ac201ca4f44f62950",
+  "wb": [
+    [
+      0.056833,
+      0.681791,
+      "三年"
+    ],
+    [
+      0.738625,
+      0.255666,
+      "无"
+    ],
+    [
+      0.994333,
+      0.3125,
+      "改"
+    ],
+    [
+      1.306833,
+      0.241458,
+      "于"
+    ],
+    [
+      1.548291,
+      0.269875,
+      "父"
+    ],
+    [
+      1.818166,
+      0.241458,
+      "之"
+    ],
+    [
+      2.059666,
+      0.298291,
+      "道"
+    ],
+    [
+      2.684666,
+      0.511375,
+      "可谓"
+    ],
+    [
+      3.196041,
+      0.397708,
+      "孝"
+    ],
+    [
+      3.59375,
+      0.355125,
+      "矣"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 192,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 194,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 195,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 196,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 197,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 198,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 199,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 201,
+      "wordLength": 2
+    },
+    {
+      "textOffset": 203,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 204,
+      "wordLength": 1
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

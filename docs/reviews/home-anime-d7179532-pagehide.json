@@ -1,0 +1,24 @@
+{
+  "method": "Real same-origin navigation, synchronous sessionStorage capture after the application pagehide listener",
+  "beforeSha256": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba",
+  "errors": [],
+  "before": {
+    "active": 1,
+    "cancelled": 0,
+    "states": [
+      "running"
+    ]
+  },
+  "pagehide": {
+    "isTrusted": true,
+    "persisted": false,
+    "url": "http://127.0.0.1:4173/",
+    "cancelled": 1,
+    "active": 0,
+    "states": [
+      "idle"
+    ]
+  },
+  "passed": true,
+  "afterSha256": "d7179532783d0405cbece7b4e69069ea7e11a2fa17abbbc77b5bd7341c8313ba"
+}

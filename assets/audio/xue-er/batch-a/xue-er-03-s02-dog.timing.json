@@ -1,0 +1,50 @@
+{
+  "text": "巧言令色，鲜矣仁！”",
+  "dur": 2.688,
+  "t": [
+    0.082,
+    0.423,
+    0.764,
+    1.105,
+    null,
+    1.617,
+    2.04,
+    2.276,
+    null,
+    null
+  ],
+  "alignmentCorrections": [
+    {
+      "boundaryIndex": 2,
+      "kind": "hd-sub-duplicate-after-alias",
+      "alreadyTimedSourceIndex": 5,
+      "remainingSourceIndex": 6,
+      "remainingSourceIndices": [
+        6
+      ],
+      "originalBoundaryText": "\">鲜矣",
+      "usedBoundaryOffsetSeconds": 2.04,
+      "usedBoundaryDurationSeconds": 0.235,
+      "sdkPosition": {
+        "textOffset": -1,
+        "wordLength": 4
+      }
+    }
+  ],
+  "audioSHA256": "d558d86c966c619ba8e52084f6bbc0b2a3cc047df0f18f9439cb400a57456221",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-03-s02-dog",
+      "rawSHA256": "538d71c7821e50eecba3944f62ec426b9b1f305eb35e15cc028062c3caf7d634",
+      "ssmlSHA256": "72f24c3efb3e8365cbc15f09257dae90412d76f24d0bbcaec2b68a63bfd4a2a7"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

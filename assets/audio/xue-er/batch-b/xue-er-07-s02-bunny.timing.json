@@ -1,0 +1,28 @@
+{
+  "text": "贤贤易色；",
+  "dur": 2.568,
+  "t": [
+    0.056833,
+    0.436802,
+    0.816771,
+    1.196739,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "eb5b5c163164b207421c1037ce255c3c35aa4ed5b666c55d314d9ee08824b877",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s02-bunny",
+      "rawSHA256": "225a604bed50a3919fb170b48d02c4b7ee818d058db060f5cc66a765ed543e86",
+      "ssmlSHA256": "6c44e833551574eaf001c85ab05f58ae00cbef2d5420cfd576b97d51b7e1d317"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

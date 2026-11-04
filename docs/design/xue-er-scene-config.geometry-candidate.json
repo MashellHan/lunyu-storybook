@@ -1,0 +1,5436 @@
+{
+  "schemaVersion": 1,
+  "kind": "design-only-scene-config",
+  "bookId": "xue-er",
+  "integrationGate": "Lead release of stage-B source ownership after homepage publication",
+  "content": {
+    "path": "docs/content/xue-er.json",
+    "sha256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+    "expectedChapters": 16,
+    "expectedPages": 26,
+    "expectedSegments": 72,
+    "indexUnit": "Unicode code point; [start,end)",
+    "displayTextPolicy": "Resolve segmentIds directly from content. Do not copy, normalize, add, omit or reorder text/pinyin."
+  },
+  "characterAssets": {
+    "elephant": {
+      "layers": [
+        "assets/img/elephant-640.webp"
+      ],
+      "intrinsicSize": [
+        640,
+        640
+      ]
+    },
+    "bunny": {
+      "layers": [
+        "assets/img/bunny-ear.webp",
+        "assets/img/bunny-base.webp"
+      ],
+      "intrinsicSize": [
+        640,
+        640
+      ]
+    },
+    "cat": {
+      "layers": [
+        "assets/img/cat-640.webp"
+      ],
+      "intrinsicSize": [
+        640,
+        640
+      ]
+    },
+    "dog": {
+      "layers": [
+        "assets/img/dog-tail.webp",
+        "assets/img/dog-body.webp",
+        "assets/img/dog-head.webp"
+      ],
+      "intrinsicSize": [
+        640,
+        640
+      ]
+    }
+  },
+  "palette": {
+    "paper": "#fffaf2",
+    "cream": "#fff6e4",
+    "ink": "#4a3424",
+    "line": "#e4d1b3",
+    "wood": "#f0d7b8",
+    "coral": "#f08a5d",
+    "sage": "#8aa99c"
+  },
+  "viewportProfiles": {
+    "compact": {
+      "minViewportWidthPx": 320,
+      "maxViewportWidthPx": 389,
+      "pageInsetPx": 16,
+      "sceneMaxWidthPx": 357,
+      "sceneHeightPx": 260
+    },
+    "phone": {
+      "minViewportWidthPx": 390,
+      "maxViewportWidthPx": 599,
+      "pageInsetPx": 16,
+      "sceneMaxWidthPx": 388,
+      "sceneHeightPx": 280
+    },
+    "tablet": {
+      "minViewportWidthPx": 600,
+      "maxViewportWidthPx": 1023,
+      "pageInsetPx": 24,
+      "sceneMaxWidthPx": 480,
+      "sceneHeightPx": 320
+    },
+    "desktop": {
+      "minViewportWidthPx": 1024,
+      "maxViewportWidthPx": null,
+      "pageInsetPx": 32,
+      "sceneMaxWidthPx": 920,
+      "sceneHeightPx": 320
+    }
+  },
+  "layoutPresets": {
+    "split": {
+      "compact": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 52.0,
+            "topPx": 0,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -52.0,
+            "topPx": 0,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 52.0,
+            "topPx": 156,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -52.0,
+            "topPx": 156,
+            "widthPx": 104,
+            "heightPx": 104
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 102,
+          "widthPx": 56,
+          "heightPx": 56
+        }
+      },
+      "phone": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 62.0,
+            "topPx": 0,
+            "widthPx": 124,
+            "heightPx": 124
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -62.0,
+            "topPx": 0,
+            "widthPx": 124,
+            "heightPx": 124
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 62.0,
+            "topPx": 156,
+            "widthPx": 124,
+            "heightPx": 124
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -62.0,
+            "topPx": 156,
+            "widthPx": 124,
+            "heightPx": 124
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 108,
+          "widthPx": 64,
+          "heightPx": 64
+        }
+      },
+      "tablet": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 68.0,
+            "topPx": 0,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -68.0,
+            "topPx": 0,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 68.0,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -68.0,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 120,
+          "widthPx": 80,
+          "heightPx": 80
+        }
+      },
+      "desktop": {
+        "slots": {
+          "backLeft": {
+            "cx": 0.17,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 156,
+            "heightPx": 156
+          },
+          "backRight": {
+            "cx": 0.8,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 128,
+            "heightPx": 128
+          },
+          "frontLeft": {
+            "cx": 0.27,
+            "dxPx": 0,
+            "topPx": 196,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "frontRight": {
+            "cx": 0.8,
+            "dxPx": 0,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 172,
+          "widthPx": 80,
+          "heightPx": 80
+        }
+      }
+    },
+    "ring": {
+      "compact": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 52.0,
+            "topPx": 0,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -52.0,
+            "topPx": 0,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 52.0,
+            "topPx": 156,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -52.0,
+            "topPx": 156,
+            "widthPx": 104,
+            "heightPx": 104
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 98,
+          "widthPx": 64,
+          "heightPx": 64
+        }
+      },
+      "phone": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 62.0,
+            "topPx": 0,
+            "widthPx": 124,
+            "heightPx": 124
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -62.0,
+            "topPx": 0,
+            "widthPx": 124,
+            "heightPx": 124
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 62.0,
+            "topPx": 156,
+            "widthPx": 124,
+            "heightPx": 124
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -62.0,
+            "topPx": 156,
+            "widthPx": 124,
+            "heightPx": 124
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 104,
+          "widthPx": 72,
+          "heightPx": 72
+        }
+      },
+      "tablet": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 68.0,
+            "topPx": 0,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -68.0,
+            "topPx": 0,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 68.0,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -68.0,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 120,
+          "widthPx": 80,
+          "heightPx": 80
+        }
+      },
+      "desktop": {
+        "slots": {
+          "backLeft": {
+            "cx": 0.17,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 156,
+            "heightPx": 156
+          },
+          "backRight": {
+            "cx": 0.8,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 128,
+            "heightPx": 128
+          },
+          "frontLeft": {
+            "cx": 0.27,
+            "dxPx": 0,
+            "topPx": 196,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "frontRight": {
+            "cx": 0.8,
+            "dxPx": 0,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 112,
+          "widthPx": 96,
+          "heightPx": 96
+        }
+      }
+    },
+    "dialogue": {
+      "compact": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 44,
+            "topPx": 0,
+            "widthPx": 88,
+            "heightPx": 88
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -44,
+            "topPx": 0,
+            "widthPx": 88,
+            "heightPx": 88
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 56,
+            "topPx": 148,
+            "widthPx": 112,
+            "heightPx": 112
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -56,
+            "topPx": 148,
+            "widthPx": 112,
+            "heightPx": 112
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 84,
+          "widthPx": 56,
+          "heightPx": 56
+        }
+      },
+      "phone": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 52,
+            "topPx": 0,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -52,
+            "topPx": 0,
+            "widthPx": 104,
+            "heightPx": 104
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 62,
+            "topPx": 156,
+            "widthPx": 124,
+            "heightPx": 124
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -62,
+            "topPx": 156,
+            "widthPx": 124,
+            "heightPx": 124
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 96,
+          "widthPx": 64,
+          "heightPx": 64
+        }
+      },
+      "tablet": {
+        "slots": {
+          "backLeft": {
+            "cx": 0,
+            "dxPx": 58,
+            "topPx": 0,
+            "widthPx": 116,
+            "heightPx": 116
+          },
+          "backRight": {
+            "cx": 1,
+            "dxPx": -58,
+            "topPx": 0,
+            "widthPx": 116,
+            "heightPx": 116
+          },
+          "frontLeft": {
+            "cx": 0,
+            "dxPx": 68,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "frontRight": {
+            "cx": 1,
+            "dxPx": -68,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 128,
+          "widthPx": 80,
+          "heightPx": 80
+        }
+      },
+      "desktop": {
+        "slots": {
+          "backLeft": {
+            "cx": 0.3,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "backRight": {
+            "cx": 0.7,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "frontLeft": {
+            "cx": 0.23,
+            "dxPx": 0,
+            "topPx": 152,
+            "widthPx": 144,
+            "heightPx": 144
+          },
+          "frontRight": {
+            "cx": 0.77,
+            "dxPx": 0,
+            "topPx": 144,
+            "widthPx": 168,
+            "heightPx": 168
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 184,
+          "widthPx": 80,
+          "heightPx": 80
+        }
+      }
+    },
+    "arc": {
+      "compact": {
+        "slots": {
+          "teacher": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "childLeft": {
+            "cx": 0,
+            "dxPx": 48,
+            "topPx": 180,
+            "widthPx": 80,
+            "heightPx": 80
+          },
+          "childCenter": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 180,
+            "widthPx": 80,
+            "heightPx": 80
+          },
+          "childRight": {
+            "cx": 1,
+            "dxPx": -48,
+            "topPx": 180,
+            "widthPx": 80,
+            "heightPx": 80
+          }
+        },
+        "propDock": {
+          "cx": 1,
+          "dxPx": -36,
+          "topPx": 76,
+          "widthPx": 56,
+          "heightPx": 56
+        }
+      },
+      "phone": {
+        "slots": {
+          "teacher": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 140,
+            "heightPx": 140
+          },
+          "childLeft": {
+            "cx": 0,
+            "dxPx": 56,
+            "topPx": 184,
+            "widthPx": 96,
+            "heightPx": 96
+          },
+          "childCenter": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 184,
+            "widthPx": 96,
+            "heightPx": 96
+          },
+          "childRight": {
+            "cx": 1,
+            "dxPx": -56,
+            "topPx": 184,
+            "widthPx": 96,
+            "heightPx": 96
+          }
+        },
+        "propDock": {
+          "cx": 1,
+          "dxPx": -36,
+          "topPx": 76,
+          "widthPx": 56,
+          "heightPx": 56
+        }
+      },
+      "tablet": {
+        "slots": {
+          "teacher": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 156,
+            "heightPx": 156
+          },
+          "childLeft": {
+            "cx": 0,
+            "dxPx": 64,
+            "topPx": 208,
+            "widthPx": 112,
+            "heightPx": 112
+          },
+          "childCenter": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 208,
+            "widthPx": 112,
+            "heightPx": 112
+          },
+          "childRight": {
+            "cx": 1,
+            "dxPx": -64,
+            "topPx": 208,
+            "widthPx": 112,
+            "heightPx": 112
+          }
+        },
+        "propDock": {
+          "cx": 1,
+          "dxPx": -44,
+          "topPx": 100,
+          "widthPx": 72,
+          "heightPx": 72
+        }
+      },
+      "desktop": {
+        "slots": {
+          "teacher": {
+            "cx": 0.2,
+            "dxPx": 0,
+            "topPx": 48,
+            "widthPx": 168,
+            "heightPx": 168
+          },
+          "childLeft": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 20,
+            "widthPx": 128,
+            "heightPx": 128
+          },
+          "childCenter": {
+            "cx": 0.38,
+            "dxPx": 0,
+            "topPx": 190,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "childRight": {
+            "cx": 0.75,
+            "dxPx": 0,
+            "topPx": 184,
+            "widthPx": 136,
+            "heightPx": 136
+          }
+        },
+        "propDock": {
+          "cx": 0.86,
+          "dxPx": 0,
+          "topPx": 88,
+          "widthPx": 72,
+          "heightPx": 72
+        }
+      }
+    },
+    "desk": {
+      "compact": {
+        "slots": {
+          "teacher": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 116,
+            "heightPx": 116
+          },
+          "childLeft": {
+            "cx": 0,
+            "dxPx": 48,
+            "topPx": 180,
+            "widthPx": 80,
+            "heightPx": 80
+          },
+          "childCenter": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 180,
+            "widthPx": 80,
+            "heightPx": 80
+          },
+          "childRight": {
+            "cx": 1,
+            "dxPx": -48,
+            "topPx": 180,
+            "widthPx": 80,
+            "heightPx": 80
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 124,
+          "widthPx": 184,
+          "heightPx": 48
+        }
+      },
+      "phone": {
+        "slots": {
+          "teacher": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "childLeft": {
+            "cx": 0,
+            "dxPx": 56,
+            "topPx": 184,
+            "widthPx": 96,
+            "heightPx": 96
+          },
+          "childCenter": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 184,
+            "widthPx": 96,
+            "heightPx": 96
+          },
+          "childRight": {
+            "cx": 1,
+            "dxPx": -56,
+            "topPx": 184,
+            "widthPx": 96,
+            "heightPx": 96
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 128,
+          "widthPx": 184,
+          "heightPx": 48
+        }
+      },
+      "tablet": {
+        "slots": {
+          "teacher": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 0,
+            "widthPx": 136,
+            "heightPx": 136
+          },
+          "childLeft": {
+            "cx": 0,
+            "dxPx": 64,
+            "topPx": 208,
+            "widthPx": 112,
+            "heightPx": 112
+          },
+          "childCenter": {
+            "cx": 0.5,
+            "dxPx": 0,
+            "topPx": 208,
+            "widthPx": 112,
+            "heightPx": 112
+          },
+          "childRight": {
+            "cx": 1,
+            "dxPx": -64,
+            "topPx": 208,
+            "widthPx": 112,
+            "heightPx": 112
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 152,
+          "widthPx": 184,
+          "heightPx": 48
+        }
+      },
+      "desktop": {
+        "slots": {
+          "teacher": {
+            "cx": 0.16,
+            "dxPx": 0,
+            "topPx": 24,
+            "widthPx": 168,
+            "heightPx": 168
+          },
+          "childLeft": {
+            "cx": 0.42,
+            "dxPx": 0,
+            "topPx": 24,
+            "widthPx": 128,
+            "heightPx": 128
+          },
+          "childCenter": {
+            "cx": 0.64,
+            "dxPx": 0,
+            "topPx": 48,
+            "widthPx": 120,
+            "heightPx": 120
+          },
+          "childRight": {
+            "cx": 0.86,
+            "dxPx": 0,
+            "topPx": 40,
+            "widthPx": 136,
+            "heightPx": 136
+          }
+        },
+        "propDock": {
+          "cx": 0.5,
+          "dxPx": 0,
+          "topPx": 240,
+          "widthPx": 184,
+          "heightPx": 56
+        }
+      }
+    }
+  },
+  "geometryContract": {
+    "units": "CSS px; cx is fraction of current scene width; x = width*cx + dxPx - widthPx/2",
+    "sceneWidth": "min(viewportWidth - 2*pageInsetPx, sceneMaxWidthPx)",
+    "legacyLayout": "legacy-demo uses the accepted chapter-1 implementation, not these new profiles",
+    "propDock": "x = dock center x + dxPx - prop width/2; y = dock top + dock height/2 + dyPx - prop height/2. Null width/height inherit dock dimensions.",
+    "scenePositioning": "Position only scene layers; text and controls stay in normal flow. Never scale the whole UI.",
+    "zOrder": [
+      "background",
+      "local-foot-shadows",
+      "characters",
+      "foreground-props",
+      "focus-rings"
+    ],
+    "motionWrapper": "All WAAPI effects target an inner motion wrapper; static placement and SVG geometry use separate outer layers. SVG parts use transform-box:fill-box.",
+    "localGroundOnly": true,
+    "minimumTouchGapPx": 8,
+    "focusRingOutsetPx": 7
+  },
+  "audioContract": {
+    "lookupKey": [
+      "segmentId",
+      "role-or-ensemble"
+    ],
+    "manifestOwnedBy": "Lead/Engineer",
+    "newAudioPathsInThisFile": false,
+    "leadRole": "elephant",
+    "ensembles": {
+      "children": [
+        "bunny",
+        "cat",
+        "dog"
+      ]
+    },
+    "readingGroupPlayback": "For a readingGroup: lead all segmentIds in order, then pre-mixed children follow the same segmentIds in order; one Audio element.",
+    "attributionPolicy": "Keep attribution with following speech in the same page and readingGroup; reuse identical approved attribution clips only via the media manifest.",
+    "legacyOverrides": [
+      {
+        "segmentId": "xue-er-01-s02",
+        "lead": {
+          "path": "assets/audio/e1.mp3",
+          "timingKey": "e1"
+        },
+        "follow": {
+          "path": "assets/audio/u1.mp3",
+          "timingKey": "u1"
+        },
+        "solo": {
+          "role": "bunny",
+          "path": "assets/audio/b1.mp3",
+          "timingKey": "b1"
+        }
+      },
+      {
+        "segmentId": "xue-er-01-s03",
+        "lead": {
+          "path": "assets/audio/e2.mp3",
+          "timingKey": "e2"
+        },
+        "follow": {
+          "path": "assets/audio/u2.mp3",
+          "timingKey": "u2"
+        },
+        "solo": {
+          "role": "cat",
+          "path": "assets/audio/c2.mp3",
+          "timingKey": "c2"
+        }
+      },
+      {
+        "segmentId": "xue-er-01-s04",
+        "lead": {
+          "path": "assets/audio/e3.mp3",
+          "timingKey": "e3"
+        },
+        "follow": {
+          "path": "assets/audio/u3.mp3",
+          "timingKey": "u3"
+        },
+        "solo": {
+          "role": "dog",
+          "path": "assets/audio/d3.mp3",
+          "timingKey": "d3"
+        }
+      }
+    ],
+    "missingMedia": "Design preview may render static content; public ready/playback must wait for real clips and timings. No placeholder audio, speechSynthesis or generation.",
+    "timingTextPolicy": "Word timings and HD aliases map to original segmentId/character index. Punctuation remains in content.",
+    "plannedAttributionReuse": [
+      {
+        "segmentId": "xue-er-03-s01",
+        "sourceSegmentId": "xue-er-01-s01",
+        "roles": [
+          "elephant",
+          "bunny",
+          "cat",
+          "dog"
+        ],
+        "requiresSourceAudioReady": true
+      }
+    ]
+  },
+  "interactionContract": {
+    "propDefaults": {
+      "ariaHidden": true,
+      "pointerEvents": "none",
+      "tabStop": false
+    },
+    "propBindings": "Create one real button only for a visible bound prop on the current page; all unbound props/parts stay decorative. Use the complete placement rectangle as its hit target, expanded only when explicitly safe.",
+    "ariaNames": "Use existing control vocabulary plus referenced original text; no new visible labels.",
+    "keyboard": [
+      "Tab",
+      "Enter",
+      "Space"
+    ],
+    "readingGroupActivation": "Cancel prior run -> play lead then follow -> execute onReadCompleteCueId only if the run is current. No cue on cancelled or missing-media playback.",
+    "characterActivation": "Elephant reads current page groups in order; a child reads the selected current-page group in its own approved voice. Use defaultReadingGroupId if none is selected; chapter 1 overrides preserve bunny/cat/dog sentence assignments.",
+    "manualPageChange": "Cancel old media/waits/actions, show target page in free/ready state, never auto-resume cancelled playback.",
+    "progress": "Only real completed read groups affect progress; prop clicks/actions are not completion shortcuts.",
+    "pageFocus": "Manual arrows preserve meaningful focus; do not make decorations focusable. Use existing icon controls; previous/next 48x48 minimum, 12px gap."
+  },
+  "motionContract": {
+    "allowedProperties": [
+      "transform",
+      "opacity"
+    ],
+    "oneFocalObjectAtATime": true,
+    "sequence": "Cue steps are sequential; tracks in one step animate parts of one prop (or one character) together. No overlapping focal objects.",
+    "start": "Only after the bound read group finishes successfully; no ambient loops or automatic scene animation on page load.",
+    "completion": "If runId is current, apply final transform/opacity to the inner wrapper, cancel the finished WAAPI handle and remove it from the registry.",
+    "cancelEvents": [
+      "new-interaction",
+      "stop",
+      "manual-page-change",
+      "return-home",
+      "pagehide"
+    ],
+    "onCancel": "Invalidate runId; stop shared Audio, waits and queued cue steps; cancel WAAPI; reset scene part styles to base; clear transient focus; preserve actual completed progress.",
+    "onPause": "Freeze shared Audio, waits and all WAAPI; visibility hidden pauses and never auto-resumes by itself.",
+    "reducedMotion": "No translate/rotate/scale. Apply final opacity only or retain static base transform; preserve audio, input targets and completed content.",
+    "noUnmanagedTimers": true,
+    "pageTransition": {
+      "property": "opacity",
+      "durationMs": 180,
+      "reducedMotionDurationMs": 0
+    },
+    "scope": "New scene/prop cues; preserve chapter 1 legacy actions.",
+    "reducedMotionChange": "Cancel active and queued scene cues, reset transforms to static base, preserve the current Audio/read run and progress; subsequent cues use the reduced-motion branch."
+  },
+  "propTemplates": {
+    "tree": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "trunk",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 44,
+            "y": 40,
+            "width": 12,
+            "height": 57,
+            "rx": 5
+          }
+        },
+        {
+          "id": "crown",
+          "tag": "ellipse",
+          "attrs": {
+            "fill": "#8aa99c",
+            "cx": 50,
+            "cy": 30,
+            "rx": 40,
+            "ry": 28
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "gate": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left-post",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 5,
+            "y": 10,
+            "width": 9,
+            "height": 88,
+            "rx": 3
+          }
+        },
+        {
+          "id": "right-post",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 86,
+            "y": 10,
+            "width": 9,
+            "height": 88,
+            "rx": 3
+          }
+        },
+        {
+          "id": "lintel",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 5,
+            "y": 8,
+            "width": 90,
+            "height": 9,
+            "rx": 3
+          }
+        },
+        {
+          "id": "leaf",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 18,
+            "y": 20,
+            "width": 36,
+            "height": 74,
+            "rx": 3
+          }
+        },
+        {
+          "id": "hinge",
+          "tag": "path",
+          "attrs": {
+            "d": "M20 24 V90",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "root-bed": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "soil",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 2,
+            "y": 45,
+            "width": 96,
+            "height": 53,
+            "rx": 7
+          }
+        },
+        {
+          "id": "roots",
+          "tag": "path",
+          "attrs": {
+            "d": "M50 10 V48 M50 48 L29 69 L20 92 M50 48 L71 69 L80 92 M50 67 L40 94 M50 67 L60 94",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "screen": {
+      "viewBox": [
+        0,
+        0,
+        160,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 3,
+            "y": 4,
+            "width": 72,
+            "height": 90,
+            "rx": 5
+          }
+        },
+        {
+          "id": "right",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 85,
+            "y": 4,
+            "width": 72,
+            "height": 90,
+            "rx": 5
+          }
+        },
+        {
+          "id": "edges",
+          "tag": "path",
+          "attrs": {
+            "d": "M3 96 V4 H75 V96 M85 96 V4 H157 V96 M75 14 L85 18 M75 84 L85 88",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "fan": {
+      "viewBox": [
+        0,
+        0,
+        160,
+        84
+      ],
+      "parts": [
+        {
+          "id": "paper",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 50,
+            "y": 20,
+            "width": 60,
+            "height": 56,
+            "rx": 4
+          }
+        },
+        {
+          "id": "left-leaf",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "points": "80,76 8,30 60,6 80,20"
+          }
+        },
+        {
+          "id": "right-leaf",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f08a5d",
+            "points": "80,76 80,20 100,6 152,30"
+          }
+        },
+        {
+          "id": "pivot",
+          "tag": "circle",
+          "attrs": {
+            "fill": "#4a3424",
+            "cx": 80,
+            "cy": 76,
+            "r": 3
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "table": {
+      "viewBox": [
+        0,
+        0,
+        320,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left-leg",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 28.8,
+            "y": 60,
+            "width": 28.8,
+            "height": 32,
+            "rx": 3
+          }
+        },
+        {
+          "id": "right-leg",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 262.4,
+            "y": 60,
+            "width": 28.8,
+            "height": 32,
+            "rx": 3
+          }
+        },
+        {
+          "id": "top",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 6.4,
+            "y": 40,
+            "width": 307.2,
+            "height": 24,
+            "rx": 7
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "tile": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "surface",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 12,
+            "y": 16,
+            "width": 76,
+            "height": 66,
+            "rx": 10
+          }
+        },
+        {
+          "id": "grain",
+          "tag": "path",
+          "attrs": {
+            "d": "M26 40 H74",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "field": {
+      "viewBox": [
+        0,
+        0,
+        640,
+        100
+      ],
+      "parts": [
+        {
+          "id": "field-a",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#8aa99c",
+            "points": "25.6,26 588.8,6 614.4,35 51.2,57"
+          }
+        },
+        {
+          "id": "field-b",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "points": "51.2,66 614.4,45 614.4,75 76.8,96"
+          }
+        }
+      ],
+      "baseStyles": {},
+      "preserveAspectRatio": "none"
+    },
+    "cart": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "bed",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 15,
+            "y": 28,
+            "width": 70,
+            "height": 43,
+            "rx": 8
+          }
+        },
+        {
+          "id": "left-wheel",
+          "tag": "circle",
+          "attrs": {
+            "fill": "#4a3424",
+            "cx": 27,
+            "cy": 78,
+            "r": 10
+          }
+        },
+        {
+          "id": "right-wheel",
+          "tag": "circle",
+          "attrs": {
+            "fill": "#4a3424",
+            "cx": 73,
+            "cy": 78,
+            "r": 10
+          }
+        },
+        {
+          "id": "spokes",
+          "tag": "path",
+          "attrs": {
+            "d": "M27 72 V84 M67 78 H79",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "open-book": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left-page",
+          "tag": "path",
+          "attrs": {
+            "fill": "#fffaf2",
+            "d": "M5 20 Q26 12 50 24 V86 Q26 74 5 82 Z"
+          }
+        },
+        {
+          "id": "right-page",
+          "tag": "path",
+          "attrs": {
+            "fill": "#fffaf2",
+            "d": "M50 24 Q74 12 95 20 V82 Q74 74 50 86 Z"
+          }
+        },
+        {
+          "id": "spine",
+          "tag": "path",
+          "attrs": {
+            "d": "M50 24 V86",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        },
+        {
+          "id": "bookmark",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f08a5d",
+            "x": 47,
+            "y": 20,
+            "width": 7,
+            "height": 42,
+            "rx": 2
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "scroll": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "sheet",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 18,
+            "y": 24,
+            "width": 64,
+            "height": 52,
+            "rx": 4
+          }
+        },
+        {
+          "id": "left-roll",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 10,
+            "y": 16,
+            "width": 14,
+            "height": 68,
+            "rx": 7
+          }
+        },
+        {
+          "id": "right-roll",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 76,
+            "y": 16,
+            "width": 14,
+            "height": 68,
+            "rx": 7
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "blocks": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "base",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 12,
+            "y": 68,
+            "width": 76,
+            "height": 25,
+            "rx": 6
+          }
+        },
+        {
+          "id": "middle",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 22,
+            "y": 42,
+            "width": 56,
+            "height": 24,
+            "rx": 5
+          }
+        },
+        {
+          "id": "top",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f08a5d",
+            "x": 31,
+            "y": 16,
+            "width": 38,
+            "height": 24,
+            "rx": 5
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "lamp-leaf": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "base",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 24,
+            "y": 74,
+            "width": 52,
+            "height": 12,
+            "rx": 5
+          }
+        },
+        {
+          "id": "lamp",
+          "tag": "path",
+          "attrs": {
+            "fill": "#fffaf2",
+            "d": "M32 68 V32 Q50 8 68 32 V68 Z"
+          }
+        },
+        {
+          "id": "leaf",
+          "tag": "ellipse",
+          "attrs": {
+            "fill": "#8aa99c",
+            "cx": 83,
+            "cy": 66,
+            "rx": 9,
+            "ry": 5
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "corridor": {
+      "viewBox": [
+        0,
+        0,
+        640,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left-post",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 8,
+            "y": 18,
+            "width": 18,
+            "height": 80,
+            "rx": 3
+          }
+        },
+        {
+          "id": "right-post",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 614,
+            "y": 18,
+            "width": 18,
+            "height": 80,
+            "rx": 3
+          }
+        },
+        {
+          "id": "roof",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "points": "0,18 48,3 592,3 640,18"
+          }
+        }
+      ],
+      "baseStyles": {},
+      "preserveAspectRatio": "none"
+    },
+    "marker": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "ribbon",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f08a5d",
+            "points": "34,12 66,12 66,88 50,76 34,88"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "window": {
+      "viewBox": [
+        0,
+        0,
+        480,
+        100
+      ],
+      "parts": [
+        {
+          "id": "pane",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 4,
+            "y": 4,
+            "width": 472,
+            "height": 80,
+            "rx": 8
+          }
+        },
+        {
+          "id": "frame",
+          "tag": "path",
+          "attrs": {
+            "d": "M4 84 V4 H476 V84 Z M240 4 V84 M4 44 H476",
+            "fill": "none",
+            "stroke": "#4a3424",
+            "stroke-width": 2,
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        }
+      ],
+      "baseStyles": {},
+      "preserveAspectRatio": "none"
+    },
+    "old-book": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "back",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 16,
+            "y": 30,
+            "width": 68,
+            "height": 56,
+            "rx": 5
+          }
+        },
+        {
+          "id": "middle",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 20,
+            "y": 23,
+            "width": 64,
+            "height": 56,
+            "rx": 5
+          }
+        },
+        {
+          "id": "corner",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 24,
+            "y": 16,
+            "width": 60,
+            "height": 56,
+            "rx": 5
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "round-table": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "base",
+          "tag": "path",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "d": "M50 5 A45 45 0 1 1 12 26 L50 50 Z"
+          }
+        },
+        {
+          "id": "piece",
+          "tag": "path",
+          "attrs": {
+            "fill": "#8aa99c",
+            "d": "M12 26 A45 45 0 0 1 50 5 V50 Z"
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "bridge": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "stream",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 3,
+            "y": 55,
+            "width": 94,
+            "height": 30,
+            "rx": 10
+          }
+        },
+        {
+          "id": "plank-1",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 5,
+            "y": 30,
+            "width": 28,
+            "height": 33,
+            "rx": 5
+          }
+        },
+        {
+          "id": "plank-2",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 36,
+            "y": 30,
+            "width": 28,
+            "height": 33,
+            "rx": 5
+          }
+        },
+        {
+          "id": "plank-3",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 67,
+            "y": 30,
+            "width": 28,
+            "height": 33,
+            "rx": 5
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "pavilion": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "post",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 15,
+            "y": 30,
+            "width": 8,
+            "height": 67,
+            "rx": 3
+          }
+        },
+        {
+          "id": "roof",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "points": "1,32 25,8 98,22 91,36"
+          }
+        },
+        {
+          "id": "box",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "x": 30,
+            "y": 70,
+            "width": 55,
+            "height": 27,
+            "rx": 6
+          }
+        }
+      ],
+      "baseStyles": {}
+    },
+    "workbench": {
+      "viewBox": [
+        0,
+        0,
+        160,
+        88
+      ],
+      "parts": [
+        {
+          "id": "desk",
+          "tag": "path",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "d": "M6 48 H154 Q158 48 158 52 V60 Q158 64 154 64 H146 V82 H136 V64 H24 V82 H14 V64 H6 Q2 64 2 60 V52 Q2 48 6 48 Z"
+          }
+        },
+        {
+          "id": "rough",
+          "tag": "polygon",
+          "attrs": {
+            "fill": "#f0d7b8",
+            "points": "40,34 48,28 60,33 74,27 88,32 112,28 128,34 128,46 40,46"
+          }
+        },
+        {
+          "id": "smooth",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 40,
+            "y": 32,
+            "width": 88,
+            "height": 14,
+            "rx": 5
+          }
+        },
+        {
+          "id": "stone",
+          "tag": "ellipse",
+          "attrs": {
+            "fill": "#8aa99c",
+            "cx": 76,
+            "cy": 19,
+            "rx": 19,
+            "ry": 9
+          }
+        },
+        {
+          "id": "marker",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f08a5d",
+            "x": 76,
+            "y": 50,
+            "width": 8,
+            "height": 12,
+            "rx": 2
+          }
+        }
+      ],
+      "baseStyles": {
+        "smooth": {
+          "opacity": 0
+        },
+        "rough": {
+          "opacity": 1
+        }
+      }
+    },
+    "paired-books": {
+      "viewBox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "parts": [
+        {
+          "id": "left",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 3,
+            "y": 25,
+            "width": 41,
+            "height": 58,
+            "rx": 6
+          }
+        },
+        {
+          "id": "right",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#fffaf2",
+            "x": 56,
+            "y": 25,
+            "width": 41,
+            "height": 58,
+            "rx": 6
+          }
+        },
+        {
+          "id": "marker",
+          "tag": "rect",
+          "attrs": {
+            "fill": "#f08a5d",
+            "x": 45,
+            "y": 10,
+            "width": 10,
+            "height": 40,
+            "rx": 2
+          }
+        }
+      ],
+      "baseStyles": {}
+    }
+  },
+  "motionPresets": {
+    "nod": {
+      "durationMs": 220,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 90%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateY(2px) rotate(1deg)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "root-reveal": {
+      "durationMs": 420,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 45%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "scaleY(.9)",
+          "opacity": 0.65
+        },
+        {
+          "offset": 1,
+          "transform": "scaleY(1)",
+          "opacity": 1
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "fan-left": {
+      "durationMs": 420,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 90%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "rotate(6deg)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "fan-right": {
+      "durationMs": 420,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 90%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "rotate(-6deg)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "tile-lift": {
+      "durationMs": 480,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateY(-3px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "cart-nudge": {
+      "durationMs": 600,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(6px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "wheel-turn": {
+      "durationMs": 600,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "rotate(20deg)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "door-slide": {
+      "durationMs": 420,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(6px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "page-lift": {
+      "durationMs": 500,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "100% 100%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "rotate(-4deg)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "scroll-left": {
+      "durationMs": 520,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(-8px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "scroll-right": {
+      "durationMs": 520,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(8px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "scroll-down": {
+      "durationMs": 520,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateY(4px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "block-align": {
+      "durationMs": 360,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "translateX(4px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "leaf-settle": {
+      "durationMs": 400,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 1,
+          "transform": "translateY(4px)"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "piece-close": {
+      "durationMs": 420,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "translateX(-6px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "piece-boundary": {
+      "durationMs": 420,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(-4px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "plank-settle": {
+      "durationMs": 350,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "translateY(-2px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "grind": {
+      "durationMs": 420,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(5px) rotate(6deg)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "fade-out": {
+      "durationMs": 230,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "opacity": 1
+        },
+        {
+          "offset": 1,
+          "opacity": 0
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "fade-in": {
+      "durationMs": 230,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "opacity": 0
+        },
+        {
+          "offset": 1,
+          "opacity": 1
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "marker-nudge": {
+      "durationMs": 440,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(6px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    },
+    "bookmark-left": {
+      "durationMs": 500,
+      "easing": "cubic-bezier(0.16,1,0.3,1)",
+      "iterations": 1,
+      "transformOrigin": "50% 50%",
+      "keyframes": [
+        {
+          "offset": 0,
+          "transform": "none"
+        },
+        {
+          "offset": 0.45,
+          "transform": "translateX(-8px)"
+        },
+        {
+          "offset": 1,
+          "transform": "none"
+        }
+      ],
+      "reducedMotion": {
+        "mode": "apply-final-opacity-only",
+        "durationMs": 0
+      }
+    }
+  },
+  "chapters": [
+    {
+      "chapterId": "xue-er-01",
+      "chapterNumber": 1,
+      "sceneId": "legacy-study",
+      "layoutPresetId": "legacy-demo",
+      "characterSlots": {},
+      "props": [],
+      "cues": [],
+      "pages": [
+        {
+          "pageId": "xue-er-01-p01",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-01-s01",
+            "xue-er-01-s02",
+            "xue-er-01-s03",
+            "xue-er-01-s04"
+          ],
+          "sourceRange": [
+            0,
+            41
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-01-p01-r01",
+              "segmentIds": [
+                "xue-er-01-s01",
+                "xue-er-01-s02"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-01-p01-r02",
+              "segmentIds": [
+                "xue-er-01-s03"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-01-p01-r03",
+              "segmentIds": [
+                "xue-er-01-s04"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [],
+          "propOverrides": {},
+          "propBindings": [],
+          "defaultReadingGroupId": "xue-er-01-p01-r01",
+          "characterReadingGroupOverrides": {
+            "bunny": [
+              "xue-er-01-p01-r01"
+            ],
+            "cat": [
+              "xue-er-01-p01-r02"
+            ],
+            "dog": [
+              "xue-er-01-p01-r03"
+            ]
+          }
+        }
+      ],
+      "integration": "preserve-existing-demo-layout-and-actions; add missing attribution only after homepage release"
+    },
+    {
+      "chapterId": "xue-er-02",
+      "chapterNumber": 2,
+      "sceneId": "root-courtyard",
+      "layoutPresetId": "split",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "bunny": "backRight",
+        "cat": "frontLeft",
+        "dog": "frontRight"
+      },
+      "props": [
+        {
+          "id": "tree",
+          "templateId": "tree",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 72,
+                "heightPx": 124
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 88,
+                "heightPx": 132
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 140,
+                "heightPx": 156
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 160,
+                "heightPx": 208
+              }
+            }
+          }
+        },
+        {
+          "id": "gate",
+          "templateId": "gate",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 4,
+                "widthPx": 72,
+                "heightPx": 84
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 4,
+                "widthPx": 88,
+                "heightPx": 96
+              },
+              "tablet": {
+                "cx": 0.78,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 100,
+                "heightPx": 140
+              },
+              "desktop": {
+                "cx": 0.76,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 128,
+                "heightPx": 166
+              }
+            }
+          }
+        },
+        {
+          "id": "roots",
+          "templateId": "root-bed",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "roots-reveal",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "roots",
+                    "partId": "roots"
+                  },
+                  "motionId": "root-reveal"
+                }
+              ]
+            },
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "bunny",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-02-p01",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-02-s01",
+            "xue-er-02-s02",
+            "xue-er-02-s03"
+          ],
+          "sourceRange": [
+            0,
+            36
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-02-p01-r01",
+              "segmentIds": [
+                "xue-er-02-s01",
+                "xue-er-02-s02"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-02-p01-r02",
+              "segmentIds": [
+                "xue-er-02-s03"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [
+            "tree",
+            "gate",
+            "roots"
+          ],
+          "propOverrides": {},
+          "propBindings": [],
+          "defaultReadingGroupId": "xue-er-02-p01-r01"
+        },
+        {
+          "pageId": "xue-er-02-p02",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-02-s04",
+            "xue-er-02-s05"
+          ],
+          "sourceRange": [
+            36,
+            60
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-02-p02-r01",
+              "segmentIds": [
+                "xue-er-02-s04"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": "roots-reveal"
+            },
+            {
+              "id": "xue-er-02-p02-r02",
+              "segmentIds": [
+                "xue-er-02-s05"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [
+            "tree",
+            "gate",
+            "roots"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "roots",
+              "readingGroupId": "xue-er-02-p02-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-02-p02-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-03",
+      "chapterNumber": 3,
+      "sceneId": "paper-screen",
+      "layoutPresetId": "dialogue",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "dog": "backRight",
+        "bunny": "frontLeft",
+        "cat": "frontRight"
+      },
+      "props": [
+        {
+          "id": "screen",
+          "templateId": "screen",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 116,
+                "heightPx": 80
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 140,
+                "heightPx": 88
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 232,
+                "heightPx": 140
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 232,
+                "heightPx": 144
+              }
+            }
+          }
+        },
+        {
+          "id": "fan",
+          "templateId": "fan",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 88,
+                "widthPx": 96,
+                "heightPx": 52
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 80,
+                "widthPx": 128,
+                "heightPx": 68
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 98,
+                "widthPx": 144,
+                "heightPx": 78
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 168,
+                "widthPx": 176,
+                "heightPx": 100
+              }
+            }
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "fan-fold",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "fan",
+                    "partId": "left-leaf"
+                  },
+                  "motionId": "fan-left"
+                },
+                {
+                  "target": {
+                    "propId": "fan",
+                    "partId": "right-leaf"
+                  },
+                  "motionId": "fan-right"
+                }
+              ]
+            },
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "cat",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-03-p01",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-03-s01",
+            "xue-er-03-s02"
+          ],
+          "sourceRange": [
+            0,
+            14
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-03-p01-r01",
+              "segmentIds": [
+                "xue-er-03-s01",
+                "xue-er-03-s02"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "fan-fold"
+            }
+          ],
+          "visiblePropIds": [
+            "screen",
+            "fan"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "fan",
+              "readingGroupId": "xue-er-03-p01-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-03-p01-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-04",
+      "chapterNumber": 4,
+      "sceneId": "three-check-desk",
+      "layoutPresetId": "desk",
+      "characterSlots": {
+        "elephant": "teacher",
+        "bunny": "childLeft",
+        "dog": "childCenter",
+        "cat": "childRight"
+      },
+      "props": [
+        {
+          "id": "desk",
+          "templateId": "table",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 200,
+            "heightPx": 60,
+            "dxPx": 0,
+            "dyPx": -6
+          }
+        },
+        {
+          "id": "question-1",
+          "templateId": "tile",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 56,
+            "heightPx": 48,
+            "dxPx": -64,
+            "dyPx": 0
+          }
+        },
+        {
+          "id": "question-2",
+          "templateId": "tile",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 56,
+            "heightPx": 48,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        },
+        {
+          "id": "question-3",
+          "templateId": "tile",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 56,
+            "heightPx": 48,
+            "dxPx": 64,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "question-1-lift",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "question-1",
+                    "partId": "$whole"
+                  },
+                  "motionId": "tile-lift"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "question-2-lift",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "question-2",
+                    "partId": "$whole"
+                  },
+                  "motionId": "tile-lift"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "question-3-lift",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "question-3",
+                    "partId": "$whole"
+                  },
+                  "motionId": "tile-lift"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-04-p01",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-04-s01",
+            "xue-er-04-s02",
+            "xue-er-04-s03"
+          ],
+          "sourceRange": [
+            0,
+            20
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-04-p01-r01",
+              "segmentIds": [
+                "xue-er-04-s01",
+                "xue-er-04-s02"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-04-p01-r02",
+              "segmentIds": [
+                "xue-er-04-s03"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "question-1-lift"
+            }
+          ],
+          "visiblePropIds": [
+            "desk",
+            "question-1",
+            "question-2",
+            "question-3"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "question-1",
+              "readingGroupId": "xue-er-04-p01-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-04-p01-r01"
+        },
+        {
+          "pageId": "xue-er-04-p02",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-04-s04",
+            "xue-er-04-s05"
+          ],
+          "sourceRange": [
+            20,
+            35
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-04-p02-r01",
+              "segmentIds": [
+                "xue-er-04-s04"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "question-2-lift"
+            },
+            {
+              "id": "xue-er-04-p02-r02",
+              "segmentIds": [
+                "xue-er-04-s05"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "question-3-lift"
+            }
+          ],
+          "visiblePropIds": [
+            "desk",
+            "question-1",
+            "question-2",
+            "question-3"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "question-2",
+              "readingGroupId": "xue-er-04-p02-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            },
+            {
+              "propId": "question-3",
+              "readingGroupId": "xue-er-04-p02-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-04-p02-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-05",
+      "chapterNumber": 5,
+      "sceneId": "field-cart",
+      "layoutPresetId": "split",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "bunny": "backRight",
+        "cat": "frontLeft",
+        "dog": "frontRight"
+      },
+      "props": [
+        {
+          "id": "field",
+          "templateId": "field",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 112,
+                "widthPx": 280,
+                "heightPx": 140
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 128,
+                "widthPx": 344,
+                "heightPx": 144
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 164,
+                "widthPx": 472,
+                "heightPx": 148
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 184,
+                "widthPx": 820,
+                "heightPx": 128
+              }
+            }
+          }
+        },
+        {
+          "id": "cart",
+          "templateId": "cart",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "cart-nudge",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "cart",
+                    "partId": "$whole"
+                  },
+                  "motionId": "cart-nudge"
+                },
+                {
+                  "target": {
+                    "propId": "cart",
+                    "partId": "left-wheel"
+                  },
+                  "motionId": "wheel-turn"
+                },
+                {
+                  "target": {
+                    "propId": "cart",
+                    "partId": "right-wheel"
+                  },
+                  "motionId": "wheel-turn"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-05-p01",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-05-s01",
+            "xue-er-05-s02",
+            "xue-er-05-s03",
+            "xue-er-05-s04"
+          ],
+          "sourceRange": [
+            0,
+            27
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-05-p01-r01",
+              "segmentIds": [
+                "xue-er-05-s01",
+                "xue-er-05-s02"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-05-p01-r02",
+              "segmentIds": [
+                "xue-er-05-s03"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "cart-nudge"
+            },
+            {
+              "id": "xue-er-05-p01-r03",
+              "segmentIds": [
+                "xue-er-05-s04"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [
+            "field",
+            "cart"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "cart",
+              "readingGroupId": "xue-er-05-p01-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-05-p01-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-06",
+      "chapterNumber": 6,
+      "sceneId": "door-book-corner",
+      "layoutPresetId": "split",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "bunny": "backRight",
+        "cat": "frontLeft",
+        "dog": "frontRight"
+      },
+      "props": [
+        {
+          "id": "gate",
+          "templateId": "gate",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 12,
+                "widthPx": 72,
+                "heightPx": 152
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 12,
+                "widthPx": 88,
+                "heightPx": 164
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 8,
+                "widthPx": 140,
+                "heightPx": 180
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 8,
+                "widthPx": 180,
+                "heightPx": 168
+              }
+            }
+          }
+        },
+        {
+          "id": "book",
+          "templateId": "open-book",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        },
+        {
+          "id": "door",
+          "templateId": "gate",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "door-close",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "door",
+                    "partId": "leaf"
+                  },
+                  "motionId": "door-slide"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "book-open",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "book",
+                    "partId": "right-page"
+                  },
+                  "motionId": "page-lift"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-06-p01",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-06-s01",
+            "xue-er-06-s02",
+            "xue-er-06-s03"
+          ],
+          "sourceRange": [
+            0,
+            26
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-06-p01-r01",
+              "segmentIds": [
+                "xue-er-06-s01",
+                "xue-er-06-s02"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "door-close"
+            },
+            {
+              "id": "xue-er-06-p01-r02",
+              "segmentIds": [
+                "xue-er-06-s03"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [
+            "gate",
+            "door"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "door",
+              "readingGroupId": "xue-er-06-p01-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-06-p01-r01"
+        },
+        {
+          "pageId": "xue-er-06-p02",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-06-s04"
+          ],
+          "sourceRange": [
+            26,
+            37
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-06-p02-r01",
+              "segmentIds": [
+                "xue-er-06-s04"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "book-open"
+            }
+          ],
+          "visiblePropIds": [
+            "gate",
+            "book"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "book",
+              "readingGroupId": "xue-er-06-p02-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-06-p02-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-07",
+      "chapterNumber": 7,
+      "sceneId": "scroll-bench",
+      "layoutPresetId": "desk",
+      "characterSlots": {
+        "elephant": "teacher",
+        "bunny": "childLeft",
+        "cat": "childCenter",
+        "dog": "childRight"
+      },
+      "props": [
+        {
+          "id": "bench",
+          "templateId": "table",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 220,
+            "heightPx": 60,
+            "dxPx": 0,
+            "dyPx": -6
+          }
+        },
+        {
+          "id": "scroll",
+          "templateId": "scroll",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 56,
+            "heightPx": 48,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "scroll-to-bunny",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "scroll",
+                    "partId": "$whole"
+                  },
+                  "motionId": "scroll-left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "scroll-to-dog",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "scroll",
+                    "partId": "$whole"
+                  },
+                  "motionId": "scroll-right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "scroll-to-cat",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "scroll",
+                    "partId": "$whole"
+                  },
+                  "motionId": "scroll-down"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-07-p01",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-07-s01",
+            "xue-er-07-s02",
+            "xue-er-07-s03"
+          ],
+          "sourceRange": [
+            0,
+            19
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-07-p01-r01",
+              "segmentIds": [
+                "xue-er-07-s01",
+                "xue-er-07-s02"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-07-p01-r02",
+              "segmentIds": [
+                "xue-er-07-s03"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": "scroll-to-bunny"
+            }
+          ],
+          "visiblePropIds": [
+            "bench",
+            "scroll"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "scroll",
+              "readingGroupId": "xue-er-07-p01-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-07-p01-r01"
+        },
+        {
+          "pageId": "xue-er-07-p02",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-07-s04",
+            "xue-er-07-s05"
+          ],
+          "sourceRange": [
+            19,
+            37
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-07-p02-r01",
+              "segmentIds": [
+                "xue-er-07-s04"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-07-p02-r02",
+              "segmentIds": [
+                "xue-er-07-s05"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "scroll-to-dog"
+            }
+          ],
+          "visiblePropIds": [
+            "bench",
+            "scroll"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "scroll",
+              "readingGroupId": "xue-er-07-p02-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-07-p02-r01"
+        },
+        {
+          "pageId": "xue-er-07-p03",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-07-s06"
+          ],
+          "sourceRange": [
+            37,
+            50
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-07-p03-r01",
+              "segmentIds": [
+                "xue-er-07-s06"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "scroll-to-cat"
+            }
+          ],
+          "visiblePropIds": [
+            "bench",
+            "scroll"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "scroll",
+              "readingGroupId": "xue-er-07-p03-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-07-p03-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-08",
+      "chapterNumber": 8,
+      "sceneId": "block-repair",
+      "layoutPresetId": "ring",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "bunny": "backRight",
+        "cat": "frontLeft",
+        "dog": "frontRight"
+      },
+      "props": [
+        {
+          "id": "blocks",
+          "templateId": "blocks",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "align-block",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "blocks",
+                    "partId": "top"
+                  },
+                  "motionId": "block-align"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-08-p01",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-08-s01",
+            "xue-er-08-s02",
+            "xue-er-08-s03",
+            "xue-er-08-s04"
+          ],
+          "sourceRange": [
+            0,
+            36
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-08-p01-r01",
+              "segmentIds": [
+                "xue-er-08-s01",
+                "xue-er-08-s02"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-08-p01-r02",
+              "segmentIds": [
+                "xue-er-08-s03"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-08-p01-r03",
+              "segmentIds": [
+                "xue-er-08-s04"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "align-block"
+            }
+          ],
+          "visiblePropIds": [
+            "blocks"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "blocks",
+              "readingGroupId": "xue-er-08-p01-r03",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-08-p01-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-09",
+      "chapterNumber": 9,
+      "sceneId": "old-tree-lamp",
+      "layoutPresetId": "arc",
+      "characterSlots": {
+        "elephant": "teacher",
+        "bunny": "childLeft",
+        "cat": "childCenter",
+        "dog": "childRight"
+      },
+      "props": [
+        {
+          "id": "old-tree",
+          "templateId": "tree",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 264,
+                "heightPx": 180
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 330,
+                "heightPx": 190
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 440,
+                "heightPx": 210
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 400,
+                "heightPx": 280
+              }
+            }
+          }
+        },
+        {
+          "id": "lamp",
+          "templateId": "lamp-leaf",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "quiet-leaf",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "lamp",
+                    "partId": "leaf"
+                  },
+                  "motionId": "leaf-settle"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-09-p01",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-09-s01",
+            "xue-er-09-s02"
+          ],
+          "sourceRange": [
+            0,
+            17
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-09-p01-r01",
+              "segmentIds": [
+                "xue-er-09-s01",
+                "xue-er-09-s02"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": "quiet-leaf"
+            }
+          ],
+          "visiblePropIds": [
+            "old-tree",
+            "lamp"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "lamp",
+              "readingGroupId": "xue-er-09-p01-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-09-p01-r01"
+        }
+      ],
+      "celebration": "quiet-existing-completion-state-only"
+    },
+    {
+      "chapterId": "xue-er-10",
+      "chapterNumber": 10,
+      "sceneId": "corridor-dialogue",
+      "layoutPresetId": "dialogue",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "dog": "backRight",
+        "bunny": "frontLeft",
+        "cat": "frontRight"
+      },
+      "props": [
+        {
+          "id": "corridor",
+          "templateId": "corridor",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 280,
+                "heightPx": 76
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 350,
+                "heightPx": 84
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 470,
+                "heightPx": 120
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 820,
+                "heightPx": 132
+              }
+            }
+          }
+        },
+        {
+          "id": "marker",
+          "templateId": "marker",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "question-nod",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "bunny",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "answer-nod",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "cat",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-10-p01",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-10-s01",
+            "xue-er-10-s02",
+            "xue-er-10-s03"
+          ],
+          "sourceRange": [
+            0,
+            32
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-10-p01-r01",
+              "segmentIds": [
+                "xue-er-10-s01",
+                "xue-er-10-s02"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-10-p01-r02",
+              "segmentIds": [
+                "xue-er-10-s03"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": "question-nod"
+            }
+          ],
+          "visiblePropIds": [
+            "corridor",
+            "marker"
+          ],
+          "propOverrides": {
+            "marker": {
+              "staticOffsetXPx": -10
+            }
+          },
+          "propBindings": [],
+          "defaultReadingGroupId": "xue-er-10-p01-r01"
+        },
+        {
+          "pageId": "xue-er-10-p02",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-10-s04",
+            "xue-er-10-s05",
+            "xue-er-10-s06",
+            "xue-er-10-s07"
+          ],
+          "sourceRange": [
+            32,
+            70
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-10-p02-r01",
+              "segmentIds": [
+                "xue-er-10-s04",
+                "xue-er-10-s05"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-10-p02-r02",
+              "segmentIds": [
+                "xue-er-10-s06",
+                "xue-er-10-s07"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "answer-nod"
+            }
+          ],
+          "visiblePropIds": [
+            "corridor",
+            "marker"
+          ],
+          "propOverrides": {
+            "marker": {
+              "staticOffsetXPx": 10
+            }
+          },
+          "propBindings": [],
+          "defaultReadingGroupId": "xue-er-10-p02-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-11",
+      "chapterNumber": 11,
+      "sceneId": "window-old-book",
+      "layoutPresetId": "desk",
+      "characterSlots": {
+        "elephant": "teacher",
+        "bunny": "childLeft",
+        "cat": "childCenter",
+        "dog": "childRight"
+      },
+      "props": [
+        {
+          "id": "window",
+          "templateId": "window",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 264,
+                "heightPx": 92
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 330,
+                "heightPx": 94
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 400,
+                "heightPx": 112
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 500,
+                "heightPx": 104
+              }
+            }
+          }
+        },
+        {
+          "id": "book",
+          "templateId": "old-book",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 56,
+            "heightPx": 48,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "old-page-lift",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "book",
+                    "partId": "corner"
+                  },
+                  "motionId": "page-lift"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-11-p01",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-11-s01",
+            "xue-er-11-s02",
+            "xue-er-11-s03"
+          ],
+          "sourceRange": [
+            0,
+            33
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-11-p01-r01",
+              "segmentIds": [
+                "xue-er-11-s01",
+                "xue-er-11-s02"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-11-p01-r02",
+              "segmentIds": [
+                "xue-er-11-s03"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "old-page-lift"
+            }
+          ],
+          "visiblePropIds": [
+            "window",
+            "book"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "book",
+              "readingGroupId": "xue-er-11-p01-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-11-p01-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-12",
+      "chapterNumber": 12,
+      "sceneId": "bounded-round-table",
+      "layoutPresetId": "ring",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "bunny": "backRight",
+        "cat": "frontLeft",
+        "dog": "frontRight"
+      },
+      "props": [
+        {
+          "id": "round-table",
+          "templateId": "round-table",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "complete-circle",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "round-table",
+                    "partId": "piece"
+                  },
+                  "motionId": "piece-close"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bounded-piece",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "round-table",
+                    "partId": "piece"
+                  },
+                  "motionId": "piece-boundary"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-12-p01",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-12-s01",
+            "xue-er-12-s02",
+            "xue-er-12-s03"
+          ],
+          "sourceRange": [
+            0,
+            27
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-12-p01-r01",
+              "segmentIds": [
+                "xue-er-12-s01",
+                "xue-er-12-s02"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "complete-circle"
+            },
+            {
+              "id": "xue-er-12-p01-r02",
+              "segmentIds": [
+                "xue-er-12-s03"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [
+            "round-table"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "round-table",
+              "readingGroupId": "xue-er-12-p01-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-12-p01-r01"
+        },
+        {
+          "pageId": "xue-er-12-p02",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-12-s04",
+            "xue-er-12-s05"
+          ],
+          "sourceRange": [
+            27,
+            50
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-12-p02-r01",
+              "segmentIds": [
+                "xue-er-12-s04"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-12-p02-r02",
+              "segmentIds": [
+                "xue-er-12-s05"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": "bounded-piece"
+            }
+          ],
+          "visiblePropIds": [
+            "round-table"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "round-table",
+              "readingGroupId": "xue-er-12-p02-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-12-p02-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-13",
+      "chapterNumber": 13,
+      "sceneId": "three-plank-bridge",
+      "layoutPresetId": "split",
+      "characterSlots": {
+        "elephant": "backLeft",
+        "bunny": "backRight",
+        "cat": "frontLeft",
+        "dog": "frontRight"
+      },
+      "props": [
+        {
+          "id": "bridge",
+          "templateId": "bridge",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "plank-1-settle",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "bridge",
+                    "partId": "plank-1"
+                  },
+                  "motionId": "plank-settle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plank-2-settle",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "bridge",
+                    "partId": "plank-2"
+                  },
+                  "motionId": "plank-settle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plank-3-settle",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "bridge",
+                    "partId": "plank-3"
+                  },
+                  "motionId": "plank-settle"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-13-p01",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-13-s01",
+            "xue-er-13-s02",
+            "xue-er-13-s03",
+            "xue-er-13-s04"
+          ],
+          "sourceRange": [
+            0,
+            37
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-13-p01-r01",
+              "segmentIds": [
+                "xue-er-13-s01",
+                "xue-er-13-s02"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "plank-1-settle"
+            },
+            {
+              "id": "xue-er-13-p01-r02",
+              "segmentIds": [
+                "xue-er-13-s03"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "plank-2-settle"
+            },
+            {
+              "id": "xue-er-13-p01-r03",
+              "segmentIds": [
+                "xue-er-13-s04"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "plank-3-settle"
+            }
+          ],
+          "visiblePropIds": [
+            "bridge"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "bridge",
+              "readingGroupSelection": {
+                "mode": "selected-on-current-page",
+                "allowedReadingGroupIds": [
+                  "xue-er-13-p01-r01",
+                  "xue-er-13-p01-r02",
+                  "xue-er-13-p01-r03"
+                ],
+                "fallbackReadingGroupId": "xue-er-13-p01-r01"
+              },
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "selected-reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-13-p01-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-14",
+      "chapterNumber": 14,
+      "sceneId": "forest-pavilion",
+      "layoutPresetId": "arc",
+      "characterSlots": {
+        "elephant": "teacher",
+        "bunny": "childLeft",
+        "cat": "childCenter",
+        "dog": "childRight"
+      },
+      "props": [
+        {
+          "id": "pavilion",
+          "templateId": "pavilion",
+          "layer": "background",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.28,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 150,
+                "heightPx": 164
+              },
+              "phone": {
+                "cx": 0.28,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 180,
+                "heightPx": 184
+              },
+              "tablet": {
+                "cx": 0.28,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 240,
+                "heightPx": 204
+              },
+              "desktop": {
+                "cx": 0.25,
+                "dxPx": 0,
+                "topPx": 0,
+                "widthPx": 400,
+                "heightPx": 270
+              }
+            }
+          }
+        },
+        {
+          "id": "book",
+          "templateId": "open-book",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": null,
+            "heightPx": null,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "study-bookmark",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "book",
+                    "partId": "bookmark"
+                  },
+                  "motionId": "bookmark-left"
+                }
+              ]
+            },
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "bunny",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-14-p01",
+          "primaryResponder": "bunny",
+          "segmentIds": [
+            "xue-er-14-s01",
+            "xue-er-14-s02",
+            "xue-er-14-s03",
+            "xue-er-14-s04"
+          ],
+          "sourceRange": [
+            0,
+            39
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-14-p01-r01",
+              "segmentIds": [
+                "xue-er-14-s01",
+                "xue-er-14-s02"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            },
+            {
+              "id": "xue-er-14-p01-r02",
+              "segmentIds": [
+                "xue-er-14-s03"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": "study-bookmark"
+            },
+            {
+              "id": "xue-er-14-p01-r03",
+              "segmentIds": [
+                "xue-er-14-s04"
+              ],
+              "responder": "bunny",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "bunny"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [
+            "pavilion",
+            "book"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "book",
+              "readingGroupId": "xue-er-14-p01-r02",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-14-p01-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-15",
+      "chapterNumber": 15,
+      "sceneId": "polishing-dialogue",
+      "layoutPresetId": "dialogue",
+      "characterSlots": {
+        "bunny": "backLeft",
+        "dog": "backRight",
+        "cat": "frontLeft",
+        "elephant": "frontRight"
+      },
+      "props": [
+        {
+          "id": "workbench",
+          "templateId": "workbench",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "scene",
+            "frames": {
+              "compact": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 88,
+                "widthPx": 96,
+                "heightPx": 52
+              },
+              "phone": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 80,
+                "widthPx": 128,
+                "heightPx": 68
+              },
+              "tablet": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 96,
+                "widthPx": 160,
+                "heightPx": 80
+              },
+              "desktop": {
+                "cx": 0.5,
+                "dxPx": 0,
+                "topPx": 140,
+                "widthPx": 224,
+                "heightPx": 128
+              }
+            }
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "ask-nod",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "cat",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reply-nod",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "elephant",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polish-tile",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "workbench",
+                    "partId": "stone"
+                  },
+                  "motionId": "grind"
+                }
+              ]
+            },
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "workbench",
+                    "partId": "rough"
+                  },
+                  "motionId": "fade-out"
+                },
+                {
+                  "target": {
+                    "propId": "workbench",
+                    "partId": "smooth"
+                  },
+                  "motionId": "fade-in"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-15-p01",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-15-s01",
+            "xue-er-15-s02"
+          ],
+          "sourceRange": [
+            0,
+            19
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-15-p01-r01",
+              "segmentIds": [
+                "xue-er-15-s01",
+                "xue-er-15-s02"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "ask-nod"
+            }
+          ],
+          "visiblePropIds": [
+            "workbench"
+          ],
+          "propOverrides": {
+            "workbench": {
+              "partStyles": {
+                "marker": {
+                  "transform": "translateX(-12px)"
+                }
+              }
+            }
+          },
+          "propBindings": [],
+          "defaultReadingGroupId": "xue-er-15-p01-r01"
+        },
+        {
+          "pageId": "xue-er-15-p02",
+          "primaryResponder": "elephant",
+          "segmentIds": [
+            "xue-er-15-s03",
+            "xue-er-15-s04",
+            "xue-er-15-s05"
+          ],
+          "sourceRange": [
+            19,
+            40
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-15-p02-r01",
+              "segmentIds": [
+                "xue-er-15-s03",
+                "xue-er-15-s04",
+                "xue-er-15-s05"
+              ],
+              "responder": "elephant",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "elephant"
+              },
+              "onReadCompleteCueId": "reply-nod"
+            }
+          ],
+          "visiblePropIds": [
+            "workbench"
+          ],
+          "propOverrides": {
+            "workbench": {
+              "partStyles": {
+                "marker": {
+                  "transform": "translateX(12px)"
+                }
+              }
+            }
+          },
+          "propBindings": [],
+          "defaultReadingGroupId": "xue-er-15-p02-r01"
+        },
+        {
+          "pageId": "xue-er-15-p03",
+          "primaryResponder": "cat",
+          "segmentIds": [
+            "xue-er-15-s06",
+            "xue-er-15-s07",
+            "xue-er-15-s08"
+          ],
+          "sourceRange": [
+            40,
+            69
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-15-p03-r01",
+              "segmentIds": [
+                "xue-er-15-s06",
+                "xue-er-15-s07"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": "polish-tile"
+            },
+            {
+              "id": "xue-er-15-p03-r02",
+              "segmentIds": [
+                "xue-er-15-s08"
+              ],
+              "responder": "cat",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "cat"
+              },
+              "onReadCompleteCueId": null
+            }
+          ],
+          "visiblePropIds": [
+            "workbench"
+          ],
+          "propOverrides": {
+            "workbench": {
+              "partStyles": {
+                "marker": {
+                  "transform": "translateX(-12px)"
+                }
+              }
+            }
+          },
+          "propBindings": [
+            {
+              "propId": "workbench",
+              "readingGroupId": "xue-er-15-p03-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-15-p03-r01"
+        },
+        {
+          "pageId": "xue-er-15-p04",
+          "primaryResponder": "elephant",
+          "segmentIds": [
+            "xue-er-15-s09",
+            "xue-er-15-s10",
+            "xue-er-15-s11"
+          ],
+          "sourceRange": [
+            69,
+            95
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-15-p04-r01",
+              "segmentIds": [
+                "xue-er-15-s09",
+                "xue-er-15-s10",
+                "xue-er-15-s11"
+              ],
+              "responder": "elephant",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "elephant"
+              },
+              "onReadCompleteCueId": "reply-nod"
+            }
+          ],
+          "visiblePropIds": [
+            "workbench"
+          ],
+          "propOverrides": {
+            "workbench": {
+              "partStyles": {
+                "marker": {
+                  "transform": "translateX(12px)"
+                }
+              }
+            }
+          },
+          "propBindings": [],
+          "defaultReadingGroupId": "xue-er-15-p04-r01"
+        }
+      ]
+    },
+    {
+      "chapterId": "xue-er-16",
+      "chapterNumber": 16,
+      "sceneId": "paired-reading-seats",
+      "layoutPresetId": "desk",
+      "characterSlots": {
+        "elephant": "teacher",
+        "bunny": "childLeft",
+        "cat": "childCenter",
+        "dog": "childRight"
+      },
+      "props": [
+        {
+          "id": "books",
+          "templateId": "paired-books",
+          "layer": "foreground",
+          "placement": {
+            "anchor": "propDock",
+            "widthPx": 104,
+            "heightPx": 48,
+            "dxPx": 0,
+            "dyPx": 0
+          }
+        }
+      ],
+      "cues": [
+        {
+          "id": "look-to-partner",
+          "steps": [
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "propId": "books",
+                    "partId": "marker"
+                  },
+                  "motionId": "marker-nudge"
+                }
+              ]
+            },
+            {
+              "tracks": [
+                {
+                  "target": {
+                    "characterId": "dog",
+                    "layer": "act"
+                  },
+                  "motionId": "nod"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "pageId": "xue-er-16-p01",
+          "primaryResponder": "dog",
+          "segmentIds": [
+            "xue-er-16-s01",
+            "xue-er-16-s02"
+          ],
+          "sourceRange": [
+            0,
+            19
+          ],
+          "readingGroups": [
+            {
+              "id": "xue-er-16-p01-r01",
+              "segmentIds": [
+                "xue-er-16-s01",
+                "xue-er-16-s02"
+              ],
+              "responder": "dog",
+              "audio": {
+                "leadRole": "elephant",
+                "followEnsemble": "children",
+                "soloRole": "dog"
+              },
+              "onReadCompleteCueId": "look-to-partner"
+            }
+          ],
+          "visiblePropIds": [
+            "books"
+          ],
+          "propOverrides": {},
+          "propBindings": [
+            {
+              "propId": "books",
+              "readingGroupId": "xue-er-16-p01-r01",
+              "activation": "lead-then-follow",
+              "accessibleNameFrom": "reading-group-original-text",
+              "hitTarget": {
+                "minWidthPx": 48,
+                "minHeightPx": 48
+              }
+            }
+          ],
+          "defaultReadingGroupId": "xue-er-16-p01-r01"
+        }
+      ]
+    }
+  ]
+}

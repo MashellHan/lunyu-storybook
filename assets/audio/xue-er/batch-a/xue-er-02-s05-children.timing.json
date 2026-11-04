@@ -1,0 +1,63 @@
+{
+  "text": "孝弟也者，其为仁之本与！”",
+  "dur": 4.618167,
+  "t": [
+    0.056833,
+    0.426125,
+    0.752833,
+    1.022708,
+    null,
+    1.633541,
+    1.946041,
+    2.258541,
+    2.556833,
+    2.784083,
+    3.110791,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "789943a4f582ee332eb637ead3b9764907c8d78282f4d5eb7041ae4fb8e24aa1",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s05-bunny",
+      "rawSHA256": "46a73d9549b16fa13f4164cf26abc5bbfc71a2431e58a57b52a73424ee51f4dd",
+      "ssmlSHA256": "79d996a39e8ed8953a8ff5eb1a6fe673e23c431dba49de60b705b9b7002d0f1b"
+    },
+    {
+      "id": "xue-er-02-s05-cat",
+      "rawSHA256": "f8e671aedb2bdff9efd16d98dfdadccba37e6ddffd61efb2d3a7296268c896c0",
+      "ssmlSHA256": "192f2a155eb932d2c90b27e769dc46b5c210c3155dfe92dda7f383c2dddfd0a5"
+    },
+    {
+      "id": "xue-er-02-s05-dog",
+      "rawSHA256": "6580847c4ee5c4b120567c3738ea9ffb41682056dd969dfcf316b111805acdb7",
+      "ssmlSHA256": "bcb4909a32d9e121cd91d22327872aa595bb292893230a9aad4951406e749680"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.7765957446808511,
+        0.6436170212765958
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

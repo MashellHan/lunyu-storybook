@@ -1,0 +1,49 @@
+{
+  "text": "事父母，能竭其力；",
+  "dur": 2.064,
+  "t": [
+    0.082,
+    0.364,
+    0.364,
+    null,
+    1.087,
+    1.369,
+    1.557,
+    1.746,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "49394fc0a5ee8721dfe00f074c79cb436beef00940dfd4857ce3947154f9a78d",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s03-dog",
+      "rawSHA256": "0ba36694c37715a2b33ca5be33774ec2561568cdf61ea3a5dbb36638f60f946d",
+      "ssmlSHA256": "1e643546cf42cf03c067a125dd4365344271d6e318e33d3f7059fd1487d3a449"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  },
+  "wordGroups": [
+    {
+      "granularity": "word",
+      "boundaryIndex": 1,
+      "originalBoundaryText": "父母",
+      "sourceIndexes": [
+        1,
+        2
+      ],
+      "offsetSeconds": 0.364,
+      "sourceDurationSeconds": 0.0,
+      "sdkPosition": {
+        "textOffset": 264,
+        "wordLength": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "reviewedAt": "2026-11-03T13:17:40.799904+00:00",
+  "reviewer": "lunyu-review",
+  "status": "technical-media-correspondence-passed-human-listening-pending",
+  "unresolvedTechnicalBlockerIds": [],
+  "scope": "New real A/B files, approved requests and immutable SDK source events, actual timing/wordGroups, chorus/reuse/candidates, and protection of old assets/published HTML. No new UI matrix or whole-tool review.",
+  "batches": {
+    "A": {
+      "rawRequests": 30,
+      "processedFiles": 37,
+      "seconds": 127.543,
+      "corrections": 6,
+      "candidateSHA256": "ccc09c1709cc707442997d3a4c0e94449cd5166c2d21e7a7a5017e348f51f5af"
+    },
+    "B": {
+      "rawRequests": 205,
+      "processedFiles": 253,
+      "seconds": 835.947,
+      "corrections": 10,
+      "candidateSHA256": "b4e80d04d725e9e092a7a6427b8d540b6fbca0bed802034b3abe263a96616220"
+    }
+  },
+  "combined": {
+    "applicationAttempts": 235,
+    "succeeded": 235,
+    "failed": 0,
+    "automaticRetries": 0,
+    "uniqueProcessedFiles": 290,
+    "audioSeconds": 963.49,
+    "newSegmentTargets": 69,
+    "legacySegmentsPreserved": 3,
+    "newTitleCount": 15,
+    "references": 360,
+    "missing": 0,
+    "pendingListening": 290,
+    "publicationReady": false,
+    "alignmentCorrections": 16,
+    "wordGroups": 3
+  },
+  "newOutputFiles": {
+    "count": 1287,
+    "sha256": "22a67cfc4707c54ea59d41f1c0abc646c2bed6848e2793ec13f2f61665a7abea",
+    "algorithm": "SHA256 of sorted path + TAB + fileSHA256 + LF, UTF-8",
+    "actualFilesComparedWithLead": true,
+    "rawLedgerAudioFiles": 705,
+    "processedAudioTimingFiles": 580,
+    "candidates": 2
+  },
+  "actualWordLevelTimings": [
+    {
+      "id": "xue-er-04-s05-dog",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-04-s05-dog.timing.json",
+      "timingSHA256": "064003e59ff38b2a3cb18b5004d02a82eaf8d2586dfbc7dddc2a0007e33eeec1",
+      "audioFile": "assets/audio/xue-er/batch-b/xue-er-04-s05-dog.mp3",
+      "audioSHA256": "dc435df7e5ee433af527a2a1ff223e3167681b1838363c3e5c130916620697c4",
+      "groups": [
+        {
+          "granularity": "word",
+          "boundaryIndex": 2,
+          "originalBoundaryText": "习乎",
+          "sourceIndexes": [
+            2,
+            3
+          ],
+          "offsetSeconds": 0.552,
+          "sourceDurationSeconds": 0.0,
+          "sdkPosition": {
+            "textOffset": 286,
+            "wordLength": 2
+          }
+        }
+      ],
+      "actualT": [
+        0.082,
+        0.364,
+        0.552,
+        0.552,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "xue-er-07-s03-dog",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-07-s03-dog.timing.json",
+      "timingSHA256": "32b5c50fbd2dedad2ed55421b1b395f0ce74ea664c99c28ebde8921ef345db37",
+      "audioFile": "assets/audio/xue-er/batch-b/xue-er-07-s03-dog.mp3",
+      "audioSHA256": "49394fc0a5ee8721dfe00f074c79cb436beef00940dfd4857ce3947154f9a78d",
+      "groups": [
+        {
+          "granularity": "word",
+          "boundaryIndex": 1,
+          "originalBoundaryText": "父母",
+          "sourceIndexes": [
+            1,
+            2
+          ],
+          "offsetSeconds": 0.364,
+          "sourceDurationSeconds": 0.0,
+          "sdkPosition": {
+            "textOffset": 264,
+            "wordLength": 2
+          }
+        }
+      ],
+      "actualT": [
+        0.082,
+        0.364,
+        0.364,
+        null,
+        1.087,
+        1.369,
+        1.557,
+        1.746,
+        null
+      ]
+    },
+    {
+      "id": "xue-er-15-s11-dog",
+      "timingFile": "assets/audio/xue-er/batch-b/xue-er-15-s11-dog.timing.json",
+      "timingSHA256": "0fcda722cd414287436deaa85eeeac848384aee2756697e280ad6a613723b571",
+      "audioFile": "assets/audio/xue-er/batch-b/xue-er-15-s11-dog.mp3",
+      "audioSHA256": "4c676e2289f6be6148c2cfa3742dbfe42de3a31f79007a072b6f6a50e22900fe",
+      "groups": [
+        {
+          "granularity": "word",
+          "boundaryIndex": 5,
+          "originalBoundaryText": "来者",
+          "sourceIndexes": [
+            5,
+            6
+          ],
+          "offsetSeconds": 1.07,
+          "sourceDurationSeconds": 0.0,
+          "sdkPosition": {
+            "textOffset": 268,
+            "wordLength": 2
+          }
+        }
+      ],
+      "actualT": [
+        0.082,
+        0.364,
+        0.552,
+        0.741,
+        0.929,
+        1.07,
+        1.07,
+        null,
+        null
+      ]
+    }
+  ],
+  "wordTimingMeaning": "Only the true SDK whole-word onset is shared by the listed source positions. Zero source duration is retained. No internal character pronunciation onset or word duration is estimated.",
+  "formatVerification": {
+    "previouslyCompletedFullRawDecodes": 235,
+    "previouslyCompletedFullAProcessedDecodes": 37,
+    "finalBPassNewFullDecodes": 0,
+    "finalBNewProcessedFormatDurationProbes": 253,
+    "finalBOriginalDecodeCacheReused": 205,
+    "BFinalScope": "Timing/ref-only, as instructed; format/duration is probed on the 253 new processed files. Their complete stream decoding is not claimed as an independent final-pass check."
+  },
+  "protection": {
+    "allAlreadyReviewedBytesCompared": 839,
+    "changed": [],
+    "oldProtectedAssetAndLockFiles": 50,
+    "oldAProcessedAudioTimingUnchanged": true,
+    "originalABSDKRecordsAndMP3Unchanged": true,
+    "publishedSixHTMLUnchanged": true,
+    "approvedABAndContentUnchanged": true
+  },
+  "processingEvidence": {
+    "BExitCode": 0,
+    "BPaidCallsThisRun": 0,
+    "BScriptSHA256": "d74ea3c297bf86dc6968e48af32bdc0a0e0da970c6a3afc8e51ca7f288444cd4",
+    "BLogSHA256": "17cad236337d6f5e9d35cdd82372ad79d3109f4ce7e0a07f5c988bbb7aba2085"
+  },
+  "evidenceSHA256": {
+    "docs/reviews/xue-er-real-batch-a-media.json": "9b5e97193744311c3d0272322d1e249af525f8e35c1809fdc81f0007d389198b",
+    "docs/reviews/xue-er-real-batch-b-media.json": "87f2e92ca12fb804438467ba081630741f0dc28d8b8dd508fcd113e35ce82437",
+    "docs/reviews/xue-er-real-raw-final.json": "cb23a751910b1b45caf3ab4a961ff8fc27ca942fe351844bcf4f7d19d9aaac62",
+    "docs/reviews/xue-er-real-batch-b-boundaries.json": "a450a6ec6eb960af7af1279736c8d70389057891b42b928f859f368ca4e47c0a",
+    "docs/reviews/xue-er-real-media-final-protection.json": "079ac4674ae2f3b0323460370f887d64a9f3f74ac5effce7ad0b5d75c65f3c0e",
+    "build/xue-er-media-run/all-media-verification.json": "73822209d7ab2a6182cfc10a42384c55a08bbe615f062ad55a0c98ded8c7389c",
+    "build/xue-er-media-run/batch-b-process-result.json": "f26bcc0f71ad31f82982530a6048a08efb4216fca6cc1046f54e82cd73c95820",
+    "build/xue-er-media-run/batch-tests-word-anchors-result.json": "ac167c9d67a4b7d71140c9343171480ea500d300519876ed07ae3a5670072436"
+  },
+  "reproduction": "python3 -B docs/reviews/check-xue-er-real-media.py --batch batch-b --timing-ref-only",
+  "limitations": [
+    "All 290 unique files remain pending genuine human listening; no listening evidence fabricated.",
+    "Sound, pronunciation, intelligibility, real-device playback and actual billing are not certified by this technical data check.",
+    "No SDK import/API/.env access/media or production writes/build/deploy by reviewer.",
+    "Engineer audition and build-only sixteen-chapter rehearsal have not been independently reviewed in this task."
+  ],
+  "reviewerSDKCalls": 0,
+  "listeningPerformed": false,
+  "actualBillingVerified": false
+}

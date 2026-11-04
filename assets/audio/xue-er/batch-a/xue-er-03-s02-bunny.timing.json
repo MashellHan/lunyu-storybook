@@ -1,0 +1,33 @@
+{
+  "text": "巧言令色，鲜矣仁！”",
+  "dur": 3.744,
+  "t": [
+    0.056833,
+    0.397729,
+    0.738625,
+    1.065333,
+    null,
+    1.732958,
+    2.130666,
+    2.372166,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "87f45f9f7f6231cda7345ce7fc252752d3bb2b944f02b9c3022f91aa58fe5731",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-03-s02-bunny",
+      "rawSHA256": "fe8ec018e458e3ef99b57793b46c940f0f0aa1a522ab68c322bfad439a3d4f17",
+      "ssmlSHA256": "b2cb6f416e9de83a4848c4cfc5570421afe5cbbaefbd9c767331d0615502defc"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

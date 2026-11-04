@@ -1,0 +1,26 @@
+{
+  "text": "可也。",
+  "dur": 1.872,
+  "t": [
+    0.056833,
+    0.440333,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "afbc94f4090837c2f6c9292646039a1769341619dd9ca5a04e57832049a2e642",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-15-s04-bunny",
+      "rawSHA256": "1cefabcad0896b04a37c8671745eb39577a72bc0b57a96ed2d6556f87c422727",
+      "ssmlSHA256": "af5515b29e166c094fddb230715ea05bd2fce08aa3a9d091598bfcfe9a6983fd"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

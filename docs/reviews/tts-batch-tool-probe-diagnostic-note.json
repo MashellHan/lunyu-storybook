@@ -1,0 +1,16 @@
+{
+  "kind": "review-probe-input-construction-error",
+  "rawEvidence": "tts-batch-tool-probe-diagnostic.json",
+  "actualLegacyPrefixCodePoints": [
+    34,
+    62
+  ],
+  "incorrectProbePrefixCodePoints": [
+    92,
+    34,
+    62
+  ],
+  "productBehavior": "Rejected the malformed fragment with unexpected-spoken-character; no unsafe acceptance.",
+  "correction": "Build the exact quote/greater-than prefix using chr(34)+chr(62); retain the literal-backslash case as a separate rejection.",
+  "productionFilesChanged": false
+}

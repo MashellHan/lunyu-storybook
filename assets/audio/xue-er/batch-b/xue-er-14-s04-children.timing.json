@@ -1,0 +1,58 @@
+{
+  "text": "可谓好学也已。”",
+  "dur": 2.946125,
+  "t": [
+    0.056833,
+    0.291208,
+    0.525583,
+    0.838083,
+    1.221583,
+    1.548291,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "8804b2915d027b2e54e0604e7c40ba40fa3cc4451929b4da0dbd7a7d484ee9ce",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-14-s04-bunny",
+      "rawSHA256": "0754252eb72900b6aecfb5fc9a996d1131980df3cae5ddfb6344c2ad5f5a4cb1",
+      "ssmlSHA256": "a748c6a33c40cfe8f0e9532e00142893b24fe594bd5c6476ec43ca4decf576cd"
+    },
+    {
+      "id": "xue-er-14-s04-cat",
+      "rawSHA256": "4a982155c17d1cdf9389519f720edb43c6e5d1f965c408a2c5d386834209ba7b",
+      "ssmlSHA256": "d7742976597ce470b413b3286da6a84187a54be6585c6cee575cac359e005791"
+    },
+    {
+      "id": "xue-er-14-s04-dog",
+      "rawSHA256": "2b53a193bc84a43b02f16f3cac8036878e9119d018581c8967d447fa6ddebe98",
+      "ssmlSHA256": "3591b60931e276177ebc562ac21d04be9ffd6a155f32156b6742241b8fa9cb91"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11",
+    "childrenAlignment": {
+      "roles": [
+        "bunny",
+        "cat",
+        "dog"
+      ],
+      "tempo": [
+        1,
+        0.8235294117647058,
+        0.5126050420168068
+      ],
+      "delaysMs": [
+        0,
+        70,
+        140
+      ]
+    }
+  }
+}

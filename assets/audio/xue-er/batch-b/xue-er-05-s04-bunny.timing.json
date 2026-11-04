@@ -1,0 +1,29 @@
+{
+  "text": "使民以时。”",
+  "dur": 2.472,
+  "t": [
+    0.056833,
+    0.411948,
+    0.767062,
+    1.122176,
+    null,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "861fd04afd1bc3ffe8aad7126980beaaadef1c4cc6c0d7e5539ee0ad1e7ef3e9",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-05-s04-bunny",
+      "rawSHA256": "fbeafaae212c5e79b05034e07db4ac25cf85c11017a507b2493b2f4298cfdb57",
+      "ssmlSHA256": "ea95310d8fa5178320d240808bc2e62900be52eb5d50ada75853505668afed7c"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "xue-er-04-s02-dog",
+  "batch": "batch-b",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "ssmlSHA256": "9c3c4545dc464e9ccca4683bc86843786bc4075e55489566eb51e505425e2e01",
+  "attemptId": "9f3056e6-6fdc-484b-b9fe-9306cc2a12e3",
+  "startedAt": "2026-11-03T12:53:20.699406+00:00",
+  "status": "succeeded",
+  "maximumApplicationCalls": 1,
+  "automaticRetries": 0,
+  "budgetCeilingUSD": 10,
+  "finishedAt": "2026-11-03T12:53:25.176734+00:00",
+  "rawSHA256": "48f827394b2305419621c1c117cc712ecf2a10b06044f33be8abc83cda308cea",
+  "wb": [
+    [
+      0.082,
+      0.282,
+      "吾"
+    ],
+    [
+      0.364,
+      0.188,
+      "日"
+    ],
+    [
+      0.552,
+      0.282,
+      "三"
+    ],
+    [
+      0.835,
+      0.141,
+      "醒"
+    ],
+    [
+      0.976,
+      0.564,
+      "\">省吾身"
+    ]
+  ],
+  "wordBoundaryDetails": [
+    {
+      "textOffset": 263,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 264,
+      "wordLength": 1
+    },
+    {
+      "textOffset": 265,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 1
+    },
+    {
+      "textOffset": -1,
+      "wordLength": 5
+    }
+  ],
+  "positionSemantics": "Unmodified SDK text_offset/word_length; retain exact approved SSML for interpretation"
+}

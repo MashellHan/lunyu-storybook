@@ -1,0 +1,39 @@
+{
+  "text": "其为人也孝弟，而好犯上者，鲜矣；",
+  "dur": 4.584,
+  "t": [
+    0.056833,
+    0.298291,
+    0.482958,
+    0.610791,
+    0.795458,
+    1.051125,
+    null,
+    1.661916,
+    1.903416,
+    2.116458,
+    2.322416,
+    2.528416,
+    null,
+    2.997166,
+    3.323875,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "e65f093da9bcd4f56c72bfe3ee0adb2b516505892ccea7e78cb3bcd5a0771fe6",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "472d68446e3209689037534c3e9dedab710503b1036719d07a0e22752f672296",
+  "sources": [
+    {
+      "id": "xue-er-02-s02-cat",
+      "rawSHA256": "3e47f9e8137d9f4f072ebdd7ebc6b291002ae4da8aae462354f39103920b274e",
+      "ssmlSHA256": "c3b04e3d1ab7debaf56c2c9e25d6fa046b8af9e35b36d1cd7f9567f8e283a80e"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}

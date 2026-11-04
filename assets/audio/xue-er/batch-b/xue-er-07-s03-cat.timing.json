@@ -1,0 +1,32 @@
+{
+  "text": "事父母，能竭其力；",
+  "dur": 3.12,
+  "t": [
+    0.056833,
+    0.340916,
+    0.66052,
+    null,
+    1.193166,
+    1.420458,
+    1.605125,
+    1.832375,
+    null
+  ],
+  "alignmentCorrections": [],
+  "audioSHA256": "3221dc4facdb5c0d08c618adeb6e2bf449e8b36f1569e02d6f4ad111910c329e",
+  "contentSHA256": "85168c306fd68f1006f96ce189801b387252fcfef9fcdc982c0388705cb13b73",
+  "sourceEntrySetSHA256": "ff9384ff4d805bdab7567bda65d12c0101ec4007d10b17ee00a55b06ee6ea54f",
+  "sources": [
+    {
+      "id": "xue-er-07-s03-cat",
+      "rawSHA256": "06b075881f2304b1e6ffcf637a7de8dacb42d217d85dfc85b0b84243ace07611",
+      "ssmlSHA256": "3f3e72cee0fd01a78d73df1c94671f8b58deda88dd5a014012a77d2b3ed7e7d9"
+    }
+  ],
+  "processing": {
+    "sampleRate": 24000,
+    "channels": 1,
+    "bitRate": 64000,
+    "normalization": "loudnorm=I=-16:TP=-1.5:LRA=11"
+  }
+}
